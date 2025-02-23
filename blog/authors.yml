@@ -8,16 +8,14 @@ yangshun:
     x: yangshunz
     github: yangshun
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+przemyslvw:
+  name: Przemysław Majdak
+  title: Web Security Specialist & Automation Engineer
+  url: https://www.majdak.online
+  image_url: https://avatars.githubusercontent.com/u/31745530?v=4
+  bio: Specjalista ds. bezpieczeństwa IT, automatyzacji testów i nowych technologii.
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    x: przemyslvw
+    github: przemyslvw
+    instagram: przemas.ts
+    linkedin: przemysław-majdak-036b8314a

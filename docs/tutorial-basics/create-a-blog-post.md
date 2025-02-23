@@ -22,7 +22,7 @@ authors:
   - name: Sébastien Lorber
     title: Docusaurus maintainer
     url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
+    image_url: https://github.com/przemyslvw.png
 tags: [greetings]
 ---
 
