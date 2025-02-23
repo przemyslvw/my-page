@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definicje gradientów i cieni -->
+  <defs>
+    <!-- Gradient dla obudowy laptopa -->
+    <linearGradient id="laptopGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B0BEC5"/>
+      <stop offset="100%" stop-color="#78909C"/>
+    </linearGradient>
+
+    <!-- Gradient dla ekranu -->
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD"/>
+      <stop offset="100%" stop-color="#BBDEFB"/>
+    </linearGradient>
+
+    <!-- Cień dla elementów -->
+    <filter id="shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Tło -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Obudowa laptopa -->
+  <g filter="url(#shadow)">
+    <rect x="30" y="50" width="140" height="90" rx="8" ry="8" fill="url(#laptopGradient)" stroke="#37474F" stroke-width="3"/>
+  </g>
+
+  <!-- Ekran laptopa -->
+  <rect x="40" y="60" width="120" height="70" fill="url(#screenGradient)" stroke="#37474F" stroke-width="2"/>
+
+  <!-- Kod HTML na ekranie -->
+  <text x="55" y="85" font-family="monospace" font-size="12" fill="#1E88E5">&lt;html&gt;</text>
+  <text x="55" y="100" font-family="monospace" font-size="12" fill="#43A047">&lt;body&gt;</text>
+  <text x="65" y="115" font-family="monospace" font-size="12" fill="#43A047">Hello World!</text>
+  <text x="55" y="130" font-family="monospace" font-size="12" fill="#43A047">&lt;/body&gt;</text>
+  <text x="55" y="145" font-family="monospace" font-size="12" fill="#1E88E5">&lt;/html&gt;</text>
+
+  <!-- Podstawka laptopa -->
+  <rect x="20" y="140" width="160" height="10" rx="2" ry="2" fill="#90A4AE" stroke="#37474F" stroke-width="2"/>
+
+  <!-- Kursor myszy -->
+  <polygon points="110,80 100,60 98,72 90,70" fill="#000000" filter="url(#shadow)"/>
+
+  <!-- Dodatkowy detal - pasek statusu -->
+  <rect x="40" y="60" width="120" height="5" fill="#1E88E5"/>
+  <circle cx="45" cy="62.5" r="1.5" fill="#FF5252"/>
+  <circle cx="50" cy="62.5" r="1.5" fill="#FFEB3B"/>
+  <circle cx="55" cy="62.5" r="1.5" fill="#4CAF50"/>
+</svg>
