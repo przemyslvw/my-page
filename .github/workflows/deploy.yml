@@ -3,7 +3,10 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - master  # lub 'master', jeśli używasz tej gałęzi
+      - master
+
+permissions:
+  contents: write
 
 jobs:
   build-deploy:
