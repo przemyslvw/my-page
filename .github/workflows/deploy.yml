@@ -3,36 +3,28 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main  # lub inna główna gałąź, np. master
-
-permissions:
-  contents: write
+      - master  # lub 'master', jeśli używasz tej gałęzi
 
 jobs:
-  deploy:
+  build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Klonowanie repozytorium
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
 
-      # 2. Konfiguracja Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20  # lub wersja, której używasz
+          node-version: 18
 
-      # 3. Instalacja zależności
-      - name: Install dependencies
+      - name: 📁 Install dependencies
         run: npm install
 
-      # 4. Budowanie strony
-      - name: Build Docusaurus site
+      - name: 🏗️ Build Docusaurus site
         run: npm run build
 
-      # 5. Wdrażanie na GitHub Pages
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
