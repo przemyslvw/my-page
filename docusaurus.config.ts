@@ -10,18 +10,19 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://przemyslvw.github.io',
+  url: 'https://www.majdak.online',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-page/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'majdak think tank', // Usually your GitHub org/user name.
-  projectName: 'https://przemyslvw.github.io', // Usually your repo name.
-
+  organizationName: 'przemyslvw', // Usually your GitHub org/user name.
+  projectName: 'my-page', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  trailingSlash: false,               // (opcjonalne) usuwa ostrzeżenia o ukośnikach
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -30,8 +31,6 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
-  trailingSlash: false,
 
   presets: [
     [
@@ -141,5 +140,6 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
+
 
 export default config;
