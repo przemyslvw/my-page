@@ -17,3 +17,94 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+cybersecurity:
+  label: Cybersecurity
+  permalink: /cybersecurity
+  description: Wszystko o bezpieczeństwie IT i cyberzagrożeniach.
+
+automation:
+  label: Automation
+  permalink: /automation
+  description: Automatyzacja procesów, testów i przepływów pracy.
+
+esp32:
+  label: ESP32
+  permalink: /esp32
+  description: Projekty i poradniki związane z mikrokontrolerem ESP32.
+
+web-security:
+  label: Web Security
+  permalink: /web-security
+  description: Praktyki, narzędzia i techniki zabezpieczania aplikacji webowych.
+
+playwright:
+  label: Playwright
+  permalink: /playwright
+  description: Testowanie end-to-end z wykorzystaniem Playwright.
+
+typescript:
+  label: TypeScript
+  permalink: /typescript
+  description: Typowany JavaScript dla skalowalnych aplikacji.
+
+networking:
+  label: Networking
+  permalink: /networking
+  description: Konfiguracja sieci, bezpieczeństwo i narzędzia diagnostyczne.
+
+raspberry-pi:
+  label: Raspberry Pi
+  permalink: /raspberry-pi
+  description: Projekty, poradniki i zastosowania Raspberry Pi.
+
+iot:
+  label: IoT
+  permalink: /iot
+  description: Internet Rzeczy — budowa systemów IoT i integracje.
+
+github-pages:
+  label: GitHub Pages
+  permalink: /github-pages
+  description: Hostowanie stron statycznych z użyciem GitHub Pages.
+
+angular:
+  label: Angular
+  permalink: /angular
+  description: Framework do budowy aplikacji SPA.
+
+firebase:
+  label: Firebase
+  permalink: /firebase
+  description: Backend-as-a-Service dla aplikacji webowych i mobilnych.
+
+seo:
+  label: SEO
+  permalink: /seo
+  description: Optymalizacja stron internetowych pod kątem wyszukiwarek.
+
+ci-cd:
+  label: CI/CD
+  permalink: /ci-cd
+  description: Automatyzacja procesu buildowania, testowania i wdrażania aplikacji.
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Komendy, skrypty i konfiguracje dla systemów Linux.
+
+pihole:
+  label: Pi-hole
+  permalink: /pihole
+  description: Blokowanie reklam i ochrona sieci przy użyciu Pi-hole.
+
+vaultwarden:
+  label: Vaultwarden
+  permalink: /vaultwarden
+  description: Samodzielnie hostowany menedżer haseł oparty na Bitwarden.
+
+yubikey:
+  label: YubiKey
+  permalink: /yubikey
+  description: Uwierzytelnianie dwuskładnikowe za pomocą klucza sprzętowego YubiKey.
+
