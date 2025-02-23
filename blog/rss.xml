@@ -45,6 +45,55 @@
             <category>Społeczność</category>
         </item>
         <item>
+            <title><![CDATA[Nowy Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
+            <link>https://www.majdak.online/blog/2025/02/20/kurswireshark</link>
+            <guid>https://www.majdak.online/blog/2025/02/20/kurswireshark</guid>
+            <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!]]></description>
+            <content:encoded><![CDATA[<p>Czy kiedykolwiek zastanawiałeś się, jak administratorzy sieci wykrywają cyberataki? Albo jak działają narzędzia do analizy ruchu sieciowego? Jeśli tak, to <strong>ten kurs jest dla Ciebie!</strong> 🚀</p>
+<p>Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy pakietów sieciowych. Dzięki niemu możesz zdiagnozować problemy z siecią, wykryć ataki hakerskie lub po prostu dowiedzieć się więcej o tym, jak działa internet.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">✅ <strong>Czego się nauczysz?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to -czego-się-nauczysz" title="Direct link to -czego-się-nauczysz">​</a></h2>
+<ul>
+<li>Konfiguracji Wiresharka i rozpoczęcia przechwytywania pakietów</li>
+<li>Analizy najważniejszych protokołów sieciowych (TCP/IP, HTTP, DNS, SSL/TLS)</li>
+<li>Wykrywania anomalii w ruchu sieciowym</li>
+<li>Identyfikacji ataków (ARP Spoofing, DDoS, Man-in-the-Middle)</li>
+<li>Filtrowania i przetwarzania przechwyconych pakietów</li>
+<li>Tworzenia własnych filtrów i automatyzacji z użyciem <strong>Tshark</strong></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-dla-kogo-jest-ten-kurs">🛡️ <strong>Dla kogo jest ten kurs?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#%EF%B8%8F-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to ️-dla-kogo-jest-ten-kurs" title="Direct link to ️-dla-kogo-jest-ten-kurs">​</a></h2>
+<ul>
+<li><strong>Początkujących</strong> zainteresowanych cyberbezpieczeństwem</li>
+<li><strong>Administratorów sieci</strong>, którzy chcą rozwinąć swoje umiejętności</li>
+<li><strong>Testerów bezpieczeństwa</strong> i <strong>pentesterów</strong></li>
+<li>Studentów kierunków technicznych i osób przygotowujących się do certyfikacji</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">📖 <strong>Co znajdziesz w kursie?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to -co-znajdziesz-w-kursie" title="Direct link to -co-znajdziesz-w-kursie">​</a></h2>
+<ul>
+<li>✅ Praktyczne ćwiczenia i scenariusze</li>
+<li>✅ Teorię sieci potrzebną do analizy pakietów</li>
+<li>✅ Przykłady ataków i sposoby ich wykrycia</li>
+<li>✅ Poradniki krok po kroku</li>
+<li>✅ Zapowiedź kursu <strong>zaawansowanego</strong> dla profesjonalistów 💡</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">🎯 <strong>Dlaczego warto?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-dlaczego-warto" class="hash-link" aria-label="Direct link to -dlaczego-warto" title="Direct link to -dlaczego-warto">​</a></h2>
+<ul>
+<li>Kurs napisany przez praktyka z doświadczeniem w analizie bezpieczeństwa sieci</li>
+<li>Oparty na realnych przypadkach użycia</li>
+<li>Kompletna wiedza od podstaw aż po zaawansowane techniki</li>
+</ul>
+<hr>
+<p>👉 <strong><a href="https://www.majdak.online/docs/category/kurs-wireshark" target="_blank" rel="noopener noreferrer">Dołącz do kursu już teraz!</a></strong></p>
+<p>📩 Masz pytania? Skontaktuj się: <strong><a href="mailto:email@example.com" target="_blank" rel="noopener noreferrer">email@example.com</a></strong><br>
+<!-- -->💡 Śledź nas po więcej wiedzy: <strong><a href="https://www.wiresharkkurs.pl/" target="_blank" rel="noopener noreferrer">www.wiresharkkurs.pl</a></strong></p>
+<p><strong>Autor:</strong> <em>Przemysław Majdak</em><br>
+<strong>Data publikacji:</strong> 20 lutego 2024</p>
+<hr>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Web Security</category>
+            <category>Społeczność</category>
+        </item>
+        <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://www.majdak.online/blog/welcome</link>
             <guid>https://www.majdak.online/blog/welcome</guid>
