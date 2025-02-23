@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#007CC3"/>
+  <path d="M20 32L44 32L32 48L20 32Z" fill="#FFFFFF"/>
+  <path d="M32 16L44 32H20L32 16Z" fill="#FFFFFF"/>
+  <text x="32" y="58" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle">Garmin</text>
+</svg>
