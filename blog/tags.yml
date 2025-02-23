@@ -108,3 +108,12 @@ yubikey:
   permalink: /yubikey
   description: Uwierzytelnianie dwuskładnikowe za pomocą klucza sprzętowego YubiKey.
 
+issa-polska:
+  label: ISSA Polska
+  permalink: /issa-polska
+  description: Społeczność ISSA Polska.
+
+społeczność:
+  label: Społeczność
+  permalink: /spolecznosc
+  description: Wydarzenia, spotkania i inicjatywy społecznościowe.

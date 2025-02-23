@@ -86,14 +86,10 @@ const config: Config = {
           label: 'Dokumentacja',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/contact', label: 'Kontakt', position: 'left' },
         {
           href: 'https://github.com/przemyslvw',
           label: 'GitHub',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/przemyslvw',
-          label: 'Contact',
           position: 'right',
         },
       ],
@@ -114,11 +110,31 @@ const config: Config = {
           title: 'Socials',
           items: [
             {
-              label: 'Twitter',
+              label: '🐦 X',
               href: 'https://x.com/przemyslvw',
             },
+            {
+              label: '🐙 GitHub',
+              href: 'https://github.com/przemyslvw',
+            },
+            {
+              label: '📸 Instagram',
+              href: 'https://www.instagram.com/przemas.ts/',
+            },
+            {
+              label: '💼 LinkedIn',
+              href: 'https://www.linkedin.com/in/przemysław-majdak-036b8314a/',
+            },
+            {
+              label: '⌚ Garmin Connect',
+              href: 'https://connect.garmin.com/modern/profile/396bbbd1-edbd-4fd4-a780-132723eef739',
+            },
+            {
+              label: '📧 Email',
+              href: 'mailto:kontakt@majdak.online',
+            },
           ],
-        },
+        },        
         {
           title: 'More',
           items: [
