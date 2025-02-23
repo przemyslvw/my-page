@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-02-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Dołączyliśmy do ISSA Polska!]]></title>
+        <id>https://www.majdak.online/blog/dołączamy-do-issa-polska</id>
+        <link href="https://www.majdak.online/blog/dołączamy-do-issa-polska"/>
+        <updated>2025-02-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🎉 Z dumą informujemy, że Majdak Think Tank dołączył do ISSA Polska (Information Systems Security Association)! 🎉]]></summary>
+        <content type="html"><![CDATA[<p>🎉 <strong>Z dumą informujemy, że Majdak Think Tank dołączył do ISSA Polska (Information Systems Security Association)!</strong> 🎉</p>
+<p>ISSA Polska to wiodąca organizacja zrzeszająca ekspertów ds. bezpieczeństwa informacji, inżynierów sieci, analityków oraz pasjonatów cyberbezpieczeństwa. Dzięki temu członkostwu uzyskujemy dostęp do najnowszych informacji branżowych, wydarzeń, konferencji oraz możliwości współpracy z najlepszymi specjalistami z branży.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-issa-polska">🔒 <strong>Dlaczego ISSA Polska?</strong><a href="https://www.majdak.online/blog/do%C5%82%C4%85czamy-do-issa-polska#-dlaczego-issa-polska" class="hash-link" aria-label="Direct link to -dlaczego-issa-polska" title="Direct link to -dlaczego-issa-polska">​</a></h2>
+<ul>
+<li>📡 <strong>Dostęp do wiedzy i najlepszych praktyk z zakresu cyberbezpieczeństwa.</strong></li>
+<li>🤝 <strong>Możliwość współpracy z ekspertami branży IT i uczestnictwa w wydarzeniach networkingowych.</strong></li>
+<li>📊 <strong>Udział w badaniach, warsztatach i projektach związanych z bezpieczeństwem IT.</strong></li>
+<li>🧠 <strong>Szansa na rozwój w dziedzinie bezpieczeństwa sieciowego, aplikacji webowych oraz audytów.</strong></li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-to-oznacza-dla-społeczności-majdak-think-tank">🚀 <strong>Co to oznacza dla społeczności Majdak Think Tank?</strong><a href="https://www.majdak.online/blog/do%C5%82%C4%85czamy-do-issa-polska#-co-to-oznacza-dla-spo%C5%82eczno%C5%9Bci-majdak-think-tank" class="hash-link" aria-label="Direct link to -co-to-oznacza-dla-społeczności-majdak-think-tank" title="Direct link to -co-to-oznacza-dla-społeczności-majdak-think-tank">​</a></h2>
+<ul>
+<li>✅ Dostęp do najnowszych trendów w świecie cyberbezpieczeństwa.</li>
+<li>✅ Udział w projektach realizowanych przez ISSA Polska.</li>
+<li>✅ Możliwość publikacji eksperckich artykułów w szerszym gronie branżowym.</li>
+<li>✅ Rozwój sieci kontaktów i współpraca z ekspertami z całej Polski.</li>
+</ul>
+<hr>
+<p>🎯 <strong>Bądź na bieżąco z naszymi publikacjami!</strong><br>
+<!-- -->Planujemy dzielić się wiedzą i doświadczeniami z wydarzeń ISSA oraz publikować raporty i analizy w naszej sekcji <strong>Blog</strong>.</p>
+<p>💡 Jeśli chcesz dowiedzieć się więcej o działalności ISSA Polska, odwiedź ich stronę: <a href="https://www.issa.org.pl/" target="_blank" rel="noopener noreferrer">ISSA Polska</a></p>
+<hr>
+<p>📢 <strong>Dziękujemy za zaufanie!</strong><br>
+<!-- -->Działamy dalej dla rozwoju społeczności i podnoszenia świadomości w zakresie bezpieczeństwa IT. 🚀</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="ISSA Polska" term="ISSA Polska"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Społeczność" term="Społeczność"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://www.majdak.online/blog/welcome</id>
