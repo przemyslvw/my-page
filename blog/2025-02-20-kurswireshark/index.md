@@ -44,8 +44,8 @@ Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy 
 
 👉 **[Dołącz do kursu już teraz!](https://www.majdak.online/docs/category/kurs-wireshark)**
 
-📩 Masz pytania? Skontaktuj się: **[email@example.com](mailto:email@example.com)**  
-💡 Śledź nas po więcej wiedzy: **[www.wiresharkkurs.pl](https://www.wiresharkkurs.pl)**  
+📩 Masz pytania? Skontaktuj się: **[kontakt@majdak.online](mailto:kontakt@majdak.online)**  
+💡 Śledź nas po więcej wiedzy: **[www.majdak.online](https://www.majdak.online)**  
 
 **Autor:** *Przemysław Majdak*  
 **Data publikacji:** 20 lutego 2024

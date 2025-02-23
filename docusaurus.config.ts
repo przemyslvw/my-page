@@ -110,10 +110,6 @@ const config: Config = {
           title: 'Socials',
           items: [
             {
-              label: '🐦 X',
-              href: 'https://x.com/przemyslvw',
-            },
-            {
               label: '🐙 GitHub',
               href: 'https://github.com/przemyslvw',
             },
@@ -128,6 +124,10 @@ const config: Config = {
             {
               label: '⌚ Garmin Connect',
               href: 'https://connect.garmin.com/modern/profile/396bbbd1-edbd-4fd4-a780-132723eef739',
+            },
+            {
+              label: '🐦 X',
+              href: 'https://x.com/przemyslvw',
             },
             {
               label: '📧 Email',
