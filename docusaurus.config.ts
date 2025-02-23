@@ -37,7 +37,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: require.resolve('./sidebars.ts'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -59,7 +59,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       } satisfies Preset.Options,
     ],
@@ -117,10 +117,6 @@ const config: Config = {
               label: 'Twitter',
               href: 'https://x.com/przemyslvw',
             },
-            {
-              label: 'Discord',
-              href: '',
-            },
           ],
         },
         {
@@ -131,13 +127,17 @@ const config: Config = {
               to: '/blog',
             },
             {
+              label: 'Dokumentacja',
+              to: '/docs/intro',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/przemyslvw',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Majdak.Online, Inc. Built with Passion.`,
     },
     prism: {
       theme: prismThemes.github,
