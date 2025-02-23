@@ -1,19 +1,9 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
 przemyslvw:
   name: Przemysław Majdak
-  title: Web Security Specialist & Automation Engineer
+  title: Full-Stack Developer, Automation Engineer & Web Security Specialist
   url: https://www.majdak.online
   image_url: https://avatars.githubusercontent.com/u/31745530?v=4
-  bio: Specjalista ds. bezpieczeństwa IT, automatyzacji testów i nowych technologii.
+  bio: Inżynier aplikacji internetowych, specjalista ds. automatyzacji testów i bezpieczeństwa IT.
   socials:
     x: przemyslvw
     github: przemyslvw
