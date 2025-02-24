@@ -1,5 +1,5 @@
 ---
-title: "Nowy Kurs Wireshark – Profesjonalne Wprowadzenie"
+title: "Kurs Wireshark – Profesjonalne Wprowadzenie"
 description: "Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!"
 authors: [przemyslvw]
 tags: [cybersecurity, web-security, społeczność]
