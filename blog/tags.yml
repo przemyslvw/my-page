@@ -117,3 +117,18 @@ społeczność:
   label: Społeczność
   permalink: /spolecznosc
   description: Wydarzenia, spotkania i inicjatywy społecznościowe.
+
+jamming:
+  label: Jamming
+  permalink: /jamming
+  description: Zakłócanie sygnałów radiowych i techniki przeciwdziałania.
+
+xiaomi:
+  label: Xiaomi
+  permalink: /xiaomi
+  description: Urządzenia i technologie Xiaomi.
+
+ochrona-sieci:
+  label: Ochrona Sieci
+  permalink: /ochrona-sieci
+  description: Techniki i narzędzia ochrony sieci komputerowych.
