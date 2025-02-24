@@ -48,6 +48,46 @@
         <category label="Społeczność" term="Społeczność"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
+        <id>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</id>
+        <link href="https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi"/>
+        <updated>2024-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Podatność na jamming w kamerach Xiaomi 🐛]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podatność-na-jamming-w-kamerach-xiaomi-">Podatność na jamming w kamerach Xiaomi 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi-" class="hash-link" aria-label="Direct link to Podatność na jamming w kamerach Xiaomi 🐛" title="Direct link to Podatność na jamming w kamerach Xiaomi 🐛">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h3>
+<p>Niedawno odkryto, że niektóre kamery Xiaomi są podatne na ataki jammingowe, które mogą powodować zatrzymanie obrazu. Ten artykuł omawia, jak można zminimalizować to zagrożenie za pomocą oprogramowania.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objawy-i-skutki-">Objawy i skutki 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#objawy-i-skutki-" class="hash-link" aria-label="Direct link to Objawy i skutki 🐛" title="Direct link to Objawy i skutki 🐛">​</a></h3>
+<p>Podczas ataku jammingowego kamera traci połączenie z siecią Wi-Fi, co skutkuje zatrzymaniem obrazu lub całkowitym rozłączeniem. Niestety, detekcja ruchu w tych kamerach działa tylko na obrazie w czasie rzeczywistym, co oznacza, że po przywróceniu sygnału Wi-Fi, kamera nie analizuje nagrań z okresu braku połączenia.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania">Rozwiązania<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#rozwi%C4%85zania" class="hash-link" aria-label="Direct link to Rozwiązania" title="Direct link to Rozwiązania">​</a></h3>
+<ol>
+<li>
+<p><strong>Dualna łączność</strong> - Wprowadzenie wsparcia dla sieci LTE jako zapasowego połączenia w przypadku utraty sygnału Wi-Fi.</p>
+</li>
+<li>
+<p><strong>Automatyczne przełączanie kanałów</strong> - Dodanie funkcji automatycznego przełączania kanałów, by unikać zakłóceń.</p>
+</li>
+<li>
+<p><strong>Wykrywanie jammingu</strong> - Implementacja systemu, który wykryje zakłócenia i przełączy kamerę na tryb lokalnego nagrywania.</p>
+</li>
+<li>
+<p><strong>Analiza nagrań pod kątem detekcji ruchu</strong> - Dodanie funkcji analizy nagrań z okresu braku połączenia, aby wykryć ruch i powiadomić użytkownika.</p>
+</li>
+<li>
+<p><strong>Zwiększenie mocy sygnału</strong> - Użycie mocniejszych anten, które będą bardziej odporne na zakłócenia.</p>
+</li>
+</ol>
+<p>Dzięki tym krokom można znacznie zwiększyć odporność kamer Xiaomi na ataki jammingowe.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Jamming" term="Jamming"/>
+        <category label="Xiaomi" term="Xiaomi"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Ochrona Sieci" term="Ochrona Sieci"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Nowy Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
         <id>https://www.majdak.online/blog/2025/02/20/kurswireshark</id>
         <link href="https://www.majdak.online/blog/2025/02/20/kurswireshark"/>
