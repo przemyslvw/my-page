@@ -118,10 +118,6 @@ const config: Config = {
               href: 'https://www.instagram.com/przemas.ts/',
             },
             {
-              label: '💼 LinkedIn',
-              href: 'https://www.linkedin.com/in/przemysław-majdak-036b8314a/',
-            },
-            {
               label: '⌚ Garmin Connect',
               href: 'https://connect.garmin.com/modern/profile/396bbbd1-edbd-4fd4-a780-132723eef739',
             },
