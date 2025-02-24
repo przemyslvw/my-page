@@ -15,7 +15,6 @@ export default function Contact() {
           <ul style={{ listStyle: 'none', padding: 0, fontSize: '18px' }}>
             <li>🐙 <strong>GitHub:</strong> <a href="https://github.com/przemyslvw" target="_blank" rel="noopener noreferrer">przemyslvw</a></li>
             <li>📸 <strong>Instagram:</strong> <a href="https://www.instagram.com/przemas.ts/" target="_blank" rel="noopener noreferrer">przemas.ts</a></li>
-            <li>💼 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/przemysław-majdak-036b8314a/" target="_blank" rel="noopener noreferrer">Przemysław Majdak</a></li>
             <li>⌚ <strong>Garmin Connect:</strong> <a href="https://connect.garmin.com/modern/profile/396bbbd1-edbd-4fd4-a780-132723eef739" target="_blank" rel="noopener noreferrer">Mój profil Garmin</a></li>
             <li>🐦 <strong>X:</strong> <a href="https://x.com/przemyslvw" target="_blank" rel="noopener noreferrer">przemyslvw</a></li>
           </ul>
