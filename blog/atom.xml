@@ -587,4 +587,73 @@
         <category label="Web Security" term="Web Security"/>
         <category label="Społeczność" term="Społeczność"/>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></title>
+        <id>https://www.majdak.online/blog/kurs-atuin</id>
+        <link href="https://www.majdak.online/blog/kurs-atuin"/>
+        <updated>2024-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kurs-atuin--zarządzanie-historią-terminala-nowej-generacji">📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji<a href="https://www.majdak.online/blog/kurs-atuin#-kurs-atuin--zarz%C4%85dzanie-histori%C4%85-terminala-nowej-generacji" class="hash-link" aria-label="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji" title="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji">​</a></h2>
+<p><strong>Atuin</strong> to nowoczesne narzędzie do zarządzania historią terminala, które zastępuje klasyczne mechanizmy przechowywania historii powłoki. Dzięki zaawansowanym funkcjom, takim jak <strong>fuzzy search</strong>, <strong>synchronizacja między urządzeniami</strong>, <strong>szyfrowanie danych</strong> czy <strong>analiza statystyk</strong>, Atuin pozwala znacznie usprawnić pracę z terminalem.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">🟢 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-atuin#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 🟢 Czego się nauczysz?" title="Direct link to 🟢 Czego się nauczysz?">​</a></h2>
+<ul>
+<li>✅ <strong>Instalacja Atuin</strong> na Linux, macOS i Windows (WSL lub PowerShell)</li>
+<li>✅ <strong>Konfiguracja i personalizacja</strong> środowiska terminala</li>
+<li>✅ <strong>Zaawansowane wyszukiwanie komend</strong> z wykorzystaniem fuzzy search</li>
+<li>✅ <strong>Filtrowanie historii</strong> według katalogów, czasu i wzorców</li>
+<li>✅ <strong>Synchronizacja historii komend</strong> między urządzeniami (chmura lub własny serwer)</li>
+<li>✅ <strong>Zarządzanie bezpieczeństwem danych</strong> poprzez szyfrowanie i klucze API</li>
+<li>✅ <strong>Tworzenie własnych filtrów, aliasów i skrótów klawiszowych</strong></li>
+<li>✅ <strong>Analiza statystyk</strong> najczęściej używanych komend</li>
+<li>✅ <strong>Rozwiązywanie problemów i debugowanie</strong></li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-spis-treści-kursu">📋 Spis treści kursu<a href="https://www.majdak.online/blog/kurs-atuin#-spis-tre%C5%9Bci-kursu" class="hash-link" aria-label="Direct link to 📋 Spis treści kursu" title="Direct link to 📋 Spis treści kursu">​</a></h2>
+<ol>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-wstep">📘 Wstęp do Atuin</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-instalacja">⚙️ Instalacja Atuin</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje">🚀 Podstawowe funkcje Atuin</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo">☁️ Synchronizacja i bezpieczeństwo</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja">📊 Statystyki i personalizacja</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie">🛠️ Problemy i debugowanie</a></li>
+<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie">📖 Podsumowanie kursu</a></li>
+</ol>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">💡 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-atuin#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 💡 Dla kogo jest ten kurs?" title="Direct link to 💡 Dla kogo jest ten kurs?">​</a></h2>
+<ul>
+<li>👶 <strong>Początkujący</strong> – nauczysz się efektywnie korzystać z historii terminala.</li>
+<li>🛠️ <strong>Programiści i administratorzy systemów</strong> – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.</li>
+<li>🔒 <strong>Entuzjaści prywatności</strong> – dowiesz się, jak szyfrować dane i korzystać z własnych serwerów do synchronizacji historii.</li>
+<li>🌐 <strong>Użytkownicy wieloplatformowi</strong> – poznasz metody synchronizacji historii między różnymi urządzeniami.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wymagania-wstępne">📚 Wymagania wstępne<a href="https://www.majdak.online/blog/kurs-atuin#-wymagania-wst%C4%99pne" class="hash-link" aria-label="Direct link to 📚 Wymagania wstępne" title="Direct link to 📚 Wymagania wstępne">​</a></h2>
+<ul>
+<li>Znajomość podstawowych komend terminala</li>
+<li>Zainstalowany system <strong>Linux</strong>, <strong>macOS</strong> lub <strong>Windows</strong> (z WSL lub PowerShell)</li>
+<li>Chęć do optymalizacji swojej pracy z terminalem 🚀</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-atuin#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h2>
+<p>Celem kursu jest nauczenie Cię, jak w pełni wykorzystać możliwości <strong>Atuin</strong> do zarządzania historią komend w terminalu. Po ukończeniu kursu będziesz potrafił:</p>
+<ul>
+<li>Szybko wyszukiwać komendy dzięki <strong>fuzzy search</strong>.</li>
+<li>Synchronizować historię komend między różnymi urządzeniami.</li>
+<li>Zapewnić bezpieczeństwo swojej historii dzięki szyfrowaniu.</li>
+<li>Personalizować środowisko terminala zgodnie z własnymi potrzebami.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rozpocznij-teraz">📥 Rozpocznij teraz!<a href="https://www.majdak.online/blog/kurs-atuin#-rozpocznij-teraz" class="hash-link" aria-label="Direct link to 📥 Rozpocznij teraz!" title="Direct link to 📥 Rozpocznij teraz!">​</a></h2>
+<p>➡️ <a href="https://www.majdak.online/docs/category/kurs-atuin---making-your-shell-magical"><strong>Przejdź do pierwszego rozdziału: Wstęp do Atuin</strong></a></p>
+<p>Nie czekaj – zoptymalizuj swoją pracę z terminalem już dziś! 🚀</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="terminal" term="terminal"/>
+        <category label="history" term="history"/>
+        <category label="management" term="management"/>
+        <category label="Atuin" term="Atuin"/>
+        <category label="tutorial" term="tutorial"/>
+    </entry>
 </feed>
