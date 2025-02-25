@@ -366,6 +366,69 @@
             <category>poradnik</category>
         </item>
         <item>
+            <title><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
+            <link>https://www.majdak.online/blog/kurs-istqb</link>
+            <guid>https://www.majdak.online/blog/kurs-istqb</guid>
+            <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kurs-istqb-poziomu-podstawowego">Kurs ISTQB Poziomu Podstawowego<a href="https://www.majdak.online/blog/kurs-istqb#kurs-istqb-poziomu-podstawowego" class="hash-link" aria-label="Direct link to Kurs ISTQB Poziomu Podstawowego" title="Direct link to Kurs ISTQB Poziomu Podstawowego">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-istqb#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h3>
+<p>Celem kursu <strong>ISTQB Poziomu Podstawowego</strong> jest przygotowanie uczestników do zdania egzaminu certyfikacyjnego ISTQB Foundation Level. Kurs obejmuje wszystkie kluczowe zagadnienia wymagane na egzaminie, zgodnie z najnowszym sylabusem ISTQB.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">📋 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-istqb#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 📋 Czego się nauczysz?" title="Direct link to 📋 Czego się nauczysz?">​</a></h3>
+<ul>
+<li><strong>Podstaw testowania oprogramowania</strong> – znaczenie testowania, cele i podstawowe pojęcia.</li>
+<li><strong>Ról testowania w cyklu życia oprogramowania</strong> – od modeli cyklu życia po poziomy testów.</li>
+<li><strong>Technik projektowania testów</strong> – czarnoskrzynkowe, białoskrzynkowe i oparte na doświadczeniu.</li>
+<li><strong>Statycznych technik testowania</strong> – przeglądów, analiz statycznych i narzędzi wspierających.</li>
+<li><strong>Zarządzania testowaniem</strong> – planowania, szacowania, monitorowania oraz zarządzania ryzykiem.</li>
+<li><strong>Narzędzi wspierających testowanie</strong> – automatyzacja, zarządzanie testami i analiza jakości kodu.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">🧠 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-istqb#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 🧠 Dla kogo jest ten kurs?" title="Direct link to 🧠 Dla kogo jest ten kurs?">​</a></h3>
+<ul>
+<li>Początkujących testerów oprogramowania.</li>
+<li>Osób przygotowujących się do egzaminu ISTQB Foundation Level.</li>
+<li>Programistów, którzy chcą zrozumieć procesy testowania.</li>
+<li>Analityków biznesowych i kierowników projektów współpracujących z zespołami testerskimi.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-struktura-kursu">🧾 Struktura kursu<a href="https://www.majdak.online/blog/kurs-istqb#-struktura-kursu" class="hash-link" aria-label="Direct link to 🧾 Struktura kursu" title="Direct link to 🧾 Struktura kursu">​</a></h3>
+<p>Kurs składa się z 6 głównych rozdziałów:</p>
+<ol>
+<li><strong>Podstawy testowania</strong></li>
+<li><strong>Testowanie w cyklu życia oprogramowania</strong></li>
+<li><strong>Statyczne techniki testowania</strong></li>
+<li><strong>Techniki projektowania testów</strong></li>
+<li><strong>Zarządzanie testowaniem</strong></li>
+<li><strong>Narzędzia wspierające testowanie</strong></li>
+</ol>
+<p>Dodatkowo zawiera:</p>
+<ul>
+<li>Przykładowe pytania egzaminacyjne dla każdej kategorii.</li>
+<li>Testy sprawdzające wiedzę.</li>
+<li>Podsumowanie z zapowiedzią kolejnych kursów ISTQB.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">📝 Dlaczego warto?<a href="https://www.majdak.online/blog/kurs-istqb#-dlaczego-warto" class="hash-link" aria-label="Direct link to 📝 Dlaczego warto?" title="Direct link to 📝 Dlaczego warto?">​</a></h3>
+<ul>
+<li>Kurs zgodny z najnowszym sylabusem ISTQB.</li>
+<li>Praktyczne przykłady i pytania egzaminacyjne.</li>
+<li>Kompleksowe przygotowanie do egzaminu ISTQB Foundation Level.</li>
+<li>Dostęp do materiałów w formacie Markdown gotowych do integracji z Docusaurusem.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-co-dalej">🚀 Co dalej?<a href="https://www.majdak.online/blog/kurs-istqb#-co-dalej" class="hash-link" aria-label="Direct link to 🚀 Co dalej?" title="Direct link to 🚀 Co dalej?">​</a></h3>
+<p>Po ukończeniu kursu możesz kontynuować naukę w ramach bardziej zaawansowanych kursów ISTQB:</p>
+<ul>
+<li><strong>ISTQB Advanced Level</strong> – Test Analyst, Technical Test Analyst, Test Manager.</li>
+<li><strong>ISTQB Agile Tester</strong> – testowanie w środowiskach zwinnych.</li>
+<li><strong>ISTQB Test Automation Engineer</strong> – automatyzacja testów i tworzenie frameworków.</li>
+</ul>
+<p>👉 <a href="https://www.majdak.online/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl"><strong>Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀</strong>(</a></p>
+<hr>
+<p>✅ <strong>Powodzenia na egzaminie!</strong> 🎉</p>]]></content:encoded>
+            <category>testing</category>
+            <category>ISTQB</category>
+            <category>certification</category>
+            <category>software-testing</category>
+        </item>
+        <item>
             <title><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
             <link>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</link>
             <guid>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</guid>
