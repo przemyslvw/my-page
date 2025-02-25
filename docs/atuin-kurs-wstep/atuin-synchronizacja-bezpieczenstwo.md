@@ -139,4 +139,4 @@ atuin history clear --remote --local
 
 Dzięki synchronizacji możesz mieć dostęp do swojej historii komend z różnych urządzeń, a wbudowane szyfrowanie zapewnia bezpieczeństwo Twoich danych. W kolejnych rozdziałach dowiesz się, jak jeszcze bardziej spersonalizować Atuin oraz jak korzystać z zaawansowanych funkcji.
 
-➡️ **Przejdź do kolejnego rozdziału:** [📊 Statystyki i personalizacja](./statystyki-personalizacja.md)
+➡️ **Przejdź do kolejnego rozdziału:** [📊 Statystyki i personalizacja](/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja)

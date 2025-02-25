@@ -74,4 +74,4 @@ Atuin jest narzędziem **wieloplatformowym** i działa na najpopularniejszych sy
 
 W kolejnych rozdziałach dowiesz się, jak zainstalować Atuin na swoim systemie, jak skonfigurować synchronizację oraz jak wykorzystać pełnię jego możliwości do zwiększenia produktywności w terminalu.
 
-➡️ **Przejdź do kolejnego rozdziału:** [⚙️ Instalacja Atuin](./instalacja-atuin.md)
+➡️ **Przejdź do kolejnego rozdziału:** [⚙️ Instalacja Atuin](/docs/atuin-kurs-wstep/atuin-kurs-instalacja)

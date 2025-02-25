@@ -157,4 +157,4 @@ atuin history clear
 
 W tym rozdziale poznałeś najważniejsze funkcje Atuin — od wyszukiwania fuzzy po filtrowanie po katalogach i czasie. Dzięki nim praca z terminalem staje się szybsza, wygodniejsza i bardziej efektywna.
 
-➡️ **Przejdź do kolejnego rozdziału:** [☁️ Synchronizacja i bezpieczeństwo](./synchronizacja-bezpieczenstwo.md)
+➡️ **Przejdź do kolejnego rozdziału:** [☁️ Synchronizacja i bezpieczeństwo](/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo)

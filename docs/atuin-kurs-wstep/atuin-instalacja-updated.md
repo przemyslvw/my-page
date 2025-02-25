@@ -174,4 +174,4 @@ cargo install atuin --force
 
 Atuin jest już gotowy do użycia! W kolejnych rozdziałach dowiesz się, jak korzystać z podstawowych funkcji, takich jak wyszukiwanie historii, personalizacja oraz synchronizacja danych między urządzeniami.
 
-➡️ **Przejdź do kolejnego rozdziału:** [🚀 Podstawowe funkcje Atuin](./podstawowe-funkcje.md)
+➡️ **Przejdź do kolejnego rozdziału:** [🚀 Podstawowe funkcje Atuin](/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje)

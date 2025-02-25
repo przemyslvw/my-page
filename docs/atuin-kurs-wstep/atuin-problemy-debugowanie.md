@@ -137,4 +137,4 @@ Jeśli chcesz zresetować konfigurację Atuin do ustawień fabrycznych:
 
 W tym rozdziale poznaliśmy najczęstsze problemy związane z działaniem Atuin i sposoby ich rozwiązywania. Dzięki prostym komendom i trybowi debugowania można szybko zdiagnozować i naprawić większość usterek.
 
-➡️ **Przejdź do kolejnego rozdziału:** [📖 Podsumowanie kursu](./podsumowanie.md)
+➡️ **Przejdź do kolejnego rozdziału:** [📖 Podsumowanie kursu](/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie)
