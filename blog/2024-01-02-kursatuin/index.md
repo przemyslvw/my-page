@@ -28,13 +28,13 @@ date: 2024-01-02
 
 ## 📋 Spis treści kursu
 
-1. [📘 Wstęp do Atuin](./atuin-kurs-wstep)
-2. [⚙️ Instalacja Atuin](./atuin-kurs-instalacja)
-3. [🚀 Podstawowe funkcje Atuin](./atuin-kurs-podstawowe-funkcje)
-4. [☁️ Synchronizacja i bezpieczeństwo](./atuin-kurs-synchronizacja-bezpieczenstwo)
-5. [📊 Statystyki i personalizacja](./atuin-kurs-statystyki-personalizacja)
-6. [🛠️ Problemy i debugowanie](./atuin-kurs-problemy-debugowanie)
-7. [📖 Podsumowanie kursu](./atuin-kurs-podsumowanie)
+1. [📘 Wstęp do Atuin](./docs/atuin-kurs-wstep/atuin-kurs-wstep)
+2. [⚙️ Instalacja Atuin](./docs/atuin-kurs-instalacja/atuin-kurs-instalacja)
+3. [🚀 Podstawowe funkcje Atuin](./docs/atuin-kurs-podstawowe-funkcje/atuin-kurs-podstawowe-funkcje)
+4. [☁️ Synchronizacja i bezpieczeństwo](./docs/atuin-kurs-synchronizacja-bezpieczenstwo/atuin-kurs-synchronizacja-bezpieczenstwo)
+5. [📊 Statystyki i personalizacja](./docs/atuin-kurs-statystyki-personalizacja/atuin-kurs-statystyki-personalizacja)
+6. [🛠️ Problemy i debugowanie](./docs/atuin-kurs-problemy-debugowanie/atuin-kurs-problemy-debugowanie)
+7. [📖 Podsumowanie kursu](./docs/atuin-kurs-podsumowanie/atuin-kurs-podsumowanie)
 
 ---
 
