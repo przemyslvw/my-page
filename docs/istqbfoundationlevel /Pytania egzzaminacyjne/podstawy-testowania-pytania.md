@@ -14,6 +14,7 @@ sidebar_position: 12
 - B) Identyfikacja defektów w oprogramowaniu.
 - C) Gwarancja sukcesu projektu.
 - D) Zastąpienie recenzji kodu.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -24,6 +25,7 @@ sidebar_position: 12
 - B) Pełne testowanie jest niemożliwe.
 - C) Paradoks pestycydów.
 - D) Testowanie ujawnia obecność defektów.
+
 **✅ Odpowiedź:** C
 
 ---
@@ -34,6 +36,7 @@ sidebar_position: 12
 - B) Aby zwiększyć liczbę znalezionych defektów.
 - C) Aby zakończyć projekt szybciej.
 - D) Aby ominąć etap analizy wymagań.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -44,6 +47,7 @@ sidebar_position: 12
 - B) Każdy zapis w dokumentacji.
 - C) Błąd w kodzie prowadzący do nieprawidłowego działania systemu.
 - D) Nowa funkcjonalność systemu.
+
 **✅ Odpowiedź:** C
 
 ---
@@ -54,6 +58,7 @@ sidebar_position: 12
 - B) Przypadek testowy zakończony sukcesem.
 - C) Sytuacja, gdy system przestaje działać zgodnie z oczekiwaniami.
 - D) Błąd składniowy w kodzie.
+
 **✅ Odpowiedź:** C
 
 ---
@@ -64,6 +69,7 @@ sidebar_position: 12
 - B) Testowanie dynamiczne polega na analizie dokumentacji.
 - C) Testowanie statyczne odbywa się bez uruchamiania kodu.
 - D) Testowanie dynamiczne nie wykrywa błędów.
+
 **✅ Odpowiedź:** C
 
 ---
@@ -74,6 +80,7 @@ sidebar_position: 12
 - B) Testowanie może jedynie potwierdzić obecność błędów, ale nie ich brak.
 - C) Testowanie usuwa wszystkie defekty.
 - D) Testowanie jest zbędne po wdrożeniu.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -84,6 +91,7 @@ sidebar_position: 12
 - B) Testowanie wybranych funkcji systemu.
 - C) Testowanie przez jednego testera.
 - D) Testowanie tylko interfejsu użytkownika.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -94,6 +102,7 @@ sidebar_position: 12
 - B) Testowanie powoduje pojawienie się nowych defektów.
 - C) System staje się odporny na błędy.
 - D) Testerzy powinni zmieniać projekty co miesiąc.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -104,7 +113,117 @@ sidebar_position: 12
 - B) Pełne testowanie jest niemożliwe.
 - C) Paradoks pestycydów.
 - D) Testowanie ujawnia obecność defektów.
+
 **✅ Odpowiedź:** A
 
 ---
 
+**Pytanie 11:** Co oznacza termin 'testowanie zależne od kontekstu'?
+
+- A) Testowanie nie jest wymagane w każdym projekcie.
+- B) Testowanie powinno być dostosowane do specyfiki projektu i produktu.
+- C) Każdy projekt wymaga takich samych testów.
+- D) Testowanie nie zależy od specyfiki produktu.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 12:** Jaki jest cel testowania oprogramowania?
+
+- A) Gwarantowanie, że system jest wolny od błędów.
+- B) Znalezienie jak największej liczby defektów.
+- C) Weryfikacja zgodności systemu z wymaganiami i redukcja ryzyka błędów.
+- D) Zmniejszenie liczby testów potrzebnych do wdrożenia.
+
+**✅ Odpowiedź:** C
+
+---
+
+**Pytanie 13:** Który z poniższych elementów NIE jest celem testowania?
+
+- A) Identyfikacja defektów przed wdrożeniem.
+- B) Zapewnienie, że system nie wymaga dalszego testowania.
+- C) Ocena jakości produktu.
+- D) Weryfikacja zgodności systemu z wymaganiami użytkownika.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 14:** Która z poniższych metod testowania jest przykładem testowania dynamicznego?
+
+- A) Przegląd kodu źródłowego.
+- B) Analiza statyczna.
+- C) Testowanie manualne interfejsu użytkownika.
+- D) Analiza dokumentacji projektowej.
+
+**✅ Odpowiedź:** C
+
+---
+
+**Pytanie 15:** Dlaczego pełne testowanie oprogramowania jest niemożliwe?
+
+- A) Ponieważ testowanie jest zawsze subiektywne.
+- B) Ze względu na ograniczenia czasowe i koszty.
+- C) Ponieważ programiści nie popełniają błędów.
+- D) Pełne testowanie jest możliwe tylko w systemach krytycznych.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 16:** Które z poniższych twierdzeń dotyczących testowania eksploracyjnego jest prawdziwe?
+
+- A) Testowanie eksploracyjne wymaga szczegółowych przypadków testowych przed rozpoczęciem testowania.
+- B) Testowanie eksploracyjne polega na dynamicznym eksplorowaniu systemu w celu znalezienia defektów.
+- C) Testowanie eksploracyjne wymaga pełnej automatyzacji.
+- D) Testowanie eksploracyjne może być stosowane tylko przez programistów.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 17:** Jakie są główne przyczyny defektów w oprogramowaniu?
+
+- A) Błędy ludzkie i niejednoznaczne wymagania.
+- B) Brak testowania wydajnościowego.
+- C) Niska jakość dokumentacji kodu.
+- D) Zbyt duża liczba przypadków testowych.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 18:** Które z poniższych twierdzeń dotyczących testowania regresyjnego jest poprawne?
+
+- A) Testowanie regresyjne nie jest wymagane po wprowadzeniu zmian w kodzie.
+- B) Testowanie regresyjne sprawdza, czy nowe zmiany nie wpłynęły negatywnie na istniejące funkcjonalności.
+- C) Testowanie regresyjne jest konieczne tylko w testowaniu ręcznym.
+- D) Testowanie regresyjne eliminuje potrzebę testowania systemowego.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 19:** Jakie są podstawowe różnice między testowaniem manualnym a automatycznym?
+
+- A) Testowanie manualne jest zawsze bardziej efektywne niż automatyczne.
+- B) Testowanie automatyczne jest wymagane tylko w testowaniu systemowym.
+- C) Testowanie manualne wymaga interwencji testera, a testowanie automatyczne może być wykonywane bez interakcji człowieka.
+- D) Testowanie manualne jest lepsze w testowaniu wydajnościowym niż testowanie automatyczne.
+
+**✅ Odpowiedź:** C
+
+---
+
+**Pytanie 20:** Które z poniższych twierdzeń dotyczących testowania systemowego jest poprawne?
+
+- A) Testowanie systemowe jest wykonywane tylko przez programistów.
+- B) Testowanie systemowe obejmuje testowanie całego systemu jako całości.
+- C) Testowanie systemowe jest przeprowadzane tylko na poziomie kodu źródłowego.
+- D) Testowanie systemowe nie obejmuje testów integracyjnych.
+
+**✅ Odpowiedź:** B
+
+---

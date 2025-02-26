@@ -14,6 +14,7 @@ sidebar_position: 17
 - B) Selenium.
 - C) TestRail.
 - D) SonarQube.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -24,6 +25,7 @@ sidebar_position: 17
 - B) JMeter.
 - C) SonarQube.
 - D) Postman.
+
 **✅ Odpowiedź:** C
 
 ---
@@ -34,6 +36,7 @@ sidebar_position: 17
 - B) Planowanie, śledzenie i raportowanie wyników testów.
 - C) Testowanie wydajności systemu.
 - D) Generowanie kodu źródłowego.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -44,6 +47,7 @@ sidebar_position: 17
 - B) Selenium.
 - C) JIRA.
 - D) Jenkins.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -54,6 +58,7 @@ sidebar_position: 17
 - B) JMeter.
 - C) SonarQube.
 - D) GitHub.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -64,6 +69,7 @@ sidebar_position: 17
 - B) SonarQube.
 - C) JIRA.
 - D) JMeter.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -74,6 +80,7 @@ sidebar_position: 17
 - B) Selenium.
 - C) Jenkins.
 - D) Postman.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -84,6 +91,7 @@ sidebar_position: 17
 - B) Selenium.
 - C) JIRA.
 - D) JMeter.
+
 **✅ Odpowiedź:** A
 
 ---
@@ -94,6 +102,7 @@ sidebar_position: 17
 - B) Testowaniem bezpieczeństwa aplikacji webowych.
 - C) Analizą statyczną kodu.
 - D) Automatyzacją testów funkcjonalnych.
+
 **✅ Odpowiedź:** B
 
 ---
@@ -104,6 +113,117 @@ sidebar_position: 17
 - B) Selenium.
 - C) JIRA.
 - D) Postman.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 11:** Które z poniższych narzędzi jest używane do automatyzacji testów interfejsu użytkownika aplikacji webowych?
+
+- A) Selenium.
+- B) JMeter.
+- C) SonarQube.
+- D) Postman.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 12:** Jakie jest główne zastosowanie narzędzia JMeter?
+
+- A) Testowanie wydajności i obciążenia systemów.
+- B) Automatyzacja testów interfejsu użytkownika.
+- C) Analiza jakości kodu.
+- D) Testowanie jednostkowe.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 13:** Które narzędzie służy do testowania interfejsów API?
+
+- A) Postman.
+- B) Selenium.
+- C) JIRA.
+- D) SonarQube.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 14:** Które narzędzie pozwala na analizę statyczną kodu źródłowego?
+
+- A) SonarQube.
+- B) JIRA.
+- C) Selenium.
+- D) TestRail.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 15:** Jakie narzędzie jest używane do zarządzania testami i przypadkami testowymi?
+
+- A) TestRail.
+- B) Selenium.
+- C) Jenkins.
+- D) Postman.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 16:** Które z poniższych narzędzi wspiera testowanie bezpieczeństwa aplikacji webowych?
+
+- A) OWASP ZAP.
+- B) Cypress.
+- C) JMeter.
+- D) Jest.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 17:** Jakie jest główne zastosowanie narzędzia Jenkins w testowaniu oprogramowania?
+
+- A) Automatyzacja procesów CI/CD.
+- B) Analiza kodu źródłowego.
+- C) Testowanie wydajnościowe.
+- D) Tworzenie przypadków testowych.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 18:** Które z poniższych narzędzi jest używane do śledzenia defektów?
+
+- A) JIRA.
+- B) Postman.
+- C) Selenium.
+- D) JMeter.
+
+**✅ Odpowiedź:** A
+
+---
+
+**Pytanie 19:** Jakie narzędzie jest często używane do testowania wydajności aplikacji mobilnych?
+
+- A) Gatling.
+- B) JMeter.
+- C) SonarQube.
+- D) OWASP ZAP.
+
+**✅ Odpowiedź:** B
+
+---
+
+**Pytanie 20:** Które narzędzie pozwala na automatyzację testów aplikacji mobilnych?
+
+- A) Appium.
+- B) Selenium.
+- C) JIRA.
+- D) TestRail.
+
 **✅ Odpowiedź:** A
 
 ---
