@@ -535,6 +535,60 @@
         <category label="Ochrona Sieci" term="Ochrona Sieci"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Espressif IDF (ESP-IDF) i inne platformy do programowania ESP32]]></title>
+        <id>https://www.majdak.online/blog/espressif-idf</id>
+        <link href="https://www.majdak.online/blog/espressif-idf"/>
+        <updated>2024-03-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🔍 Wprowadzenie]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wprowadzenie">🔍 Wprowadzenie<a href="https://www.majdak.online/blog/espressif-idf#-wprowadzenie" class="hash-link" aria-label="Direct link to 🔍 Wprowadzenie" title="Direct link to 🔍 Wprowadzenie">​</a></h2>
+<p>ESP32 to jedna z najpopularniejszych platform IoT, oferująca wsparcie dla Wi-Fi i Bluetooth. Espressif dostarcza własne środowisko do programowania - <strong>ESP-IDF (Espressif IoT Development Framework)</strong>. Oprócz niego istnieje wiele innych platform, które pozwalają na wygodne tworzenie oprogramowania dla ESP32.</p>
+<p>W tym artykule omówimy <strong>ESP-IDF</strong> oraz inne popularne platformy do programowania ESP32 wraz z ich zaletami i wadami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-espressif-iot-development-framework-esp-idf">🚀 Espressif IoT Development Framework (ESP-IDF)<a href="https://www.majdak.online/blog/espressif-idf#-espressif-iot-development-framework-esp-idf" class="hash-link" aria-label="Direct link to 🚀 Espressif IoT Development Framework (ESP-IDF)" title="Direct link to 🚀 Espressif IoT Development Framework (ESP-IDF)">​</a></h2>
+<p><strong>ESP-IDF</strong> to oficjalne środowisko deweloperskie firmy Espressif, przeznaczone do programowania płytek ESP32 w języku <strong>C/C++</strong>. Jest to najbardziej zaawansowana platforma, oferująca dostęp do pełnych możliwości układu.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-zalety">✅ Zalety:<a href="https://www.majdak.online/blog/espressif-idf#-zalety" class="hash-link" aria-label="Direct link to ✅ Zalety:" title="Direct link to ✅ Zalety:">​</a></h3>
+<ul>
+<li>Pełna kontrola nad sprzętem ESP32</li>
+<li>Wsparcie dla niskopoziomowych funkcji, takich jak zarządzanie pamięcią czy kontrola procesora</li>
+<li>Możliwość optymalizacji kodu i użycia RTOS (FreeRTOS)</li>
+<li>Regularne aktualizacje i wsparcie Espressif</li>
+<li>Kompatybilność z bibliotekami i sterownikami Espressif</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-wady">❌ Wady:<a href="https://www.majdak.online/blog/espressif-idf#-wady" class="hash-link" aria-label="Direct link to ❌ Wady:" title="Direct link to ❌ Wady:">​</a></h3>
+<ul>
+<li>Wysoka krzywa uczenia się – wymaga znajomości C/C++ oraz RTOS</li>
+<li>Konfiguracja może być skomplikowana dla początkujących</li>
+<li>Dłuższy czas kompilacji niż w niektórych alternatywnych środowiskach</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-alternatywne-platformy-do-programowania-esp32">🔄 Alternatywne platformy do programowania ESP32<a href="https://www.majdak.online/blog/espressif-idf#-alternatywne-platformy-do-programowania-esp32" class="hash-link" aria-label="Direct link to 🔄 Alternatywne platformy do programowania ESP32" title="Direct link to 🔄 Alternatywne platformy do programowania ESP32">​</a></h2>
+<table><thead><tr><th><strong>Platforma</strong></th><th><strong>Język programowania</strong></th><th><strong>Zalety</strong></th><th><strong>Wady</strong></th></tr></thead><tbody><tr><td><strong>Arduino IDE</strong></td><td>C++</td><td>Łatwość użycia, duża społeczność, bogata biblioteka gotowych rozwiązań</td><td>Ograniczona kontrola nad sprzętem, mniej wydajne niż ESP-IDF</td></tr><tr><td><strong>PlatformIO</strong></td><td>C, C++</td><td>Wsparcie dla wielu platform, lepsza integracja z VS Code, łatwiejsza obsługa niż ESP-IDF</td><td>Może być bardziej skomplikowane niż Arduino IDE</td></tr><tr><td><strong>MicroPython</strong></td><td>Python</td><td>Łatwe do nauki, szybkie prototypowanie, interaktywny REPL</td><td>Wolniejsze niż C/C++, ograniczony dostęp do zasobów sprzętowych</td></tr><tr><td><strong>CircuitPython</strong></td><td>Python</td><td>Prostota, duża społeczność, kompatybilność z Adafruit</td><td>Mniejsze wsparcie dla ESP32, brak dostępu do niektórych funkcji układu</td></tr><tr><td><strong>ESPHome</strong></td><td>YAML</td><td>Brak potrzeby kodowania, łatwa integracja z Home Assistant</td><td>Ograniczona elastyczność, głównie do automatyki domowej</td></tr><tr><td><strong>Tasmota</strong></td><td>Brak (konfiguracja przez GUI/YAML)</td><td>Gotowe oprogramowanie dla IoT, łatwa konfiguracja</td><td>Brak elastyczności, ograniczone możliwości personalizacji</td></tr><tr><td><strong>Zephyr RTOS</strong></td><td>C</td><td>Niskopoziomowa kontrola, wsparcie dla wielu platform</td><td>Bardziej skomplikowane niż ESP-IDF, mniejsze wsparcie dla ESP32</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-którą-platformę-wybrać">🎯 Którą platformę wybrać?<a href="https://www.majdak.online/blog/espressif-idf#-kt%C3%B3r%C4%85-platform%C4%99-wybra%C4%87" class="hash-link" aria-label="Direct link to 🎯 Którą platformę wybrać?" title="Direct link to 🎯 Którą platformę wybrać?">​</a></h2>
+<ul>
+<li><strong>Dla początkujących</strong>: Arduino IDE lub MicroPython</li>
+<li><strong>Dla zaawansowanych</strong>: ESP-IDF lub Zephyr RTOS</li>
+<li><strong>Dla automatyki domowej</strong>: ESPHome lub Tasmota</li>
+<li><strong>Dla wsparcia wielu platform</strong>: PlatformIO</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">🔚 Podsumowanie<a href="https://www.majdak.online/blog/espressif-idf#-podsumowanie" class="hash-link" aria-label="Direct link to 🔚 Podsumowanie" title="Direct link to 🔚 Podsumowanie">​</a></h2>
+<p>ESP32 to wszechstronny mikrokontroler, który można programować na wiele sposobów. <strong>ESP-IDF</strong> to najlepszy wybór dla profesjonalistów, ale istnieją też łatwiejsze alternatywy, takie jak <strong>Arduino IDE</strong>, <strong>MicroPython</strong> czy <strong>ESPHome</strong>. Wybór odpowiedniego narzędzia zależy od Twojego poziomu zaawansowania i wymagań projektu.</p>
+<hr>
+<p>📌 <strong>Jakie narzędzie najczęściej wybierasz do programowania ESP32? Daj znać w komentarzu!</strong></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="ESP32" term="ESP32"/>
+        <category label="ESP-IDF" term="ESP-IDF"/>
+        <category label="Arduino" term="Arduino"/>
+        <category label="PlatformIO" term="PlatformIO"/>
+        <category label="MicroPython" term="MicroPython"/>
+        <category label="CircuitPython" term="CircuitPython"/>
+        <category label="ESPHome" term="ESPHome"/>
+        <category label="Tasmota" term="Tasmota"/>
+        <category label="Zephyr RTOS" term="Zephyr RTOS"/>
+        <category label="IoT" term="IoT"/>
+        <category label="tutorial" term="tutorial"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
         <id>https://www.majdak.online/blog/2025/02/20/kurswireshark</id>
         <link href="https://www.majdak.online/blog/2025/02/20/kurswireshark"/>
