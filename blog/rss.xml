@@ -4,46 +4,10 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Mon, 03 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[Pierwsza wersja wtyczki UrlBlocker jest dostępna!]]></title>
-            <link>https://www.majdak.online/blog/url-blocker</link>
-            <guid>https://www.majdak.online/blog/url-blocker</guid>
-            <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🔥 UrlBlocker - pierwsza wersja już dostępna!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-urlblocker---pierwsza-wersja-już-dostępna">🔥 UrlBlocker - pierwsza wersja już dostępna!<a href="https://www.majdak.online/blog/url-blocker#-urlblocker---pierwsza-wersja-ju%C5%BC-dost%C4%99pna" class="hash-link" aria-label="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!" title="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!">​</a></h2>
-<p>Z przyjemnością ogłaszam premierę pierwszej wersji mojej wtyczki do przeglądarek <strong>UrlBlocker</strong>! 🎉</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-co-to-jest-urlblocker">🛠️ Co to jest UrlBlocker?<a href="https://www.majdak.online/blog/url-blocker#%EF%B8%8F-co-to-jest-urlblocker" class="hash-link" aria-label="Direct link to 🛠️ Co to jest UrlBlocker?" title="Direct link to 🛠️ Co to jest UrlBlocker?">​</a></h3>
-<p>UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych adresów URL oraz reklam podczas przeglądania internetu. Dzięki niej możesz:</p>
-<ul>
-<li>🔒 Zablokować konkretne domeny i podstrony.</li>
-<li>🚀 Przyspieszyć ładowanie stron, eliminując zbędne skrypty reklamowe.</li>
-<li>👌 Poprawić prywatność poprzez ograniczenie śledzących elementów.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-jak-pobrać-i-zainstalować">📥 Jak pobrać i zainstalować?<a href="https://www.majdak.online/blog/url-blocker#-jak-pobra%C4%87-i-zainstalowa%C4%87" class="hash-link" aria-label="Direct link to 📥 Jak pobrać i zainstalować?" title="Direct link to 📥 Jak pobrać i zainstalować?">​</a></h3>
-<p>Wtyczka jest dostępna na <strong>GitHubie</strong> pod tym linkiem:<br>
-<!-- -->➡️ <a href="https://github.com/przemyslvw/UrlBlocker" target="_blank" rel="noopener noreferrer"><strong>UrlBlocker na GitHubie</strong></a></p>
-<p>W repozytorium znajdziesz instrukcję instalacji oraz kod źródłowy projektu.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-plany-na-przyszłość">📌 Plany na przyszłość<a href="https://www.majdak.online/blog/url-blocker#-plany-na-przysz%C5%82o%C5%9B%C4%87" class="hash-link" aria-label="Direct link to 📌 Plany na przyszłość" title="Direct link to 📌 Plany na przyszłość">​</a></h3>
-<p>To dopiero pierwsza wersja, ale planuję rozwijać projekt, dodając nowe funkcje, takie jak:</p>
-<ul>
-<li>🔹 Zaawansowane reguły blokowania</li>
-<li>🔹 Lista wyjątków</li>
-<li>🔹 Integracja z popularnymi listami blokowania reklam</li>
-<li>🔹 Automatyczna synchronizacja ustawień między urządzeniami</li>
-</ul>
-<p>Będę wdzięczny za <strong>opinie i sugestie</strong>, a także <strong>pull requesty</strong> od społeczności! Jeśli masz pomysł na usprawnienie, śmiało otwórz nowy <strong>issue</strong> na GitHubie. 😊</p>
-<hr>
-<p>💬 <strong>Masz pytania lub sugestie?</strong> Zostaw komentarz lub napisz do mnie na GitHubie!</p>
-<p>Dzięki za wsparcie! 🚀</p>]]></content:encoded>
-            <category>Browser</category>
-            <category>Extensions</category>
-            <category>Adblock</category>
-            <category>Privacy</category>
-        </item>
         <item>
             <title><![CDATA[Systemy Walki Radioelektronicznej (REB)]]></title>
             <link>https://www.majdak.online/blog/jamming-reb</link>
@@ -312,6 +276,42 @@
             <category>Networking</category>
             <category>Web Security</category>
             <category>Społeczność</category>
+        </item>
+        <item>
+            <title><![CDATA[Pierwsza wersja wtyczki UrlBlocker jest dostępna!]]></title>
+            <link>https://www.majdak.online/blog/url-blocker</link>
+            <guid>https://www.majdak.online/blog/url-blocker</guid>
+            <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🔥 UrlBlocker - pierwsza wersja już dostępna!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-urlblocker---pierwsza-wersja-już-dostępna">🔥 UrlBlocker - pierwsza wersja już dostępna!<a href="https://www.majdak.online/blog/url-blocker#-urlblocker---pierwsza-wersja-ju%C5%BC-dost%C4%99pna" class="hash-link" aria-label="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!" title="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!">​</a></h2>
+<p>Z przyjemnością ogłaszam premierę pierwszej wersji mojej wtyczki do przeglądarek <strong>UrlBlocker</strong>! 🎉</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-co-to-jest-urlblocker">🛠️ Co to jest UrlBlocker?<a href="https://www.majdak.online/blog/url-blocker#%EF%B8%8F-co-to-jest-urlblocker" class="hash-link" aria-label="Direct link to 🛠️ Co to jest UrlBlocker?" title="Direct link to 🛠️ Co to jest UrlBlocker?">​</a></h3>
+<p>UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych adresów URL oraz reklam podczas przeglądania internetu. Dzięki niej możesz:</p>
+<ul>
+<li>🔒 Zablokować konkretne domeny i podstrony.</li>
+<li>🚀 Przyspieszyć ładowanie stron, eliminując zbędne skrypty reklamowe.</li>
+<li>👌 Poprawić prywatność poprzez ograniczenie śledzących elementów.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-jak-pobrać-i-zainstalować">📥 Jak pobrać i zainstalować?<a href="https://www.majdak.online/blog/url-blocker#-jak-pobra%C4%87-i-zainstalowa%C4%87" class="hash-link" aria-label="Direct link to 📥 Jak pobrać i zainstalować?" title="Direct link to 📥 Jak pobrać i zainstalować?">​</a></h3>
+<p>Wtyczka jest dostępna na <strong>GitHubie</strong> pod tym linkiem:<br>
+<!-- -->➡️ <a href="https://github.com/przemyslvw/UrlBlocker" target="_blank" rel="noopener noreferrer"><strong>UrlBlocker na GitHubie</strong></a></p>
+<p>W repozytorium znajdziesz instrukcję instalacji oraz kod źródłowy projektu.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-plany-na-przyszłość">📌 Plany na przyszłość<a href="https://www.majdak.online/blog/url-blocker#-plany-na-przysz%C5%82o%C5%9B%C4%87" class="hash-link" aria-label="Direct link to 📌 Plany na przyszłość" title="Direct link to 📌 Plany na przyszłość">​</a></h3>
+<p>To dopiero pierwsza wersja, ale planuję rozwijać projekt, dodając nowe funkcje, takie jak:</p>
+<ul>
+<li>🔹 Zaawansowane reguły blokowania</li>
+<li>🔹 Lista wyjątków</li>
+<li>🔹 Integracja z popularnymi listami blokowania reklam</li>
+<li>🔹 Automatyczna synchronizacja ustawień między urządzeniami</li>
+</ul>
+<p>Będę wdzięczny za <strong>opinie i sugestie</strong>, a także <strong>pull requesty</strong> od społeczności! Jeśli masz pomysł na usprawnienie, śmiało otwórz nowy <strong>issue</strong> na GitHubie. 😊</p>
+<hr>
+<p>💬 <strong>Masz pytania lub sugestie?</strong> Zostaw komentarz lub napisz do mnie na GitHubie!</p>
+<p>Dzięki za wsparcie! 🚀</p>]]></content:encoded>
+            <category>Browser</category>
+            <category>Extensions</category>
+            <category>Adblock</category>
+            <category>Privacy</category>
         </item>
         <item>
             <title><![CDATA[Kompleksowy przewodnik po Pi-hole!]]></title>
