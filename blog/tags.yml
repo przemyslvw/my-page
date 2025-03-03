@@ -132,3 +132,148 @@ ochrona-sieci:
   label: Ochrona Sieci
   permalink: /ochrona-sieci
   description: Techniki i narzędzia ochrony sieci komputerowych.
+
+browser:
+  label: Browser
+  permalink: /browser
+  description: Przeglądarki internetowe i ich rozszerzenia.
+
+extensions:
+  label: Extensions
+  permalink: /extensions
+  description: Rozszerzenia przeglądarek internetowych.
+
+adblock:
+  label: Adblock
+  permalink: /adblock
+  description: Blokowanie reklam w przeglądarkach internetowych.
+
+privacy:
+  label: Privacy
+  permalink: /privacy
+  description: Ochrona prywatności w sieci.
+
+esp-idf:
+  label: ESP-IDF
+  permalink: /esp-idf
+  description: Framework do programowania mikrokontrolerów ESP32.
+
+arduino:
+  label: Arduino
+  permalink: /arduino
+  description: Platforma do prototypowania elektroniki.
+
+platformio:
+  label: PlatformIO
+  permalink: /platformio
+  description: Ekosystem do programowania mikrokontrolerów.
+
+micropython:
+  label: MicroPython
+  permalink: /micropython
+  description: Implementacja Pythona dla mikrokontrolerów.
+
+circuitpython:
+  label: CircuitPython
+  permalink: /circuitpython
+  description: Implementacja Pythona dla mikrokontrolerów.
+
+esphome:
+  label: ESPHome
+  permalink: /esphome
+  description: Framework do automatyzacji domowej z użyciem ESP32.
+
+tasmota:
+  label: Tasmota
+  permalink: /tasmota
+  description: Oprogramowanie open-source dla urządzeń IoT.
+
+zephyr-rtos:
+  label: Zephyr RTOS
+  permalink: /zephyr-rtos
+  description: System operacyjny czasu rzeczywistego dla mikrokontrolerów.
+
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Poradniki i instrukcje krok po kroku.
+
+testing:
+  label: Testing
+  permalink: /testing
+  description: Testowanie oprogramowania.
+
+istqb:
+  label: ISTQB
+  permalink: /istqb
+  description: Certyfikacja ISTQB.
+
+certification:
+  label: Certification
+  permalink: /certification
+  description: Certyfikacje i egzaminy.
+
+software-testing:
+  label: Software Testing
+  permalink: /software-testing
+  description: Testowanie oprogramowania.
+
+terminal:
+  label: Terminal
+  permalink: /terminal
+  description: Zarządzanie terminalem i jego historia.
+
+history:
+  label: History
+  permalink: /history
+  description: Historia i zarządzanie.
+
+management:
+  label: Management
+  permalink: /management
+  description: Zarządzanie i organizacja.
+
+atuin:
+  label: Atuin
+  permalink: /atuin
+  description: Narzędzie do zarządzania historią terminala.
+
+bezpieczeństwo:
+  label: Bezpieczeństwo
+  permalink: /bezpieczenstwo
+  description: Poradniki dotyczące bezpieczeństwa.
+
+sieć:
+  label: Sieć
+  permalink: /siec
+  description: Poradniki dotyczące sieci komputerowych.
+
+poradnik:
+  label: Poradnik
+  permalink: /poradnik
+  description: Instrukcje krok po kroku.
+
+drony:
+  label: Drony
+  permalink: /drony
+  description: Technologie dronów i UAV.
+
+wojsko:
+  label: Wojsko
+  permalink: /wojsko
+  description: Technologie wojskowe.
+
+technologie:
+  label: Technologie
+  permalink: /technologie
+  description: Nowoczesne technologie.
+
+uav:
+  label: UAV
+  permalink: /uav
+  description: Bezzałogowe statki powietrzne.
+
+bsp:
+  label: BSP
+  permalink: /bsp
+  description: Bezzałogowe systemy powietrzne.
