@@ -3,7 +3,7 @@ slug: url-blocker
 title: "Pierwsza wersja wtyczki UrlBlocker jest dostępna!"
 authors: [przemyslvw]
 tags: ["browser", "extensions", "adblock", "privacy"]
-date: 2025-03-03
+date: 2025-01-12
 ---
 
 ## 🔥 UrlBlocker - pierwsza wersja już dostępna!
@@ -16,6 +16,8 @@ UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych 
 - 🔒 Zablokować konkretne domeny i podstrony.
 - 🚀 Przyspieszyć ładowanie stron, eliminując zbędne skrypty reklamowe.
 - 👌 Poprawić prywatność poprzez ograniczenie śledzących elementów.
+
+<!-- truncate -->
 
 ### 📥 Jak pobrać i zainstalować?
 Wtyczka jest dostępna na **GitHubie** pod tym linkiem:  
