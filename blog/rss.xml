@@ -39,10 +39,10 @@
 <hr>
 <p>💬 <strong>Masz pytania lub sugestie?</strong> Zostaw komentarz lub napisz do mnie na GitHubie!</p>
 <p>Dzięki za wsparcie! 🚀</p>]]></content:encoded>
-            <category>browser</category>
-            <category>extensions</category>
-            <category>adblock</category>
-            <category>privacy</category>
+            <category>Browser</category>
+            <category>Extensions</category>
+            <category>Adblock</category>
+            <category>Privacy</category>
         </item>
         <item>
             <title><![CDATA[Systemy Walki Radioelektronicznej (REB)]]></title>
@@ -141,9 +141,9 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">📖 Podsumowanie<a href="https://www.majdak.online/blog/jamming-reb#-podsumowanie" class="hash-link" aria-label="Direct link to 📖 Podsumowanie" title="Direct link to 📖 Podsumowanie">​</a></h2>
 <p>Systemy Walki Radioelektronicznej odgrywają kluczową rolę na współczesnym polu walki, umożliwiając zakłócanie systemów przeciwnika bez konieczności stosowania tradycyjnej siły ognia. Ich rozwój stanowi istotny element strategii wojskowych na całym świecie.
 """</p>]]></content:encoded>
-            <category>drony</category>
-            <category>wojsko</category>
-            <category>technologie</category>
+            <category>Drony</category>
+            <category>Wojsko</category>
+            <category>Technologie</category>
             <category>UAV</category>
             <category>BSP</category>
         </item>
@@ -271,9 +271,9 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">📖 Podsumowanie<a href="https://www.majdak.online/blog/wojskowe-drony#-podsumowanie" class="hash-link" aria-label="Direct link to 📖 Podsumowanie" title="Direct link to 📖 Podsumowanie">​</a></h2>
 <p>Drony wojskowe stały się nieodłącznym elementem współczesnych konfliktów zbrojnych. Ich zdolność do prowadzenia misji bez narażania życia pilotów, precyzja ataków i szerokie zastosowanie czynią je kluczowym narzędziem w arsenale armii na całym świecie.
 """</p>]]></content:encoded>
-            <category>drony</category>
-            <category>wojsko</category>
-            <category>technologie</category>
+            <category>Drony</category>
+            <category>Wojsko</category>
+            <category>Technologie</category>
             <category>UAV</category>
             <category>BSP</category>
         </item>
@@ -397,9 +397,9 @@
 <strong>Data publikacji:</strong> 10 październik 2024</p>]]></content:encoded>
             <category>Pi-hole</category>
             <category>Ochrona Sieci</category>
-            <category>bezpieczeństwo</category>
-            <category>sieć</category>
-            <category>poradnik</category>
+            <category>Bezpieczeństwo</category>
+            <category>Sieć</category>
+            <category>Poradnik</category>
         </item>
         <item>
             <title><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
@@ -459,10 +459,10 @@
 <p>👉 <a href="https://www.majdak.online/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl"><strong>Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀</strong>(</a></p>
 <hr>
 <p>✅ <strong>Powodzenia na egzaminie!</strong> 🎉</p>]]></content:encoded>
-            <category>testing</category>
+            <category>Testing</category>
             <category>ISTQB</category>
-            <category>certification</category>
-            <category>software-testing</category>
+            <category>Certification</category>
+            <category>Software Testing</category>
         </item>
         <item>
             <title><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
@@ -595,7 +595,7 @@
             <category>Tasmota</category>
             <category>Zephyr RTOS</category>
             <category>IoT</category>
-            <category>tutorial</category>
+            <category>Tutorial</category>
         </item>
         <item>
             <title><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
@@ -705,11 +705,11 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rozpocznij-teraz">📥 Rozpocznij teraz!<a href="https://www.majdak.online/blog/kurs-atuin#-rozpocznij-teraz" class="hash-link" aria-label="Direct link to 📥 Rozpocznij teraz!" title="Direct link to 📥 Rozpocznij teraz!">​</a></h2>
 <p>➡️ <a href="https://www.majdak.online/docs/category/kurs-atuin---making-your-shell-magical"><strong>Przejdź do pierwszego rozdziału: Wstęp do Atuin</strong></a></p>
 <p>Nie czekaj – zoptymalizuj swoją pracę z terminalem już dziś! 🚀</p>]]></content:encoded>
-            <category>terminal</category>
-            <category>history</category>
-            <category>management</category>
+            <category>Terminal</category>
+            <category>History</category>
+            <category>Management</category>
             <category>Atuin</category>
-            <category>tutorial</category>
+            <category>Tutorial</category>
         </item>
     </channel>
 </rss>

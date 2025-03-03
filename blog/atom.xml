@@ -42,10 +42,10 @@
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="browser" term="browser"/>
-        <category label="extensions" term="extensions"/>
-        <category label="adblock" term="adblock"/>
-        <category label="privacy" term="privacy"/>
+        <category label="Browser" term="Browser"/>
+        <category label="Extensions" term="Extensions"/>
+        <category label="Adblock" term="Adblock"/>
+        <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Systemy Walki Radioelektronicznej (REB)]]></title>
@@ -148,9 +148,9 @@
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="drony" term="drony"/>
-        <category label="wojsko" term="wojsko"/>
-        <category label="technologie" term="technologie"/>
+        <category label="Drony" term="Drony"/>
+        <category label="Wojsko" term="Wojsko"/>
+        <category label="Technologie" term="Technologie"/>
         <category label="UAV" term="UAV"/>
         <category label="BSP" term="BSP"/>
     </entry>
@@ -282,9 +282,9 @@
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="drony" term="drony"/>
-        <category label="wojsko" term="wojsko"/>
-        <category label="technologie" term="technologie"/>
+        <category label="Drony" term="Drony"/>
+        <category label="Wojsko" term="Wojsko"/>
+        <category label="Technologie" term="Technologie"/>
         <category label="UAV" term="UAV"/>
         <category label="BSP" term="BSP"/>
     </entry>
@@ -416,9 +416,9 @@
         </author>
         <category label="Pi-hole" term="Pi-hole"/>
         <category label="Ochrona Sieci" term="Ochrona Sieci"/>
-        <category label="bezpieczeństwo" term="bezpieczeństwo"/>
-        <category label="sieć" term="sieć"/>
-        <category label="poradnik" term="poradnik"/>
+        <category label="Bezpieczeństwo" term="Bezpieczeństwo"/>
+        <category label="Sieć" term="Sieć"/>
+        <category label="Poradnik" term="Poradnik"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
@@ -482,10 +482,10 @@
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="testing" term="testing"/>
+        <category label="Testing" term="Testing"/>
         <category label="ISTQB" term="ISTQB"/>
-        <category label="certification" term="certification"/>
-        <category label="software-testing" term="software-testing"/>
+        <category label="Certification" term="Certification"/>
+        <category label="Software Testing" term="Software Testing"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
@@ -626,7 +626,7 @@
         <category label="Tasmota" term="Tasmota"/>
         <category label="Zephyr RTOS" term="Zephyr RTOS"/>
         <category label="IoT" term="IoT"/>
-        <category label="tutorial" term="tutorial"/>
+        <category label="Tutorial" term="Tutorial"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
@@ -744,10 +744,10 @@
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="terminal" term="terminal"/>
-        <category label="history" term="history"/>
-        <category label="management" term="management"/>
+        <category label="Terminal" term="Terminal"/>
+        <category label="History" term="History"/>
+        <category label="Management" term="Management"/>
         <category label="Atuin" term="Atuin"/>
-        <category label="tutorial" term="tutorial"/>
+        <category label="Tutorial" term="Tutorial"/>
     </entry>
 </feed>
