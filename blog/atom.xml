@@ -249,6 +249,34 @@
         <category label="BSP" term="BSP"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Opracowanie standardu ISO27002]]></title>
+        <id>https://www.majdak.online/blog/iso27002</id>
+        <link href="https://www.majdak.online/blog/iso27002"/>
+        <updated>2025-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem standardu ISO/IEC 27002!]]></summary>
+        <content type="html"><![CDATA[<p>Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem standardu <strong>ISO/IEC 27002</strong>!<br>
+<!-- -->Jest to kluczowy krok w kierunku podniesienia poziomu bezpieczeństwa informacji oraz zgodności z międzynarodowymi standardami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czym-jest-isoiec-27002">📌 Czym jest ISO/IEC 27002?<a href="https://www.majdak.online/blog/iso27002#-czym-jest-isoiec-27002" class="hash-link" aria-label="Direct link to 📌 Czym jest ISO/IEC 27002?" title="Direct link to 📌 Czym jest ISO/IEC 27002?">​</a></h2>
+<p>ISO 27002 to zbiór najlepszych praktyk i wytycznych dotyczących zarządzania bezpieczeństwem informacji.<br>
+<!-- -->Norma ta wspiera organizacje w implementacji skutecznych środków zabezpieczających dane, obejmując takie obszary jak:</p>
+<p>✔️ <strong>Środki organizacyjne</strong> (np. polityki i procedury bezpieczeństwa)<br>
+<!-- -->✔️ <strong>Bezpieczeństwo personelu</strong> (np. szkolenia, kontrola dostępu)<br>
+<!-- -->✔️ <strong>Środki fizyczne</strong> (np. kontrola dostępu do pomieszczeń)<br>
+<!-- -->✔️ <strong>Środki technologiczne</strong> (np. zabezpieczenia sieci i systemów IT)</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-sprawdź-dokument-tutaj">🔗 Sprawdź dokument tutaj:<a href="https://www.majdak.online/blog/iso27002#-sprawd%C5%BA-dokument-tutaj" class="hash-link" aria-label="Direct link to 🔗 Sprawdź dokument tutaj:" title="Direct link to 🔗 Sprawdź dokument tutaj:">​</a></h2>
+<p><a href="https://www.majdak.online/docs/category/dokumentacja---iso27002">/docs/category/dokumentacja---iso27002</a></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="ISO27002" term="ISO27002"/>
+        <category label="bezpieczeństwo informacji" term="bezpieczeństwo informacji"/>
+        <category label="standardy międzynarodowe" term="standardy międzynarodowe"/>
+        <category label="zarządzanie bezpieczeństwem" term="zarządzanie bezpieczeństwem"/>
+        <category label="IT" term="IT"/>
+        <category label="Dokumentacja" term="Dokumentacja"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Dołączyliśmy do ISSA Polska!]]></title>
         <id>https://www.majdak.online/blog/dołączamy-do-issa-polska</id>
         <link href="https://www.majdak.online/blog/dołączamy-do-issa-polska"/>
