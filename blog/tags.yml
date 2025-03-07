@@ -277,3 +277,34 @@ bsp:
   label: BSP
   permalink: /bsp
   description: Bezzałogowe systemy powietrzne.
+
+iso27002:
+  label: ISO27002
+  permalink: /iso27002
+  description: Standardy bezpieczeństwa informacji zgodne z ISO27002.
+
+bezpieczeństwo-informacji:
+  label: Bezpieczeństwo Informacji
+  permalink: /bezpieczenstwo-informacji
+  description: Ochrona i zarządzanie bezpieczeństwem informacji.
+
+standardy-międzynarodowe:
+  label: Standardy Międzynarodowe
+  permalink: /standardy-miedzynarodowe
+  description: Międzynarodowe standardy i normy.
+
+zarządzanie-bezpieczeństwem:
+  label: Zarządzanie Bezpieczeństwem
+  permalink: /zarzadzanie-bezpieczenstwem
+  description: Zarządzanie bezpieczeństwem w organizacjach.
+
+it:
+  label: IT
+  permalink: /it
+  description: Technologie informacyjne i ich zastosowania.
+
+dokumentacja:
+  label: Dokumentacja
+  permalink: /dokumentacja
+  description: Dokumentacja techniczna i użytkowa.
+
