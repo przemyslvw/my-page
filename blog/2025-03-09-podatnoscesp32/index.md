@@ -1,3 +1,11 @@
+---
+slug: esp32-Tarlogic
+title: "Tarlogic wykrywa ukrytą funkcję w popularnym chipie ESP32, która może zagrozić milionom urządzeń IoT"
+authors: [przemyslvw]
+tags: [ESP32, ESP-IDF, Arduino, PlatformIO, MicroPython, CircuitPython, ESPHome, IoT]
+date: 2025-03-09
+---
+
 # Tarlogic wykrywa ukrytą funkcję w popularnym chipie ESP32, która może zagrozić milionom urządzeń IoT
 
 ## Wprowadzenie
