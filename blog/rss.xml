@@ -4,10 +4,40 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Mon, 24 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 09 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Tarlogic wykrywa ukrytą funkcję w popularnym chipie ESP32, która może zagrozić milionom urządzeń IoT]]></title>
+            <link>https://www.majdak.online/blog/2025/03/09/podatnoscesp32</link>
+            <guid>https://www.majdak.online/blog/2025/03/09/podatnoscesp32</guid>
+            <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wprowadzenie]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h2>
+<p>Zespół badawczy z firmy Tarlogic Security odkrył nieudokumentowaną funkcję w mikrokontrolerze ESP32, szeroko stosowanym w urządzeniach IoT. To odkrycie rodzi poważne obawy dotyczące bezpieczeństwa milionów urządzeń na całym świecie. 5</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="czym-jest-esp32">Czym jest ESP32?<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#czym-jest-esp32" class="hash-link" aria-label="Direct link to Czym jest ESP32?" title="Direct link to Czym jest ESP32?">​</a></h2>
+<p>ESP32 to seria niskokosztowych, energooszczędnych mikrokontrolerów z wbudowanym Wi-Fi i Bluetooth, opracowanych przez chińską firmę Espressif Systems. Od momentu wprowadzenia na rynek w 2016 roku, ESP32 znalazł zastosowanie w szerokiej gamie urządzeń, od inteligentnych domów po sprzęt medyczny. 13</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="odkrycie-tarlogic">Odkrycie Tarlogic<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#odkrycie-tarlogic" class="hash-link" aria-label="Direct link to Odkrycie Tarlogic" title="Direct link to Odkrycie Tarlogic">​</a></h2>
+<p>Podczas konferencji RootedCON 2025, badacze z Tarlogic przedstawili wyniki swoich badań nad ESP32. Odkryli oni nieudokumentowane komendy w firmware Bluetooth tego chipu, które mogą umożliwić atakującym przejęcie kontroli nad urządzeniami, modyfikację pamięci oraz podszywanie się pod inne urządzenia Bluetooth. 21</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="potencjalne-zagrożenia">Potencjalne zagrożenia<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#potencjalne-zagro%C5%BCenia" class="hash-link" aria-label="Direct link to Potencjalne zagrożenia" title="Direct link to Potencjalne zagrożenia">​</a></h2>
+<p>Wykorzystanie tych ukrytych funkcji stwarza szereg zagrożeń:25</p>
+<ul>
+<li>
+<p><strong>Ataki typu impersonation</strong>: Atakujący mogą podszywać się pod zaufane urządzenia, uzyskując nieautoryzowany dostęp do systemów.29</p>
+</li>
+<li>
+<p><strong>Trwałe infekcje</strong>: Możliwość modyfikacji pamięci pozwala na wprowadzenie złośliwego kodu, który przetrwa restart urządzenia.33</p>
+</li>
+<li>
+<p><strong>Ataki na łańcuch dostaw</strong>: Ukryte komendy mogą być wykorzystane do wprowadzenia backdoorów na etapie produkcji, co stanowi zagrożenie dla całego ekosystemu IoT. 38</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reakcja-społeczności-i-producenta">Reakcja społeczności i producenta<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#reakcja-spo%C5%82eczno%C5%9Bci-i-producenta" class="hash-link" aria-label="Direct link to Reakcja społeczności i producenta" title="Direct link to Reakcja społeczności i producenta">​</a></h2>
+<p>Odkrycie Tarlogic spotkało się z szerokim echem w społeczności bezpieczeństwa. Jednak do tej pory producent ESP32, firma Espressif Systems, nie wydała oficjalnego oświadczenia w tej sprawie. 46</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wnioski">Wnioski<a href="https://www.majdak.online/blog/2025/03/09/podatnoscesp32#wnioski" class="hash-link" aria-label="Direct link to Wnioski" title="Direct link to Wnioski">​</a></h2>
+<p>Odkrycie ukrytej funkcji w chipie ESP32 podkreśla potrzebę ciągłego monitorowania i audytu bezpieczeństwa urządzeń IoT. Użytkownicy i producenci powinni być świadomi potencjalnych zagrożeń i podejmować odpowiednie środki w celu zabezpieczenia swoich urządzeń.53</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Systemy Walki Radioelektronicznej (REB)]]></title>
             <link>https://www.majdak.online/blog/jamming-reb</link>
