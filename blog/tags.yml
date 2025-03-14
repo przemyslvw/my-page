@@ -308,3 +308,22 @@ dokumentacja:
   permalink: /dokumentacja
   description: Dokumentacja techniczna i użytkowa.
 
+military:
+  label: Military
+  permalink: /military
+  description: Technologie wojskowe i obronne.
+
+communication:
+  label: Communication
+  permalink: /communication
+  description: Technologie komunikacyjne i ich zastosowania.
+
+link-16:
+  label: Link 16
+  permalink: /link-16
+  description: Systemy komunikacji Link 16.
+
+nato:
+  label: NATO
+  permalink: /nato
+  description: Organizacja Traktatu Północnoatlantyckiego i jej działania.
