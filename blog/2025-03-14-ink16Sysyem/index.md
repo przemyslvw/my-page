@@ -12,6 +12,8 @@ date: 2025-03-14
 
 **Link 16** to wojskowy system wymiany danych, który umożliwia bezpieczną i odporną na zakłócenia komunikację pomiędzy jednostkami sił zbrojnych. Jest szeroko wykorzystywany przez NATO oraz siły sojusznicze w celu synchronizacji działań bojowych, poprawy świadomości sytuacyjnej oraz zapewnienia skuteczniejszego dowodzenia i kontroli (C2).
 
+<!-- truncate -->
+
 ## 🔍 Kluczowe cechy Link 16
 
 - **Szyfrowana i odporna na zakłócenia transmisja** – wykorzystuje metody rozpraszania widma (FHSS – Frequency-Hopping Spread Spectrum) i szyfrowania danych.

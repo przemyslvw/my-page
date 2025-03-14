@@ -14,6 +14,8 @@ ESP32 to jedna z najpopularniejszych platform IoT, oferująca wsparcie dla Wi-Fi
 
 W tym artykule omówimy **ESP-IDF** oraz inne popularne platformy do programowania ESP32 wraz z ich zaletami i wadami.
 
+<!-- truncate -->
+
 ## 🚀 Espressif IoT Development Framework (ESP-IDF)
 
 **ESP-IDF** to oficjalne środowisko deweloperskie firmy Espressif, przeznaczone do programowania płytek ESP32 w języku **C/C++**. Jest to najbardziej zaawansowana platforma, oferująca dostęp do pełnych możliwości układu.
