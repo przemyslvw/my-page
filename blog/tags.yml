@@ -328,11 +328,6 @@ nato:
   permalink: /nato
   description: Organizacja Traktatu Północnoatlantyckiego i jej działania.
 
-cybersecurity:
-  label: Cybersecurity
-  permalink: /cybersecurity
-  description: Wszystko o bezpieczeństwie IT i cyberzagrożeniach.
-
 webapp:
   label: Web Application
   permalink: /webapp
