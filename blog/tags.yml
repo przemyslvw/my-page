@@ -327,3 +327,23 @@ nato:
   label: NATO
   permalink: /nato
   description: Organizacja Traktatu Północnoatlantyckiego i jej działania.
+
+  cybersecurity:
+  label: Cybersecurity
+  permalink: /cybersecurity
+  description: Wszystko o bezpieczeństwie IT i cyberzagrożeniach.
+
+webapp:
+  label: Web Application
+  permalink: /webapp
+  description: Aplikacje webowe i ich bezpieczeństwo.
+
+pentesting:
+  label: Penetration Testing
+  permalink: /pentesting
+  description: Testowanie penetracyjne i techniki zabezpieczeń.
+
+owasp:
+  label: OWASP
+  permalink: /owasp
+  description: Open Web Application Security Project i jego wytyczne.
