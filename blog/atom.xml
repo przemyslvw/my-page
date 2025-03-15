@@ -2,11 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-03-14T00:00:00.000Z</updated>
+    <updated>2025-03-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🔍 Kompletny kurs testów penetracyjnych aplikacji webowych!]]></title>
+        <id>https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs</id>
+        <link href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs"/>
+        <updated>2025-03-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bezpieczeństwo aplikacji webowych to jedno z najważniejszych zagadnień w dzisiejszym świecie IT. Coraz częściej słyszymy o wyciekach danych, atakach na API czy przejęciach kont użytkowników. Aby skutecznie chronić aplikacje, warto znać techniki stosowane przez atakujących – dlatego stworzyliśmy kompletny kurs testów penetracyjnych aplikacji webowych! 💥]]></summary>
+        <content type="html"><![CDATA[<p>Bezpieczeństwo aplikacji webowych to jedno z najważniejszych zagadnień w dzisiejszym świecie IT. Coraz częściej słyszymy o wyciekach danych, atakach na API czy przejęciach kont użytkowników. Aby skutecznie chronić aplikacje, warto znać techniki stosowane przez atakujących – dlatego stworzyliśmy <strong>kompletny kurs testów penetracyjnych aplikacji webowych!</strong> 💥</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">🎯 Co znajdziesz w kursie?<a href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to 🎯 Co znajdziesz w kursie?" title="Direct link to 🎯 Co znajdziesz w kursie?">​</a></h2>
+<p>✅ <strong>Pełne wprowadzenie do Kali Linux i narzędzi pentesterskich</strong> – konfiguracja systemu, podstawowe skrypty, zarządzanie terminalem.
+✅ <strong>Metodologia pentestingu</strong> – od rozpoznania po raportowanie.
+✅ <strong>Eksploatacja podatności z OWASP Top 10</strong> – SQL Injection, XSS, IDOR, SSRF, RCE i wiele więcej!
+✅ <strong>Testowanie API i WebSockets</strong> – jak atakować REST, GraphQL i obsługiwać podatności w WebSockets.
+✅ <strong>Ataki na uwierzytelnianie (2FA Bypass, bruteforce, JWT manipulation)</strong> – przejęcie sesji użytkownika.
+✅ <strong>Automatyzacja testów i Metasploit</strong> – jak pisać własne skrypty pentesterskie.
+✅ <strong>Testowanie aplikacji w chmurze (AWS, Azure, GCP)</strong> – błędne konfiguracje, przejmowanie zasobów.
+✅ <strong>Ćwiczenia na realnych scenariuszach</strong> – Hack The Box, TryHackMe, DVWA, OWASP Juice Shop.
+✅ <strong>Tworzenie profesjonalnych raportów pentesterskich</strong> – jak dokumentować podatności i przygotować raport dla klienta.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-dla-kogo-jest-ten-kurs">🛠️ Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs#%EF%B8%8F-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 🛠️ Dla kogo jest ten kurs?" title="Direct link to 🛠️ Dla kogo jest ten kurs?">​</a></h2>
+<p>🔹 Dla początkujących, którzy chcą wejść w świat pentestingu.
+🔹 Dla developerów i DevSecOps, którzy chcą lepiej zabezpieczać aplikacje.
+🔹 Dla specjalistów IT, którzy chcą zdobyć praktyczne umiejętności w cyberbezpieczeństwie.
+🔹 Dla osób przygotowujących się do certyfikatów <strong>OSCP, eWPTX, CEH</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-jak-zacząć">🚀 Jak zacząć?<a href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs#-jak-zacz%C4%85%C4%87" class="hash-link" aria-label="Direct link to 🚀 Jak zacząć?" title="Direct link to 🚀 Jak zacząć?">​</a></h2>
+<p>Kurs jest dostępny w formacie Markdown i może być używany jako baza wiedzy dla pentesterów. Możesz go pobrać, edytować i rozszerzać o własne doświadczenia. Wystarczy rozpocząć naukę od pierwszego rozdziału i przechodzić kolejne kroki.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dodatkowe-zasoby">📚 Dodatkowe zasoby<a href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs#-dodatkowe-zasoby" class="hash-link" aria-label="Direct link to 📚 Dodatkowe zasoby" title="Direct link to 📚 Dodatkowe zasoby">​</a></h2>
+<ul>
+<li><strong>Hack The Box</strong>: <a href="https://www.hackthebox.com/" target="_blank" rel="noopener noreferrer">https://www.hackthebox.com/</a></li>
+<li><strong>TryHackMe</strong>: <a href="https://tryhackme.com/" target="_blank" rel="noopener noreferrer">https://tryhackme.com/</a></li>
+<li><strong>PortSwigger Academy (Burp Suite)</strong>: <a href="https://portswigger.net/web-security" target="_blank" rel="noopener noreferrer">https://portswigger.net/web-security</a></li>
+<li><strong>OWASP Top 10</strong>: <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">https://owasp.org/www-project-top-ten/</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-gotowy-na-wyzwanie">🎓 Gotowy na wyzwanie?<a href="https://www.majdak.online/blog/2025/03/15/webapp-pentestink-kurs#-gotowy-na-wyzwanie" class="hash-link" aria-label="Direct link to 🎓 Gotowy na wyzwanie?" title="Direct link to 🎓 Gotowy na wyzwanie?">​</a></h2>
+<p>Jeśli chcesz zostać profesjonalnym pentesterem, zacznij już dziś! Przejdź przez wszystkie etapy kursu, ćwicz na platformach pentesterskich i dokumentuj swoje postępy. <strong>Bezpieczeństwo to nie tylko teoria – to praktyka!</strong> 🔥</p>
+<p>📢 Udostępnij ten post i podziel się swoimi wrażeniami! Czy masz pytania? Daj nam znać w komentarzach! 🛡️💡</p>]]></content>
+        <author>
+            <name>przemyslvw</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🔗 System Link 16 – Podstawy i Zastosowanie]]></title>
         <id>https://www.majdak.online/blog/system-link-16</id>
