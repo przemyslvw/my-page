@@ -1,8 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
 
-# Majdak Think Tank
 
 **Majdak Think Tank** to przestrzeń dla pasjonatów technologii, bezpieczeństwa IT, automatyzacji oraz innowacyjnych rozwiązań. Tworzymy bazę wiedzy, analizy i praktyczne poradniki dla tych, którzy chcą zgłębiać tematykę cyberbezpieczeństwa, programowania, automatyzacji oraz tworzenia aplikacji internetowych.
 
