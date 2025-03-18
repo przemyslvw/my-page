@@ -2,11 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-03-16T00:00:00.000Z</updated>
+    <updated>2025-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Bomba logiczna – zagrożenie i metody zabezpieczenia]]></title>
+        <id>https://www.majdak.online/blog/bomba-logiczna</id>
+        <link href="https://www.majdak.online/blog/bomba-logiczna"/>
+        <updated>2025-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Bomba logiczna to złośliwy fragment kodu, który jest ukryty w oprogramowaniu i aktywuje się tylko po spełnieniu określonych warunków. Może powodować zniszczenie danych, wyłączenie systemów lub otwarcie furtki dla atakującego. W przeciwieństwie do tradycyjnego wirusa, bomba logiczna nie działa od razu – czeka na określony moment lub zdarzenie.]]></summary>
+        <content type="html"><![CDATA[<p>Bomba logiczna to <strong>złośliwy fragment kodu</strong>, który jest ukryty w oprogramowaniu i <strong>aktywuje się tylko po spełnieniu określonych warunków</strong>. Może powodować zniszczenie danych, wyłączenie systemów lub otwarcie furtki dla atakującego. W przeciwieństwie do tradycyjnego wirusa, bomba logiczna nie działa od razu – czeka na określony moment lub zdarzenie.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-jak-działa-bomba-logiczna">🎯 Jak działa bomba logiczna?<a href="https://www.majdak.online/blog/bomba-logiczna#-jak-dzia%C5%82a-bomba-logiczna" class="hash-link" aria-label="Direct link to 🎯 Jak działa bomba logiczna?" title="Direct link to 🎯 Jak działa bomba logiczna?">​</a></h2>
+<p>Bomba logiczna pozostaje <strong>uśpiona</strong>, dopóki nie zostaną spełnione konkretne warunki, np.:</p>
+<p>✔️ Upływ określonego czasu (np. konkretna data – tzw. "time bomb")<br>
+<!-- -->✔️ Uruchomienie konkretnej aplikacji<br>
+<!-- -->✔️ Osiągnięcie określonego progu zasobów systemowych<br>
+<!-- -->✔️ Usunięcie konta użytkownika lub administratora<br>
+<!-- -->✔️ Otwarcie pliku o konkretnej nazwie</p>
+<p>Po spełnieniu warunku kod złośliwy <strong>uruchamia się</strong>, powodując destrukcyjne skutki.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-przykłady-ataków-z-użyciem-bomby-logicznej">⚠️ Przykłady ataków z użyciem bomby logicznej<a href="https://www.majdak.online/blog/bomba-logiczna#%EF%B8%8F-przyk%C5%82ady-atak%C3%B3w-z-u%C5%BCyciem-bomby-logicznej" class="hash-link" aria-label="Direct link to ⚠️ Przykłady ataków z użyciem bomby logicznej" title="Direct link to ⚠️ Przykłady ataków z użyciem bomby logicznej">​</a></h2>
+<p>🔹 <strong>Atak na banki w USA (2002)</strong> – Były administrator IT umieścił bombę logiczną w systemie, aby po jego zwolnieniu usunęła kluczowe dane.<br>
+<!-- -->🔹 <strong>Bomba w korporacji (2008)</strong> – Inżynier IT przygotował złośliwy kod, który miał dezaktywować serwery, jeśli jego login zostanie usunięty.<br>
+<!-- -->🔹 <strong>Time bomb w oprogramowaniu licencyjnym</strong> – Niektóre programy wyłączają się po upływie czasu testowego – to legalne wykorzystanie tego mechanizmu.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-jak-zabezpieczyć-się-przed-bombą-logiczną">🛡️ Jak zabezpieczyć się przed bombą logiczną?<a href="https://www.majdak.online/blog/bomba-logiczna#%EF%B8%8F-jak-zabezpieczy%C4%87-si%C4%99-przed-bomb%C4%85-logiczn%C4%85" class="hash-link" aria-label="Direct link to 🛡️ Jak zabezpieczyć się przed bombą logiczną?" title="Direct link to 🛡️ Jak zabezpieczyć się przed bombą logiczną?">​</a></h2>
+<p>Aby skutecznie chronić systemy IT przed bombą logiczną, należy wdrożyć <strong>wielopoziomowe zabezpieczenia</strong>:</p>
+<p>🔹 <strong>Monitorowanie zmian w kodzie źródłowym i skryptach</strong> – szczególnie w systemach o wysokim poziomie automatyzacji.<br>
+<!-- -->🔹 <strong>Audyt dostępu do krytycznych systemów</strong> – weryfikowanie działań administratorów i programistów.<br>
+<!-- -->🔹 <strong>Systemy wykrywania anomalii</strong> – monitoring aktywności użytkowników i nietypowego działania aplikacji.<br>
+<!-- -->🔹 <strong>Backupy i plany awaryjne</strong> – regularne kopie zapasowe pozwalają przywrócić dane po ataku.<br>
+<!-- -->🔹 <strong>Polityka minimalnych uprawnień (Least Privilege)</strong> – ograniczenie dostępu do systemów i skryptów tylko dla osób, które go naprawdę potrzebują.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">🔗 Podsumowanie<a href="https://www.majdak.online/blog/bomba-logiczna#-podsumowanie" class="hash-link" aria-label="Direct link to 🔗 Podsumowanie" title="Direct link to 🔗 Podsumowanie">​</a></h2>
+<p>Bomba logiczna to jedno z najbardziej podstępnych zagrożeń cyberbezpieczeństwa, ponieważ może pozostać niezauważona przez długi czas. <strong>Regularny audyt, monitoring i restrykcyjna polityka dostępu</strong> to kluczowe elementy ochrony przed takim atakiem.</p>
+<p>Czy Twoja organizacja ma skuteczne mechanizmy obrony przed bombą logiczną? Podziel się swoimi doświadczeniami w komentarzach!</p>
+<p>📧 <strong>Kontakt:</strong> <a href="mailto:kontakt@majdak.online" target="_blank" rel="noopener noreferrer">kontakt@majdak.online</a></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="IT" term="IT"/>
+        <category label="Bezpieczeństwo" term="Bezpieczeństwo"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Drony Przekaźnikowe – Roje Odporne na Zakłócenia w Nowoczesnej Wojnie]]></title>
         <id>https://www.majdak.online/blog/drony-przekazniki</id>
@@ -85,6 +125,40 @@
         <category label="Drony" term="Drony"/>
         <category label="Communication" term="Communication"/>
         <category label="Technologie" term="Technologie"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opracowanie dokumentacji ISO27001]]></title>
+        <id>https://www.majdak.online/blog/iso27001</id>
+        <link href="https://www.majdak.online/blog/iso27001"/>
+        <updated>2025-03-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem dokumentacji dla standardu ISO/IEC 27001!]]></summary>
+        <content type="html"><![CDATA[<p>Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem dokumentacji dla standardu <strong>ISO/IEC 27001</strong>!<br>
+<!-- -->To niezwykle istotny krok w kierunku skutecznego zarządzania bezpieczeństwem informacji i zgodności z międzynarodowymi wymaganiami regulacyjnymi.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czym-jest-isoiec-27001">📌 Czym jest ISO/IEC 27001?<a href="https://www.majdak.online/blog/iso27001#-czym-jest-isoiec-27001" class="hash-link" aria-label="Direct link to 📌 Czym jest ISO/IEC 27001?" title="Direct link to 📌 Czym jest ISO/IEC 27001?">​</a></h2>
+<p>ISO 27001 to międzynarodowy standard określający wymagania dotyczące <strong>Systemu Zarządzania Bezpieczeństwem Informacji (SZBI)</strong>. Jego wdrożenie pomaga organizacjom w ochronie poufności, integralności i dostępności danych. Standard ten koncentruje się na <strong>podejściu opartym na ryzyku</strong>, umożliwiając organizacjom identyfikację i minimalizowanie zagrożeń.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kluczowe-elementy-dokumentacji-iso-27001">📑 Kluczowe elementy dokumentacji ISO 27001<a href="https://www.majdak.online/blog/iso27001#-kluczowe-elementy-dokumentacji-iso-27001" class="hash-link" aria-label="Direct link to 📑 Kluczowe elementy dokumentacji ISO 27001" title="Direct link to 📑 Kluczowe elementy dokumentacji ISO 27001">​</a></h2>
+<p>Tworzenie dokumentacji zgodnej z ISO 27001 obejmuje kilka kluczowych obszarów, które organizacja powinna wdrożyć, aby spełnić wymagania normy:</p>
+<p>✔️ <strong>Polityka bezpieczeństwa informacji</strong> – główny dokument określający cele i zasady bezpieczeństwa.<br>
+<!-- -->✔️ <strong>Analiza ryzyka</strong> – proces identyfikacji, oceny i zarządzania zagrożeniami dla informacji.<br>
+<!-- -->✔️ <strong>Deklaracja stosowalności (SoA)</strong> – dokumentacja kontrolnych mechanizmów bezpieczeństwa oraz uzasadnienie ich wdrożenia.<br>
+<!-- -->✔️ <strong>Procedury operacyjne</strong> – szczegółowe instrukcje dotyczące zarządzania dostępem, kopii zapasowych, zarządzania incydentami, kryptografii itp.<br>
+<!-- -->✔️ <strong>Plan ciągłości działania</strong> – dokumentacja strategii postępowania w przypadku awarii lub incydentu bezpieczeństwa.<br>
+<!-- -->✔️ <strong>Monitorowanie i audyt</strong> – mechanizmy zapewniające skuteczność wdrożonych zabezpieczeń oraz zgodność z normą.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-sprawdź-dokumentację-tutaj">🔗 Sprawdź dokumentację tutaj:<a href="https://www.majdak.online/blog/iso27001#-sprawd%C5%BA-dokumentacj%C4%99-tutaj" class="hash-link" aria-label="Direct link to 🔗 Sprawdź dokumentację tutaj:" title="Direct link to 🔗 Sprawdź dokumentację tutaj:">​</a></h2>
+<p><a href="https://www.majdak.online/docs/category/dokumentacja---iso27001">/docs/category/dokumentacja---iso27001</a></p>
+<p>Dzięki wdrożeniu ISO 27001 organizacje nie tylko zwiększają bezpieczeństwo swoich zasobów, ale także budują zaufanie klientów i partnerów biznesowych.<br>
+<!-- -->Jeśli masz pytania dotyczące wdrożenia standardu lub chcesz uzyskać dostęp do dokumentacji, skontaktuj się z nami!</p>
+<p>📧 <strong>Kontakt:</strong> <a href="mailto:kontakt@majdak.online" target="_blank" rel="noopener noreferrer">kontakt@majdak.online</a></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="ISO27001" term="ISO27001"/>
+        <category label="bezpieczeństwo informacji" term="bezpieczeństwo informacji"/>
+        <category label="standardy międzynarodowe" term="standardy międzynarodowe"/>
+        <category label="zarządzanie bezpieczeństwem" term="zarządzanie bezpieczeństwem"/>
+        <category label="IT" term="IT"/>
+        <category label="Dokumentacja" term="Dokumentacja"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[🔍 Kompletny kurs testów penetracyjnych aplikacji webowych!]]></title>
