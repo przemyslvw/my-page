@@ -342,3 +342,18 @@ owasp:
   label: OWASP
   permalink: /owasp
   description: Open Web Application Security Project i jego wytyczne.
+
+cyberbezpieczeństwo:
+  label: Cyberbezpieczeństwo
+  permalink: /cyberbezpieczenstwo
+  description: Wszystko o cyberbezpieczeństwie.
+
+malware:
+  label: Malware
+  permalink: /malware
+  description: Złośliwe oprogramowanie i techniki obrony.
+
+ataki:
+  label: Ataki
+  permalink: /ataki
+  description: Techniki ataków i metody obrony.
