@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-            <p> 📡 Majdak 🧠 Think 💡 Tank 🛡️</p>
+            <p> 📡 Majdak Think Tank 🛡️</p>
         </Heading>
         <p className="hero__subtitle">🚀 Innowacje 🔬 Bezpieczeństwo IT 🔐 Automatyzacja ⚙️</p>
         <div className={styles.buttons}>
