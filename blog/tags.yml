@@ -357,3 +357,13 @@ ataki:
   label: Ataki
   permalink: /ataki
   description: Techniki ataków i metody obrony.
+
+wydarzenia:
+  label: Wydarzenia
+  permalink: /wydarzenia
+  description: Spotkania, eventy i wydarzenia branżowe.
+
+konferencje:
+  label: Konferencje
+  permalink: /konferencje
+  description: Konferencje technologiczne i branżowe.
