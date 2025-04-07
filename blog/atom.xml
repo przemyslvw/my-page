@@ -2,11 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-03-19T00:00:00.000Z</updated>
+    <updated>2025-04-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Relacja z INSECON 2025]]></title>
+        <id>https://www.majdak.online/blog/insecon-2025-relacja</id>
+        <link href="https://www.majdak.online/blog/insecon-2025-relacja"/>
+        <updated>2025-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W zeszłym tygodniu miałem przyjemność uczestniczyć w INSECON 2025 – jednym z najważniejszych wydarzeń poświęconych cyberbezpieczeństwu w Polsce.]]></summary>
+        <content type="html"><![CDATA[<p>W zeszłym tygodniu miałem przyjemność uczestniczyć w <strong>INSECON 2025</strong> – jednym z najważniejszych wydarzeń poświęconych cyberbezpieczeństwu w Polsce.</p>
+<p>To była doskonała okazja do zdobycia wiedzy, wymiany doświadczeń, spotkania znajomych i członków <strong>ISSA Polska</strong>, którzy – tak jak ja – żyją tym tematem na co dzień.</p>
+<p>Miałem również okazję uścisnąć dłoń i porozmawiać z inspirującymi postaciami świata bezpieczeństwa: <strong>Arturem Markiewiczem</strong>, <strong>Mateuszem Chrobokiem</strong> i <strong>Michałem Sajdakiem</strong>.</p>
+<p>Nie zabrakło mocnych, merytorycznych prelekcji – zarówno na scenie głównej, jak i biznesowej – oraz ciekawych rozmów w kuluarach.</p>
+<p>Na stoiskach wojskowych można było zobaczyć nowoczesne rozwiązania z zakresu <strong>łączności taktycznej</strong>, <strong>technologii dronowych (UAV)</strong> i systemów prezentowanych przez <strong>Wojska Obrony Cyberprzestrzeni</strong>, <strong>Wojskowe Zakłady Łączności</strong> czy <strong>Wojskowe Zakłady Uzbrojenia</strong>.</p>
+<p>Cieszę się, że mogłem być częścią tej inicjatywy jako członek <strong>ISSA Polska</strong> i z niecierpliwością czekam na kolejną edycję.</p>
+<hr>
+<p><strong>#INSECON2025 #cybersecurity #ISSA #networking #infosec #wojsko #technologie #cyberbezpieczeństwo</strong></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🔦 Broń mikrofalowa: Nowa era w zwalczaniu dronów]]></title>
         <id>https://www.majdak.online/blog/bron-mikrofalowa-drony</id>
