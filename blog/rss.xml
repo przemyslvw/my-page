@@ -16,6 +16,14 @@
             <content:encoded><![CDATA[<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Najciekawsza informacja dnia:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Tytuł: "Tytuł najciekawszej informacji"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Autor: Autor informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Data: Data informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Treść: Treść informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Podsumowanie dnia:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Dzisiaj na najważniejsze tematy dnia:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 3</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[_10-11-50-najciekawsza]]></title>
+            <link>https://www.majdak.online/blog/2025/04/24/_10-11-50-najciekawsza</link>
+            <guid>https://www.majdak.online/blog/2025/04/24/_10-11-50-najciekawsza</guid>
+            <pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dziś w świecie IT wiele się działo! Na przykład, według najnowszych danych, liczba ataków ransomware nadal rośnie, co dowodzi, jak ważne jest dbanie o bezpieczeństwo danych. Ponadto, kolejne firmy ogłaszają wprowadzenie nowych zabezpieczeń, aby chronić się przed cyberatakami. To pokazuje, że świadomość w dziedzinie bezpieczeństwa IT rośnie, ale ryzyko pozostaje wysokie. Warto więc być zawsze czujnym i dbać o bezpieczeństwo swoich danych online.]]></description>
+            <content:encoded><![CDATA[<p>Dziś w świecie IT wiele się działo! Na przykład, według najnowszych danych, liczba ataków ransomware nadal rośnie, co dowodzi, jak ważne jest dbanie o bezpieczeństwo danych. Ponadto, kolejne firmy ogłaszają wprowadzenie nowych zabezpieczeń, aby chronić się przed cyberatakami. To pokazuje, że świadomość w dziedzinie bezpieczeństwa IT rośnie, ale ryzyko pozostaje wysokie. Warto więc być zawsze czujnym i dbać o bezpieczeństwo swoich danych online.</p>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Relacja z INSECON 2025]]></title>
             <link>https://www.majdak.online/blog/insecon-2025-relacja</link>
             <guid>https://www.majdak.online/blog/insecon-2025-relacja</guid>
@@ -977,55 +985,6 @@
             <category>Zephyr RTOS</category>
             <category>IoT</category>
             <category>Tutorial</category>
-        </item>
-        <item>
-            <title><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
-            <link>https://www.majdak.online/blog/2025/02/20/kurswireshark</link>
-            <guid>https://www.majdak.online/blog/2025/02/20/kurswireshark</guid>
-            <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!]]></description>
-            <content:encoded><![CDATA[<p>Czy kiedykolwiek zastanawiałeś się, jak administratorzy sieci wykrywają cyberataki? Albo jak działają narzędzia do analizy ruchu sieciowego? Jeśli tak, to <strong>ten kurs jest dla Ciebie!</strong> 🚀</p>
-<p>Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy pakietów sieciowych. Dzięki niemu możesz zdiagnozować problemy z siecią, wykryć ataki hakerskie lub po prostu dowiedzieć się więcej o tym, jak działa internet.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">✅ <strong>Czego się nauczysz?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to -czego-się-nauczysz" title="Direct link to -czego-się-nauczysz">​</a></h2>
-<ul>
-<li>Konfiguracji Wiresharka i rozpoczęcia przechwytywania pakietów</li>
-<li>Analizy najważniejszych protokołów sieciowych (TCP/IP, HTTP, DNS, SSL/TLS)</li>
-<li>Wykrywania anomalii w ruchu sieciowym</li>
-<li>Identyfikacji ataków (ARP Spoofing, DDoS, Man-in-the-Middle)</li>
-<li>Filtrowania i przetwarzania przechwyconych pakietów</li>
-<li>Tworzenia własnych filtrów i automatyzacji z użyciem <strong>Tshark</strong></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-dla-kogo-jest-ten-kurs">🛡️ <strong>Dla kogo jest ten kurs?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#%EF%B8%8F-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to ️-dla-kogo-jest-ten-kurs" title="Direct link to ️-dla-kogo-jest-ten-kurs">​</a></h2>
-<ul>
-<li><strong>Początkujących</strong> zainteresowanych cyberbezpieczeństwem</li>
-<li><strong>Administratorów sieci</strong>, którzy chcą rozwinąć swoje umiejętności</li>
-<li><strong>Testerów bezpieczeństwa</strong> i <strong>pentesterów</strong></li>
-<li>Studentów kierunków technicznych i osób przygotowujących się do certyfikacji</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">📖 <strong>Co znajdziesz w kursie?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to -co-znajdziesz-w-kursie" title="Direct link to -co-znajdziesz-w-kursie">​</a></h2>
-<ul>
-<li>✅ Praktyczne ćwiczenia i scenariusze</li>
-<li>✅ Teorię sieci potrzebną do analizy pakietów</li>
-<li>✅ Przykłady ataków i sposoby ich wykrycia</li>
-<li>✅ Poradniki krok po kroku</li>
-<li>✅ Zapowiedź kursu <strong>zaawansowanego</strong> dla profesjonalistów 💡</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">🎯 <strong>Dlaczego warto?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-dlaczego-warto" class="hash-link" aria-label="Direct link to -dlaczego-warto" title="Direct link to -dlaczego-warto">​</a></h2>
-<ul>
-<li>Kurs napisany przez praktyka z doświadczeniem w analizie bezpieczeństwa sieci</li>
-<li>Oparty na realnych przypadkach użycia</li>
-<li>Kompletna wiedza od podstaw aż po zaawansowane techniki</li>
-</ul>
-<hr>
-<p>👉 <strong><a href="https://www.majdak.online/docs/category/kurs-wireshark" target="_blank" rel="noopener noreferrer">Dołącz do kursu już teraz!</a></strong></p>
-<p>📩 Masz pytania? Skontaktuj się: <strong><a href="mailto:kontakt@majdak.online" target="_blank" rel="noopener noreferrer">kontakt@majdak.online</a></strong><br>
-<!-- -->💡 Śledź nas po więcej wiedzy: <strong><a href="https://www.majdak.online/" target="_blank" rel="noopener noreferrer">www.majdak.online</a></strong></p>
-<p><strong>Autor:</strong> <em>Przemysław Majdak</em><br>
-<strong>Data publikacji:</strong> 20 lutego 2024</p>
-<hr>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Web Security</category>
-            <category>Społeczność</category>
         </item>
     </channel>
 </rss>
