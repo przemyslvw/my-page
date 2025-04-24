@@ -4,10 +4,39 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 News Digest: 2025-04-24]]></title>
+            <link>https://www.majdak.online/blog/news-2025-04-24</link>
+            <guid>https://www.majdak.online/blog/news-2025-04-24</guid>
+            <pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dzisiejszy dzień przyniósł wiele nowości i ważnych wydarzeń ze świata bezpieczeństwa IT.]]></description>
+            <content:encoded><![CDATA[<p><strong>Dzisiejszy dzień przyniósł wiele nowości i ważnych wydarzeń ze świata bezpieczeństwa IT.</strong></p>
+<p>Największą uwagę przykuła prezentacja nowej technologii AI, która ma na celu automatyzację procedur wykrywania i neutralizacji zagrożeń w czasie rzeczywistym. Nowe narzędzie, opracowane przez lidera rynku cybersecurity, obiecuje zrewolucjonizować sposób, w jaki chronimy sieci i aplikacje webowe.</p>
+<p>Dziś najważniejszą informacją jest wprowadzenie na rynek innowacyjnej platformy bezpieczeństwa, która integruje sztuczną inteligencję z tradycyjnymi rozwiązaniami firewall i SIEM. Technologie te łączą siły, aby zaoferować firmom jeszcze lepszą ochronę przed coraz bardziej zaawansowanymi atakami, takimi jak malware czy ataki typu zero-day. Warto zwrócić uwagę, że nowe narzędzie ma również na celu zwiększenie automatyzacji procesów bezpieczeństwa, co może znacznie odciążyć zespoły SOC.</p>
+<p>Pierwsze testy pokazują, że system wykrywa zagrożenia o wiele szybciej niż dotychczasowe rozwiązania, minimalizując czas reakcji. Eksperci podkreślają, że rozwój tych technologii wpisuje się w trend automatyzacji i zwiększania skuteczności działań prewencyjnych. W kontekście rosnącej ilości ataków malware oraz coraz bardziej skomplikowanych metod wykorzystywanych przez cyberprzestępców, takie narzędzia mogą odegrać kluczową rolę w ochronie zarówno firm, jak i użytkowników końcowych.</p>
+<p>W tym samym czasie na konferencjach branżowych omówione zostały kwestie związane z bezpieczeństwem API i nowymi standardami OWASP, podkreślając konieczność ciągłego dostosowywania się do zmieniającego się krajobrazu zagrożeń. Szczególnie interesujące były prezentacje dotyczące testowania bezpieczeństwa webaplikacji i wprowadzania automatycznych narzędzi pentestowych, które mają na celu zwiększenie skuteczności audytów bezpieczeństwa.</p>
+<p>Dzień ten pokazał, jak dynamicznie rozwija się świat cyberbezpieczeństwa, a wysiłki na rzecz automatyzacji i innowacji są kluczowe w obliczu rosnącej ilości i złożoności zagrożeń. Szybkie reagowanie, stałe doskonalenie narzędzi i współpraca branżowa pozostają fundamentami skutecznej ochrony w cyfrowym świecie.</p>
+<p>#cybersecurity #ai #infosec #automation #news</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Bezpieczeństwo</category>
+            <category>Automation</category>
+            <category>Networking</category>
+            <category>Wydarzenia</category>
+            <category>Konferencje</category>
+            <category>Technologie</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>OWASP</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+            <category>Penetration Testing</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Relacja z INSECON 2025]]></title>
             <link>https://www.majdak.online/blog/insecon-2025-relacja</link>
@@ -1019,71 +1048,6 @@
             <category>Cybersecurity</category>
             <category>Web Security</category>
             <category>Społeczność</category>
-        </item>
-        <item>
-            <title><![CDATA[Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></title>
-            <link>https://www.majdak.online/blog/kurs-atuin</link>
-            <guid>https://www.majdak.online/blog/kurs-atuin</guid>
-            <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kurs-atuin--zarządzanie-historią-terminala-nowej-generacji">📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji<a href="https://www.majdak.online/blog/kurs-atuin#-kurs-atuin--zarz%C4%85dzanie-histori%C4%85-terminala-nowej-generacji" class="hash-link" aria-label="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji" title="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji">​</a></h2>
-<p><strong>Atuin</strong> to nowoczesne narzędzie do zarządzania historią terminala, które zastępuje klasyczne mechanizmy przechowywania historii powłoki. Dzięki zaawansowanym funkcjom, takim jak <strong>fuzzy search</strong>, <strong>synchronizacja między urządzeniami</strong>, <strong>szyfrowanie danych</strong> czy <strong>analiza statystyk</strong>, Atuin pozwala znacznie usprawnić pracę z terminalem.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">🟢 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-atuin#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 🟢 Czego się nauczysz?" title="Direct link to 🟢 Czego się nauczysz?">​</a></h2>
-<ul>
-<li>✅ <strong>Instalacja Atuin</strong> na Linux, macOS i Windows (WSL lub PowerShell)</li>
-<li>✅ <strong>Konfiguracja i personalizacja</strong> środowiska terminala</li>
-<li>✅ <strong>Zaawansowane wyszukiwanie komend</strong> z wykorzystaniem fuzzy search</li>
-<li>✅ <strong>Filtrowanie historii</strong> według katalogów, czasu i wzorców</li>
-<li>✅ <strong>Synchronizacja historii komend</strong> między urządzeniami (chmura lub własny serwer)</li>
-<li>✅ <strong>Zarządzanie bezpieczeństwem danych</strong> poprzez szyfrowanie i klucze API</li>
-<li>✅ <strong>Tworzenie własnych filtrów, aliasów i skrótów klawiszowych</strong></li>
-<li>✅ <strong>Analiza statystyk</strong> najczęściej używanych komend</li>
-<li>✅ <strong>Rozwiązywanie problemów i debugowanie</strong></li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-spis-treści-kursu">📋 Spis treści kursu<a href="https://www.majdak.online/blog/kurs-atuin#-spis-tre%C5%9Bci-kursu" class="hash-link" aria-label="Direct link to 📋 Spis treści kursu" title="Direct link to 📋 Spis treści kursu">​</a></h2>
-<ol>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-wstep">📘 Wstęp do Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-instalacja">⚙️ Instalacja Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje">🚀 Podstawowe funkcje Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo">☁️ Synchronizacja i bezpieczeństwo</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja">📊 Statystyki i personalizacja</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie">🛠️ Problemy i debugowanie</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie">📖 Podsumowanie kursu</a></li>
-</ol>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">💡 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-atuin#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 💡 Dla kogo jest ten kurs?" title="Direct link to 💡 Dla kogo jest ten kurs?">​</a></h2>
-<ul>
-<li>👶 <strong>Początkujący</strong> – nauczysz się efektywnie korzystać z historii terminala.</li>
-<li>🛠️ <strong>Programiści i administratorzy systemów</strong> – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.</li>
-<li>🔒 <strong>Entuzjaści prywatności</strong> – dowiesz się, jak szyfrować dane i korzystać z własnych serwerów do synchronizacji historii.</li>
-<li>🌐 <strong>Użytkownicy wieloplatformowi</strong> – poznasz metody synchronizacji historii między różnymi urządzeniami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wymagania-wstępne">📚 Wymagania wstępne<a href="https://www.majdak.online/blog/kurs-atuin#-wymagania-wst%C4%99pne" class="hash-link" aria-label="Direct link to 📚 Wymagania wstępne" title="Direct link to 📚 Wymagania wstępne">​</a></h2>
-<ul>
-<li>Znajomość podstawowych komend terminala</li>
-<li>Zainstalowany system <strong>Linux</strong>, <strong>macOS</strong> lub <strong>Windows</strong> (z WSL lub PowerShell)</li>
-<li>Chęć do optymalizacji swojej pracy z terminalem 🚀</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-atuin#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h2>
-<p>Celem kursu jest nauczenie Cię, jak w pełni wykorzystać możliwości <strong>Atuin</strong> do zarządzania historią komend w terminalu. Po ukończeniu kursu będziesz potrafił:</p>
-<ul>
-<li>Szybko wyszukiwać komendy dzięki <strong>fuzzy search</strong>.</li>
-<li>Synchronizować historię komend między różnymi urządzeniami.</li>
-<li>Zapewnić bezpieczeństwo swojej historii dzięki szyfrowaniu.</li>
-<li>Personalizować środowisko terminala zgodnie z własnymi potrzebami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rozpocznij-teraz">📥 Rozpocznij teraz!<a href="https://www.majdak.online/blog/kurs-atuin#-rozpocznij-teraz" class="hash-link" aria-label="Direct link to 📥 Rozpocznij teraz!" title="Direct link to 📥 Rozpocznij teraz!">​</a></h2>
-<p>➡️ <a href="https://www.majdak.online/docs/category/kurs-atuin---making-your-shell-magical"><strong>Przejdź do pierwszego rozdziału: Wstęp do Atuin</strong></a></p>
-<p>Nie czekaj – zoptymalizuj swoją pracę z terminalem już dziś! 🚀</p>]]></content:encoded>
-            <category>Terminal</category>
-            <category>History</category>
-            <category>Management</category>
-            <category>Atuin</category>
-            <category>Tutorial</category>
         </item>
     </channel>
 </rss>
