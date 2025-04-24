@@ -4,10 +4,45 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 News Digest: 2025-04-24]]></title>
+            <link>https://www.majdak.online/blog/news-2025-04-24</link>
+            <guid>https://www.majdak.online/blog/news-2025-04-24</guid>
+            <pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Krótka zajawka dnia w 1 zdaniu]]></description>
+            <content:encoded><![CDATA[<p><strong>Krótka zajawka dnia w 1 zdaniu</strong><br>
+<!-- -->Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najciekawsza-informacja-dnia">Najciekawsza informacja dnia<a href="https://www.majdak.online/blog/news-2025-04-24#najciekawsza-informacja-dnia" class="hash-link" aria-label="Direct link to Najciekawsza informacja dnia" title="Direct link to Najciekawsza informacja dnia">​</a></h2>
+<p>Blue Shield of California wyciekło dane zdrowotne 4,7 miliona pacjentów, udostępniając je Google’u na platformach analitycznych i reklamowych. To kolejny poważny incydent w sektorze opieki zdrowotnej.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-dnia">Podsumowanie dnia<a href="https://www.majdak.online/blog/news-2025-04-24#podsumowanie-dnia" class="hash-link" aria-label="Direct link to Podsumowanie dnia" title="Direct link to Podsumowanie dnia">​</a></h2>
+<p>Najnowszy raport ujawnia, że Blue Shield of California przez lata udostępniało dane pacjentów Google’owi, co wywołało krytykę i pytania o bezpieczeństwo w branży zdrowotnej. W międzyczasie firma Endor Labs pozyskała aż 93 miliony dolarów na rozwój narzędzi do skanowania AI-generated code pod kątem luk bezpieczeństwa. To potwierdza rosnące zagrożenie związane z automatyzacją i sztuczną inteligencją.</p>
+<p>Na rynku startupów widzimy też dużą ofensywę na rzecz SMB – Cynomi zgarnęło 37 milionów dolarów na swoje AI-based virtual CISO, pomagające małym i średnim firmom bronić się przed cyberatakami. W Europie z kolei kontrowersje budzi projekt prawa w Florydzie, nakładający dostęp do szyfrowania i wprowadzający backdoory w social media.</p>
+<p>W świecie dużych firm i technologii pojawiły się poważne luki – Google naprawiło dwa aktywnie wykorzystywane zero-day, Apple załatało 0-day wykorzystane w zaawansowanych atakach, a VMware wydało poprawki związane z poważnymi lukami hyperjacking.</p>
+<p>Nie zabrakło też informacji o atakach na infrastrukturę – na przykład masowa botneta Eleven11, która używa urządzeń IoT do przeprowadzania rekordowych ataków DDoS, czy ataku na 1 milion urządzeń Windows za pomocą malvertisingu. Warto też wspomnieć o nowym, wysoce wyrafinowanym malware ukrytym w aplikacji mappingowej wykorzystywanej przez rosyjskich żołnierzy.</p>
+<p>Na poziomie polityki i prawa – trwają kontrowersje wokół prac nad backdoorami w Apple i debat na temat ochrony prywatności w kontekście nowych ustaw. Również FBI zaczął dochodzenie w sprawie znanego prozaszcinacza cyberataków.</p>
+<p>W świecie malware i spyware cały czas trwają wyścigi – NSA ostrzega przed techniką „fast flux” używaną przez złośników i państwa, a NSO Group przyznała, że jej narzędzia były używane do inwigilacji w Meksyku i Arabii Saudyjskiej. Daleko od tego, pojawiły się też raporty o North Korean Spyware w Google Play oraz o zagrożeniach dla wojska rosyjskiego ukrytych w popularnej aplikacji mapowej.</p>
+<p>Pod kątem rozwiązań i narzędzi bezpieczeństwa, Google wprowadziło nową funkcję synchronizacji hasłem na iOS, a Microsoft naprawił błędy powodujące zamrażanie sesji RDP oraz problemy z instalacją Windows Server 2025. Jednocześnie pojawiły się nowe zagrożenia związane z rootkitami na Linuksie, a użytkownicy Androida powinni jak najszybciej zainstalować najnowsze poprawki po wykryciu złośliwego oprogramowania ukrytego w trojanach.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-24#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Automation</category>
+            <category>Networking</category>
+            <category>Wydarzenia</category>
+            <category>Konferencje</category>
+            <category>Technologie</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>OWASP</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+            <category>Penetration Testing</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Relacja z INSECON 2025]]></title>
             <link>https://www.majdak.online/blog/insecon-2025-relacja</link>
@@ -1019,71 +1054,6 @@
             <category>Cybersecurity</category>
             <category>Web Security</category>
             <category>Społeczność</category>
-        </item>
-        <item>
-            <title><![CDATA[Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></title>
-            <link>https://www.majdak.online/blog/kurs-atuin</link>
-            <guid>https://www.majdak.online/blog/kurs-atuin</guid>
-            <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kurs-atuin--zarządzanie-historią-terminala-nowej-generacji">📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji<a href="https://www.majdak.online/blog/kurs-atuin#-kurs-atuin--zarz%C4%85dzanie-histori%C4%85-terminala-nowej-generacji" class="hash-link" aria-label="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji" title="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji">​</a></h2>
-<p><strong>Atuin</strong> to nowoczesne narzędzie do zarządzania historią terminala, które zastępuje klasyczne mechanizmy przechowywania historii powłoki. Dzięki zaawansowanym funkcjom, takim jak <strong>fuzzy search</strong>, <strong>synchronizacja między urządzeniami</strong>, <strong>szyfrowanie danych</strong> czy <strong>analiza statystyk</strong>, Atuin pozwala znacznie usprawnić pracę z terminalem.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">🟢 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-atuin#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 🟢 Czego się nauczysz?" title="Direct link to 🟢 Czego się nauczysz?">​</a></h2>
-<ul>
-<li>✅ <strong>Instalacja Atuin</strong> na Linux, macOS i Windows (WSL lub PowerShell)</li>
-<li>✅ <strong>Konfiguracja i personalizacja</strong> środowiska terminala</li>
-<li>✅ <strong>Zaawansowane wyszukiwanie komend</strong> z wykorzystaniem fuzzy search</li>
-<li>✅ <strong>Filtrowanie historii</strong> według katalogów, czasu i wzorców</li>
-<li>✅ <strong>Synchronizacja historii komend</strong> między urządzeniami (chmura lub własny serwer)</li>
-<li>✅ <strong>Zarządzanie bezpieczeństwem danych</strong> poprzez szyfrowanie i klucze API</li>
-<li>✅ <strong>Tworzenie własnych filtrów, aliasów i skrótów klawiszowych</strong></li>
-<li>✅ <strong>Analiza statystyk</strong> najczęściej używanych komend</li>
-<li>✅ <strong>Rozwiązywanie problemów i debugowanie</strong></li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-spis-treści-kursu">📋 Spis treści kursu<a href="https://www.majdak.online/blog/kurs-atuin#-spis-tre%C5%9Bci-kursu" class="hash-link" aria-label="Direct link to 📋 Spis treści kursu" title="Direct link to 📋 Spis treści kursu">​</a></h2>
-<ol>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-wstep">📘 Wstęp do Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-instalacja">⚙️ Instalacja Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje">🚀 Podstawowe funkcje Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo">☁️ Synchronizacja i bezpieczeństwo</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja">📊 Statystyki i personalizacja</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie">🛠️ Problemy i debugowanie</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie">📖 Podsumowanie kursu</a></li>
-</ol>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">💡 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-atuin#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 💡 Dla kogo jest ten kurs?" title="Direct link to 💡 Dla kogo jest ten kurs?">​</a></h2>
-<ul>
-<li>👶 <strong>Początkujący</strong> – nauczysz się efektywnie korzystać z historii terminala.</li>
-<li>🛠️ <strong>Programiści i administratorzy systemów</strong> – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.</li>
-<li>🔒 <strong>Entuzjaści prywatności</strong> – dowiesz się, jak szyfrować dane i korzystać z własnych serwerów do synchronizacji historii.</li>
-<li>🌐 <strong>Użytkownicy wieloplatformowi</strong> – poznasz metody synchronizacji historii między różnymi urządzeniami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wymagania-wstępne">📚 Wymagania wstępne<a href="https://www.majdak.online/blog/kurs-atuin#-wymagania-wst%C4%99pne" class="hash-link" aria-label="Direct link to 📚 Wymagania wstępne" title="Direct link to 📚 Wymagania wstępne">​</a></h2>
-<ul>
-<li>Znajomość podstawowych komend terminala</li>
-<li>Zainstalowany system <strong>Linux</strong>, <strong>macOS</strong> lub <strong>Windows</strong> (z WSL lub PowerShell)</li>
-<li>Chęć do optymalizacji swojej pracy z terminalem 🚀</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-atuin#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h2>
-<p>Celem kursu jest nauczenie Cię, jak w pełni wykorzystać możliwości <strong>Atuin</strong> do zarządzania historią komend w terminalu. Po ukończeniu kursu będziesz potrafił:</p>
-<ul>
-<li>Szybko wyszukiwać komendy dzięki <strong>fuzzy search</strong>.</li>
-<li>Synchronizować historię komend między różnymi urządzeniami.</li>
-<li>Zapewnić bezpieczeństwo swojej historii dzięki szyfrowaniu.</li>
-<li>Personalizować środowisko terminala zgodnie z własnymi potrzebami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rozpocznij-teraz">📥 Rozpocznij teraz!<a href="https://www.majdak.online/blog/kurs-atuin#-rozpocznij-teraz" class="hash-link" aria-label="Direct link to 📥 Rozpocznij teraz!" title="Direct link to 📥 Rozpocznij teraz!">​</a></h2>
-<p>➡️ <a href="https://www.majdak.online/docs/category/kurs-atuin---making-your-shell-magical"><strong>Przejdź do pierwszego rozdziału: Wstęp do Atuin</strong></a></p>
-<p>Nie czekaj – zoptymalizuj swoją pracę z terminalem już dziś! 🚀</p>]]></content:encoded>
-            <category>Terminal</category>
-            <category>History</category>
-            <category>Management</category>
-            <category>Atuin</category>
-            <category>Tutorial</category>
         </item>
     </channel>
 </rss>
