@@ -4,10 +4,17 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[najciekawsza]]></title>
+            <link>https://www.majdak.online/blog/2025/04/24/najciekawsza</link>
+            <guid>https://www.majdak.online/blog/2025/04/24/najciekawsza</guid>
+            <pubDate>Thu, 24 Apr 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Najciekawsza informacja dnia:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Tytuł: "Tytuł najciekawszej informacji"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Autor: Autor informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Data: Data informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Treść: Treść informacji</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token title important punctuation" style="color:#393A34">#</span><span class="token title important"> Podsumowanie dnia:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Dzisiaj na najważniejsze tematy dnia:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token list punctuation" style="color:#393A34">-</span><span class="token plain"> Informacja 3</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Relacja z INSECON 2025]]></title>
             <link>https://www.majdak.online/blog/insecon-2025-relacja</link>
@@ -1019,71 +1026,6 @@
             <category>Cybersecurity</category>
             <category>Web Security</category>
             <category>Społeczność</category>
-        </item>
-        <item>
-            <title><![CDATA[Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></title>
-            <link>https://www.majdak.online/blog/kurs-atuin</link>
-            <guid>https://www.majdak.online/blog/kurs-atuin</guid>
-            <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kurs-atuin--zarządzanie-historią-terminala-nowej-generacji">📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji<a href="https://www.majdak.online/blog/kurs-atuin#-kurs-atuin--zarz%C4%85dzanie-histori%C4%85-terminala-nowej-generacji" class="hash-link" aria-label="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji" title="Direct link to 📘 Kurs Atuin – Zarządzanie historią terminala nowej generacji">​</a></h2>
-<p><strong>Atuin</strong> to nowoczesne narzędzie do zarządzania historią terminala, które zastępuje klasyczne mechanizmy przechowywania historii powłoki. Dzięki zaawansowanym funkcjom, takim jak <strong>fuzzy search</strong>, <strong>synchronizacja między urządzeniami</strong>, <strong>szyfrowanie danych</strong> czy <strong>analiza statystyk</strong>, Atuin pozwala znacznie usprawnić pracę z terminalem.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">🟢 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-atuin#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 🟢 Czego się nauczysz?" title="Direct link to 🟢 Czego się nauczysz?">​</a></h2>
-<ul>
-<li>✅ <strong>Instalacja Atuin</strong> na Linux, macOS i Windows (WSL lub PowerShell)</li>
-<li>✅ <strong>Konfiguracja i personalizacja</strong> środowiska terminala</li>
-<li>✅ <strong>Zaawansowane wyszukiwanie komend</strong> z wykorzystaniem fuzzy search</li>
-<li>✅ <strong>Filtrowanie historii</strong> według katalogów, czasu i wzorców</li>
-<li>✅ <strong>Synchronizacja historii komend</strong> między urządzeniami (chmura lub własny serwer)</li>
-<li>✅ <strong>Zarządzanie bezpieczeństwem danych</strong> poprzez szyfrowanie i klucze API</li>
-<li>✅ <strong>Tworzenie własnych filtrów, aliasów i skrótów klawiszowych</strong></li>
-<li>✅ <strong>Analiza statystyk</strong> najczęściej używanych komend</li>
-<li>✅ <strong>Rozwiązywanie problemów i debugowanie</strong></li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-spis-treści-kursu">📋 Spis treści kursu<a href="https://www.majdak.online/blog/kurs-atuin#-spis-tre%C5%9Bci-kursu" class="hash-link" aria-label="Direct link to 📋 Spis treści kursu" title="Direct link to 📋 Spis treści kursu">​</a></h2>
-<ol>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-wstep">📘 Wstęp do Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-instalacja">⚙️ Instalacja Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje">🚀 Podstawowe funkcje Atuin</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo">☁️ Synchronizacja i bezpieczeństwo</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja">📊 Statystyki i personalizacja</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie">🛠️ Problemy i debugowanie</a></li>
-<li><a href="https://www.majdak.online/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie">📖 Podsumowanie kursu</a></li>
-</ol>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">💡 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-atuin#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 💡 Dla kogo jest ten kurs?" title="Direct link to 💡 Dla kogo jest ten kurs?">​</a></h2>
-<ul>
-<li>👶 <strong>Początkujący</strong> – nauczysz się efektywnie korzystać z historii terminala.</li>
-<li>🛠️ <strong>Programiści i administratorzy systemów</strong> – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.</li>
-<li>🔒 <strong>Entuzjaści prywatności</strong> – dowiesz się, jak szyfrować dane i korzystać z własnych serwerów do synchronizacji historii.</li>
-<li>🌐 <strong>Użytkownicy wieloplatformowi</strong> – poznasz metody synchronizacji historii między różnymi urządzeniami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wymagania-wstępne">📚 Wymagania wstępne<a href="https://www.majdak.online/blog/kurs-atuin#-wymagania-wst%C4%99pne" class="hash-link" aria-label="Direct link to 📚 Wymagania wstępne" title="Direct link to 📚 Wymagania wstępne">​</a></h2>
-<ul>
-<li>Znajomość podstawowych komend terminala</li>
-<li>Zainstalowany system <strong>Linux</strong>, <strong>macOS</strong> lub <strong>Windows</strong> (z WSL lub PowerShell)</li>
-<li>Chęć do optymalizacji swojej pracy z terminalem 🚀</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-atuin#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h2>
-<p>Celem kursu jest nauczenie Cię, jak w pełni wykorzystać możliwości <strong>Atuin</strong> do zarządzania historią komend w terminalu. Po ukończeniu kursu będziesz potrafił:</p>
-<ul>
-<li>Szybko wyszukiwać komendy dzięki <strong>fuzzy search</strong>.</li>
-<li>Synchronizować historię komend między różnymi urządzeniami.</li>
-<li>Zapewnić bezpieczeństwo swojej historii dzięki szyfrowaniu.</li>
-<li>Personalizować środowisko terminala zgodnie z własnymi potrzebami.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rozpocznij-teraz">📥 Rozpocznij teraz!<a href="https://www.majdak.online/blog/kurs-atuin#-rozpocznij-teraz" class="hash-link" aria-label="Direct link to 📥 Rozpocznij teraz!" title="Direct link to 📥 Rozpocznij teraz!">​</a></h2>
-<p>➡️ <a href="https://www.majdak.online/docs/category/kurs-atuin---making-your-shell-magical"><strong>Przejdź do pierwszego rozdziału: Wstęp do Atuin</strong></a></p>
-<p>Nie czekaj – zoptymalizuj swoją pracę z terminalem już dziś! 🚀</p>]]></content:encoded>
-            <category>Terminal</category>
-            <category>History</category>
-            <category>Management</category>
-            <category>Atuin</category>
-            <category>Tutorial</category>
         </item>
     </channel>
 </rss>
