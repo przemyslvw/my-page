@@ -46,6 +46,44 @@
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[📰 News Digest: 2025-04-24]]></title>
+        <id>https://www.majdak.online/blog/news-2025-04-24</id>
+        <link href="https://www.majdak.online/blog/news-2025-04-24"/>
+        <updated>2025-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Krótka zajawka dnia w 1 zdaniu]]></summary>
+        <content type="html"><![CDATA[<p>Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najciekawsza-informacja-dnia">Najciekawsza informacja dnia<a href="https://www.majdak.online/blog/news-2025-04-24#najciekawsza-informacja-dnia" class="hash-link" aria-label="Direct link to Najciekawsza informacja dnia" title="Direct link to Najciekawsza informacja dnia">​</a></h2>
+<p>Blue Shield of California wyciekło dane zdrowotne 4,7 miliona pacjentów, udostępniając je Google’u na platformach analitycznych i reklamowych. To kolejny poważny incydent w sektorze opieki zdrowotnej.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-dnia">Podsumowanie dnia<a href="https://www.majdak.online/blog/news-2025-04-24#podsumowanie-dnia" class="hash-link" aria-label="Direct link to Podsumowanie dnia" title="Direct link to Podsumowanie dnia">​</a></h2>
+<p>Najnowszy raport ujawnia, że Blue Shield of California przez lata udostępniało dane pacjentów Google’owi, co wywołało krytykę i pytania o bezpieczeństwo w branży zdrowotnej. W międzyczasie firma Endor Labs pozyskała aż 93 miliony dolarów na rozwój narzędzi do skanowania AI-generated code pod kątem luk bezpieczeństwa. To potwierdza rosnące zagrożenie związane z automatyzacją i sztuczną inteligencją.</p>
+<p>Na rynku startupów widzimy też dużą ofensywę na rzecz SMB – Cynomi zgarnęło 37 milionów dolarów na swoje AI-based virtual CISO, pomagające małym i średnim firmom bronić się przed cyberatakami. W Europie z kolei kontrowersje budzi projekt prawa w Florydzie, nakładający dostęp do szyfrowania i wprowadzający backdoory w social media.</p>
+<p>W świecie dużych firm i technologii pojawiły się poważne luki – Google naprawiło dwa aktywnie wykorzystywane zero-day, Apple załatało 0-day wykorzystane w zaawansowanych atakach, a VMware wydało poprawki związane z poważnymi lukami hyperjacking.</p>
+<p>Nie zabrakło też informacji o atakach na infrastrukturę – na przykład masowa botneta Eleven11, która używa urządzeń IoT do przeprowadzania rekordowych ataków DDoS, czy ataku na 1 milion urządzeń Windows za pomocą malvertisingu. Warto też wspomnieć o nowym, wysoce wyrafinowanym malware ukrytym w aplikacji mappingowej wykorzystywanej przez rosyjskich żołnierzy.</p>
+<p>Na poziomie polityki i prawa – trwają kontrowersje wokół prac nad backdoorami w Apple i debat na temat ochrony prywatności w kontekście nowych ustaw. Również FBI zaczął dochodzenie w sprawie znanego prozaszcinacza cyberataków.</p>
+<p>W świecie malware i spyware cały czas trwają wyścigi – NSA ostrzega przed techniką „fast flux” używaną przez złośników i państwa, a NSO Group przyznała, że jej narzędzia były używane do inwigilacji w Meksyku i Arabii Saudyjskiej. Daleko od tego, pojawiły się też raporty o North Korean Spyware w Google Play oraz o zagrożeniach dla wojska rosyjskiego ukrytych w popularnej aplikacji mapowej.</p>
+<p>Pod kątem rozwiązań i narzędzi bezpieczeństwa, Google wprowadziło nową funkcję synchronizacji hasłem na iOS, a Microsoft naprawił błędy powodujące zamrażanie sesji RDP oraz problemy z instalacją Windows Server 2025. Jednocześnie pojawiły się nowe zagrożenia związane z rootkitami na Linuksie, a użytkownicy Androida powinni jak najszybciej zainstalować najnowsze poprawki po wykryciu złośliwego oprogramowania ukrytego w trojanach.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-24#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Wydarzenia" term="Wydarzenia"/>
+        <category label="Konferencje" term="Konferencje"/>
+        <category label="Technologie" term="Technologie"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="OWASP" term="OWASP"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Web Application" term="Web Application"/>
+        <category label="Penetration Testing" term="Penetration Testing"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Relacja z INSECON 2025]]></title>
         <id>https://www.majdak.online/blog/insecon-2025-relacja</id>
         <link href="https://www.majdak.online/blog/insecon-2025-relacja"/>
@@ -1079,58 +1117,5 @@
         <category label="Zephyr RTOS" term="Zephyr RTOS"/>
         <category label="IoT" term="IoT"/>
         <category label="Tutorial" term="Tutorial"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
-        <id>https://www.majdak.online/blog/2025/02/20/kurswireshark</id>
-        <link href="https://www.majdak.online/blog/2025/02/20/kurswireshark"/>
-        <updated>2024-02-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!]]></summary>
-        <content type="html"><![CDATA[<p>Czy kiedykolwiek zastanawiałeś się, jak administratorzy sieci wykrywają cyberataki? Albo jak działają narzędzia do analizy ruchu sieciowego? Jeśli tak, to <strong>ten kurs jest dla Ciebie!</strong> 🚀</p>
-<p>Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy pakietów sieciowych. Dzięki niemu możesz zdiagnozować problemy z siecią, wykryć ataki hakerskie lub po prostu dowiedzieć się więcej o tym, jak działa internet.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">✅ <strong>Czego się nauczysz?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to -czego-się-nauczysz" title="Direct link to -czego-się-nauczysz">​</a></h2>
-<ul>
-<li>Konfiguracji Wiresharka i rozpoczęcia przechwytywania pakietów</li>
-<li>Analizy najważniejszych protokołów sieciowych (TCP/IP, HTTP, DNS, SSL/TLS)</li>
-<li>Wykrywania anomalii w ruchu sieciowym</li>
-<li>Identyfikacji ataków (ARP Spoofing, DDoS, Man-in-the-Middle)</li>
-<li>Filtrowania i przetwarzania przechwyconych pakietów</li>
-<li>Tworzenia własnych filtrów i automatyzacji z użyciem <strong>Tshark</strong></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-dla-kogo-jest-ten-kurs">🛡️ <strong>Dla kogo jest ten kurs?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#%EF%B8%8F-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to ️-dla-kogo-jest-ten-kurs" title="Direct link to ️-dla-kogo-jest-ten-kurs">​</a></h2>
-<ul>
-<li><strong>Początkujących</strong> zainteresowanych cyberbezpieczeństwem</li>
-<li><strong>Administratorów sieci</strong>, którzy chcą rozwinąć swoje umiejętności</li>
-<li><strong>Testerów bezpieczeństwa</strong> i <strong>pentesterów</strong></li>
-<li>Studentów kierunków technicznych i osób przygotowujących się do certyfikacji</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">📖 <strong>Co znajdziesz w kursie?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to -co-znajdziesz-w-kursie" title="Direct link to -co-znajdziesz-w-kursie">​</a></h2>
-<ul>
-<li>✅ Praktyczne ćwiczenia i scenariusze</li>
-<li>✅ Teorię sieci potrzebną do analizy pakietów</li>
-<li>✅ Przykłady ataków i sposoby ich wykrycia</li>
-<li>✅ Poradniki krok po kroku</li>
-<li>✅ Zapowiedź kursu <strong>zaawansowanego</strong> dla profesjonalistów 💡</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">🎯 <strong>Dlaczego warto?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-dlaczego-warto" class="hash-link" aria-label="Direct link to -dlaczego-warto" title="Direct link to -dlaczego-warto">​</a></h2>
-<ul>
-<li>Kurs napisany przez praktyka z doświadczeniem w analizie bezpieczeństwa sieci</li>
-<li>Oparty na realnych przypadkach użycia</li>
-<li>Kompletna wiedza od podstaw aż po zaawansowane techniki</li>
-</ul>
-<hr>
-<p>👉 <strong><a href="https://www.majdak.online/docs/category/kurs-wireshark" target="_blank" rel="noopener noreferrer">Dołącz do kursu już teraz!</a></strong></p>
-<p>📩 Masz pytania? Skontaktuj się: <strong><a href="mailto:kontakt@majdak.online" target="_blank" rel="noopener noreferrer">kontakt@majdak.online</a></strong><br>
-<!-- -->💡 Śledź nas po więcej wiedzy: <strong><a href="https://www.majdak.online/" target="_blank" rel="noopener noreferrer">www.majdak.online</a></strong></p>
-<p><strong>Autor:</strong> <em>Przemysław Majdak</em><br>
-<strong>Data publikacji:</strong> 20 lutego 2024</p>
-<hr>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Społeczność" term="Społeczność"/>
     </entry>
 </feed>
