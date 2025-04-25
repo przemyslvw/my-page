@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-04-24T00:00:00.000Z</updated>
+    <updated>2025-04-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📰 News Digest: 2025-04-25]]></title>
+        <id>https://www.majdak.online/blog/news-2025-04-25</id>
+        <link href="https://www.majdak.online/blog/news-2025-04-25"/>
+        <updated>2025-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Krótka zajawka dnia w 1 zdaniu]]></summary>
+        <content type="html"><![CDATA[<p><strong>Krótka zajawka dnia w 1 zdaniu</strong><br>
+<!-- -->Microsoft przygotowuje poprawkę rozwiązującą problem obciążenia procesora podczas korzystania z Outlook.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najciekawsza-informacja-dnia">Najciekawsza informacja dnia<a href="https://www.majdak.online/blog/news-2025-04-25#najciekawsza-informacja-dnia" class="hash-link" aria-label="Direct link to Najciekawsza informacja dnia" title="Direct link to Najciekawsza informacja dnia">​</a></h2>
+<p>Microsoft zapowiada szybkie rozwiązanie problemu z wysokim zużyciem CPU podczas pisania w Outlook, który może wpływać na wydajność użytkowników.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-dnia">Podsumowanie dnia<a href="https://www.majdak.online/blog/news-2025-04-25#podsumowanie-dnia" class="hash-link" aria-label="Direct link to Podsumowanie dnia" title="Direct link to Podsumowanie dnia">​</a></h2>
+<p>Najnowsze doniesienia pokazują, że Microsoft pracuje nad poprawką dla znanego problemu w Outlooku, gdzie użytkownicy doświadczali nagłych skoków zużycia procesora. Sprawa dotyczy wielu wersji klasycznego Outlooka i była szeroko komentowana w społeczności IT. Firma podkreśla, że fix jest już w przygotowaniu i zostanie wdrożony w najbliższych dniach. To ważne, ponieważ taki problem może wpływać na stabilność systemu i komfort pracy, zwłaszcza w środowiskach, gdzie Outlook jest głównym narzędziem komunikacji.</p>
+<p>Nie jest to odosobniony przypadek – aktualizacje i poprawki bezpieczeństwa oraz stabilności to kluczowe elementy dbałości o infrastrukturę IT. Warto śledzić oficjalne komunikaty Microsoftu, aby być na bieżąco z udostępnianymi poprawkami i uniknąć potencjalnych problemów związanych z wydajnością.</p>
+<p>#cybersecurity #ai #infosec #automation #news</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Wydarzenia" term="Wydarzenia"/>
+        <category label="Konferencje" term="Konferencje"/>
+        <category label="Technologie" term="Technologie"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="OWASP" term="OWASP"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Web Application" term="Web Application"/>
+        <category label="Penetration Testing" term="Penetration Testing"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 News Digest: 2025-04-24]]></title>
         <id>https://www.majdak.online/blog/news-2025-04-24</id>
@@ -1079,58 +1112,5 @@
         <category label="Zephyr RTOS" term="Zephyr RTOS"/>
         <category label="IoT" term="IoT"/>
         <category label="Tutorial" term="Tutorial"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kurs Wireshark – Profesjonalne Wprowadzenie]]></title>
-        <id>https://www.majdak.online/blog/2025/02/20/kurswireshark</id>
-        <link href="https://www.majdak.online/blog/2025/02/20/kurswireshark"/>
-        <updated>2024-02-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!]]></summary>
-        <content type="html"><![CDATA[<p>Czy kiedykolwiek zastanawiałeś się, jak administratorzy sieci wykrywają cyberataki? Albo jak działają narzędzia do analizy ruchu sieciowego? Jeśli tak, to <strong>ten kurs jest dla Ciebie!</strong> 🚀</p>
-<p>Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy pakietów sieciowych. Dzięki niemu możesz zdiagnozować problemy z siecią, wykryć ataki hakerskie lub po prostu dowiedzieć się więcej o tym, jak działa internet.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">✅ <strong>Czego się nauczysz?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to -czego-się-nauczysz" title="Direct link to -czego-się-nauczysz">​</a></h2>
-<ul>
-<li>Konfiguracji Wiresharka i rozpoczęcia przechwytywania pakietów</li>
-<li>Analizy najważniejszych protokołów sieciowych (TCP/IP, HTTP, DNS, SSL/TLS)</li>
-<li>Wykrywania anomalii w ruchu sieciowym</li>
-<li>Identyfikacji ataków (ARP Spoofing, DDoS, Man-in-the-Middle)</li>
-<li>Filtrowania i przetwarzania przechwyconych pakietów</li>
-<li>Tworzenia własnych filtrów i automatyzacji z użyciem <strong>Tshark</strong></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-dla-kogo-jest-ten-kurs">🛡️ <strong>Dla kogo jest ten kurs?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#%EF%B8%8F-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to ️-dla-kogo-jest-ten-kurs" title="Direct link to ️-dla-kogo-jest-ten-kurs">​</a></h2>
-<ul>
-<li><strong>Początkujących</strong> zainteresowanych cyberbezpieczeństwem</li>
-<li><strong>Administratorów sieci</strong>, którzy chcą rozwinąć swoje umiejętności</li>
-<li><strong>Testerów bezpieczeństwa</strong> i <strong>pentesterów</strong></li>
-<li>Studentów kierunków technicznych i osób przygotowujących się do certyfikacji</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">📖 <strong>Co znajdziesz w kursie?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to -co-znajdziesz-w-kursie" title="Direct link to -co-znajdziesz-w-kursie">​</a></h2>
-<ul>
-<li>✅ Praktyczne ćwiczenia i scenariusze</li>
-<li>✅ Teorię sieci potrzebną do analizy pakietów</li>
-<li>✅ Przykłady ataków i sposoby ich wykrycia</li>
-<li>✅ Poradniki krok po kroku</li>
-<li>✅ Zapowiedź kursu <strong>zaawansowanego</strong> dla profesjonalistów 💡</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">🎯 <strong>Dlaczego warto?</strong><a href="https://www.majdak.online/blog/2025/02/20/kurswireshark#-dlaczego-warto" class="hash-link" aria-label="Direct link to -dlaczego-warto" title="Direct link to -dlaczego-warto">​</a></h2>
-<ul>
-<li>Kurs napisany przez praktyka z doświadczeniem w analizie bezpieczeństwa sieci</li>
-<li>Oparty na realnych przypadkach użycia</li>
-<li>Kompletna wiedza od podstaw aż po zaawansowane techniki</li>
-</ul>
-<hr>
-<p>👉 <strong><a href="https://www.majdak.online/docs/category/kurs-wireshark" target="_blank" rel="noopener noreferrer">Dołącz do kursu już teraz!</a></strong></p>
-<p>📩 Masz pytania? Skontaktuj się: <strong><a href="mailto:kontakt@majdak.online" target="_blank" rel="noopener noreferrer">kontakt@majdak.online</a></strong><br>
-<!-- -->💡 Śledź nas po więcej wiedzy: <strong><a href="https://www.majdak.online/" target="_blank" rel="noopener noreferrer">www.majdak.online</a></strong></p>
-<p><strong>Autor:</strong> <em>Przemysław Majdak</em><br>
-<strong>Data publikacji:</strong> 20 lutego 2024</p>
-<hr>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Społeczność" term="Społeczność"/>
     </entry>
 </feed>
