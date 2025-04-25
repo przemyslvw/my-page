@@ -6,7 +6,6 @@ tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wyd
 date: "2025-04-24"
 ---
 
-**Krótka zajawka dnia w 1 zdaniu**  
 Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.
 
 ## Najciekawsza informacja dnia
