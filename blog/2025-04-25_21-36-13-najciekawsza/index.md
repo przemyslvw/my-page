@@ -1,12 +1,11 @@
 ---
 slug: news-2025-04-25
-title: "📰 News Digest: 2025-04-25"
+title: "📰 News Digest: 2025-04-25 Rosnąca liczba ataków na sektory krytyczne"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-04-25"
 ---
 
-**Krótka zajawka dnia w 1 zdaniu**  
 Dziś najważniejsze wiadomości to rosnąca liczba ataków na sektory krytyczne i znaczące postępy w technologii bezpieczeństwa.
 
 ## Najciekawsza informacja dnia

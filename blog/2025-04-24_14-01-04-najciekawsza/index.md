@@ -1,6 +1,6 @@
 ---
 slug: news-2025-04-24
-title: "📰 News Digest: 2025-04-24"
+title: "📰 News Digest: 2025-04-24 Blue Shield of California przez lata udostępniało dane pacjentów"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-04-24"

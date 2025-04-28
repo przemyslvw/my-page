@@ -1,12 +1,11 @@
 ---
 slug: news-2025-04-27
-title: "📰 News Digest: 2025-04-27"
+title: "📰 News Digest: 2025-04-27 Grupa Storm-1977 atakuje instytucje edukacyjne"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-04-27"
 ---
 
-**Krótka zajawka dnia w 1 zdaniu**  
 Dziś przyjrzymy się cyberatakowi na sektora edukacyjny oraz nowym narzędziom wykorzystywanym przez hakerów.
 
 ## Najciekawsza informacja dnia
