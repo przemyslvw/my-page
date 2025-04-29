@@ -2,11 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-04-27T00:00:00.000Z</updated>
+    <updated>2025-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📰 News Digest: 2025-04-29 - Government hackers are leading the use of attributed zero-days, Google says]]></title>
+        <id>https://www.majdak.online/blog/news-2025-04-29</id>
+        <link href="https://www.majdak.online/blog/news-2025-04-29"/>
+        <updated>2025-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W dzisiejszym raporcie przyglądamy się najnowszym trendom w cyberbezpieczeństwie na podstawie analiz i ostatnich odkryć. Okazuje się, że państwowe grupy hackerskie i zaawansowane grupy szpiegowskie coraz chętniej korzystają z wyraźnie przypisywalnych zero-dayów, a jednocześnie techniki i wyzwania związane z ochroną przed nowoczesnymi zagrożeniami rosną.]]></summary>
+        <content type="html"><![CDATA[<p>W dzisiejszym raporcie przyglądamy się najnowszym trendom w cyberbezpieczeństwie na podstawie analiz i ostatnich odkryć. Okazuje się, że państwowe grupy hackerskie i zaawansowane grupy szpiegowskie coraz chętniej korzystają z wyraźnie przypisywalnych zero-dayów, a jednocześnie techniki i wyzwania związane z ochroną przed nowoczesnymi zagrożeniami rosną.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="państwowe-grupy-hackerów-dominują-w-wykorzystaniu-przypisywalnych-zero-dayów">Państwowe grupy hackerów dominują w wykorzystaniu przypisywalnych zero-dayów<a href="https://www.majdak.online/blog/news-2025-04-29#pa%C5%84stwowe-grupy-hacker%C3%B3w-dominuj%C4%85-w-wykorzystaniu-przypisywalnych-zero-day%C3%B3w" class="hash-link" aria-label="Direct link to Państwowe grupy hackerów dominują w wykorzystaniu przypisywalnych zero-dayów" title="Direct link to Państwowe grupy hackerów dominują w wykorzystaniu przypisywalnych zero-dayów">​</a></h3>
+<p>Według Google, w 2024 roku to rządy, głównie Chiny i Korea Północna, były najbardziej aktywne w wykorzystywaniu zero-dayów, które można powiązać z ich działaniami. Takie ataki, które wyróżniają się możliwością przypisania ich do konkretnego podmiotu, stają się narzędziem geopolitycznej rywalizacji i wywiadu cybernetycznego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cele-szpiegowskie-i-ataki-na-grupy-exilowe">Cele szpiegowskie i ataki na grupy exilowe<a href="https://www.majdak.online/blog/news-2025-04-29#cele-szpiegowskie-i-ataki-na-grupy-exilowe" class="hash-link" aria-label="Direct link to Cele szpiegowskie i ataki na grupy exilowe" title="Direct link to Cele szpiegowskie i ataki na grupy exilowe">​</a></h3>
+<p>Citizen Lab ujawniło, że exilowi liderzy Ujgurów stali się celem zaawansowanych kampanii wymierzonych w ich komunikację i działania społecznościowe. Użycie złośliwego oprogramowania opartego na systemie Windows, wraz z technikami deep understanding community, wskazuje na precyzyjny dobór celów i wysoki poziom wiedzy cyberprzestępców.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bowman-i-odporność-na-ataki-na-urządzenia-mobilne">Bowman i odporność na ataki na urządzenia mobilne<a href="https://www.majdak.online/blog/news-2025-04-29#bowman-i-odporno%C5%9B%C4%87-na-ataki-na-urz%C4%85dzenia-mobilne" class="hash-link" aria-label="Direct link to Bowman i odporność na ataki na urządzenia mobilne" title="Direct link to Bowman i odporność na ataki na urządzenia mobilne">​</a></h3>
+<p>Choć phishing i malware wciąż stanowią zagrożenie, badania pokazują, że obrony przeciwko tzw. juice jacking – czyli atakom na ładowarki USB – są od lat łatwe do obejścia. Nowe metody ataku pozwalają złodziejom danych poprzez podłączenie złośliwych ładowarek, co wskazuje na potrzebę podnoszenia świadomości użytkowników i lepsze zabezpieczenia urządzeń mobilnych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-dla-infrastruktury-i-dostawców-usług-chmurowych">Zagrożenia dla infrastruktury i dostawców usług chmurowych<a href="https://www.majdak.online/blog/news-2025-04-29#zagro%C5%BCenia-dla-infrastruktury-i-dostawc%C3%B3w-us%C5%82ug-chmurowych" class="hash-link" aria-label="Direct link to Zagrożenia dla infrastruktury i dostawców usług chmurowych" title="Direct link to Zagrożenia dla infrastruktury i dostawców usług chmurowych">​</a></h3>
+<p>Eksperci ostrzegają przed nowymi lukami w kluczowych platformach takich jak SAP NetWeaver czy Craft CMS. Ukrywające się złośliwe kody i aktywne exploity, szczególnie w kontekście tysięcy serwerów, pokazują, że nawet duże i dobrze chronione systemy nie są wolne od zagrożeń. W ostatnich tygodniach odnotowano też hacki wymierzone w służby rządowe i komercyjne, z użyciem ransomware i wycieków danych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="trendy-w-cyberatakach-i-środki-zaradcze">Trendy w cyberatakach i środki zaradcze<a href="https://www.majdak.online/blog/news-2025-04-29#trendy-w-cyberatakach-i-%C5%9Brodki-zaradcze" class="hash-link" aria-label="Direct link to Trendy w cyberatakach i środki zaradcze" title="Direct link to Trendy w cyberatakach i środki zaradcze">​</a></h3>
+<p>Coraz więcej incydentów opiera się na wykorzystaniu istniejących lub nowo odkrytych luk, które są masowo eksploatowane jeszcze przed publikacją łat w ramach tzw. 0-day campaigns. Wzmożenie ataków DDoS, rosnąca liczba breachingów masowo udostępnia dane personalne i stwarza zagrożenia dla firm i instytucji publicznych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-i-refleksja">Podsumowanie i refleksja<a href="https://www.majdak.online/blog/news-2025-04-29#podsumowanie-i-refleksja" class="hash-link" aria-label="Direct link to Podsumowanie i refleksja" title="Direct link to Podsumowanie i refleksja">​</a></h3>
+<p>Obserwujemy wyraźne przesunięcie w kierunku bardziej wyraźnie przypisywalnych i wyrafinowanych ataków państwowych, które korzystają z złożonych technik i precyzyjnych spear-phishingów. Wzrost znaczenia zero-dayów, zarówno w kontekście strategicznych operacji, jak i codziennych zagrożeń dla użytkowników, wymusza ciągłe doskonalenie obrony i podnoszenie świadomości. W przyszłości kluczowe będzie połączenie nowoczesnych technologii, takich jak SI i automatyzacja, z proaktywnymi strategiami ochrony infrastruktury krytycznej.</p>
+<hr>
+<p><strong>Źródła:</strong></p>
+<ul>
+<li><a href="https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-use-of-attributed-zero-days-google-says/" target="_blank" rel="noopener noreferrer">Government hackers are leading the use of attributed zero-days, Google says</a></li>
+<li><a href="https://techcrunch.com/2025/04/28/citizen-lab-says-exiled-uyghur-leaders-targeted-with-windows-spyware/" target="_blank" rel="noopener noreferrer">Citizen Lab says exiled Uyghur leaders targeted with Windows spyware</a></li>
+<li><a href="https://arstechnica.com/security/2025/04/ios-and-android-juice-jacking-defenses-have-been-trivial-to-bypass-for-years/" target="_blank" rel="noopener noreferrer">iOS and Android juice jacking defenses have been trivial to bypass for years</a></li>
+<li><a href="https://thehackernews.com/2025/04/malware-attack-targets-world-uyghur.html" target="_blank" rel="noopener noreferrer">Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool</a></li>
+<li><a href="https://thehackernews.com/2025/04/cisa-adds-actively-exploited-broadcom.html" target="_blank" rel="noopener noreferrer">CISA Adds Actively Exploited Broadcom and Commvault Flaws to KEV Database</a></li>
+<li><a href="https://thehackernews.com/2025/04/weekly-recap-critical-sap-exploit-ai.html" target="_blank" rel="noopener noreferrer">Weekly Recap: Critical SAP Exploit, AI-Powered Phishing, Major Breaches, New CVEs &amp; More</a></li>
+<li><a href="https://thehackernews.com/2025/04/how-breaches-start-breaking-down-5-real.html" target="_blank" rel="noopener noreferrer">How Breaches Start: Breaking Down 5 Real Vulns</a></li>
+<li><a href="https://thehackernews.com/2025/04/earth-kurma-targets-southeast-asia-with.html" target="_blank" rel="noopener noreferrer">Earth Kurma Targets Southeast Asia With Rootkits and Cloud-Based Data Theft Tools</a></li>
+<li><a href="https://thehackernews.com/2025/04/woocommerce-users-targeted-by-fake.html" target="_blank" rel="noopener noreferrer">WooCommerce Users Targeted by Fake Patch Phishing Campaign Deploying Site Backdoors</a></li>
+<li><a href="https://thehackernews.com/2025/04/hackers-exploit-critical-craft-cms.html" target="_blank" rel="noopener noreferrer">Hackers Exploit Critical Craft CMS Flaws; Hundreds of Servers Likely Compromised</a></li>
+<li><a href="https://www.welivesecurity.com/en/mobile-security/how-safe-secure-iphone/" target="_blank" rel="noopener noreferrer">How safe and secure is your iPhone really?</a></li>
+<li><a href="https://www.securityweek.com/exploited-vulnerability-exposes-over-400-sap-netweaver-servers-to-attacks/" target="_blank" rel="noopener noreferrer">Exploited Vulnerability Exposes Over 400 SAP NetWeaver Servers to Attacks</a></li>
+<li><a href="https://www.securityweek.com/cisa-warns-of-exploited-broadcom-commvault-vulnerabilities/" target="_blank" rel="noopener noreferrer">CISA Warns of Exploited Broadcom, Commvault Vulnerabilities</a></li>
+<li><a href="https://www.securityweek.com/ibms-150-billion-us-investment-to-boost-quantum-innovation-and-national-security/" target="_blank" rel="noopener noreferrer">IBM’s $150 Billion US Investment to Boost Quantum Innovation and National Security</a></li>
+<li><a href="https://www.securityweek.com/palo-alto-networks-to-acquire-ai-security-firm-protect-ai/" target="_blank" rel="noopener noreferrer">Palo Alto Networks to Acquire AI Security Firm Protect AI</a></li>
+<li><a href="https://www.securityweek.com/netfoundry-raises-12-million-for-network-security-solutions/" target="_blank" rel="noopener noreferrer">NetFoundry Raises $12 Million for Network Security Solutions</a></li>
+<li><a href="https://www.securityweek.com/jpmorgan-chase-ciso-fires-warning-shot-ahead-of-rsa-conference/" target="_blank" rel="noopener noreferrer">JPMorgan Chase CISO Fires Warning Shot Ahead of RSA Conference</a></li>
+<li><a href="https://www.securityweek.com/veza-banks-108-million-series-d-at-808-million-valuation/" target="_blank" rel="noopener noreferrer">Veza Banks $108 Million Series D at $808 Million Valuation</a></li>
+<li><a href="https://www.securityweek.com/craft-cms-zero-day-exploited-to-compromise-hundreds-of-websites/" target="_blank" rel="noopener noreferrer">Craft CMS Zero-Day Exploited to Compromise Hundreds of Websites</a></li>
+<li><a href="https://www.securityweek.com/4-million-affected-by-data-breach-at-verisource-services/" target="_blank" rel="noopener noreferrer">4 Million Affected by VeriSource Data Breach</a></li>
+<li><a href="https://www.securityweek.com/critical-vulnerabilities-found-in-planet-technology-industrial-networking-products/" target="_blank" rel="noopener noreferrer">Critical Vulnerabilities Found in Planet Technology Industrial Networking Products</a></li>
+<li><a href="https://www.malwarebytes.com/blog/uncategorized/2025/04/what-privacy-perplexity-wants-your-data-builds-browser-to-track-you-and-serve-ads" target="_blank" rel="noopener noreferrer">What privacy? Perplexity wants your data, builds browser to track you and serve ads</a></li>
+<li><a href="https://www.malwarebytes.com/blog/news/2025/04/employee-monitoring-app-exposes-users-leaks-21-million-screenshots" target="_blank" rel="noopener noreferrer">Employee monitoring app exposes users, leaks 21+ million screenshots</a></li>
+<li><a href="https://www.malwarebytes.com/blog/news/2025/04/a-week-in-security-april-21-april-27" target="_blank" rel="noopener noreferrer">A week in security (April 21 – April 27)</a></li>
+<li><a href="https://www.darkreading.com/vulnerabilities-threats/vulnerability-exploitation-shifting-2024-25" target="_blank" rel="noopener noreferrer">Vulnerability Exploitation Is Shifting in 2024-25</a></li>
+<li><a href="https://www.darkreading.com/cyberattacks-data-breaches/sap-netweaver-visual-composer-flaw-active-exploitation" target="_blank" rel="noopener noreferrer">SAP NetWeaver Visual Composer Flaw Under Active Exploitation</a></li>
+<li><a href="https://www.darkreading.com/remote-workforce/ai-automation-dark-web-fuel-evolving-threat-landscape" target="_blank" rel="noopener noreferrer">AI, Automation, and Dark Web Fuel Evolving Threat Landscape</a></li>
+<li><a href="https://www.darkreading.com/vulnerabilities-threats/forget-stack-focus-control" target="_blank" rel="noopener noreferrer">Forget the Stack; Focus on Control</a></li>
+<li><a href="https://www.darkreading.com/cyber-risk/doj-data-security-program-data-sharing-challenge" target="_blank" rel="noopener noreferrer">DoJ Data Security Program Highlights Data Sharing Challenges</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/marks-and-spencer-breach-linked-to-scattered-spider-ransomware-attack/" target="_blank" rel="noopener noreferrer">Marks &amp; Spencer breach linked to Scattered Spider ransomware attack</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/" target="_blank" rel="noopener noreferrer">Hitachi Vantara takes servers offline after Akira ransomware attack</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/verisource-now-says-february-data-breach-impacts-4-million-people/" target="_blank" rel="noopener noreferrer">VeriSource now says February data breach impacts 4 million people</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/" target="_blank" rel="noopener noreferrer">Over 1,200 SAP NetWeaver servers vulnerable to actively exploited flaw</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/linux/kali-linux-warns-of-update-failures-after-losing-repo-signing-key/" target="_blank" rel="noopener noreferrer">Kali Linux warns of update failures after losing repo signing key</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outlook-on-the-web-search-issues-failures/" target="_blank" rel="noopener noreferrer">Microsoft fixes Outlook on the web search issues, failures</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-record-number-of-ddos-attacks-in-2025/" target="_blank" rel="noopener noreferrer">Cloudflare mitigates record number of DDoS attacks in 2025</a></li>
+</ul>
+<hr>
+<p>Podsumowując, obecne trendy wskazują na rosnącą zaniedbaną eksplorację złożonych, przypisywalnych ataków państwowych, zagrożenia dla infrastruktury krytycznej oraz nowe wyzwania związane z ewolucją metod walki cyberprzestępców. Aby sprostać tym wyzwaniom, konieczne jest ciągłe doskonalenie technik obronnych, zwiększanie świadomości użytkowników i inwestycje w zaawansowane rozwiązania wspierane przez sztuczną inteligencję i automatyzację.</p>]]></content>
+        <author>
+            <name>Lorenzo Franceschi-Bicchierai</name>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Wydarzenia" term="Wydarzenia"/>
+        <category label="Konferencje" term="Konferencje"/>
+        <category label="Technologie" term="Technologie"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="OWASP" term="OWASP"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Web Application" term="Web Application"/>
+        <category label="Penetration Testing" term="Penetration Testing"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 News Digest: 2025-04-27 Grupa Storm-1977 atakuje instytucje edukacyjne]]></title>
         <id>https://www.majdak.online/blog/news-2025-04-27</id>
@@ -1012,92 +1091,5 @@
         <category label="ISTQB" term="ISTQB"/>
         <category label="Certification" term="Certification"/>
         <category label="Software Testing" term="Software Testing"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
-        <id>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</id>
-        <link href="https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi"/>
-        <updated>2024-06-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Podatność na jamming w kamerach Xiaomi 🐛]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podatność-na-jamming-w-kamerach-xiaomi-">Podatność na jamming w kamerach Xiaomi 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi-" class="hash-link" aria-label="Direct link to Podatność na jamming w kamerach Xiaomi 🐛" title="Direct link to Podatność na jamming w kamerach Xiaomi 🐛">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h3>
-<p>Niedawno odkryto, że niektóre kamery Xiaomi są podatne na ataki jammingowe, które mogą powodować zatrzymanie obrazu. Ten artykuł omawia, jak można zminimalizować to zagrożenie za pomocą oprogramowania.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objawy-i-skutki-">Objawy i skutki 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#objawy-i-skutki-" class="hash-link" aria-label="Direct link to Objawy i skutki 🐛" title="Direct link to Objawy i skutki 🐛">​</a></h3>
-<p>Podczas ataku jammingowego kamera traci połączenie z siecią Wi-Fi, co skutkuje zatrzymaniem obrazu lub całkowitym rozłączeniem. Niestety, detekcja ruchu w tych kamerach działa tylko na obrazie w czasie rzeczywistym, co oznacza, że po przywróceniu sygnału Wi-Fi, kamera nie analizuje nagrań z okresu braku połączenia.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania">Rozwiązania<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#rozwi%C4%85zania" class="hash-link" aria-label="Direct link to Rozwiązania" title="Direct link to Rozwiązania">​</a></h3>
-<ol>
-<li>
-<p><strong>Dualna łączność</strong> - Wprowadzenie wsparcia dla sieci LTE jako zapasowego połączenia w przypadku utraty sygnału Wi-Fi.</p>
-</li>
-<li>
-<p><strong>Automatyczne przełączanie kanałów</strong> - Dodanie funkcji automatycznego przełączania kanałów, by unikać zakłóceń.</p>
-</li>
-<li>
-<p><strong>Wykrywanie jammingu</strong> - Implementacja systemu, który wykryje zakłócenia i przełączy kamerę na tryb lokalnego nagrywania.</p>
-</li>
-<li>
-<p><strong>Analiza nagrań pod kątem detekcji ruchu</strong> - Dodanie funkcji analizy nagrań z okresu braku połączenia, aby wykryć ruch i powiadomić użytkownika.</p>
-</li>
-<li>
-<p><strong>Zwiększenie mocy sygnału</strong> - Użycie mocniejszych anten, które będą bardziej odporne na zakłócenia.</p>
-</li>
-</ol>
-<p>Dzięki tym krokom można znacznie zwiększyć odporność kamer Xiaomi na ataki jammingowe.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="testowany-model-to-mi-camera-2k-magnetic-mount">Testowany model to <strong>Mi Camera 2K (Magnetic Mount)</strong><a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#testowany-model-to-mi-camera-2k-magnetic-mount" class="hash-link" aria-label="Direct link to testowany-model-to-mi-camera-2k-magnetic-mount" title="Direct link to testowany-model-to-mi-camera-2k-magnetic-mount">​</a></h3>
-<p>Odkryto, że kamera  jest podatna na ataki typu jamming, które mogą powodować zatrzymanie obrazu lub całkowite rozłączenie urządzenia. </p><div>oaicite:0</div><p></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="potencjalnie-zagrożone-modele">Potencjalnie zagrożone modele<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#potencjalnie-zagro%C5%BCone-modele" class="hash-link" aria-label="Direct link to Potencjalnie zagrożone modele" title="Direct link to Potencjalnie zagrożone modele">​</a></h3>
-<p>Ze względu na podobieństwa w konstrukcji i funkcjonalności, inne modele kamer Xiaomi mogą również być podatne na tego typu ataki. Należą do nich:</p>
-<ul>
-<li>
-<p><strong>Mi Home Security Camera 360°</strong>: kamera oferująca panoramiczny widok z funkcją obrotu, często stosowana do monitoringu domowego. </p><div>oaicite:1</div><p></p>
-</li>
-<li>
-<p><strong>Mi Home Security Camera 1080p Magnetic Mount</strong>: model z magnetycznym mocowaniem, podobny w konstrukcji do Mi Camera 2K (Magnetic Mount). </p><div>oaicite:2</div><p></p>
-</li>
-<li>
-<p><strong>Mi 360° Home Security Camera 2K Pro</strong>: zaawansowana wersja kamery 360° z wyższą rozdzielczością, mogąca posiadać podobne podatności. </p><div>oaicite:3</div><p></p>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="inni-producenci-których-urządzenia-mogą-być-podatne-na-jamming">Inni producenci, których urządzenia mogą być podatne na jamming<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#inni-producenci-kt%C3%B3rych-urz%C4%85dzenia-mog%C4%85-by%C4%87-podatne-na-jamming" class="hash-link" aria-label="Direct link to Inni producenci, których urządzenia mogą być podatne na jamming" title="Direct link to Inni producenci, których urządzenia mogą być podatne na jamming">​</a></h2>
-<ul>
-<li>
-<p><strong>Nest (Google):</strong> Kamery Nest korzystają z Wi-Fi do transmisji danych, co czyni je potencjalnie podatnymi na zakłócenia sygnału.</p>
-</li>
-<li>
-<p><strong>Arlo:</strong> Bezprzewodowe kamery Arlo również opierają się na Wi-Fi, a więc mogą doświadczać problemów w przypadku ataków jammingowych.</p>
-</li>
-<li>
-<p><strong>Ring (Amazon):</strong> Urządzenia Ring, takie jak dzwonki wideo i kamery bezpieczeństwa, komunikują się przez Wi-Fi, co może narażać je na zakłócenia.</p>
-</li>
-<li>
-<p><strong>Wyze:</strong> Kamery Wyze działają w oparciu o sieć Wi-Fi, co oznacza, że są podatne na zakłócenia sygnału radiowego.</p>
-</li>
-<li>
-<p><strong>D-Link:</strong> Producent oferuje szeroką gamę kamer IP korzystających z Wi-Fi, które mogą być podatne na ataki jammingowe.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zalecenia">Zalecenia<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#zalecenia" class="hash-link" aria-label="Direct link to Zalecenia" title="Direct link to Zalecenia">​</a></h3>
-<p>Użytkownicy wymienionych modeli powinni być świadomi potencjalnych zagrożeń związanych z atakami jammingowymi i rozważyć dodatkowe środki zabezpieczające, takie jak:</p>
-<ul>
-<li>
-<p>Aktualizacja oprogramowania kamery do najnowszej wersji.</p>
-</li>
-<li>
-<p>Monitorowanie stabilności połączenia Wi-Fi i unikanie zakłóceń sygnału.</p>
-</li>
-<li>
-<p>Rozważenie zastosowania dodatkowych zabezpieczeń sieciowych w celu ochrony przed atakami jammingowymi.</p>
-</li>
-</ul>
-<p>Dzięki tym działaniom można zwiększyć bezpieczeństwo i niezawodność systemu monitoringu opartego na kamerach Xiaomi.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Jamming" term="Jamming"/>
-        <category label="Xiaomi" term="Xiaomi"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Ochrona Sieci" term="Ochrona Sieci"/>
     </entry>
 </feed>
