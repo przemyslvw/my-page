@@ -4,10 +4,66 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Sun, 27 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 News Digest: 2025-04-29 [NAJWAŻNIEJSZE W DUŻEJ ŚCIĄGCE]]]></title>
+            <link>https://www.majdak.online/blog/news-2025-04-29</link>
+            <guid>https://www.majdak.online/blog/news-2025-04-29</guid>
+            <pubDate>Tue, 29 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cyberbezpieczeństwo w 2025 roku nie zwalnia tempa. Coraz bardziej zaawansowane narzędzia i rosnące zagrożenia wymuszają na firmach i specjalistach stałe śledzenie bieżących wydarzeń, aby skutecznie reagować i przeciwdziałać atakom. Przedstawiamy najważniejsze informacje z ostatniego tygodnia.]]></description>
+            <content:encoded><![CDATA[<p>Cyberbezpieczeństwo w 2025 roku nie zwalnia tempa. Coraz bardziej zaawansowane narzędzia i rosnące zagrożenia wymuszają na firmach i specjalistach stałe śledzenie bieżących wydarzeń, aby skutecznie reagować i przeciwdziałać atakom. Przedstawiamy najważniejsze informacje z ostatniego tygodnia.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cele-ataków-i-nowe-zagrożenia">Cele ataków i nowe zagrożenia<a href="https://www.majdak.online/blog/news-2025-04-29#cele-atak%C3%B3w-i-nowe-zagro%C5%BCenia" class="hash-link" aria-label="Direct link to Cele ataków i nowe zagrożenia" title="Direct link to Cele ataków i nowe zagrożenia">​</a></h2>
+<p><strong>Twarde fakty na ten tydzień:</strong></p>
+<ul>
+<li><strong>Zaawansowane kampanie szpiegowskie</strong> – Citizen Lab ujawnia, że exilowani liderzy Uyghurów padli ofiarą spyware na Windows. Atakujący wykazali się "dogłębnym zrozumieniem społeczności docelowej", co wskazuje na wysoki poziom zaawansowania i celowości działań. <a href="https://techcrunch.com/2025/04/28/citizen-lab-says-exiled-uyghur-leaders-targeted-with-windows-spyware/" target="_blank" rel="noopener noreferrer">Czytaj więcej</a></li>
+<li><strong>Rodzaj zagrożeń i ich ewolucja</strong> – coraz więcej ataków opiera się na narzędziach AI, które wspomagają phishing, rozprzestrzenianie malware czy nawet wyłudzenia danych. Cyberprzestępcy korzystają z dostępnych od ręki zasobów, co czyni cyberzagrożenia bardziej zróżnicowanymi i nieprzewidywalnymi. <a href="https://thehackernews.com/2025/04/weekly-recap-critical-sap-exploit-ai.html" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowości-w-technologiach-i-lukach-bezpieczeństwa">Nowości w technologiach i lukach bezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-04-29#nowo%C5%9Bci-w-technologiach-i-lukach-bezpiecze%C5%84stwa" class="hash-link" aria-label="Direct link to Nowości w technologiach i lukach bezpieczeństwa" title="Direct link to Nowości w technologiach i lukach bezpieczeństwa">​</a></h2>
+<p><strong>Luki i exploity:</strong></p>
+<ul>
+<li><strong>Krytyczne podatności w SAP NetWeaver</strong> – ponad 1200 serwerów podatnych na aktywnie wykorzystywaną lukę umożliwiającą przejęcie kontroli. <a href="https://www.bleepingcomputer.com/news/security/over-1-200-sap-netweaver-servers-vulnerable-to-actively-exploited-flaw/" target="_blank" rel="noopener noreferrer">Sprawdź szczegóły</a></li>
+<li><strong>Afera w Craft CMS</strong> – zero-day exploit pozwala na wykonanie złośliwego kodu PHP na setkach stron internetowych. Warto szybko załatać tę lukę. <a href="https://www.securityweek.com/craft-cms-zero-day-exploited-to-compromise-hundreds-of-websites/" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+<li><strong>Eksfiltracja danych sektorów krytycznych</strong> – grupa Earth Kurma od czerwca 2024 atakuje sektor telekomunikacyjny w Azji południowo-wschodniej przy użyciu rootkitów i narzędzi chmurowych. <a href="https://thehackernews.com/2025/04/earth-kurma-targets-southeast-asia-with.html" target="_blank" rel="noopener noreferrer">Czytaj</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-dla-użytkowników-końcowych">Zagrożenia dla użytkowników końcowych<a href="https://www.majdak.online/blog/news-2025-04-29#zagro%C5%BCenia-dla-u%C5%BCytkownik%C3%B3w-ko%C5%84cowych" class="hash-link" aria-label="Direct link to Zagrożenia dla użytkowników końcowych" title="Direct link to Zagrożenia dla użytkowników końcowych">​</a></h2>
+<ul>
+<li><strong>Ataki juice jacking na iOS i Android</strong> – badania pokazują, że obrona przed wyłudzaniem danych za pomocą podłączenia do złośliwych ładowarek jest korzystnie prosta do obejścia. Użytkownicy powinni zachować czujność i używać własnych, zaufanych źródeł zasilania. <a href="https://arstechnica.com/security/2025/04/ios-and-android-juice-jacking-defenses-have-been-trivial-to-bypass-for-years/" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+<li><strong>iPhone nie jest tak bezpieczny</strong> – nawet najbardziej popularne iTwory nie są wolne od zagrożeń. Zaleca się regularne aktualizacje i świadome korzystanie z funkcji urządzenia. <a href="https://www.welivesecurity.com/en/mobile-security/how-safe-secure-iphone/" target="_blank" rel="noopener noreferrer">Szczegóły</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="incydenty-i-breachy">Incydenty i breach’y<a href="https://www.majdak.online/blog/news-2025-04-29#incydenty-i-breachy" class="hash-link" aria-label="Direct link to Incydenty i breach’y" title="Direct link to Incydenty i breach’y">​</a></h2>
+<ul>
+<li><strong>Wyciek danych z VeriSource</strong> – aż 4 miliony osób zostały dotknięte wyciekiem informacji w wyniku ataku na początku 2024 roku. <a href="https://www.securityweek.com/4-million-affected-by-data-breach-at-verisource-services/" target="_blank" rel="noopener noreferrer">Przeczytaj</a></li>
+<li><strong>Hakerzy atakują na skalę przemysłową</strong> – grupa Scattered Spider odpowiedzialna za rzekomą kradzież danych w Marks &amp; Spencer oraz atak na Hitachi Vantara wymusiła czasowe wyłączenie serwerów. <a href="https://www.bleepingcomputer.com/news/security/marks-and-spencer-breach-linked-to-scattered-spider-ransomware-attack/" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+<li><strong>Akira ransomware zamknął serwery Hitachi Vantara</strong> – firma musiała wyłączyć systemy, by opanować zagrożenie. <a href="https://www.bleepingcomputer.com/news/security/hitachi-vantara-takes-servers-offline-after-akira-ransomware-attack/" target="_blank" rel="noopener noreferrer">Szczegóły</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="innowacje-i-kierunki-rozwoju">Innowacje i kierunki rozwoju<a href="https://www.majdak.online/blog/news-2025-04-29#innowacje-i-kierunki-rozwoju" class="hash-link" aria-label="Direct link to Innowacje i kierunki rozwoju" title="Direct link to Innowacje i kierunki rozwoju">​</a></h2>
+<ul>
+<li><strong>Akquisition: Palo Alto nabywa Protect AI</strong> – potężne posunięcie na rynku AI security, które może znacząco wpłynąć na metodologię obrony. <a href="https://www.securityweek.com/palo-alto-networks-to-acquire-ai-security-firm-protect-ai/" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+<li><strong>Fundusze na bezpieczeństwo sieci</strong> – NetFoundry pozyskało 12 mln USD na rozwój rozwiązań Zero Trust. <a href="https://www.securityweek.com/netfoundry-raises-12-million-for-network-security-solutions/" target="_blank" rel="noopener noreferrer">Przeczytaj</a></li>
+<li><strong>Rosnąca aktywność ruchu DDoS</strong> – Cloudflare odnotowało rekordową liczbę ataków DDoS w 2024, co wskazuje na rosnącą skalę i złożoność zagrożeń. <a href="https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-record-number-of-ddos-attacks-in-2025/" target="_blank" rel="noopener noreferrer">Więcej</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="trendy-i-refleksje">Trendy i refleksje<a href="https://www.majdak.online/blog/news-2025-04-29#trendy-i-refleksje" class="hash-link" aria-label="Direct link to Trendy i refleksje" title="Direct link to Trendy i refleksje">​</a></h2>
+<p>W 2025 roku widzimy wyraźne przejście na narzędzia oparte na sztucznej inteligencji i automatyzacji, które ułatwiają ataki i ich skalowanie. Równocześnie, coraz częściej słyszymy o lukach w popularnych rozwiązaniach software’owych, co wymusza ciągłe uaktualnianie i monitorowanie systemów. Bezpieczeństwo końcówek, sektorów krytycznych i infrastruktury staje się coraz bardziej wyzwaniem, a ataki na znane platformy CMS pokazują, jak ważne jest szybkie reagowanie i prewencja. Aby skutecznie zabezpieczyć się przed tymi zagrożeniami, konieczne jest połączenie technologii, procedur i edukacji użytkowników.</p>
+<hr>
+<p><strong>Pamiętaj:</strong> bezpieczeństwo to proces, nie stan. Ciągłe śledzenie trendów i szybka reakcja mogą uratować firmę lub dane przed katastrofą.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Automation</category>
+            <category>Networking</category>
+            <category>Wydarzenia</category>
+            <category>Konferencje</category>
+            <category>Technologie</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>OWASP</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+            <category>Penetration Testing</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[📰 News Digest: 2025-04-27 Grupa Storm-1977 atakuje instytucje edukacyjne]]></title>
             <link>https://www.majdak.online/blog/news-2025-04-27</link>
@@ -937,89 +993,6 @@
             <category>ISTQB</category>
             <category>Certification</category>
             <category>Software Testing</category>
-        </item>
-        <item>
-            <title><![CDATA[Podatność na jamming w kamerach Xiaomi]]></title>
-            <link>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</link>
-            <guid>https://www.majdak.online/blog/podatność-na-jamming-w-kamerach-xiaomi</guid>
-            <pubDate>Tue, 04 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Podatność na jamming w kamerach Xiaomi 🐛]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podatność-na-jamming-w-kamerach-xiaomi-">Podatność na jamming w kamerach Xiaomi 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi-" class="hash-link" aria-label="Direct link to Podatność na jamming w kamerach Xiaomi 🐛" title="Direct link to Podatność na jamming w kamerach Xiaomi 🐛">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h3>
-<p>Niedawno odkryto, że niektóre kamery Xiaomi są podatne na ataki jammingowe, które mogą powodować zatrzymanie obrazu. Ten artykuł omawia, jak można zminimalizować to zagrożenie za pomocą oprogramowania.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="objawy-i-skutki-">Objawy i skutki 🐛<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#objawy-i-skutki-" class="hash-link" aria-label="Direct link to Objawy i skutki 🐛" title="Direct link to Objawy i skutki 🐛">​</a></h3>
-<p>Podczas ataku jammingowego kamera traci połączenie z siecią Wi-Fi, co skutkuje zatrzymaniem obrazu lub całkowitym rozłączeniem. Niestety, detekcja ruchu w tych kamerach działa tylko na obrazie w czasie rzeczywistym, co oznacza, że po przywróceniu sygnału Wi-Fi, kamera nie analizuje nagrań z okresu braku połączenia.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania">Rozwiązania<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#rozwi%C4%85zania" class="hash-link" aria-label="Direct link to Rozwiązania" title="Direct link to Rozwiązania">​</a></h3>
-<ol>
-<li>
-<p><strong>Dualna łączność</strong> - Wprowadzenie wsparcia dla sieci LTE jako zapasowego połączenia w przypadku utraty sygnału Wi-Fi.</p>
-</li>
-<li>
-<p><strong>Automatyczne przełączanie kanałów</strong> - Dodanie funkcji automatycznego przełączania kanałów, by unikać zakłóceń.</p>
-</li>
-<li>
-<p><strong>Wykrywanie jammingu</strong> - Implementacja systemu, który wykryje zakłócenia i przełączy kamerę na tryb lokalnego nagrywania.</p>
-</li>
-<li>
-<p><strong>Analiza nagrań pod kątem detekcji ruchu</strong> - Dodanie funkcji analizy nagrań z okresu braku połączenia, aby wykryć ruch i powiadomić użytkownika.</p>
-</li>
-<li>
-<p><strong>Zwiększenie mocy sygnału</strong> - Użycie mocniejszych anten, które będą bardziej odporne na zakłócenia.</p>
-</li>
-</ol>
-<p>Dzięki tym krokom można znacznie zwiększyć odporność kamer Xiaomi na ataki jammingowe.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="testowany-model-to-mi-camera-2k-magnetic-mount">Testowany model to <strong>Mi Camera 2K (Magnetic Mount)</strong><a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#testowany-model-to-mi-camera-2k-magnetic-mount" class="hash-link" aria-label="Direct link to testowany-model-to-mi-camera-2k-magnetic-mount" title="Direct link to testowany-model-to-mi-camera-2k-magnetic-mount">​</a></h3>
-<p>Odkryto, że kamera  jest podatna na ataki typu jamming, które mogą powodować zatrzymanie obrazu lub całkowite rozłączenie urządzenia. </p><div>oaicite:0</div><p></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="potencjalnie-zagrożone-modele">Potencjalnie zagrożone modele<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#potencjalnie-zagro%C5%BCone-modele" class="hash-link" aria-label="Direct link to Potencjalnie zagrożone modele" title="Direct link to Potencjalnie zagrożone modele">​</a></h3>
-<p>Ze względu na podobieństwa w konstrukcji i funkcjonalności, inne modele kamer Xiaomi mogą również być podatne na tego typu ataki. Należą do nich:</p>
-<ul>
-<li>
-<p><strong>Mi Home Security Camera 360°</strong>: kamera oferująca panoramiczny widok z funkcją obrotu, często stosowana do monitoringu domowego. </p><div>oaicite:1</div><p></p>
-</li>
-<li>
-<p><strong>Mi Home Security Camera 1080p Magnetic Mount</strong>: model z magnetycznym mocowaniem, podobny w konstrukcji do Mi Camera 2K (Magnetic Mount). </p><div>oaicite:2</div><p></p>
-</li>
-<li>
-<p><strong>Mi 360° Home Security Camera 2K Pro</strong>: zaawansowana wersja kamery 360° z wyższą rozdzielczością, mogąca posiadać podobne podatności. </p><div>oaicite:3</div><p></p>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="inni-producenci-których-urządzenia-mogą-być-podatne-na-jamming">Inni producenci, których urządzenia mogą być podatne na jamming<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#inni-producenci-kt%C3%B3rych-urz%C4%85dzenia-mog%C4%85-by%C4%87-podatne-na-jamming" class="hash-link" aria-label="Direct link to Inni producenci, których urządzenia mogą być podatne na jamming" title="Direct link to Inni producenci, których urządzenia mogą być podatne na jamming">​</a></h2>
-<ul>
-<li>
-<p><strong>Nest (Google):</strong> Kamery Nest korzystają z Wi-Fi do transmisji danych, co czyni je potencjalnie podatnymi na zakłócenia sygnału.</p>
-</li>
-<li>
-<p><strong>Arlo:</strong> Bezprzewodowe kamery Arlo również opierają się na Wi-Fi, a więc mogą doświadczać problemów w przypadku ataków jammingowych.</p>
-</li>
-<li>
-<p><strong>Ring (Amazon):</strong> Urządzenia Ring, takie jak dzwonki wideo i kamery bezpieczeństwa, komunikują się przez Wi-Fi, co może narażać je na zakłócenia.</p>
-</li>
-<li>
-<p><strong>Wyze:</strong> Kamery Wyze działają w oparciu o sieć Wi-Fi, co oznacza, że są podatne na zakłócenia sygnału radiowego.</p>
-</li>
-<li>
-<p><strong>D-Link:</strong> Producent oferuje szeroką gamę kamer IP korzystających z Wi-Fi, które mogą być podatne na ataki jammingowe.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zalecenia">Zalecenia<a href="https://www.majdak.online/blog/podatno%C5%9B%C4%87-na-jamming-w-kamerach-xiaomi#zalecenia" class="hash-link" aria-label="Direct link to Zalecenia" title="Direct link to Zalecenia">​</a></h3>
-<p>Użytkownicy wymienionych modeli powinni być świadomi potencjalnych zagrożeń związanych z atakami jammingowymi i rozważyć dodatkowe środki zabezpieczające, takie jak:</p>
-<ul>
-<li>
-<p>Aktualizacja oprogramowania kamery do najnowszej wersji.</p>
-</li>
-<li>
-<p>Monitorowanie stabilności połączenia Wi-Fi i unikanie zakłóceń sygnału.</p>
-</li>
-<li>
-<p>Rozważenie zastosowania dodatkowych zabezpieczeń sieciowych w celu ochrony przed atakami jammingowymi.</p>
-</li>
-</ul>
-<p>Dzięki tym działaniom można zwiększyć bezpieczeństwo i niezawodność systemu monitoringu opartego na kamerach Xiaomi.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Jamming</category>
-            <category>Xiaomi</category>
-            <category>Web Security</category>
-            <category>Ochrona Sieci</category>
         </item>
     </channel>
 </rss>
