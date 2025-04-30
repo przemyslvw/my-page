@@ -2,11 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-04-29T00:00:00.000Z</updated>
+    <updated>2025-04-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📰 News Digest: 2025-04-30 - Apple notifies new victims of spyware attacks across the world]]></title>
+        <id>https://www.majdak.online/blog/news-2025-04-30</id>
+        <link href="https://www.majdak.online/blog/news-2025-04-30"/>
+        <updated>2025-04-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W ostatnich dniach świat bezpieczeństwa IT zanotował szereg ważnych wydarzeń. Między innymi Apple poinformowało o nowych przypadkach ofiar spyware, a rządy i przedsiębiorstwa walczyły z cyberatakami i naruszeniami infrastruktury. Przyjrzyjmy się głównym tematom i zagrożeniom, które kształtują dzisiejszy krajobraz cyberbezpieczeństwa.]]></summary>
+        <content type="html"><![CDATA[<p>W ostatnich dniach świat bezpieczeństwa IT zanotował szereg ważnych wydarzeń. Między innymi Apple poinformowało o nowych przypadkach ofiar spyware, a rządy i przedsiębiorstwa walczyły z cyberatakami i naruszeniami infrastruktury. Przyjrzyjmy się głównym tematom i zagrożeniom, które kształtują dzisiejszy krajobraz cyberbezpieczeństwa.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-przypadki-spyware-na-urządzeniach-apple">Nowe przypadki spyware na urządzeniach Apple<a href="https://www.majdak.online/blog/news-2025-04-30#nowe-przypadki-spyware-na-urz%C4%85dzeniach-apple" class="hash-link" aria-label="Direct link to Nowe przypadki spyware na urządzeniach Apple" title="Direct link to Nowe przypadki spyware na urządzeniach Apple">​</a></h3>
+<p>Apple zarejestrowało przypadki użytkowników, którzy otrzymali powiadomienia o wykryciu spyware na swoich urządzeniach. To wskazuje na rosnącą aktywność państwowych i prywatnych grup szpiegowskich, wykorzystujących zaawansowane narzędzia do inwigilacji. Przypadki te potwierdzają, że zagrożenie spyware jest nadal aktualne i wymaga szczególnej uwagi ze strony użytkowników i administratorów.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberatak-na-sektor-detaliczny-w-wielkiej-brytanii">Cyberatak na sektor detaliczny w Wielkiej Brytanii<a href="https://www.majdak.online/blog/news-2025-04-30#cyberatak-na-sektor-detaliczny-w-wielkiej-brytanii" class="hash-link" aria-label="Direct link to Cyberatak na sektor detaliczny w Wielkiej Brytanii" title="Direct link to Cyberatak na sektor detaliczny w Wielkiej Brytanii">​</a></h3>
+<p>Wielka sieć spożywcza Co-op ostrzegła o zakłóceniach w działaniu związanych z cyberincydentem. Atak wpłynął na systemy zaplecza operacyjnego i obsługę klienta, podkreślając, jak kluczowe jest zabezpieczenie flagowych systemów i ciągłe monitorowanie potencjalnych zagrożeń.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blokada-proton-mail-w-indiach">Blokada Proton Mail w Indiach<a href="https://www.majdak.online/blog/news-2025-04-30#blokada-proton-mail-w-indiach" class="hash-link" aria-label="Direct link to Blokada Proton Mail w Indiach" title="Direct link to Blokada Proton Mail w Indiach">​</a></h3>
+<p>Sąd w Indiach nakazał zablokowanie Proton Mail, popularnego dostawcy usług szyfrowanej poczty elektronicznej. Decyzja ta wpisuje się w szerszy trend państw ograniczających dostęp do narzędzi chroniących prywatność, argumentując je względami bezpieczeństwa narodowego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zwiększone-zagrożenia-zero-day">Zwiększone zagrożenia zero-day<a href="https://www.majdak.online/blog/news-2025-04-30#zwi%C4%99kszone-zagro%C5%BCenia-zero-day" class="hash-link" aria-label="Direct link to Zwiększone zagrożenia zero-day" title="Direct link to Zwiększone zagrożenia zero-day">​</a></h3>
+<p>Google i Google-bliźniaccy producenci raportują wzrost ilości wykorzystywanych w cyberatakach zero-day. W 2024 roku odnotowano 75 wykorzystywanych luk, z czego niemal połowa kierowana była na produkty przedsiębiorstw, w tym rozwiązania bezpieczeństwa i systemy operacyjne. Rządy, szczególnie Chiny i Korea Północna, aktywnie korzystają z technik zero-day do celów szpiegowskich.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-związane-z-ai-i-code-injection">Zagrożenia związane z AI i code injection<a href="https://www.majdak.online/blog/news-2025-04-30#zagro%C5%BCenia-zwi%C4%85zane-z-ai-i-code-injection" class="hash-link" aria-label="Direct link to Zagrożenia związane z AI i code injection" title="Direct link to Zagrożenia związane z AI i code injection">​</a></h3>
+<p>Rozwój sztucznej inteligencji bez odpowiednich zabezpieczeń stanowi poważne ryzyko dla łańcuchów dostaw oprogramowania. AI generujące kod, szczególnie przy użyciu dużych modeli językowych, może prowadzić do tworzenia niebezpiecznego, złośliwego software, zwiększając zagrożenie atakami supply chain.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-systemy-komunikacyjne-i-inteligentne-urządzenia">Ataki na systemy komunikacyjne i inteligentne urządzenia<a href="https://www.majdak.online/blog/news-2025-04-30#ataki-na-systemy-komunikacyjne-i-inteligentne-urz%C4%85dzenia" class="hash-link" aria-label="Direct link to Ataki na systemy komunikacyjne i inteligentne urządzenia" title="Direct link to Ataki na systemy komunikacyjne i inteligentne urządzenia">​</a></h3>
+<p>Wśród najciekawszych odkryć są podatności w protokole AirPlay, które umożliwiają zdalne wykonanie kodu i przejęcie kontroli nad urządzeniami Apple. Podczas gdy firmy jak Meta, Google czy Microsoft wprowadzają narzędzia do zabezpieczania AI i systemów operacyjnych, cyberprzestępcy nie zwalniają tempa, wykazując rosnącą wiedzę o lukach w popularnych technologiach.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tło-geopolityczne-i-cyberwojna">Tło geopolityczne i cyberwojna<a href="https://www.majdak.online/blog/news-2025-04-30#t%C5%82o-geopolityczne-i-cyberwojna" class="hash-link" aria-label="Direct link to Tło geopolityczne i cyberwojna" title="Direct link to Tło geopolityczne i cyberwojna">​</a></h3>
+<p>Zarówno Francja, jak i inne państwa, przypisują grupom związanym z Rosją (np. APT28) szereg ataków na infrastruktury krytyczne i organizacje rządowe. Równocześnie narasta aktywność grup takich jak TheWizards, które posługują się zaawansowanymi technikami manipulanckimi, jak ataki AitM poprzez spoofing IPv6 SLAAC.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-i-refleksja">Podsumowanie i refleksja<a href="https://www.majdak.online/blog/news-2025-04-30#podsumowanie-i-refleksja" class="hash-link" aria-label="Direct link to Podsumowanie i refleksja" title="Direct link to Podsumowanie i refleksja">​</a></h3>
+<p>Dzisiejszy krajobraz cyberbezpieczeństwa jest coraz bardziej skomplikowany i wielowymiarowy. Rosnąca aktywność państw w obszarze zero-day, rozwój AI i coraz bardziej wyrafinowane techniki infiltracji pokazują, że cyberzagrożenia przechodzą transformację. Firmy i administratorzy muszą nie tylko inwestować w technologię, ale i rozbudowywać strategie operacyjne, oparte na świadomości, szybkim reagowaniu i współpracy międzynarodowej. Tylko holistyczne podejście pozwoli nam skutecznie chronić się przed nowymi wyzwaniami przyszłości.</p>
+<hr>
+<p><strong>Źródła danych</strong>:<br>
+<!-- -->Tekst powyższy bazuje na najnowszych informacjach i raportach z dnia 30 kwietnia 2025, obejmujących aktualne ataki, zagrożenia i strategie w cyberbezpieczeństwie.</p>]]></content>
+        <author>
+            <name>przemyslvw</name>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Wydarzenia" term="Wydarzenia"/>
+        <category label="Konferencje" term="Konferencje"/>
+        <category label="Technologie" term="Technologie"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="OWASP" term="OWASP"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Web Application" term="Web Application"/>
+        <category label="Penetration Testing" term="Penetration Testing"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 News Digest: 2025-04-29 - Google: Rządy stoją za większością ataków zero-day]]></title>
         <id>https://www.majdak.online/blog/news-2025-04-29</id>
@@ -986,72 +1031,5 @@
         <category label="Bezpieczeństwo" term="Bezpieczeństwo"/>
         <category label="Sieć" term="Sieć"/>
         <category label="Poradnik" term="Poradnik"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
-        <id>https://www.majdak.online/blog/kurs-istqb</id>
-        <link href="https://www.majdak.online/blog/kurs-istqb"/>
-        <updated>2024-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kurs-istqb-poziomu-podstawowego">Kurs ISTQB Poziomu Podstawowego<a href="https://www.majdak.online/blog/kurs-istqb#kurs-istqb-poziomu-podstawowego" class="hash-link" aria-label="Direct link to Kurs ISTQB Poziomu Podstawowego" title="Direct link to Kurs ISTQB Poziomu Podstawowego">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-istqb#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h3>
-<p>Celem kursu <strong>ISTQB Poziomu Podstawowego</strong> jest przygotowanie uczestników do zdania egzaminu certyfikacyjnego ISTQB Foundation Level. Kurs obejmuje wszystkie kluczowe zagadnienia wymagane na egzaminie, zgodnie z najnowszym sylabusem ISTQB.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">📋 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-istqb#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 📋 Czego się nauczysz?" title="Direct link to 📋 Czego się nauczysz?">​</a></h3>
-<ul>
-<li><strong>Podstaw testowania oprogramowania</strong> – znaczenie testowania, cele i podstawowe pojęcia.</li>
-<li><strong>Ról testowania w cyklu życia oprogramowania</strong> – od modeli cyklu życia po poziomy testów.</li>
-<li><strong>Technik projektowania testów</strong> – czarnoskrzynkowe, białoskrzynkowe i oparte na doświadczeniu.</li>
-<li><strong>Statycznych technik testowania</strong> – przeglądów, analiz statycznych i narzędzi wspierających.</li>
-<li><strong>Zarządzania testowaniem</strong> – planowania, szacowania, monitorowania oraz zarządzania ryzykiem.</li>
-<li><strong>Narzędzi wspierających testowanie</strong> – automatyzacja, zarządzanie testami i analiza jakości kodu.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">🧠 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-istqb#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 🧠 Dla kogo jest ten kurs?" title="Direct link to 🧠 Dla kogo jest ten kurs?">​</a></h3>
-<ul>
-<li>Początkujących testerów oprogramowania.</li>
-<li>Osób przygotowujących się do egzaminu ISTQB Foundation Level.</li>
-<li>Programistów, którzy chcą zrozumieć procesy testowania.</li>
-<li>Analityków biznesowych i kierowników projektów współpracujących z zespołami testerskimi.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-struktura-kursu">🧾 Struktura kursu<a href="https://www.majdak.online/blog/kurs-istqb#-struktura-kursu" class="hash-link" aria-label="Direct link to 🧾 Struktura kursu" title="Direct link to 🧾 Struktura kursu">​</a></h3>
-<p>Kurs składa się z 6 głównych rozdziałów:</p>
-<ol>
-<li><strong>Podstawy testowania</strong></li>
-<li><strong>Testowanie w cyklu życia oprogramowania</strong></li>
-<li><strong>Statyczne techniki testowania</strong></li>
-<li><strong>Techniki projektowania testów</strong></li>
-<li><strong>Zarządzanie testowaniem</strong></li>
-<li><strong>Narzędzia wspierające testowanie</strong></li>
-</ol>
-<p>Dodatkowo zawiera:</p>
-<ul>
-<li>Przykładowe pytania egzaminacyjne dla każdej kategorii.</li>
-<li>Testy sprawdzające wiedzę.</li>
-<li>Podsumowanie z zapowiedzią kolejnych kursów ISTQB.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">📝 Dlaczego warto?<a href="https://www.majdak.online/blog/kurs-istqb#-dlaczego-warto" class="hash-link" aria-label="Direct link to 📝 Dlaczego warto?" title="Direct link to 📝 Dlaczego warto?">​</a></h3>
-<ul>
-<li>Kurs zgodny z najnowszym sylabusem ISTQB.</li>
-<li>Praktyczne przykłady i pytania egzaminacyjne.</li>
-<li>Kompleksowe przygotowanie do egzaminu ISTQB Foundation Level.</li>
-<li>Dostęp do materiałów w formacie Markdown gotowych do integracji z Docusaurusem.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-co-dalej">🚀 Co dalej?<a href="https://www.majdak.online/blog/kurs-istqb#-co-dalej" class="hash-link" aria-label="Direct link to 🚀 Co dalej?" title="Direct link to 🚀 Co dalej?">​</a></h3>
-<p>Po ukończeniu kursu możesz kontynuować naukę w ramach bardziej zaawansowanych kursów ISTQB:</p>
-<ul>
-<li><strong>ISTQB Advanced Level</strong> – Test Analyst, Technical Test Analyst, Test Manager.</li>
-<li><strong>ISTQB Agile Tester</strong> – testowanie w środowiskach zwinnych.</li>
-<li><strong>ISTQB Test Automation Engineer</strong> – automatyzacja testów i tworzenie frameworków.</li>
-</ul>
-<p>👉 <a href="https://www.majdak.online/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl"><strong>Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀</strong>(</a></p>
-<hr>
-<p>✅ <strong>Powodzenia na egzaminie!</strong> 🎉</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Testing" term="Testing"/>
-        <category label="ISTQB" term="ISTQB"/>
-        <category label="Certification" term="Certification"/>
-        <category label="Software Testing" term="Software Testing"/>
     </entry>
 </feed>
