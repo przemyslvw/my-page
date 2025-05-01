@@ -4,198 +4,10 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Thu, 01 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
-        <item>
-            <title><![CDATA[📰 Podsumowanie wiadomości: 2025-05-01 - Apple informuje o nowych ofiarach ataków szpiegowskich na całym świecie]]></title>
-            <link>https://www.majdak.online/blog/news-2025-05-01</link>
-            <guid>https://www.majdak.online/blog/news-2025-05-01</guid>
-            <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wprowadzenie]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/news-2025-05-01#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h2>
-<p>Świat cyberbezpieczeństwa nie zwalnia tempa. Wśród najnowszych doniesień pojawiły się informacje o coraz bardziej zaawansowanych atakach szpiegowskich, problemach z lukami w popularnych systemach i narzędziach, a także inicjatywach mających na celu podniesienie poziomu bezpieczeństwa na światową skalę. Poniżej przedstawiamy najważniejsze z nich.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najważniejsze-tematy">Najważniejsze tematy<a href="https://www.majdak.online/blog/news-2025-05-01#najwa%C5%BCniejsze-tematy" class="hash-link" aria-label="Direct link to Najważniejsze tematy" title="Direct link to Najważniejsze tematy">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="szpiegostwo-i-surveillance">Szpiegostwo i surveillance<a href="https://www.majdak.online/blog/news-2025-05-01#szpiegostwo-i-surveillance" class="hash-link" aria-label="Direct link to Szpiegostwo i surveillance" title="Direct link to Szpiegostwo i surveillance">​</a></h3>
-<ul>
-<li>
-<p><strong>Apple informuje o nowych ofiarach spyware</strong><br>
-<!-- -->Dwa osoby zarzuciły otrzymanie powiadomienia od Apple o wykryciu złośliwego oprogramowania na ich urządzeniach. Podkreśla to, że mimo prób ochrony, państwowe lub prywatne grupy wywiadowcze nadal rozwijają narzędzia inwigilacyjne.</p>
-</li>
-<li>
-<p><strong>Eksperci analizują malware "DarkWatchman"</strong><br>
-<!-- -->Rosyjskie grupy hakerskie atakują sektory takie jak media, finanse czy energetyka, wykorzystując zaawansowane techniki ukrywania śladów i wyrafinowane metody inwigilacji.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-usługi-i-infrastrukturę">Ataki na usługi i infrastrukturę<a href="https://www.majdak.online/blog/news-2025-05-01#ataki-na-us%C5%82ugi-i-infrastruktur%C4%99" class="hash-link" aria-label="Direct link to Ataki na usługi i infrastrukturę" title="Direct link to Ataki na usługi i infrastrukturę">​</a></h3>
-<ul>
-<li>
-<p><strong>Cyberatak na brytyjską sieć detaliczną Co-op</strong><br>
-<!-- -->Firma ogłosiła, że miała miejsce nieokreślona ingerencja w systemy back-office i call center, co wymusiło tymczasowe ograniczenia w działalności.</p>
-</li>
-<li>
-<p><strong>Canada’s Emera i Nova Scotia Power</strong> reagują na cyberincydenty**<br>
-<!-- -->Infrastruktura energetyczna kraju padła ofiarą ataków, co podkreśla zagrożenie dla krytycznej infrastruktury.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luki-i-złośliwe-oprogramowanie">Luki i złośliwe oprogramowanie<a href="https://www.majdak.online/blog/news-2025-05-01#luki-i-z%C5%82o%C5%9Bliwe-oprogramowanie" class="hash-link" aria-label="Direct link to Luki i złośliwe oprogramowanie" title="Direct link to Luki i złośliwe oprogramowanie">​</a></h3>
-<ul>
-<li>
-<p><strong>Nowe luki w produktach SonicWall</strong><br>
-<!-- -->Firma potwierdziła, że dwie z nich są aktywnie wykorzystywane przez atakujących, co wymusza szybkie aktualizacje i poprawki.</p>
-</li>
-<li>
-<p><strong>Zjawisko "Zero-Day" w Azure zgłoszone przez Commvault</strong><br>
-<!-- -->China-linked grupa korzystała z exploita CVE-2025-3928, co podkreśla rosnące zagrożenie dla dużych środowisk chmurowych. Commvault zapewnia wskazówki dotyczące wykrywania i minimalizacji ryzyka.</p>
-</li>
-<li>
-<p><strong>WordPress i fałszywe wtyczki bezpieczeństwa</strong><br>
-<!-- -->Kampanie malware wykorzystują podrobione narzędzia do uzyskiwania zdalnego dostępu, co pokazuje konieczność ostrożności przy instalowaniu niezweryfikowanych pluginów.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-narzędzia-i-technologie-ochronne">Nowoczesne narzędzia i technologie ochronne<a href="https://www.majdak.online/blog/news-2025-05-01#nowoczesne-narz%C4%99dzia-i-technologie-ochronne" class="hash-link" aria-label="Direct link to Nowoczesne narzędzia i technologie ochronne" title="Direct link to Nowoczesne narzędzia i technologie ochronne">​</a></h3>
-<ul>
-<li>
-<p><strong>Shift w podejściu SOC na Network Detection and Response (NDR)</strong><br>
-<!-- -->Coraz więcej zespołów bezpieczeństwa rezygnuje z klasycznych systemów na rzecz rozwiązań opartych na wykrywaniu zagrożeń na poziomie sieciowym, co umożliwia wykrycie ukrywających się zaawansowanych przeciwników.</p>
-</li>
-<li>
-<p><strong>Meta tworzy LlamaFirewall</strong><br>
-<!-- -->Framework open-source do obrony przed atakami na AI, takimi jak jailbreaki, prompt injections i niewłaściwe wdrożenia kodu.</p>
-</li>
-<li>
-<p><strong>WhatsApp wdraża 'Private Processing'</strong><br>
-<!-- -->Funkcja ta pozwala korzystać z AI w chmurze w sposób zachowujący prywatność użytkownika, minimalizując ryzyko wycieków danych.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spektakularne-ataki-i-kampanie">Spektakularne ataki i kampanie<a href="https://www.majdak.online/blog/news-2025-05-01#spektakularne-ataki-i-kampanie" class="hash-link" aria-label="Direct link to Spektakularne ataki i kampanie" title="Direct link to Spektakularne ataki i kampanie">​</a></h3>
-<ul>
-<li><strong>NATO i rządowe cele w regionie Azji Południowo-Wschodniej</strong> pod stałym nadzorem rosyjsko-chińskich grup jak Nebulous Mantis czy Lotus Panda.</li>
-<li><strong>Wzrost ataków DDoS na instytucje rządowe w Holandii</strong> przez pro-rosyjskie hacktywiści.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problemy-z-zarządzaniem-i-standardami">Problemy z zarządzaniem i standardami<a href="https://www.majdak.online/blog/news-2025-05-01#problemy-z-zarz%C4%85dzaniem-i-standardami" class="hash-link" aria-label="Direct link to Problemy z zarządzaniem i standardami" title="Direct link to Problemy z zarządzaniem i standardami">​</a></h3>
-<ul>
-<li>
-<p><strong>Propozycje standardów dotyczących informacji o końcowym wsparciu sprzętu i oprogramowania (EOL)</strong><br>
-<!-- -->Wspólne formaty danych ułatwią komunikację i reakcję na zagrożenia.</p>
-</li>
-<li>
-<p><strong>Real ID i cyberbezpieczeństwo</strong><br>
-<!-- -->Dyskusje na temat bezpieczeństwa dokumentów tożsamości w kontekście zbliżającego się terminu wprowadzenia.</p>
-</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-01#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h2>
-<p>Obserwujemy coraz większą złożoność ataków i narzędzi wykorzystywanych przez cyberprzestępców. Zarówno państwowe grupy wywiadowcze, jak i zwykłe cyberprzestępstwa, korzystają z zaawansowanych technik, od omijania zabezpieczeń po tworzenie fake'owych narzędzi i rozwiązań. Wraz z rozwojem technologii sztucznej inteligencji i automatyzacji, kluczowe jest śledzenie nowych zagrożeń i ciągłe doskonalenie strategii obrony, by wyprzedzić przeciwnika i minimalizować ryzyko. Trendy wskazują na coraz większy nacisk na inteligentne i wielowarstwowe systemy wykrywania, a także na konieczność poprawy standardów bezpieczeństwa w globalnej infrastrukturze.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="źródła-danych">Źródła danych<a href="https://www.majdak.online/blog/news-2025-05-01#%C5%BAr%C3%B3d%C5%82a-danych" class="hash-link" aria-label="Direct link to Źródła danych" title="Direct link to Źródła danych">​</a></h2>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Apple notifies new victims of spyware attacks across the world</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Lorenzo Franceschi-Bicchierai</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 18:01:17 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Security, Apple, cybersecurity, hacking, Spyware, surveillance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Two alleged victims came forward claiming they received a spyware notification from Apple.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: UK retail giant Co-op warns of disruption as it battles cyberattack</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Zack Whittaker</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 13:50:32 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Security, cyberattack, cybersecurity, retail</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: The U.K. grocery and retail giant said the unspecified cyber incident is affecting its back office and call centers.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Dan Goodin</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 18:36:26 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Biz &amp; IT, Security, passwords, Remote Desktop Protocol, Windows</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Researchers say the behavior amounts to a persistent backdoor.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Lily Hay Newman and Andy Greenberg, WIRED.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 17:52:06 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Apple, Biz &amp; IT, Security, AirPlay, syndication</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Hackers can run their code on AirPlay devices thanks to a collection of bugs known as AirBorne.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Relacja z Sekurak Hacking Party w Gliwicach (26.04.2025)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Tomasz Turba</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Thu, 01 May 2025 10:10:52 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: W biegu, gliwice, konferencja, konkursy, shp</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: 26 kwietnia 2025 r. wieczorową porą w Centrum Edukacyjno-Kongresowym Politechniki Śląskiej odbyło się pierwsze w tym roku Sekurak Hacking Party! Bardzo dziękujemy wszystkim za przybycie. Dobrze, że z nami byliście! Doceniamy każdą osobę, która podchodzi, żeby zamienić kilka słów i zrobić zdjęcie – to właśnie dla Was wracamy do spotkań...</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<hr>
-<p><strong>Gotowe do publikacji!</strong></p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Cyberbezpieczeństwo</category>
-            <category>Automation</category>
-            <category>Networking</category>
-            <category>Wydarzenia</category>
-            <category>Konferencje</category>
-            <category>Technologie</category>
-            <category>Ataki</category>
-            <category>Malware</category>
-            <category>OWASP</category>
-            <category>Web Security</category>
-            <category>Web Application</category>
-            <category>Penetration Testing</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[📰 Podsumowanie aktualności z 2025-05-01 — Apple informuje o nowych ofiarach spyware i inne istotne wydarzenia bezpieczeństwa IT]]></title>
-            <link>https://www.majdak.online/blog/news-2025-05-01</link>
-            <guid>https://www.majdak.online/blog/news-2025-05-01</guid>
-            <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[W dzisiejszym podsumowaniu przyglądamy się najważniejszym wydarzeniom z branży bezpieczeństwa IT, od rosnących zagrożeń związanych z spyware, przez ataki na firmy i instytucje, aż po nowe wyzwania dla narzędzi uwierzytelniania i monitorowania zagrożeń. Przyjrzymy się także inicjatywom branżowym i wynikom najnowszych badań.]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/news-2025-05-01#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h2>
-<p>Świat cyberbezpieczeństwa nie zwalnia tempa. Wśród najnowszych doniesień pojawiły się informacje o coraz bardziej zaawansowanych atakach szpiegowskich, problemach z lukami w popularnych systemach i narzędziach, a także inicjatywach mających na celu podniesienie poziomu bezpieczeństwa na światową skalę. Poniżej przedstawiamy najważniejsze z nich.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najważniejsze-tematy">Najważniejsze tematy<a href="https://www.majdak.online/blog/news-2025-05-01#najwa%C5%BCniejsze-tematy" class="hash-link" aria-label="Direct link to Najważniejsze tematy" title="Direct link to Najważniejsze tematy">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="szpiegostwo-i-surveillance">Szpiegostwo i surveillance<a href="https://www.majdak.online/blog/news-2025-05-01#szpiegostwo-i-surveillance" class="hash-link" aria-label="Direct link to Szpiegostwo i surveillance" title="Direct link to Szpiegostwo i surveillance">​</a></h3>
-<ul>
-<li>
-<p><strong>Apple informuje o nowych ofiarach spyware</strong><br>
-<!-- -->Dwa osoby zarzuciły otrzymanie powiadomienia od Apple o wykryciu złośliwego oprogramowania na ich urządzeniach. Podkreśla to, że mimo prób ochrony, państwowe lub prywatne grupy wywiadowcze nadal rozwijają narzędzia inwigilacyjne.</p>
-</li>
-<li>
-<p><strong>Eksperci analizują malware "DarkWatchman"</strong><br>
-<!-- -->Rosyjskie grupy hakerskie atakują sektory takie jak media, finanse czy energetyka, wykorzystując zaawansowane techniki ukrywania śladów i wyrafinowane metody inwigilacji.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-usługi-i-infrastrukturę">Ataki na usługi i infrastrukturę<a href="https://www.majdak.online/blog/news-2025-05-01#ataki-na-us%C5%82ugi-i-infrastruktur%C4%99" class="hash-link" aria-label="Direct link to Ataki na usługi i infrastrukturę" title="Direct link to Ataki na usługi i infrastrukturę">​</a></h3>
-<ul>
-<li>
-<p><strong>Cyberatak na brytyjską sieć detaliczną Co-op</strong><br>
-<!-- -->Firma ogłosiła, że miała miejsce nieokreślona ingerencja w systemy back-office i call center, co wymusiło tymczasowe ograniczenia w działalności.</p>
-</li>
-<li>
-<p><strong>Canada’s Emera i Nova Scotia Power</strong> reagują na cyberincydenty**<br>
-<!-- -->Infrastruktura energetyczna kraju padła ofiarą ataków, co podkreśla zagrożenie dla krytycznej infrastruktury.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luki-i-złośliwe-oprogramowanie">Luki i złośliwe oprogramowanie<a href="https://www.majdak.online/blog/news-2025-05-01#luki-i-z%C5%82o%C5%9Bliwe-oprogramowanie" class="hash-link" aria-label="Direct link to Luki i złośliwe oprogramowanie" title="Direct link to Luki i złośliwe oprogramowanie">​</a></h3>
-<ul>
-<li>
-<p><strong>Nowe luki w produktach SonicWall</strong><br>
-<!-- -->Firma potwierdziła, że dwie z nich są aktywnie wykorzystywane przez atakujących, co wymusza szybkie aktualizacje i poprawki.</p>
-</li>
-<li>
-<p><strong>Zjawisko "Zero-Day" w Azure zgłoszone przez Commvault</strong><br>
-<!-- -->China-linked grupa korzystała z exploita CVE-2025-3928, co podkreśla rosnące zagrożenie dla dużych środowisk chmurowych. Commvault zapewnia wskazówki dotyczące wykrywania i minimalizacji ryzyka.</p>
-</li>
-<li>
-<p><strong>WordPress i fałszywe wtyczki bezpieczeństwa</strong><br>
-<!-- -->Kampanie malware wykorzystują podrobione narzędzia do uzyskiwania zdalnego dostępu, co pokazuje konieczność ostrożności przy instalowaniu niezweryfikowanych pluginów.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-narzędzia-i-technologie-ochronne">Nowoczesne narzędzia i technologie ochronne<a href="https://www.majdak.online/blog/news-2025-05-01#nowoczesne-narz%C4%99dzia-i-technologie-ochronne" class="hash-link" aria-label="Direct link to Nowoczesne narzędzia i technologie ochronne" title="Direct link to Nowoczesne narzędzia i technologie ochronne">​</a></h3>
-<ul>
-<li>
-<p><strong>Shift w podejściu SOC na Network Detection and Response (NDR)</strong><br>
-<!-- -->Coraz więcej zespołów bezpieczeństwa rezygnuje z klasycznych systemów na rzecz rozwiązań opartych na wykrywaniu zagrożeń na poziomie sieciowym, co umożliwia wykrycie ukrywających się zaawansowanych przeciwników.</p>
-</li>
-<li>
-<p><strong>Meta tworzy LlamaFirewall</strong><br>
-<!-- -->Framework open-source do obrony przed atakami na AI, takimi jak jailbreaki, prompt injections i niewłaściwe wdrożenia kodu.</p>
-</li>
-<li>
-<p><strong>WhatsApp wdraża 'Private Processing'</strong><br>
-<!-- -->Funkcja ta pozwala korzystać z AI w chmurze w sposób zachowujący prywatność użytkownika, minimalizując ryzyko wycieków danych.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="spektakularne-ataki-i-kampanie">Spektakularne ataki i kampanie<a href="https://www.majdak.online/blog/news-2025-05-01#spektakularne-ataki-i-kampanie" class="hash-link" aria-label="Direct link to Spektakularne ataki i kampanie" title="Direct link to Spektakularne ataki i kampanie">​</a></h3>
-<ul>
-<li><strong>NATO i rządowe cele w regionie Azji Południowo-Wschodniej</strong> pod stałym nadzorem rosyjsko-chińskich grup jak Nebulous Mantis czy Lotus Panda.</li>
-<li><strong>Wzrost ataków DDoS na instytucje rządowe w Holandii</strong> przez pro-rosyjskie hacktywiści.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problemy-z-zarządzaniem-i-standardami">Problemy z zarządzaniem i standardami<a href="https://www.majdak.online/blog/news-2025-05-01#problemy-z-zarz%C4%85dzaniem-i-standardami" class="hash-link" aria-label="Direct link to Problemy z zarządzaniem i standardami" title="Direct link to Problemy z zarządzaniem i standardami">​</a></h3>
-<ul>
-<li>
-<p><strong>Propozycje standardów dotyczących informacji o końcowym wsparciu sprzętu i oprogramowania (EOL)</strong><br>
-<!-- -->Wspólne formaty danych ułatwią komunikację i reakcję na zagrożenia.</p>
-</li>
-<li>
-<p><strong>Real ID i cyberbezpieczeństwo</strong><br>
-<!-- -->Dyskusje na temat bezpieczeństwa dokumentów tożsamości w kontekście zbliżającego się terminu wprowadzenia.</p>
-</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-01#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h2>
-<p>Obserwujemy coraz większą złożoność ataków i narzędzi wykorzystywanych przez cyberprzestępców. Zarówno państwowe grupy wywiadowcze, jak i zwykłe cyberprzestępstwa, korzystają z zaawansowanych technik, od omijania zabezpieczeń po tworzenie fake'owych narzędzi i rozwiązań. Wraz z rozwojem technologii sztucznej inteligencji i automatyzacji, kluczowe jest śledzenie nowych zagrożeń i ciągłe doskonalenie strategii obrony, by wyprzedzić przeciwnika i minimalizować ryzyko. Trendy wskazują na coraz większy nacisk na inteligentne i wielowarstwowe systemy wykrywania, a także na konieczność poprawy standardów bezpieczeństwa w globalnej infrastrukturze.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="źródła-danych">Źródła danych<a href="https://www.majdak.online/blog/news-2025-05-01#%C5%BAr%C3%B3d%C5%82a-danych" class="hash-link" aria-label="Direct link to Źródła danych" title="Direct link to Źródła danych">​</a></h2>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Apple notifies new victims of spyware attacks across the world</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Lorenzo Franceschi-Bicchierai</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 18:01:17 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Security, Apple, cybersecurity, hacking, Spyware, surveillance</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Two alleged victims came forward claiming they received a spyware notification from Apple.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: UK retail giant Co-op warns of disruption as it battles cyberattack</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Zack Whittaker</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 13:50:32 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Security, cyberattack, cybersecurity, retail</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: The U.K. grocery and retail giant said the unspecified cyber incident is affecting its back office and call centers.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Windows RDP lets you log in using revoked passwords. Microsoft is OK with that.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Dan Goodin</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 18:36:26 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Biz &amp; IT, Security, passwords, Remote Desktop Protocol, Windows</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Researchers say the behavior amounts to a persistent backdoor.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Millions of Apple Airplay-enabled devices can be hacked via Wi-Fi</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Lily Hay Newman and Andy Greenberg, WIRED.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Wed, 30 Apr 2025 17:52:06 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: Apple, Biz &amp; IT, Security, AirPlay, syndication</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: Hackers can run their code on AirPlay devices thanks to a collection of bugs known as AirBorne.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Tytuł: Relacja z Sekurak Hacking Party w Gliwicach (26.04.2025)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Autor: Tomasz Turba</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Data: Thu, 01 May 2025 10:10:52 +0000</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Kategorie: W biegu, gliwice, konferencja, konkursy, shp</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Streszczenie: 26 kwietnia 2025 r. wieczorową porą w Centrum Edukacyjno-Kongresowym Politechniki Śląskiej odbyło się pierwsze w tym roku Sekurak Hacking Party! Bardzo dziękujemy wszystkim za przybycie. Dobrze, że z nami byliście! Doceniamy każdą osobę, która podchodzi, żeby zamienić kilka słów i zrobić zdjęcie – to właśnie dla Was wracamy do spotkań...</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<hr>
-<p><strong>Gotowe do publikacji!</strong></p>]]></content:encoded>
-        </item>
         <item>
             <title><![CDATA[📰 News Digest: 2025-04-29 - Google: Rządy stoją za większością ataków zero-day]]></title>
             <link>https://www.majdak.online/blog/news-2025-04-29</link>
@@ -1012,6 +824,157 @@
             <category>Extensions</category>
             <category>Adblock</category>
             <category>Privacy</category>
+        </item>
+        <item>
+            <title><![CDATA[Kompleksowy przewodnik po Pi-hole!]]></title>
+            <link>https://www.majdak.online/blog/kurs-pihole</link>
+            <guid>https://www.majdak.online/blog/kurs-pihole</guid>
+            <pubDate>Thu, 10 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chcesz pozbyć się reklam z całej sieci, zwiększyć prywatność i zabezpieczyć domową lub firmową infrastrukturę? 💡]]></description>
+            <content:encoded><![CDATA[<p>Chcesz pozbyć się reklam z całej sieci, zwiększyć prywatność i zabezpieczyć domową lub firmową infrastrukturę? 💡<br>
+<!-- -->Nasz <strong>kompleksowy kurs Pi-hole</strong> jest właśnie dla Ciebie! 🎉</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto-skorzystać-z-kursu">✅ <strong>Dlaczego warto skorzystać z kursu?</strong><a href="https://www.majdak.online/blog/kurs-pihole#-dlaczego-warto-skorzysta%C4%87-z-kursu" class="hash-link" aria-label="Direct link to -dlaczego-warto-skorzystać-z-kursu" title="Direct link to -dlaczego-warto-skorzystać-z-kursu">​</a></h2>
+<ul>
+<li>🔥 <strong>Proste instrukcje krok po kroku</strong> – nawet jeśli jesteś początkujący, poradzisz sobie bez problemu.</li>
+<li>🛡️ <strong>Blokowanie reklam i trackerów</strong> – koniec z nachalnymi banerami na wszystkich urządzeniach.</li>
+<li>🌐 <strong>Skalowalność</strong> – sprawdza się zarówno w domowej sieci, jak i w małych firmach.</li>
+<li>📊 <strong>Analiza i monitorowanie sieci</strong> – sprawdź, kto generuje najwięcej ruchu i jakie strony są najczęściej odwiedzane.</li>
+<li>🧰 <strong>Zaawansowane funkcje</strong> – VPN z WireGuard, własne listy blokujące czy lokalny resolver DNS z Unbound.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-kursie">📖 <strong>Co znajdziesz w kursie?</strong><a href="https://www.majdak.online/blog/kurs-pihole#-co-znajdziesz-w-kursie" class="hash-link" aria-label="Direct link to -co-znajdziesz-w-kursie" title="Direct link to -co-znajdziesz-w-kursie">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-wprowadzenie">📘 Wprowadzenie<a href="https://www.majdak.online/blog/kurs-pihole#-wprowadzenie" class="hash-link" aria-label="Direct link to 📘 Wprowadzenie" title="Direct link to 📘 Wprowadzenie">​</a></h3>
+<ul>
+<li>Czym jest Pi-hole i dlaczego warto go używać?</li>
+<li>Wymagania sprzętowe i podstawy działania.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-przygotowanie-środowiska">🛠️ Przygotowanie środowiska<a href="https://www.majdak.online/blog/kurs-pihole#%EF%B8%8F-przygotowanie-%C5%9Brodowiska" class="hash-link" aria-label="Direct link to 🛠️ Przygotowanie środowiska" title="Direct link to 🛠️ Przygotowanie środowiska">​</a></h3>
+<ul>
+<li>Konfiguracja Raspberry Pi lub innego serwera.</li>
+<li>Przygotowanie systemu i ustawienia sieciowe.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-instalacja-pi-hole">⚡ Instalacja Pi-hole<a href="https://www.majdak.online/blog/kurs-pihole#-instalacja-pi-hole" class="hash-link" aria-label="Direct link to ⚡ Instalacja Pi-hole" title="Direct link to ⚡ Instalacja Pi-hole">​</a></h3>
+<ul>
+<li>Pełna instrukcja krok po kroku.</li>
+<li>Konfiguracja interfejsu webowego i ustawienie statycznego IP.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-konfiguracja-sieci">🌐 Konfiguracja sieci<a href="https://www.majdak.online/blog/kurs-pihole#-konfiguracja-sieci" class="hash-link" aria-label="Direct link to 🌐 Konfiguracja sieci" title="Direct link to 🌐 Konfiguracja sieci">​</a></h3>
+<ul>
+<li>Ustawienie Pi-hole jako głównego DNS.</li>
+<li>Konfiguracja DHCP i zarządzanie urządzeniami w sieci.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-zarządzanie-i-monitorowanie">🔍 Zarządzanie i monitorowanie<a href="https://www.majdak.online/blog/kurs-pihole#-zarz%C4%85dzanie-i-monitorowanie" class="hash-link" aria-label="Direct link to 🔍 Zarządzanie i monitorowanie" title="Direct link to 🔍 Zarządzanie i monitorowanie">​</a></h3>
+<ul>
+<li>Przegląd interfejsu.</li>
+<li>Analiza statystyk i logów DNS.</li>
+<li>Optymalizacja list blokujących.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-zabezpieczenia-i-optymalizacja">🔒 Zabezpieczenia i optymalizacja<a href="https://www.majdak.online/blog/kurs-pihole#-zabezpieczenia-i-optymalizacja" class="hash-link" aria-label="Direct link to 🔒 Zabezpieczenia i optymalizacja" title="Direct link to 🔒 Zabezpieczenia i optymalizacja">​</a></h3>
+<ul>
+<li>Konfiguracja zapory sieciowej.</li>
+<li>Blokowanie złośliwych domen.</li>
+<li>Ustawienia prywatności.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-zaawansowane-funkcje">📊 Zaawansowane funkcje<a href="https://www.majdak.online/blog/kurs-pihole#-zaawansowane-funkcje" class="hash-link" aria-label="Direct link to 📊 Zaawansowane funkcje" title="Direct link to 📊 Zaawansowane funkcje">​</a></h3>
+<ul>
+<li>Integracja z Unbound.</li>
+<li>VPN z WireGuard.</li>
+<li>Własne czarne i białe listy domen.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-rozwiązywanie-problemów">🧑‍💻 Rozwiązywanie problemów<a href="https://www.majdak.online/blog/kurs-pihole#-rozwi%C4%85zywanie-problem%C3%B3w" class="hash-link" aria-label="Direct link to 🧑‍💻 Rozwiązywanie problemów" title="Direct link to 🧑‍💻 Rozwiązywanie problemów">​</a></h3>
+<ul>
+<li>Najczęstsze błędy i sposoby ich naprawy.</li>
+<li>Analiza logów i przywracanie ustawień.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-scenariusze-zastosowania">💡 Scenariusze zastosowania<a href="https://www.majdak.online/blog/kurs-pihole#-scenariusze-zastosowania" class="hash-link" aria-label="Direct link to 💡 Scenariusze zastosowania" title="Direct link to 💡 Scenariusze zastosowania">​</a></h3>
+<ul>
+<li>Pi-hole w sieci domowej.</li>
+<li>Wykorzystanie w małych firmach.</li>
+<li>Zabezpieczenie urządzeń mobilnych i Smart TV.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-załączniki">📁 Załączniki<a href="https://www.majdak.online/blog/kurs-pihole#-za%C5%82%C4%85czniki" class="hash-link" aria-label="Direct link to 📁 Załączniki" title="Direct link to 📁 Załączniki">​</a></h3>
+<ul>
+<li>Przydatne listy blokujące z <a href="https://firebog.net/" target="_blank" rel="noopener noreferrer">Firebog</a>.</li>
+<li>Słownik pojęć.</li>
+<li>Narzędzia do analizy sieci.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-gotowy-aby-przejąć-kontrolę-nad-swoją-siecią">💥 <strong>Gotowy, aby przejąć kontrolę nad swoją siecią?</strong><a href="https://www.majdak.online/blog/kurs-pihole#-gotowy-aby-przej%C4%85%C4%87-kontrol%C4%99-nad-swoj%C4%85-sieci%C4%85" class="hash-link" aria-label="Direct link to -gotowy-aby-przejąć-kontrolę-nad-swoją-siecią" title="Direct link to -gotowy-aby-przejąć-kontrolę-nad-swoją-siecią">​</a></h2>
+<p>Kliknij poniżej, aby rozpocząć kurs i dowiedzieć się, jak <strong>Pi-hole</strong> może zmienić sposób, w jaki korzystasz z Internetu! 🚀</p>
+<p>👉 <a href="https://www.majdak.online/docs/category/kurs-pihole"><strong>Rozpocznij kurs Pi-hole teraz!</strong></a></p>
+<hr>
+<p>📢 <strong>Podziel się swoją opinią!</strong> Jeśli masz pytania lub chcesz podzielić się swoją konfiguracją, zostaw komentarz pod postem. 💬</p>
+<p>#PiHole #Bezpieczeństwo #BlokowanieReklam #DNS #Sieć #OpenSource #Poradnik</p>
+<p><strong>Autor:</strong> <em>Przemysław Majdak</em><br>
+<strong>Data publikacji:</strong> 10 październik 2024</p>]]></content:encoded>
+            <category>Pi-hole</category>
+            <category>Ochrona Sieci</category>
+            <category>Bezpieczeństwo</category>
+            <category>Sieć</category>
+            <category>Poradnik</category>
+        </item>
+        <item>
+            <title><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
+            <link>https://www.majdak.online/blog/kurs-istqb</link>
+            <guid>https://www.majdak.online/blog/kurs-istqb</guid>
+            <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kurs-istqb-poziomu-podstawowego">Kurs ISTQB Poziomu Podstawowego<a href="https://www.majdak.online/blog/kurs-istqb#kurs-istqb-poziomu-podstawowego" class="hash-link" aria-label="Direct link to Kurs ISTQB Poziomu Podstawowego" title="Direct link to Kurs ISTQB Poziomu Podstawowego">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-istqb#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h3>
+<p>Celem kursu <strong>ISTQB Poziomu Podstawowego</strong> jest przygotowanie uczestników do zdania egzaminu certyfikacyjnego ISTQB Foundation Level. Kurs obejmuje wszystkie kluczowe zagadnienia wymagane na egzaminie, zgodnie z najnowszym sylabusem ISTQB.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">📋 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-istqb#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 📋 Czego się nauczysz?" title="Direct link to 📋 Czego się nauczysz?">​</a></h3>
+<ul>
+<li><strong>Podstaw testowania oprogramowania</strong> – znaczenie testowania, cele i podstawowe pojęcia.</li>
+<li><strong>Ról testowania w cyklu życia oprogramowania</strong> – od modeli cyklu życia po poziomy testów.</li>
+<li><strong>Technik projektowania testów</strong> – czarnoskrzynkowe, białoskrzynkowe i oparte na doświadczeniu.</li>
+<li><strong>Statycznych technik testowania</strong> – przeglądów, analiz statycznych i narzędzi wspierających.</li>
+<li><strong>Zarządzania testowaniem</strong> – planowania, szacowania, monitorowania oraz zarządzania ryzykiem.</li>
+<li><strong>Narzędzi wspierających testowanie</strong> – automatyzacja, zarządzanie testami i analiza jakości kodu.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">🧠 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-istqb#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 🧠 Dla kogo jest ten kurs?" title="Direct link to 🧠 Dla kogo jest ten kurs?">​</a></h3>
+<ul>
+<li>Początkujących testerów oprogramowania.</li>
+<li>Osób przygotowujących się do egzaminu ISTQB Foundation Level.</li>
+<li>Programistów, którzy chcą zrozumieć procesy testowania.</li>
+<li>Analityków biznesowych i kierowników projektów współpracujących z zespołami testerskimi.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-struktura-kursu">🧾 Struktura kursu<a href="https://www.majdak.online/blog/kurs-istqb#-struktura-kursu" class="hash-link" aria-label="Direct link to 🧾 Struktura kursu" title="Direct link to 🧾 Struktura kursu">​</a></h3>
+<p>Kurs składa się z 6 głównych rozdziałów:</p>
+<ol>
+<li><strong>Podstawy testowania</strong></li>
+<li><strong>Testowanie w cyklu życia oprogramowania</strong></li>
+<li><strong>Statyczne techniki testowania</strong></li>
+<li><strong>Techniki projektowania testów</strong></li>
+<li><strong>Zarządzanie testowaniem</strong></li>
+<li><strong>Narzędzia wspierające testowanie</strong></li>
+</ol>
+<p>Dodatkowo zawiera:</p>
+<ul>
+<li>Przykładowe pytania egzaminacyjne dla każdej kategorii.</li>
+<li>Testy sprawdzające wiedzę.</li>
+<li>Podsumowanie z zapowiedzią kolejnych kursów ISTQB.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">📝 Dlaczego warto?<a href="https://www.majdak.online/blog/kurs-istqb#-dlaczego-warto" class="hash-link" aria-label="Direct link to 📝 Dlaczego warto?" title="Direct link to 📝 Dlaczego warto?">​</a></h3>
+<ul>
+<li>Kurs zgodny z najnowszym sylabusem ISTQB.</li>
+<li>Praktyczne przykłady i pytania egzaminacyjne.</li>
+<li>Kompleksowe przygotowanie do egzaminu ISTQB Foundation Level.</li>
+<li>Dostęp do materiałów w formacie Markdown gotowych do integracji z Docusaurusem.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-co-dalej">🚀 Co dalej?<a href="https://www.majdak.online/blog/kurs-istqb#-co-dalej" class="hash-link" aria-label="Direct link to 🚀 Co dalej?" title="Direct link to 🚀 Co dalej?">​</a></h3>
+<p>Po ukończeniu kursu możesz kontynuować naukę w ramach bardziej zaawansowanych kursów ISTQB:</p>
+<ul>
+<li><strong>ISTQB Advanced Level</strong> – Test Analyst, Technical Test Analyst, Test Manager.</li>
+<li><strong>ISTQB Agile Tester</strong> – testowanie w środowiskach zwinnych.</li>
+<li><strong>ISTQB Test Automation Engineer</strong> – automatyzacja testów i tworzenie frameworków.</li>
+</ul>
+<p>👉 <a href="https://www.majdak.online/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl"><strong>Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀</strong>(</a></p>
+<hr>
+<p>✅ <strong>Powodzenia na egzaminie!</strong> 🎉</p>]]></content:encoded>
+            <category>Testing</category>
+            <category>ISTQB</category>
+            <category>Certification</category>
+            <category>Software Testing</category>
         </item>
     </channel>
 </rss>
