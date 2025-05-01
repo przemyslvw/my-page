@@ -1,7 +1,7 @@
 ---
 slug: news-2025-04-29
 title: "📰 News Digest: 2025-04-29 - Google: Rządy stoją za większością ataków zero-day"
-author: Lorenzo Franceschi-Bicchierai
+authors: [przemyslvw]
 date: 2025-04-29
 link: https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-use-of-attributed-zero-days-google-says/
 tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
