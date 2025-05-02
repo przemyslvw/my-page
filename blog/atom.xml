@@ -2,11 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-04-29T00:00:00.000Z</updated>
+    <updated>2025-05-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📰 Podsumowanie wiadomości z 2025-05-01 – Apple informuje o nowych ofiarach ataków spyware na całym świecie]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-01</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-01"/>
+        <updated>2025-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia i zagrożenia ze świata cyberbezpieczeństwa z początku maja 2025 roku. Od nowo odkrytych luk bezpieczeństwa po kampanie phishingowe i aktywne ataki na instytucje publiczne oraz przedsiębiorstwa — sytuacja w cyberprzestrzeni jest coraz bardziej złożona i dynamiczna.]]></summary>
+        <content type="html"><![CDATA[<p>W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia i zagrożenia ze świata cyberbezpieczeństwa z początku maja 2025 roku. Od nowo odkrytych luk bezpieczeństwa po kampanie phishingowe i aktywne ataki na instytucje publiczne oraz przedsiębiorstwa — sytuacja w cyberprzestrzeni jest coraz bardziej złożona i dynamiczna.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="apple-informuje-o-nowych-ofiarach-spyware">Apple informuje o nowych ofiarach spyware<a href="https://www.majdak.online/blog/news-2025-05-01#apple-informuje-o-nowych-ofiarach-spyware" class="hash-link" aria-label="Direct link to Apple informuje o nowych ofiarach spyware" title="Direct link to Apple informuje o nowych ofiarach spyware">​</a></h2>
+<p>Apple poinformowało o kolejnych użytkownikach, którzy otrzymali powiadomienie o zainstalowanym spyware. Cyberzagrożenia związane z inwigilacją przez złośliwe oprogramowanie stają się coraz bardziej wyrafinowane, co wymusza konieczność ciągłego monitorowania i aktualizacji środków ochronnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-sektor-detaliczny-i-infrastrukturalny">Ataki na sektor detaliczny i infrastrukturalny<a href="https://www.majdak.online/blog/news-2025-05-01#ataki-na-sektor-detaliczny-i-infrastrukturalny" class="hash-link" aria-label="Direct link to Ataki na sektor detaliczny i infrastrukturalny" title="Direct link to Ataki na sektor detaliczny i infrastrukturalny">​</a></h2>
+<p>W Wielkiej Brytanii gigant spożywczy Co-op ostrzegł o zakłóceniach w pracy spowodowanych nieujawnionym cyberincydentem, który dotknął jego zaplecze i centra obsługi klienta. Podobny przypadek miał miejsce u kanadyjskiej firmy energetycznej Nova Scotia Power, która zmaga się z atakiem na systemy IT i sieci.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podniesione-zagrożenia-związane-z-mfa-i-rdp">Podniesione zagrożenia związane z MFA i RDP<a href="https://www.majdak.online/blog/news-2025-05-01#podniesione-zagro%C5%BCenia-zwi%C4%85zane-z-mfa-i-rdp" class="hash-link" aria-label="Direct link to Podniesione zagrożenia związane z MFA i RDP" title="Direct link to Podniesione zagrożenia związane z MFA i RDP">​</a></h2>
+<p>Eksperci zwracają uwagę na rosnącce trudności w ominięciu wieloskładnikowego uwierzytelniania (MFA), szczególnie w obliczu rozwoju technik phishingowych i fałszywych powiadomień. Równocześnie badania pokazują, że Windows RDP pozwala na logowanie się z odwołanymi hasłami, co stanowi poważne zagrożenie "stałej tylnej furtki" dla atakujących.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-bezpieczeństwa-w-urządzeniach-apple-i-sprzęcie-sieciowym">Nowe luki bezpieczeństwa w urządzeniach Apple i sprzęcie sieciowym<a href="https://www.majdak.online/blog/news-2025-05-01#nowe-luki-bezpiecze%C5%84stwa-w-urz%C4%85dzeniach-apple-i-sprz%C4%99cie-sieciowym" class="hash-link" aria-label="Direct link to Nowe luki bezpieczeństwa w urządzeniach Apple i sprzęcie sieciowym" title="Direct link to Nowe luki bezpieczeństwa w urządzeniach Apple i sprzęcie sieciowym">​</a></h2>
+<p>Hakerzy mogą przejąć kontrolę nad setkami urządzeń Apple korzystających z AirPlay, wykorzystując zestaw błędów znany jako AirBorne. Ponadto, SonicWall potwierdził aktywne wykorzystywanie jeszcze niezałatanych luk w ich urządzeniach VPN i SaaS, co wskazuje na ciągłe zagrożenia w sieci firmowej.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kampanie-cyberprzestępców-i-malware">Kampanie cyberprzestępców i malware<a href="https://www.majdak.online/blog/news-2025-05-01#kampanie-cyberprzest%C4%99pc%C3%B3w-i-malware" class="hash-link" aria-label="Direct link to Kampanie cyberprzestępców i malware" title="Direct link to Kampanie cyberprzestępców i malware">​</a></h2>
+<p>Zaobserwowano rozbudowane kampanie phishingowe i malware maskujące się jako legalne wtyczki WordPress. Złośliwe oprogramowanie "WP-antymalwary-bot.php" umożliwia długoterminowe utrzymanie dostępu oraz ukrywanie się przed administratorami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sztuczna-inteligencja-i-jej-podwójna-rola-w-bezpieczeństwie">Sztuczna inteligencja i jej podwójna rola w bezpieczeństwie<a href="https://www.majdak.online/blog/news-2025-05-01#sztuczna-inteligencja-i-jej-podw%C3%B3jna-rola-w-bezpiecze%C5%84stwie" class="hash-link" aria-label="Direct link to Sztuczna inteligencja i jej podwójna rola w bezpieczeństwie" title="Direct link to Sztuczna inteligencja i jej podwójna rola w bezpieczeństwie">​</a></h2>
+<p>Firma Anthropic ujawniła, że jej chatbot Claude wykorzystywany był w operacjach wpływu społecznego na Facebooku i X, tworząc ponad 100 fałszywych tożsamości. Jednocześnie pojawiły się inicjatywy, takie jak OpenEoX od Cisco, mające na celu standaryzację i poprawę transparentności w kwestii wsparcia bezpieczeństwa dla systemów AI.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sytuacja-na-froncie-zagrożeń-od-państw-i-grup-cyberprowokacyjnych">Sytuacja na froncie zagrożeń od państw i grup cyberprowokacyjnych<a href="https://www.majdak.online/blog/news-2025-05-01#sytuacja-na-froncie-zagro%C5%BCe%C5%84-od-pa%C5%84stw-i-grup-cyberprowokacyjnych" class="hash-link" aria-label="Direct link to Sytuacja na froncie zagrożeń od państw i grup cyberprowokacyjnych" title="Direct link to Sytuacja na froncie zagrożeń od państw i grup cyberprowokacyjnych">​</a></h2>
+<p>Rosyjskie grupy prowokacyjne kontynuują ataki na infrastrukturę Ukrainy, zwiększając ich skuteczność. Z kolei Chiny powiązane grupy APT, takie jak TheWizards, używają technik SLAAC spoofing do przeprowadzania ataków Man-in-the-Middle na systemy w sieciach celu.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-01#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h2>
+<p>Wzrost skali i złożoności zagrożeń wymusza coraz bardziej wielowarstwowe podejście do cyberbezpieczeństwa. Oprócz tradycyjnych mechanizmów obrony, decydenci i zespoły security muszą zwracać uwagę na zaawansowane techniki inwigilacji, manipulacji sztuczną inteligencją oraz wykorzystywanie luk w popularnych platformach i urządzeniach. Trendy wskazują na konieczność nieustannego rozwoju narzędzi i strategii, by skutecznie przeciwdziałać nowym, coraz bardziej wyrafinowanym formom cyberzagrożeń.</p>
+<hr>
+<p>Podkreślając jakość i różnorodność zagrożeń, można stwierdzić, że cyberprzestrzeń stanie się w najbliższych miesiącach jeszcze bardziej nieprzewidywalna. Klasyczne metody obrony muszą być uzupełnione o zaawansowane technologie i edukację użytkowników — to jedyna skuteczna droga do zapewnienia bezpieczeństwa w coraz bardziej skomplikowanym środowisku cyfrowym.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Networking" term="Networking"/>
+        <category label="Wydarzenia" term="Wydarzenia"/>
+        <category label="Konferencje" term="Konferencje"/>
+        <category label="Technologie" term="Technologie"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="OWASP" term="OWASP"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Web Application" term="Web Application"/>
+        <category label="Penetration Testing" term="Penetration Testing"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 News Digest: 2025-04-29 - Google: Rządy stoją za większością ataków zero-day]]></title>
         <id>https://www.majdak.online/blog/news-2025-04-29</id>
@@ -987,72 +1031,5 @@
         <category label="Bezpieczeństwo" term="Bezpieczeństwo"/>
         <category label="Sieć" term="Sieć"/>
         <category label="Poradnik" term="Poradnik"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></title>
-        <id>https://www.majdak.online/blog/kurs-istqb</id>
-        <link href="https://www.majdak.online/blog/kurs-istqb"/>
-        <updated>2024-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Kurs ISTQB Poziomu Podstawowego]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kurs-istqb-poziomu-podstawowego">Kurs ISTQB Poziomu Podstawowego<a href="https://www.majdak.online/blog/kurs-istqb#kurs-istqb-poziomu-podstawowego" class="hash-link" aria-label="Direct link to Kurs ISTQB Poziomu Podstawowego" title="Direct link to Kurs ISTQB Poziomu Podstawowego">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-cel-kursu">🎯 Cel kursu<a href="https://www.majdak.online/blog/kurs-istqb#-cel-kursu" class="hash-link" aria-label="Direct link to 🎯 Cel kursu" title="Direct link to 🎯 Cel kursu">​</a></h3>
-<p>Celem kursu <strong>ISTQB Poziomu Podstawowego</strong> jest przygotowanie uczestników do zdania egzaminu certyfikacyjnego ISTQB Foundation Level. Kurs obejmuje wszystkie kluczowe zagadnienia wymagane na egzaminie, zgodnie z najnowszym sylabusem ISTQB.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-się-nauczysz">📋 Czego się nauczysz?<a href="https://www.majdak.online/blog/kurs-istqb#-czego-si%C4%99-nauczysz" class="hash-link" aria-label="Direct link to 📋 Czego się nauczysz?" title="Direct link to 📋 Czego się nauczysz?">​</a></h3>
-<ul>
-<li><strong>Podstaw testowania oprogramowania</strong> – znaczenie testowania, cele i podstawowe pojęcia.</li>
-<li><strong>Ról testowania w cyklu życia oprogramowania</strong> – od modeli cyklu życia po poziomy testów.</li>
-<li><strong>Technik projektowania testów</strong> – czarnoskrzynkowe, białoskrzynkowe i oparte na doświadczeniu.</li>
-<li><strong>Statycznych technik testowania</strong> – przeglądów, analiz statycznych i narzędzi wspierających.</li>
-<li><strong>Zarządzania testowaniem</strong> – planowania, szacowania, monitorowania oraz zarządzania ryzykiem.</li>
-<li><strong>Narzędzi wspierających testowanie</strong> – automatyzacja, zarządzanie testami i analiza jakości kodu.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo-jest-ten-kurs">🧠 Dla kogo jest ten kurs?<a href="https://www.majdak.online/blog/kurs-istqb#-dla-kogo-jest-ten-kurs" class="hash-link" aria-label="Direct link to 🧠 Dla kogo jest ten kurs?" title="Direct link to 🧠 Dla kogo jest ten kurs?">​</a></h3>
-<ul>
-<li>Początkujących testerów oprogramowania.</li>
-<li>Osób przygotowujących się do egzaminu ISTQB Foundation Level.</li>
-<li>Programistów, którzy chcą zrozumieć procesy testowania.</li>
-<li>Analityków biznesowych i kierowników projektów współpracujących z zespołami testerskimi.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-struktura-kursu">🧾 Struktura kursu<a href="https://www.majdak.online/blog/kurs-istqb#-struktura-kursu" class="hash-link" aria-label="Direct link to 🧾 Struktura kursu" title="Direct link to 🧾 Struktura kursu">​</a></h3>
-<p>Kurs składa się z 6 głównych rozdziałów:</p>
-<ol>
-<li><strong>Podstawy testowania</strong></li>
-<li><strong>Testowanie w cyklu życia oprogramowania</strong></li>
-<li><strong>Statyczne techniki testowania</strong></li>
-<li><strong>Techniki projektowania testów</strong></li>
-<li><strong>Zarządzanie testowaniem</strong></li>
-<li><strong>Narzędzia wspierające testowanie</strong></li>
-</ol>
-<p>Dodatkowo zawiera:</p>
-<ul>
-<li>Przykładowe pytania egzaminacyjne dla każdej kategorii.</li>
-<li>Testy sprawdzające wiedzę.</li>
-<li>Podsumowanie z zapowiedzią kolejnych kursów ISTQB.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-dlaczego-warto">📝 Dlaczego warto?<a href="https://www.majdak.online/blog/kurs-istqb#-dlaczego-warto" class="hash-link" aria-label="Direct link to 📝 Dlaczego warto?" title="Direct link to 📝 Dlaczego warto?">​</a></h3>
-<ul>
-<li>Kurs zgodny z najnowszym sylabusem ISTQB.</li>
-<li>Praktyczne przykłady i pytania egzaminacyjne.</li>
-<li>Kompleksowe przygotowanie do egzaminu ISTQB Foundation Level.</li>
-<li>Dostęp do materiałów w formacie Markdown gotowych do integracji z Docusaurusem.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-co-dalej">🚀 Co dalej?<a href="https://www.majdak.online/blog/kurs-istqb#-co-dalej" class="hash-link" aria-label="Direct link to 🚀 Co dalej?" title="Direct link to 🚀 Co dalej?">​</a></h3>
-<p>Po ukończeniu kursu możesz kontynuować naukę w ramach bardziej zaawansowanych kursów ISTQB:</p>
-<ul>
-<li><strong>ISTQB Advanced Level</strong> – Test Analyst, Technical Test Analyst, Test Manager.</li>
-<li><strong>ISTQB Agile Tester</strong> – testowanie w środowiskach zwinnych.</li>
-<li><strong>ISTQB Test Automation Engineer</strong> – automatyzacja testów i tworzenie frameworków.</li>
-</ul>
-<p>👉 <a href="https://www.majdak.online/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl"><strong>Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀</strong>(</a></p>
-<hr>
-<p>✅ <strong>Powodzenia na egzaminie!</strong> 🎉</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Testing" term="Testing"/>
-        <category label="ISTQB" term="ISTQB"/>
-        <category label="Certification" term="Certification"/>
-        <category label="Software Testing" term="Software Testing"/>
     </entry>
 </feed>
