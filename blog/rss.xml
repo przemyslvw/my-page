@@ -4,10 +4,56 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Fri, 02 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 Podsumowanie wiadomości z dnia 2025-05-04]]></title>
+            <link>https://www.majdak.online/blog/news-2025-05-04</link>
+            <guid>https://www.majdak.online/blog/news-2025-05-04</guid>
+            <pubDate>Sun, 04 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia ze świata cyberbezpieczeństwa. Od działań firm broniących gry wideo przed oszustami, przez zaawansowane ataki na systemy Linux, aż po zagrożenia dla krytycznej infrastruktury i informacje o nowych narzędziach i malware. Przyjrzyjmy się bliżej najnowszym trendom i zagrożeniom.]]></description>
+            <content:encoded><![CDATA[<p>W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia ze świata cyberbezpieczeństwa. Od działań firm broniących gry wideo przed oszustami, przez zaawansowane ataki na systemy Linux, aż po zagrożenia dla krytycznej infrastruktury i informacje o nowych narzędziach i malware. Przyjrzyjmy się bliżej najnowszym trendom i zagrożeniom.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="riot-games-walczy-z-oszustami-w-grach-online">Riot Games walczy z oszustami w grach online<a href="https://www.majdak.online/blog/news-2025-05-04#riot-games-walczy-z-oszustami-w-grach-online" class="hash-link" aria-label="Direct link to Riot Games walczy z oszustami w grach online" title="Direct link to Riot Games walczy z oszustami w grach online">​</a></h2>
+<p>Riot’s „anti-cheat artisan” Phillip Koskinas opowiada o strategiach walki z cheaterami w takich tytułach jak Valorant i League of Legends. Firma intensywnie rozwija własne technologie wykrywania i blokowania oszustów, skupiając się na identyfikacji nieuczciwych praktyk i developerskich cheatów. To kluczowy element ochrony integralności rozgrywki i zapewnienia uczciwej rywalizacji.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowany-atak-na-linux-z-użyciem-złośliwych-modułów-go">Zaawansowany atak na Linux z użyciem złośliwych modułów Go<a href="https://www.majdak.online/blog/news-2025-05-04#zaawansowany-atak-na-linux-z-u%C5%BCyciem-z%C5%82o%C5%9Bliwych-modu%C5%82%C3%B3w-go" class="hash-link" aria-label="Direct link to Zaawansowany atak na Linux z użyciem złośliwych modułów Go" title="Direct link to Zaawansowany atak na Linux z użyciem złośliwych modułów Go">​</a></h2>
+<p>Cyberprzestępcy opracowali trzy złośliwe moduły napisane w Go, które zawierają ukryty kod do pobierania payloadów pozwalających na trwałe nadpisanie głównego dysku systemu Linux i uniemożliwienie jego uruchomienia. Nazwy infekcyjnych bibliotek to:</p>
+<ul>
+<li>github.com/truthfulpharm/prototransform</li>
+<li>github.com/blankloggia/go-mcp</li>
+<li>github.com/steelpoor/tlsproxy</li>
+</ul>
+<p>Mimo pozornego legitimu, moduły stanowią poważne zagrożenie dla infrastruktury Linux.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="iran-utrzymuje-długoterminowy-dostęp-do-sieci-krytycznej-na-bliskim-wschodzie">Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie<a href="https://www.majdak.online/blog/news-2025-05-04#iran-utrzymuje-d%C5%82ugoterminowy-dost%C4%99p-do-sieci-krytycznej-na-bliskim-wschodzie" class="hash-link" aria-label="Direct link to Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie" title="Direct link to Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie">​</a></h2>
+<p>Grupa cybernetyczna powiązana z Iranem przeprowadziła wieloletnią infiltrację infrastruktury krytycznej (CNI) na Bliskim Wschodzie. Działania trwały od maja 2023 do lutego 2025 i obejmowały operacje wywiadowcze oraz prepozycję sieciową, co pozwalało na stałe utrzymanie dostępu i potencjalne przyszłe ingerencje. To kolejny przykład zaawansowanych zdolności państwowych aktorów w sferze cyberwojny.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="oszustwo-ransomware-black-kingdom-i-aresztowania">Oszustwo ransomware Black Kingdom i aresztowania<a href="https://www.majdak.online/blog/news-2025-05-04#oszustwo-ransomware-black-kingdom-i-aresztowania" class="hash-link" aria-label="Direct link to Oszustwo ransomware Black Kingdom i aresztowania" title="Direct link to Oszustwo ransomware Black Kingdom i aresztowania">​</a></h2>
+<p>Departament Sprawiedliwości USA oskarżył Rami Khaleda Ahmeda z Jemenu o uruchomienie ransomware Black Kingdom, które zaatakowało ponad 1500 systemów na całym świecie, w tym firmy, szkoły i szpitale. Oskarżony odpowiada m.in. za spisek i celowe uszkodzenie chronionych komputerów, co wskazuje na rosnący problem międzynarodowego cyberprzestępczości.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowości-od-openai-wybór-odpowiedniego-modelu-chatgpt">Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT<a href="https://www.majdak.online/blog/news-2025-05-04#nowo%C5%9Bci-od-openai-wyb%C3%B3r-odpowiedniego-modelu-chatgpt" class="hash-link" aria-label="Direct link to Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT" title="Direct link to Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT">​</a></h2>
+<p>OpenAI wydało dokument wyjaśniający, kiedy i jak korzystać z różnych modeli ChatGPT. Wprowadza on lepszy podział funkcji i ułatwia użytkownikom wybór odpowiedniego narzędzia w zależności od potrzeb, eliminując częste zamieszanie związane z mnogością dostępnych wersji.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stealc---nowa-wersja-z-ulepszeniami-stealth-i-funkcjami-kradzieży-danych">StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych<a href="https://www.majdak.online/blog/news-2025-05-04#stealc---nowa-wersja-z-ulepszeniami-stealth-i-funkcjami-kradzie%C5%BCy-danych" class="hash-link" aria-label="Direct link to StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych" title="Direct link to StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych">​</a></h2>
+<p>Twórcy StealC, popularnego stealer'a i narzędzia do pobierania malware, wypuścili jego drugą główną wersję. Wprowadza ona liczne ulepszenia w zakresie ukrywania się przed wykryciem oraz zwiększa skuteczność kradzieży danych, co czyni ją poważnym zagrożeniem dla użytkowników.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="google-notebooklm-z-aktualizacją-do-gemini-25-flash">Google NotebookLM z aktualizacją do Gemini 2.5 Flash<a href="https://www.majdak.online/blog/news-2025-05-04#google-notebooklm-z-aktualizacj%C4%85-do-gemini-25-flash" class="hash-link" aria-label="Direct link to Google NotebookLM z aktualizacją do Gemini 2.5 Flash" title="Direct link to Google NotebookLM z aktualizacją do Gemini 2.5 Flash">​</a></h2>
+<p>Google zaktualizowało swoje narzędzie NotebookLM, służące do badań i notatek, do wersji Gemini 2.5 Flash. Nowa wersja obiecuje wyższe możliwości w zakresie analizy i gromadzenia informacji, co może wpłynąć na rynek narzędzi wspierających pracę naukową i biznesową.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="microsoft-kończy-autofill-haseł-w-authenticator-i-przenosi-użytkowników-do-edge">Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge<a href="https://www.majdak.online/blog/news-2025-05-04#microsoft-ko%C5%84czy-autofill-hase%C5%82-w-authenticator-i-przenosi-u%C5%BCytkownik%C3%B3w-do-edge" class="hash-link" aria-label="Direct link to Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge" title="Direct link to Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge">​</a></h2>
+<p>Microsoft zapowiedział zakończenie funkcji przechowywania i automatycznego wypełniania haseł w aplikacji Authenticator, która zostanie wyłączona od lipca 2025, a całkowicie wycofana w sierpniu. Użytkownicy zostaną zachęceni do korzystania z funkcji autofill w Microsoft Edge, co może mieć wpływ na zarządzanie hasłami i bezpieczeństwo użytkowników.</p>
+<hr>
+<p><strong>Podsumowując</strong>, cyberświat coraz bardziej przypomina pole walki, gdzie państwa, przestępcy i firmy nieustannie rywalizują o dominację. Zaawansowane techniki ataków i obrona, rosnąca liczba złośliwego oprogramowania oraz konieczność wyboru odpowiednich narzędzi stawiają przed specjalistami coraz większe wyzwania. Trendem jest rosnąca świadomość potrzeby adaptacji narzędzi bezpieczeństwa i dywersyfikacji metod obrony, co jest kluczem do ochrony cyfrowego świata w nadchodzących latach.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Automation</category>
+            <category>Networking</category>
+            <category>Wydarzenia</category>
+            <category>Konferencje</category>
+            <category>Technologie</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>OWASP</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+            <category>Penetration Testing</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[📰 Podsumowanie Aktualności: 2025-05-02 - Dlaczego MFA staje się coraz łatwiejsze do obejścia i jak się przed tym bronić]]></title>
             <link>https://www.majdak.online/blog/news-2025-05-02</link>
@@ -870,42 +916,6 @@
             <category>Networking</category>
             <category>Web Security</category>
             <category>Społeczność</category>
-        </item>
-        <item>
-            <title><![CDATA[Pierwsza wersja wtyczki UrlBlocker jest dostępna!]]></title>
-            <link>https://www.majdak.online/blog/url-blocker</link>
-            <guid>https://www.majdak.online/blog/url-blocker</guid>
-            <pubDate>Sun, 12 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🔥 UrlBlocker - pierwsza wersja już dostępna!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-urlblocker---pierwsza-wersja-już-dostępna">🔥 UrlBlocker - pierwsza wersja już dostępna!<a href="https://www.majdak.online/blog/url-blocker#-urlblocker---pierwsza-wersja-ju%C5%BC-dost%C4%99pna" class="hash-link" aria-label="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!" title="Direct link to 🔥 UrlBlocker - pierwsza wersja już dostępna!">​</a></h2>
-<p>Z przyjemnością ogłaszam premierę pierwszej wersji mojej wtyczki do przeglądarek <strong>UrlBlocker</strong>! 🎉</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-co-to-jest-urlblocker">🛠️ Co to jest UrlBlocker?<a href="https://www.majdak.online/blog/url-blocker#%EF%B8%8F-co-to-jest-urlblocker" class="hash-link" aria-label="Direct link to 🛠️ Co to jest UrlBlocker?" title="Direct link to 🛠️ Co to jest UrlBlocker?">​</a></h3>
-<p>UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych adresów URL oraz reklam podczas przeglądania internetu. Dzięki niej możesz:</p>
-<ul>
-<li>🔒 Zablokować konkretne domeny i podstrony.</li>
-<li>🚀 Przyspieszyć ładowanie stron, eliminując zbędne skrypty reklamowe.</li>
-<li>👌 Poprawić prywatność poprzez ograniczenie śledzących elementów.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-jak-pobrać-i-zainstalować">📥 Jak pobrać i zainstalować?<a href="https://www.majdak.online/blog/url-blocker#-jak-pobra%C4%87-i-zainstalowa%C4%87" class="hash-link" aria-label="Direct link to 📥 Jak pobrać i zainstalować?" title="Direct link to 📥 Jak pobrać i zainstalować?">​</a></h3>
-<p>Wtyczka jest dostępna na <strong>GitHubie</strong> pod tym linkiem:<br>
-<!-- -->➡️ <a href="https://github.com/przemyslvw/UrlBlocker" target="_blank" rel="noopener noreferrer"><strong>UrlBlocker na GitHubie</strong></a></p>
-<p>W repozytorium znajdziesz instrukcję instalacji oraz kod źródłowy projektu.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-plany-na-przyszłość">📌 Plany na przyszłość<a href="https://www.majdak.online/blog/url-blocker#-plany-na-przysz%C5%82o%C5%9B%C4%87" class="hash-link" aria-label="Direct link to 📌 Plany na przyszłość" title="Direct link to 📌 Plany na przyszłość">​</a></h3>
-<p>To dopiero pierwsza wersja, ale planuję rozwijać projekt, dodając nowe funkcje, takie jak:</p>
-<ul>
-<li>🔹 Zaawansowane reguły blokowania</li>
-<li>🔹 Lista wyjątków</li>
-<li>🔹 Integracja z popularnymi listami blokowania reklam</li>
-<li>🔹 Automatyczna synchronizacja ustawień między urządzeniami</li>
-</ul>
-<p>Będę wdzięczny za <strong>opinie i sugestie</strong>, a także <strong>pull requesty</strong> od społeczności! Jeśli masz pomysł na usprawnienie, śmiało otwórz nowy <strong>issue</strong> na GitHubie. 😊</p>
-<hr>
-<p>💬 <strong>Masz pytania lub sugestie?</strong> Zostaw komentarz lub napisz do mnie na GitHubie!</p>
-<p>Dzięki za wsparcie! 🚀</p>]]></content:encoded>
-            <category>Browser</category>
-            <category>Extensions</category>
-            <category>Adblock</category>
-            <category>Privacy</category>
         </item>
     </channel>
 </rss>
