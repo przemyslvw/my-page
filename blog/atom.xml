@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-05T00:00:00.000Z</updated>
+    <updated>2025-05-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[📰 Najnowsze wydarzenia w dziedzinie cyberbezpieczeństwa – 6 maja 2025]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-06</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-06"/>
+        <updated>2025-05-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W mijającym tygodniu obserwujemy narastającą aktywność cyberprzestępców, którzy wykorzystują luki w popularnych technologiach i usługach w celu przeprowadzania ataków na instytucje rządowe, przedsiębiorstwa i użytkowników indywidualnych. Poniżej prezentujemy najbardziej istotne wydarzenia i trendy.]]></summary>
+        <content type="html"><![CDATA[<p>W mijającym tygodniu obserwujemy narastającą aktywność cyberprzestępców, którzy wykorzystują luki w popularnych technologiach i usługach w celu przeprowadzania ataków na instytucje rządowe, przedsiębiorstwa i użytkowników indywidualnych. Poniżej prezentujemy najbardziej istotne wydarzenia i trendy.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="naruszenia-i-wycieki-danych">Naruszenia i wycieki danych<a href="https://www.majdak.online/blog/news-2025-05-06#naruszenia-i-wycieki-danych" class="hash-link" aria-label="Direct link to Naruszenia i wycieki danych" title="Direct link to Naruszenia i wycieki danych">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hakerzy-zaatakowali-telemessage-używany-przez-amerykańskich-urzędników">Hakerzy zaatakowali TeleMessage używany przez amerykańskich urzędników<a href="https://www.majdak.online/blog/news-2025-05-06#hakerzy-zaatakowali-telemessage-u%C5%BCywany-przez-ameryka%C5%84skich-urz%C4%99dnik%C3%B3w" class="hash-link" aria-label="Direct link to Hakerzy zaatakowali TeleMessage używany przez amerykańskich urzędników" title="Direct link to Hakerzy zaatakowali TeleMessage używany przez amerykańskich urzędników">​</a></h3>
+<p>Firma TeleMessage, dostawca modyfikowanych wersji popularnych komunikatorów szyfrowanych, padła ofiarą naruszenia. Sprawca wyłuskał archiwalne wiadomości i dane dotyczące urzędników USA i firm korzystających z tego narzędzia, wykorzystując podatność w systemie. Firma zawiesiła działalność po ujawnieniu ataku.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="upadek-firmy-globalx-wykorzystywanej-do-deportacji-trumpa">Upadek firmy GlobalX wykorzystywanej do deportacji Trumpa<a href="https://www.majdak.online/blog/news-2025-05-06#upadek-firmy-globalx-wykorzystywanej-do-deportacji-trumpa" class="hash-link" aria-label="Direct link to Upadek firmy GlobalX wykorzystywanej do deportacji Trumpa" title="Direct link to Upadek firmy GlobalX wykorzystywanej do deportacji Trumpa">​</a></h3>
+<p>Hakerzy, przypisywani aktywnościom hacktivistycznym, przeprowadzili atak na firmę lotniczą GlobalX, wykorzystując wyciek danych do celów propagandowych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="man-przyznał-się-do-użycia-ai-do-włamania-do-disney">Man przyznał się do użycia AI do włamania do Disney<a href="https://www.majdak.online/blog/news-2025-05-06#man-przyzna%C5%82-si%C4%99-do-u%C5%BCycia-ai-do-w%C5%82amania-do-disney" class="hash-link" aria-label="Direct link to Man przyznał się do użycia AI do włamania do Disney" title="Direct link to Man przyznał się do użycia AI do włamania do Disney">​</a></h3>
+<p>Za pomocą fałszywej aplikacji generującej obrazy, osoba ta uzyskała dostęp do 1.1TB danych Disney, co pokazuje, jak rozwój sztucznej inteligencji tworzy nowe zagrożenia.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="telemessage--oficjalny-signal-od-trumpa--został-wyłączony">TeleMessage – oficjalny Signal od Trumpa – został wyłączony<a href="https://www.majdak.online/blog/news-2025-05-06#telemessage--oficjalny-signal-od-trumpa--zosta%C5%82-wy%C5%82%C4%85czony" class="hash-link" aria-label="Direct link to TeleMessage – oficjalny Signal od Trumpa – został wyłączony" title="Direct link to TeleMessage – oficjalny Signal od Trumpa – został wyłączony">​</a></h3>
+<p>Po ujawnieniu naruszenia, rozwiązanie wykorzystywane przez urzędników Trumpa zostało wyłączone, co wymusza poszukiwanie nowych narzędzi komunikacyjnych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="atak-na-setki-sklepów-e-commerce-w-wyniku-ataku-łańcuchowego">Atak na setki sklepów e-commerce w wyniku ataku łańcuchowego<a href="https://www.majdak.online/blog/news-2025-05-06#atak-na-setki-sklep%C3%B3w-e-commerce-w-wyniku-ataku-%C5%82a%C5%84cuchowego" class="hash-link" aria-label="Direct link to Atak na setki sklepów e-commerce w wyniku ataku łańcuchowego" title="Direct link to Atak na setki sklepów e-commerce w wyniku ataku łańcuchowego">​</a></h3>
+<p>Malware rozprzestrzenia się na stronach sprzedaży internetowej, wykonując złośliwy kod na urządzeniach odwiedzających, co stanowi poważne wyzwanie dla bezpieczeństwa handlu online.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-i-techniki-ataków">Nowe zagrożenia i techniki ataków<a href="https://www.majdak.online/blog/news-2025-05-06#nowe-zagro%C5%BCenia-i-techniki-atak%C3%B3w" class="hash-link" aria-label="Direct link to Nowe zagrożenia i techniki ataków" title="Direct link to Nowe zagrożenia i techniki ataków">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tecnik-prompt-puppetry-łamie-zabezpieczenia-dużych-modeli-językowych">Tecnik (Prompt Puppetry) łamie zabezpieczenia dużych modeli językowych<a href="https://www.majdak.online/blog/news-2025-05-06#tecnik-prompt-puppetry-%C5%82amie-zabezpieczenia-du%C5%BCych-modeli-j%C4%99zykowych" class="hash-link" aria-label="Direct link to Tecnik (Prompt Puppetry) łamie zabezpieczenia dużych modeli językowych" title="Direct link to Tecnik (Prompt Puppetry) łamie zabezpieczenia dużych modeli językowych">​</a></h3>
+<p>Zespół HiddenLayer ujawnił lukę w zabezpieczeniach LLM, takich jak GPT-4 czy Llama, umożliwiającą generowanie zablokowanych treści. Metoda „Prompt Puppetry” to zaawansowany jailbreaking, który pozwala omijać mechanizmy bezpieczeństwa.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksploatacja-luk-w-iot-i-systemach-w-celu-tworzenia-botnetów-mirai">Eksploatacja luk w IoT i systemach w celu tworzenia botnetów Mirai<a href="https://www.majdak.online/blog/news-2025-05-06#eksploatacja-luk-w-iot-i-systemach-w-celu-tworzenia-botnet%C3%B3w-mirai" class="hash-link" aria-label="Direct link to Eksploatacja luk w IoT i systemach w celu tworzenia botnetów Mirai" title="Direct link to Eksploatacja luk w IoT i systemach w celu tworzenia botnetów Mirai">​</a></h3>
+<p>Eksperci zaobserwowali aktywne wykorzystywanie podatności w urządzeniach IoT od GeoVision i Samsung MagicINFO do tworzenia botnetów Mirai, co posłuży do przeprowadzania ataków DDoS.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="użycie-złudnych-inwestycji-i-domen-rdga-do-oszustw">Użycie złudnych inwestycji i domen RDGA do oszustw<a href="https://www.majdak.online/blog/news-2025-05-06#u%C5%BCycie-z%C5%82udnych-inwestycji-i-domen-rdga-do-oszustw" class="hash-link" aria-label="Direct link to Użycie złudnych inwestycji i domen RDGA do oszustw" title="Direct link to Użycie złudnych inwestycji i domen RDGA do oszustw">​</a></h3>
+<p>Cyberprzestępcy posługują się fałszywymi reklamami na Facebooku i domenami RDGA, aby wyłudzać ofiary pod pretekstem inwestycji, ukrywając aktywność za złożonymi systemami rozkładania ruchu.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-langflow-i-krytyczne-exploity">Luka w Langflow i krytyczne exploity<a href="https://www.majdak.online/blog/news-2025-05-06#luka-w-langflow-i-krytyczne-exploity" class="hash-link" aria-label="Direct link to Luka w Langflow i krytyczne exploity" title="Direct link to Luka w Langflow i krytyczne exploity">​</a></h3>
+<p>Ujawniona luka CVE-2025-3248 w platformie Langflow jest już wykorzystywana przez cyberprzestępców. Podobnie, aktywnie wykorzystywana jest luka w AI Builder Langflow, co wymusza szybkie aktualizacje.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-w-infrastrukturze-i-usługach">Zagrożenia w infrastrukturze i usługach<a href="https://www.majdak.online/blog/news-2025-05-06#zagro%C5%BCenia-w-infrastrukturze-i-us%C5%82ugach" class="hash-link" aria-label="Direct link to Zagrożenia w infrastrukturze i usługach" title="Direct link to Zagrożenia w infrastrukturze i usługach">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="exploity-w-kubernetes-i-konfiguracje">Exploity w Kubernetes i konfiguracje<a href="https://www.majdak.online/blog/news-2025-05-06#exploity-w-kubernetes-i-konfiguracje" class="hash-link" aria-label="Direct link to Exploity w Kubernetes i konfiguracje" title="Direct link to Exploity w Kubernetes i konfiguracje">​</a></h3>
+<p>Microsoft ostrzega, że domyślne wykorzystywanie Helm charts w Kubernetes może prowadzić do wycieku danych. Również, niepoprawne konfiguracje Apache Pinot mogą umożliwić dostęp do wrażliwych informacji.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-urządzenia-iot-i-urządzenia-zabezpieczające">Ataki na urządzenia IoT i urządzenia zabezpieczające<a href="https://www.majdak.online/blog/news-2025-05-06#ataki-na-urz%C4%85dzenia-iot-i-urz%C4%85dzenia-zabezpieczaj%C4%85ce" class="hash-link" aria-label="Direct link to Ataki na urządzenia IoT i urządzenia zabezpieczające" title="Direct link to Ataki na urządzenia IoT i urządzenia zabezpieczające">​</a></h3>
+<p>Fale ataków na urządzenia IoT, takie jak GeoVision i Samsung MagicINFO, wskazują na rosnącą skuteczność cyberprzestępców w wykorzystaniu starego sprzętu do tworzenia botnetów i przeprowadzania DDoS.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wykorzystanie-nowych-technik-do-przełamywania-zabezpieczeń">Wykorzystanie nowych technik do przełamywania zabezpieczeń<a href="https://www.majdak.online/blog/news-2025-05-06#wykorzystanie-nowych-technik-do-prze%C5%82amywania-zabezpiecze%C5%84" class="hash-link" aria-label="Direct link to Wykorzystanie nowych technik do przełamywania zabezpieczeń" title="Direct link to Wykorzystanie nowych technik do przełamywania zabezpieczeń">​</a></h3>
+<p>Technika „Prompt Puppetry” oraz "Bring Your Own Installer" pozwalają na pomijanie zabezpieczeń EDR i prowadzenie ukrytych działań, takich jak instalacja ransomware.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-06#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h2>
+<p>Obserwujemy wyraźne zwiększenie zaawansowania i skali ataków, które coraz częściej korzystają z technik omijania zabezpieczeń, wykorzystywania luk w popularnych platformach czy inżynierii społecznej. W dobie rosnących zagrożeń istotne jest nie tylko regularne aktualizowanie systemów, ale także świadome zarządzanie konfiguracją i monitorowanie infrastruktury.</p>
+<p>Czy wyzwania związane z bezpieczeństwem IT zdominują nadchodzący okres, czy uda się nam skutecznie im przeciwdziałać poprzez edukację i zaawansowane narzędzia? Czas pokaże, ale jedno jest pewne – cyberataków nie można lekceważyć.</p>
+<hr>
+<p>Podsumowując, obecne trendy wskazują na konieczność ciągłej ewolucji strategii cyberbezpieczeństwa, z naciskiem na wyprzedzanie ataków oraz minimalizowanie powierzchni ataku poprzez transparency i proaktywne zarządzanie ryzykiem.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 Podsumowanie wiadomości z dnia 2025-05-05]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-05</id>
@@ -960,33 +1010,5 @@
         <category label="Technologie" term="Technologie"/>
         <category label="UAV" term="UAV"/>
         <category label="BSP" term="BSP"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Opracowanie standardu ISO27002]]></title>
-        <id>https://www.majdak.online/blog/iso27002</id>
-        <link href="https://www.majdak.online/blog/iso27002"/>
-        <updated>2025-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem standardu ISO/IEC 27002!]]></summary>
-        <content type="html"><![CDATA[<p>Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem standardu <strong>ISO/IEC 27002</strong>!<br>
-<!-- -->Jest to kluczowy krok w kierunku podniesienia poziomu bezpieczeństwa informacji oraz zgodności z międzynarodowymi standardami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-czym-jest-isoiec-27002">📌 Czym jest ISO/IEC 27002?<a href="https://www.majdak.online/blog/iso27002#-czym-jest-isoiec-27002" class="hash-link" aria-label="Direct link to 📌 Czym jest ISO/IEC 27002?" title="Direct link to 📌 Czym jest ISO/IEC 27002?">​</a></h2>
-<p>ISO 27002 to zbiór najlepszych praktyk i wytycznych dotyczących zarządzania bezpieczeństwem informacji.<br>
-<!-- -->Norma ta wspiera organizacje w implementacji skutecznych środków zabezpieczających dane, obejmując takie obszary jak:</p>
-<p>✔️ <strong>Środki organizacyjne</strong> (np. polityki i procedury bezpieczeństwa)<br>
-<!-- -->✔️ <strong>Bezpieczeństwo personelu</strong> (np. szkolenia, kontrola dostępu)<br>
-<!-- -->✔️ <strong>Środki fizyczne</strong> (np. kontrola dostępu do pomieszczeń)<br>
-<!-- -->✔️ <strong>Środki technologiczne</strong> (np. zabezpieczenia sieci i systemów IT)</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-sprawdź-dokument-tutaj">🔗 Sprawdź dokument tutaj:<a href="https://www.majdak.online/blog/iso27002#-sprawd%C5%BA-dokument-tutaj" class="hash-link" aria-label="Direct link to 🔗 Sprawdź dokument tutaj:" title="Direct link to 🔗 Sprawdź dokument tutaj:">​</a></h2>
-<p><a href="https://www.majdak.online/docs/category/dokumentacja---iso27002">/docs/category/dokumentacja---iso27002</a></p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="ISO27002" term="ISO27002"/>
-        <category label="bezpieczeństwo informacji" term="bezpieczeństwo informacji"/>
-        <category label="standardy międzynarodowe" term="standardy międzynarodowe"/>
-        <category label="zarządzanie bezpieczeństwem" term="zarządzanie bezpieczeństwem"/>
-        <category label="IT" term="IT"/>
-        <category label="Dokumentacja" term="Dokumentacja"/>
     </entry>
 </feed>
