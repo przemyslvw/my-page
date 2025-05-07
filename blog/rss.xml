@@ -4,10 +4,52 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Tue, 06 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 Przegląd wiadomości bezpieczeństwa IT: 2025-05-07]]></title>
+            <link>https://www.majdak.online/blog/news-2025-05-07</link>
+            <guid>https://www.majdak.online/blog/news-2025-05-07</guid>
+            <pubDate>Wed, 07 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dziś przeglądamy najważniejsze wydarzenia ze świata bezpieczeństwa IT, które pokazują rosnące wyzwania, nowe zagrożenia i innowacje w ochronie danych. Świat cyberbezpieczeństwa jest dynamiczny i wymaga stałej adaptacji do coraz bardziej wyrafinowanych ataków i technologii obronnych.]]></description>
+            <content:encoded><![CDATA[<p>Dziś przeglądamy najważniejsze wydarzenia ze świata bezpieczeństwa IT, które pokazują rosnące wyzwania, nowe zagrożenia i innowacje w ochronie danych. Świat cyberbezpieczeństwa jest dynamiczny i wymaga stałej adaptacji do coraz bardziej wyrafinowanych ataków i technologii obronnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gradacja-zwolnień-w-branży-cyberbezpieczeństwa">Gradacja zwolnień w branży cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-07#gradacja-zwolnie%C5%84-w-bran%C5%BCy-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Direct link to Gradacja zwolnień w branży cyberbezpieczeństwa" title="Direct link to Gradacja zwolnień w branży cyberbezpieczeństwa">​</a></h2>
+<p>CrowdStrike, jedno z najbardziej rozpoznawalnych przedsiębiorstw w dziedzinie cyberbezpieczeństwa, ogłosiło plan zwolnienia około 500 pracowników, co stanowi 5% globalnej załogi. Decyzja ta wpisuje się w szerzej obserwowany trend optymalizacji kosztów i koncentracji na kluczowych kompetencjach w kontekście ambitnych celów finansowych firmy.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-inwestycje-w-narzędzia-do-wykrywania-luk">Nowe inwestycje w narzędzia do wykrywania luk<a href="https://www.majdak.online/blog/news-2025-05-07#nowe-inwestycje-w-narz%C4%99dzia-do-wykrywania-luk" class="hash-link" aria-label="Direct link to Nowe inwestycje w narzędzia do wykrywania luk" title="Direct link to Nowe inwestycje w narzędzia do wykrywania luk">​</a></h2>
+<p>Ox Security zdobyło 60 milionów dolarów w najnowszej rundzie finansowania, co podkreśla rosnące znaczenie platform do skanowania kodu pod kątem podatności, szczególnie w kontekście rozwoju generatywnej AI. Firma modeluje ryzyko zarówno w kodzie generowanym przez ludzi, jak i AI, odpowiadając na coraz pilniejsze potrzeby bezpieczeństwa DevSecOps.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wielomilionowe-odszkodowania-dla-whatsapp-i-walki-z-spyware">Wielomilionowe odszkodowania dla WhatsApp i walki z spyware<a href="https://www.majdak.online/blog/news-2025-05-07#wielomilionowe-odszkodowania-dla-whatsapp-i-walki-z-spyware" class="hash-link" aria-label="Direct link to Wielomilionowe odszkodowania dla WhatsApp i walki z spyware" title="Direct link to Wielomilionowe odszkodowania dla WhatsApp i walki z spyware">​</a></h2>
+<p>NSO Group, znany producent szpiegowskiego oprogramowania, został zobowiązany do zapłaty ponad 167 milionów dolarów odszkodowania za działania związane z inwigilacją użytkowników WhatsApp. To kolejny krok w walce prawnej i propagowania prywatności w obliczu rosnącej skali ataków spyware.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="eksploatacja-luk-i-złośliwe-oprogramowanie">Eksploatacja luk i złośliwe oprogramowanie<a href="https://www.majdak.online/blog/news-2025-05-07#eksploatacja-luk-i-z%C5%82o%C5%9Bliwe-oprogramowanie" class="hash-link" aria-label="Direct link to Eksploatacja luk i złośliwe oprogramowanie" title="Direct link to Eksploatacja luk i złośliwe oprogramowanie">​</a></h2>
+<ul>
+<li>Włoski obrońca bezpieczeństwa ujawnił, że wielokrotnie wykorzystywana luka w systemie Windows (CVE-2025-29824) była używana jako zero-day przez różne grupy ransomware, w tym Play ransomware, do eskalacji uprawnień i instalacji malware.</li>
+<li>Zagrożenie ze strony malware ukrytego w fałszywych pakietach Python, takich jak discordpydebug, które zostały pobrane ponad 11 500 razy, przypomina o konieczności weryfikacji źródeł oprogramowania open-source.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="operacje-wymierzone-w-cyberprzestępców">Operacje wymierzone w cyberprzestępców<a href="https://www.majdak.online/blog/news-2025-05-07#operacje-wymierzone-w-cyberprzest%C4%99pc%C3%B3w" class="hash-link" aria-label="Direct link to Operacje wymierzone w cyberprzestępców" title="Direct link to Operacje wymierzone w cyberprzestępców">​</a></h2>
+<p>Europol z sukcesem zamknął platformy oferujące ataki DDoS na żądanie, a polskie służby zatrzymały czterech podejrzanych. Podobnie, Cyberszpiegowskie działania skierowane przeciwko IoT, takie jak exploitacja urządzeń GeoVision i Samsung MagicINFO, są coraz częstsze i bardziej wyrafinowane.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-ekosystemie-wordpress-i-kubernetes">Luka w ekosystemie WordPress i Kubernetes<a href="https://www.majdak.online/blog/news-2025-05-07#luka-w-ekosystemie-wordpress-i-kubernetes" class="hash-link" aria-label="Direct link to Luka w ekosystemie WordPress i Kubernetes" title="Direct link to Luka w ekosystemie WordPress i Kubernetes">​</a></h2>
+<p>Ważne zagrożenia dla popularnych platform, takich jak WordPress (w tym exploity w pluginie OttoKit) oraz konfiguracje Kubernetes na bazie Helm charts, które mogą prowadzić do wycieków danych i nieautoryzowanego dostępu. Zalecane jest pilne stosowanie łatek i weryfikacja konfiguracji.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="trendy-i-refleksje">Trendy i refleksje<a href="https://www.majdak.online/blog/news-2025-05-07#trendy-i-refleksje" class="hash-link" aria-label="Direct link to Trendy i refleksje" title="Direct link to Trendy i refleksje">​</a></h2>
+<p>Obserwujemy rosnące znaczenie ataków na krytyczną infrastrukturę, coraz częstsze wykorzystywanie exploitów zero-day oraz zaawansowane operacje wymierzone w organizacje publiczne i prywatne. Wzrost liczby legalnych batalii przeciwko spyware, a także rosnąca rola narzędzi do automatyzacji i analizy ryzyka, wskazują na konieczność ciągłego doskonalenia polityk bezpieczeństwa, monitorowania i edukacji użytkowników.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-07#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h3>
+<p>Dzisiejsze wiadomości potwierdzają, że cyberzagrożenia stają się coraz bardziej zaawansowane i zróżnicowane. Firmy i organizacje muszą inwestować w nowoczesne rozwiązania, świadomie zarządzać ryzykiem oraz nieustannie śledzić najnowsze wydarzenia, aby skutecznie chronić swoje zasoby.</p>
+<hr>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Automation</category>
+            <category>Networking</category>
+            <category>Wydarzenia</category>
+            <category>Konferencje</category>
+            <category>Technologie</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>OWASP</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+            <category>Penetration Testing</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[📰 Najnowsze wydarzenia w dziedzinie cyberbezpieczeństwa – 6 maja 2025]]></title>
             <link>https://www.majdak.online/blog/news-2025-05-06</link>
@@ -795,136 +837,6 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">📖 Podsumowanie<a href="https://www.majdak.online/blog/jamming-reb#-podsumowanie" class="hash-link" aria-label="Direct link to 📖 Podsumowanie" title="Direct link to 📖 Podsumowanie">​</a></h2>
 <p>Systemy Walki Radioelektronicznej odgrywają kluczową rolę na współczesnym polu walki, umożliwiając zakłócanie systemów przeciwnika bez konieczności stosowania tradycyjnej siły ognia. Ich rozwój stanowi istotny element strategii wojskowych na całym świecie.
-"""</p>]]></content:encoded>
-            <category>Drony</category>
-            <category>Wojsko</category>
-            <category>Technologie</category>
-            <category>UAV</category>
-            <category>BSP</category>
-        </item>
-        <item>
-            <title><![CDATA[Współczesne Drony Wojskowe]]></title>
-            <link>https://www.majdak.online/blog/wojskowe-drony</link>
-            <guid>https://www.majdak.online/blog/wojskowe-drony</guid>
-            <pubDate>Sat, 22 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[✈️ Wprowadzenie]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-wprowadzenie">✈️ Wprowadzenie<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-wprowadzenie" class="hash-link" aria-label="Direct link to ✈️ Wprowadzenie" title="Direct link to ✈️ Wprowadzenie">​</a></h2>
-<p>Współczesne drony wojskowe odgrywają kluczową rolę w działaniach zbrojnych na całym świecie. Wykorzystywane są zarówno do rozpoznania, nadzoru, jak i prowadzenia precyzyjnych uderzeń. Dzięki zaawansowanym technologiom bezzałogowe statki powietrzne (BSP) oferują szeroki zakres możliwości operacyjnych.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-klasyfikacja-dronów-wojskowych">💥 Klasyfikacja Dronów Wojskowych<a href="https://www.majdak.online/blog/wojskowe-drony#-klasyfikacja-dron%C3%B3w-wojskowych" class="hash-link" aria-label="Direct link to 💥 Klasyfikacja Dronów Wojskowych" title="Direct link to 💥 Klasyfikacja Dronów Wojskowych">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-drony-rozpoznawcze">1. <strong>Drony Rozpoznawcze</strong><a href="https://www.majdak.online/blog/wojskowe-drony#1-drony-rozpoznawcze" class="hash-link" aria-label="Direct link to 1-drony-rozpoznawcze" title="Direct link to 1-drony-rozpoznawcze">​</a></h3>
-<p>Służą do zbierania informacji wywiadowczych, monitorowania pola walki i korygowania ognia artyleryjskiego.</p>
-<ul>
-<li><strong>Furia</strong> <em>(Ukraina)</em> – A1-CM Furia to ręcznie startujący dron rozpoznawczy, który zadebiutował w 2014 roku. Od tego czasu jest intensywnie wykorzystywany przez Siły Zbrojne Ukrainy do misji rozpoznawczych i korygowania ognia artyleryjskiego. System składa się z trzech bezzałogowych statków powietrznych, trzech dziennych głowic optycznych oraz dwóch nocnych wyposażonych w kamery termowizyjne. Furia ma masę startową 5,5 kg, zasięg operacyjny do 50 km i może pozostawać w powietrzu do 3 godzin. W 2023 roku wprowadzono zmodernizowaną wersję A1-CMX, wyposażoną w zaawansowane systemy nawigacji GPS i GLONASS oraz laserowy wskaźnik celu o zasięgu do 7 km. Ta wersja jest zdolna do precyzyjnego naprowadzania amunicji artyleryjskiej, takiej jak pociski M982 Excalibur. W 2024 roku zaprezentowano kolejną wersję, Furia A2-S, charakteryzującą się zwiększoną do prawie 6 godzin długotrwałością lotu oraz większą przestrzenią wewnętrzną, umożliwiającą instalację nowoczesnych systemów i ładunków użytecznych.</li>
-<li><strong>Shark</strong> <em>(Ukraina)</em> – zaprojektowany do głębokiego rozpoznania oraz korygowania ognia artyleryjskiego, w tym systemów takich jak HIMARS. Wyposażony jest w moduł komunikacyjny z szyfrowaniem AES256, umożliwiający operowanie w odległości do 80 km w głąb terytorium przeciwnika, nawet w warunkach zakłóceń elektronicznych. System optoelektroniczny z 30-krotnym zoomem optycznym i 3-krotnym zoomem cyfrowym pozwala na obserwację celów z odległości do 5 km. Dron ma rozpiętość skrzydeł 3,4 m, maksymalną prędkość 130 km/h i może operować na wysokości do 3000 m. Czas lotu wynosi do 4 godzin, a zasięg operacyjny to około 300 km. Start odbywa się z katapulty, a lądowanie za pomocą spadochronu. W styczniu 2025 roku firma Ukrspecsystems wprowadziła zmodernizowaną wersję tego drona o nazwie SHARK-M, charakteryzującą się zwiększonym zasięgiem do 420 km i czasem lotu do 7 godzin.</li>
-<li><strong>RQ-4 Global Hawk</strong> <em>(USA)</em> – dalekiego zasięgu, zdolny do lotów na dużych wysokościach.</li>
-<li><strong>FlyEye</strong> <em>(Polska)</em> – lekki dron taktyczny o zasięgu do 50 km.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-drony-bojowe-ucav">2. <strong>Drony Bojowe (UCAV)</strong><a href="https://www.majdak.online/blog/wojskowe-drony#2-drony-bojowe-ucav" class="hash-link" aria-label="Direct link to 2-drony-bojowe-ucav" title="Direct link to 2-drony-bojowe-ucav">​</a></h3>
-<p>Wyposażone w uzbrojenie do prowadzenia precyzyjnych ataków.</p>
-<ul>
-<li><strong>Nemesis</strong> <em>(Ukraina)</em> – ciężki dron opracowany przez ukraińskich inżynierów, charakteryzujący się imponującymi rozmiarami — odległość między jego czterema silnikami przekracza metr. Dzięki integracji z terminalami komunikacji satelitarnej Starlink, dron ten może być sterowany z dowolnego miejsca na świecie, co eliminuje ograniczenia związane z tradycyjnymi systemami komunikacji. Nemesis jest zdolny do precyzyjnego atakowania celów na dużych odległościach, co czyni go cennym narzędziem w arsenale ukraińskich sił zbrojnych.</li>
-<li><strong>Vampire</strong> <em>(Ukraina)</em> – ciężki dron bombowy, znany również pod pseudonimem "Baba Jaga". Jest to duży hexakopter wyposażony w kamerę termowizyjną, zdolny do przenoszenia ładunku o masie do 15 kg. Dron ten został zaprojektowany do operacji nocnych, co czyni go trudnym do wykrycia i skutecznym w atakach na pozycje przeciwnika. Rosyjskie siły zbrojne nadały mu przydomek "Baba Jaga" ze względu na jego skuteczność i trudność w wykryciu.</li>
-<li><strong>Bayraktar TB2</strong> <em>(Turcja)</em> – szeroko wykorzystywany przez Ukrainę, zdolny do przenoszenia bomb kierowanych.</li>
-<li><strong>MQ-9 Reaper</strong> <em>(USA)</em> – jeden z najpotężniejszych dronów bojowych z możliwością przenoszenia pocisków Hellfire.</li>
-<li><strong>Shahed-136</strong> <em>(Iran)</em> – dron kamikaze używany do precyzyjnych ataków na cele naziemne.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-drony-kamikaze-loitering-munition">3. <strong>Drony Kamikaze (Loitering Munition)</strong><a href="https://www.majdak.online/blog/wojskowe-drony#3-drony-kamikaze-loitering-munition" class="hash-link" aria-label="Direct link to 3-drony-kamikaze-loitering-munition" title="Direct link to 3-drony-kamikaze-loitering-munition">​</a></h3>
-<p>Przemieszczają się nad polem walki, wyszukując cel i dokonując samobójczego ataku.</p>
-<ul>
-<li><strong>Switchblade 300/600</strong> <em>(USA)</em> – lekkie drony kamikaze o różnych zasięgach i ładunkach bojowych.</li>
-<li><strong>Lancet</strong> <em>(Rosja)</em> – dron uderzeniowy z funkcją rozpoznania i ataku.</li>
-<li><strong>Warmate</strong> <em>(Polska)</em> – taktyczny dron uderzeniowy stosowany m.in. przez siły ukraińskie.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-drony-antydronowe">4. <strong>Drony Antydronowe</strong><a href="https://www.majdak.online/blog/wojskowe-drony#4-drony-antydronowe" class="hash-link" aria-label="Direct link to 4-drony-antydronowe" title="Direct link to 4-drony-antydronowe">​</a></h3>
-<p>Stosowane do zwalczania wrogich BSP.</p>
-<ul>
-<li><strong>SkyWall Patrol</strong> <em>(Wielka Brytania)</em> – system przechwytujący drony za pomocą sieci.</li>
-<li><strong>Drone Dome</strong> <em>(Izrael)</em> – system wykrywający i neutralizujący wrogie drony.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-drony-fpv-bojowe">5. Drony FPV Bojowe<a href="https://www.majdak.online/blog/wojskowe-drony#5-drony-fpv-bojowe" class="hash-link" aria-label="Direct link to 5. Drony FPV Bojowe" title="Direct link to 5. Drony FPV Bojowe">​</a></h3>
-<p>Drony <strong>FPV</strong> (<em>First Person View</em>) to bezzałogowe statki powietrzne, które umożliwiają operatorowi obserwację z perspektywy pierwszej osoby za pomocą kamery umieszczonej na dronie. W wersji bojowej są one często modyfikowane do przenoszenia ładunków wybuchowych lub do misji samobójczych (<em>kamikaze</em>).
-🎯 Kluczowe Cechy Bojowych Dronów FPV:</p>
-<ul>
-<li>📡 <strong>Precyzyjne sterowanie</strong> – operator widzi obraz w czasie rzeczywistym, co pozwala na precyzyjne trafienie w cel.</li>
-<li>💥 <strong>Ładunek wybuchowy</strong> – możliwość przenoszenia granatów, ładunków C4 lub innych materiałów wybuchowych.</li>
-<li>🛠️ <strong>Łatwość modyfikacji</strong> – często oparte na komercyjnych dronach wyścigowych, co obniża koszty produkcji.</li>
-<li>💰 <strong>Niski koszt produkcji</strong> – w porównaniu do tradycyjnych dronów bojowych.</li>
-<li>🎛️ <strong>Odporność na zakłócenia</strong> – możliwość wykorzystania alternatywnych pasm transmisji i silnych nadajników.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-technologie-w-dronach-wojskowych">⚙️ Technologie w Dronach Wojskowych<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-technologie-w-dronach-wojskowych" class="hash-link" aria-label="Direct link to ⚙️ Technologie w Dronach Wojskowych" title="Direct link to ⚙️ Technologie w Dronach Wojskowych">​</a></h2>
-<ul>
-<li><strong>Satelitarne systemy komunikacji</strong> (np. Starlink) umożliwiające zdalne sterowanie na duże odległości.</li>
-<li><strong>Systemy stealth</strong> pozwalające na trudniejsze wykrycie przez radary.</li>
-<li><strong>AI i uczenie maszynowe</strong> do autonomicznych misji rozpoznawczych.</li>
-<li><strong>Zaawansowane systemy optoelektroniczne</strong> (kamery dzienne, termowizyjne, laserowe wskaźniki celu).</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wykorzystanie-w-konfliktach-zbrojnych">🌍 Wykorzystanie w Konfliktach Zbrojnych<a href="https://www.majdak.online/blog/wojskowe-drony#-wykorzystanie-w-konfliktach-zbrojnych" class="hash-link" aria-label="Direct link to 🌍 Wykorzystanie w Konfliktach Zbrojnych" title="Direct link to 🌍 Wykorzystanie w Konfliktach Zbrojnych">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-ukraina--rosja-20222025">🔹 <strong>Ukraina – Rosja (2022–2025)</strong><a href="https://www.majdak.online/blog/wojskowe-drony#-ukraina--rosja-20222025" class="hash-link" aria-label="Direct link to -ukraina--rosja-20222025" title="Direct link to -ukraina--rosja-20222025">​</a></h3>
-<ul>
-<li>Ukraińska armia wykorzystuje <strong>FlyEye</strong>, <strong>Shark</strong> i drony komercyjne DJI Mavic do rozpoznania i korygowania ognia artyleryjskiego.</li>
-<li><strong>Shahed-136</strong> używany przez Rosję jako dron kamikaze przeciwko infrastrukturze cywilnej.</li>
-<li>Użycie dronów FPV do ataków na czołgi i piechotę.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bliski-wschód">🔹 <strong>Bliski Wschód</strong><a href="https://www.majdak.online/blog/wojskowe-drony#-bliski-wsch%C3%B3d" class="hash-link" aria-label="Direct link to -bliski-wschód" title="Direct link to -bliski-wschód">​</a></h3>
-<ul>
-<li>USA używają <strong>MQ-9 Reaper</strong> w operacjach przeciwko grupom terrorystycznym.</li>
-<li>Izrael stosuje <strong>Hermes 900</strong> do operacji rozpoznawczych i bojowych.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-przyszłość-wojskowych-bsp">📊 Przyszłość Wojskowych BSP<a href="https://www.majdak.online/blog/wojskowe-drony#-przysz%C5%82o%C5%9B%C4%87-wojskowych-bsp" class="hash-link" aria-label="Direct link to 📊 Przyszłość Wojskowych BSP" title="Direct link to 📊 Przyszłość Wojskowych BSP">​</a></h2>
-<ul>
-<li>Rozwój <strong>roju dronów</strong> zdolnych do współpracy i autonomicznych decyzji.</li>
-<li>Integracja z <strong>systemami walki radioelektronicznej</strong> (REB) w celu neutralizacji przeciwnika.</li>
-<li>Prace nad <strong>miniaturowymi dronami szpiegowskimi</strong> do misji w terenie zurbanizowanym.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-drony-odporne-na-zagłuszanie">⚡ Drony Odporne na Zagłuszanie<a href="https://www.majdak.online/blog/wojskowe-drony#-drony-odporne-na-zag%C5%82uszanie" class="hash-link" aria-label="Direct link to ⚡ Drony Odporne na Zagłuszanie" title="Direct link to ⚡ Drony Odporne na Zagłuszanie">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-kluczowe-cechy">📊 Kluczowe Cechy:<a href="https://www.majdak.online/blog/wojskowe-drony#-kluczowe-cechy" class="hash-link" aria-label="Direct link to 📊 Kluczowe Cechy:" title="Direct link to 📊 Kluczowe Cechy:">​</a></h3>
-<ul>
-<li>Brak podatności na zakłócenia radiowe i sygnały GPS.</li>
-<li>Wykorzystanie sztucznej inteligencji (AI) do autonomicznych misji.</li>
-<li>Zaawansowane systemy wizji komputerowej do orientacji w terenie.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-przykład">🛰️ Przykład:<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-przyk%C5%82ad" class="hash-link" aria-label="Direct link to 🛰️ Przykład:" title="Direct link to 🛰️ Przykład:">​</a></h3>
-<p><strong>Skynode S</strong> – opracowany przez szwajcarską firmę <strong>Auterion</strong>:</p>
-<ul>
-<li>Wyposażony w AI umożliwiającą loty bez GPS.</li>
-<li>Odporność na zakłócenia potwierdzona w warunkach bojowych na Ukrainie.</li>
-<li>90% skuteczności omijania zakłóceń.</li>
-</ul>
-<p>Źródło: <a href="https://cyfrowa.rp.pl/technologie/art40742441-to-moze-byc-koszmar-rosjan-na-front-trafily-drony-odporne-na-zagluszanie?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">cyfrowa.rp.pl</a></p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-drony-sterowane-światłowodem">🔌 Drony Sterowane Światłowodem<a href="https://www.majdak.online/blog/wojskowe-drony#-drony-sterowane-%C5%9Bwiat%C5%82owodem" class="hash-link" aria-label="Direct link to 🔌 Drony Sterowane Światłowodem" title="Direct link to 🔌 Drony Sterowane Światłowodem">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-zalety">📊 Zalety:<a href="https://www.majdak.online/blog/wojskowe-drony#-zalety" class="hash-link" aria-label="Direct link to 📊 Zalety:" title="Direct link to 📊 Zalety:">​</a></h3>
-<ul>
-<li>Brak emisji sygnału radiowego – trudne do wykrycia.</li>
-<li>Wysoka odporność na zakłócenia elektromagnetyczne.</li>
-<li>Stabilna transmisja danych na duże odległości.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-wady">⚠️ Wady:<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-wady" class="hash-link" aria-label="Direct link to ⚠️ Wady:" title="Direct link to ⚠️ Wady:">​</a></h3>
-<ul>
-<li>Ograniczony zasięg (do 10 km) ze względu na długość światłowodu.</li>
-<li>Zmniejszona manewrowość i ryzyko zerwania kabla.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-przykład-1">🛰️ Przykład:<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-przyk%C5%82ad-1" class="hash-link" aria-label="Direct link to 🛰️ Przykład:" title="Direct link to 🛰️ Przykład:">​</a></h3>
-<p><strong>Rosyjskie drony światłowodowe</strong> zaobserwowane w obwodzie kurskim:</p>
-<ul>
-<li>Używane do zadań rozpoznawczych i precyzyjnych ataków.</li>
-<li>Umożliwiają operacje w środowiskach o wysokim poziomie zakłóceń.</li>
-</ul>
-<p>Źródło: <a href="https://forsal.pl/swiat/bezpieczenstwo/artykuly/9699542%2Cukrainskie-drony-sterowane-swiatlowodem-armie-rosyjska-zaatakowal-now.html?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer">forsal.pl</a></p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-wyzwania-i-przyszłość">⚔️ Wyzwania i Przyszłość<a href="https://www.majdak.online/blog/wojskowe-drony#%EF%B8%8F-wyzwania-i-przysz%C5%82o%C5%9B%C4%87" class="hash-link" aria-label="Direct link to ⚔️ Wyzwania i Przyszłość" title="Direct link to ⚔️ Wyzwania i Przyszłość">​</a></h2>
-<ul>
-<li><strong>Zwiększenie zasięgu i wytrzymałości kabli światłowodowych</strong>.</li>
-<li><strong>Integracja AI z systemami autonomicznymi</strong> dla pełnej niezależności od łączności.</li>
-<li><strong>Rozwój technologii stealth</strong> dla jeszcze większej trudności wykrycia dronów.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">📖 Podsumowanie<a href="https://www.majdak.online/blog/wojskowe-drony#-podsumowanie" class="hash-link" aria-label="Direct link to 📖 Podsumowanie" title="Direct link to 📖 Podsumowanie">​</a></h2>
-<p>Drony wojskowe stały się nieodłącznym elementem współczesnych konfliktów zbrojnych. Ich zdolność do prowadzenia misji bez narażania życia pilotów, precyzja ataków i szerokie zastosowanie czynią je kluczowym narzędziem w arsenale armii na całym świecie.
 """</p>]]></content:encoded>
             <category>Drony</category>
             <category>Wojsko</category>
