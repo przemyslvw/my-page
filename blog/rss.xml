@@ -4,10 +4,48 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Wed, 07 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 Podsumowanie wydarzeń z dnia 2025-05-09 w cyberbezpieczeństwie]]></title>
+            <link>https://www.majdak.online/blog/news-2025-05-09</link>
+            <guid>https://www.majdak.online/blog/news-2025-05-09</guid>
+            <pubDate>Fri, 09 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[W dzisiejszym wpisie prezentujemy najważniejsze wydarzenia i trendy ze świata cyberbezpieczeństwa. Od działań law enforcementu po nowe zagrożenia i innowacje w ochronie danych — wszystko, co warto znać, aby być na bieżąco.]]></description>
+            <content:encoded><![CDATA[<p>W dzisiejszym wpisie prezentujemy najważniejsze wydarzenia i trendy ze świata cyberbezpieczeństwa. Od działań law enforcementu po nowe zagrożenia i innowacje w ochronie danych — wszystko, co warto znać, aby być na bieżąco.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sukcesy-organów-ścigania-zamknięcie-botnetu-routerów-i-operacje-międzynarodowe">Sukcesy organów ścigania: zamknięcie botnetu routerów i operacje międzynarodowe<a href="https://www.majdak.online/blog/news-2025-05-09#sukcesy-organ%C3%B3w-%C5%9Bcigania-zamkni%C4%99cie-botnetu-router%C3%B3w-i-operacje-mi%C4%99dzynarodowe" class="hash-link" aria-label="Direct link to Sukcesy organów ścigania: zamknięcie botnetu routerów i operacje międzynarodowe" title="Direct link to Sukcesy organów ścigania: zamknięcie botnetu routerów i operacje międzynarodowe">​</a></h2>
+<p>Amerykańskie i holenderskie służby zatrzymały i zlikwidowały dużą sieć botnetów zasilanych przez zainfekowane urządzenia IoT i końcowego EoL. Operacja ta obejmowała przejęcie domen i zatrzymanie rosyjskich i kazachskich cyberprzestępców, którzy wykorzystywali zainfekowane routery jako proxy do ukrywania działań złośliwych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia--malware-i-ataki-na-sektory-krytyczne">Nowe zagrożenia – malware i ataki na sektory krytyczne<a href="https://www.majdak.online/blog/news-2025-05-09#nowe-zagro%C5%BCenia--malware-i-ataki-na-sektory-krytyczne" class="hash-link" aria-label="Direct link to Nowe zagrożenia – malware i ataki na sektory krytyczne" title="Direct link to Nowe zagrożenia – malware i ataki na sektory krytyczne">​</a></h2>
+<ul>
+<li>Zidentyfikowano złośliwe pakiety npm i PyPi, które rozprzestrzeniały backdoory i trojany RAT, atakując m.in. deweloperów Cursor AI i Discord.</li>
+<li>Grupa powiązana z Chinami wykorzystuje lukę CVE-2025-31324 w SAP NetWeaver, prowadząc do poważnych ataków RCE.</li>
+<li>Ukraińcy i Rosjanie kontynuują kampanie naruszające systemy sektora publicznego, w tym ataki na infrasktrukturę i korporacje, co potwierdzają śledztwa i analizy.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="incydenty-i-wycieki-danych">Incydenty i wycieki danych<a href="https://www.majdak.online/blog/news-2025-05-09#incydenty-i-wycieki-danych" class="hash-link" aria-label="Direct link to Incydenty i wycieki danych" title="Direct link to Incydenty i wycieki danych">​</a></h2>
+<ul>
+<li>W South Korea SK Telecom wyciekły dane blisko 23 milionów klientów.</li>
+<li>W Stanach Zjednoczonych Ascension ujawnił wycieki danych ponad 430 tysięcy pacjentów.</li>
+<li>Insight Partners oraz Valsoft informują o kradzieży danych witryn i klientów, a LockBit oraz Qilin ransomware stanowią poważne zagrożenie, ujawniając wewnętrzne dane i dowody współpracy.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="innowacje-w-bezpieczeństwie-i-nowe-narzędzia">Innowacje w bezpieczeństwie i nowe narzędzia<a href="https://www.majdak.online/blog/news-2025-05-09#innowacje-w-bezpiecze%C5%84stwie-i-nowe-narz%C4%99dzia" class="hash-link" aria-label="Direct link to Innowacje w bezpieczeństwie i nowe narzędzia" title="Direct link to Innowacje w bezpieczeństwie i nowe narzędzia">​</a></h2>
+<ul>
+<li>Google implementuje na urządzeniach Chrome model Gemini Nano do wykrywania oszustw i scamów w czasie rzeczywistym.</li>
+<li>Cisco poprawia zabezpieczenia IOS XE, usuwając krytyczne luki umożliwiające ataki RCE.</li>
+<li>SonicWall wypuszcza poprawki na podatności w swoich urządzeniach SMA 100, co zapobiega atakom typu ransomware.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="trendy-i-refleksje">Trendy i refleksje<a href="https://www.majdak.online/blog/news-2025-05-09#trendy-i-refleksje" class="hash-link" aria-label="Direct link to Trendy i refleksje" title="Direct link to Trendy i refleksje">​</a></h2>
+<p>Coraz więcej cyberataków opiera się na złośliwym oprogramowaniu ukierunkowanym na sprzęt IoT i infrastrukturalny, co wymusza rozszerzenie strategii bezpieczeństwa. Law enforcement udowadnia skuteczność poprzez zamykanie dużych botnetów, ale wyzwaniem są ciągłe innowacje cyberprzestępców oraz rosnąca złożoność ataków na sektory krytyczne i dane wrażliwe. Aby skutecznie chronić organizacje, konieczne jest nie tylko wdrażanie narzędzi, lecz także właściwe zarządzanie i kontrola ich konfiguracji.</p>
+<hr>
+<p><strong>Podsumowując</strong>, dziś widzimy, jak dynamicznie i uparcie rozwija się świat cyberzagrożeń. Kluczem do skutecznej obrony jest ciągłe dostosowywanie strategii, a także aktywne działania wymiaru prawnego i technologicznego. Warto śledzić trendy i nieustannie rozwijać umiejętności bezpieczeństwa, aby przeciwdziałać coraz bardziej wyrafinowanym atakom.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Ataki</category>
+            <category>Malware</category>
+            <category>Web Security</category>
+            <category>Web Application</category>
+        </item>
         <item>
             <title><![CDATA[📰 Przegląd wiadomości bezpieczeństwa IT: 2025-05-07]]></title>
             <link>https://www.majdak.online/blog/news-2025-05-07</link>
@@ -740,109 +778,6 @@
             <category>CircuitPython</category>
             <category>ESPHome</category>
             <category>IoT</category>
-        </item>
-        <item>
-            <title><![CDATA[Systemy Walki Radioelektronicznej (REB)]]></title>
-            <link>https://www.majdak.online/blog/jamming-reb</link>
-            <guid>https://www.majdak.online/blog/jamming-reb</guid>
-            <pubDate>Mon, 24 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[✈️ Wprowadzenie]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-wprowadzenie">✈️ Wprowadzenie<a href="https://www.majdak.online/blog/jamming-reb#%EF%B8%8F-wprowadzenie" class="hash-link" aria-label="Direct link to ✈️ Wprowadzenie" title="Direct link to ✈️ Wprowadzenie">​</a></h2>
-<p>Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu zakłócania, przechwytywania i manipulowania sygnałami elektromagnetycznymi przeciwnika. Ich głównym celem jest zakłócanie komunikacji, systemów radarowych, sygnałów GPS oraz sterowania dronami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-główne-cele-systemów-reb">⚡ Główne Cele Systemów REB<a href="https://www.majdak.online/blog/jamming-reb#-g%C5%82%C3%B3wne-cele-system%C3%B3w-reb" class="hash-link" aria-label="Direct link to ⚡ Główne Cele Systemów REB" title="Direct link to ⚡ Główne Cele Systemów REB">​</a></h2>
-<ul>
-<li>📶 <strong>Zakłócanie komunikacji</strong> (GSM, LTE, satelity).</li>
-<li>🎯 <strong>Zakłócanie systemów nawigacyjnych</strong> (GPS, GLONASS, Galileo).</li>
-<li>📡 <strong>Dezaktywacja systemów radarowych</strong>.</li>
-<li>🛰️ <strong>Przechwytywanie sygnałów wywiadowczych</strong>.</li>
-<li>🚁 <strong>Neutralizacja dronów</strong> poprzez zakłócanie sygnałów sterujących.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-rosyjskie-systemy-reb">🇷🇺 Rosyjskie Systemy REB<a href="https://www.majdak.online/blog/jamming-reb#-rosyjskie-systemy-reb" class="hash-link" aria-label="Direct link to 🇷🇺 Rosyjskie Systemy REB" title="Direct link to 🇷🇺 Rosyjskie Systemy REB">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="krasucha-4"><strong>Krasucha-4</strong><a href="https://www.majdak.online/blog/jamming-reb#krasucha-4" class="hash-link" aria-label="Direct link to krasucha-4" title="Direct link to krasucha-4">​</a></h3>
-<ul>
-<li>Zakłócanie radarów i systemów lotniczych (np. AWACS).</li>
-<li>Zasięg do 300 km.</li>
-<li>Neutralizuje drony, samoloty i pociski kierowane.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="leer-3"><strong>Leer-3</strong><a href="https://www.majdak.online/blog/jamming-reb#leer-3" class="hash-link" aria-label="Direct link to leer-3" title="Direct link to leer-3">​</a></h3>
-<ul>
-<li>Wykorzystuje drony Orlan-10 do zakłócania sieci GSM.</li>
-<li>Może przechwytywać komunikację mobilną i wysyłać fałszywe wiadomości.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="murmansk-bn"><strong>Murmansk-BN</strong><a href="https://www.majdak.online/blog/jamming-reb#murmansk-bn" class="hash-link" aria-label="Direct link to murmansk-bn" title="Direct link to murmansk-bn">​</a></h3>
-<ul>
-<li>Zakłóca łączność krótkofalową w paśmie HF.</li>
-<li>Zasięg działania do 5000 km.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="divnomorye"><strong>Divnomorye</strong><a href="https://www.majdak.online/blog/jamming-reb#divnomorye" class="hash-link" aria-label="Direct link to divnomorye" title="Direct link to divnomorye">​</a></h3>
-<ul>
-<li>Najnowszy system REB dalekiego zasięgu.</li>
-<li>Może zakłócać satelity, radary i systemy naprowadzania pocisków.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-amerykańskie-systemy-reb">🇺🇸 Amerykańskie Systemy REB<a href="https://www.majdak.online/blog/jamming-reb#-ameryka%C5%84skie-systemy-reb" class="hash-link" aria-label="Direct link to 🇺🇸 Amerykańskie Systemy REB" title="Direct link to 🇺🇸 Amerykańskie Systemy REB">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="analq-99"><strong>AN/ALQ-99</strong><a href="https://www.majdak.online/blog/jamming-reb#analq-99" class="hash-link" aria-label="Direct link to analq-99" title="Direct link to analq-99">​</a></h3>
-<ul>
-<li>Stosowany na samolotach EA-18G Growler.</li>
-<li>Zakłóca systemy radarowe i komunikację.</li>
-<li>Może prowadzić działania ofensywne i defensywne.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="analq-249-ngj-next-generation-jammer"><strong>AN/ALQ-249 NGJ (Next Generation Jammer)</strong><a href="https://www.majdak.online/blog/jamming-reb#analq-249-ngj-next-generation-jammer" class="hash-link" aria-label="Direct link to analq-249-ngj-next-generation-jammer" title="Direct link to analq-249-ngj-next-generation-jammer">​</a></h3>
-<ul>
-<li>Nowoczesny system REB dla EA-18G Growler.</li>
-<li>Ulepszona moc zakłóceń oraz zdolność do neutralizacji szerokiego zakresu częstotliwości.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="raytheon-coyote-block-3"><strong>Raytheon Coyote Block 3</strong><a href="https://www.majdak.online/blog/jamming-reb#raytheon-coyote-block-3" class="hash-link" aria-label="Direct link to raytheon-coyote-block-3" title="Direct link to raytheon-coyote-block-3">​</a></h3>
-<ul>
-<li>Dron przechwytujący, zdolny do zakłócania dronów przeciwnika.</li>
-<li>Wykorzystywany do zwalczania rojów dronów.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-chińskie-systemy-reb">🇨🇳 Chińskie Systemy REB<a href="https://www.majdak.online/blog/jamming-reb#-chi%C5%84skie-systemy-reb" class="hash-link" aria-label="Direct link to 🇨🇳 Chińskie Systemy REB" title="Direct link to 🇨🇳 Chińskie Systemy REB">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="type-981"><strong>Type 981</strong><a href="https://www.majdak.online/blog/jamming-reb#type-981" class="hash-link" aria-label="Direct link to type-981" title="Direct link to type-981">​</a></h3>
-<ul>
-<li>Mobilny system zakłócający wykorzystywany przez Marynarkę Wojenną Chin.</li>
-<li>Może zakłócać radary i systemy naprowadzania rakiet.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="j-16d"><strong>J-16D</strong><a href="https://www.majdak.online/blog/jamming-reb#j-16d" class="hash-link" aria-label="Direct link to j-16d" title="Direct link to j-16d">​</a></h3>
-<ul>
-<li>Samolot walki elektronicznej na bazie myśliwca J-16.</li>
-<li>Wyposażony w zewnętrzne zasobniki REB do zakłócania radarów i systemów komunikacyjnych.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-inne-systemy-reb">🌍 Inne Systemy REB<a href="https://www.majdak.online/blog/jamming-reb#-inne-systemy-reb" class="hash-link" aria-label="Direct link to 🌍 Inne Systemy REB" title="Direct link to 🌍 Inne Systemy REB">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-koral-turcja">🇹🇷 <strong>KORAL</strong> <em>(Turcja)</em><a href="https://www.majdak.online/blog/jamming-reb#-koral-turcja" class="hash-link" aria-label="Direct link to -koral-turcja" title="Direct link to -koral-turcja">​</a></h3>
-<ul>
-<li>Mobilny system zakłóceń przeznaczony do zakłócania radarów wroga.</li>
-<li>Wykorzystywany przez Siły Zbrojne Turcji w Syrii.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-ell-8222-izrael">🇮🇱 <strong>EL/L-8222</strong> <em>(Izrael)</em><a href="https://www.majdak.online/blog/jamming-reb#-ell-8222-izrael" class="hash-link" aria-label="Direct link to -ell-8222-izrael" title="Direct link to -ell-8222-izrael">​</a></h3>
-<ul>
-<li>Podwieszany system REB stosowany na myśliwcach F-16 i F-15.</li>
-<li>Umożliwia zakłócanie radarów naziemnych i systemów kierowania ogniem.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-przebiśnieg-polska">🇵🇱 <strong>Przebiśnieg</strong> <em>(Polska)</em><a href="https://www.majdak.online/blog/jamming-reb#-przebi%C5%9Bnieg-polska" class="hash-link" aria-label="Direct link to -przebiśnieg-polska" title="Direct link to -przebiśnieg-polska">​</a></h3>
-<ul>
-<li>Mobilny system REB wykorzystywany do ochrony infrastruktury wojskowej.</li>
-<li>Zdolny do zakłócania dronów i systemów GPS.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-wyzwania-i-przyszłość-systemów-reb">⚔️ Wyzwania i Przyszłość Systemów REB<a href="https://www.majdak.online/blog/jamming-reb#%EF%B8%8F-wyzwania-i-przysz%C5%82o%C5%9B%C4%87-system%C3%B3w-reb" class="hash-link" aria-label="Direct link to ⚔️ Wyzwania i Przyszłość Systemów REB" title="Direct link to ⚔️ Wyzwania i Przyszłość Systemów REB">​</a></h2>
-<ul>
-<li>🧠 <strong>Integracja AI</strong> do automatycznego wykrywania i zakłócania sygnałów.</li>
-<li>🌐 <strong>Zwiększona odporność na zakłócenia</strong> dla dronów i systemów satelitarnych.</li>
-<li>💥 <strong>Rozwój technologii EMP</strong> (impulsów elektromagnetycznych) zdolnych do dezaktywacji urządzeń elektronicznych przeciwnika.</li>
-</ul>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie">📖 Podsumowanie<a href="https://www.majdak.online/blog/jamming-reb#-podsumowanie" class="hash-link" aria-label="Direct link to 📖 Podsumowanie" title="Direct link to 📖 Podsumowanie">​</a></h2>
-<p>Systemy Walki Radioelektronicznej odgrywają kluczową rolę na współczesnym polu walki, umożliwiając zakłócanie systemów przeciwnika bez konieczności stosowania tradycyjnej siły ognia. Ich rozwój stanowi istotny element strategii wojskowych na całym świecie.
-"""</p>]]></content:encoded>
-            <category>Drony</category>
-            <category>Wojsko</category>
-            <category>Technologie</category>
-            <category>UAV</category>
-            <category>BSP</category>
         </item>
     </channel>
 </rss>
