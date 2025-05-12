@@ -1,6 +1,6 @@
 ---
 slug: news-2025-05-12  
-title: 📰 Podsumowanie wiadomości: 12 maja 2025 – analiza ransomware MAKOP i najnowsze zagrożenia w cyberbezpieczeństwie  
+title: "📰 Podsumowanie wiadomości: 12 maja 2025 – analiza ransomware MAKOP i najnowsze zagrożenia w cyberbezpieczeństwie"  
 authors: [przemyslvw]  
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-12"  
