@@ -4,10 +4,38 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Fri, 09 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[📰 Podsumowanie wiadomości: 12 maja 2025 – analiza ransomware MAKOP i najnowsze zagrożenia w cyberbezpieczeństwie]]></title>
+            <link>https://www.majdak.online/blog/news-2025-05-12</link>
+            <guid>https://www.majdak.online/blog/news-2025-05-12</guid>
+            <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[W dzisiejszym wpisie przyjrzymy się najnowszym wydarzeniom w świecie cyberbezpieczeństwa, od analizy złośliwego ransomware MAKOP, po poważne luki bezpieczeństwa w popularnym oprogramowaniu i rosnące zagrożenia związane z AI oraz IoT.]]></description>
+            <content:encoded><![CDATA[<p>W dzisiejszym wpisie przyjrzymy się najnowszym wydarzeniom w świecie cyberbezpieczeństwa, od analizy złośliwego ransomware MAKOP, po poważne luki bezpieczeństwa w popularnym oprogramowaniu i rosnące zagrożenia związane z AI oraz IoT.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="makop-ransomware--lokalne-szyfrowanie-dysków-jako-studium-przypadku">Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku<a href="https://www.majdak.online/blog/news-2025-05-12#makop-ransomware--lokalne-szyfrowanie-dysk%C3%B3w-jako-studium-przypadku" class="hash-link" aria-label="Direct link to Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku" title="Direct link to Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku">​</a></h2>
+<p>Makop to rodzina ransomware działająca jako Ransomware as a Service (RaaS), szeroko wykorzystywana w atakach przeciwko różnym organizacjom, w tym sektora krytycznego. Ostatnio analiza skupiła się na nowszym wariancie tego złośliwego oprogramowania. Binarka Makop jest niewielka, co ułatwia jej ukrycie i uruchomienie. Ransomware ta potrafi skutecznie zaszyfrować cały dysk lokalny, wykorzystując metody, które umożliwiają eskalację ataków nawet na najbardziej zabezpieczone środowiska. Takie przypadki pokazują, jak ważne jest wdrażanie skutecznych rozwiązań ochronnych i monitorowania, aby ograniczyć skutki podobnych incydentów.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="asus-driverhub--luka-rce-umożliwiająca-zdalne-wykonanie-kodu">ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu<a href="https://www.majdak.online/blog/news-2025-05-12#asus-driverhub--luka-rce-umo%C5%BCliwiaj%C4%85ca-zdalne-wykonanie-kodu" class="hash-link" aria-label="Direct link to ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu" title="Direct link to ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu">​</a></h2>
+<p>ASUS opublikowało poprawki dla dwóch poważnych luk w oprogramowaniu DriverHub, które umożliwiałyby atakującemu zdalne wykonanie kodu. DriverHub to narzędzie służące do automatycznego wykrywania modelu płyty głównej i proponowania odpowiednich sterowników. Eksploatacja tych luk mogła pozwolić na przejęcie pełnej kontroli nad komputerem użytkownika, co czyni z nich poważne zagrożenie dla małych i dużych organizacji korzystających z tego oprogramowania.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-formy-ataków-i-rosnące-znaczenie-unikania-luk">Nowe formy ataków i rosnące znaczenie unikania luk<a href="https://www.majdak.online/blog/news-2025-05-12#nowe-formy-atak%C3%B3w-i-rosn%C4%85ce-znaczenie-unikania-luk" class="hash-link" aria-label="Direct link to Nowe formy ataków i rosnące znaczenie unikania luk" title="Direct link to Nowe formy ataków i rosnące znaczenie unikania luk">​</a></h2>
+<p>Cyberprzestępcy coraz częściej sięgają po mniej oczywiste cele, takie jak przestarzałe systemy, niezabezpieczone urządzenia IoT czy otwarte biblioteki open-source. Kampanie oparte na takiej infrastrukturze są skuteczne właśnie z powodu zaniedbań w aktualizacji i zabezpieczaniu tych elementów. Zjawisko to wskazuje na potrzebę ciągłego monitorowania i uaktualniania stosowanych rozwiązań.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="fake-ai-tools-i-nowe-metody-ataków">Fake AI tools i nowe metody ataków<a href="https://www.majdak.online/blog/news-2025-05-12#fake-ai-tools-i-nowe-metody-atak%C3%B3w" class="hash-link" aria-label="Direct link to Fake AI tools i nowe metody ataków" title="Direct link to Fake AI tools i nowe metody ataków">​</a></h2>
+<p>Oszustwa związane z sztuczną inteligencją dynamicznie rozwijają się, a cyberprzestępcy tworzą fałszywe platformy AI, zachęcające do pobrania malware typu info-stealer, Noodlophile. Marketingowe kampanie na Facebooku i viralowe treści sprawiają, że coraz więcej użytkowników pada ofiarą tego rodzaju oszustw. Edukacja i zwiększanie świadomości są kluczowe, aby przeciwdziałać tego typu zagrożeniom.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="aktualizacje-od-apple--poprawki-krytycznych-luk-w-ios-i-macos">Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS<a href="https://www.majdak.online/blog/news-2025-05-12#aktualizacje-od-apple--poprawki-krytycznych-luk-w-ios-i-macos" class="hash-link" aria-label="Direct link to Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS" title="Direct link to Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS">​</a></h2>
+<p>Apple wydało ważne poprawki dla iOS i macOS, naprawiające poważne błędy bezpieczeństwa, które można było wykorzystać poprzez zwykłe otwarcie obrazu lub wideo. Aktualizacje te są niezbędne dla użytkowników, którzy chcą zabezpieczyć swoje urządzenia przed potencjalnie złośliwymi treściami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-12#podsumowanie" class="hash-link" aria-label="Direct link to Podsumowanie" title="Direct link to Podsumowanie">​</a></h2>
+<p>Rosnąca liczba złożonych ataków, od ransomware po manipulacje AI i IoT, wskazuje na konieczność ciągłego doskonalenia strategii bezpieczeństwa. Wiele luk w popularnym oprogramowaniu i słabości w zakresie zarządzania dostępami pozostaje nadal poważnym zagrożeniem. Czujność, odpowiednie aktualizacje i edukacja użytkowników są kluczowe w walce z coraz bardziej wyrafinowanymi cyberatakami.</p>
+<p>Cyberbezpieczeństwo to nieustanny wyścig z czasem i technologią. Warto śledzić aktualne zagrożenia i stosować najlepsze praktyki, aby ograniczyć ryzyko.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Malware</category>
+            <category>ransomware</category>
+            <category>vulnerabilities</category>
+            <category>exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[📰 Podsumowanie wydarzeń z dnia 2025-05-09 w cyberbezpieczeństwie]]></title>
             <link>https://www.majdak.online/blog/news-2025-05-09</link>
@@ -740,44 +768,6 @@
 <p>Dziękujemy <strong>DEKRA Certification Polska</strong> za profesjonalne podejście i wsparcie w procesie certyfikacji! 💡🔒</p>
 <hr>
 <p>🛡️ <strong>Masz pytania dotyczące audytów wewnętrznych lub ISO 27001? Skontaktuj się z nami – chętnie podzielimy się wiedzą i doświadczeniem!</strong></p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Tarlogic wykrywa ukrytą funkcję w popularnym chipie ESP32, która może zagrozić milionom urządzeń IoT]]></title>
-            <link>https://www.majdak.online/blog/esp32-Tarlogic</link>
-            <guid>https://www.majdak.online/blog/esp32-Tarlogic</guid>
-            <pubDate>Sun, 09 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Wprowadzenie]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wprowadzenie">Wprowadzenie<a href="https://www.majdak.online/blog/esp32-Tarlogic#wprowadzenie" class="hash-link" aria-label="Direct link to Wprowadzenie" title="Direct link to Wprowadzenie">​</a></h2>
-<p>Zespół badawczy z firmy Tarlogic Security odkrył nieudokumentowaną funkcję w mikrokontrolerze ESP32, szeroko stosowanym w urządzeniach IoT. To odkrycie rodzi poważne obawy dotyczące bezpieczeństwa milionów urządzeń na całym świecie. 5</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="czym-jest-esp32">Czym jest ESP32?<a href="https://www.majdak.online/blog/esp32-Tarlogic#czym-jest-esp32" class="hash-link" aria-label="Direct link to Czym jest ESP32?" title="Direct link to Czym jest ESP32?">​</a></h2>
-<p>ESP32 to seria niskokosztowych, energooszczędnych mikrokontrolerów z wbudowanym Wi-Fi i Bluetooth, opracowanych przez chińską firmę Espressif Systems. Od momentu wprowadzenia na rynek w 2016 roku, ESP32 znalazł zastosowanie w szerokiej gamie urządzeń, od inteligentnych domów po sprzęt medyczny. 13</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="odkrycie-tarlogic">Odkrycie Tarlogic<a href="https://www.majdak.online/blog/esp32-Tarlogic#odkrycie-tarlogic" class="hash-link" aria-label="Direct link to Odkrycie Tarlogic" title="Direct link to Odkrycie Tarlogic">​</a></h2>
-<p>Podczas konferencji RootedCON 2025, badacze z Tarlogic przedstawili wyniki swoich badań nad ESP32. Odkryli oni nieudokumentowane komendy w firmware Bluetooth tego chipu, które mogą umożliwić atakującym przejęcie kontroli nad urządzeniami, modyfikację pamięci oraz podszywanie się pod inne urządzenia Bluetooth. 21</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="potencjalne-zagrożenia">Potencjalne zagrożenia<a href="https://www.majdak.online/blog/esp32-Tarlogic#potencjalne-zagro%C5%BCenia" class="hash-link" aria-label="Direct link to Potencjalne zagrożenia" title="Direct link to Potencjalne zagrożenia">​</a></h2>
-<p>Wykorzystanie tych ukrytych funkcji stwarza szereg zagrożeń:25</p>
-<ul>
-<li>
-<p><strong>Ataki typu impersonation</strong>: Atakujący mogą podszywać się pod zaufane urządzenia, uzyskując nieautoryzowany dostęp do systemów.29</p>
-</li>
-<li>
-<p><strong>Trwałe infekcje</strong>: Możliwość modyfikacji pamięci pozwala na wprowadzenie złośliwego kodu, który przetrwa restart urządzenia.33</p>
-</li>
-<li>
-<p><strong>Ataki na łańcuch dostaw</strong>: Ukryte komendy mogą być wykorzystane do wprowadzenia backdoorów na etapie produkcji, co stanowi zagrożenie dla całego ekosystemu IoT. 38</p>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reakcja-społeczności-i-producenta">Reakcja społeczności i producenta<a href="https://www.majdak.online/blog/esp32-Tarlogic#reakcja-spo%C5%82eczno%C5%9Bci-i-producenta" class="hash-link" aria-label="Direct link to Reakcja społeczności i producenta" title="Direct link to Reakcja społeczności i producenta">​</a></h2>
-<p>Odkrycie Tarlogic spotkało się z szerokim echem w społeczności bezpieczeństwa. Jednak do tej pory producent ESP32, firma Espressif Systems, nie wydała oficjalnego oświadczenia w tej sprawie. 46</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wnioski">Wnioski<a href="https://www.majdak.online/blog/esp32-Tarlogic#wnioski" class="hash-link" aria-label="Direct link to Wnioski" title="Direct link to Wnioski">​</a></h2>
-<p>Odkrycie ukrytej funkcji w chipie ESP32 podkreśla potrzebę ciągłego monitorowania i audytu bezpieczeństwa urządzeń IoT. Użytkownicy i producenci powinni być świadomi potencjalnych zagrożeń i podejmować odpowiednie środki w celu zabezpieczenia swoich urządzeń.53</p>]]></content:encoded>
-            <category>ESP32</category>
-            <category>ESP-IDF</category>
-            <category>Arduino</category>
-            <category>PlatformIO</category>
-            <category>MicroPython</category>
-            <category>CircuitPython</category>
-            <category>ESPHome</category>
-            <category>IoT</category>
         </item>
     </channel>
 </rss>
