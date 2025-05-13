@@ -2,11 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-12T00:00:00.000Z</updated>
+    <updated>2025-05-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Najważniejsze wnioski z procesu WhatsApp kontra NSO Group i nowe zagrożenia cyberbezpieczeństwa]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-13</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-13"/>
+        <updated>2025-05-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ostatnie miesiące przyniosły wiele istotnych doniesień z obszaru cyberbezpieczeństwa, w tym kontrowersyjne wyroki sądowe i nowe techniki ataków. Przyjrzyjmy się najważniejszym wydarzeniom i trendom, które kształtują dzisiejszą branżę ochrony przed cyberzagrożeniami.]]></summary>
+        <content type="html"><![CDATA[<p>Ostatnie miesiące przyniosły wiele istotnych doniesień z obszaru cyberbezpieczeństwa, w tym kontrowersyjne wyroki sądowe i nowe techniki ataków. Przyjrzyjmy się najważniejszym wydarzeniom i trendom, które kształtują dzisiejszą branżę ochrony przed cyberzagrożeniami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="proces-whatsapp-vs-nso-group-i-jego-znaczenie-dla-branży">Proces WhatsApp vs. NSO Group i jego znaczenie dla branży<a href="https://www.majdak.online/blog/news-2025-05-13#proces-whatsapp-vs-nso-group-i-jego-znaczenie-dla-bran%C5%BCy" class="hash-link" aria-label="Direct link to Proces WhatsApp vs. NSO Group i jego znaczenie dla branży" title="Direct link to Proces WhatsApp vs. NSO Group i jego znaczenie dla branży">​</a></h2>
+<p>Proces między WhatsApp a NSO Group ujawnia szczegóły dotyczące wykorzystywania spyware do inwigilacji użytkowników. Wyrok sądu podkreśla potrzeby zwiększenia kontroli nad firmami tworzącymi narzędzia szpiegowskie oraz ich potencjalnie szkodliwymi skutkami.</p>
+<p>To publiczne potępienie pokazuje, że społeczność międzynarodowa coraz bardziej zwraca uwagę na kwestie praw człowieka i bezpieczeństwa cyfrowego, co może wpłynąć na przyszłe regulacje i politykę firm technologicznych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-funkcje-bezpieczeństwa-w-androidzie-od-google">Nowe funkcje bezpieczeństwa w Androidzie od Google<a href="https://www.majdak.online/blog/news-2025-05-13#nowe-funkcje-bezpiecze%C5%84stwa-w-androidzie-od-google" class="hash-link" aria-label="Direct link to Nowe funkcje bezpieczeństwa w Androidzie od Google" title="Direct link to Nowe funkcje bezpieczeństwa w Androidzie od Google">​</a></h2>
+<p>Google zapowiedziało wprowadzenie zaawansowanych funkcji zabezpieczeń dla użytkowników Androida podczas tegorocznej konferencji Android Show. Nowe mechanizmy ochrony obejmują zabezpieczenia dla połączeń, udostępniania ekranu, wiadomości, dostępu do urządzenia i systemowych uprawnień.</p>
+<p>Celem jest zmniejszenie ryzyka oszustw, wyłudzeń i kradzieży danych, co stanowi kluczowy element walki z coraz bardziej wyrafinowanymi atakami na telefonach mobilnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wykorzystanie-systemu-govdelivery-do-rozsyłania-scamów">Wykorzystanie systemu GovDelivery do rozsyłania scamów<a href="https://www.majdak.online/blog/news-2025-05-13#wykorzystanie-systemu-govdelivery-do-rozsy%C5%82ania-scam%C3%B3w" class="hash-link" aria-label="Direct link to Wykorzystanie systemu GovDelivery do rozsyłania scamów" title="Direct link to Wykorzystanie systemu GovDelivery do rozsyłania scamów">​</a></h2>
+<p>Amerykański stan Indiana poinformował o nadużyciu systemu GovDelivery, używanego przez rządy do wysyłania alertów e-mailowych, do rozsyłania oszukańczych wiadomości. Atak ten pokazuje, jak łatwo można przejąć kontrolę nad oficjalnymi kanałami komunikacji i wykorzystywać je do wyłudzania danych.</p>
+<p>Podkreśla to konieczność zaostrzenia zabezpieczeń i monitorowania systemów komunikacji używanych przez instytucje publiczne.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wykradanie-danych-klientów-marks--spencer-w-wyniku-cyberataku">Wykradanie danych klientów Marks &amp; Spencer w wyniku cyberataku<a href="https://www.majdak.online/blog/news-2025-05-13#wykradanie-danych-klient%C3%B3w-marks--spencer-w-wyniku-cyberataku" class="hash-link" aria-label="Direct link to Wykradanie danych klientów Marks &amp; Spencer w wyniku cyberataku" title="Direct link to Wykradanie danych klientów Marks &amp; Spencer w wyniku cyberataku">​</a></h2>
+<p>Sieć supermarketów Marks &amp; Spencer potwierdziła wyciek danych osobowych w wyniku ataku ransomware, co skutkowało kradzieżą poufnych informacji klientów.</p>
+<p>Ataki tego typu przypominają o rosnącej skali zagrożeń, które wymagają od firm wprowadzenia skuteczniejszych mechanizmów obronnych i zarządzania ryzykiem.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowa-funkcja-advanced-protection-od-google-dla-najbardziej-narażonych-użytkowników-androida">Nowa funkcja Advanced Protection od Google dla najbardziej narażonych użytkowników Androida<a href="https://www.majdak.online/blog/news-2025-05-13#nowa-funkcja-advanced-protection-od-google-dla-najbardziej-nara%C5%BConych-u%C5%BCytkownik%C3%B3w-androida" class="hash-link" aria-label="Direct link to Nowa funkcja Advanced Protection od Google dla najbardziej narażonych użytkowników Androida" title="Direct link to Nowa funkcja Advanced Protection od Google dla najbardziej narażonych użytkowników Androida">​</a></h2>
+<p>Google wprowadziło tryb Advanced Protection, który za pomocą jednego kliknięcia uruchamia zaawansowane mechanizmy zabezpieczeń zakrojone na szeroką skalę. Funkcja ta szczególnie dedykowana jest najbardziej narażonym grupom, takim jak dziennikarze czy aktywiści.</p>
+<p>To ważny krok w kierunku ochrony przed wyrafinowanymi atakami na prywatność i bezpieczeństwo użytkowników mobilnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenie-atak-na-ai-chatboty-i-kradzież-kryptowalut">Nowe zagrożenie: atak na AI chatboty i kradzież kryptowalut<a href="https://www.majdak.online/blog/news-2025-05-13#nowe-zagro%C5%BCenie-atak-na-ai-chatboty-i-kradzie%C5%BC-kryptowalut" class="hash-link" aria-label="Direct link to Nowe zagrożenie: atak na AI chatboty i kradzież kryptowalut" title="Direct link to Nowe zagrożenie: atak na AI chatboty i kradzież kryptowalut">​</a></h2>
+<p>Cyberprzestępcy opracowali technikę manipulacji kontekstem, która może wywołać, że chatboty AI wyślą oszukańcze transakcje, w tym kradzieże kryptowalut na konta atakujących.</p>
+<p>Metoda ta pokazuje, jak długo i z jaką skutecznością można wpływać na sztuczną inteligencję, co stawia pod znakiem zapytania bezpieczeństwo rozwiązania opartego na AI.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="krajobraz-zagrożeń-cyberwojna-na-ukrainie-i-działania-państwowe-grup-szpiegowskich">Krajobraz zagrożeń: cyberwojna na Ukrainie i działania państwowe grup szpiegowskich<a href="https://www.majdak.online/blog/news-2025-05-13#krajobraz-zagro%C5%BCe%C5%84-cyberwojna-na-ukrainie-i-dzia%C5%82ania-pa%C5%84stwowe-grup-szpiegowskich" class="hash-link" aria-label="Direct link to Krajobraz zagrożeń: cyberwojna na Ukrainie i działania państwowe grup szpiegowskich" title="Direct link to Krajobraz zagrożeń: cyberwojna na Ukrainie i działania państwowe grup szpiegowskich">​</a></h2>
+<p>Grupa Konni powiązana z Koreą Północną zaobserwowana w kampaniach phishingowych targetingowe ukraińskie instytucje, mierzy się z zaangażowaniem i dalszym rozwojem działań wywiadowczych.</p>
+<p>Równocześnie, rosyjskie i kurdyjskie grupy cyberprzestępcze kontynuują działalność, korzystając z zaawansowanych exploitów i zero-dayów, co wymusza na obronie krajów zwiększenie czujności.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ostatnie-incydenty-w-świecie-firm-i-technologii">Ostatnie incydenty w świecie firm i technologii<a href="https://www.majdak.online/blog/news-2025-05-13#ostatnie-incydenty-w-%C5%9Bwiecie-firm-i-technologii" class="hash-link" aria-label="Direct link to Ostatnie incydenty w świecie firm i technologii" title="Direct link to Ostatnie incydenty w świecie firm i technologii">​</a></h2>
+<p>Microsoft, Adobe, Fortinet i Ivanti w ostatnich dniach wypuściły krytyczne aktualizacje zabezpieczeń, odpowiadające na wykryte podatności i zero-day. Ich szybka reakcja pokazuje, jak ważne jest regularne aktualizowanie systemów.</p>
+<p>Jednocześnie pojawiły się informacje o zwolnieniach w Microsoft i stabilizacji działań związanych z niewyjaśnionymi wyciekami danych, co podkreśla znaczenie zarządzania kryzysowego w branży IT.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zakończenie-wyzwania-i-przyszłość-cyberbezpieczeństwa">Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-13#zako%C5%84czenie-wyzwania-i-przysz%C5%82o%C5%9B%C4%87-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Direct link to Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa" title="Direct link to Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa">​</a></h2>
+<p>Cyberzagrożenia ewoluują szybciej niż kiedykolwiek, a wyzwaniem jest nie tylko wykrycie ataków, ale też skuteczne ich zapobieganie. Współpraca, innowacje i szybkie reagowanie to klucze do obrony.</p>
+<p>Ważne jest, aby zarówno firmy, jak i użytkownicy byli świadomi aktualnych zagrożeń i stosowali najlepsze praktyki, aby zapewnić swoim systemom i danym bezpieczeństwo na najwyższym poziomie.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="ransomware" term="ransomware"/>
+        <category label="vulnerabilities" term="vulnerabilities"/>
+        <category label="exploits" term="exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[📰 Podsumowanie wiadomości: 12 maja 2025 – analiza ransomware MAKOP i najnowsze zagrożenia w cyberbezpieczeństwie]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-12</id>
@@ -814,38 +860,5 @@
         <category label="Communication" term="Communication"/>
         <category label="Link 16" term="Link 16"/>
         <category label="NATO" term="NATO"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska!]]></title>
-        <id>https://www.majdak.online/blog/dekra-iso27001-cert</id>
-        <link href="https://www.majdak.online/blog/dekra-iso27001-cert"/>
-        <updated>2025-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska! 🎉]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uzyskaliśmy-certyfikat-audytora-wewnętrznego-od-dekra-certification-polska-">Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska! 🎉<a href="https://www.majdak.online/blog/dekra-iso27001-cert#uzyskali%C5%9Bmy-certyfikat-audytora-wewn%C4%99trznego-od-dekra-certification-polska-" class="hash-link" aria-label="Direct link to Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska! 🎉" title="Direct link to Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska! 🎉">​</a></h2>
-<p>Z radością informujemy, że nasza firma uzyskała <strong>certyfikat audytora wewnętrznego</strong> od <strong>DEKRA Certification Polska</strong>! Jest to kolejny krok w naszym zaangażowaniu na rzecz najwyższych standardów <strong>zarządzania bezpieczeństwem informacji</strong> oraz zgodności z normami <strong>ISO 27001</strong>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dlaczego-to-ważne">Dlaczego to ważne?<a href="https://www.majdak.online/blog/dekra-iso27001-cert#dlaczego-to-wa%C5%BCne" class="hash-link" aria-label="Direct link to Dlaczego to ważne?" title="Direct link to Dlaczego to ważne?">​</a></h3>
-<p>Certyfikat audytora wewnętrznego ISO 27001 potwierdza nasze kompetencje w zakresie:</p>
-<ul>
-<li>przeprowadzania wewnętrznych audytów systemu zarządzania bezpieczeństwem informacji,</li>
-<li>identyfikowania i oceny ryzyk związanych z bezpieczeństwem danych,</li>
-<li>zapewnienia zgodności z wymaganiami normy ISO 27001,</li>
-<li>ciągłego doskonalenia procesów związanych z ochroną informacji.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="co-to-oznacza-dla-naszych-klientów-i-partnerów">Co to oznacza dla naszych klientów i partnerów?<a href="https://www.majdak.online/blog/dekra-iso27001-cert#co-to-oznacza-dla-naszych-klient%C3%B3w-i-partner%C3%B3w" class="hash-link" aria-label="Direct link to Co to oznacza dla naszych klientów i partnerów?" title="Direct link to Co to oznacza dla naszych klientów i partnerów?">​</a></h3>
-<p>Uzyskanie tego certyfikatu to dowód, że nasze procesy i procedury są zgodne z międzynarodowymi standardami. Dzięki temu możemy:</p>
-<ul>
-<li><strong>lepiej zabezpieczać dane</strong> naszych klientów,</li>
-<li><strong>sprawniej identyfikować i eliminować potencjalne zagrożenia</strong>,</li>
-<li><strong>zapewniać jeszcze wyższy poziom zgodności z regulacjami prawnymi</strong> dotyczącymi ochrony informacji.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nasza-misja-bezpieczeństwo-i-jakość">Nasza misja: bezpieczeństwo i jakość<a href="https://www.majdak.online/blog/dekra-iso27001-cert#nasza-misja-bezpiecze%C5%84stwo-i-jako%C5%9B%C4%87" class="hash-link" aria-label="Direct link to Nasza misja: bezpieczeństwo i jakość" title="Direct link to Nasza misja: bezpieczeństwo i jakość">​</a></h3>
-<p>Uzyskanie certyfikatu audytora wewnętrznego to dla nas nie tylko wyróżnienie, ale także zobowiązanie do dalszego podnoszenia standardów bezpieczeństwa. Nadal będziemy rozwijać nasze systemy i procesy, aby zapewnić naszym klientom i partnerom najwyższą jakość usług oraz pełne bezpieczeństwo informacji.</p>
-<p>Dziękujemy <strong>DEKRA Certification Polska</strong> za profesjonalne podejście i wsparcie w procesie certyfikacji! 💡🔒</p>
-<hr>
-<p>🛡️ <strong>Masz pytania dotyczące audytów wewnętrznych lub ISO 27001? Skontaktuj się z nami – chętnie podzielimy się wiedzą i doświadczeniem!</strong></p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
     </entry>
 </feed>
