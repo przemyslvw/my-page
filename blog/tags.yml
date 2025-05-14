@@ -367,3 +367,18 @@ konferencje:
   label: Konferencje
   permalink: /konferencje
   description: Konferencje technologiczne i branżowe.
+
+ransomware:
+  label: Ransomware
+  permalink: /ransomware
+  description: Ataki ransomware i metody ochrony.
+
+infosec:
+  label: InfoSec
+  permalink: /infosec
+  description: Bezpieczeństwo informacji i praktyki ochrony.
+
+threat-intelligence:
+  label: Threat Intelligence
+  permalink: /threat-intelligence
+  description: Analiza zagrożeń i wywiad cybernetyczny.
