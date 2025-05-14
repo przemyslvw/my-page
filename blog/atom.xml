@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-13T00:00:00.000Z</updated>
+    <updated>2025-05-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[💀 Najgroźniejsze grupy ransomware w 2025 roku – kto stoi za cyberatakami?]]></title>
+        <id>https://www.majdak.online/blog/grupy-ransomware-2025</id>
+        <link href="https://www.majdak.online/blog/grupy-ransomware-2025"/>
+        <updated>2025-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).]]></summary>
+        <content type="html"><![CDATA[<p>W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).</p>
+<p>W tym wpisie przyjrzymy się najaktywniejszym i najgroźniejszym grupom ransomware, które w ostatnich miesiącach dominują raporty analityków cyberbezpieczeństwa.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najbardziej-aktywne-grupy-ransomware">Najbardziej aktywne grupy ransomware<a href="https://www.majdak.online/blog/grupy-ransomware-2025#najbardziej-aktywne-grupy-ransomware" class="hash-link" aria-label="Direct link to Najbardziej aktywne grupy ransomware" title="Direct link to Najbardziej aktywne grupy ransomware">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-black-basta"><strong>1. Black Basta</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#1-black-basta" class="hash-link" aria-label="Direct link to 1-black-basta" title="Direct link to 1-black-basta">​</a></h3>
+<p>Grupa powiązana z byłymi członkami gangu Conti. Stosuje strategię podwójnego wymuszenia – szyfrowanie danych + groźba ich publikacji.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-ransomhub"><strong>2. RansomHub</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#2-ransomhub" class="hash-link" aria-label="Direct link to 2-ransomhub" title="Direct link to 2-ransomhub">​</a></h3>
+<p>Nowy gracz na scenie, ale szybko zdobył popularność. Uważany za następcę grupy Knight. Przyciąga afiliantów z innych rozbitych grup.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-play"><strong>3. Play</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#3-play" class="hash-link" aria-label="Direct link to 3-play" title="Direct link to 3-play">​</a></h3>
+<p>Działa od 2022 roku, znana z ataków na organizacje rządowe i przemysłowe. Pliki szyfrowane są z rozszerzeniem <code>.play</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-lockbit"><strong>4. LockBit</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#4-lockbit" class="hash-link" aria-label="Direct link to 4-lockbit" title="Direct link to 4-lockbit">​</a></h3>
+<p>Weteran sceny ransomware. Mimo licznych prób zatrzymania, nadal aktywny. Grupa oferuje swoje narzędzie w modelu RaaS.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-akira"><strong>5. Akira</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#5-akira" class="hash-link" aria-label="Direct link to 5-akira" title="Direct link to 5-akira">​</a></h3>
+<p>Aktywna od 2023 roku. W krótkim czasie zarobiła dziesiątki milionów dolarów. Często atakuje firmy z sektora przemysłowego i edukacyjnego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-bianlian"><strong>6. BianLian</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#6-bianlian" class="hash-link" aria-label="Direct link to 6-bianlian" title="Direct link to 6-bianlian">​</a></h3>
+<p>Początkowo klasyczne ransomware, później przeszli na strategię kradzieży danych bez szyfrowania. Skupiają się na publikowaniu danych ofiar.</p>
+<hr>
+<p>Rok 2025 przynosi dalszą profesjonalizację przestępczości zorganizowanej w sieci. Grupy ransomware działają jak korporacje, zatrudniają programistów, analityków, a nawet PR-owców. Warto je znać, by lepiej rozumieć skalę i charakter zagrożenia.</p>
+<p><strong>Masz doświadczenie z analizą ataków ransomware? Podziel się w komentarzach!</strong></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ransomware" term="Ransomware"/>
+        <category label="grupy-hakerskie" term="grupy-hakerskie"/>
+        <category label="atak" term="atak"/>
+        <category label="InfoSec" term="InfoSec"/>
+        <category label="Threat Intelligence" term="Threat Intelligence"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Najważniejsze wnioski z procesu WhatsApp kontra NSO Group i nowe zagrożenia cyberbezpieczeństwa]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-13</id>
@@ -48,7 +83,7 @@
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
         <category label="Malware" term="Malware"/>
-        <category label="ransomware" term="ransomware"/>
+        <category label="Ransomware" term="Ransomware"/>
         <category label="vulnerabilities" term="vulnerabilities"/>
         <category label="exploits" term="exploits"/>
         <category label="Privacy" term="Privacy"/>
@@ -80,7 +115,7 @@
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
         <category label="Malware" term="Malware"/>
-        <category label="ransomware" term="ransomware"/>
+        <category label="Ransomware" term="Ransomware"/>
         <category label="vulnerabilities" term="vulnerabilities"/>
         <category label="exploits" term="exploits"/>
         <category label="Privacy" term="Privacy"/>
@@ -801,64 +836,5 @@
         <category label="Web Application" term="Web Application"/>
         <category label="Penetration Testing" term="Penetration Testing"/>
         <category label="OWASP" term="OWASP"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🔗 System Link 16 – Podstawy i Zastosowanie]]></title>
-        <id>https://www.majdak.online/blog/system-link-16</id>
-        <link href="https://www.majdak.online/blog/system-link-16"/>
-        <updated>2025-03-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[📌 Wprowadzenie]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wprowadzenie">📌 Wprowadzenie<a href="https://www.majdak.online/blog/system-link-16#-wprowadzenie" class="hash-link" aria-label="Direct link to 📌 Wprowadzenie" title="Direct link to 📌 Wprowadzenie">​</a></h2>
-<p><strong>Link 16</strong> to wojskowy system wymiany danych, który umożliwia bezpieczną i odporną na zakłócenia komunikację pomiędzy jednostkami sił zbrojnych. Jest szeroko wykorzystywany przez NATO oraz siły sojusznicze w celu synchronizacji działań bojowych, poprawy świadomości sytuacyjnej oraz zapewnienia skuteczniejszego dowodzenia i kontroli (C2).</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kluczowe-cechy-link-16">🔍 Kluczowe cechy Link 16<a href="https://www.majdak.online/blog/system-link-16#-kluczowe-cechy-link-16" class="hash-link" aria-label="Direct link to 🔍 Kluczowe cechy Link 16" title="Direct link to 🔍 Kluczowe cechy Link 16">​</a></h2>
-<ul>
-<li><strong>Szyfrowana i odporna na zakłócenia transmisja</strong> – wykorzystuje metody rozpraszania widma (FHSS – Frequency-Hopping Spread Spectrum) i szyfrowania danych.</li>
-<li><strong>Niska latencja</strong> – umożliwia niemal natychmiastowe przekazywanie informacji taktycznych.</li>
-<li><strong>Wielopunktowa łączność</strong> – pozwala na jednoczesne połączenie wielu jednostek w jednej sieci.</li>
-<li><strong>Kompatybilność z NATO</strong> – wykorzystywany przez państwa członkowskie do wspólnej operacji.</li>
-<li><strong>Automatyczna synchronizacja czasu</strong> – bazuje na GPS i technologii JTIDS (Joint Tactical Information Distribution System), co zapewnia precyzyjne działanie.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-jak-działa-link-16">🛰️ Jak działa Link 16?<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-jak-dzia%C5%82a-link-16" class="hash-link" aria-label="Direct link to 🛰️ Jak działa Link 16?" title="Direct link to 🛰️ Jak działa Link 16?">​</a></h2>
-<p>System operuje w paśmie UHF (960–1215 MHz) i wykorzystuje technologię <strong>TDMA (Time Division Multiple Access)</strong>, która przydziela jednostkom wojskowym określone przedziały czasowe do transmisji danych.</p>
-<p>Komunikacja odbywa się poprzez:</p>
-<ul>
-<li><strong>Wiadomości J-series</strong> – standardowe formaty przesyłania danych w NATO,</li>
-<li><strong>Śledzenie jednostek w czasie rzeczywistym</strong> – transmisja pozycji, statusu misji, danych radarowych,</li>
-<li><strong>Zintegrowane przesyłanie głosu i danych</strong> – możliwość komunikacji głosowej wraz z danymi sytuacyjnymi.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-zastosowanie-w-praktyce">✈️ Zastosowanie w praktyce<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-zastosowanie-w-praktyce" class="hash-link" aria-label="Direct link to ✈️ Zastosowanie w praktyce" title="Direct link to ✈️ Zastosowanie w praktyce">​</a></h2>
-<p>System Link 16 jest wykorzystywany przez różne platformy wojskowe, w tym:</p>
-<ul>
-<li><strong>Samoloty bojowe</strong> (np. F-16, F-35, Eurofighter Typhoon),</li>
-<li><strong>Okręty wojenne</strong> (niszczyciele, fregaty),</li>
-<li><strong>Systemy obrony powietrznej</strong> (Patriot, AEGIS),</li>
-<li><strong>Wozy bojowe i centra dowodzenia</strong>,</li>
-<li><strong>Drony i bezzałogowe statki powietrzne</strong>.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-wyzwania-i-ograniczenia">📡 Wyzwania i ograniczenia<a href="https://www.majdak.online/blog/system-link-16#-wyzwania-i-ograniczenia" class="hash-link" aria-label="Direct link to 📡 Wyzwania i ograniczenia" title="Direct link to 📡 Wyzwania i ograniczenia">​</a></h2>
-<p>Pomimo swoich zalet, Link 16 ma również pewne ograniczenia:</p>
-<ul>
-<li><strong>Ograniczony zasięg</strong> – system działa na zasadzie LOS (Line of Sight), co oznacza konieczność posiadania widoczności między nadajnikiem a odbiorcą.</li>
-<li><strong>Wysokie wymagania energetyczne</strong> – system wymaga dużej mocy do skutecznego działania.</li>
-<li><strong>Złożoność integracji</strong> – wymagane jest odpowiednie dostosowanie platform i zgodność z protokołami NATO.</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podobne-systemy">🔄 Podobne systemy<a href="https://www.majdak.online/blog/system-link-16#-podobne-systemy" class="hash-link" aria-label="Direct link to 🔄 Podobne systemy" title="Direct link to 🔄 Podobne systemy">​</a></h2>
-<p>Oprócz Link 16 istnieją inne wojskowe systemy wymiany danych, m.in.:</p>
-<ul>
-<li><strong>Link 11</strong> – starszy system komunikacji taktycznej, stosowany głównie przez marynarkę wojenną.</li>
-<li><strong>Link 22</strong> – nowocześniejszy system, zaprojektowany jako następca Link 11, o zwiększonej odporności na zakłócenia.</li>
-<li><strong>TADIL-J</strong> – standardowy format wiadomości Link 16 stosowany w NATO.</li>
-<li><strong>JREAP (Joint Range Extension Application Protocol)</strong> – umożliwia rozszerzenie zasięgu Link 16 poprzez sieci IP i satelitarne.</li>
-<li><strong>IBCS (Integrated Battle Command System)</strong> – system zarządzania walką integrujący wiele systemów dowodzenia i kontroli.</li>
-</ul>
-<p>Systemy te, w połączeniu z Link 16, tworzą kompleksową infrastrukturę komunikacyjną, umożliwiającą efektywne prowadzenie działań militarnych w środowisku wielodomenowym.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Military" term="Military"/>
-        <category label="Communication" term="Communication"/>
-        <category label="Link 16" term="Link 16"/>
-        <category label="NATO" term="NATO"/>
     </entry>
 </feed>
