@@ -1,12 +1,19 @@
 ---
 slug: news-2025-05-14  
-title: "Najważniejsze cyberzagrożenia i nowe zabezpieczenia w 2025 roku"  
+title: "Ostatnie wydarzenia w cyberbezpieczeństwie: od luk zero-day po zagrożenia na szeroką skalę"  
 authors: [przemyslvw]  
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-14"  
 ---
 
-Świat cyberbezpieczeństwa stale się rozwija, przynosząc zarówno nowe zagrożenia, jak i innowacyjne metody ochrony. W tym wpisie przybliżymy najnowsze informacje o lukach, atakach i rozwiązaniach, które kształtują oblicze bezpieczeństwa w 2025 roku.
+Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.
+
+
+## Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie
+
+W maju 2025 roku badacze bezpieczeństwa ujawnili i załatali pięć aktywnie wykorzystywanych luk zero-day w systemie Windows, z których najpoważniejsza umożliwia zdalne wykonanie kodu przez przeglądarkę internetową.
+
+Eksploatacja tych podatności, monitorowana na żywo, podkreśla konieczność regularnego aktualizowania systemów i śledzenia najnowszych informacji o bezpieczeństwie.
 
 
 ## Rezygnacja Białego Domu z blokady danych brokerów
