@@ -17,36 +17,36 @@
 <p>W tym wpisie przyjrzymy się najaktywniejszym i najgroźniejszym grupom ransomware, które w ostatnich miesiącach dominują raporty analityków cyberbezpieczeństwa.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="najbardziej-aktywne-grupy-ransomware">Najbardziej aktywne grupy ransomware<a href="https://www.majdak.online/blog/grupy-ransomware-2025#najbardziej-aktywne-grupy-ransomware" class="hash-link" aria-label="Direct link to Najbardziej aktywne grupy ransomware" title="Direct link to Najbardziej aktywne grupy ransomware">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-black-basta"><strong>1. Black Basta</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#1-black-basta" class="hash-link" aria-label="Direct link to 1-black-basta" title="Direct link to 1-black-basta">​</a></h3>
-<p>Grupa powiązana z byłymi członkami gangu Conti. Stosuje strategię podwójnego wymuszenia – szyfrowanie danych + groźba ich publikacji.
-Ataki:</p>
+<p>Grupa powiązana z byłymi członkami gangu Conti. Stosuje strategię podwójnego wymuszenia – szyfrowanie danych + groźba ich publikacji.</p>
+<p>Ataki:</p>
 <ul>
 <li>Ascension Health (USA, 2024): Atak zakłócił działalność 140 szpitali w 19 stanach USA, powodując poważne zakłócenia w opiece zdrowotnej.</li>
 <li>Sektor infrastruktury krytycznej: Black Basta zaatakowała ponad 500 organizacji na całym świecie, w tym wiele z sektora infrastruktury krytycznej.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-ransomhub"><strong>2. RansomHub</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#2-ransomhub" class="hash-link" aria-label="Direct link to 2-ransomhub" title="Direct link to 2-ransomhub">​</a></h3>
-<p>Uważany za następcę grupy Knight. Zakończenie działalności (kwiecień 2025): Infrastruktura online RansomHub została wyłączona, a afilianci przenieśli się do innych grup, takich jak Qilin i DragonForce.
-Ataki:</p>
+<p>Uważany za następcę grupy Knight. Zakończenie działalności (kwiecień 2025): Infrastruktura online RansomHub została wyłączona, a afilianci przenieśli się do innych grup, takich jak Qilin i DragonForce.</p>
+<p>Ataki:</p>
 <ul>
 <li>Sektor rządowy (2025): Grupa wykorzystała kampanię „FakeUpdates” do ataków na sektor rządowy, używając złośliwego oprogramowania SocGholish do infekowania systemów poprzez fałszywe aktualizacje przeglądarek.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-play"><strong>3. Play</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#3-play" class="hash-link" aria-label="Direct link to 3-play" title="Direct link to 3-play">​</a></h3>
-<p>Działa od 2022 roku, znana z ataków na organizacje rządowe i przemysłowe. Pliki szyfrowane są z rozszerzeniem <code>.play</code>.
-Ataki:</p>
+<p>Działa od 2022 roku, znana z ataków na organizacje rządowe i przemysłowe. Pliki szyfrowane są z rozszerzeniem <code>.play</code>.</p>
+<p>Ataki:</p>
 <ul>
 <li>Miasto Antwerpia (Belgia, 2022): Atak sparaliżował systemy cyfrowe miasta, zmuszając pracowników do pracy na papierze i powodując zakłócenia w usługach publicznych.</li>
 <li>Dom towarowy KaDeWe (Berlin, 2023): Grupa wykradła dane 4300 klientów i 857 pracowników, żądając okupu; po odmowie zapłaty opublikowali 2,5 TB danych w darknecie.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-lockbit"><strong>4. LockBit</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#4-lockbit" class="hash-link" aria-label="Direct link to 4-lockbit" title="Direct link to 4-lockbit">​</a></h3>
-<p>Weteran sceny ransomware. Mimo licznych prób zatrzymania, nadal aktywny. Grupa oferuje swoje narzędzie w modelu RaaS.
-Ataki:</p>
+<p>Weteran sceny ransomware. Mimo licznych prób zatrzymania, nadal aktywny. Grupa oferuje swoje narzędzie w modelu RaaS.</p>
+<p>Ataki:</p>
 <ul>
 <li>Boeing (USA, 2023): Grupa zażądała 200 milionów dolarów okupu po ataku na dział dystrybucji części Boeinga, grożąc ujawnieniem 500 GB danych.</li>
 <li>Royal Mail (Wielka Brytania, 2023): Atak sparaliżował międzynarodowe usługi pocztowe, uniemożliwiając wysyłkę paczek za granicę przez kilka tygodni.</li>
 <li>TSMC (Tajwan, 2023): LockBit zażądał 70 milionów dolarów okupu po ataku na dostawcę TSMC, największego na świecie producenta chipów.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-akira"><strong>5. Akira</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#5-akira" class="hash-link" aria-label="Direct link to 5-akira" title="Direct link to 5-akira">​</a></h3>
-<p>Aktywna od 2023 roku. W krótkim czasie zarobiła dziesiątki milionów dolarów. Często atakuje firmy z sektora przemysłowego i edukacyjnego.
-Ataki:</p>
+<p>Aktywna od 2023 roku. W krótkim czasie zarobiła dziesiątki milionów dolarów. Często atakuje firmy z sektora przemysłowego i edukacyjnego.</p>
+<p>Ataki:</p>
 <ul>
 <li>KNP Logistics (Wielka Brytania, 2024): Atak doprowadził do upadku 158-letniej firmy logistycznej, która nie była w stanie odzyskać danych finansowych i straciła zdolność kredytową.</li>
 <li>Nissan Australia (2023): Grupa wykradła dane z systemów firmy, grożąc ich publikacją.</li>
@@ -54,8 +54,8 @@ Ataki:</p>
 <li>Stanford University (USA, 2023): Wykradziono dane 27 000 osób, w tym studentów i pracowników.</li>
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-bianlian"><strong>6. BianLian</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#6-bianlian" class="hash-link" aria-label="Direct link to 6-bianlian" title="Direct link to 6-bianlian">​</a></h3>
-<p>Początkowo klasyczne ransomware, później przeszli na strategię kradzieży danych bez szyfrowania. Skupiają się na publikowaniu danych ofiar.
-Ataki:</p>
+<p>Początkowo klasyczne ransomware, później przeszli na strategię kradzieży danych bez szyfrowania. Skupiają się na publikowaniu danych ofiar.</p>
+<p>Ataki:</p>
 <ul>
 <li>Optometric Physicians of Middle Tennessee (USA, 2023): Grupa wykradła dane pacjentów z sieci klinik okulistycznych, grożąc ich publikacją.</li>
 <li>Sektor opieki zdrowotnej i produkcji: BianLian skoncentrowała się na atakach na organizacje w USA i Europie, szczególnie w sektorach opieki zdrowotnej i produkcji.</li>
