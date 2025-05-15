@@ -9,6 +9,70 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[💀 Najgroźniejsze grupy ransomware w 2025 roku – kto stoi za cyberatakami?]]></title>
+            <link>https://www.majdak.online/blog/grupy-ransomware-2025</link>
+            <guid>https://www.majdak.online/blog/grupy-ransomware-2025</guid>
+            <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).]]></description>
+            <content:encoded><![CDATA[<p>W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).</p>
+<p>W tym wpisie przyjrzymy się najaktywniejszym i najgroźniejszym grupom ransomware, które w ostatnich miesiącach dominują raporty analityków cyberbezpieczeństwa.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najbardziej-aktywne-grupy-ransomware">Najbardziej aktywne grupy ransomware<a href="https://www.majdak.online/blog/grupy-ransomware-2025#najbardziej-aktywne-grupy-ransomware" class="hash-link" aria-label="Direct link to Najbardziej aktywne grupy ransomware" title="Direct link to Najbardziej aktywne grupy ransomware">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-black-basta"><strong>1. Black Basta</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#1-black-basta" class="hash-link" aria-label="Direct link to 1-black-basta" title="Direct link to 1-black-basta">​</a></h3>
+<p>Grupa powiązana z byłymi członkami gangu Conti. Stosuje strategię podwójnego wymuszenia – szyfrowanie danych + groźba ich publikacji.
+Ataki:</p>
+<ul>
+<li>Ascension Health (USA, 2024): Atak zakłócił działalność 140 szpitali w 19 stanach USA, powodując poważne zakłócenia w opiece zdrowotnej.</li>
+<li>Sektor infrastruktury krytycznej: Black Basta zaatakowała ponad 500 organizacji na całym świecie, w tym wiele z sektora infrastruktury krytycznej.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-ransomhub"><strong>2. RansomHub</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#2-ransomhub" class="hash-link" aria-label="Direct link to 2-ransomhub" title="Direct link to 2-ransomhub">​</a></h3>
+<p>Uważany za następcę grupy Knight. Zakończenie działalności (kwiecień 2025): Infrastruktura online RansomHub została wyłączona, a afilianci przenieśli się do innych grup, takich jak Qilin i DragonForce.
+Ataki:</p>
+<ul>
+<li>Sektor rządowy (2025): Grupa wykorzystała kampanię „FakeUpdates” do ataków na sektor rządowy, używając złośliwego oprogramowania SocGholish do infekowania systemów poprzez fałszywe aktualizacje przeglądarek.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-play"><strong>3. Play</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#3-play" class="hash-link" aria-label="Direct link to 3-play" title="Direct link to 3-play">​</a></h3>
+<p>Działa od 2022 roku, znana z ataków na organizacje rządowe i przemysłowe. Pliki szyfrowane są z rozszerzeniem <code>.play</code>.
+Ataki:</p>
+<ul>
+<li>Miasto Antwerpia (Belgia, 2022): Atak sparaliżował systemy cyfrowe miasta, zmuszając pracowników do pracy na papierze i powodując zakłócenia w usługach publicznych.</li>
+<li>Dom towarowy KaDeWe (Berlin, 2023): Grupa wykradła dane 4300 klientów i 857 pracowników, żądając okupu; po odmowie zapłaty opublikowali 2,5 TB danych w darknecie.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-lockbit"><strong>4. LockBit</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#4-lockbit" class="hash-link" aria-label="Direct link to 4-lockbit" title="Direct link to 4-lockbit">​</a></h3>
+<p>Weteran sceny ransomware. Mimo licznych prób zatrzymania, nadal aktywny. Grupa oferuje swoje narzędzie w modelu RaaS.
+Ataki:</p>
+<ul>
+<li>Boeing (USA, 2023): Grupa zażądała 200 milionów dolarów okupu po ataku na dział dystrybucji części Boeinga, grożąc ujawnieniem 500 GB danych.</li>
+<li>Royal Mail (Wielka Brytania, 2023): Atak sparaliżował międzynarodowe usługi pocztowe, uniemożliwiając wysyłkę paczek za granicę przez kilka tygodni.</li>
+<li>TSMC (Tajwan, 2023): LockBit zażądał 70 milionów dolarów okupu po ataku na dostawcę TSMC, największego na świecie producenta chipów.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-akira"><strong>5. Akira</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#5-akira" class="hash-link" aria-label="Direct link to 5-akira" title="Direct link to 5-akira">​</a></h3>
+<p>Aktywna od 2023 roku. W krótkim czasie zarobiła dziesiątki milionów dolarów. Często atakuje firmy z sektora przemysłowego i edukacyjnego.
+Ataki:</p>
+<ul>
+<li>KNP Logistics (Wielka Brytania, 2024): Atak doprowadził do upadku 158-letniej firmy logistycznej, która nie była w stanie odzyskać danych finansowych i straciła zdolność kredytową.</li>
+<li>Nissan Australia (2023): Grupa wykradła dane z systemów firmy, grożąc ich publikacją.</li>
+<li>Tietoevry (Finlandia/Szwecja, 2024): Atak na centrum danych zakłócił usługi dla wielu szwedzkich organizacji.</li>
+<li>Stanford University (USA, 2023): Wykradziono dane 27 000 osób, w tym studentów i pracowników.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-bianlian"><strong>6. BianLian</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#6-bianlian" class="hash-link" aria-label="Direct link to 6-bianlian" title="Direct link to 6-bianlian">​</a></h3>
+<p>Początkowo klasyczne ransomware, później przeszli na strategię kradzieży danych bez szyfrowania. Skupiają się na publikowaniu danych ofiar.
+Ataki:</p>
+<ul>
+<li>Optometric Physicians of Middle Tennessee (USA, 2023): Grupa wykradła dane pacjentów z sieci klinik okulistycznych, grożąc ich publikacją.</li>
+<li>Sektor opieki zdrowotnej i produkcji: BianLian skoncentrowała się na atakach na organizacje w USA i Europie, szczególnie w sektorach opieki zdrowotnej i produkcji.</li>
+</ul>
+<hr>
+<p>Rok 2025 przynosi dalszą profesjonalizację przestępczości zorganizowanej w sieci. Grupy ransomware działają jak korporacje, zatrudniają programistów, analityków, a nawet PR-owców. Warto je znać, by lepiej rozumieć skalę i charakter zagrożenia.</p>
+<p><strong>Masz doświadczenie z analizą ataków ransomware? Podziel się w komentarzach!</strong></p>
+<p><img decoding="async" loading="lazy" alt="Grupy ransomware 2025" src="https://www.majdak.online/assets/images/grupy-ransomware-2025-a4de64bb345e1b6c82cb5c67f4793228.webp" width="1024" height="1024" class="img_ev3q"></p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ransomware</category>
+            <category>grupy-hakerskie</category>
+            <category>atak</category>
+            <category>InfoSec</category>
+            <category>Threat Intelligence</category>
+        </item>
+        <item>
             <title><![CDATA[Ostatnie wydarzenia w cyberbezpieczeństwie: od luk zero-day po zagrożenia na szeroką skalę]]></title>
             <link>https://www.majdak.online/blog/news-2025-05-14</link>
             <guid>https://www.majdak.online/blog/news-2025-05-14</guid>
@@ -45,38 +109,6 @@
             <category>vulnerabilities</category>
             <category>exploits</category>
             <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[💀 Najgroźniejsze grupy ransomware w 2025 roku – kto stoi za cyberatakami?]]></title>
-            <link>https://www.majdak.online/blog/grupy-ransomware-2025</link>
-            <guid>https://www.majdak.online/blog/grupy-ransomware-2025</guid>
-            <pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).]]></description>
-            <content:encoded><![CDATA[<p>W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).</p>
-<p>W tym wpisie przyjrzymy się najaktywniejszym i najgroźniejszym grupom ransomware, które w ostatnich miesiącach dominują raporty analityków cyberbezpieczeństwa.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najbardziej-aktywne-grupy-ransomware">Najbardziej aktywne grupy ransomware<a href="https://www.majdak.online/blog/grupy-ransomware-2025#najbardziej-aktywne-grupy-ransomware" class="hash-link" aria-label="Direct link to Najbardziej aktywne grupy ransomware" title="Direct link to Najbardziej aktywne grupy ransomware">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-black-basta"><strong>1. Black Basta</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#1-black-basta" class="hash-link" aria-label="Direct link to 1-black-basta" title="Direct link to 1-black-basta">​</a></h3>
-<p>Grupa powiązana z byłymi członkami gangu Conti. Stosuje strategię podwójnego wymuszenia – szyfrowanie danych + groźba ich publikacji.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-ransomhub"><strong>2. RansomHub</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#2-ransomhub" class="hash-link" aria-label="Direct link to 2-ransomhub" title="Direct link to 2-ransomhub">​</a></h3>
-<p>Nowy gracz na scenie, ale szybko zdobył popularność. Uważany za następcę grupy Knight. Przyciąga afiliantów z innych rozbitych grup.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-play"><strong>3. Play</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#3-play" class="hash-link" aria-label="Direct link to 3-play" title="Direct link to 3-play">​</a></h3>
-<p>Działa od 2022 roku, znana z ataków na organizacje rządowe i przemysłowe. Pliki szyfrowane są z rozszerzeniem <code>.play</code>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-lockbit"><strong>4. LockBit</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#4-lockbit" class="hash-link" aria-label="Direct link to 4-lockbit" title="Direct link to 4-lockbit">​</a></h3>
-<p>Weteran sceny ransomware. Mimo licznych prób zatrzymania, nadal aktywny. Grupa oferuje swoje narzędzie w modelu RaaS.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-akira"><strong>5. Akira</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#5-akira" class="hash-link" aria-label="Direct link to 5-akira" title="Direct link to 5-akira">​</a></h3>
-<p>Aktywna od 2023 roku. W krótkim czasie zarobiła dziesiątki milionów dolarów. Często atakuje firmy z sektora przemysłowego i edukacyjnego.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-bianlian"><strong>6. BianLian</strong><a href="https://www.majdak.online/blog/grupy-ransomware-2025#6-bianlian" class="hash-link" aria-label="Direct link to 6-bianlian" title="Direct link to 6-bianlian">​</a></h3>
-<p>Początkowo klasyczne ransomware, później przeszli na strategię kradzieży danych bez szyfrowania. Skupiają się na publikowaniu danych ofiar.</p>
-<hr>
-<p>Rok 2025 przynosi dalszą profesjonalizację przestępczości zorganizowanej w sieci. Grupy ransomware działają jak korporacje, zatrudniają programistów, analityków, a nawet PR-owców. Warto je znać, by lepiej rozumieć skalę i charakter zagrożenia.</p>
-<p><strong>Masz doświadczenie z analizą ataków ransomware? Podziel się w komentarzach!</strong></p>
-<p><img decoding="async" loading="lazy" alt="Grupy ransomware 2025" src="https://www.majdak.online/assets/images/grupy-ransomware-2025-a4de64bb345e1b6c82cb5c67f4793228.webp" width="1024" height="1024" class="img_ev3q"></p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ransomware</category>
-            <category>grupy-hakerskie</category>
-            <category>atak</category>
-            <category>InfoSec</category>
-            <category>Threat Intelligence</category>
         </item>
         <item>
             <title><![CDATA[Najważniejsze wnioski z procesu WhatsApp kontra NSO Group i nowe zagrożenia cyberbezpieczeństwa]]></title>
