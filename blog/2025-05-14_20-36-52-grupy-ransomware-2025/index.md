@@ -4,7 +4,7 @@ title: "💀 Najgroźniejsze grupy ransomware w 2025 roku – kto stoi za cybera
 authors: [przemyslvw]
 tags: ["cybersecurity", "ransomware", "grupy-hakerskie", "atak", "infosec", "threat-intelligence"]
 date: "2025-05-14"
-image: /img/blog/grupy-ransomware-2025.webp
+image: "/img/blog/grupy-ransomware-2025.webp"
 ---
 
 W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).
@@ -36,3 +36,5 @@ Początkowo klasyczne ransomware, później przeszli na strategię kradzieży da
 Rok 2025 przynosi dalszą profesjonalizację przestępczości zorganizowanej w sieci. Grupy ransomware działają jak korporacje, zatrudniają programistów, analityków, a nawet PR-owców. Warto je znać, by lepiej rozumieć skalę i charakter zagrożenia.
 
 **Masz doświadczenie z analizą ataków ransomware? Podziel się w komentarzach!**
+
+![Grupy ransomware 2025](/img/blog/grupy-ransomware-2025.webp)
