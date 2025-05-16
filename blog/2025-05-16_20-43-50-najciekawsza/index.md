@@ -1,6 +1,6 @@
 ---
 slug: news-2025-05-16  
-title: "Coraz bardziej zaawansowane zagrożenia cybernetyczne i nowe wyzwania dla branży bezpieczeństwa"  
+title: "Coraz bardziej zaawansowane zagrożenia cybernetyczne i nowe wyzwania dla branży bezpieczeństwa 2025-05-16"  
 authors: [przemyslvw]  
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-16"  
