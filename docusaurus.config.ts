@@ -87,6 +87,7 @@ const config: Config = {
           label: 'Dokumentacja',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/automatyzacja', label: 'Automatyzacja', position: 'left' },
         { to: '/contact', label: 'Kontakt', position: 'left' },
         {
           href: 'https://github.com/przemyslvw',
