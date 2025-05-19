@@ -1,12 +1,12 @@
 ---
 slug: news-2025-05-19
 title: "Cyberzagrożenia na początku 2025 roku: wyciek danych, ataki i nowoczesne rozwiązania zabezpieczeń"
-intro: "Początek 2025 roku przyniósł szereg poważnych incydentów i nowości w dziedzinie cyberbezpieczeństwa. Od wycieków danych i ataków ransomware po innowacyjne technologie chroniące nas przed zagrożeniami – branża musi się nieustannie adaptować do zmieniającego się środowiska cyberprzestępców."
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-19"
 ---
 
+Początek 2025 roku przyniósł szereg poważnych incydentów i nowości w dziedzinie cyberbezpieczeństwa. Od wycieków danych i ataków ransomware po innowacyjne technologie chroniące nas przed zagrożeniami – branża musi się nieustannie adaptować do zmieniającego się środowiska cyberprzestępców.
 
 ## Incydenty związane z wyciekami danych i atakami na firmy
 
