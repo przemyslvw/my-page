@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-19T00:00:00.000Z</updated>
+    <updated>2025-05-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Cyberzagrożenia w 2025 roku: od wycieków danych, przez zaawansowane ataki APT po nowe narzędzia cyberprzestępców]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-21</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-21"/>
+        <updated>2025-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Skandale i wycieki danych na szeroką skalę]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skandale-i-wycieki-danych-na-szeroką-skalę">Skandale i wycieki danych na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-05-21#skandale-i-wycieki-danych-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Direct link to Skandale i wycieki danych na szeroką skalę" title="Direct link to Skandale i wycieki danych na szeroką skalę">​</a></h2>
+<p>W 2025 roku media informują o wyciekach danych milionów użytkowników – przykładami są Coinbase, które ujawniło dane ponad 69 tysięcy klientów, oraz PowerSchool, gdzie uczeń przyznał się do hacku narażającego dane milionów uczniów.</p>
+<p>Oprócz tego, badacze z Imperva odkryli podatność w WordPressie, umożliwiającą poznanie tytułów prywatnych wpisów i szkiców, co może prowadzić do poważnych konsekwencji, zwłaszcza w przypadku wpisów wrażliwych lub poufnych decyzji.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-działania-państwowych-grup-hakerskich">Zaawansowane działania państwowych grup hakerskich<a href="https://www.majdak.online/blog/news-2025-05-21#zaawansowane-dzia%C5%82ania-pa%C5%84stwowych-grup-hakerskich" class="hash-link" aria-label="Direct link to Zaawansowane działania państwowych grup hakerskich" title="Direct link to Zaawansowane działania państwowych grup hakerskich">​</a></h2>
+<p>Rosyjskie grupy APT, takie jak APT28, kontynuują działania wymierzone w zachodnie firmy logistyczne i technologiczne, wykorzystując m.in. exploitowania luk w DNS i infrastrukturze chmurowej. Z kolei Chiny i Korea Północna poszerzają swoją aktywność, skierowaną na międzynarodowe organizacje, wykorzystując złośliwe backdoory i spear phishing.</p>
+<p>Szczególnie ciekawe jest użycie MarsSnake, nowego backdoora, który był stosowany w atakach na saudyjskie organizacje, oraz kampanie rozprzestrzeniające malware typu PureRAT, które w 2025 roku zwiększyły swoją skalę czterokrotnie w porównaniu z poprzednimi latami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="infostalerowe-zagrożenia-i-kampanie-oszustwowe">Infostalerowe zagrożenia i kampanie oszustwowe<a href="https://www.majdak.online/blog/news-2025-05-21#infostalerowe-zagro%C5%BCenia-i-kampanie-oszustwowe" class="hash-link" aria-label="Direct link to Infostalerowe zagrożenia i kampanie oszustwowe" title="Direct link to Infostalerowe zagrożenia i kampanie oszustwowe">​</a></h2>
+<p>Cyberprzestępcy stosują fałszywe reklamy na Facebooku, rozpowszechniając malware takie jak RAT, a także tworzą złośliwe rozszerzenia do Chrome, które wykradają dane użytkowników. Przykładem są maskujące kampanie wykorzystujące fałszywe strony Kling AI, które mają na celu wyłudzenie danych lub instalację złośliwego oprogramowania.</p>
+<p>W tym roku odnotowano również ataki na popularne platformy, takie jak Instagram i TikTok, gdzie w wyniku exploittowania API oraz wykorzystywania złośliwych pakietów na PyPI, cyberprzestępcy próbują zdobyć dostęp do kont lub wyłudzać informacje.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-narzędzia-i-mechanizmy-obronne">Nowoczesne narzędzia i mechanizmy obronne<a href="https://www.majdak.online/blog/news-2025-05-21#nowoczesne-narz%C4%99dzia-i-mechanizmy-obronne" class="hash-link" aria-label="Direct link to Nowoczesne narzędzia i mechanizmy obronne" title="Direct link to Nowoczesne narzędzia i mechanizmy obronne">​</a></h2>
+<p>Microsoft wprowadził funkcję automatycznej zmiany haseł w swoim przeglądarce Chrome, co jest kluczowym krokiem w walce z wyłudzaniem danych. Podobnie, Google DeepMind pracuje nad rozwiązaniami chroniącymi przed atakami typu prompt injection, a firmy takie jak ThreatLocker i Tenable rozwijają narzędzia do zarządzania lukami i monitorowania bezpieczeństwa środowisk chmurowych.</p>
+<p>Ważną rolę odgrywa także rozwój algorytmów matematycznych, takich jak 'LEV', który ma ocenić prawdopodobieństwo, że dany bug został już wykorzystany, co znacząco przyspiesza proces reakcji na zagrożenia.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cyberbezpieczne-praktyki-i-wyzwania-przyszłości">Cyberbezpieczne praktyki i wyzwania przyszłości<a href="https://www.majdak.online/blog/news-2025-05-21#cyberbezpieczne-praktyki-i-wyzwania-przysz%C5%82o%C5%9Bci" class="hash-link" aria-label="Direct link to Cyberbezpieczne praktyki i wyzwania przyszłości" title="Direct link to Cyberbezpieczne praktyki i wyzwania przyszłości">​</a></h2>
+<p>Obecnie coraz więcej organizacji dostrzega konieczność wdrażania elastycznych i adaptacyjnych programów bezpieczeństwa, zamiast sztywnych i nieelastycznych systemów. Równocześnie, rosnące zagrożenia związane z ransomware, tworzeniem własnych narzędzi malware i wykorzystywaniem słabości w infrastrukturze, wymuszają na firmach stałe aktualizacje i monitorowanie środowisk.</p>
+<p>Przykłady takich działań to skuteczne blokady domen, neutralizacja działalności grup takich jak Lumma oraz śledzenie kampanii phishingowych i wprowadzanie odpowiednich mechanizmów zapobiegawczych, co w przyszłości będzie kluczowe dla zapewnienia bezpieczeństwa cyberprzestrzeni.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Ransomware" term="Ransomware"/>
+        <category label="vulnerabilities" term="vulnerabilities"/>
+        <category label="exploits" term="exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cyberzagrożenia na początku 2025 roku: wyciek danych, ataki i nowoczesne rozwiązania zabezpieczeń]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-19</id>
@@ -831,24 +864,5 @@
         <category label="Web Application" term="Web Application"/>
         <category label="Penetration Testing" term="Penetration Testing"/>
         <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Relacja z INSECON 2025]]></title>
-        <id>https://www.majdak.online/blog/insecon-2025-relacja</id>
-        <link href="https://www.majdak.online/blog/insecon-2025-relacja"/>
-        <updated>2025-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W zeszłym tygodniu miałem przyjemność uczestniczyć w INSECON 2025 – jednym z najważniejszych wydarzeń poświęconych cyberbezpieczeństwu w Polsce.]]></summary>
-        <content type="html"><![CDATA[<p>W zeszłym tygodniu miałem przyjemność uczestniczyć w <strong>INSECON 2025</strong> – jednym z najważniejszych wydarzeń poświęconych cyberbezpieczeństwu w Polsce.</p>
-<p>To była doskonała okazja do zdobycia wiedzy, wymiany doświadczeń, spotkania znajomych i członków <strong>ISSA Polska</strong>, którzy – tak jak ja – żyją tym tematem na co dzień.</p>
-<p>Miałem również okazję uścisnąć dłoń i porozmawiać z inspirującymi postaciami świata bezpieczeństwa: <strong>Arturem Markiewiczem</strong>, <strong>Mateuszem Chrobokiem</strong> i <strong>Michałem Sajdakiem</strong>.</p>
-<p>Nie zabrakło mocnych, merytorycznych prelekcji – zarówno na scenie głównej, jak i biznesowej – oraz ciekawych rozmów w kuluarach.</p>
-<p>Na stoiskach wojskowych można było zobaczyć nowoczesne rozwiązania z zakresu <strong>łączności taktycznej</strong>, <strong>technologii dronowych (UAV)</strong> i systemów prezentowanych przez <strong>Wojska Obrony Cyberprzestrzeni</strong>, <strong>Wojskowe Zakłady Łączności</strong> czy <strong>Wojskowe Zakłady Uzbrojenia</strong>.</p>
-<p>Cieszę się, że mogłem być częścią tej inicjatywy jako członek <strong>ISSA Polska</strong> i z niecierpliwością czekam na kolejną edycję.</p>
-<hr>
-<p><strong>#INSECON2025 #cybersecurity #ISSA #networking #infosec #wojsko #technologie #cyberbezpieczeństwo</strong></p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
     </entry>
 </feed>
