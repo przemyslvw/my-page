@@ -2,18 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-21T00:00:00.000Z</updated>
+    <updated>2025-05-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Cyberzagrożenia w 2025 roku: od wycieków danych, przez zaawansowane ataki APT po nowe narzędzia cyberprzestępców]]></title>
+        <title type="html"><![CDATA[10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-23</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-23"/>
+        <updated>2025-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-zagrożenia-i-kontrowersje-w-świecie-cyberbezpieczeństwa">Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-23#najnowsze-zagro%C5%BCenia-i-kontrowersje-w-%C5%9Bwiecie-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Direct link to Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa" title="Direct link to Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa">​</a></h2>
+<p>Apple i Google starają się wpłynąć na prawo dotyczące ochrony dzieci, dzwoniąc do polityków i próbując opóźnić kontrowersyjne ustawodawstwo, co może wpłynąć na przyszłe wyzwania w zakresie prywatności i kontroli danych.</p>
+<p>Na konferencjach typu TechCrunch Sessions eksperci ostrzegają, że AI przekracza granice etyki, stawiając pytania o bezpieczeństwo i dezinformację na niespotykaną skalę.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kto-stoi-za-cyberatakami-tajemniczy-grupy-i-ich-złożone-operacje">Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje<a href="https://www.majdak.online/blog/news-2025-05-23#kto-stoi-za-cyberatakami-tajemniczy-grupy-i-ich-z%C5%82o%C5%BCone-operacje" class="hash-link" aria-label="Direct link to Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje" title="Direct link to Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje">​</a></h2>
+<p>Mające powiązania z rządem hiszpańskim grupa Careto potajemnie prowadziła ataki, a chińskie grupy aktywnie wykorzystują luki w systemach amerykańskich instytucji oraz atakują rządy lokalne i przedsiębiorstwa.</p>
+<p>Aż 5 300 urządzeń Cisco zostało przejętych przez ViciousTrap, a grupa ta wykorzystała krytyczne luki w routerach do budowy globalnego honeypotu, co pokazuje skalę i złożoność dzisiejszych zagrożeń.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-ataki-i-narzędzia-malware--co-musisz-wiedzieć">Nowe ataki i narzędzia malware — co musisz wiedzieć?<a href="https://www.majdak.online/blog/news-2025-05-23#nowe-ataki-i-narz%C4%99dzia-malware--co-musisz-wiedzie%C4%87" class="hash-link" aria-label="Direct link to Nowe ataki i narzędzia malware — co musisz wiedzieć?" title="Direct link to Nowe ataki i narzędzia malware — co musisz wiedzieć?">​</a></h2>
+<p>Microsoft zatrzymał i ograniczył działanie malware Lumma, które od dwóch lat szerzyło się w systemach Windows. Podobnie Signal zablokował screenshoty, chroniąc prywatność użytkowników w Windows 11.</p>
+<p>TikTok i inne platformy używane jako nośniki malware, takie jak Vidar i StealC, stają się jeszcze bardziej skuteczne dzięki technice ClickFix, która pozwala malware działać bez zapisania na dysku.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="przełomowe-sukcesy-służb-i-operatorów-rozbicie-mafii-ransomware-i-infrastruktury-przestępczej">Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej<a href="https://www.majdak.online/blog/news-2025-05-23#prze%C5%82omowe-sukcesy-s%C5%82u%C5%BCb-i-operator%C3%B3w-rozbicie-mafii-ransomware-i-infrastruktury-przest%C4%99pczej" class="hash-link" aria-label="Direct link to Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej" title="Direct link to Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej">​</a></h2>
+<p>Europol i FBI zniszczyły sieci ransomware, wyłączając setki serwerów i zatrzymując kilkunastu podejrzanych, co może oznaczać koniec dominacji takich grup jak DanaBot czy Lumma.</p>
+<p>Operacje te pokazują, jak współpraca międzynarodowa i zaawansowana technologia mogą zatrzymać cyberprzestępców i ochronić sieci od katastrofalnych skutków.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-narzędzia-i-technologie-w-służbie-bezpieczeństwa">Nowe narzędzia i technologie w służbie bezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-23#nowe-narz%C4%99dzia-i-technologie-w-s%C5%82u%C5%BCbie-bezpiecze%C5%84stwa" class="hash-link" aria-label="Direct link to Nowe narzędzia i technologie w służbie bezpieczeństwa" title="Direct link to Nowe narzędzia i technologie w służbie bezpieczeństwa">​</a></h2>
+<p>Open source’owy WAF SafeLine z funkcją wykrywania zero-day i ochroną przed botami staje się kluczowym narzędziem dla firm dbających o bezpieczeństwo aplikacji internetowych.</p>
+<p>Microsoft testuje nowe funkcje AI, takie jak generowanie tekstu w Notepadzie, a firmy coraz częściej korzystają z AI do automatyzacji i usprawnienia działań obronnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jak-się-bronić-praktyczne-wskazówki-i-prognozy">Jak się bronić? Praktyczne wskazówki i prognozy<a href="https://www.majdak.online/blog/news-2025-05-23#jak-si%C4%99-broni%C4%87-praktyczne-wskaz%C3%B3wki-i-prognozy" class="hash-link" aria-label="Direct link to Jak się bronić? Praktyczne wskazówki i prognozy" title="Direct link to Jak się bronić? Praktyczne wskazówki i prognozy">​</a></h2>
+<p>Specjaliści podkreślają konieczność automatyzacji procesów bezpieczeństwa, a eksperci od tożsamości zwracają uwagę na potrzebę pełnej automatyzacji kluczowych systemów, aby ograniczyć ryzyko błędów ludzkich.</p>
+<p>Na horyzoncie pojawiają się nowe wyzwania związane z rozwojem AI, dużymi modelami językowymi, a także z lukami w popularnych systemach, takich jak Windows Server czy Ivanti EPMM.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Ransomware" term="Ransomware"/>
+        <category label="vulnerabilities" term="vulnerabilities"/>
+        <category label="exploits" term="exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cyberwojna 2025: Największe wycieki, ataki hakerów i przełomowe techniki obrony – co musisz wiedzieć?]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-21</id>
         <link href="https://www.majdak.online/blog/news-2025-05-21"/>
         <updated>2025-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Skandale i wycieki danych na szeroką skalę]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skandale-i-wycieki-danych-na-szeroką-skalę">Skandale i wycieki danych na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-05-21#skandale-i-wycieki-danych-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Direct link to Skandale i wycieki danych na szeroką skalę" title="Direct link to Skandale i wycieki danych na szeroką skalę">​</a></h2>
+        <summary type="html"><![CDATA[Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skandale-i-wycieki-danych-na-szeroką-skalę">Skandale i wycieki danych na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-05-21#skandale-i-wycieki-danych-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Direct link to Skandale i wycieki danych na szeroką skalę" title="Direct link to Skandale i wycieki danych na szeroką skalę">​</a></h2>
 <p>W 2025 roku media informują o wyciekach danych milionów użytkowników – przykładami są Coinbase, które ujawniło dane ponad 69 tysięcy klientów, oraz PowerSchool, gdzie uczeń przyznał się do hacku narażającego dane milionów uczniów.</p>
 <p>Oprócz tego, badacze z Imperva odkryli podatność w WordPressie, umożliwiającą poznanie tytułów prywatnych wpisów i szkiców, co może prowadzić do poważnych konsekwencji, zwłaszcza w przypadku wpisów wrażliwych lub poufnych decyzji.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-działania-państwowych-grup-hakerskich">Zaawansowane działania państwowych grup hakerskich<a href="https://www.majdak.online/blog/news-2025-05-21#zaawansowane-dzia%C5%82ania-pa%C5%84stwowych-grup-hakerskich" class="hash-link" aria-label="Direct link to Zaawansowane działania państwowych grup hakerskich" title="Direct link to Zaawansowane działania państwowych grup hakerskich">​</a></h2>
@@ -41,7 +79,7 @@
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cyberzagrożenia na początku 2025 roku: wyciek danych, ataki i nowoczesne rozwiązania zabezpieczeń]]></title>
+        <title type="html"><![CDATA[Szokujące cyberataki: wycieki danych, ransomware i przełomowe technologie obrony!]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-19</id>
         <link href="https://www.majdak.online/blog/news-2025-05-19"/>
         <updated>2025-05-19T00:00:00.000Z</updated>
@@ -109,7 +147,7 @@
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Coraz bardziej zaawansowane zagrożenia cybernetyczne i nowe wyzwania dla branży bezpieczeństwa 2025-05-16]]></title>
+        <title type="html"><![CDATA[Deepfake, wycieki danych i nowe luki – czy jesteśmy gotowi na falę zagrożeń?]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-16</id>
         <link href="https://www.majdak.online/blog/news-2025-05-16"/>
         <updated>2025-05-16T00:00:00.000Z</updated>
@@ -213,6 +251,48 @@
         <category label="intelx" term="intelx"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Największe wycieki, luki zero-day i wojny szpiegów 2025 – co musisz wiedzieć już dziś!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-14</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-14"/>
+        <updated>2025-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.]]></summary>
+        <content type="html"><![CDATA[<p>Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-zero-day-w-systemie-windows-i-ich-aktywne-wykorzystywanie">Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie<a href="https://www.majdak.online/blog/news-2025-05-14#nowe-luki-zero-day-w-systemie-windows-i-ich-aktywne-wykorzystywanie" class="hash-link" aria-label="Direct link to Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie" title="Direct link to Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie">​</a></h2>
+<p>W maju 2025 roku badacze bezpieczeństwa ujawnili i załatali pięć aktywnie wykorzystywanych luk zero-day w systemie Windows, z których najpoważniejsza umożliwia zdalne wykonanie kodu przez przeglądarkę internetową.</p>
+<p>Eksploatacja tych podatności, monitorowana na żywo, podkreśla konieczność regularnego aktualizowania systemów i śledzenia najnowszych informacji o bezpieczeństwie.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rezygnacja-białego-domu-z-blokady-danych-brokerów">Rezygnacja Białego Domu z blokady danych brokerów<a href="https://www.majdak.online/blog/news-2025-05-14#rezygnacja-bia%C5%82ego-domu-z-blokady-danych-broker%C3%B3w" class="hash-link" aria-label="Direct link to Rezygnacja Białego Domu z blokady danych brokerów" title="Direct link to Rezygnacja Białego Domu z blokady danych brokerów">​</a></h2>
+<p>Biały Dom wycofał się z planów ograniczenia sprzedawania wrażliwych danych Amerykanów przez brokerów danych po sprzeciwie branży lobbingowej. Decyzja ta pokazuje, jak silny jest wpływ przemysłu na regulacje dotyczące prywatności i bezpieczeństwa.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="opóźnienia-i-braki-raportów-od-xai-i-elon-muska">Opóźnienia i braki raportów od xAI i Elon Muska<a href="https://www.majdak.online/blog/news-2025-05-14#op%C3%B3%C5%BAnienia-i-braki-raport%C3%B3w-od-xai-i-elon-muska" class="hash-link" aria-label="Direct link to Opóźnienia i braki raportów od xAI i Elon Muska" title="Direct link to Opóźnienia i braki raportów od xAI i Elon Muska">​</a></h2>
+<p>Firma xAI, prowadzona przez Elona Muska, nie dotrzymała wyznaczonego terminu publikacji raportu na temat bezpieczeństwa AI. Mimo obietnic, ludzie obserwują jak modele, takie jak chatbot Grok, mogą wykorzystywać luki do manipulacji czy niezamierzonych działań.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pozwy-przeciw-nso-group-ujawniają-nowe-informacje">Pozwy przeciw NSO Group ujawniają nowe informacje<a href="https://www.majdak.online/blog/news-2025-05-14#pozwy-przeciw-nso-group-ujawniaj%C4%85-nowe-informacje" class="hash-link" aria-label="Direct link to Pozwy przeciw NSO Group ujawniają nowe informacje" title="Direct link to Pozwy przeciw NSO Group ujawniają nowe informacje">​</a></h2>
+<p>Proces sądowy pomiędzy WhatsApp a NSO Group ujawnił liczne nowe szczegóły dotyczące wykorzystywania spyware. Od odkrycia tych praktyk zależy przyszłość nadzoru nad narzędziami inwigilacyjnymi i ich ograniczeniami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-funkcje-bezpieczeństwa-w-androidzie">Nowe funkcje bezpieczeństwa w Androidzie<a href="https://www.majdak.online/blog/news-2025-05-14#nowe-funkcje-bezpiecze%C5%84stwa-w-androidzie" class="hash-link" aria-label="Direct link to Nowe funkcje bezpieczeństwa w Androidzie" title="Direct link to Nowe funkcje bezpieczeństwa w Androidzie">​</a></h2>
+<p>Google zaprezentowało podczas Android Show szereg nowoczesnych funkcji ochronnych, obejmujących zabezpieczenia rozmów, udostępniania ekranów, wiadomości oraz dostęp do systemu. Celem jest zwiększenie ochrony użytkowników przed oszustami i kradzieżą danych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="system-euvd--nowa-europejska-baza-podatności">System EUVD — nowa europejska baza podatności<a href="https://www.majdak.online/blog/news-2025-05-14#system-euvd--nowa-europejska-baza-podatno%C5%9Bci" class="hash-link" aria-label="Direct link to System EUVD — nowa europejska baza podatności" title="Direct link to System EUVD — nowa europejska baza podatności">​</a></h2>
+<p>Unia Europejska uruchomiła własną bazę danych o podatnościach, EUVD, mając nadzieję na poprawę zarządzania cyberzagrożeniami. Eksperci podkreślają, że kluczowe będzie jej odpowiednie utrzymanie i aktualizacja.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-danych-i-nowe-przypadki-cyberataków-na-dużą-skale">Wyciek danych i nowe przypadki cyberataków na dużą skale<a href="https://www.majdak.online/blog/news-2025-05-14#wyciek-danych-i-nowe-przypadki-cyberatak%C3%B3w-na-du%C5%BC%C4%85-skale" class="hash-link" aria-label="Direct link to Wyciek danych i nowe przypadki cyberataków na dużą skale" title="Direct link to Wyciek danych i nowe przypadki cyberataków na dużą skale">​</a></h2>
+<p>Firmy takie jak Marks &amp; Spencer czy Dior doświadczyły poważnych naruszeń bezpieczeństwa, co potwierdza, że cyberprzestępcy coraz chętniej atakują dużych graczy. Ransomware, kradzieże czy phishing to tylko niektóre z metod wykorzystywanych na szeroką skalę.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-i-ataki-na-infrastrukturę-krytyczną">Wyciek i ataki na infrastrukturę krytyczną<a href="https://www.majdak.online/blog/news-2025-05-14#wyciek-i-ataki-na-infrastruktur%C4%99-krytyczn%C4%85" class="hash-link" aria-label="Direct link to Wyciek i ataki na infrastrukturę krytyczną" title="Direct link to Wyciek i ataki na infrastrukturę krytyczną">​</a></h2>
+<p>Amerykańskie agencje ostrzegają przed zaawansowanymi atakami na systemy przemysłowe i infrastrukturę krytyczną, m.in. w firmach energetycznych i przemysłowych. Przykładem są cyberzagrożenia związane z lukami w SAP, Fortinet czy Ivanti.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-aktywności-grup-państwowych-i-cyberespionage">Wzrost aktywności grup państwowych i cyberespionage<a href="https://www.majdak.online/blog/news-2025-05-14#wzrost-aktywno%C5%9Bci-grup-pa%C5%84stwowych-i-cyberespionage" class="hash-link" aria-label="Direct link to Wzrost aktywności grup państwowych i cyberespionage" title="Direct link to Wzrost aktywności grup państwowych i cyberespionage">​</a></h2>
+<p>Korea Północna i Chiny zwiększają swoje działania wywiadowcze, atakując ukraińskie i światowe cele szpiegowskie. Konni APT i chińskie grupy korzystają z luk w SAP i innych systemach, by zdobywać wrażliwe informacje.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania-i-narzędzia-ochronne-na-bieżący-rok">Rozwiązania i narzędzia ochronne na bieżący rok<a href="https://www.majdak.online/blog/news-2025-05-14#rozwi%C4%85zania-i-narz%C4%99dzia-ochronne-na-bie%C5%BC%C4%85cy-rok" class="hash-link" aria-label="Direct link to Rozwiązania i narzędzia ochronne na bieżący rok" title="Direct link to Rozwiązania i narzędzia ochronne na bieżący rok">​</a></h2>
+<p>Firmy takie jak Google, Microsoft czy Fortinet wprowadzają poprawki i nowe funkcje bezpieczeństwa, od Advanced Protection mode po łatki na złośliwe oprogramowanie. Wzmacnianie systemów i edukacja użytkowników pozostają kluczowe w walce z cyberzagrożeniami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-i-wyzwania-przyszłości">Podsumowanie i wyzwania przyszłości<a href="https://www.majdak.online/blog/news-2025-05-14#podsumowanie-i-wyzwania-przysz%C5%82o%C5%9Bci" class="hash-link" aria-label="Direct link to Podsumowanie i wyzwania przyszłości" title="Direct link to Podsumowanie i wyzwania przyszłości">​</a></h2>
+<p>Bezpieczeństwo cyfrowe w 2025 roku wymaga ciągłej aktualizacji zabezpieczeń, monitorowania zagrożeń i współpracy międzynarodowej. Znaczenie mają zarówno nowoczesne technologie, jak i edukacja użytkowników w zakresie ostrożności w sieci.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Ransomware" term="Ransomware"/>
+        <category label="vulnerabilities" term="vulnerabilities"/>
+        <category label="exploits" term="exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[💀 Najgroźniejsze grupy ransomware w 2025 roku – kto stoi za cyberatakami?]]></title>
         <id>https://www.majdak.online/blog/grupy-ransomware-2025</id>
         <link href="https://www.majdak.online/blog/grupy-ransomware-2025"/>
@@ -281,48 +361,6 @@
         <category label="Threat Intelligence" term="Threat Intelligence"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ostatnie wydarzenia w cyberbezpieczeństwie: od luk zero-day po zagrożenia na szeroką skalę]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-14</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-14"/>
-        <updated>2025-05-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.]]></summary>
-        <content type="html"><![CDATA[<p>Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-zero-day-w-systemie-windows-i-ich-aktywne-wykorzystywanie">Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie<a href="https://www.majdak.online/blog/news-2025-05-14#nowe-luki-zero-day-w-systemie-windows-i-ich-aktywne-wykorzystywanie" class="hash-link" aria-label="Direct link to Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie" title="Direct link to Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie">​</a></h2>
-<p>W maju 2025 roku badacze bezpieczeństwa ujawnili i załatali pięć aktywnie wykorzystywanych luk zero-day w systemie Windows, z których najpoważniejsza umożliwia zdalne wykonanie kodu przez przeglądarkę internetową.</p>
-<p>Eksploatacja tych podatności, monitorowana na żywo, podkreśla konieczność regularnego aktualizowania systemów i śledzenia najnowszych informacji o bezpieczeństwie.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rezygnacja-białego-domu-z-blokady-danych-brokerów">Rezygnacja Białego Domu z blokady danych brokerów<a href="https://www.majdak.online/blog/news-2025-05-14#rezygnacja-bia%C5%82ego-domu-z-blokady-danych-broker%C3%B3w" class="hash-link" aria-label="Direct link to Rezygnacja Białego Domu z blokady danych brokerów" title="Direct link to Rezygnacja Białego Domu z blokady danych brokerów">​</a></h2>
-<p>Biały Dom wycofał się z planów ograniczenia sprzedawania wrażliwych danych Amerykanów przez brokerów danych po sprzeciwie branży lobbingowej. Decyzja ta pokazuje, jak silny jest wpływ przemysłu na regulacje dotyczące prywatności i bezpieczeństwa.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="opóźnienia-i-braki-raportów-od-xai-i-elon-muska">Opóźnienia i braki raportów od xAI i Elon Muska<a href="https://www.majdak.online/blog/news-2025-05-14#op%C3%B3%C5%BAnienia-i-braki-raport%C3%B3w-od-xai-i-elon-muska" class="hash-link" aria-label="Direct link to Opóźnienia i braki raportów od xAI i Elon Muska" title="Direct link to Opóźnienia i braki raportów od xAI i Elon Muska">​</a></h2>
-<p>Firma xAI, prowadzona przez Elona Muska, nie dotrzymała wyznaczonego terminu publikacji raportu na temat bezpieczeństwa AI. Mimo obietnic, ludzie obserwują jak modele, takie jak chatbot Grok, mogą wykorzystywać luki do manipulacji czy niezamierzonych działań.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pozwy-przeciw-nso-group-ujawniają-nowe-informacje">Pozwy przeciw NSO Group ujawniają nowe informacje<a href="https://www.majdak.online/blog/news-2025-05-14#pozwy-przeciw-nso-group-ujawniaj%C4%85-nowe-informacje" class="hash-link" aria-label="Direct link to Pozwy przeciw NSO Group ujawniają nowe informacje" title="Direct link to Pozwy przeciw NSO Group ujawniają nowe informacje">​</a></h2>
-<p>Proces sądowy pomiędzy WhatsApp a NSO Group ujawnił liczne nowe szczegóły dotyczące wykorzystywania spyware. Od odkrycia tych praktyk zależy przyszłość nadzoru nad narzędziami inwigilacyjnymi i ich ograniczeniami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-funkcje-bezpieczeństwa-w-androidzie">Nowe funkcje bezpieczeństwa w Androidzie<a href="https://www.majdak.online/blog/news-2025-05-14#nowe-funkcje-bezpiecze%C5%84stwa-w-androidzie" class="hash-link" aria-label="Direct link to Nowe funkcje bezpieczeństwa w Androidzie" title="Direct link to Nowe funkcje bezpieczeństwa w Androidzie">​</a></h2>
-<p>Google zaprezentowało podczas Android Show szereg nowoczesnych funkcji ochronnych, obejmujących zabezpieczenia rozmów, udostępniania ekranów, wiadomości oraz dostęp do systemu. Celem jest zwiększenie ochrony użytkowników przed oszustami i kradzieżą danych.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="system-euvd--nowa-europejska-baza-podatności">System EUVD — nowa europejska baza podatności<a href="https://www.majdak.online/blog/news-2025-05-14#system-euvd--nowa-europejska-baza-podatno%C5%9Bci" class="hash-link" aria-label="Direct link to System EUVD — nowa europejska baza podatności" title="Direct link to System EUVD — nowa europejska baza podatności">​</a></h2>
-<p>Unia Europejska uruchomiła własną bazę danych o podatnościach, EUVD, mając nadzieję na poprawę zarządzania cyberzagrożeniami. Eksperci podkreślają, że kluczowe będzie jej odpowiednie utrzymanie i aktualizacja.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-danych-i-nowe-przypadki-cyberataków-na-dużą-skale">Wyciek danych i nowe przypadki cyberataków na dużą skale<a href="https://www.majdak.online/blog/news-2025-05-14#wyciek-danych-i-nowe-przypadki-cyberatak%C3%B3w-na-du%C5%BC%C4%85-skale" class="hash-link" aria-label="Direct link to Wyciek danych i nowe przypadki cyberataków na dużą skale" title="Direct link to Wyciek danych i nowe przypadki cyberataków na dużą skale">​</a></h2>
-<p>Firmy takie jak Marks &amp; Spencer czy Dior doświadczyły poważnych naruszeń bezpieczeństwa, co potwierdza, że cyberprzestępcy coraz chętniej atakują dużych graczy. Ransomware, kradzieże czy phishing to tylko niektóre z metod wykorzystywanych na szeroką skalę.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-i-ataki-na-infrastrukturę-krytyczną">Wyciek i ataki na infrastrukturę krytyczną<a href="https://www.majdak.online/blog/news-2025-05-14#wyciek-i-ataki-na-infrastruktur%C4%99-krytyczn%C4%85" class="hash-link" aria-label="Direct link to Wyciek i ataki na infrastrukturę krytyczną" title="Direct link to Wyciek i ataki na infrastrukturę krytyczną">​</a></h2>
-<p>Amerykańskie agencje ostrzegają przed zaawansowanymi atakami na systemy przemysłowe i infrastrukturę krytyczną, m.in. w firmach energetycznych i przemysłowych. Przykładem są cyberzagrożenia związane z lukami w SAP, Fortinet czy Ivanti.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-aktywności-grup-państwowych-i-cyberespionage">Wzrost aktywności grup państwowych i cyberespionage<a href="https://www.majdak.online/blog/news-2025-05-14#wzrost-aktywno%C5%9Bci-grup-pa%C5%84stwowych-i-cyberespionage" class="hash-link" aria-label="Direct link to Wzrost aktywności grup państwowych i cyberespionage" title="Direct link to Wzrost aktywności grup państwowych i cyberespionage">​</a></h2>
-<p>Korea Północna i Chiny zwiększają swoje działania wywiadowcze, atakując ukraińskie i światowe cele szpiegowskie. Konni APT i chińskie grupy korzystają z luk w SAP i innych systemach, by zdobywać wrażliwe informacje.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania-i-narzędzia-ochronne-na-bieżący-rok">Rozwiązania i narzędzia ochronne na bieżący rok<a href="https://www.majdak.online/blog/news-2025-05-14#rozwi%C4%85zania-i-narz%C4%99dzia-ochronne-na-bie%C5%BC%C4%85cy-rok" class="hash-link" aria-label="Direct link to Rozwiązania i narzędzia ochronne na bieżący rok" title="Direct link to Rozwiązania i narzędzia ochronne na bieżący rok">​</a></h2>
-<p>Firmy takie jak Google, Microsoft czy Fortinet wprowadzają poprawki i nowe funkcje bezpieczeństwa, od Advanced Protection mode po łatki na złośliwe oprogramowanie. Wzmacnianie systemów i edukacja użytkowników pozostają kluczowe w walce z cyberzagrożeniami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-i-wyzwania-przyszłości">Podsumowanie i wyzwania przyszłości<a href="https://www.majdak.online/blog/news-2025-05-14#podsumowanie-i-wyzwania-przysz%C5%82o%C5%9Bci" class="hash-link" aria-label="Direct link to Podsumowanie i wyzwania przyszłości" title="Direct link to Podsumowanie i wyzwania przyszłości">​</a></h2>
-<p>Bezpieczeństwo cyfrowe w 2025 roku wymaga ciągłej aktualizacji zabezpieczeń, monitorowania zagrożeń i współpracy międzynarodowej. Znaczenie mają zarówno nowoczesne technologie, jak i edukacja użytkowników w zakresie ostrożności w sieci.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Ransomware" term="Ransomware"/>
-        <category label="vulnerabilities" term="vulnerabilities"/>
-        <category label="exploits" term="exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Najważniejsze wnioski z procesu WhatsApp kontra NSO Group i nowe zagrożenia cyberbezpieczeństwa]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-13</id>
         <link href="https://www.majdak.online/blog/news-2025-05-13"/>
@@ -369,7 +407,7 @@
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[📰 Podsumowanie wiadomości: 12 maja 2025 – analiza ransomware MAKOP i najnowsze zagrożenia w cyberbezpieczeństwie]]></title>
+        <title type="html"><![CDATA[🔥 Cyberatak na Twoje dane? Najnowsze ransomware, luki w ASUS i fałszywe AI]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-12</id>
         <link href="https://www.majdak.online/blog/news-2025-05-12"/>
         <updated>2025-05-12T00:00:00.000Z</updated>
@@ -401,7 +439,7 @@
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[📰 Podsumowanie wydarzeń z dnia 2025-05-09 w cyberbezpieczeństwie]]></title>
+        <title type="html"><![CDATA[Największe wycieki, przełomowe akcje i nowe zagrożenia – podsumowanie dnia 2025-05-09!]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-09</id>
         <link href="https://www.majdak.online/blog/news-2025-05-09"/>
         <updated>2025-05-09T00:00:00.000Z</updated>
@@ -808,44 +846,6 @@
 <p>Nie zabrakło też przykładów ataków na firmy z sektora handlowego, np. M&amp;S i MTN, które musiały zawiesić działalność lub ograniczyć dostęp w wyniku cyberincydentów.</p>
 <p>Podsumowując, dziś obserwujemy kontynuację rozwoju zagrożeń, ale i zaawansowania w narzędziach obronnych oraz globalne działania służb w kierunku łapania wyłudzaczy i cyberprzestępców. Bezpieczeństwo IT to wciąż gra w wyścigu z czasem.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-25#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Automation" term="Automation"/>
-        <category label="Networking" term="Networking"/>
-        <category label="Wydarzenia" term="Wydarzenia"/>
-        <category label="Konferencje" term="Konferencje"/>
-        <category label="Technologie" term="Technologie"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Malware" term="Malware"/>
-        <category label="OWASP" term="OWASP"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Web Application" term="Web Application"/>
-        <category label="Penetration Testing" term="Penetration Testing"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[📰 News Digest: 2025-04-24 Blue Shield of California przez lata udostępniało dane pacjentów]]></title>
-        <id>https://www.majdak.online/blog/news-2025-04-24</id>
-        <link href="https://www.majdak.online/blog/news-2025-04-24"/>
-        <updated>2025-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.]]></summary>
-        <content type="html"><![CDATA[<p>Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najciekawsza-informacja-dnia">Najciekawsza informacja dnia<a href="https://www.majdak.online/blog/news-2025-04-24#najciekawsza-informacja-dnia" class="hash-link" aria-label="Direct link to Najciekawsza informacja dnia" title="Direct link to Najciekawsza informacja dnia">​</a></h2>
-<p>Blue Shield of California wyciekło dane zdrowotne 4,7 miliona pacjentów, udostępniając je Google’u na platformach analitycznych i reklamowych. To kolejny poważny incydent w sektorze opieki zdrowotnej.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-dnia">Podsumowanie dnia<a href="https://www.majdak.online/blog/news-2025-04-24#podsumowanie-dnia" class="hash-link" aria-label="Direct link to Podsumowanie dnia" title="Direct link to Podsumowanie dnia">​</a></h2>
-<p>Najnowszy raport ujawnia, że Blue Shield of California przez lata udostępniało dane pacjentów Google’owi, co wywołało krytykę i pytania o bezpieczeństwo w branży zdrowotnej. W międzyczasie firma Endor Labs pozyskała aż 93 miliony dolarów na rozwój narzędzi do skanowania AI-generated code pod kątem luk bezpieczeństwa. To potwierdza rosnące zagrożenie związane z automatyzacją i sztuczną inteligencją.</p>
-<p>Na rynku startupów widzimy też dużą ofensywę na rzecz SMB – Cynomi zgarnęło 37 milionów dolarów na swoje AI-based virtual CISO, pomagające małym i średnim firmom bronić się przed cyberatakami. W Europie z kolei kontrowersje budzi projekt prawa w Florydzie, nakładający dostęp do szyfrowania i wprowadzający backdoory w social media.</p>
-<p>W świecie dużych firm i technologii pojawiły się poważne luki – Google naprawiło dwa aktywnie wykorzystywane zero-day, Apple załatało 0-day wykorzystane w zaawansowanych atakach, a VMware wydało poprawki związane z poważnymi lukami hyperjacking.</p>
-<p>Nie zabrakło też informacji o atakach na infrastrukturę – na przykład masowa botneta Eleven11, która używa urządzeń IoT do przeprowadzania rekordowych ataków DDoS, czy ataku na 1 milion urządzeń Windows za pomocą malvertisingu. Warto też wspomnieć o nowym, wysoce wyrafinowanym malware ukrytym w aplikacji mappingowej wykorzystywanej przez rosyjskich żołnierzy.</p>
-<p>Na poziomie polityki i prawa – trwają kontrowersje wokół prac nad backdoorami w Apple i debat na temat ochrony prywatności w kontekście nowych ustaw. Również FBI zaczął dochodzenie w sprawie znanego prozaszcinacza cyberataków.</p>
-<p>W świecie malware i spyware cały czas trwają wyścigi – NSA ostrzega przed techniką „fast flux” używaną przez złośników i państwa, a NSO Group przyznała, że jej narzędzia były używane do inwigilacji w Meksyku i Arabii Saudyjskiej. Daleko od tego, pojawiły się też raporty o North Korean Spyware w Google Play oraz o zagrożeniach dla wojska rosyjskiego ukrytych w popularnej aplikacji mapowej.</p>
-<p>Pod kątem rozwiązań i narzędzi bezpieczeństwa, Google wprowadziło nową funkcję synchronizacji hasłem na iOS, a Microsoft naprawił błędy powodujące zamrażanie sesji RDP oraz problemy z instalacją Windows Server 2025. Jednocześnie pojawiły się nowe zagrożenia związane z rootkitami na Linuksie, a użytkownicy Androida powinni jak najszybciej zainstalować najnowsze poprawki po wykryciu złośliwego oprogramowania ukrytego w trojanach.</p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-24#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
