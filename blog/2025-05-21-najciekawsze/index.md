@@ -1,12 +1,12 @@
 ---
 slug: news-2025-05-21
-title: "Cyberzagrożenia w 2025 roku: od wycieków danych, przez zaawansowane ataki APT po nowe narzędzia cyberprzestępców"
-intro: "Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia."
+title: "Cyberwojna 2025: Największe wycieki, ataki hakerów i przełomowe techniki obrony – co musisz wiedzieć?"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-21"
 ---
 
+Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.
 
 ## Skandale i wycieki danych na szeroką skalę
 

@@ -1,6 +1,6 @@
 ---
 slug: news-2025-05-19
-title: "Cyberzagrożenia na początku 2025 roku: wyciek danych, ataki i nowoczesne rozwiązania zabezpieczeń"
+title: "Szokujące cyberataki: wycieki danych, ransomware i przełomowe technologie obrony!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-19"

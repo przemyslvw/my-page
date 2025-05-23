@@ -1,6 +1,6 @@
 ---
 slug: news-2025-05-09
-title: "📰 Podsumowanie wydarzeń z dnia 2025-05-09 w cyberbezpieczeństwie"
+title: "Największe wycieki, przełomowe akcje i nowe zagrożenia – podsumowanie dnia 2025-05-09!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "ataki", "malware", "web-security", "webapp"]
 date: "2025-05-09"

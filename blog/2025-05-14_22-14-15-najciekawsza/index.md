@@ -1,6 +1,6 @@
 ---
 slug: news-2025-05-14  
-title: "Ostatnie wydarzenia w cyberbezpieczeństwie: od luk zero-day po zagrożenia na szeroką skalę"  
+title: "Największe wycieki, luki zero-day i wojny szpiegów 2025 – co musisz wiedzieć już dziś!"
 authors: [przemyslvw]  
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-14"  

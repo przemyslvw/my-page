@@ -1,12 +1,12 @@
 ---
 slug: news-2025-05-23
-title: "Uciekaj z czyjegoś cienia: 10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!"
-intro: "Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić."
+title: "10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-23"
 ---
 
+Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić.
 
 ## Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa
 
