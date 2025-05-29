@@ -13,23 +13,38 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
-            <p> 📡 Majdak Think Tank 🛡️</p>
-        </Heading>
-        <p className="hero__subtitle">🚀 Innowacje 🔬 Bezpieczeństwo IT 🔐 Automatyzacja ⚙️</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            📖 Dokumentacja
-          </Link>
-
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog"
-            style={{ marginLeft: '10px' }}>
-            📰 Blog
-          </Link>
+        <div className="row">
+          <div className="col col--6 col--offset-3">
+            <div className={styles.contentWrapper}>
+              <Heading as="h1" className="hero__title">
+                <span className="text--gradient">Majdak Think Tank</span>
+              </Heading>
+              <p className="hero__subtitle">
+                Specjalizacja w cyberbezpieczeństwie, innowacyjnych technologiach i rozwiązańach IT
+              </p>
+              <p className="hero__description">
+                Expertise w zakresie:
+                <br />
+                <span className="text--highlight">• Bezpieczeństwo IT i Cyberbezpieczeństwo</span>
+                <br />
+                <span className="text--highlight">• Automatyzacja i Programowanie</span>
+                <br />
+                <span className="text--highlight">• Web Development i Aplikacje Internetowe</span>
+              </p>
+              <div className={styles.buttons}>
+                <Link
+                  className="button button--primary button--lg"
+                  to="/docs/intro">
+                  <i className="fas fa-book"></i> Dokumentacja
+                </Link>
+                <Link
+                  className="button button--secondary button--lg"
+                  to="/blog">
+                  <i className="fas fa-newspaper"></i> Blog
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>

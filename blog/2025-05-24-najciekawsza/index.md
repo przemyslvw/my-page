@@ -3,7 +3,6 @@ slug: news-2025-05-24
 title: "Jak TikTok i AI mogą zagrażać Twojemu bezpieczeństwu? 10 szokujących faktów, które musisz znać!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
-image: "/img/blog/ChatGPT Image May 24, 2025, 10_36_52 AM.png"
 date: "2025-05-24"
 ---
 
