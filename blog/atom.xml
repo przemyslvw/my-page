@@ -2,11 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-05-23T00:00:00.000Z</updated>
+    <updated>2025-05-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Jak TikTok i AI mogą zagrażać Twojemu bezpieczeństwu? 10 szokujących faktów, które musisz znać!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-05-24</id>
+        <link href="https://www.majdak.online/blog/news-2025-05-24"/>
+        <updated>2025-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberzagrożenia rosną w zastraszającym tempie. Od wykorzystania TikToka do rozprzestrzeniania malware, po poważne luki w zabezpieczeniach – sprawdzamy, co naprawdę czai się za rogiem. Dowiedz się, jak chronić siebie i swoją firmę w świecie pełnym zagrożeń!]]></summary>
+        <content type="html"><![CDATA[<p>Cyberzagrożenia rosną w zastraszającym tempie. Od wykorzystania TikToka do rozprzestrzeniania malware, po poważne luki w zabezpieczeniach – sprawdzamy, co naprawdę czai się za rogiem. Dowiedz się, jak chronić siebie i swoją firmę w świecie pełnym zagrożeń!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tiktok-i-clickfix--jak-malware-trafia-do-twojego-urządzenia">TikTok i ClickFix – jak malware trafia do Twojego urządzenia?<a href="https://www.majdak.online/blog/news-2025-05-24#tiktok-i-clickfix--jak-malware-trafia-do-twojego-urz%C4%85dzenia" class="hash-link" aria-label="Direct link to TikTok i ClickFix – jak malware trafia do Twojego urządzenia?" title="Direct link to TikTok i ClickFix – jak malware trafia do Twojego urządzenia?">​</a></h2>
+<p>Cyberprzestępcy wykorzystują popularność TikToka, aby rozprowadzać malware Latrodectus za pomocą techniki ClickFix, która umożliwia uruchomienie złośliwego kodu w pamięci przeglądarki, omijając zabezpieczenia.</p>
+<p>To nowoczesne i ekstremalnie ryzykowne rozwiązanie, które sprawia, że infekcji trudno zapobiec – zabezpieczenia bazujące na tradycyjnych metodach stają się bezsilne.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="poważne-luki-w-routerach-cisco-i-kompromitacja-tysięcy-urządzeń">Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń<a href="https://www.majdak.online/blog/news-2025-05-24#powa%C5%BCne-luki-w-routerach-cisco-i-kompromitacja-tysi%C4%99cy-urz%C4%85dze%C5%84" class="hash-link" aria-label="Direct link to Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń" title="Direct link to Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń">​</a></h2>
+<p>Wykorzystanie krytycznego błędu CVE-2023-20118 pozwala hackerom na kontrolę nad setkami sieciowych urządzeń na świecie. Zainfekowanych zostało aż 5300 urządzeń w ponad 84 krajach, tworząc globalną sieć honeypotów.</p>
+<p>To zagrożenie pokazuje, jak łatwo można przekształcić zainfekowane urządzenia w narzędzie inwigilacji i ataków na skali globalnej.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zamach-na-infrastrukturę--300-serwerów-i-650-domen-zniszczonych-przez-europol">Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol<a href="https://www.majdak.online/blog/news-2025-05-24#zamach-na-infrastruktur%C4%99--300-serwer%C3%B3w-i-650-domen-zniszczonych-przez-europol" class="hash-link" aria-label="Direct link to Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol" title="Direct link to Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol">​</a></h2>
+<p>Międzynarodowa akcja wymierzona w ransomware skutecznie wyłączyła 300 serwerów, unieszkodliwiła 650 domen i zatrzymała 20 przestępców na całym świecie.</p>
+<p>To jedno z największych uderzeń w cyberprzestępczy świat, które pokazuje, że współpraca organów ścigania działa na najwyższych obrotach.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="eksperci-udowadniają--ai-nie-jest-do-końca-bezpieczna">Eksperci udowadniają – AI nie jest do końca bezpieczna<a href="https://www.majdak.online/blog/news-2025-05-24#eksperci-udowadniaj%C4%85--ai-nie-jest-do-ko%C5%84ca-bezpieczna" class="hash-link" aria-label="Direct link to Eksperci udowadniają – AI nie jest do końca bezpieczna" title="Direct link to Eksperci udowadniają – AI nie jest do końca bezpieczna">​</a></h2>
+<p>Najnowsze testy wykazały, że asystent AI w GitLab Duo może zostać zmanipulowany, co umożliwia atakującemu wykradanie kodu i ładowanie złośliwego HTML.</p>
+<p>To dowód, że nawet najbardziej zaawansowane systemy AI mogą stać się narzędziem cyberataków, jeśli nie są odpowiednio chronione.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="geolokalizacja-użytkowników--o-co-poszło-z-o2-uk">Geolokalizacja użytkowników – o co poszło z O2 UK?<a href="https://www.majdak.online/blog/news-2025-05-24#geolokalizacja-u%C5%BCytkownik%C3%B3w--o-co-posz%C5%82o-z-o2-uk" class="hash-link" aria-label="Direct link to Geolokalizacja użytkowników – o co poszło z O2 UK?" title="Direct link to Geolokalizacja użytkowników – o co poszło z O2 UK?">​</a></h2>
+<p>Operator sieci O2 UK naprawił podatność w technologii VoLTE, która mogła pozwolić hackerom na śledzenie lokalizacji użytkowników smartfonów.</p>
+<p>To pokazuje, jak starsze technologie mogą stanowić poważne zagrożenie dla prywatności, jeśli nie są odpowiednio zabezpieczone.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jak-tiktok-i-youtube-pomagają-malware--nowa-taktyka-hackerska">Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska<a href="https://www.majdak.online/blog/news-2025-05-24#jak-tiktok-i-youtube-pomagaj%C4%85-malware--nowa-taktyka-hackerska" class="hash-link" aria-label="Direct link to Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska" title="Direct link to Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska">​</a></h2>
+<p>Cyberprzestępcy używają TikTok i YouTube do rozprzestrzeniania infostealer malware, wykorzystując popularne platformy do oszukiwania użytkowników.</p>
+<p>To kolejny krok w rozwoju strategii społecznego inżynierii, które mogą kosztować Cię fortunę lub dane.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-globalnego-zagrożenia--rosyjska-grupa-qakbot-i-ransomware-na-celowniku">Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku<a href="https://www.majdak.online/blog/news-2025-05-24#wzrost-globalnego-zagro%C5%BCenia--rosyjska-grupa-qakbot-i-ransomware-na-celowniku" class="hash-link" aria-label="Direct link to Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku" title="Direct link to Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku">​</a></h2>
+<p>Przykład? Putinowska grupa Qakbot, która została oficjalnie oskarżona i zatrzymano jej lidera w USA. Czyni to cyberprzestępców jeszcze bardziej niebezpiecznymi.</p>
+<p>Ponadto, operacje takie jak DanaBot czy działania Europolu pokazują, że cyberprzestępczości nie można ignorować.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="czy-twoje-dane-są-bezpieczne--sprawdzamy-największe-luki">Czy Twoje dane są bezpieczne? – sprawdzamy największe luki<a href="https://www.majdak.online/blog/news-2025-05-24#czy-twoje-dane-s%C4%85-bezpieczne--sprawdzamy-najwi%C4%99ksze-luki" class="hash-link" aria-label="Direct link to Czy Twoje dane są bezpieczne? – sprawdzamy największe luki" title="Direct link to Czy Twoje dane są bezpieczne? – sprawdzamy największe luki">​</a></h2>
+<p>Vulnerabilities w popularnych narzędziach, takich jak Ivanti czy Cityworks, są wykorzystywane przez chińskie grupy szpiegowskie do ataków na sektor publiczny i prywatny.</p>
+<p>Ochrona przed tym wymaga stałego monitorowania i aktualizacji systemów, bo luka w jednym momencie może kosztować Cię miliardy.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="przyszłość-cyberbezpieczeństwa--jak-ai-i-automatyzacja-zmieniają-grę">Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę<a href="https://www.majdak.online/blog/news-2025-05-24#przysz%C5%82o%C5%9B%C4%87-cyberbezpiecze%C5%84stwa--jak-ai-i-automatyzacja-zmieniaj%C4%85-gr%C4%99" class="hash-link" aria-label="Direct link to Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę" title="Direct link to Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę">​</a></h2>
+<p>Organizacje coraz częściej sięgają po AI do automatyzacji wykrywania zagrożeń i ochrony danych, ale to rozwiązanie ma swoje pułapki.</p>
+<p>Kluczem jest więc zrównoważone podejście – technologia, trening i współpraca to gwarancja bezpieczeństwa.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="co-dalej-jak-się-chronić-w-świecie-pełnym-cyberzagrożeń">Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?<a href="https://www.majdak.online/blog/news-2025-05-24#co-dalej-jak-si%C4%99-chroni%C4%87-w-%C5%9Bwiecie-pe%C5%82nym-cyberzagro%C5%BCe%C5%84" class="hash-link" aria-label="Direct link to Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?" title="Direct link to Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?">​</a></h2>
+<p>Regularne aktualizacje, edukacja pracowników i korzystanie z najnowszych narzędzi bezpieczeństwa — to Twoja tarcza w coraz bardziej wrogim cyfrowym świecie.</p>
+<p>Nie pozwól, by cyberprzestępcy Cię zaskoczyli. Bądź na bieżąco!</p>
+<p>![Obrazek](/img/blog/ChatGPT Image May 24, 2025, 10_36_52 AM.png)</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Ransomware" term="Ransomware"/>
+        <category label="vulnerabilities" term="vulnerabilities"/>
+        <category label="exploits" term="exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!]]></title>
         <id>https://www.majdak.online/blog/news-2025-05-23</id>
@@ -805,47 +855,6 @@
 <p>Microsoft podkreśla, że narzędzie AzureChecker.exe jest szeroko wykorzystywane przez różnych cyberprzestępców, a jego popularność wskazuje na powiększające się zagrożenie dla sektora edukacyjnego. Ochrona przed tymi atakami wymaga nie tylko silnych haseł, ale także wdrożenia wielopoziomowych mechanizmów uwierzytelniania i monitorowania anomalii w sieci.</p>
 <p>Biorąc pod uwagę skalę i metodologię ataków, instytucje edukacyjne powinny szczególnie zadbać o bezpieczeństwo swoich usług chmurowych, aby zapobiec podobnym incydentom w przyszłości.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-27#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Automation" term="Automation"/>
-        <category label="Networking" term="Networking"/>
-        <category label="Wydarzenia" term="Wydarzenia"/>
-        <category label="Konferencje" term="Konferencje"/>
-        <category label="Technologie" term="Technologie"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Malware" term="Malware"/>
-        <category label="OWASP" term="OWASP"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Web Application" term="Web Application"/>
-        <category label="Penetration Testing" term="Penetration Testing"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[📰 News Digest: 2025-04-25 Rosnąca liczba ataków na sektory krytyczne]]></title>
-        <id>https://www.majdak.online/blog/news-2025-04-25</id>
-        <link href="https://www.majdak.online/blog/news-2025-04-25"/>
-        <updated>2025-04-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dziś najważniejsze wiadomości to rosnąca liczba ataków na sektory krytyczne i znaczące postępy w technologii bezpieczeństwa.]]></summary>
-        <content type="html"><![CDATA[<p>Dziś najważniejsze wiadomości to rosnąca liczba ataków na sektory krytyczne i znaczące postępy w technologii bezpieczeństwa.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najciekawsza-informacja-dnia">Najciekawsza informacja dnia<a href="https://www.majdak.online/blog/news-2025-04-25#najciekawsza-informacja-dnia" class="hash-link" aria-label="Direct link to Najciekawsza informacja dnia" title="Direct link to Najciekawsza informacja dnia">​</a></h2>
-<p>FBI zaoferowało 10 milionów dolarów za informacje o członkach grupy Salt Typhoon, aktywnie zaangażowanej w ataki na operatorów telekomunikacyjnych w Chinach i innych krajach.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-dnia">Podsumowanie dnia<a href="https://www.majdak.online/blog/news-2025-04-25#podsumowanie-dnia" class="hash-link" aria-label="Direct link to Podsumowanie dnia" title="Direct link to Podsumowanie dnia">​</a></h2>
-<p>Najnowszy słownik terminów cyberbezpieczeństwa od TechCrunch pomaga zrozumieć podstawy branży, co jest ważne w kontekście rosnącej złożoności zagrożeń.<br>
-<!-- -->Ważny incydent dotknął Yale New Haven Health w Connecticut — ponad 5 milionów pacjentów i pracowników padło ofiarą ransomware, co podkreśla wciąż wysokie zagrożenie dla sektora zdrowia.</p>
-<p>Z kolei agencja FBI próbując wywabić chińskie grupy hakerskie, Salt Typhoon, oferuje 10 milionów dolarów za informacje — wskazuje to na dużą skali zagrożeń związanych z cyberespionage i stanem działań wywiadowczych.</p>
-<p>Na arenie międzynarodowej zauważalny jest wzrost aktywności North Koreańskich hakerów, którzy rozprzestrzeniają malware poprzez fałszywe firmy kryptowalutowe i oferty pracy, próbując zdobyć dostęp do krytycznych systemów.</p>
-<p>Odkryto poważne luki w sektorze SAP — m.in. CVE-2025-27610 w NetWeaver, umożliwiające ataki typu web shell i nieautoryzowany dostęp. SAP już wypuścił poprawki, lecz zagrożenie wciąż jest realne.</p>
-<p>W dziedzinie nowych technologii i narzędzi bezpieczeństwa, Lattica prezentuje platformę FHE do bezpiecznego przetwarzania danych w AI, co może zrewolucjonizować sposób, w jaki analizujemy zaszyfrowane informacje.</p>
-<p>Na rynku cyberbezpieczeństwa coraz więcej firm inwestuje w zabezpieczenia przeciwko oszustwom — Scamnetic pozyskało 13 milionów dolarów na ochronę w czasie rzeczywistym, a Manifest 15 milionów na zarządzanie kompletnym SBOM.</p>
-<p>Równocześnie, skracanie czasu reakcji i szybkie aktualizacje stają się standardem — Microsoft wypuścił aktualizacje Windows 11 z miejscami na błędy i nowościami takimi jak Windows Recall wspierany przez AI.</p>
-<p>W dziedzinie złośliwego oprogramowania i exploita, badacze alarmują o chainie exploittów w Craft CMS, które są wykorzystywane do kradzieży danych, oraz o malware DslogdRAT, rozpowszechnianym podczas ataków na organizacje w Japonii.</p>
-<p>Nie zabrakło też przykładów ataków na firmy z sektora handlowego, np. M&amp;S i MTN, które musiały zawiesić działalność lub ograniczyć dostęp w wyniku cyberincydentów.</p>
-<p>Podsumowując, dziś obserwujemy kontynuację rozwoju zagrożeń, ale i zaawansowania w narzędziach obronnych oraz globalne działania służb w kierunku łapania wyłudzaczy i cyberprzestępców. Bezpieczeństwo IT to wciąż gra w wyścigu z czasem.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cybersecurity-ai-infosec-automation-news">#cybersecurity #ai #infosec #automation #news<a href="https://www.majdak.online/blog/news-2025-04-25#cybersecurity-ai-infosec-automation-news" class="hash-link" aria-label="Direct link to #cybersecurity #ai #infosec #automation #news" title="Direct link to #cybersecurity #ai #infosec #automation #news">​</a></h2>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
