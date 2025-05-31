@@ -1,0 +1,143 @@
+{
+  "name": "webscraper",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "be3c7eff-2479-49b5-9b0e-77260fbc9778",
+      "name": "When clicking ‘Test workflow’",
+      "type": "n8n-nodes-base.manualTrigger",
+      "position": [
+        2800,
+        380
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "content": "## Note\n\nDeals with the Glassdoor data extraction by using the Bright Data Web Scrapper API.\n\nThe summarization chain is being used to demonstrate the usage of the N8N AI capabilities.",
+        "height": 200,
+        "width": 400
+      },
+      "id": "cb8645b0-ae94-4ee0-b224-7211a52a40ba",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        2980,
+        40
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "content": "## LLM Usages\n\nGoogle Gemini Flash Exp model is being used.\n\nSummarization Chain is being used for summarization of the content",
+        "height": 200,
+        "width": 420
+      },
+      "id": "c1fb37ab-c95e-4fcf-95b7-ee93bf271e20",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        3500,
+        40
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "url": "https://justjoin.it/job-offers/krakow/javascript",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/122.0 Safari/537.36"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Referer",
+              "value": "https://www.olx.pl/"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3320,
+        880
+      ],
+      "id": "a5cfa97b-590c-40ec-b239-c127d18dcfe1",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "const html = $input.item.json.data;\n\n// Wyciągnij tytuły ofert z <h3>\nconst titles = [...html.matchAll(/<h3[^>]*>(.*?)<\\/h3>/g)].map(m => m[1].trim());\n\n// Wyciągnij stawki — np. <span>18 000</span>\nconst prices = [...html.matchAll(/<span[^>]*>(\\d{1,3}(?:\\s\\d{3})*)<\\/span>/g)].map(m => m[1].trim());\n\n// Połącz dane\nconst result = titles.map((title, i) => ({\n  json: {\n    title,\n    price: prices[i] || 'Brak'\n  }\n}));\n\nreturn result;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3540,
+        880
+      ],
+      "id": "cef439f3-37ea-4fbb-b3ba-1f9d9751571d",
+      "name": "Code"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "1d878897-78b9-4ce7-8ad5-7838cb0801d0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "bfd34d45608dc81985749cd7770af8ccb275c6f928d2737c53bde2089409b57e"
+  },
+  "id": "TiCUBOYRMCNKKQZ5",
+  "tags": [
+    {
+      "name": "AI",
+      "id": "aLvoqftztTZzUzHh",
+      "createdAt": "2025-05-31T08:20:01.710Z",
+      "updatedAt": "2025-05-31T08:20:01.710Z"
+    },
+    {
+      "name": "HR",
+      "id": "C0FiC7OLA3pH0I0e",
+      "createdAt": "2025-05-31T16:20:29.845Z",
+      "updatedAt": "2025-05-31T16:20:29.845Z"
+    }
+  ]
+}
