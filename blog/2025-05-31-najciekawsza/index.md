@@ -3,7 +3,6 @@ slug: news-2025-05-31
 title: "7 Szokujących Trendów i Luka w Cyberbezpieczeństwie, które Musisz znać w 2025!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
-image: "/img/blog/$('Code').first().json.filename"
 date: "2025-05-31"
 ---
 
@@ -99,7 +98,3 @@ Prewencja to podstawa bezpieczeństwa!
 Od nowych technik hakerskich po globalne operacje - zachowaj czujność i bądź o krok przed cyberzagrożeniami.
 
 Twoje bezpieczeństwo zależy od tego, ile jesteś na bieżąco!
-
-
-
-![Obrazek](/img/blog/$('Code').first().json.{filename})
