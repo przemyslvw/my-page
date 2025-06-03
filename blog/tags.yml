@@ -392,4 +392,76 @@ exploits:
   label: Exploits
   permalink: /exploits
   description: Eksploatacja luk i podatności.
+  
+ai:
+  label: AI
+  permalink: /blog/tags/ai
+
+n8n:
+  label: n8n
+  permalink: /blog/tags/n8n
+
+automatyzacja:
+  label: Automatyzacja
+  permalink: /blog/tags/automatyzacja
+
+vulnerabilities:
+  label: Vulnerabilities
+  permalink: /blog/tags/vulnerabilities
+
+exploits:
+  label: Exploits
+  permalink: /blog/tags/exploits
+
+istqb:
+  label: ISTQB
+  permalink: /blog/tags/istqb
+
+iso27001:
+  label: ISO27001
+  permalink: /blog/tags/iso27001
+
+bezpieczenstwo-informacji:
+  label: Bezpieczeństwo Informacji
+  permalink: /blog/tags/bezpieczenstwo-informacji
+
+zarzadzanie-bezpieczenstwem:
+  label: Zarządzanie Bezpieczeństwem
+  permalink: /blog/tags/zarzadzanie-bezpieczenstwem
+
+esp32:
+  label: ESP32
+  permalink: /blog/tags/esp32
+
+arduino:
+  label: Arduino
+  permalink: /blog/tags/arduino
+
+owasp:
+  label: OWASP
+  permalink: /blog/tags/owasp
+
+inzynieria-bezpieczenstwa:
+  label: Inżynieria Bezpieczeństwa
+  permalink: /blog/tags/inzynieria-bezpieczenstwa
+
+bezpieczenstwo-aplikacji:
+  label: Bezpieczeństwo Aplikacji
+  permalink: /blog/tags/bezpieczenstwo-aplikacji
+
+bezpieczenstwo-danych:
+  label: Bezpieczeństwo Danych
+  permalink: /blog/tags/bezpieczenstwo-danych
+
+cyberbezpieczenstwo:
+  label: Cyberbezpieczeństwo
+  permalink: /blog/tags/cyberbezpieczenstwo
+
+penetracja-systemow:
+  label: Penetracja Systemów
+  permalink: /blog/tags/penetracja-systemow
+
+testy-penetracyjne:
+  label: Testy Penetracyjne
+  permalink: /blog/tags/testy-penetracyjne
 
