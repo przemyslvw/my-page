@@ -3,12 +3,12 @@ slug: news-2025-06-02
 title: "Cyberbezpieczeństwo w epicentrum chaosu: 10 najnowszych zagrożeń, które mogą zniszczyć Twoją firmę w 2025 roku"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
-image: "/img/blog/$('Code13').first().json.filename"
 date: "2025-06-02"
 ---
 
 Świat cyfrowy stoi na krawędzi kryzysu – cyberprzestępcy coraz sprytniej wykorzystują luki, by wykradać dane, zasiewać malware czy przejmować infrastrukturę. Dowiedz się, jakie najnowsze ataki i zagrożenia mogą zagrozić Twojej organizacji już dziś.
 
+<!-- truncate -->
 
 ## Eksploatacja luk i złośliwe kampanie na szeroką skalę
 
@@ -38,5 +38,3 @@ Firmy muszą zaktualizować swoje systemy, stosować wielowarstwowe zabezpieczen
 Wieloetapowe monitorowanie, szybka reakcja na wykryte luki oraz edukacja pracowników są kluczem do przetrwania w świecie pełnym nieustających zagrożeń cybernetycznych.
 
 
-
-![Obrazek](/img/blog/$('Code13').first().json.{filename})

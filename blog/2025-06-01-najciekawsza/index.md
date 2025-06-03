@@ -3,12 +3,13 @@ slug: news-2025-06-01
 title: "Jak hakerzy zsynchronizowali globalne ataki i ukryli się pod maską cyberprzestępców? Oto najnowsze tajemnice bezpieczeństwa!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
-image: "/img/blog/$('Code').first().json.filename"
+
 date: "2025-06-01"
 ---
 
 Cyberzagrożenia rosną w zastraszającym tempie, a cyberprzestępcy idą na coraz poważniejsze kroki. Poznaj najnowsze ataki, które mogą zagrozić twoim danym i dowiedz się, jak się przed nimi bronić!
 
+<!-- truncate -->
 
 ## Król ransomware ‘Stern’ zidentyfikowany przez niemieckie służby
 
@@ -36,7 +37,3 @@ To pierwszy krok do powstrzymania szerzącej się cyberprzestępczości i odzysk
 Publikacja szczegółów dotyczących krytycznej luki pozwala atakującym na złośliwe przesyłanie plików i przejęcie kontroli nad infrastrukturą sieciową.
 
 Eksperci ostrzegają, że wkrótce może pojawić się działający exploit, więc administratorzy powinni natychmiast zastosować dostępne poprawki, by nie dać się złapać.
-
-
-
-![Obrazek](/img/blog/$('Code').first().json.{filename})

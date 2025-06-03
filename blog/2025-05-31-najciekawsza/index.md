@@ -8,6 +8,7 @@ date: "2025-05-31"
 
 Rok 2025 przynosi niezwykłe wyzwania i nowe zagrożenia w świecie cyberbezpieczeństwa. Od globalnych akcji prawnych po techniczne luki — sprawdź, co może wpłynąć na Twoją firmę już teraz!
 
+<!-- truncate -->
 
 ## Tajne Info z Procesu WhatsApp vs. NSO Group
 

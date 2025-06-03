@@ -4,10 +4,11 @@ title: "Grupa analizy zagrożeń Google odkrywa wykorzystywane przez hakerów ze
 authors: [przemyslvw]
 tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: 2025-06-03
-image: "/img/blog/news.webp"
 ---
 
 W świat cyberbezpieczeństwa wstrząsnęła właśnie globalna aksiata związaną z nowym, wysoce zaawansowanym malware'em Crocodilus, który teraz zagraża użytkownikom w 8 krajach. Ta ewoluująca nowość wykracza daleko poza Turkey, a eksperci ostrzegają, że jej złośliwe techniki mogą wkrótce zagrozić milionom na całym świecie.
+
+<!-- truncate -->
 
 ### Crocodilus – nowa talia zagrożeń na globalną skalę
 
