@@ -2,7 +2,7 @@
 slug: news-2025-06-03
 title: "Grupa analizy zagrożeń Google odkrywa wykorzystywane przez hakerów zero-daye w telefonach Qualcomm!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "AI", "n8n", "automatyzacja"]
+tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: 2025-06-03
 image: "/img/blog/news.webp"
 ---
