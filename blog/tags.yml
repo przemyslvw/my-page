@@ -382,3 +382,14 @@ threat-intelligence:
   label: Threat Intelligence
   permalink: /threat-intelligence
   description: Analiza zagrożeń i wywiad cybernetyczny.
+  
+vulnerabilities:
+  label: Vulnerabilities
+  permalink: /vulnerabilities
+  description: Luki i podatności w systemach.
+
+exploits:
+  label: Exploits
+  permalink: /exploits
+  description: Eksploatacja luk i podatności.
+
