@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-06-03T00:00:00.000Z</updated>
+    <updated>2025-06-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Google ujawnia nową groźną grupę hakerów UNC6040 specjalizującą się w vishingu i kradzieży danych Salesforce]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-04</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-04"/>
+        <updated>2025-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberprzestępcy nie przestają zaskakiwać, wykorzystując najnowsze luki w popularnych narzędziach. Oto jedna z najbardziej intrygujących informacji, która może wywołać falę zainteresowania w świecie cyberbezpieczeństwa.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberprzestępcy nie przestają zaskakiwać, wykorzystując najnowsze luki w popularnych narzędziach. Oto jedna z najbardziej intrygujących informacji, która może wywołać falę zainteresowania w świecie cyberbezpieczeństwa.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="google-nowe-zagrożenia-związane-z-grupą-unc6040">Google: Nowe zagrożenia związane z grupą UNC6040<a href="https://www.majdak.online/blog/news-2025-06-04#google-nowe-zagro%C5%BCenia-zwi%C4%85zane-z-grup%C4%85-unc6040" class="hash-link" aria-label="Direct link to Google: Nowe zagrożenia związane z grupą UNC6040" title="Direct link to Google: Nowe zagrożenia związane z grupą UNC6040">​</a></h3>
+<p>Google ujawniło szczegóły dotyczące niebezpiecznej grupy hakerskiej UNC6040, specjalizującej się w kampaniach vishingowych i kradzieży danych z platformy Salesforce.</p>
+<p>Ta finansowo zmotywowana grupa wykorzystuje zaawansowane techniki socjotechniczne, aby wyłudzić dane i wywołać szkody na dużą skalę, co stanowi poważne wyzwanie dla bezpieczeństwa korporacji na całym świecie.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-zagrożenia-związane-z-google-chrome-i-certyfikatami">Najnowsze zagrożenia związane z Google Chrome i certyfikatami<a href="https://www.majdak.online/blog/news-2025-06-04#najnowsze-zagro%C5%BCenia-zwi%C4%85zane-z-google-chrome-i-certyfikatami" class="hash-link" aria-label="Direct link to Najnowsze zagrożenia związane z Google Chrome i certyfikatami" title="Direct link to Najnowsze zagrożenia związane z Google Chrome i certyfikatami">​</a></h3>
+<p>Google ogłosiło, że wycofuje z zaufania certyfikaty wystawione przez Chunghwa Telecom oraz Netlock z powodu niepokojących działań w ostatnim roku.</p>
+<p>Zmiany te mają wejść w życie z wydaniem Chrome 139, planowanym na sierpień 2025, co wpłynie na użytkowników korzystających z tych certyfikatów w protokole TLS.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fali-ataków-na-salesforce-i-narzędzia-do-wyłudzania-danych">Fali ataków na Salesforce i narzędzia do wyłudzania danych<a href="https://www.majdak.online/blog/news-2025-06-04#fali-atak%C3%B3w-na-salesforce-i-narz%C4%99dzia-do-wy%C5%82udzania-danych" class="hash-link" aria-label="Direct link to Fali ataków na Salesforce i narzędzia do wyłudzania danych" title="Direct link to Fali ataków na Salesforce i narzędzia do wyłudzania danych">​</a></h3>
+<p>Google poinformowało o aktywnej grupie UNC6040, specjalizującej się w voice phishingu i kradzieży danych z Salesforce za pomocą fałszywych aplikacji Loader.</p>
+<p>To poważne zagrożenie wymaga czujności firm korzystających z platformy, ponieważ ataki te mogą prowadzić do dużych strat finansowych i wycieku danych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kolejne-luki-w-oprogramowaniu-i-ich-wykorzystanie-przez-hakerów">Kolejne luki w oprogramowaniu i ich wykorzystanie przez hakerów<a href="https://www.majdak.online/blog/news-2025-06-04#kolejne-luki-w-oprogramowaniu-i-ich-wykorzystanie-przez-haker%C3%B3w" class="hash-link" aria-label="Direct link to Kolejne luki w oprogramowaniu i ich wykorzystanie przez hakerów" title="Direct link to Kolejne luki w oprogramowaniu i ich wykorzystanie przez hakerów">​</a></h3>
+<p>Hewlett Packard Enterprise wydało aktualizacje bezpieczeństwa dla rozwiązania StoreOnce, które zawierało aż osiem podatności umożliwiających zdalne wykonanie kodu i ominięcie uwierzytelnienia.</p>
+<p>Podczas gdy wiele firm walczy z efektami ransomware i wyciekami danych, cyberprzestępcy coraz chętniej atakują popularne systemy backupowe i serwery.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwój-zagrożeń-na-platformach-open-source-i-w-sieciach-społecznościowych">Rozwój zagrożeń na platformach open-source i w sieciach społecznościowych<a href="https://www.majdak.online/blog/news-2025-06-04#rozw%C3%B3j-zagro%C5%BCe%C5%84-na-platformach-open-source-i-w-sieciach-spo%C5%82eczno%C5%9Bciowych" class="hash-link" aria-label="Direct link to Rozwój zagrożeń na platformach open-source i w sieciach społecznościowych" title="Direct link to Rozwój zagrożeń na platformach open-source i w sieciach społecznościowych">​</a></h3>
+<p>Podczas gdy badacze ujawniają kolejne złośliwe pakiety w repozytoriach PyPI, npm i Ruby, hakerzy coraz skuteczniej wykorzystują te platformy do ataków na kryptowaluty i prywatne klucze API.</p>
+<p>Dodatkowo, FBI ostrzega przed scamami związanych z NFT i airdropami, które służą do wykradania środków z portfeli kryptowalutowych.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Grupa analizy zagrożeń Google odkrywa wykorzystywane przez hakerów zero-daye w telefonach Qualcomm!]]></title>
         <id>https://www.majdak.online/blog/news-2025-06-03</id>
@@ -809,56 +841,6 @@
         <category label="Ataki" term="Ataki"/>
         <category label="Malware" term="Malware"/>
         <category label="Web Security" term="Web Security"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[📰 Podsumowanie wiadomości z dnia 2025-05-04]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-04</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-04"/>
-        <updated>2025-05-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia ze świata cyberbezpieczeństwa. Od działań firm broniących gry wideo przed oszustami, przez zaawansowane ataki na systemy Linux, aż po zagrożenia dla krytycznej infrastruktury i informacje o nowych narzędziach i malware. Przyjrzyjmy się bliżej najnowszym trendom i zagrożeniom.]]></summary>
-        <content type="html"><![CDATA[<p>W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia ze świata cyberbezpieczeństwa. Od działań firm broniących gry wideo przed oszustami, przez zaawansowane ataki na systemy Linux, aż po zagrożenia dla krytycznej infrastruktury i informacje o nowych narzędziach i malware. Przyjrzyjmy się bliżej najnowszym trendom i zagrożeniom.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="riot-games-walczy-z-oszustami-w-grach-online">Riot Games walczy z oszustami w grach online<a href="https://www.majdak.online/blog/news-2025-05-04#riot-games-walczy-z-oszustami-w-grach-online" class="hash-link" aria-label="Direct link to Riot Games walczy z oszustami w grach online" title="Direct link to Riot Games walczy z oszustami w grach online">​</a></h2>
-<p>Riot’s „anti-cheat artisan” Phillip Koskinas opowiada o strategiach walki z cheaterami w takich tytułach jak Valorant i League of Legends. Firma intensywnie rozwija własne technologie wykrywania i blokowania oszustów, skupiając się na identyfikacji nieuczciwych praktyk i developerskich cheatów. To kluczowy element ochrony integralności rozgrywki i zapewnienia uczciwej rywalizacji.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowany-atak-na-linux-z-użyciem-złośliwych-modułów-go">Zaawansowany atak na Linux z użyciem złośliwych modułów Go<a href="https://www.majdak.online/blog/news-2025-05-04#zaawansowany-atak-na-linux-z-u%C5%BCyciem-z%C5%82o%C5%9Bliwych-modu%C5%82%C3%B3w-go" class="hash-link" aria-label="Direct link to Zaawansowany atak na Linux z użyciem złośliwych modułów Go" title="Direct link to Zaawansowany atak na Linux z użyciem złośliwych modułów Go">​</a></h2>
-<p>Cyberprzestępcy opracowali trzy złośliwe moduły napisane w Go, które zawierają ukryty kod do pobierania payloadów pozwalających na trwałe nadpisanie głównego dysku systemu Linux i uniemożliwienie jego uruchomienia. Nazwy infekcyjnych bibliotek to:</p>
-<ul>
-<li>github.com/truthfulpharm/prototransform</li>
-<li>github.com/blankloggia/go-mcp</li>
-<li>github.com/steelpoor/tlsproxy</li>
-</ul>
-<p>Mimo pozornego legitimu, moduły stanowią poważne zagrożenie dla infrastruktury Linux.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="iran-utrzymuje-długoterminowy-dostęp-do-sieci-krytycznej-na-bliskim-wschodzie">Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie<a href="https://www.majdak.online/blog/news-2025-05-04#iran-utrzymuje-d%C5%82ugoterminowy-dost%C4%99p-do-sieci-krytycznej-na-bliskim-wschodzie" class="hash-link" aria-label="Direct link to Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie" title="Direct link to Iran utrzymuje długoterminowy dostęp do sieci krytycznej na Bliskim Wschodzie">​</a></h2>
-<p>Grupa cybernetyczna powiązana z Iranem przeprowadziła wieloletnią infiltrację infrastruktury krytycznej (CNI) na Bliskim Wschodzie. Działania trwały od maja 2023 do lutego 2025 i obejmowały operacje wywiadowcze oraz prepozycję sieciową, co pozwalało na stałe utrzymanie dostępu i potencjalne przyszłe ingerencje. To kolejny przykład zaawansowanych zdolności państwowych aktorów w sferze cyberwojny.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="oszustwo-ransomware-black-kingdom-i-aresztowania">Oszustwo ransomware Black Kingdom i aresztowania<a href="https://www.majdak.online/blog/news-2025-05-04#oszustwo-ransomware-black-kingdom-i-aresztowania" class="hash-link" aria-label="Direct link to Oszustwo ransomware Black Kingdom i aresztowania" title="Direct link to Oszustwo ransomware Black Kingdom i aresztowania">​</a></h2>
-<p>Departament Sprawiedliwości USA oskarżył Rami Khaleda Ahmeda z Jemenu o uruchomienie ransomware Black Kingdom, które zaatakowało ponad 1500 systemów na całym świecie, w tym firmy, szkoły i szpitale. Oskarżony odpowiada m.in. za spisek i celowe uszkodzenie chronionych komputerów, co wskazuje na rosnący problem międzynarodowego cyberprzestępczości.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowości-od-openai-wybór-odpowiedniego-modelu-chatgpt">Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT<a href="https://www.majdak.online/blog/news-2025-05-04#nowo%C5%9Bci-od-openai-wyb%C3%B3r-odpowiedniego-modelu-chatgpt" class="hash-link" aria-label="Direct link to Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT" title="Direct link to Nowości od OpenAI: wybór odpowiedniego modelu ChatGPT">​</a></h2>
-<p>OpenAI wydało dokument wyjaśniający, kiedy i jak korzystać z różnych modeli ChatGPT. Wprowadza on lepszy podział funkcji i ułatwia użytkownikom wybór odpowiedniego narzędzia w zależności od potrzeb, eliminując częste zamieszanie związane z mnogością dostępnych wersji.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stealc---nowa-wersja-z-ulepszeniami-stealth-i-funkcjami-kradzieży-danych">StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych<a href="https://www.majdak.online/blog/news-2025-05-04#stealc---nowa-wersja-z-ulepszeniami-stealth-i-funkcjami-kradzie%C5%BCy-danych" class="hash-link" aria-label="Direct link to StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych" title="Direct link to StealC - nowa wersja z ulepszeniami stealth i funkcjami kradzieży danych">​</a></h2>
-<p>Twórcy StealC, popularnego stealer'a i narzędzia do pobierania malware, wypuścili jego drugą główną wersję. Wprowadza ona liczne ulepszenia w zakresie ukrywania się przed wykryciem oraz zwiększa skuteczność kradzieży danych, co czyni ją poważnym zagrożeniem dla użytkowników.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="google-notebooklm-z-aktualizacją-do-gemini-25-flash">Google NotebookLM z aktualizacją do Gemini 2.5 Flash<a href="https://www.majdak.online/blog/news-2025-05-04#google-notebooklm-z-aktualizacj%C4%85-do-gemini-25-flash" class="hash-link" aria-label="Direct link to Google NotebookLM z aktualizacją do Gemini 2.5 Flash" title="Direct link to Google NotebookLM z aktualizacją do Gemini 2.5 Flash">​</a></h2>
-<p>Google zaktualizowało swoje narzędzie NotebookLM, służące do badań i notatek, do wersji Gemini 2.5 Flash. Nowa wersja obiecuje wyższe możliwości w zakresie analizy i gromadzenia informacji, co może wpłynąć na rynek narzędzi wspierających pracę naukową i biznesową.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="microsoft-kończy-autofill-haseł-w-authenticator-i-przenosi-użytkowników-do-edge">Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge<a href="https://www.majdak.online/blog/news-2025-05-04#microsoft-ko%C5%84czy-autofill-hase%C5%82-w-authenticator-i-przenosi-u%C5%BCytkownik%C3%B3w-do-edge" class="hash-link" aria-label="Direct link to Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge" title="Direct link to Microsoft kończy autofill haseł w Authenticator i przenosi użytkowników do Edge">​</a></h2>
-<p>Microsoft zapowiedział zakończenie funkcji przechowywania i automatycznego wypełniania haseł w aplikacji Authenticator, która zostanie wyłączona od lipca 2025, a całkowicie wycofana w sierpniu. Użytkownicy zostaną zachęceni do korzystania z funkcji autofill w Microsoft Edge, co może mieć wpływ na zarządzanie hasłami i bezpieczeństwo użytkowników.</p>
-<hr>
-<p><strong>Podsumowując</strong>, cyberświat coraz bardziej przypomina pole walki, gdzie państwa, przestępcy i firmy nieustannie rywalizują o dominację. Zaawansowane techniki ataków i obrona, rosnąca liczba złośliwego oprogramowania oraz konieczność wyboru odpowiednich narzędzi stawiają przed specjalistami coraz większe wyzwania. Trendem jest rosnąca świadomość potrzeby adaptacji narzędzi bezpieczeństwa i dywersyfikacji metod obrony, co jest kluczem do ochrony cyfrowego świata w nadchodzących latach.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Automation" term="Automation"/>
-        <category label="Networking" term="Networking"/>
-        <category label="Wydarzenia" term="Wydarzenia"/>
-        <category label="Konferencje" term="Konferencje"/>
-        <category label="Technologie" term="Technologie"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Malware" term="Malware"/>
-        <category label="OWASP" term="OWASP"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Web Application" term="Web Application"/>
-        <category label="Penetration Testing" term="Penetration Testing"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
 </feed>
