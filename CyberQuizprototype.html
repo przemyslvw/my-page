@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberQuiz - Gra o Cyberbezpieczeństwie</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+        
+        body {
+            font-family: 'Orbitron', monospace;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #00ffff;
+        }
+        
+        .cyber-border {
+            border: 2px solid #00ffff;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            background: rgba(0, 0, 0, 0.7);
+        }
+        
+        .cyber-button {
+            background: linear-gradient(45deg, #ff00ff, #00ffff);
+            color: #000;
+            border: none;
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.5);
+            transition: all 0.3s ease;
+        }
+        
+        .cyber-button:hover {
+            box-shadow: 0 0 25px rgba(255, 0, 255, 0.8);
+            transform: translateY(-2px);
+        }
+        
+        .answer-btn {
+            background: rgba(0, 255, 255, 0.1);
+            border: 2px solid #00ffff;
+            color: #00ffff;
+            transition: all 0.3s ease;
+        }
+        
+        .answer-btn:hover {
+            background: rgba(0, 255, 255, 0.3);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        
+        .answer-btn.correct {
+            background: rgba(0, 255, 0, 0.3);
+            border-color: #00ff00;
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+        }
+        
+        .answer-btn.incorrect {
+            background: rgba(255, 0, 0, 0.3);
+            border-color: #ff0000;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+        }
+        
+        .life-icon {
+            color: #ff0066;
+            text-shadow: 0 0 10px rgba(255, 0, 102, 0.8);
+        }
+        
+        .timer {
+            background: linear-gradient(90deg, #ff0066, #ff6600);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .level-indicator {
+            background: linear-gradient(45deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .cyber-glow {
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ffff; }
+            to { text-shadow: 0 0 30px #00ffff, 0 0 40px #00ffff; }
+        }
+        
+        .progress-bar {
+            background: linear-gradient(90deg, #ff0066, #00ffff);
+            height: 4px;
+            transition: width 1s linear;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    
+    <!-- Start Screen -->
+    <div id="startScreen" class="text-center max-w-2xl w-full">
+        <h1 class="text-6xl font-black mb-8 cyber-glow">
+            <i class="fas fa-shield-alt mr-4"></i>CYBERQUIZ
+        </h1>
+        <div class="cyber-border rounded-lg p-8 mb-8">
+            <h2 class="text-2xl font-bold mb-6">ZASADY GRY</h2>
+            <div class="text-left space-y-4">
+                <p><i class="fas fa-clock text-yellow-400 mr-2"></i>Masz <span class="text-yellow-400 font-bold">10 minut</span> na wszystkie pytania</p>
+                <p><i class="fas fa-heart text-red-400 mr-2"></i>Masz <span class="text-red-400 font-bold">3 życia</span> - błędna odpowiedź = utrata życia</p>
+                <p><i class="fas fa-layer-group text-blue-400 mr-2"></i><span class="text-blue-400 font-bold">10 poziomów</span> o cyberbezpieczeństwie</p>
+                <p><i class="fas fa-trophy text-yellow-400 mr-2"></i>Punkty za: poprawne odpowiedzi + pozostały czas + życia</p>
+            </div>
+        </div>
+        <button id="startBtn" class="cyber-button px-12 py-4 rounded-lg text-xl font-bold">
+            <i class="fas fa-play mr-2"></i>ROZPOCZNIJ GRĘ
+        </button>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" class="hidden w-full max-w-4xl">
+        <!-- Header -->
+        <div class="cyber-border rounded-lg p-4 mb-6 flex justify-between items-center">
+            <div class="flex items-center space-x-6">
+                <div class="timer text-2xl font-bold">
+                    <i class="fas fa-clock mr-2"></i><span id="timeLeft">10:00</span>
+                </div>
+                <div class="level-indicator text-2xl font-bold">
+                    <i class="fas fa-layer-group mr-2"></i>Poziom <span id="currentLevel">1</span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span id="lives" class="text-2xl">
+                    <i class="fas fa-heart life-icon"></i>
+                    <i class="fas fa-heart life-icon"></i>
+                    <i class="fas fa-heart life-icon"></i>
+                </span>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="w-full bg-gray-800 rounded-full h-2 mb-6">
+            <div id="progressBar" class="progress-bar rounded-full" style="width: 10%"></div>
+        </div>
+
+        <!-- Question -->
+        <div class="cyber-border rounded-lg p-6 mb-6">
+            <h2 id="questionText" class="text-xl font-bold mb-6 leading-relaxed"></h2>
+            <div id="answers" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+        </div>
+
+        <!-- Score -->
+        <div class="text-center">
+            <div class="text-lg">Aktualny wynik: <span id="score" class="text-yellow-400 font-bold">0</span> punktów</div>
+        </div>
+    </div>
+
+    <!-- End Screen -->
+    <div id="endScreen" class="hidden text-center max-w-2xl w-full">
+        <h1 class="text-5xl font-black mb-8 cyber-glow">
+            <i class="fas fa-trophy mr-4"></i>KONIEC GRY
+        </h1>
+        <div class="cyber-border rounded-lg p-8 mb-8">
+            <div class="text-3xl font-bold mb-6">
+                Twój wynik: <span id="finalScore" class="text-yellow-400">0</span> punktów
+            </div>
+            <div class="space-y-4 text-left">
+                <div class="flex justify-between">
+                    <span>Poprawne odpowiedzi:</span>
+                    <span id="correctAnswers" class="text-green-400 font-bold">0/10</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Pozostały czas:</span>
+                    <span id="remainingTime" class="text-blue-400 font-bold">0s</span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Pozostałe życia:</span>
+                    <span id="remainingLives" class="text-red-400 font-bold">0</span>
+                </div>
+                <hr class="border-gray-600">
+                <div class="flex justify-between text-lg">
+                    <span>Punkty za odpowiedzi:</span>
+                    <span id="answerPoints" class="text-yellow-400 font-bold">0</span>
+                </div>
+                <div class="flex justify-between text-lg">
+                    <span>Bonus za czas:</span>
+                    <span id="timeBonus" class="text-yellow-400 font-bold">0</span>
+                </div>
+                <div class="flex justify-between text-lg">
+                    <span>Bonus za życia:</span>
+                    <span id="lifeBonus" class="text-yellow-400 font-bold">0</span>
+                </div>
+            </div>
+        </div>
+        <button id="restartBtn" class="cyber-button px-12 py-4 rounded-lg text-xl font-bold">
+            <i class="fas fa-redo mr-2"></i>ZAGRAJ PONOWNIE
+        </button>
+    </div>
+
+    <script>
+        // Game state
+        let gameState = {
+            currentLevel: 1,
+            lives: 3,
+            score: 0,
+            correctAnswers: 0,
+            timeLeft: 600, // 10 minutes in seconds
+            timer: null,
+            currentQuestion: null,
+            questions: []
+        };
+
+        // Questions database
+        const questionsDB = [
+            // Level 1-3 (Easy)
+            {
+                level: 1,
+                question: "Co oznacza skrót VPN?",
+                answers: ["Virtual Private Network", "Very Private Network", "Virtual Public Network", "Visual Private Network"],
+                correct: 0
+            },
+            {
+                level: 1,
+                question: "Które z poniższych haseł jest najbezpieczniejsze?",
+                answers: ["123456", "password", "M0jeBe$piec2ne#Haslo!", "admin"],
+                correct: 2
+            },
+            {
+                level: 2,
+                question: "Co to jest phishing?",
+                answers: ["Łowienie ryb", "Rodzaj malware", "Oszustwo mające na celu kradzież danych", "Typ szyfrowania"],
+                correct: 2
+            },
+            {
+                level: 2,
+                question: "Które z poniższych to dwuskładnikowe uwierzytelnienie?",
+                answers: ["Hasło + PIN", "Hasło + SMS kod", "Login + hasło", "Email + telefon"],
+                correct: 1
+            },
+            {
+                level: 3,
+                question: "Co to jest firewall?",
+                answers: ["Antywirus", "Zapora sieciowa", "Kopia zapasowa", "Szyfrowanie"],
+                correct: 1
+            },
+            
+            // Level 4-6 (Medium)
+            {
+                level: 4,
+                question: "Który z protokołów jest bezpieczny do przesyłania danych?",
+                answers: ["HTTP", "FTP", "HTTPS", "Telnet"],
+                correct: 2
+            },
+            {
+                level: 4,
+                question: "Co oznacza SQL Injection?",
+                answers: ["Wstrzykiwanie kodu SQL", "Instalacja bazy danych", "Kopia zapasowa SQL", "Aktualizacja SQL"],
+                correct: 0
+            },
+            {
+                level: 5,
+                question: "Która metoda szyfrowania jest asymetryczna?",
+                answers: ["AES", "DES", "RSA", "3DES"],
+                correct: 2
+            },
+            {
+                level: 5,
+                question: "Co to jest honeypot w cyberbezpieczeństwie?",
+                answers: ["Słodka pułapka", "Pułapka na atakujących", "Rodzaj wirusa", "Protokół sieciowy"],
+                correct: 1
+            },
+            {
+                level: 6,
+                question: "Która z metod to nie jest rodzaj ataku Man-in-the-Middle?",
+                answers: ["ARP Spoofing", "DNS Spoofing", "DDoS", "SSL Strip"],
+                correct: 2
+            },
+            
+            // Level 7-10 (Hard)
+            {
+                level: 7,
+                question: "Co to jest zero-day exploit?",
+                answers: ["Atak pierwszego dnia", "Exploit nieznanej podatności", "Brak exploitów", "Dzienny raport bezpieczeństwa"],
+                correct: 1
+            },
+            {
+                level: 7,
+                question: "Która technika to nie jest metoda ukrywania malware?",
+                answers: ["Packing", "Obfuscation", "Polymorphism", "Hashing"],
+                correct: 3
+            },
+            {
+                level: 8,
+                question: "Co oznacza OWASP Top 10?",
+                answers: ["10 najlepszych narzędzi", "10 najczęstszych zagrożeń webowych", "10 firm cyberbezpieczeństwa", "10 protokołów bezpieczeństwa"],
+                correct: 1
+            },
+            {
+                level: 8,
+                question: "Która z metod kryptograficznych zapewnia perfect forward secrecy?",
+                answers: ["RSA", "Diffie-Hellman Ephemeral", "AES", "MD5"],
+                correct: 1
+            },
+            {
+                level: 9,
+                question: "Co to jest side-channel attack?",
+                answers: ["Atak na kanał boczny", "Atak wykorzystujący emisje fizyczne", "Atak na router", "Atak DDoS"],
+                correct: 1
+            },
+            {
+                level: 9,
+                question: "Która technika to nie jest metoda analizy malware?",
+                answers: ["Static Analysis", "Dynamic Analysis", "Behavioral Analysis", "Port Scanning"],
+                correct: 3
+            },
+            {
+                level: 10,
+                question: "Co oznacza termin 'living off the land' w kontekście cyberbezpieczeństwa?",
+                answers: ["Mieszkanie poza miastem", "Używanie legalnych narzędzi do ataków", "Ataki na infrastrukturę rolniczą", "Fizyczne ataki"],
+                correct: 1
+            },
+            {
+                level: 10,
+                question: "Która z technik to zaawansowana metoda unikania wykrycia przez EDR?",
+                answers: ["Process Hollowing", "Ping Flood", "Port Scanning", "Password Spraying"],
+                correct: 0
+            }
+        ];
+
+        // Initialize game
+        function initGame() {
+            document.getElementById('startScreen').classList.remove('hidden');
+            document.getElementById('gameScreen').classList.add('hidden');
+            document.getElementById('endScreen').classList.add('hidden');
+        }
+
+        // Start game
+        function startGame() {
+            gameState = {
+                currentLevel: 1,
+                lives: 3,
+                score: 0,
+                correctAnswers: 0,
+                timeLeft: 600,
+                timer: null,
+                currentQuestion: null,
+                questions: [...questionsDB]
+            };
+
+            document.getElementById('startScreen').classList.add('hidden');
+            document.getElementById('gameScreen').classList.remove('hidden');
+            
+            startTimer();
+            loadQuestion();
+        }
+
+        // Timer function
+        function startTimer() {
+            gameState.timer = setInterval(() => {
+                gameState.timeLeft--;
+                updateTimerDisplay();
+                
+                if (gameState.timeLeft <= 0) {
+                    endGame();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(gameState.timeLeft / 60);
+            const seconds = gameState.timeLeft % 60;
+            document.getElementById('timeLeft').textContent = 
+                `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        // Load question
+        function loadQuestion() {
+            const availableQuestions = gameState.questions.filter(q => q.level === gameState.currentLevel);
+            
+            if (availableQuestions.length === 0) {
+                // No more questions for this level, move to next
+                nextLevel();
+                return;
+            }
+
+            const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+            gameState.currentQuestion = availableQuestions[randomIndex];
+            
+            // Remove used question
+            const questionIndex = gameState.questions.findIndex(q => q === gameState.currentQuestion);
+            gameState.questions.splice(questionIndex, 1);
+
+            displayQuestion();
+        }
+
+        function displayQuestion() {
+            document.getElementById('questionText').textContent = gameState.currentQuestion.question;
+            document.getElementById('currentLevel').textContent = gameState.currentLevel;
+            
+            const answersContainer = document.getElementById('answers');
+            answersContainer.innerHTML = '';
+
+            gameState.currentQuestion.answers.forEach((answer, index) => {
+                const button = document.createElement('button');
+                button.className = 'answer-btn p-4 rounded-lg text-left w-full font-medium';
+                button.innerHTML = `<span class="text-yellow-400 font-bold">${String.fromCharCode(65 + index)}:</span> ${answer}`;
+                button.onclick = () => selectAnswer(index);
+                answersContainer.appendChild(button);
+            });
+
+            updateProgressBar();
+        }
+
+        function updateProgressBar() {
+            const progress = (gameState.currentLevel / 10) * 100;
+            document.getElementById('progressBar').style.width = `${progress}%`;
+        }
+
+        // Answer selection
+        function selectAnswer(selectedIndex) {
+            const buttons = document.querySelectorAll('.answer-btn');
+            const correctIndex = gameState.currentQuestion.correct;
+
+            // Disable all buttons
+            buttons.forEach(btn => btn.disabled = true);
+
+            // Show correct/incorrect
+            buttons[correctIndex].classList.add('correct');
+            if (selectedIndex !== correctIndex) {
+                buttons[selectedIndex].classList.add('incorrect');
+                loseLife();
+            } else {
+                // Correct answer
+                gameState.correctAnswers++;
+                gameState.score += 100;
+                updateScore();
+                
+                setTimeout(() => {
+                    nextLevel();
+                }, 1500);
+                return;
+            }
+
+            setTimeout(() => {
+                if (gameState.lives <= 0) {
+                    endGame();
+                } else {
+                    loadQuestion(); // Same level, different question
+                }
+            }, 1500);
+        }
+
+        function loseLife() {
+            gameState.lives--;
+            updateLivesDisplay();
+        }
+
+        function updateLivesDisplay() {
+            const livesContainer = document.getElementById('lives');
+            livesContainer.innerHTML = '';
+            
+            for (let i = 0; i < 3; i++) {
+                const heart = document.createElement('i');
+                heart.className = i < gameState.lives ? 'fas fa-heart life-icon' : 'far fa-heart text-gray-600';
+                livesContainer.appendChild(heart);
+                livesContainer.appendChild(document.createTextNode(' '));
+            }
+        }
+
+        function nextLevel() {
+            if (gameState.currentLevel >= 10) {
+                endGame();
+                return;
+            }
+            
+            gameState.currentLevel++;
+            loadQuestion();
+        }
+
+        function updateScore() {
+            document.getElementById('score').textContent = gameState.score;
+        }
+
+        // End game
+        function endGame() {
+            clearInterval(gameState.timer);
+            
+            // Calculate final score
+            const answerPoints = gameState.correctAnswers * 100;
+            const timeBonus = gameState.timeLeft;
+            const lifeBonus = gameState.lives * 500;
+            const finalScore = answerPoints + timeBonus + lifeBonus;
+
+            document.getElementById('gameScreen').classList.add('hidden');
+            document.getElementById('endScreen').classList.remove('hidden');
+
+            // Display results
+            document.getElementById('finalScore').textContent = finalScore;
+            document.getElementById('correctAnswers').textContent = `${gameState.correctAnswers}/10`;
+            document.getElementById('remainingTime').textContent = `${gameState.timeLeft}s`;
+            document.getElementById('remainingLives').textContent = gameState.lives;
+            document.getElementById('answerPoints').textContent = answerPoints;
+            document.getElementById('timeBonus').textContent = timeBonus;
+            document.getElementById('lifeBonus').textContent = lifeBonus;
+        }
+
+        // Event listeners
+        document.getElementById('startBtn').addEventListener('click', startGame);
+        document.getElementById('restartBtn').addEventListener('click', initGame);
+
+        // Initialize
+        initGame();
+    </script>
+</body>
+</html>
