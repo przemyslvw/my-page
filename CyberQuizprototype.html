@@ -103,7 +103,7 @@
         <div class="cyber-border rounded-lg p-8 mb-8">
             <h2 class="text-2xl font-bold mb-6">ZASADY GRY</h2>
             <div class="text-left space-y-4">
-                <p><i class="fas fa-clock text-yellow-400 mr-2"></i>Masz <span class="text-yellow-400 font-bold">5 minut</span> na wszystkie pytania</p>
+                <p><i class="fas fa-clock text-yellow-400 mr-2"></i>Masz <span class="text-yellow-400 font-bold">10 minut</span> na wszystkie pytania</p>
                 <p><i class="fas fa-heart text-red-400 mr-2"></i>Masz <span class="text-red-400 font-bold">3 życia</span> - błędna odpowiedź = utrata życia</p>
                 <p><i class="fas fa-layer-group text-blue-400 mr-2"></i><span class="text-blue-400 font-bold">10 poziomów</span> o cyberbezpieczeństwie</p>
                 <p><i class="fas fa-trophy text-yellow-400 mr-2"></i>Punkty za: poprawne odpowiedzi + pozostały czas + życia</p>
@@ -201,7 +201,7 @@
             lives: 3,
             score: 0,
             correctAnswers: 0,
-            timeLeft: 300, // 5 minutes in seconds
+            timeLeft: 600, // 10 minutes in seconds
             timer: null,
             currentQuestion: null,
             questions: []
@@ -209,118 +209,316 @@
 
         // Questions database
         const questionsDB = [
-            // Level 1-3 (Easy)
+         // Level 1-3 (Easy)
             {
                 level: 1,
                 question: "Co oznacza skrót VPN?",
-                answers: ["Virtual Private Network", "Very Private Network", "Virtual Public Network", "Visual Private Network"],
+                answers: [
+                    "Virtual Private Network",
+                    "Very Private Network",
+                    "Virtual Public Network",
+                    "Visual Private Network"
+                ],
                 correct: 0
             },
             {
                 level: 1,
                 question: "Które z poniższych haseł jest najbezpieczniejsze?",
-                answers: ["123456", "password", "M0jeBe$piec2ne#Haslo!", "admin"],
+                answers: [
+                    "123456",
+                    "password",
+                    "M0jeBe$piec2ne#Haslo!",
+                    "admin"
+                ],
                 correct: 2
+            },
+            {
+                level: 1,
+                question: "Co oznacza skrót SSL?",
+                answers: [
+                    "Secure Sockets Layer",
+                    "Secure System Layer",
+                    "Secure Server Layer",
+                    "Secure Software Layer"
+                ],
+                correct: 0
+            },
+            {
+                level: 1,
+                question: "Które z poniższych to nie jest dobry sposób na zapamiętanie haseł?",
+                answers: [
+                    "Pisanie haseł w notatniku",
+                    "Użycie menedżera haseł",
+                    "Użycie tej samej nazwy użytkownika i hasła dla każdej strony",
+                    "Zapisanie haseł w pliku tekstowym"
+                ],
+                correct: 0
             },
             {
                 level: 2,
                 question: "Co to jest phishing?",
-                answers: ["Łowienie ryb", "Rodzaj malware", "Oszustwo mające na celu kradzież danych", "Typ szyfrowania"],
+                answers: [
+                    "Łowienie ryb",
+                    "Rodzaj malware",
+                    "Oszustwo mające na celu kradzież danych",
+                    "Typ szyfrowania"
+                ],
                 correct: 2
             },
             {
                 level: 2,
                 question: "Które z poniższych to dwuskładnikowe uwierzytelnienie?",
-                answers: ["Hasło + PIN", "Hasło + SMS kod", "Login + hasło", "Email + telefon"],
+                answers: [
+                    "Hasło + PIN",
+                    "Hasło + SMS kod",
+                    "Login + hasło",
+                    "Email + telefon"
+                ],
                 correct: 1
+            },
+            {
+                level: 2,
+                question: "Co oznacza skrót DDoS?",
+                answers: [
+                    "Distributed Denial of Service",
+                    "Data Deletion of System",
+                    "Digital Data on Server",
+                    "Dedicated Denial of Security"
+                ],
+                correct: 0
+            },
+            {
+                level: 2,
+                question: "Które z poniższych narzędzi służy do analizy ruchu sieciowego?",
+                answers: [
+                    "Wireshark",
+                    "Photoshop",
+                    "Visual Studio",
+                    "Excel"
+                ],
+                correct: 0
             },
             {
                 level: 3,
                 question: "Co to jest firewall?",
-                answers: ["Antywirus", "Zapora sieciowa", "Kopia zapasowa", "Szyfrowanie"],
+                answers: [
+                    "Antywirus",
+                    "Zapora sieciowa",
+                    "Kopia zapasowa",
+                    "Szyfrowanie"
+                ],
                 correct: 1
             },
-            
+            {
+                level: 3,
+                question: "Jakie jest zastosowanie szyfrowania?",
+                answers: [
+                    "Ochrona danych",
+                    "Szybkość przesyłu",
+                    "Zwiększenie bezpieczeństwa",
+                    "Ulepszenie wydajności"
+                ],
+                correct: 2
+            },
+            {
+                level: 3,
+                question: "Które z poniższych to rodzaj ataku na sieć?",
+                answers: [
+                    "Phishing",
+                    "Malware",
+                    "Intrusion",
+                    "Denial of Service"
+                ],
+                correct: 3
+            },
             // Level 4-6 (Medium)
             {
                 level: 4,
                 question: "Który z protokołów jest bezpieczny do przesyłania danych?",
-                answers: ["HTTP", "FTP", "HTTPS", "Telnet"],
+                answers: [
+                    "HTTP",
+                    "FTP",
+                    "HTTPS",
+                    "Telnet"
+                ],
                 correct: 2
             },
             {
                 level: 4,
                 question: "Co oznacza SQL Injection?",
-                answers: ["Wstrzykiwanie kodu SQL", "Instalacja bazy danych", "Kopia zapasowa SQL", "Aktualizacja SQL"],
+                answers: [
+                    "Wstrzykiwanie kodu SQL",
+                    "Instalacja bazy danych",
+                    "Kopia zapasowa SQL",
+                    "Aktualizacja SQL"
+                ],
                 correct: 0
+            },
+            {
+                level: 4,
+                question: "Jakie jest zastosowanie szyfrowania symetrycznego?",
+                answers: [
+                    "Ochrona danych",
+                    "Szybkość przesyłu",
+                    "Zwiększenie bezpieczeństwa",
+                    "Ulepszenie wydajności"
+                ],
+                correct: 0
+            },
+            {
+                level: 4,
+                question: "Które z poniższych to rodzaj ataku na bazę danych?",
+                answers: [
+                    "Phishing",
+                    "Malware",
+                    "Intrusion",
+                    "SQL Injection"
+                ],
+                correct: 3
             },
             {
                 level: 5,
                 question: "Która metoda szyfrowania jest asymetryczna?",
-                answers: ["AES", "DES", "RSA", "3DES"],
+                answers: [
+                    "AES",
+                    "DES",
+                    "RSA",
+                    "3DES"
+                ],
                 correct: 2
             },
             {
                 level: 5,
                 question: "Co to jest honeypot w cyberbezpieczeństwie?",
-                answers: ["Słodka pułapka", "Pułapka na atakujących", "Rodzaj wirusa", "Protokół sieciowy"],
+                answers: [
+                    "Słodka pułapka",
+                    "Pułapka na atakujących",
+                    "Rodzaj wirusa",
+                    "Protokół sieciowy"
+                ],
                 correct: 1
             },
             {
                 level: 6,
                 question: "Która z metod to nie jest rodzaj ataku Man-in-the-Middle?",
-                answers: ["ARP Spoofing", "DNS Spoofing", "DDoS", "SSL Strip"],
+                answers: [
+                    "ARP Spoofing",
+                    "DNS Spoofing",
+                    "DDoS",
+                    "SSL Strip"
+                ],
                 correct: 2
             },
-            
             // Level 7-10 (Hard)
             {
                 level: 7,
                 question: "Co to jest zero-day exploit?",
-                answers: ["Atak pierwszego dnia", "Exploit nieznanej podatności", "Brak exploitów", "Dzienny raport bezpieczeństwa"],
+                answers: [
+                    "Atak pierwszego dnia",
+                    "Exploit nieznanej podatności",
+                    "Brak exploitów",
+                    "Dzienny raport bezpieczeństwa"
+                ],
                 correct: 1
             },
             {
                 level: 7,
                 question: "Która technika to nie jest metoda ukrywania malware?",
-                answers: ["Packing", "Obfuscation", "Polymorphism", "Hashing"],
+                answers: [
+                    "Packing",
+                    "Obfuscation",
+                    "Polymorphism",
+                    "Hashing"
+                ],
                 correct: 3
             },
             {
                 level: 8,
                 question: "Co oznacza OWASP Top 10?",
-                answers: ["10 najlepszych narzędzi", "10 najczęstszych zagrożeń webowych", "10 firm cyberbezpieczeństwa", "10 protokołów bezpieczeństwa"],
+                answers: [
+                    "10 najlepszych narzędzi",
+                    "10 najczęstszych zagrożeń webowych",
+                    "10 firm cyberbezpieczeństwa",
+                    "10 protokołów bezpieczeństwa"
+                ],
                 correct: 1
             },
             {
                 level: 8,
                 question: "Która z metod kryptograficznych zapewnia perfect forward secrecy?",
-                answers: ["RSA", "Diffie-Hellman Ephemeral", "AES", "MD5"],
+                answers: [
+                    "RSA",
+                    "Diffie-Hellman Ephemeral",
+                    "AES",
+                    "MD5"
+                ],
                 correct: 1
             },
             {
                 level: 9,
                 question: "Co to jest side-channel attack?",
-                answers: ["Atak na kanał boczny", "Atak wykorzystujący emisje fizyczne", "Atak na router", "Atak DDoS"],
+                answers: [
+                    "Atak na kanał boczny",
+                    "Atak wykorzystujący emisje fizyczne",
+                    "Atak na router",
+                    "Atak DDoS"
+                ],
                 correct: 1
             },
             {
                 level: 9,
                 question: "Która technika to nie jest metoda analizy malware?",
-                answers: ["Static Analysis", "Dynamic Analysis", "Behavioral Analysis", "Port Scanning"],
+                answers: [
+                    "Static Analysis",
+                    "Dynamic Analysis",
+                    "Behavioral Analysis",
+                    "Port Scanning"
+                ],
                 correct: 3
             },
             {
                 level: 10,
                 question: "Co oznacza termin 'living off the land' w kontekście cyberbezpieczeństwa?",
-                answers: ["Mieszkanie poza miastem", "Używanie legalnych narzędzi do ataków", "Ataki na infrastrukturę rolniczą", "Fizyczne ataki"],
+                answers: [
+                    "Mieszkanie poza miastem",
+                    "Używanie legalnych narzędzi do ataków",
+                    "Ataki na infrastrukturę rolniczą",
+                    "Fizyczne ataki"
+                ],
                 correct: 1
             },
             {
                 level: 10,
                 question: "Która z technik to zaawansowana metoda unikania wykrycia przez EDR?",
-                answers: ["Process Hollowing", "Ping Flood", "Port Scanning", "Password Spraying"],
+                answers: [
+                    "Process Hollowing",
+                    "Ping Flood",
+                    "Port Scanning",
+                    "Password Spraying"
+                ],
                 correct: 0
+            },
+            {
+                level: 10,
+                question: "Który protokół jest najbardziej podatny na exploity typu man-in-the-middle?",
+                answers: [
+                    "HTTPS",
+                    "FTP",
+                    "SSH",
+                    "SFTP"
+                ],
+                correct: 1
+            },
+            {
+                level: 10,
+                question: "Który z algorytmów kryptograficznych jest uważany za najbardziej bezpieczny?",
+                answers: [
+                    "MD5",
+                    "SHA-1",
+                    "AES",
+                    "DES"
+                ],
+                correct: 2
             }
         ];
 
