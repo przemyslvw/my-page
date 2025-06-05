@@ -20,16 +20,16 @@ function HomepageHeader() {
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
-                Specjalizacja w cyberbezpieczeństwie, innowacyjnych technologiach i rozwiązańach IT
+                Specjalizacja w cyberbezpieczeństwie, innowacyjnych technologiach i rozwiązaniach IT - cyberbezpieczeństwo, automatyzacja, programowanie, web development
               </p>
               <p className="hero__description">
                 Expertise w zakresie:
                 <br />
-                <span className="text--highlight">• Bezpieczeństwo IT i Cyberbezpieczeństwo</span>
+                <span className="text--highlight">• Bezpieczeństwo IT i Cyberbezpieczeństwo (cybersecurity, IT security)</span>
                 <br />
-                <span className="text--highlight">• Automatyzacja i Programowanie</span>
+                <span className="text--highlight">• Automatyzacja i Programowanie (Automation, Programming)</span>
                 <br />
-                <span className="text--highlight">• Web Development i Aplikacje Internetowe</span>
+                <span className="text--highlight">• Web Development i Aplikacje Internetowe (Web Development, Internet Applications)</span>
               </p>
               <div className={styles.buttons}>
                 <Link
