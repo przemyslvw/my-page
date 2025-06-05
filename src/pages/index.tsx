@@ -20,16 +20,16 @@ function HomepageHeader() {
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
-                Specjalizacja w cyberbezpieczeństwie, innowacyjnych technologiach i rozwiązaniach IT - cyberbezpieczeństwo, automatyzacja, programowanie, web development
+                Specjalizujemy się w cyberbezpieczeństwie, automatyzacji procesów i tworzeniu nowoczesnych aplikacji internetowych. Wspieramy firmy w bezpiecznej transformacji cyfrowej – od koncepcji po wdrożenie.
               </p>
               <p className="hero__description">
                 Expertise w zakresie:
                 <br />
-                <span className="text--highlight">• Bezpieczeństwo IT i Cyberbezpieczeństwo (cybersecurity, IT security)</span>
+                <span className="text--highlight">• Cyberbezpieczeństwo i Bezpieczeństwo IT - audyty bezpieczeństwa, testy penetracyjne, wdrażanie standardów (m.in. ISO 27001) oraz ochrona aplikacji webowych i sieci firmowych.</span>
                 <br />
-                <span className="text--highlight">• Automatyzacja i Programowanie (Automation, Programming)</span>
+                <span className="text--highlight">• Automatyzacja i Programowanie - optymalizacja procesów biznesowych i przyspieszenie rozwoju oprogramowania.</span>
                 <br />
-                <span className="text--highlight">• Web Development i Aplikacje Internetowe (Web Development, Internet Applications)</span>
+                <span className="text--highlight">• Web Development i Aplikacje Internetowe - tworzenie aplikacji internetowych z wykorzystaniem Angulara, Firebase i TypeScript.</span>
               </p>
               <div className={styles.buttons}>
                 <Link

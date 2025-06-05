@@ -11,11 +11,11 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Bezpieczeństwo IT',
+    title: 'Cyberbezpieczeństwo i Bezpieczeństwo IT',
     Svg: require('@site/static/img/undraw_security.svg').default,
     description: (
       <>
-        Zdobądź wiedzę z zakresu bezpieczeństwa sieciowego, webowego i cyberbezpieczeństwa. Poznaj techniki ochrony danych i zabezpieczania aplikacji.
+        Zadbaj o bezpieczeństwo swoich danych i infrastruktury IT. Oferujemy audyty bezpieczeństwa, testy penetracyjne, wdrażanie standardów (m.in. ISO 27001) oraz ochronę aplikacji webowych i sieci firmowych.
       </>
     ),
   },
@@ -24,7 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_programming.svg').default,
     description: (
       <>
-        Naucz się automatyzować procesy, pisać testy end-to-end (Playwright) i realizować projekty z wykorzystaniem ESP32 oraz Raspberry Pi.
+        Optymalizuj procesy biznesowe i przyspiesz rozwój oprogramowania. Tworzymy dedykowane rozwiązania automatyzujące testy (Playwright, n8n), obsługę urządzeń IoT (ESP32, Raspberry Pi) i integracje API.
       </>
     ),
   },
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_web_development.svg').default,
     description: (
       <>
-        Projektowanie i tworzenie nowoczesnych stron oraz aplikacji webowych z wykorzystaniem Angulara, Firebase i TypeScript. Od pomysłu po wdrożenie.
+        Tworzymy szybkie, skalowalne i nowoczesne aplikacje internetowe. Specjalizujemy się w technologiach Angular, Firebase i TypeScript, łącząc atrakcyjny frontend z wydajnym backendem. Od prototypu po produkcję.
       </>
     ),
   },
