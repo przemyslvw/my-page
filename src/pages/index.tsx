@@ -20,7 +20,7 @@ function HomepageHeader() {
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
-                🚀 Innowacje 🔬 Bezpieczeństwo IT 🔐 Automatyzacja ⚙️
+                🚀 Innowacje 🔬 Bezpieczeństwo 🔐 Automatyzacja ⚙️
 
               </p>
               <p className="hero__description">
