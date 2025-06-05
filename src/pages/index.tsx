@@ -20,10 +20,11 @@ function HomepageHeader() {
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
-                Specjalizujemy się w cyberbezpieczeństwie, automatyzacji procesów i tworzeniu nowoczesnych aplikacji internetowych. Wspieramy firmy w bezpiecznej transformacji cyfrowej – od koncepcji po wdrożenie.
+                🚀 Innowacje 🔬 Bezpieczeństwo IT 🔐 Automatyzacja ⚙️
+
               </p>
               <p className="hero__description">
-                🚀 Innowacje 🔬 Bezpieczeństwo IT 🔐 Automatyzacja ⚙️
+                Specjalizujemy się w cyberbezpieczeństwie, automatyzacji procesów i tworzeniu nowoczesnych aplikacji internetowych. Wspieramy firmy w bezpiecznej transformacji cyfrowej – od koncepcji po wdrożenie.
               </p>
               <div className={styles.buttons}>
                 <Link
