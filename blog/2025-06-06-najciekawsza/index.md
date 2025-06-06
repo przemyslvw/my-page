@@ -1,6 +1,6 @@
 ---
 slug: news-2025-06-06
-title: "Google i Facebook pod ostrzałem cyberpiratów: czy Twoje dane są już w rękach hakerów?"
+title: "PathWiper - Najnowszy i najgroźniejszy malware, który atakuje ukraińską infrastrukturę krytyczną!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: 2025-06-06
