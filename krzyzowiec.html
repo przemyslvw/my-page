@@ -4,21 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⚔️ Krzyżowiec vs Siły Zła</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
-        
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Cinzel', serif;
-            background: linear-gradient(45deg, #2c1810, #1a0f0a);
             overflow: hidden;
-            height: 100vh;
-            color: #fff;
+            background: linear-gradient(45deg, #2c1810, #1a0f0a);
+            font-family: 'Courier New', monospace;
         }
         
         #gameContainer {
@@ -37,123 +30,59 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.9);
+            background: linear-gradient(45deg, #1a0f0a, #2c1810, #3e2723);
+            z-index: 1000;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            z-index: 1000;
+            justify-content: center;
         }
         
         #gameTitle {
-            font-size: 4rem;
-            font-weight: 700;
+            font-size: 3rem;
             color: #ffd700;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.8);
             margin-bottom: 2rem;
             text-align: center;
-            animation: titleGlow 2s ease-in-out infinite alternate;
+            animation: glow 2s ease-in-out infinite alternate;
         }
         
-        @keyframes titleGlow {
-            from { text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 215, 0, 0.5); }
-            to { text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 0 30px rgba(255, 215, 0, 0.8); }
+        @keyframes glow {
+            from { text-shadow: 3px 3px 6px rgba(0,0,0,0.8), 0 0 20px #ffd700; }
+            to { text-shadow: 3px 3px 6px rgba(0,0,0,0.8), 0 0 30px #ffd700, 0 0 40px #ffd700; }
         }
         
         #startButton {
-            font-family: 'Cinzel', serif;
             font-size: 1.5rem;
-            font-weight: 600;
             padding: 15px 30px;
-            background: linear-gradient(45deg, #8B4513, #A0522D);
-            color: #fff;
+            background: linear-gradient(45deg, #8b4513, #a0522d);
+            color: #ffd700;
             border: 3px solid #ffd700;
             border-radius: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
-            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
         
         #startButton:hover {
-            background: linear-gradient(45deg, #A0522D, #CD853F);
-            transform: scale(1.05);
+            background: linear-gradient(45deg, #a0522d, #cd853f);
             box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+            transform: scale(1.05);
         }
         
-        #gameUI {
+        #ui {
             position: absolute;
             top: 20px;
             left: 20px;
-            z-index: 100;
+            color: #ffd700;
             font-size: 1.2rem;
-            font-weight: 600;
-        }
-        
-        .ui-element {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 10px 15px;
-            margin: 5px 0;
-            border-radius: 5px;
-            border: 2px solid #ffd700;
-        }
-        
-        #healthBar {
-            width: 200px;
-            height: 20px;
-            background: #333;
-            border: 2px solid #ffd700;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        
-        #healthFill {
-            height: 100%;
-            background: linear-gradient(90deg, #ff0000, #ff6600, #ffaa00);
-            transition: width 0.3s ease;
-            width: 100%;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            z-index: 100;
         }
         
         .entity {
             position: absolute;
-            transition: transform 0.1s linear;
-        }
-        
-        .projectile {
-            position: absolute;
-            width: 8px;
-            height: 8px;
-            background: #ff4444;
-            border-radius: 50%;
-            box-shadow: 0 0 10px #ff4444;
-        }
-        
-        .explosion {
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: radial-gradient(circle, #ff6600, #ff0000, transparent);
-            animation: explode 0.5s ease-out forwards;
-        }
-        
-        @keyframes explode {
-            from { transform: scale(0); opacity: 1; }
-            to { transform: scale(2); opacity: 0; }
-        }
-        
-        .damage-text {
-            position: absolute;
-            color: #ff4444;
-            font-weight: bold;
-            font-size: 1.2rem;
-            animation: damageFloat 1s ease-out forwards;
-            pointer-events: none;
-            z-index: 1000;
-        }
-        
-        @keyframes damageFloat {
-            from { transform: translateY(0); opacity: 1; }
-            to { transform: translateY(-50px); opacity: 0; }
+            transition: none;
         }
         
         #gameOverScreen {
@@ -162,44 +91,37 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.9);
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
             display: none;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            z-index: 1000;
-        }
-        
-        #gameOverTitle {
-            font-size: 3rem;
-            color: #ff4444;
-            margin-bottom: 1rem;
-        }
-        
-        #finalScore {
-            font-size: 1.5rem;
+            justify-content: center;
             color: #ffd700;
-            margin-bottom: 2rem;
         }
         
-        .hidden {
-            display: none !important;
+        .controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #ffd700;
+            font-size: 0.9rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
         
-        /* Animacje dla postaci */
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
+        @keyframes flash {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
         }
         
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
+            50% { transform: scale(1.2); }
         }
         
-        @keyframes blink {
-            0%, 90% { fill: #ff0000; }
-            95% { fill: #ffaa00; }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
         }
     </style>
 </head>
@@ -209,971 +131,793 @@
         <div id="startScreen">
             <h1 id="gameTitle">⚔️ Krzyżowiec vs Siły Zła</h1>
             <button id="startButton">Rozpocznij krucjatę</button>
+            <div class="mt-8 text-center text-yellow-300">
+                <p>WASD - Ruch</p>
+                <p>P - Pauza</p>
+                <p>M - Wycisz dźwięki</p>
+            </div>
         </div>
         
         <!-- UI gry -->
-        <div id="gameUI" class="hidden">
-            <div class="ui-element">
-                <div>❤️ Zdrowie:</div>
-                <div id="healthBar">
-                    <div id="healthFill"></div>
-                </div>
-            </div>
-            <div class="ui-element">⚔️ Punkty: <span id="score">0</span></div>
-            <div class="ui-element">⏱️ Czas: <span id="time">0</span>s</div>
-            <div class="ui-element">🔥 Poziom: <span id="level">1</span></div>
+        <div id="ui">
+            <div>💖 Zdrowie: <span id="health">100</span></div>
+            <div>⭐ Punkty: <span id="score">0</span></div>
+            <div>⏱️ Czas: <span id="time">0</span>s</div>
+            <div>👹 Wrogowie: <span id="enemyCount">0</span></div>
+        </div>
+        
+        <!-- Instrukcje sterowania -->
+        <div class="controls">
+            <div>WASD - Ruch | P - Pauza | M - Wycisz</div>
         </div>
         
         <!-- Ekran końca gry -->
         <div id="gameOverScreen">
-            <h2 id="gameOverTitle">Twoja krucjata dobiegła końca!</h2>
-            <div id="finalScore">Finalne punkty: 0</div>
-            <button id="restartButton" class="ui-element" style="cursor: pointer;">Rozpocznij ponownie</button>
+            <h2 class="text-4xl mb-4">⚰️ Twoja krucjata dobiegła końca!</h2>
+            <p class="text-xl mb-2">Finalne punkty: <span id="finalScore">0</span></p>
+            <p class="text-lg mb-6">Czas przetrwania: <span id="finalTime">0</span>s</p>
+            <button id="restartButton" class="bg-yellow-600 hover:bg-yellow-700 text-black px-6 py-3 rounded-lg text-xl font-bold">
+                🔄 Rozpocznij ponownie
+            </button>
         </div>
-        
-        <!-- Obszar gry -->
-        <div id="gameArea"></div>
     </div>
 
     <script>
-        // Definicje SVG dla wszystkich postaci
-        const SVG_DEFINITIONS = {
-            crusader: `
-                <svg width="40" height="40" viewBox="0 0 40 40">
-                    <!-- Ciało -->
-                    <rect x="15" y="20" width="10" height="15" fill="#8B4513" stroke="#654321" stroke-width="1"/>
-                    <!-- Głowa -->
-                    <circle cx="20" cy="12" r="6" fill="#FFDBAC" stroke="#D2B48C" stroke-width="1"/>
-                    <!-- Hełm -->
-                    <path d="M14 8 L26 8 L26 12 L24 14 L16 14 Z" fill="#C0C0C0" stroke="#808080" stroke-width="1"/>
-                    <!-- Krzyż na hełmie -->
-                    <rect x="19" y="6" width="2" height="6" fill="#FF0000"/>
-                    <rect x="17" y="8" width="6" height="2" fill="#FF0000"/>
-                    <!-- Ręce -->
-                    <rect x="12" y="22" width="4" height="8" fill="#FFDBAC"/>
-                    <rect x="24" y="22" width="4" height="8" fill="#FFDBAC"/>
-                    <!-- Nogi -->
-                    <rect x="16" y="35" width="3" height="5" fill="#654321"/>
-                    <rect x="21" y="35" width="3" height="5" fill="#654321"/>
-                    <!-- Miecz -->
-                    <rect x="28" y="18" width="2" height="12" fill="#C0C0C0"/>
-                    <rect x="27" y="16" width="4" height="2" fill="#8B4513"/>
-                    <!-- Aura -->
-                    <circle cx="20" cy="20" r="18" fill="none" stroke="#FFD700" stroke-width="1" opacity="0.3"/>
-                </svg>
-            `,
-            
-            sinner: `
-                <svg width="30" height="30" viewBox="0 0 30 30">
-                    <!-- Ciało -->
-                    <ellipse cx="15" cy="20" rx="8" ry="6" fill="#696969" stroke="#2F2F2F" stroke-width="1"/>
-                    <!-- Głowa -->
-                    <circle cx="15" cy="12" r="5" fill="#808080" stroke="#2F2F2F" stroke-width="1"/>
-                    <!-- Oczy złe -->
-                    <circle cx="13" cy="10" r="1" fill="#FF0000"/>
-                    <circle cx="17" cy="10" r="1" fill="#FF0000"/>
-                    <!-- Usta -->
-                    <path d="M12 14 Q15 16 18 14" stroke="#000" stroke-width="1" fill="none"/>
-                    <!-- Ręce -->
-                    <ellipse cx="8" cy="18" rx="2" ry="4" fill="#696969"/>
-                    <ellipse cx="22" cy="18" rx="2" ry="4" fill="#696969"/>
-                </svg>
-            `,
-            
-            demon: `
-                <svg width="35" height="35" viewBox="0 0 35 35">
-                    <!-- Ciało -->
-                    <ellipse cx="17.5" cy="22" rx="10" ry="8" fill="#8B0000" stroke="#4B0000" stroke-width="1"/>
-                    <!-- Głowa -->
-                    <circle cx="17.5" cy="13" r="6" fill="#CD0000" stroke="#8B0000" stroke-width="1"/>
-                    <!-- Rogi -->
-                    <polygon points="12,8 14,4 16,8" fill="#2F2F2F"/>
-                    <polygon points="19,8 21,4 23,8" fill="#2F2F2F"/>
-                    <!-- Oczy migające -->
-                    <circle cx="15" cy="11" r="1.5" fill="#FFFF00" class="blink-eyes">
-                        <animate attributeName="fill" values="#FFFF00;#FF0000;#FFFF00" dur="0.5s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="20" cy="11" r="1.5" fill="#FFFF00" class="blink-eyes">
-                        <animate attributeName="fill" values="#FFFF00;#FF0000;#FFFF00" dur="0.5s" repeatCount="indefinite"/>
-                    </circle>
-                    <!-- Pazury -->
-                    <polygon points="7,20 5,18 9,22" fill="#2F2F2F"/>
-                    <polygon points="28,20 30,18 26,22" fill="#2F2F2F"/>
-                </svg>
-            `,
-            
-            witch: `
-                <svg width="32" height="40" viewBox="0 0 32 40">
-                    <!-- Peleryna -->
-                    <ellipse cx="16" cy="25" rx="12" ry="10" fill="#4B0082" stroke="#2F0052" stroke-width="1"/>
-                    <!-- Ciało -->
-                    <ellipse cx="16" cy="20" rx="6" ry="8" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
-                    <!-- Głowa -->
-                    <circle cx="16" cy="12" r="5" fill="#90EE90" stroke="#228B22" stroke-width="1"/>
-                    <!-- Kapelusz -->
-                    <polygon points="11,8 21,8 18,2 14,2" fill="#2F2F2F"/>
-                    <ellipse cx="16" cy="8" rx="7" ry="2" fill="#2F2F2F"/>
-                    <!-- Oczy -->
-                    <circle cx="14" cy="10" r="1" fill="#FF0000"/>
-                    <circle cx="18" cy="10" r="1" fill="#FF0000"/>
-                    <!-- Różdżka -->
-                    <rect x="25" y="15" width="1" height="8" fill="#8B4513"/>
-                    <circle cx="25.5" cy="14" r="2" fill="#800080"/>
-                    <!-- Aura lewitacji -->
-                    <ellipse cx="16" cy="35" rx="10" ry="3" fill="none" stroke="#4B0082" stroke-width="1" opacity="0.5"/>
-                </svg>
-            `,
-            
-            fallenKnight: `
-                <svg width="38" height="42" viewBox="0 0 38 42">
-                    <!-- Ciało opancerzone -->
-                    <rect x="14" y="20" width="10" height="18" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
-                    <!-- Naramienniki -->
-                    <rect x="10" y="18" width="6" height="8" fill="#2F2F2F"/>
-                    <rect x="22" y="18" width="6" height="8" fill="#2F2F2F"/>
-                    <!-- Hełm -->
-                    <rect x="13" y="8" width="12" height="12" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
-                    <!-- Szpara na oczy -->
-                    <rect x="15" y="12" width="8" height="2" fill="#FF0000"/>
-                    <!-- Tarcza -->
-                    <ellipse cx="8" cy="22" rx="4" ry="6" fill="#4B0000" stroke="#8B0000" stroke-width="1"/>
-                    <rect x="6" y="20" width="4" height="1" fill="#FFD700"/>
-                    <rect x="7" y="19" width="2" height="3" fill="#FFD700"/>
-                    <!-- Topór -->
-                    <rect x="30" y="15" width="2" height="12" fill="#8B4513"/>
-                    <polygon points="28,12 32,12 35,15 32,18 28,18" fill="#C0C0C0"/>
-                    <!-- Nogi -->
-                    <rect x="15" y="38" width="3" height="4" fill="#2F2F2F"/>
-                    <rect x="20" y="38" width="3" height="4" fill="#2F2F2F"/>
-                </svg>
-            `,
-            
-            heretic: `
-                <svg width="35" height="45" viewBox="0 0 35 45">
-                    <!-- Peleryna lewitująca -->
-                    <ellipse cx="17.5" cy="30" rx="14" ry="12" fill="#800080" stroke="#4B0082" stroke-width="1" opacity="0.8"/>
-                    <!-- Ciało -->
-                    <ellipse cx="17.5" cy="22" rx="7" ry="10" fill="#2F2F2F" stroke="#000" stroke-width="1"/>
-                    <!-- Głowa -->
-                    <circle cx="17.5" cy="12" r="5" fill="#FFDBAC" stroke="#D2B48C" stroke-width="1"/>
-                    <!-- Kaptur -->
-                    <path d="M12 8 Q17.5 5 23 8 Q23 12 17.5 14 Q12 12 12 8" fill="#4B0082"/>
-                    <!-- Oczy świecące -->
-                    <circle cx="15" cy="10" r="1.5" fill="#00FFFF">
-                        <animate attributeName="r" values="1.5;2;1.5" dur="1s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="20" cy="10" r="1.5" fill="#00FFFF">
-                        <animate attributeName="r" values="1.5;2;1.5" dur="1s" repeatCount="indefinite"/>
-                    </circle>
-                    <!-- Ręce mistyczne -->
-                    <circle cx="10" cy="20" r="3" fill="#800080" opacity="0.7"/>
-                    <circle cx="25" cy="20" r="3" fill="#800080" opacity="0.7"/>
-                    <!-- Efekt teleportacji -->
-                    <circle cx="17.5" cy="40" r="12" fill="none" stroke="#800080" stroke-width="2" opacity="0.3"/>
-                </svg>
-            `,
-            
-            hellBeast: `
-                <svg width="50" height="45" viewBox="0 0 50 45">
-                    <!-- Ciało bestii -->
-                    <ellipse cx="25" cy="30" rx="18" ry="12" fill="#8B0000" stroke="#4B0000" stroke-width="2"/>
-                    <!-- Głowa -->
-                    <ellipse cx="25" cy="18" rx="12" ry="8" fill="#CD0000" stroke="#8B0000" stroke-width="2"/>
-                    <!-- Rogi duże -->
-                    <polygon points="15,12 12,5 18,10" fill="#2F2F2F"/>
-                    <polygon points="35,12 38,5 32,10" fill="#2F2F2F"/>
-                    <!-- Oczy piekielne -->
-                    <circle cx="21" cy="16" r="2" fill="#FFFF00"/>
-                    <circle cx="29" cy="16" r="2" fill="#FFFF00"/>
-                    <!-- Pysk -->
-                    <ellipse cx="25" cy="22" rx="6" ry="3" fill="#000"/>
-                    <!-- Kły -->
-                    <polygon points="22,22 20,26 24,24" fill="#FFF"/>
-                    <polygon points="28,22 30,26 26,24" fill="#FFF"/>
-                    <!-- Ogień z pyska -->
-                    <ellipse cx="25" cy="26" rx="4" ry="2" fill="#FF6600" opacity="0.8">
-                        <animate attributeName="rx" values="4;6;4" dur="0.5s" repeatCount="indefinite"/>
-                    </ellipse>
-                    <!-- Łapy -->
-                    <ellipse cx="10" cy="35" rx="4" ry="6" fill="#8B0000"/>
-                    <ellipse cx="40" cy="35" rx="4" ry="6" fill="#8B0000"/>
-                    <!-- Pazury -->
-                    <polygon points="8,38 6,42 10,40" fill="#2F2F2F"/>
-                    <polygon points="42,38 44,42 40,40" fill="#2F2F2F"/>
-                </svg>
-            `,
-            
-            doom: `
-                <svg width="25" height="25" viewBox="0 0 25 25">
-                    <!-- Ciało pulsujące -->
-                    <circle cx="12.5" cy="12.5" r="10" fill="#8B0000" stroke="#FF0000" stroke-width="2">
-                        <animate attributeName="r" values="10;12;10" dur="0.8s" repeatCount="indefinite"/>
-                        <animate attributeName="fill" values="#8B0000;#FF0000;#8B0000" dur="0.8s" repeatCount="indefinite"/>
-                    </circle>
-                    <!-- Środek pulsujący -->
-                    <circle cx="12.5" cy="12.5" r="5" fill="#FF6600">
-                        <animate attributeName="r" values="5;7;5" dur="0.6s" repeatCount="indefinite"/>
-                    </circle>
-                    <!-- Centrum -->
-                    <circle cx="12.5" cy="12.5" r="2" fill="#FFFF00">
-                        <animate attributeName="r" values="2;3;2" dur="0.4s" repeatCount="indefinite"/>
-                    </circle>
-                    <!-- Iskry -->
-                    <circle cx="8" cy="8" r="1" fill="#FF6600" opacity="0.8">
-                        <animate attributeName="opacity" values="0.8;0;0.8" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="17" cy="8" r="1" fill="#FF6600" opacity="0.8">
-                        <animate attributeName="opacity" values="0;0.8;0" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="8" cy="17" r="1" fill="#FF6600" opacity="0.8">
-                        <animate attributeName="opacity" values="0.8;0;0.8" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="17" cy="17" r="1" fill="#FF6600" opacity="0.8">
-                        <animate attributeName="opacity" values="0;0.8;0" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                </svg>
-            `,
-            
-            crossAttack: `
-                <svg width="30" height="30" viewBox="0 0 30 30">
-                    <g transform="rotate(45 15 15)">
-                        <rect x="13" y="5" width="4" height="20" fill="#FFD700" opacity="0.9">
-                            <animate attributeName="opacity" values="0.9;0.3;0.9" dur="0.3s" repeatCount="indefinite"/>
-                        </rect>
-                        <rect x="5" y="13" width="20" height="4" fill="#FFD700" opacity="0.9">
-                            <animate attributeName="opacity" values="0.9;0.3;0.9" dur="0.3s" repeatCount="indefinite"/>
-                        </rect>
-                    </g>
-                    <circle cx="15" cy="15" r="12" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.5">
-                        <animate attributeName="r" values="12;15;12" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                </svg>
-            `,
-            
-            witchProjectile: `
-                <svg width="12" height="12" viewBox="0 0 12 12">
-                    <circle cx="6" cy="6" r="5" fill="#800080" stroke="#4B0082" stroke-width="1">
-                        <animate attributeName="r" values="5;6;5" dur="0.4s" repeatCount="indefinite"/>
-                    </circle>
-                    <circle cx="6" cy="6" r="2" fill="#FF00FF">
-                        <animate attributeName="r" values="2;3;2" dur="0.3s" repeatCount="indefinite"/>
-                    </circle>
-                </svg>
-            `
-        };
-
-        // Stan gry
-        let gameState = {
-            isRunning: false,
-            isPaused: false,
-            player: {
-                x: window.innerWidth / 2,
-                y: window.innerHeight / 2,
-                health: 100,
-                maxHealth: 100,
-                element: null
-            },
-            enemies: [],
-            projectiles: [],
-            score: 0,
-            time: 0,
-            level: 1,
-            lastAttack: 0,
-            keys: {}
-        };
-
+        // Zmienne globalne gry
+        let gameState = 'menu'; // 'menu', 'playing', 'paused', 'gameOver'
+        let player = null;
+        let enemies = [];
+        let projectiles = [];
+        let playerProjectiles = [];
+        
+        // Statystyki gracza - WAŻNE: Muszą być zresetowane na początku każdej gry
+        let score = 0;
+        let health = 100;
+        let gameTime = 0;
+        let lastAttackTime = 0;
+        let isPaused = false;
+        let soundEnabled = true;
+        
+        // Ustawienia gry
+        const ATTACK_COOLDOWN = 1000; // 1 sekunda
+        const GAME_WIDTH = window.innerWidth;
+        const GAME_HEIGHT = window.innerHeight;
+        
         // Typy wrogów z ich właściwościami
         const ENEMY_TYPES = {
-            sinner: {
-                health: 30,
-                speed: 1,
-                damage: 15,
-                size: 30,
-                points: 10,
-                color: '#696969',
+            grzesznik: { 
+                health: 30, 
+                speed: 1, 
+                points: 10, 
+                color: '#666666',
                 behavior: 'random',
-                svg: 'sinner'
+                size: 30
             },
-            demon: {
-                health: 50,
-                speed: 2.5,
-                damage: 25,
-                size: 35,
-                points: 25,
-                color: '#8B0000',
-                behavior: 'chase',
-                svg: 'demon'
+            demon: { 
+                health: 50, 
+                speed: 2, 
+                points: 25, 
+                color: '#cc0000',
+                behavior: 'aggressive',
+                size: 35
             },
-            witch: {
-                health: 40,
-                speed: 0.8,
-                damage: 20,
+            czarownica: { 
+                health: 40, 
+                speed: 0.8, 
+                points: 30, 
+                color: '#4b0082',
+                behavior: 'floating_shooter',
                 size: 32,
-                points: 30,
-                color: '#4B0082',
-                behavior: 'float_shoot',
-                svg: 'witch',
-                lastShot: 0,
-                shootInterval: 3000
+                shootCooldown: 3000
             },
-            fallenKnight: {
-                health: 80,
-                speed: 0.5,
-                damage: 35,
-                size: 38,
-                points: 40,
-                color: '#2F2F2F',
-                behavior: 'slow_chase',
-                svg: 'fallenKnight'
+            upadly_rycerz: { 
+                health: 100, 
+                speed: 2.5, 
+                points: 50, 
+                color: '#2f4f4f',
+                behavior: 'slow_tank',
+                size: 40
             },
-            heretic: {
-                health: 60,
-                speed: 1.5,
-                damage: 30,
-                size: 35,
-                points: 50,
+            heretyk: { 
+                health: 60, 
+                speed: 1.5, 
+                points: 40, 
                 color: '#800080',
-                behavior: 'teleport',
-                svg: 'heretic',
-                lastTeleport: 0,
-                teleportInterval: 5000
+                behavior: 'teleporter',
+                size: 33,
+                teleportCooldown: 5000
             },
-            hellBeast: {
-                health: 150,
-                speed: 1,
-                damage: 50,
-                size: 50,
-                points: 100,
-                color: '#8B0000',
-                behavior: 'boss',
-                svg: 'hellBeast'
+            bestia: { 
+                health: 200, 
+                speed: 0.8, 
+                points: 100, 
+                color: '#8b0000',
+                behavior: 'boss_breath',
+                size: 50
             },
-            doom: {
-                health: 20,
-                speed: 2,
-                damage: 60,
-                size: 25,
-                points: 35,
-                color: '#8B0000',
-                behavior: 'suicide',
-                svg: 'doom'
+            zguba: { 
+                health: 20, 
+                speed: 2.5, 
+                points: 15, 
+                color: '#ff4500',
+                behavior: 'explosive',
+                size: 25
             }
         };
-
+        
         // Inicjalizacja gry
         function initGame() {
-            const startScreen = document.getElementById('startScreen');
-            const gameUI = document.getElementById('gameUI');
-            const gameArea = document.getElementById('gameArea');
+            document.getElementById('startButton').addEventListener('click', startGame);
+            document.getElementById('restartButton').addEventListener('click', restartGame);
             
-            // Stwórz gracza
+            // Obsługa klawiszy
+            document.addEventListener('keydown', handleKeyDown);
+            document.addEventListener('keyup', handleKeyUp);
+            
+            // Pętla gry
+            gameLoop();
+        }
+        
+        // Resetowanie gry - NAPRAWKA: Poprawne zerowanie wszystkich zmiennych
+        function resetGame() {
+            // Wyczyść wszystkich wrogów i pociski
+            enemies.forEach(enemy => {
+                if (enemy.element && enemy.element.parentNode) {
+                    enemy.element.parentNode.removeChild(enemy.element);
+                }
+            });
+            projectiles.forEach(projectile => {
+                if (projectile.element && projectile.element.parentNode) {
+                    projectile.element.parentNode.removeChild(projectile.element);
+                }
+            });
+            playerProjectiles.forEach(projectile => {
+                if (projectile.element && projectile.element.parentNode) {
+                    projectile.element.parentNode.removeChild(projectile.element);
+                }
+            });
+            
+            // WAŻNE: Resetuj wszystkie zmienne do wartości początkowych
+            enemies = [];
+            projectiles = [];
+            playerProjectiles = [];
+            score = 0; // NAPRAWKA: Upewnij się, że score jest zerowany
+            health = 100;
+            gameTime = 0;
+            lastAttackTime = 0;
+            isPaused = false;
+            
+            // Aktualizuj UI
+            updateUI();
+        }
+        
+        function startGame() {
+            resetGame(); // NAPRAWKA: Wywołaj reset przed rozpoczęciem
+            gameState = 'playing';
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('gameOverScreen').style.display = 'none';
+            
             createPlayer();
             
-            // Ukryj ekran startowy, pokaż UI
-            startScreen.classList.add('hidden');
-            gameUI.classList.remove('hidden');
+            // Uruchom timery
+            setInterval(() => {
+                if (gameState === 'playing' && !isPaused) {
+                    gameTime++;
+                    updateUI();
+                }
+            }, 1000);
             
-            // Rozpocznij grę
-            gameState.isRunning = true;
-            gameState.time = 0;
-            gameState.score = 0;
-            gameState.level = 1;
-            
-            // Rozpocznij pętle gry
-            gameLoop();
-            spawnEnemies();
-            
-            // Event listenery dla sterowania
-            setupControls();
+            // Spawn wrogów
+            setInterval(() => {
+                if (gameState === 'playing' && !isPaused) {
+                    spawnEnemy();
+                }
+            }, 2000 + Math.random() * 300);
         }
-
+        
+        function restartGame() {
+            resetGame();
+            startGame();
+        }
+        
         // Tworzenie gracza
         function createPlayer() {
-            const gameArea = document.getElementById('gameArea');
             const playerElement = document.createElement('div');
             playerElement.className = 'entity';
-            playerElement.id = 'player';
-            playerElement.innerHTML = SVG_DEFINITIONS.crusader;
-            playerElement.style.left = gameState.player.x + 'px';
-            playerElement.style.top = gameState.player.y + 'px';
-            gameArea.appendChild(playerElement);
-            gameState.player.element = playerElement;
-        }
+            playerElement.style.backgroundImage = "url('9098408.png')";
+            playerElement.innerHTML = `
+                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
 
-        // Konfiguracja sterowania
-        function setupControls() {
-            document.addEventListener('keydown', (e) => {
-                gameState.keys[e.key.toLowerCase()] = true;
-            });
+                </svg>
+            `;
             
-            document.addEventListener('keyup', (e) => {
-                gameState.keys[e.key.toLowerCase()] = false;
-            });
+            player = {
+                element: playerElement,
+                x: GAME_WIDTH / 2,
+                y: GAME_HEIGHT / 2,
+                speed: 3,
+                keys: { w: false, a: false, s: false, d: false }
+            };
+            
+            document.getElementById('gameContainer').appendChild(playerElement);
+            updatePlayerPosition();
         }
-
-        // Główna pętla gry
-        function gameLoop() {
-            if (!gameState.isRunning) return;
-            
-            updatePlayer();
-            updateEnemies();
-            updateProjectiles();
-            checkCollisions();
-            handleAttacks();
-            updateUI();
-            
-            requestAnimationFrame(gameLoop);
-        }
-
-        // Aktualizacja gracza
-        function updatePlayer() {
-            const speed = 4;
-            let newX = gameState.player.x;
-            let newY = gameState.player.y;
-            
-            // Sterowanie WASD
-            if (gameState.keys['w'] || gameState.keys['arrowup']) newY -= speed;
-            if (gameState.keys['s'] || gameState.keys['arrowdown']) newY += speed;
-            if (gameState.keys['a'] || gameState.keys['arrowleft']) newX -= speed;
-            if (gameState.keys['d'] || gameState.keys['arrowright']) newX += speed;
-            
-            // Ograniczenia ekranu
-            newX = Math.max(20, Math.min(window.innerWidth - 60, newX));
-            newY = Math.max(20, Math.min(window.innerHeight - 60, newY));
-            
-            gameState.player.x = newX;
-            gameState.player.y = newY;
-            
-            // Aktualizuj pozycję elementu
-            if (gameState.player.element) {
-                gameState.player.element.style.left = newX + 'px';
-                gameState.player.element.style.top = newY + 'px';
+        
+        // Aktualizacja pozycji gracza
+        function updatePlayerPosition() {
+            if (player) {
+                player.element.style.left = player.x + 'px';
+                player.element.style.top = player.y + 'px';
             }
         }
-
+        
         // Tworzenie wroga
-        function createEnemy(type, x, y) {
+        function spawnEnemy() {
+            const types = Object.keys(ENEMY_TYPES);
+            const type = types[Math.floor(Math.random() * types.length)];
             const enemyData = ENEMY_TYPES[type];
-            const gameArea = document.getElementById('gameArea');
+            
+            // Losowa pozycja na brzegu ekranu
+            let x, y;
+            const side = Math.floor(Math.random() * 4);
+            switch(side) {
+                case 0: x = Math.random() * GAME_WIDTH; y = -50; break;
+                case 1: x = GAME_WIDTH + 50; y = Math.random() * GAME_HEIGHT; break;
+                case 2: x = Math.random() * GAME_WIDTH; y = GAME_HEIGHT + 50; break;
+                case 3: x = -50; y = Math.random() * GAME_HEIGHT; break;
+            }
+            
+            const enemyElement = document.createElement('div');
+            enemyElement.className = 'entity';
+            enemyElement.innerHTML = createEnemySVG(type, enemyData);
             
             const enemy = {
+                element: enemyElement,
                 type: type,
                 x: x,
                 y: y,
                 health: enemyData.health,
                 maxHealth: enemyData.health,
                 speed: enemyData.speed,
-                damage: enemyData.damage,
-                size: enemyData.size,
                 points: enemyData.points,
                 behavior: enemyData.behavior,
                 lastAction: Date.now(),
-                element: null,
-                ...enemyData
+                moveDirection: Math.random() * Math.PI * 2
             };
             
-            const enemyElement = document.createElement('div');
-            enemyElement.className = 'entity enemy';
-            enemyElement.innerHTML = SVG_DEFINITIONS[enemyData.svg];
-            enemyElement.style.left = x + 'px';
-            enemyElement.style.top = y + 'px';
-            gameArea.appendChild(enemyElement);
-            
-            enemy.element = enemyElement;
-            gameState.enemies.push(enemy);
-            
-            return enemy;
+            enemies.push(enemy);
+            document.getElementById('gameContainer').appendChild(enemyElement);
+            updateEnemyPosition(enemy);
         }
+        
+        // Tworzenie SVG dla różnych typów wrogów
+        function createEnemySVG(type, data) {
+            const size = data.size;
+            const color = data.color;
+            
+            switch(type) {
+                case 'grzesznik':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <circle cx="${size/2}" cy="${size/2}" r="${size/3}" fill="${color}" stroke="#333" stroke-width="1"/>
+                            <circle cx="${size/2-3}" cy="${size/2-3}" r="2" fill="#ff0000"/>
+                            <circle cx="${size/2+3}" cy="${size/2-3}" r="2" fill="#ff0000"/>
+                            <path d="M${size/2-4} ${size/2+3} Q${size/2} ${size/2+6} ${size/2+4} ${size/2+3}" stroke="#000" stroke-width="1" fill="none"/>
+                        </svg>
+                    `;
 
-        // Spawnowanie wrogów
-        function spawnEnemies() {
-            if (!gameState.isRunning) return;
-            
-            const spawnTypes = ['sinner', 'demon'];
-            
-            // Dodaj więcej typów wrogów w zależności od poziomu
-            if (gameState.level >= 2) spawnTypes.push('witch');
-            if (gameState.level >= 3) spawnTypes.push('fallenKnight');
-            if (gameState.level >= 4) spawnTypes.push('heretic');
-            if (gameState.level >= 5) spawnTypes.push('doom');
-            if (gameState.level >= 6) spawnTypes.push('hellBeast');
-            
-            const spawnCount = Math.min(1 + Math.floor(gameState.level / 2), 5);
-            
-            for (let i = 0; i < spawnCount; i++) {
-                const type = spawnTypes[Math.floor(Math.random() * spawnTypes.length)];
-                const side = Math.floor(Math.random() * 4);
-                let x, y;
-                
-                switch (side) {
-                    case 0: // Top
-                        x = Math.random() * window.innerWidth;
-                        y = -50;
-                        break;
-                    case 1: // Right
-                        x = window.innerWidth + 50;
-                        y = Math.random() * window.innerHeight;
-                        break;
-                    case 2: // Bottom
-                        x = Math.random() * window.innerWidth;
-                        y = window.innerHeight + 50;
-                        break;
-                    case 3: // Left
-                        x = -50;
-                        y = Math.random() * window.innerHeight;
-                        break;
-                }
-                
-                createEnemy(type, x, y);
+                case 'demon':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <circle cx="${size/2}" cy="${size/2+3}" r="${size/3}" fill="${color}" stroke="#800000" stroke-width="1"/>
+                            <!-- Rogi -->
+                            <polygon points="${size/2-6},${size/2-8} ${size/2-4},${size/2-12} ${size/2-2},${size/2-8}" fill="#000"/>
+                            <polygon points="${size/2+6},${size/2-8} ${size/2+4},${size/2-12} ${size/2+2},${size/2-8}" fill="#000"/>
+                            <!-- Migające oczy -->
+                            <circle cx="${size/2-4}" cy="${size/2}" r="2" fill="#ff0000">
+                                <animate attributeName="fill" values="#ff0000;#ffff00;#ff0000" dur="1s" repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="${size/2+4}" cy="${size/2}" r="2" fill="#ff0000">
+                                <animate attributeName="fill" values="#ff0000;#ffff00;#ff0000" dur="1s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    `;
+                    
+                case 'czarownica':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Peleryna -->
+                            <path d="M${size/2} ${size/2-8} L${size/2-8} ${size/2+8} L${size/2+8} ${size/2+8} Z" fill="${color}" stroke="#2f0f2f" stroke-width="1"/>
+                            <!-- Głowa -->
+                            <circle cx="${size/2}" cy="${size/2-3}" r="4" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+                            <!-- Kaptur -->
+                            <path d="M${size/2-6} ${size/2-6} Q${size/2} ${size/2-12} ${size/2+6} ${size/2-6}" fill="${color}" stroke="#2f0f2f" stroke-width="1"/>
+                            <!-- Efekt lewitacji -->
+                            <circle cx="${size/2}" cy="${size/2+12}" r="8" fill="none" stroke="${color}" stroke-width="1" opacity="0.5">
+                                <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    `;
+                    
+                case 'upadly_rycerz':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Ciało w zbroi -->
+                            <rect x="${size/2-6}" y="${size/2-2}" width="12" height="15" fill="${color}" stroke="#1c1c1c" stroke-width="1"/>
+                            <!-- Hełm -->
+                            <rect x="${size/2-5}" y="${size/2-10}" width="10" height="8" fill="${color}" stroke="#1c1c1c" stroke-width="1"/>
+                            <!-- Tarcza -->
+                            <ellipse cx="${size/2-10}" cy="${size/2+3}" rx="4" ry="6" fill="#696969" stroke="#000" stroke-width="1"/>
+                            <!-- Topór -->
+                            <rect x="${size/2+8}" y="${size/2-2}" width="3" height="10" fill="#8b4513"/>
+                            <path d="M${size/2+11} ${size/2-2} L${size/2+16} ${size/2+1} L${size/2+11} ${size/2+4} Z" fill="#c0c0c0"/>
+                        </svg>
+                    `;
+                    
+                case 'heretyk':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Peleryna z kapturem -->
+                            <path d="M${size/2} ${size/2-6} L${size/2-8} ${size/2+10} L${size/2+8} ${size/2+10} Z" fill="${color}" stroke="#4b0040" stroke-width="1"/>
+                            <!-- Twarz w cieniu -->
+                            <circle cx="${size/2}" cy="${size/2-2}" r="3" fill="#1a1a1a"/>
+                            <!-- Świecące oczy -->
+                            <circle cx="${size/2-2}" cy="${size/2-2}" r="1" fill="#00ff00"/>
+                            <circle cx="${size/2+2}" cy="${size/2-2}" r="1" fill="#00ff00"/>
+                            <!-- Efekt teleportacji -->
+                            <circle cx="${size/2}" cy="${size/2}" r="15" fill="none" stroke="${color}" stroke-width="1" opacity="0.3" stroke-dasharray="3,3">
+                                <animateTransform attributeName="transform" type="rotate" values="0 ${size/2} ${size/2};360 ${size/2} ${size/2}" dur="3s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    `;
+                    
+                case 'bestia':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Ciało bestii -->
+                            <ellipse cx="${size/2}" cy="${size/2+5}" rx="15" ry="10" fill="${color}" stroke="#4b0000" stroke-width="2"/>
+                            <!-- Głowa -->
+                            <circle cx="${size/2}" cy="${size/2-5}" r="8" fill="${color}" stroke="#4b0000" stroke-width="2"/>
+                            <!-- Rogi -->
+                            <polygon points="${size/2-8},${size/2-8} ${size/2-6},${size/2-15} ${size/2-4},${size/2-8}" fill="#000"/>
+                            <polygon points="${size/2+8},${size/2-8} ${size/2+6},${size/2-15} ${size/2+4},${size/2-8}" fill="#000"/>
+                            <!-- Oczy -->
+                            <circle cx="${size/2-3}" cy="${size/2-5}" r="2" fill="#ff0000"/>
+                            <circle cx="${size/2+3}" cy="${size/2-5}" r="2" fill="#ff0000"/>
+                            <!-- Animowany oddech ognia -->
+                            <path d="M${size/2-3} ${size/2} Q${size/2} ${size/2+3} ${size/2+3} ${size/2}" stroke="#ff4500" stroke-width="2" fill="none">
+                                <animate attributeName="stroke" values="#ff4500;#ff0000;#ff4500" dur="1s" repeatCount="indefinite"/>
+                            </path>
+                        </svg>
+                    `;
+                    
+                case 'zguba':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Ciało pulsujące -->
+                            <circle cx="${size/2}" cy="${size/2}" r="8" fill="${color}" stroke="#ff0000" stroke-width="1">
+                                <animate attributeName="r" values="8;12;8" dur="1s" repeatCount="indefinite"/>
+                                <animate attributeName="fill" values="${color};#ff0000;${color}" dur="1s" repeatCount="indefinite"/>
+                            </circle>
+                            <!-- Iskry -->
+                            <circle cx="${size/2-6}" cy="${size/2-6}" r="1" fill="#ffff00">
+                                <animate attributeName="opacity" values="0;1;0" dur="0.5s" repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="${size/2+6}" cy="${size/2-6}" r="1" fill="#ffff00">
+                                <animate attributeName="opacity" values="0;1;0" dur="0.7s" repeatCount="indefinite"/>
+                            </circle>
+                            <circle cx="${size/2}" cy="${size/2+8}" r="1" fill="#ffff00">
+                                <animate attributeName="opacity" values="0;1;0" dur="0.3s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    `;
+                    
+                default:
+                    return `<svg width="${size}" height="${size}"><circle cx="${size/2}" cy="${size/2}" r="${size/3}" fill="${color}"/></svg>`;
             }
-            
-            // Następne spawn
-            const spawnInterval = Math.max(2000 - (gameState.level * 100), 800);
-            setTimeout(spawnEnemies, spawnInterval);
         }
-
-        // Aktualizacja wrogów
-        function updateEnemies() {
-            const currentTime = Date.now();
-            
-            gameState.enemies.forEach((enemy, index) => {
-                if (!enemy.element) return;
-                
-                // AI behavior
-                switch (enemy.behavior) {
-                    case 'random':
-                        moveRandomly(enemy);
-                        break;
-                    case 'chase':
-                        chasePlayer(enemy);
-                        break;
-                    case 'float_shoot':
-                        floatAndShoot(enemy, currentTime);
-                        break;
-                    case 'slow_chase':
-                        chasePlayer(enemy);
-                        break;
-                    case 'teleport':
-                        teleportBehavior(enemy, currentTime);
-                        break;
-                    case 'boss':
-                        bossBehavior(enemy);
-                        break;
-                    case 'suicide':
-                        suicideBehavior(enemy);
-                        break;
-                }
-                
-                // Aktualizuj pozycję elementu
+        
+        // Aktualizacja pozycji wroga
+        function updateEnemyPosition(enemy) {
+            if (enemy.element) {
                 enemy.element.style.left = enemy.x + 'px';
                 enemy.element.style.top = enemy.y + 'px';
-            });
-        }
-
-        // Zachowania wrogów
-        function moveRandomly(enemy) {
-            if (Math.random() < 0.1) {
-                const angle = Math.random() * Math.PI * 2;
-                enemy.x += Math.cos(angle) * enemy.speed;
-                enemy.y += Math.sin(angle) * enemy.speed;
             }
         }
-
-        function chasePlayer(enemy) {
-            const dx = gameState.player.x - enemy.x;
-            const dy = gameState.player.y - enemy.y;
+        
+        // Logika ruchu wrogów
+        function updateEnemyAI(enemy) {
+            if (!player) return;
+            
+            const dx = player.x - enemy.x;
+            const dy = player.y - enemy.y;
             const distance = Math.sqrt(dx * dx + dy * dy);
+            const now = Date.now();
             
-            if (distance > 0) {
-                enemy.x += (dx / distance) * enemy.speed;
-                enemy.y += (dy / distance) * enemy.speed;
+            switch(enemy.behavior) {
+                case 'random':
+                    if (now - enemy.lastAction > 2000) {
+                        enemy.moveDirection = Math.random() * Math.PI * 2;
+                        enemy.lastAction = now;
+                    }
+                    enemy.x += Math.cos(enemy.moveDirection) * enemy.speed;
+                    enemy.y += Math.sin(enemy.moveDirection) * enemy.speed;
+                    break;
+                    
+                case 'aggressive':
+                    if (distance > 0) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+                    
+                case 'floating_shooter':
+                    // Lewituje i strzela
+                    if (distance > 100) {
+                        enemy.x += (dx / distance) * enemy.speed * 0.5;
+                        enemy.y += (dy / distance) * enemy.speed * 0.5;
+                    }
+                    if (now - enemy.lastAction > 3000) {
+                        createEnemyProjectile(enemy.x, enemy.y, dx, dy);
+                        enemy.lastAction = now;
+                    }
+                    break;
+                    
+                case 'slow_tank':
+                    if (distance > 0) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+                    
+                case 'teleporter':
+                    if (now - enemy.lastAction > 3000) {
+                        // Teleportacja do losowej pozycji blisko gracza
+                        const angle = Math.random() * Math.PI * 2;
+                        const teleportDistance = 100 + Math.random() * 100;
+                        enemy.x = player.x + Math.cos(angle) * teleportDistance;
+                        enemy.y = player.y + Math.sin(angle) * teleportDistance;
+                        enemy.lastAction = now;
+                    } else if (distance > 0) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+                    
+                case 'boss_breath':
+                    if (distance > 80) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+                    
+                case 'explosive':
+                    if (distance > 0) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    // Sprawdź kolizję z graczem dla wybuchu
+                    if (distance < 30) {
+                        explodeEnemy(enemy);
+                        health -= 30;
+                        updateUI();
+                    }
+                    break;
             }
+            
+            updateEnemyPosition(enemy);
         }
-
-        function floatAndShoot(enemy, currentTime) {
-            // Lewitacja
-            enemy.y += Math.sin(currentTime * 0.002) * 0.5;
-            
-            // Strzelanie
-            if (currentTime - enemy.lastShot > enemy.shootInterval) {
-                shootProjectile(enemy.x, enemy.y, gameState.player.x, gameState.player.y, 'witch');
-                enemy.lastShot = currentTime;
-            }
-            
-            // Delikatne podążanie za graczem
-            const dx = gameState.player.x - enemy.x;
-            const dy = gameState.player.y - enemy.y;
+        
+        // Tworzenie pocisku wroga
+        function createEnemyProjectile(x, y, dx, dy) {
             const distance = Math.sqrt(dx * dx + dy * dy);
+            const projectileElement = document.createElement('div');
+            projectileElement.className = 'entity';
+            projectileElement.innerHTML = `
+                <svg width="8" height="8" viewBox="0 0 8 8">
+                    <circle cx="4" cy="4" r="3" fill="#8b008b" stroke="#4b0082" stroke-width="1">
+                        <animate attributeName="fill" values="#8b008b;#ff00ff;#8b008b" dur="0.5s" repeatCount="indefinite"/>
+                    </circle>
+                </svg>
+            `;
             
-            if (distance > 200) {
-                enemy.x += (dx / distance) * enemy.speed * 0.5;
-                enemy.y += (dy / distance) * enemy.speed * 0.5;
-            }
-        }
-
-        function teleportBehavior(enemy, currentTime) {
-            if (currentTime - enemy.lastTeleport > enemy.teleportInterval) {
-                // Teleportacja do losowego miejsca blisko gracza
-                const angle = Math.random() * Math.PI * 2;
-                const distance = 100 + Math.random() * 150;
-                enemy.x = gameState.player.x + Math.cos(angle) * distance;
-                enemy.y = gameState.player.y + Math.sin(angle) * distance;
-                
-                // Ograniczenia ekranu
-                enemy.x = Math.max(50, Math.min(window.innerWidth - 50, enemy.x));
-                enemy.y = Math.max(50, Math.min(window.innerHeight - 50, enemy.y));
-                
-                enemy.lastTeleport = currentTime;
-                
-                // Efekt teleportacji
-                createEffect('teleport', enemy.x, enemy.y);
-            } else {
-                // Normalne podążanie
-                chasePlayer(enemy);
-            }
-        }
-
-        function bossBehavior(enemy) {
-            chasePlayer(enemy);
-            
-            // Boss może oddychać ogniem
-            if (Math.random() < 0.005) {
-                for (let i = 0; i < 3; i++) {
-                    const angle = Math.atan2(gameState.player.y - enemy.y, gameState.player.x - enemy.x) + (Math.random() - 0.5) * 0.5;
-                    shootProjectile(enemy.x, enemy.y, 
-                        enemy.x + Math.cos(angle) * 100, 
-                        enemy.y + Math.sin(angle) * 100, 'hellfire');
-                }
-            }
-        }
-
-        function suicideBehavior(enemy) {
-            // Szybkie podążanie za graczem
-            const dx = gameState.player.x - enemy.x;
-            const dy = gameState.player.y - enemy.y;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            
-            if (distance > 0) {
-                enemy.x += (dx / distance) * enemy.speed * 1.5;
-                enemy.y += (dy / distance) * enemy.speed * 1.5;
-            }
-            
-            // Eksplozja przy dotyku gracza
-            if (distance < 30) {
-                explodeEnemy(enemy);
-                damagePlayer(enemy.damage);
-            }
-        }
-
-        // Strzelanie pocisków
-        function shootProjectile(fromX, fromY, toX, toY, type) {
             const projectile = {
-                x: fromX,
-                y: fromY,
-                targetX: toX,
-                targetY: toY,
-                speed: 3,
-                damage: 20,
-                type: type,
-                element: null
+                element: projectileElement,
+                x: x,
+                y: y,
+                vx: (dx / distance) * 4,
+                vy: (dy / distance) * 4,
+                damage: 20
             };
             
-            const dx = toX - fromX;
-            const dy = toY - fromY;
-            const distance = Math.sqrt(dx * dx + dy * dy);
-            
-            projectile.vx = (dx / distance) * projectile.speed;
-            projectile.vy = (dy / distance) * projectile.speed;
-            
-            const gameArea = document.getElementById('gameArea');
-            const projectileElement = document.createElement('div');
-            projectileElement.className = 'projectile';
-            
-            if (type === 'witch') {
-                projectileElement.innerHTML = SVG_DEFINITIONS.witchProjectile;
-            } else {
-                projectileElement.style.background = type === 'hellfire' ? '#ff6600' : '#ff4444';
-            }
-            
-            projectileElement.style.left = fromX + 'px';
-            projectileElement.style.top = fromY + 'px';
-            gameArea.appendChild(projectileElement);
-            
-            projectile.element = projectileElement;
-            gameState.projectiles.push(projectile);
+            projectiles.push(projectile);
+            document.getElementById('gameContainer').appendChild(projectileElement);
         }
-
-        // Aktualizacja pocisków
-        function updateProjectiles() {
-            gameState.projectiles.forEach((projectile, index) => {
-                projectile.x += projectile.vx;
-                projectile.y += projectile.vy;
-                
-                if (projectile.element) {
-                    projectile.element.style.left = projectile.x + 'px';
-                    projectile.element.style.top = projectile.y + 'px';
-                }
-                
-                // Usuń pociski poza ekranem
-                if (projectile.x < -50 || projectile.x > window.innerWidth + 50 ||
-                    projectile.y < -50 || projectile.y > window.innerHeight + 50) {
-                    if (projectile.element) {
-                        projectile.element.remove();
-                    }
-                    gameState.projectiles.splice(index, 1);
-                }
-            });
-        }
-
-        // Obsługa ataków gracza
-        function handleAttacks() {
-            const currentTime = Date.now();
-            if (currentTime - gameState.lastAttack > 500) { // Atak co pół sekundy
-                const nearestEnemy = findNearestEnemy();
-                if (nearestEnemy) {
-                    attackEnemy(nearestEnemy);
-                    gameState.lastAttack = currentTime;
-                }
-            }
-        }
-
-        // Znajdź najbliższego wroga
-        function findNearestEnemy() {
-            let nearest = null;
-            let minDistance = Infinity;
+        
+        // Atak gracza
+        function playerAttack() {
+            const now = Date.now();
+            if (now - lastAttackTime < ATTACK_COOLDOWN) return;
             
-            gameState.enemies.forEach(enemy => {
-                const dx = enemy.x - gameState.player.x;
-                const dy = enemy.y - gameState.player.y;
+            // Znajdź najbliższego wroga
+            let closestEnemy = null;
+            let closestDistance = Infinity;
+            
+            enemies.forEach(enemy => {
+                const dx = enemy.x - player.x;
+                const dy = enemy.y - player.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
-                if (distance < minDistance && distance < 200) { // Zasięg ataku
-                    minDistance = distance;
-                    nearest = enemy;
+                if (distance < closestDistance && distance < 300) {
+                    closestDistance = distance;
+                    closestEnemy = enemy;
                 }
             });
             
-            return nearest;
-        }
-
-        // Atak na wroga
-        function attackEnemy(enemy) {
-            const damage = 40;
-            enemy.health -= damage;
-            
-            // Efekt ataku
-            createAttackEffect(enemy.x, enemy.y);
-            showDamageText(enemy.x, enemy.y, damage);
-            
-            if (enemy.health <= 0) {
-                killEnemy(enemy);
+            if (closestEnemy) {
+                createPlayerProjectile(closestEnemy);
+                lastAttackTime = now;
+                playSound('attack');
             }
         }
-
-        // Zabicie wroga
-        function killEnemy(enemy) {
-            gameState.score += enemy.points;
+        
+        // Tworzenie pocisku gracza
+        function createPlayerProjectile(target) {
+            const dx = target.x - player.x;
+            const dy = target.y - player.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
             
-            // Usuń z tablicy i DOM
-            const index = gameState.enemies.indexOf(enemy);
-            if (index > -1) {
-                gameState.enemies.splice(index, 1);
-            }
+            const projectileElement = document.createElement('div');
+            projectileElement.className = 'entity';
+            projectileElement.innerHTML = `
+                <svg width="12" height="12" viewBox="0 0 12 12">
+                    <path d="M6 2 L8 6 L6 10 L4 6 Z" fill="#ffd700" stroke="#ffff00" stroke-width="1">
+                        <animate attributeName="fill" values="#ffd700;#ffffff;#ffd700" dur="0.3s" repeatCount="indefinite"/>
+                    </path>
+                </svg>
+            `;
             
-            if (enemy.element) {
-                enemy.element.remove();
-            }
+            const projectile = {
+                element: projectileElement,
+                x: player.x,
+                y: player.y,
+                vx: (dx / distance) * 6,
+                vy: (dy / distance) * 6,
+                damage: 25,
+                target: target
+            };
             
-            // Efekt śmierci
-            createEffect('death', enemy.x, enemy.y);
+            playerProjectiles.push(projectile);
+            document.getElementById('gameContainer').appendChild(projectileElement);
         }
-
-        // Eksplozja wroga (dla suicide)
+        
+        // Eksplozja wroga
         function explodeEnemy(enemy) {
-            createEffect('explosion', enemy.x, enemy.y);
-            killEnemy(enemy);
+            // Usuwanie wroga z tablicy i DOM
+            const index = enemies.indexOf(enemy);
+            if (index > -1) {
+                enemies.splice(index, 1);
+                if (enemy.element && enemy.element.parentNode) {
+                    enemy.element.parentNode.removeChild(enemy.element);
+                }
+            }
         }
-
+        
+        // Obsługa klawiszy
+        const keys = {};
+        
+        function handleKeyDown(e) {
+            keys[e.key.toLowerCase()] = true;
+            
+            if (e.key.toLowerCase() === 'p' && gameState === 'playing') {
+                togglePause();
+            }
+            
+            if (e.key.toLowerCase() === 'm') {
+                soundEnabled = !soundEnabled;
+            }
+        }
+        
+        function handleKeyUp(e) {
+            keys[e.key.toLowerCase()] = false;
+        }
+        
+        function togglePause() {
+            isPaused = !isPaused;
+        }
+        
+        // Aktualizacja ruchu gracza
+        function updatePlayerMovement() {
+            if (!player || isPaused) return;
+            
+            if (keys['w'] || keys['arrowup']) {
+                player.y = Math.max(0, player.y - player.speed);
+            }
+            if (keys['s'] || keys['arrowdown']) {
+                player.y = Math.min(GAME_HEIGHT - 40, player.y + player.speed);
+            }
+            if (keys['a'] || keys['arrowleft']) {
+                player.x = Math.max(0, player.x - player.speed);
+            }
+            if (keys['d'] || keys['arrowright']) {
+                player.x = Math.min(GAME_WIDTH - 40, player.x + player.speed);
+            }
+            
+            updatePlayerPosition();
+        }
+        
         // Sprawdzanie kolizji
         function checkCollisions() {
-            // Kolizje gracz-wrogowie
-            gameState.enemies.forEach(enemy => {
-                const dx = enemy.x - gameState.player.x;
-                const dy = enemy.y - gameState.player.y;
+            // Kolizje pocisków gracza z wrogami
+            playerProjectiles.forEach((projectile, pIndex) => {
+                enemies.forEach((enemy, eIndex) => {
+                    const dx = projectile.x - enemy.x;
+                    const dy = projectile.y - enemy.y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 20) {
+                        // Obrażenia wroga
+                        enemy.health -= projectile.damage;
+                        
+                        // Usuń pocisk
+                        if (projectile.element && projectile.element.parentNode) {
+                            projectile.element.parentNode.removeChild(projectile.element);
+                        }
+                        playerProjectiles.splice(pIndex, 1);
+                        
+                        // Sprawdź czy wróg został pokonany
+                        if (enemy.health <= 0) {
+                            score += enemy.points; // Dodaj punkty
+                            
+                            // Usuń wroga
+                            if (enemy.element && enemy.element.parentNode) {
+                                enemy.element.parentNode.removeChild(enemy.element);
+                            }
+                            enemies.splice(eIndex, 1);
+                            
+                            playSound('kill');
+                        }
+                        
+                        updateUI();
+                    }
+                });
+            });
+            
+            // Kolizje pocisków wrogów z graczem
+            projectiles.forEach((projectile, pIndex) => {
+                const dx = projectile.x - player.x;
+                const dy = projectile.y - player.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
                 if (distance < 25) {
-                    damagePlayer(enemy.damage);
-                    if (enemy.type === 'doom') {
-                        explodeEnemy(enemy);
+                    health -= projectile.damage;
+                    
+                    // Usuń pocisk
+                    if (projectile.element && projectile.element.parentNode) {
+                        projectile.element.parentNode.removeChild(projectile.element);
+                    }
+                    projectiles.splice(pIndex, 1);
+                    
+                    updateUI();
+                    playSound('hit');
+                    
+                    if (health <= 0) {
+                        gameOver();
                     }
                 }
             });
             
-            // Kolizje gracz-pociski
-            gameState.projectiles.forEach((projectile, index) => {
-                const dx = projectile.x - gameState.player.x;
-                const dy = projectile.y - gameState.player.y;
+            // Kolizje wrogów z graczem
+            enemies.forEach((enemy) => {
+                const dx = enemy.x - player.x;
+                const dy = enemy.y - player.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
-                if (distance < 20) {
-                    damagePlayer(projectile.damage);
-                    if (projectile.element) {
-                        projectile.element.remove();
+                if (distance < 25 && enemy.type !== 'zguba') {
+                    health -= 1; // Stały kontakt z wrogiem
+                    updateUI();
+                    
+                    if (health <= 0) {
+                        gameOver();
                     }
-                    gameState.projectiles.splice(index, 1);
                 }
             });
         }
-
-        // Obrażenia gracza
-        function damagePlayer(damage) {
-            gameState.player.health -= damage;
-            showDamageText(gameState.player.x, gameState.player.y, damage, true);
+        
+        // Aktualizacja pocisków
+        function updateProjectiles() {
+            // Pociski wrogów
+            projectiles.forEach((projectile, index) => {
+                projectile.x += projectile.vx;
+                projectile.y += projectile.vy;
+                
+                projectile.element.style.left = projectile.x + 'px';
+                projectile.element.style.top = projectile.y + 'px';
+                
+                // Usuń pociski poza ekranem
+                if (projectile.x < -20 || projectile.x > GAME_WIDTH + 20 || 
+                    projectile.y < -20 || projectile.y > GAME_HEIGHT + 20) {
+                    if (projectile.element && projectile.element.parentNode) {
+                        projectile.element.parentNode.removeChild(projectile.element);
+                    }
+                    projectiles.splice(index, 1);
+                }
+            });
             
-            if (gameState.player.health <= 0) {
-                gameOver();
-            }
+            // Pociski gracza
+            playerProjectiles.forEach((projectile, index) => {
+                projectile.x += projectile.vx;
+                projectile.y += projectile.vy;
+                
+                projectile.element.style.left = projectile.x + 'px';
+                projectile.element.style.top = projectile.y + 'px';
+                
+                // Usuń pociski poza ekranem
+                if (projectile.x < -20 || projectile.x > GAME_WIDTH + 20 || 
+                    projectile.y < -20 || projectile.y > GAME_HEIGHT + 20) {
+                    if (projectile.element && projectile.element.parentNode) {
+                        projectile.element.parentNode.removeChild(projectile.element);
+                    }
+                    playerProjectiles.splice(index, 1);
+                }
+            });
         }
-
-        // Tworzenie efektów wizualnych
-        function createAttackEffect(x, y) {
-            const gameArea = document.getElementById('gameArea');
-            const effect = document.createElement('div');
-            effect.className = 'entity';
-            effect.innerHTML = SVG_DEFINITIONS.crossAttack;
-            effect.style.left = (x - 15) + 'px';
-            effect.style.top = (y - 15) + 'px';
-            effect.style.pointerEvents = 'none';
-            gameArea.appendChild(effect);
-            
-            setTimeout(() => {
-                effect.remove();
-            }, 300);
-        }
-
-        function createEffect(type, x, y) {
-            const gameArea = document.getElementById('gameArea');
-            const effect = document.createElement('div');
-            
-            switch (type) {
-                case 'explosion':
-                    effect.className = 'explosion';
-                    break;
-                case 'teleport':
-                    effect.innerHTML = '<div style="width: 40px; height: 40px; border: 2px solid #800080; border-radius: 50%; animation: pulse 0.5s ease-out;"></div>';
-                    break;
-                case 'death':
-                    effect.innerHTML = '<div style="width: 20px; height: 20px; background: #ff6600; border-radius: 50%; animation: explode 0.5s ease-out forwards;"></div>';
-                    break;
-            }
-            
-            effect.style.position = 'absolute';
-            effect.style.left = (x - 20) + 'px';
-            effect.style.top = (y - 20) + 'px';
-            effect.style.pointerEvents = 'none';
-            gameArea.appendChild(effect);
-            
-            setTimeout(() => {
-                effect.remove();
-            }, 500);
-        }
-
-        // Pokazanie tekstu obrażeń
-        function showDamageText(x, y, damage, isPlayer = false) {
-            const gameArea = document.getElementById('gameArea');
-            const damageText = document.createElement('div');
-            damageText.className = 'damage-text';
-            damageText.textContent = `-${damage}`;
-            damageText.style.left = x + 'px';
-            damageText.style.top = y + 'px';
-            
-            if (isPlayer) {
-                damageText.style.color = '#ff0000';
-                damageText.style.fontSize = '1.5rem';
-            }
-            
-            gameArea.appendChild(damageText);
-            
-            setTimeout(() => {
-                damageText.remove();
-            }, 1000);
-        }
-
+        
         // Aktualizacja UI
         function updateUI() {
-            document.getElementById('score').textContent = gameState.score;
-            document.getElementById('time').textContent = Math.floor(Date.now() / 1000) - Math.floor(gameState.time);
-            document.getElementById('level').textContent = gameState.level;
-            
-            // Aktualizuj pasek zdrowia
-            const healthPercentage = (gameState.player.health / gameState.player.maxHealth) * 100;
-            document.getElementById('healthFill').style.width = healthPercentage + '%';
-            
-            // Aktualizuj poziom co 30 sekund
-            const currentTime = Math.floor(Date.now() / 1000);
-            const newLevel = Math.floor((currentTime - gameState.time) / 30) + 1;
-            if (newLevel > gameState.level) {
-                gameState.level = newLevel;
-                // Ulecz gracza trochę przy levelup
-                gameState.player.health = Math.min(gameState.player.maxHealth, gameState.player.health + 20);
-            }
+            document.getElementById('health').textContent = Math.max(0, health);
+            document.getElementById('score').textContent = score;
+            document.getElementById('time').textContent = gameTime;
+            document.getElementById('enemyCount').textContent = enemies.length;
         }
-
+        
         // Koniec gry
         function gameOver() {
-            gameState.isRunning = false;
-            document.getElementById('finalScore').textContent = `Finalne punkty: ${gameState.score}`;
+            gameState = 'gameOver';
+            document.getElementById('finalScore').textContent = score;
+            document.getElementById('finalTime').textContent = gameTime;
             document.getElementById('gameOverScreen').style.display = 'flex';
+            playSound('gameOver');
         }
-
-        // Restart gry
-        function restartGame() {
-            // Wyczyść obszar gry
-            const gameArea = document.getElementById('gameArea');
-            gameArea.innerHTML = '';
-            
-            // Resetuj stan gry
-            gameState = {
-                isRunning: false,
-                isPaused: false,
-                player: {
-                    x: window.innerWidth / 2,
-                    y: window.innerHeight / 2,
-                    health: 100,
-                    maxHealth: 100,
-                    element: null
-                },
-                enemies: [],
-                projectiles: [],
-                score: 0,
-                time: Math.floor(Date.now() / 1000),
-                level: 1,
-                lastAttack: 0,
-                keys: {}
-            };
-            
-            // Ukryj ekran game over
-            document.getElementById('gameOverScreen').style.display = 'none';
-            
-            // Rozpocznij nową grę
-            initGame();
-        }
-
-        // Event listeners
-        document.getElementById('startButton').addEventListener('click', () => {
-            gameState.time = Math.floor(Date.now() / 1000);
-            initGame();
-        });
         
-        document.getElementById('restartButton').addEventListener('click', restartGame);
-
-        // Zapobieganie scroll przy strzałkach
-        window.addEventListener('keydown', (e) => {
-            if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].indexOf(e.code) > -1) {
-                e.preventDefault();
+        // Odtwarzanie dźwięków (symulowane)
+        function playSound(type) {
+            if (!soundEnabled) return;
+            
+            // Symulacja dźwięków poprzez krótkie wibracje w przypadku urządzeń mobilnych
+            if (navigator.vibrate) {
+                switch(type) {
+                    case 'attack': navigator.vibrate(50); break;
+                    case 'hit': navigator.vibrate(100); break;
+                    case 'kill': navigator.vibrate([50, 50, 50]); break;
+                    case 'gameOver': navigator.vibrate(200); break;
+                }
             }
-        }, false);
+        }
+        
+        // Główna pętla gry
+        function gameLoop() {
+            if (gameState === 'playing' && !isPaused) {
+                updatePlayerMovement();
+                
+                // Aktualizuj wrogów
+                enemies.forEach(enemy => updateEnemyAI(enemy));
+                
+                // Aktualizuj pociski
+                updateProjectiles();
+                
+                // Sprawdź kolizje
+                checkCollisions();
+                
+                // Atak gracza
+                playerAttack();
+            }
+            
+            requestAnimationFrame(gameLoop);
+        }
+        
+        // Uruchomienie gry po załadowaniu strony
+        window.addEventListener('load', initGame);
     </script>
 </body>
 </html>
