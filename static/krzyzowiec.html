@@ -210,12 +210,29 @@
                 size: 32,
                 shootCooldown: 3000
             },
+            szalona_czarownica: { 
+                health: 100, 
+                speed: 1.5, 
+                points: 30, 
+                color: '#000',
+                behavior: 'floating_shooter_boss',
+                size: 32,
+                shootCooldown: 300
+            },
             upadly_rycerz: { 
                 health: 100, 
                 speed: 2.5, 
                 points: 50, 
                 color: '#2f4f4f',
                 behavior: 'slow_tank',
+                size: 40
+            },
+            upadly_rycerz_boss: { 
+                health: 300, 
+                speed: 3, 
+                points: 50, 
+                color: '#000',
+                behavior: 'slow_tank_boss',
                 size: 40
             },
             heretyk: { 
@@ -234,6 +251,15 @@
                 color: '#8b0000',
                 behavior: 'boss_breath',
                 size: 50
+            },
+            szalona_bestia: { 
+                health: 400, 
+                speed: 0.5, 
+                points: 100, 
+                color: '#fff',
+                behavior: 'freaking_boss_breath',
+                size: 50,
+                shootCooldown: 10000
             },
             zguba: { 
                 health: 20, 
@@ -438,8 +464,37 @@
                             </circle>
                         </svg>
                     `;
+                case 'szalona_czarownica':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Peleryna -->
+                            <path d="M${size/2} ${size/2-8} L${size/2-8} ${size/2+8} L${size/2+8} ${size/2+8} Z" fill="${color}" stroke="#2f0f2f" stroke-width="1"/>
+                            <!-- Głowa -->
+                            <circle cx="${size/2}" cy="${size/2-3}" r="4" fill="#deb887" stroke="#cd853f" stroke-width="1"/>
+                            <!-- Kaptur -->
+                            <path d="M${size/2-6} ${size/2-6} Q${size/2} ${size/2-12} ${size/2+6} ${size/2-6}" fill="${color}" stroke="#2f0f2f" stroke-width="1"/>
+                            <!-- Efekt lewitacji -->
+                            <circle cx="${size/2}" cy="${size/2+12}" r="8" fill="none" stroke="${color}" stroke-width="1" opacity="0.5">
+                                <animate attributeName="r" values="8;12;8" dur="2s" repeatCount="indefinite"/>
+                            </circle>
+                        </svg>
+                    `;
                     
                 case 'upadly_rycerz':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Ciało w zbroi -->
+                            <rect x="${size/2-6}" y="${size/2-2}" width="12" height="15" fill="${color}" stroke="#1c1c1c" stroke-width="1"/>
+                            <!-- Hełm -->
+                            <rect x="${size/2-5}" y="${size/2-10}" width="10" height="8" fill="${color}" stroke="#1c1c1c" stroke-width="1"/>
+                            <!-- Tarcza -->
+                            <ellipse cx="${size/2-10}" cy="${size/2+3}" rx="4" ry="6" fill="#696969" stroke="#000" stroke-width="1"/>
+                            <!-- Topór -->
+                            <rect x="${size/2+8}" y="${size/2-2}" width="3" height="10" fill="#8b4513"/>
+                            <path d="M${size/2+11} ${size/2-2} L${size/2+16} ${size/2+1} L${size/2+11} ${size/2+4} Z" fill="#c0c0c0"/>
+                        </svg>
+                    `;
+                case 'upadly_rycerz_boss':
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
                             <!-- Ciało w zbroi -->
@@ -472,6 +527,26 @@
                     `;
                     
                 case 'bestia':
+                    return `
+                        <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Ciało bestii -->
+                            <ellipse cx="${size/2}" cy="${size/2+5}" rx="15" ry="10" fill="${color}" stroke="#4b0000" stroke-width="2"/>
+                            <!-- Głowa -->
+                            <circle cx="${size/2}" cy="${size/2-5}" r="8" fill="${color}" stroke="#4b0000" stroke-width="2"/>
+                            <!-- Rogi -->
+                            <polygon points="${size/2-8},${size/2-8} ${size/2-6},${size/2-15} ${size/2-4},${size/2-8}" fill="#000"/>
+                            <polygon points="${size/2+8},${size/2-8} ${size/2+6},${size/2-15} ${size/2+4},${size/2-8}" fill="#000"/>
+                            <!-- Oczy -->
+                            <circle cx="${size/2-3}" cy="${size/2-5}" r="2" fill="#ff0000"/>
+                            <circle cx="${size/2+3}" cy="${size/2-5}" r="2" fill="#ff0000"/>
+                            <!-- Animowany oddech ognia -->
+                            <path d="M${size/2-3} ${size/2} Q${size/2} ${size/2+3} ${size/2+3} ${size/2}" stroke="#ff4500" stroke-width="2" fill="none">
+                                <animate attributeName="stroke" values="#ff4500;#ff0000;#ff4500" dur="1s" repeatCount="indefinite"/>
+                            </path>
+                        </svg>
+                    `;
+                
+                case 'szalona_bestia':
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
                             <!-- Ciało bestii -->
@@ -562,8 +637,26 @@
                         enemy.lastAction = now;
                     }
                     break;
+                case 'floating_shooter_boss':
+                    // Lewituje i strzela
+                    if (distance > 100) {
+                        enemy.x += (dx / distance) * enemy.speed * 0.5;
+                        enemy.y += (dy / distance) * enemy.speed * 0.5;
+                    }
+                    if (now - enemy.lastAction > 1500) {
+                        createEnemyProjectile(enemy.x, enemy.y, dx, dy);
+                        enemy.lastAction = now;
+                    }
+                    break;
                     
                 case 'slow_tank':
+                    if (distance > 0) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+
+                case 'slow_tank_boss':
                     if (distance > 0) {
                         enemy.x += (dx / distance) * enemy.speed;
                         enemy.y += (dy / distance) * enemy.speed;
@@ -590,6 +683,18 @@
                         enemy.y += (dy / distance) * enemy.speed;
                     }
                     break;
+
+                case 'freaking_boss_breath':
+                    if (now - enemy.lastAction > 10000) {
+                        createEnemyProjectile(enemy.x, enemy.y, dx, dy);
+                        enemy.lastAction = now;
+                    }
+                    if (distance > 80) {
+                        enemy.x += (dx / distance) * enemy.speed;
+                        enemy.y += (dy / distance) * enemy.speed;
+                    }
+                    break;
+
                     
                 case 'explosive':
                     if (distance > 0) {
