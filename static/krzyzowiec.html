@@ -426,6 +426,9 @@
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
                             <image href="grzesznik.png" width="${size}" height="${size}" />
+                            <circle cx="${size/2+4}" cy="${size/2}" r="2" fill="#666666">
+                                <animate attributeName="fill" values="#666666;#ffff00;#666666" dur="1s" repeatCount="indefinite"/>
+                            </circle>
                         </svg>
                     `;
 
@@ -465,10 +468,24 @@
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
                             <image href="upadly_rycerz.png" width="${size}" height="${size}" />
                         </svg>
+                        <!-- efekt dymu z kopyta podażający za nami -->
+                        <rect x="${size/2-6}" y="${size/2-6}" width="12" height="12" fill="${color}" opacity="0.5">
+                            <animate attributeName="x" values="${size/2-6};${size/2-3};${size/2-6}" dur="2s" repeatCount="indefinite"/>
+                            <animate attributeName="y" values="${size/2-6};${size/2-3};${size/2-6}" dur="2s" repeatCount="indefinite"/>
+                        </rect>
                     `;
                 case 'upadly_rycerz_boss':
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Efekt dymu -->
+                            <radialGradient id="rycerzGrad" cx="50%" cy="50%" r="20%" fx="50%" fy="50%">
+                                <stop offset="0%" stop-color="#000" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+                            </radialGradient>
+                            <circle cx="${size/2}" cy="${size/2}" r="${size/20}" fill="url(#rycerzGrad)" style="overflow: visible;">
+                                <animate attributeName="r" values="${size/20};${size/20};${size*1.5}" dur="0.5s" repeatCount="indefinite"/>
+                            </circle>
+
                             <image href="upadly_rycerz_boss.png" width="${size}" height="${size}" />
                         </svg>
                     `;
@@ -487,13 +504,30 @@
                 case 'bestia':
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Efekt ognia bestii -->
+                            <radialGradient id="bestiaGrad" cx="50%" cy="50%" r="20%" fx="50%" fy="50%">
+                                <stop offset="0%" stop-color="#ff4500" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#ff4500" stop-opacity="0"/>
+                            </radialGradient>
+                            <circle cx="${size/2}" cy="${size/2}" r="${size/20}" fill="url(#bestiaGrad)" style="overflow: visible;">
+                                <animate attributeName="r" values="${size/20};${size/20};${size*1.5}" dur="0.5s" repeatCount="indefinite"/>
+                            </circle>
                             <image href="bestia.png" width="${size}" height="${size}" />
                         </svg>
+
                     `;
-                
+                    
                 case 'szalona_bestia':
                     return `
                         <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                            <!-- Efekt ognia bestii -->
+                            <radialGradient id="szalonaBestiaGrad" cx="50%" cy="50%" r="20%" fx="50%" fy="50%">
+                                <stop offset="0%" stop-color="#ff4500" stop-opacity="0.3"/>
+                                <stop offset="100%" stop-color="#ff4500" stop-opacity="0"/>
+                            </radialGradient>
+                            <circle cx="${size/2}" cy="${size/2}" r="${size/20}" fill="url(#szalonaBestiaGrad)" style="overflow: visible;">
+                                <animate attributeName="r" values="${size/20};${size/20};${size*1.5}" dur="0.5s" repeatCount="indefinite"/>
+                            </circle>
                             <image href="szalona_bestia.png" width="${size}" height="${size}" />
                          </svg>
                     `;
