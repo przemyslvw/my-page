@@ -51,6 +51,38 @@
         <category label="AI Act" term="AI Act"/>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Meta i TikTok pod ostrzałem cyberprzestępców: jak chronić swoje dane na platformach społecznościowych?]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-08</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-08"/>
+        <updated>2025-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberprzestępcy coraz częściej sięgają po złośliwe rozszerzenia do przeglądarek, które mogą zagrozić bezpieczeństwu tysięcy użytkowników. Kampanie te są szczególnie skuteczne, ponieważ korzystają z niedoskonałych zabezpieczeń platform, by wykradać dane uwierzytelniające i przejmować konta.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberprzestępcy coraz częściej sięgają po złośliwe rozszerzenia do przeglądarek, które mogą zagrozić bezpieczeństwu tysięcy użytkowników. Kampanie te są szczególnie skuteczne, ponieważ korzystają z niedoskonałych zabezpieczeń platform, by wykradać dane uwierzytelniające i przejmować konta.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="złośliwe-rozszerzenia-do-przeglądarek-carrefour-nowa-tańczące-z-niebezpieczeństwem">Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem<a href="https://www.majdak.online/blog/news-2025-06-08#z%C5%82o%C5%9Bliwe-rozszerzenia-do-przegl%C4%85darek-carrefour-nowa-ta%C5%84cz%C4%85ce-z-niebezpiecze%C5%84stwem" class="hash-link" aria-label="Bezpośredni link do Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem" title="Bezpośredni link do Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem">​</a></h3>
+<p>Od początku 2025 roku badacze odnotowali wzrost liczby zainfekowanych użytkowników w Ameryce Łacińskiej, którzy korzystali z złośliwych rozszerzeń dla Chromium. Ataki te polegają na przechwytywaniu danych logowania i kierowaniu ofiar na fałszywe strony phishingowe.</p>
+<p>Podejrzewane rozszerzenia podszywają się pod legalne narzędzia, co czyni je trudniejszymi do wykrycia. Polańczając od czego to się zaczęło, ataki te pokazują, jak istotne jest zabezpieczenie przeglądarek i uważna kontrola instalowanych dodatków.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ryzyko-związanego-z-zaufanymi-pakietami-w-ekosystemie-npm-i-pypi">Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI<a href="https://www.majdak.online/blog/news-2025-06-08#ryzyko-zwi%C4%85zanego-z-zaufanymi-pakietami-w-ekosystemie-npm-i-pypi" class="hash-link" aria-label="Bezpośredni link do Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI" title="Bezpośredni link do Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI">​</a></h3>
+<p>Cyberprzestępcy zaatakowali popularne pakiety w repozytorium npm, dodając złośliwy kod, który umożliwia ataki typu RAT, czyli remote access trojan.</p>
+<p>Ponad 950 000 pobrań tygodniowo i zaufanie społeczności sprawiły, że ten atak ma potencjał dotarcia do milionów użytkowników na całym świecie, co wymaga natychmiastowej reakcji i analizy.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="maskujące-się-z-narzędziami-złośliwe-pakiety-npm">Maskujące się z narzędziami złośliwe pakiety npm<a href="https://www.majdak.online/blog/news-2025-06-08#maskuj%C4%85ce-si%C4%99-z-narz%C4%99dziami-z%C5%82o%C5%9Bliwe-pakiety-npm" class="hash-link" aria-label="Bezpośredni link do Maskujące się z narzędziami złośliwe pakiety npm" title="Bezpośredni link do Maskujące się z narzędziami złośliwe pakiety npm">​</a></h3>
+<p>W ekosystemie npm odkryto dwa pakiety, które wyglądały na przydatne narzędzia, lecz w rzeczywistości były destrukcyjnymi wierszami poleceń usuwającymi całe katalogi projektów.</p>
+<p>Takie oszustwa pokazują, jak łatwo cyberprzestępcy mogą wykorzystać zaufanie deweloperów i spowodować poważne straty w projektach.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-infrastrukturę-serwerów-i-cyberprzestępcze-kampanie-na-szeroką-skalę">Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-06-08#ataki-na-infrastruktur%C4%99-serwer%C3%B3w-i-cyberprzest%C4%99pcze-kampanie-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę" title="Bezpośredni link do Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę">​</a></h3>
+<p>Badacze z Positive Technologies ujawnili kampanię phishingową z wykorzystaniem zainfekowanych serwerów, które rozsyłały złośliwe rozszerzenia do przeglądarek w Brazylii od początku 2025 roku.</p>
+<p>Tego typu działania zwiększają ryzyko kradzieży danych logowania i stanowią poważne zagrożenie dla internautów na wielu poziomach.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowa-wersja-trojana-crocodilus-na-androida">Nowa wersja trojana Crocodilus na Androida<a href="https://www.majdak.online/blog/news-2025-06-08#nowa-wersja-trojana-crocodilus-na-androida" class="hash-link" aria-label="Bezpośredni link do Nowa wersja trojana Crocodilus na Androida" title="Bezpośredni link do Nowa wersja trojana Crocodilus na Androida">​</a></h3>
+<p>Trojan Crocodilus atakuje urządzenia z Androidem, omijając zabezpieczenia systemowe Android 13+, i dodaje kontakty w telefonie ofiary za pomocą technik overlay i zdalnego dostępu.</p>
+<p>Eksperci ostrzegają przed rozprzestrzenianiem się tego złośliwego oprogramowania, które może wyłudzać poufne dane i przejmować kontrolę nad smartfonami.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Microsoft i CrowdStrike rzucają wyzwanie dla nazewnictwa grup APT – czy to zmieni oblicze cyberwojny?]]></title>
         <id>https://www.majdak.online/blog/news-2025-06-07</id>
         <link href="https://www.majdak.online/blog/news-2025-06-07"/>
@@ -765,38 +797,6 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="zakończenie-wyzwania-i-przyszłość-cyberbezpieczeństwa">Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-13#zako%C5%84czenie-wyzwania-i-przysz%C5%82o%C5%9B%C4%87-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa" title="Bezpośredni link do Zakończenie: wyzwania i przyszłość cyberbezpieczeństwa">​</a></h2>
 <p>Cyberzagrożenia ewoluują szybciej niż kiedykolwiek, a wyzwaniem jest nie tylko wykrycie ataków, ale też skuteczne ich zapobieganie. Współpraca, innowacje i szybkie reagowanie to klucze do obrony.</p>
 <p>Ważne jest, aby zarówno firmy, jak i użytkownicy byli świadomi aktualnych zagrożeń i stosowali najlepsze praktyki, aby zapewnić swoim systemom i danym bezpieczeństwo na najwyższym poziomie.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Ransomware" term="Ransomware"/>
-        <category label="Vulnerabilities" term="Vulnerabilities"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🔥 Cyberatak na Twoje dane? Najnowsze ransomware, luki w ASUS i fałszywe AI]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-12</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-12"/>
-        <updated>2025-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W dzisiejszym wpisie przyjrzymy się najnowszym wydarzeniom w świecie cyberbezpieczeństwa, od analizy złośliwego ransomware MAKOP, po poważne luki bezpieczeństwa w popularnym oprogramowaniu i rosnące zagrożenia związane z AI oraz IoT.]]></summary>
-        <content type="html"><![CDATA[<p>W dzisiejszym wpisie przyjrzymy się najnowszym wydarzeniom w świecie cyberbezpieczeństwa, od analizy złośliwego ransomware MAKOP, po poważne luki bezpieczeństwa w popularnym oprogramowaniu i rosnące zagrożenia związane z AI oraz IoT.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="makop-ransomware--lokalne-szyfrowanie-dysków-jako-studium-przypadku">Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku<a href="https://www.majdak.online/blog/news-2025-05-12#makop-ransomware--lokalne-szyfrowanie-dysk%C3%B3w-jako-studium-przypadku" class="hash-link" aria-label="Bezpośredni link do Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku" title="Bezpośredni link do Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku">​</a></h2>
-<p>Makop to rodzina ransomware działająca jako Ransomware as a Service (RaaS), szeroko wykorzystywana w atakach przeciwko różnym organizacjom, w tym sektora krytycznego. Ostatnio analiza skupiła się na nowszym wariancie tego złośliwego oprogramowania. Binarka Makop jest niewielka, co ułatwia jej ukrycie i uruchomienie. Ransomware ta potrafi skutecznie zaszyfrować cały dysk lokalny, wykorzystując metody, które umożliwiają eskalację ataków nawet na najbardziej zabezpieczone środowiska. Takie przypadki pokazują, jak ważne jest wdrażanie skutecznych rozwiązań ochronnych i monitorowania, aby ograniczyć skutki podobnych incydentów.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="asus-driverhub--luka-rce-umożliwiająca-zdalne-wykonanie-kodu">ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu<a href="https://www.majdak.online/blog/news-2025-05-12#asus-driverhub--luka-rce-umo%C5%BCliwiaj%C4%85ca-zdalne-wykonanie-kodu" class="hash-link" aria-label="Bezpośredni link do ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu" title="Bezpośredni link do ASUS DriverHub – luka RCE umożliwiająca zdalne wykonanie kodu">​</a></h2>
-<p>ASUS opublikowało poprawki dla dwóch poważnych luk w oprogramowaniu DriverHub, które umożliwiałyby atakującemu zdalne wykonanie kodu. DriverHub to narzędzie służące do automatycznego wykrywania modelu płyty głównej i proponowania odpowiednich sterowników. Eksploatacja tych luk mogła pozwolić na przejęcie pełnej kontroli nad komputerem użytkownika, co czyni z nich poważne zagrożenie dla małych i dużych organizacji korzystających z tego oprogramowania.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-formy-ataków-i-rosnące-znaczenie-unikania-luk">Nowe formy ataków i rosnące znaczenie unikania luk<a href="https://www.majdak.online/blog/news-2025-05-12#nowe-formy-atak%C3%B3w-i-rosn%C4%85ce-znaczenie-unikania-luk" class="hash-link" aria-label="Bezpośredni link do Nowe formy ataków i rosnące znaczenie unikania luk" title="Bezpośredni link do Nowe formy ataków i rosnące znaczenie unikania luk">​</a></h2>
-<p>Cyberprzestępcy coraz częściej sięgają po mniej oczywiste cele, takie jak przestarzałe systemy, niezabezpieczone urządzenia IoT czy otwarte biblioteki open-source. Kampanie oparte na takiej infrastrukturze są skuteczne właśnie z powodu zaniedbań w aktualizacji i zabezpieczaniu tych elementów. Zjawisko to wskazuje na potrzebę ciągłego monitorowania i uaktualniania stosowanych rozwiązań.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="fake-ai-tools-i-nowe-metody-ataków">Fake AI tools i nowe metody ataków<a href="https://www.majdak.online/blog/news-2025-05-12#fake-ai-tools-i-nowe-metody-atak%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Fake AI tools i nowe metody ataków" title="Bezpośredni link do Fake AI tools i nowe metody ataków">​</a></h2>
-<p>Oszustwa związane z sztuczną inteligencją dynamicznie rozwijają się, a cyberprzestępcy tworzą fałszywe platformy AI, zachęcające do pobrania malware typu info-stealer, Noodlophile. Marketingowe kampanie na Facebooku i viralowe treści sprawiają, że coraz więcej użytkowników pada ofiarą tego rodzaju oszustw. Edukacja i zwiększanie świadomości są kluczowe, aby przeciwdziałać tego typu zagrożeniom.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="aktualizacje-od-apple--poprawki-krytycznych-luk-w-ios-i-macos">Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS<a href="https://www.majdak.online/blog/news-2025-05-12#aktualizacje-od-apple--poprawki-krytycznych-luk-w-ios-i-macos" class="hash-link" aria-label="Bezpośredni link do Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS" title="Bezpośredni link do Aktualizacje od Apple – poprawki krytycznych luk w iOS i macOS">​</a></h2>
-<p>Apple wydało ważne poprawki dla iOS i macOS, naprawiające poważne błędy bezpieczeństwa, które można było wykorzystać poprzez zwykłe otwarcie obrazu lub wideo. Aktualizacje te są niezbędne dla użytkowników, którzy chcą zabezpieczyć swoje urządzenia przed potencjalnie złośliwymi treściami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-05-12#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie">​</a></h2>
-<p>Rosnąca liczba złożonych ataków, od ransomware po manipulacje AI i IoT, wskazuje na konieczność ciągłego doskonalenia strategii bezpieczeństwa. Wiele luk w popularnym oprogramowaniu i słabości w zakresie zarządzania dostępami pozostaje nadal poważnym zagrożeniem. Czujność, odpowiednie aktualizacje i edukacja użytkowników są kluczowe w walce z coraz bardziej wyrafinowanymi cyberatakami.</p>
-<p>Cyberbezpieczeństwo to nieustanny wyścig z czasem i technologią. Warto śledzić aktualne zagrożenia i stosować najlepsze praktyki, aby ograniczyć ryzyko.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
