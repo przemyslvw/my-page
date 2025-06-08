@@ -77,7 +77,7 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'Majdak Think Tank Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {

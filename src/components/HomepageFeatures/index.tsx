@@ -15,15 +15,15 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_security.svg').default,
     description: (
       <>
-      <strong>Bezpieczeństwo to podstawa każdego nowoczesnego biznesu.</strong><br />
-      Zabezpieczamy Twoją firmę przed utratą danych, cyberatakami i nieprzewidzianymi awariami.<br />
+      <strong>Bezpieczeństwo to podstawa każdego nowoczesnego i skalującego się biznesu.</strong><br />
+      Zabezpieczamy Twoją firmę przed wyciekiem danych, atakami hakerskimi, przestojami systemów i kosztownymi konsekwencjami awarii.<br />
       <br />
       <ul className={styles.noListStyle}>
-        <li>🔍 Audyty bezpieczeństwa i testy penetracyjne (web, API, sieć)</li>
-        <li>🧩 Wdrażanie standardów (ISO 27001, OWASP, NIS2)</li>
-        <li>🔒 Zabezpieczanie aplikacji webowych, urządzeń IoT i sieci firmowych</li>
-        <li>📑 Dokumentacja, polityki bezpieczeństwa, szkolenia zespołów</li>
-        <li>🧠 Konsultacje dla firm potrzebujących realnych, a nie papierowych zabezpieczeń</li>
+        <li>🔍 Audyty i testy bezpieczeństwa web, API i sieci</li>
+        <li>🧩 Wdrażanie ISO 27001, OWASP, NIS2 </li>
+        <li>🔒 Zabezpieczenia aplikacji, IoT oraz sieci </li>
+        <li>📑 Polityki bezpieczeństwa i szkolenia dla firm</li>
+        <li>🧠 Konsultacje z naciskiem na praktykę</li>
       </ul>
       </>
     ),
@@ -33,15 +33,15 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_programming.svg').default,
     description: (
       <>
-      <strong>Zyskaj czas, wyeliminuj błędy i przyspiesz rozwój swojego biznesu.**  </strong><br />
+      <strong>Zyskaj czas, wyeliminuj błędy i przyspiesz rozwój swojego biznesu.</strong><br />
       Budujemy automatyczne systemy, które wyręczają ludzi w powtarzalnych zadaniach i zwiększają zyski.<br />
       <br />
       <ul className={styles.noListStyle}>
         <li>🤖 Automatyzacja procesów w Make, n8n, OpenAI</li>
-        <li>🧪 Automatyzacja testów (Playwright, CI/CD)</li>
-        <li>📡 Obsługa IoT (ESP32, Raspberry Pi, integracje sprzętowe)</li>
-        <li>🔗 Integracje API – sklepy, CRM, systemy płatności</li>
-        <li>🛠️ Dedykowane rozwiązania, które skalują się razem z Twoim biznesem</li>
+        <li>🧪 Testy automatyczne Playwright oraz integracje </li>
+        <li>📡 Integracje sprzętowe IoT z ESP32, Raspberry Pi</li>
+        <li>🔗 Łączenie systemów: API, sklepy, CRM, płatności</li>
+        <li>🛠️ Rozwiązania, które rosną razem z Twoją firmą</li>
       </ul>
       </>
     ),
@@ -51,15 +51,15 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_web_development.svg').default,
     description: (
       <>
-      <strong>Szybkie, bezpieczne i nowoczesne aplikacje dopasowane do Twoich potrzeb.</strong> 
+      <strong>Szybkie, bezpieczne i nowoczesne aplikacje dopasowane do Twoich potrzeb.</strong><br />
       Projektujemy i wdrażamy rozwiązania, które łączą świetny frontend z wydajnym zapleczem technologicznym.<br />
       <br />
         <ul className={styles.noListStyle}>
-          <li>⚡ Angular, Firebase, TypeScript – szybki rozwój nowoczesnych aplikacji</li>
-          <li>🖥️ SSR, PWA, responsywne UI – szybkie i lekkie aplikacje na każde urządzenie</li>
-          <li>🧰 Autoryzacja, baza danych i pliki – kompletne rozwiązania dla aplikacji</li>
-          <li>🔧 Od MVP po produkt – wspieramy startupy, scale-upy i większe firmy</li>
-          <li>🧪 Testy, monitoring i rozwój – pełne wsparcie po uruchomieniu aplikacji</li>
+          <li>⚡ Angular + Firebase – szybkie aplikacje</li>
+          <li>🖥️ Responsywne UI, PWA dla każdej platformy</li>
+          <li>🧰 Baza danych, auth, pliki – kompletna aplikacja</li>
+          <li>🔧 MVP i skalowanie – wsparcie dla firm na starcie</li>
+          <li>🧪 Wsparcie, monitoring i rozwój po wdrożeniu</li>
         </ul>
       </>
     ),

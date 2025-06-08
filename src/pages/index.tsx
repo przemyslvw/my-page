@@ -17,6 +17,7 @@ function HomepageHeader() {
           <div className="col col--6 col--offset-3">
             <div className={styles.contentWrapper}>
               <Heading as="h1" className="hero__title">
+                <img src="/img/logo.png" alt="Majdak Think Tank Logo" /><br />
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
