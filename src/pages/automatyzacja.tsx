@@ -4,38 +4,48 @@ import Layout from '@theme/Layout';
 export default function Automatyzacja() {
   return (
     <Layout title="Automatyzacja" description="Zautomatyzuj swoje procesy z pomocą AI i no-code!">
-      <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <h1>🤖 Automatyzacja</h1>
-        <div style={{ textAlign: 'center', marginTop: '40px' }}>
-          <h2>Zautomatyzuj swój biznes z Make, n8n i OpenAI!</h2>
-          <p>
-            Oferujemy usługi automatyzacji, które usprawniają codzienne działania w firmie —
-            dzięki integracjom no-code i AI możesz oszczędzić czas, zminimalizować błędy i zwiększyć zyski.
-          </p>
-
-          <ul style={{ listStyle: 'none', padding: 0, marginTop: '30px', fontSize: '18px' }}>
-            <li>⚙️ Automatyzacja procesów biznesowych z <strong>Make</strong> i <strong>n8n</strong></li>
-            <li>💬 Integracja z <strong>OpenAI API</strong> — chatboty, generowanie treści, tłumaczenia</li>
-            <li>📩 Automatyzacja <strong>email marketingu</strong> i newsletterów</li>
-            <li>🛒 Obsługa <strong>sklepów internetowych</strong> – dodawanie produktów, zarządzanie zamówieniami</li>
-            <li>👨‍💼 Automatyczne <strong>odpowiedzi na wiadomości klientów</strong> (Messenger, Instagram, WhatsApp, email)</li>
-            <li>📈 Automatyczna analiza danych marketingowych (Google Analytics, TikTok, Instagram, Etsy, Pinterest)</li>
-            <li>📂 Generowanie i publikacja <strong>postów na bloga lub social media</strong></li>
-            <li>🔗 Integracje z <strong>CRM, ERP, Google Sheets, Notion</strong> i wieloma innymi usługami</li>
-            <li>📦 Automatyzacja <strong>raportowania i eksportów danych</strong> (PDF, CSV, JSON)</li>
-            <li>🧠 Tworzenie <strong>inteligentnych agentów</strong> wspierających pracę zespołu</li>
-          </ul>
-
-          <p style={{ marginTop: '30px' }}>
-            💡 Nie masz jeszcze pomysłu, co można u Ciebie zautomatyzować? Właśnie od tego jesteśmy.
-            Pomożemy Ci znaleźć i wdrożyć najlepsze rozwiązania.
-          </p>
-
-          <p style={{ marginTop: '30px' }}>
-            📬 <strong>Napisz:</strong> <a href="mailto:kontakt@majdak.online">kontakt@majdak.online</a> lub <a href="/contact">przejdź do kontaktu</a>
-          </p>
+      <div className="container margin-vert--xl">
+        <div className="row">
+          <div className="col col--6">
+            <h1 className="text--center">🤖 Automatyzacja, która realnie zwiększa zyski</h1>
+            <p className="text--center">
+              Nie interesują Cię technikalia – chcesz konkretnych rezultatów: więcej klientów, mniej ręcznej pracy, większy zysk. I właśnie to dostarczamy.
+            </p>
+          </div>
+          <div className="col col--6">
+            <p>
+              Projektujemy i wdrażamy systemy automatyzacji z wykorzystaniem Make, n8n i OpenAI, które działają 24/7, bez zmęczenia i błędów. Automaty odciążają Twój zespół, usprawniają sprzedaż i pozwalają Ci skupić się na tym, co naprawdę ważne – rozwoju firmy.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--12">
+            <ul className="list-none margin-top--lg">
+              <li>⚙️ Procesy sprzedażowe i operacyjne – od leadów po faktury</li>
+              <li>💬 Inteligentne chatboty i tłumaczenia z OpenAI – obsługa klientów bez etatów</li>
+              <li>📩 Email marketing i newslettery, które same się wysyłają</li>
+              <li>🛒 Sklepy internetowe – automatyczne dodawanie produktów, zarządzanie zamówieniami</li>
+              <li>👨‍💼 Obsługa wiadomości (Messenger, WhatsApp, Instagram, email) 24/7</li>
+              <li>📈 Zbieranie i analiza danych z Google Analytics, TikTok, Instagram, Etsy itp.</li>
+              <li>📂 Generowanie i publikacja treści na bloga lub social media bez ruszania palcem</li>
+              <li>🔗 Integracje z CRM, ERP, Google Sheets, Notion i dziesiątkami innych narzędzi</li>
+              <li>📦 Raporty, eksporty danych, PDF-y, CSV – automatyczne, czytelne, na czas</li>
+              <li>🧠 Wirtualni asystenci AI, którzy wspierają Twój zespół jak dodatkowy pracownik</li>
+            </ul>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--12 text--center">
+            <p style={{ marginTop: '30px' }}>
+              💡 Nie musisz wiedzieć, co chcesz zautomatyzować. Pokaż nam, jak działa Twoja firma, a my wskażemy, gdzie uciekają pieniądze i jak je odzyskać dzięki automatyzacji.
+            </p>
+            <p style={{ marginTop: '30px' }}>
+              📬 <strong>Napisz:</strong> <a href="mailto:kontakt@majdak.online">kontakt@majdak.online</a> lub <a href="/contact">przejdź do kontaktu</a>
+            </p>
+          </div>
         </div>
       </div>
     </Layout>
   );
 }
+
