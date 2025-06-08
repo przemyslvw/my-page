@@ -632,6 +632,13 @@
                     break;
             }
             
+            // Efekt odbicia lustrzanego
+            if (dx > 0) {
+                enemy.element.style.transform = 'scaleX(-1)';
+            } else {
+                enemy.element.style.transform = 'scaleX(1)';
+            }
+            
             updateEnemyPosition(enemy);
         }
         
