@@ -315,8 +315,8 @@
             level: 1,
             score: 0,
             player: {
-                x: 0,
-                y: 0,
+                worldX: 0,  // Player's position in world coordinates
+                worldY: 0,
                 health: 100,
                 maxHealth: 100,
                 angle: 0,
@@ -352,7 +352,7 @@
                 description: "Flotilla myśliwców TIE nadciąga! Przygotuj się do walki!",
                 enemyTypes: ['tie'],
                 spawnRate: 2000,
-                maxEnemies: 5,
+                maxEnemies: 10,
                 bossType: 'tie-boss'
             },
             { 
@@ -360,7 +360,7 @@
                 description: "Elitarne eskadry Imperium! Uważaj na ich formacje!",
                 enemyTypes: ['tie', 'heavy'],
                 spawnRate: 1500,
-                maxEnemies: 7,
+                maxEnemies: 10,
                 bossType: 'destroyer'
             },
             { 
@@ -368,7 +368,7 @@
                 description: "Zbliżasz się do Gwiazdy Śmierci. To będzie trudne!",
                 enemyTypes: ['tie', 'heavy', 'interceptor'],
                 spawnRate: 1000,
-                maxEnemies: 10,
+                maxEnemies: 30,
                 bossType: 'death-star'
             }
         ];
@@ -398,17 +398,11 @@
             knobElement.style.transform = 'translate(-50%, -50%)';
         }
 
-        /**
-         * Aktualizuje stan joysticka w oparciu o położenie kursora / palca
-         * @param {Event} e - Event touch/mouse
-         */
         function updateJoystick(e) {
-            // Pobierz pozycję i rozmiar joysticka
             const rect = joystickElement.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
-            // Pobierz pozycję kursora / palca
             let clientX, clientY;
             if (e.touches && e.touches[0]) {
                 clientX = e.touches[0].clientX;
@@ -418,25 +412,19 @@
                 clientY = e.clientY;
             }
             
-            // Oblicz różnicę między pozycją kursora a centrum joysticka
             const deltaX = clientX - centerX;
             const deltaY = clientY - centerY;
             const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
-            const maxDistance = game.joystick.radius / 2; // Zmniejsz czułość joysticka 
+            const maxDistance = game.joystick.radius / 2;
             
-            // Jeśli kursor jest wewnątrz okręgu joysticka, to ustaw x i y na wartości od 0 do 1
             if (distance <= maxDistance) {
-                game.joystick.x = deltaX / maxDistance * 0.8; // slow down joystick
-                game.joystick.y = deltaY / maxDistance * 0.8; // slow down joystick
-                // Przesuń element joysticka w oparciu o te wartości
+                game.joystick.x = deltaX / maxDistance * 0.8;
+                game.joystick.y = deltaY / maxDistance * 0.8;
                 knobElement.style.transform = `translate(${deltaX - 25}px, ${deltaY - 25}px)`;
             } else {
-                // Jeśli kursor jest poza okręgiem joysticka, to ustaw x i y na wartości od 0 do 1
-                // w oparciu o kąt między pozycją kursora a centrum joysticka
                 const angle = Math.atan2(deltaY, deltaX);
-                game.joystick.x = Math.cos(angle) * 0.5; // 0.2 to slow down joystick
-                game.joystick.y = Math.sin(angle) * 0.5; // 0.2 to slow down joystick
-                // Przesuń element joysticka w oparciu o te wartości
+                game.joystick.x = Math.cos(angle);
+                game.joystick.y = Math.sin(angle);
                 knobElement.style.transform = `translate(${Math.cos(angle) * maxDistance - 25}px, ${Math.sin(angle) * maxDistance - 25}px)`;
             }
         }
@@ -546,8 +534,8 @@
         }
 
         function resetPlayer() {
-            game.player.x = 0;
-            game.player.y = 0;
+            game.player.worldX = 0;
+            game.player.worldY = 0;
             game.player.health = game.player.maxHealth;
             game.player.angle = 0;
             game.camera.x = 0;
@@ -563,59 +551,53 @@
 
         // Game logic
         function updatePlayer() {
-            // Update player movement based on joystick
+            // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka
             if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
-                game.player.x += game.joystick.x * game.player.maxSpeed;
-                game.player.y += game.joystick.y * game.player.maxSpeed;
-                
-                // Update camera to follow player
-                game.camera.x = game.player.x - canvas.width / 2;
-                game.camera.y = game.player.y - canvas.height / 2;
+                game.player.worldX += game.joystick.x * game.player.maxSpeed;
+                game.player.worldY += game.joystick.y * game.player.maxSpeed;
             }
             
-            // Auto-aim at nearest enemy
-            // Najbli szy wrog
+            // Kamera zawsze sledzi pozycje gracza w przestrzeni swiata
+            game.camera.x = game.player.worldX - canvas.width / 2;
+            game.camera.y = game.player.worldY - canvas.height / 2;
+            
+            // Auto-namierzaj na najblizszego wroga
             let nearestEnemy = null;
             let nearestDistance = Infinity;
             
-            // Sprawd  wszystkich wrog w
             [...game.enemies, game.boss].filter(e => e).forEach(enemy => {
-                const dx = enemy.x - game.player.x;
-                const dy = enemy.y - game.player.y;
+                const dx = enemy.x - game.player.worldX;
+                const dy = enemy.y - game.player.worldY;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
                 if (distance < nearestDistance) {
-                    // Je li jest bli ej, to ustawiamy go jako najbli szego
                     nearestDistance = distance;
                     nearestEnemy = enemy;
                 }
             });
             
             if (nearestEnemy) {
-                const dx = nearestEnemy.x - game.player.x;
-                const dy = nearestEnemy.y - game.player.y;
+                const dx = nearestEnemy.x - game.player.worldX;
+                const dy = nearestEnemy.y - game.player.worldY;
                 game.player.angle = Math.atan2(dy, dx);
                 
-                // Auto-fire
+                // Auto-strzelaj
                 const now = Date.now();
-                if (now - game.lastShot > game.shootCooldown) {
+                if (now - game.lastShot > game.shootCooldown * 2) {
                     fireLaser();
                     game.lastShot = now;
                 }
             }
         }
 
-        // Utworz nowego lasera gracza
         function fireLaser() {
+            // Dodaj pocisk lasera do gry
             game.lasers.push({
-                // Pocz tek lasera
-                x: game.player.x,
-                y: game.player.y,
-                // Pr dko  ruchu lasera
-                dx: Math.cos(game.player.angle) * 5,
-                dy: Math.sin(game.player.angle) * 5,
-                // Typ lasera (gracz albo wr g)
-                type: 'player'
+                x: game.player.worldX, // Pozycja początkowa lasera (pozycja gracza)
+                y: game.player.worldY,
+                dx: Math.cos(game.player.angle) * 1, // Prędkość pocisku w osi X
+                dy: Math.sin(game.player.angle) * 1, // Prędkość pocisku w osi Y
+                type: 'player' // Typ pocisku (gracza)
             });
         }
 
@@ -625,18 +607,18 @@
             
             // Spawn around player but off-screen
             const angle = Math.random() * Math.PI * 2;
-            const distance = 600 + Math.random() * 200;
+            const distance = 400;
             
             const enemy = {
-                x: game.player.x + Math.cos(angle) * distance,
-                y: game.player.y + Math.sin(angle) * distance,
-                health: 10,
-                maxHealth: 10,
+                x: game.player.worldX + Math.cos(angle) * distance,
+                y: game.player.worldY + Math.sin(angle) * distance,
+                health: 20,
+                maxHealth: 20,
                 angle: 0,
                 speed: 1 + Math.random(),
                 type: config.enemyTypes[Math.floor(Math.random() * config.enemyTypes.length)],
                 lastShot: 0,
-                shootCooldown: 1000 + Math.random() * 2000
+                shootCooldown: 500 + Math.random() * 1000
             };
             
             game.enemies.push(enemy);
@@ -649,8 +631,8 @@
             const config = levelConfigs[(game.level - 1) % levelConfigs.length];
             
             game.boss = {
-                x: game.player.x + 400,
-                y: game.player.y,
+                x: game.player.worldX + 400,
+                y: game.player.worldY,
                 health: 100,
                 maxHealth: 100,
                 angle: 0,
@@ -666,8 +648,8 @@
             // Update regular enemies
             game.enemies.forEach((enemy, index) => {
                 // AI: Move towards player
-                const dx = game.player.x - enemy.x;
-                const dy = game.player.y - enemy.y;
+                const dx = game.player.worldX - enemy.x;
+                const dy = game.player.worldY - enemy.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
                 if (distance > 50) {
@@ -706,8 +688,8 @@
             
             // Update boss
             if (game.boss) {
-                const dx = game.player.x - game.boss.x;
-                const dy = game.player.y - game.boss.y;
+                const dx = game.player.worldX - game.boss.x;
+                const dy = game.player.worldY - game.boss.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
                 // Boss AI - circle around player
@@ -750,34 +732,34 @@
         }
 
         function updateLasers() {
-            // Aktualizuj pozycje laser w
             game.lasers.forEach((laser, index) => {
                 laser.x += laser.dx;
                 laser.y += laser.dy;
                 
-                // Usu  lasery, które wylecia y poza ekran
-                const screenX = laser.x - game.camera.x;
-                const screenY = laser.y - game.camera.y;
+                // Remove off-screen lasers (relative to player position)
+                const relativeX = laser.x - game.player.worldX;
+                const relativeY = laser.y - game.player.worldY;
                 
-                if (screenX < -50 || screenX > canvas.width + 50 || 
-                    screenY < -50 || screenY > canvas.height + 50) {
+                if (Math.abs(relativeX) > 800 || Math.abs(relativeY) > 600) {
                     game.lasers.splice(index, 1);
                     return;
                 }
                 
-                // Sprawd  czy laser uderzy  w co 
+                // Collision detection
                 if (laser.type === 'player') {
-                    // Sprawd  czy laser uderzy  w wroga
+                    // Sprawdź kolizje z wrogami
                     game.enemies.forEach(enemy => {
                         const dx = laser.x - enemy.x;
                         const dy = laser.y - enemy.y;
                         if (Math.sqrt(dx * dx + dy * dy) < 20) {
-                            enemy.health -= 25;
+                            // Zadaj obra enie wrogowi
+                            enemy.health -= 5;
+                            // Usu  laser
                             game.lasers.splice(index, 1);
                         }
                     });
                     
-                    // Sprawd  czy laser uderzy  w bossa
+                    // Check collision with boss
                     if (game.boss) {
                         const dx = laser.x - game.boss.x;
                         const dy = laser.y - game.boss.y;
@@ -787,9 +769,9 @@
                         }
                     }
                 } else if (laser.type === 'enemy') {
-                    // Sprawd  czy laser uderzy  w gracza
-                    const dx = laser.x - game.player.x;
-                    const dy = laser.y - game.player.y;
+                    // Check collision with player
+                    const dx = laser.x - game.player.worldX;
+                    const dy = laser.y - game.player.worldY;
                     if (Math.sqrt(dx * dx + dy * dy) < 25) {
                         game.player.health -= 10;
                         game.lasers.splice(index, 1);
@@ -817,8 +799,8 @@
                 powerup.bobOffset += 0.1;
                 
                 // Check collision with player
-                const dx = powerup.x - game.player.x;
-                const dy = powerup.y - game.player.y;
+                const dx = powerup.x - game.player.worldX;
+                const dy = powerup.y - game.player.worldY;
                 
                 if (Math.sqrt(dx * dx + dy * dy) < 30) {
                     if (powerup.type === 'health') {
@@ -853,15 +835,17 @@
 
         // Rendering
         function render() {
-            // Clear canvas
+            // Clear canvas with space background
             ctx.fillStyle = '#001122';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             
-            // Draw stars (parallax background)
+            // Draw scrolling starfield
             drawStars();
             
-            // Draw game objects (transformed by camera)
+            // Save context for world transformations
             ctx.save();
+            
+            // Apply camera transformation to all world objects
             ctx.translate(-game.camera.x, -game.camera.y);
             
             // Draw power-ups
@@ -884,9 +868,6 @@
                 drawBoss(game.boss);
             }
             
-            // Draw player (always at center)
-            drawPlayer();
-            
             // Draw explosions
             game.explosions.forEach(explosion => {
                 drawExplosion(explosion);
@@ -894,26 +875,40 @@
             
             ctx.restore();
             
+            // Draw player ALWAYS at screen center (no camera transformation)
+            drawPlayer();
+            
             // Update HUD
             updateHUD();
         }
 
         function drawStars() {
-            // Simple star field
+            // Scrolling star field based on camera position
+            ctx.fillStyle = 'white';
+            for (let i = 0; i < 100; i++) {
+                // Create pseudo-random star positions that move with camera
+                const starX = ((i * 73 + game.camera.x * 0.1) % (canvas.width + 100)) - 50;
+                const starY = ((i * 91 + game.camera.y * 0.1) % (canvas.height + 100)) - 50;
+                const size = (i % 3) + 1;
+                ctx.fillRect(starX, starY, size, size);
+            }
+            
+            // Add some distant stars that move slower
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
             for (let i = 0; i < 50; i++) {
-                const x = (i * 137 + game.camera.x * 0.1) % canvas.width;
-                const y = (i * 197 + game.camera.y * 0.1) % canvas.height;
-                ctx.fillStyle = 'white';
-                ctx.fillRect(x, y, 1, 1);
+                const starX = ((i * 127 + game.camera.x * 0.05) % (canvas.width + 200)) - 100;
+                const starY = ((i * 163 + game.camera.y * 0.05) % (canvas.height + 200)) - 100;
+                ctx.fillRect(starX, starY, 1, 1);
             }
         }
 
         function drawPlayer() {
-            const screenX = game.player.x - game.camera.x;
-            const screenY = game.player.y - game.camera.y;
+            // Player is ALWAYS drawn at screen center
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
             
             ctx.save();
-            ctx.translate(screenX, screenY);
+            ctx.translate(centerX, centerY);
             ctx.rotate(game.player.angle);
             
             // Draw Millennium Falcon
@@ -934,6 +929,15 @@
             ctx.ellipse(10, 0, 8, 12, 0, 0, Math.PI * 2);
             ctx.fill();
             
+            // Light details
+            ctx.fillStyle = '#0088ff';
+            ctx.beginPath();
+            ctx.arc(-5, -8, 3, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(5, -8, 3, 0, Math.PI * 2);
+            ctx.fill();
+            
             // Engine glow
             ctx.fillStyle = '#ff6600';
             ctx.fillRect(-2, 15, 4, 8);
@@ -944,15 +948,8 @@
         }
 
         function drawEnemy(enemy) {
-            const screenX = enemy.x - game.camera.x;
-            const screenY = enemy.y - game.camera.y;
-            
-            // Only draw if on screen
-            if (screenX < -50 || screenX > canvas.width + 50 || 
-                screenY < -50 || screenY > canvas.height + 50) return;
-            
             ctx.save();
-            ctx.translate(screenX, screenY);
+            ctx.translate(enemy.x, enemy.y);
             ctx.rotate(enemy.angle);
             
             // Draw TIE Fighter
@@ -967,6 +964,9 @@
             ctx.fillStyle = '#444444';
             ctx.fillRect(-15, -5, 30, 10);
             
+            ctx.fillStyle = '#666666';
+            ctx.fillRect(-12, -3, 24, 6);
+            
             ctx.fillStyle = '#ff0000';
             ctx.beginPath();
             ctx.arc(0, 0, 4, 0, Math.PI * 2);
@@ -976,16 +976,13 @@
             
             // Health bar
             if (enemy.health < enemy.maxHealth) {
-                drawHealthBar(screenX, screenY - 25, enemy.health, enemy.maxHealth, 30);
+                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30);
             }
         }
 
         function drawBoss(boss) {
-            const screenX = boss.x - game.camera.x;
-            const screenY = boss.y - game.camera.y;
-            
             ctx.save();
-            ctx.translate(screenX, screenY);
+            ctx.translate(boss.x, boss.y);
             ctx.rotate(boss.angle);
             
             // Draw large enemy ship
@@ -996,6 +993,11 @@
             ctx.ellipse(0, 0, 40, 20, 0, 0, Math.PI * 2);
             ctx.fill();
             ctx.stroke();
+            
+            ctx.fillStyle = '#666666';
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 30, 15, 0, 0, Math.PI * 2);
+            ctx.fill();
             
             ctx.fillStyle = '#333333';
             ctx.fillRect(-35, -8, 70, 16);
@@ -1012,35 +1014,40 @@
             ctx.arc(20, 0, 6, 0, Math.PI * 2);
             ctx.fill();
             
+            // Engine
+            ctx.fillStyle = '#ff6600';
+            ctx.fillRect(-5, 20, 10, 15);
+            
             ctx.restore();
             
             // Boss health bar (larger)
-            drawHealthBar(screenX, screenY - 50, boss.health, boss.maxHealth, 80);
+            drawHealthBar(boss.x, boss.y - 50, boss.health, boss.maxHealth, 80);
         }
 
         function drawLaser(laser) {
-            const screenX = laser.x - game.camera.x;
-            const screenY = laser.y - game.camera.y;
-            
             ctx.save();
-            ctx.translate(screenX, screenY);
+            ctx.translate(laser.x, laser.y);
             
             if (laser.type === 'player') {
                 ctx.fillStyle = '#00ff00';
+                ctx.shadowColor = '#00ff00';
+                ctx.shadowBlur = 5;
             } else {
                 ctx.fillStyle = '#ff0000';
+                ctx.shadowColor = '#ff0000';
+                ctx.shadowBlur = 5;
             }
             
             ctx.fillRect(-1, -8, 2, 16);
+            ctx.shadowBlur = 0;
             ctx.restore();
         }
 
         function drawPowerUp(powerup) {
-            const screenX = powerup.x - game.camera.x;
-            const screenY = powerup.y - game.camera.y + Math.sin(powerup.bobOffset) * 5;
+            const bobY = powerup.y + Math.sin(powerup.bobOffset) * 5;
             
             ctx.save();
-            ctx.translate(screenX, screenY);
+            ctx.translate(powerup.x, bobY);
             
             ctx.fillStyle = '#0088ff';
             ctx.strokeStyle = '#00ccff';
@@ -1048,25 +1055,32 @@
             ctx.fillRect(-8, -8, 16, 16);
             ctx.strokeRect(-8, -8, 16, 16);
             
+            ctx.fillStyle = '#00ccff';
+            ctx.globalAlpha = 0.7;
+            ctx.fillRect(-6, -6, 12, 12);
+            ctx.globalAlpha = 1;
+            
             ctx.fillStyle = 'white';
-            ctx.font = '12px Arial';
+            ctx.font = 'bold 12px Arial';
             ctx.textAlign = 'center';
-            ctx.fillText('+', 0, 4);
+            ctx.textBaseline = 'middle';
+            ctx.fillText('+', 0, 0);
             
             ctx.restore();
         }
 
         function drawExplosion(explosion) {
-            const screenX = explosion.x - game.camera.x;
-            const screenY = explosion.y - game.camera.y;
-            
             const alpha = explosion.life / explosion.maxLife;
+            
             ctx.save();
             ctx.globalAlpha = alpha;
             ctx.fillStyle = `hsl(${30 + Math.random() * 30}, 100%, 60%)`;
+            ctx.shadowColor = ctx.fillStyle;
+            ctx.shadowBlur = explosion.size;
             ctx.beginPath();
-            ctx.arc(screenX, screenY, explosion.size, 0, Math.PI * 2);
+            ctx.arc(explosion.x, explosion.y, explosion.size * alpha, 0, Math.PI * 2);
             ctx.fill();
+            ctx.shadowBlur = 0;
             ctx.restore();
         }
 
