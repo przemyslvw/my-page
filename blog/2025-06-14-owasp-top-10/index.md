@@ -37,7 +37,7 @@ Stworzyliśmy **praktyczny kurs**, który prowadzi Cię krok po kroku przez wszy
 - Dla audytorów i osób przygotowujących się do **ISO 27001**
 - Dla każdego, kto chce zbudować **świadome podejście do DevSecOps**
 
-➡️ Sprawdź kurs tutaj: **[link do kursu lub repozytorium]**
+➡️ Sprawdź przewodnik tutaj: **[Kompletny przewodnik po OWSAP top 10](/docs/category/owasp-top-10--testy-penetracyjne-aplikacji-webowych)**
 
 > OWASP Top 10 to nie tylko teoria – to praktyczny fundament dla każdego, kto tworzy lub testuje aplikacje webowe.
 
