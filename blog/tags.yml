@@ -423,3 +423,7 @@ iso27001:
 aiact:
   label: AI Act
   permalink: /blog/tags/aiact
+
+kurs:
+  label: kurs
+  permalink: /blog/tags/kurs
