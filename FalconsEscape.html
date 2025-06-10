@@ -398,11 +398,17 @@
             knobElement.style.transform = 'translate(-50%, -50%)';
         }
 
+        /**
+         * Aktualizuje stan joysticka w oparciu o położenie kursora / palca
+         * @param {Event} e - Event touch/mouse
+         */
         function updateJoystick(e) {
+            // Pobierz pozycję i rozmiar joysticka
             const rect = joystickElement.getBoundingClientRect();
             const centerX = rect.left + rect.width / 2;
             const centerY = rect.top + rect.height / 2;
             
+            // Pobierz pozycję kursora / palca
             let clientX, clientY;
             if (e.touches && e.touches[0]) {
                 clientX = e.touches[0].clientX;
@@ -412,19 +418,25 @@
                 clientY = e.clientY;
             }
             
+            // Oblicz różnicę między pozycją kursora a centrum joysticka
             const deltaX = clientX - centerX;
             const deltaY = clientY - centerY;
             const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
-            const maxDistance = game.joystick.radius;
+            const maxDistance = game.joystick.radius / 2; // Zmniejsz czułość joysticka 
             
+            // Jeśli kursor jest wewnątrz okręgu joysticka, to ustaw x i y na wartości od 0 do 1
             if (distance <= maxDistance) {
-                game.joystick.x = deltaX / maxDistance;
-                game.joystick.y = deltaY / maxDistance;
+                game.joystick.x = deltaX / maxDistance * 0.8; // slow down joystick
+                game.joystick.y = deltaY / maxDistance * 0.8; // slow down joystick
+                // Przesuń element joysticka w oparciu o te wartości
                 knobElement.style.transform = `translate(${deltaX - 25}px, ${deltaY - 25}px)`;
             } else {
+                // Jeśli kursor jest poza okręgiem joysticka, to ustaw x i y na wartości od 0 do 1
+                // w oparciu o kąt między pozycją kursora a centrum joysticka
                 const angle = Math.atan2(deltaY, deltaX);
-                game.joystick.x = Math.cos(angle);
-                game.joystick.y = Math.sin(angle);
+                game.joystick.x = Math.cos(angle) * 0.5; // 0.2 to slow down joystick
+                game.joystick.y = Math.sin(angle) * 0.5; // 0.2 to slow down joystick
+                // Przesuń element joysticka w oparciu o te wartości
                 knobElement.style.transform = `translate(${Math.cos(angle) * maxDistance - 25}px, ${Math.sin(angle) * maxDistance - 25}px)`;
             }
         }
@@ -562,15 +574,18 @@
             }
             
             // Auto-aim at nearest enemy
+            // Najbli szy wrog
             let nearestEnemy = null;
             let nearestDistance = Infinity;
             
+            // Sprawd  wszystkich wrog w
             [...game.enemies, game.boss].filter(e => e).forEach(enemy => {
                 const dx = enemy.x - game.player.x;
                 const dy = enemy.y - game.player.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
                 if (distance < nearestDistance) {
+                    // Je li jest bli ej, to ustawiamy go jako najbli szego
                     nearestDistance = distance;
                     nearestEnemy = enemy;
                 }
@@ -590,12 +605,16 @@
             }
         }
 
+        // Utworz nowego lasera gracza
         function fireLaser() {
             game.lasers.push({
+                // Pocz tek lasera
                 x: game.player.x,
                 y: game.player.y,
-                dx: Math.cos(game.player.angle) * 10,
-                dy: Math.sin(game.player.angle) * 10,
+                // Pr dko  ruchu lasera
+                dx: Math.cos(game.player.angle) * 5,
+                dy: Math.sin(game.player.angle) * 5,
+                // Typ lasera (gracz albo wr g)
                 type: 'player'
             });
         }
@@ -731,11 +750,12 @@
         }
 
         function updateLasers() {
+            // Aktualizuj pozycje laser w
             game.lasers.forEach((laser, index) => {
                 laser.x += laser.dx;
                 laser.y += laser.dy;
                 
-                // Remove off-screen lasers
+                // Usu  lasery, które wylecia y poza ekran
                 const screenX = laser.x - game.camera.x;
                 const screenY = laser.y - game.camera.y;
                 
@@ -745,9 +765,9 @@
                     return;
                 }
                 
-                // Collision detection
+                // Sprawd  czy laser uderzy  w co 
                 if (laser.type === 'player') {
-                    // Check collision with enemies
+                    // Sprawd  czy laser uderzy  w wroga
                     game.enemies.forEach(enemy => {
                         const dx = laser.x - enemy.x;
                         const dy = laser.y - enemy.y;
@@ -757,7 +777,7 @@
                         }
                     });
                     
-                    // Check collision with boss
+                    // Sprawd  czy laser uderzy  w bossa
                     if (game.boss) {
                         const dx = laser.x - game.boss.x;
                         const dy = laser.y - game.boss.y;
@@ -767,7 +787,7 @@
                         }
                     }
                 } else if (laser.type === 'enemy') {
-                    // Check collision with player
+                    // Sprawd  czy laser uderzy  w gracza
                     const dx = laser.x - game.player.x;
                     const dy = laser.y - game.player.y;
                     if (Math.sqrt(dx * dx + dy * dy) < 25) {
