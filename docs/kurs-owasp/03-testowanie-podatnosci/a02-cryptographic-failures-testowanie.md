@@ -1,59 +1,48 @@
 ---
-id: "a02-cryptographic-failures-opis"
-title: "🔐 3.2.1 – Cryptographic Failures: Opis podatności i jej wpływ"
-sidebar_position: 1
+id: "a02-cryptographic-failures-testowanie"
+title: "🧪 3.2.2 – Metody testowania podatności: Cryptographic Failures"
+sidebar_position: 7
 ---
 
-## 🧩 Czym są Cryptographic Failures?
+## 🎯 Cel sekcji
 
-**Cryptographic Failures** to klasa podatności wynikających z nieprawidłowego stosowania mechanizmów kryptograficznych – zarówno w kontekście szyfrowania danych, jak i ich ochrony przed nieautoryzowanym dostępem, modyfikacją lub ujawnieniem.
-
----
-
-## 📉 Przykłady nieprawidłowości
-
-- Przechowywanie haseł w formie czystego tekstu.
-- Brak szyfrowania danych wrażliwych (np. numerów kart kredytowych).
-- Użycie przestarzałych lub podatnych algorytmów (np. MD5, SHA1).
-- Brak weryfikacji certyfikatów TLS/SSL (np. akceptacja self-signed cert bez ostrzeżenia).
-- Nieprawidłowa implementacja kryptografii symetrycznej lub asymetrycznej.
-- Brak rotacji kluczy kryptograficznych.
+Poznać skuteczne techniki testowania podatności związanych z błędami kryptograficznymi – zarówno ręczne, jak i zautomatyzowane.
 
 ---
 
-## 💥 Potencjalne skutki
+## 🧪 Test 1: Brak HTTPS / nieprawidłowe certyfikaty
 
-- Utrata poufności danych (np. kradzież danych osobowych).
-- Ataki typu **credential stuffing** (gdy hasła są przechowywane jawnie).
-- Podszywanie się pod serwer (brak walidacji certyfikatu).
-- Możliwość deszyfrowania przechwyconego ruchu (np. TLS downgrade).
+### Narzędzia:
+- przeglądarka z DevTools
+- Burp Suite / ZAP Proxy
+- `curl`, `openssl s_client`
 
----
-
-## 🧪 Praktyczne przypadki użycia
-
-### 1. Przechowywanie haseł w plaintext
-
-**Błąd:**
-```sql
-INSERT INTO users (username, password) VALUES ('admin', 'admin123');
+### Kroki:
+1. Odwiedź aplikację i sprawdź, czy działa przez `HTTP`.
+2. Użyj `curl`:
+```bash
+curl -v http://example.com/login
+```
+3. Dla HTTPS:
+```bash
+openssl s_client -connect example.com:443
 ```
 
-**Skutek:**  
-Każdy, kto uzyska dostęp do bazy danych, widzi hasła użytkowników.
-
-**Poprawne podejście (Node.js + bcrypt):**
-```javascript
-const bcrypt = require('bcrypt');
-const hash = await bcrypt.hash('admin123', 12);
-```
+➡️ Brak certyfikatu lub self-signed cert = potencjalna luka MITM.
 
 ---
 
-### 2. JWT z algorytmem `none`
+## 🧪 Test 2: JWT – analiza algorytmu i podpisu
 
-**Błąd:**
-Token JWT bez podpisu (`alg: none`) akceptowany przez backend.
+### Narzędzia:
+- jwt.io
+- Burp Suite Decoder
+- własne skrypty
+
+### Kroki:
+1. Przechwyć JWT (np. z ciasteczka lub nagłówka `Authorization`).
+2. Rozkoduj i sprawdź `alg`.
+3. Jeśli `alg` to `none` lub `HS256`, spróbuj wygenerować fałszywy token.
 
 ```json
 {
@@ -62,59 +51,67 @@ Token JWT bez podpisu (`alg: none`) akceptowany przez backend.
 }
 ```
 
-**Skutek:**  
-Możliwość utworzenia własnego tokena z dowolną rolą, np. `admin`.
-
-**Poprawne podejście:**
-Wymuszaj silne algorytmy (`HS256`, `RS256`) i weryfikuj podpis tokena.
+➡️ Jeśli backend akceptuje taki token – luka krytyczna.
 
 ---
 
-### 3. Brak HTTPS – dane logowania w sieci
+## 🧪 Test 3: Przechowywanie haseł – analiza bazy
 
-**Błąd:**
-Aplikacja mobilna lub API przesyła login/hasło przez `http://`.
+### Narzędzia:
+- dostęp do bazy (dump / SQLi / audit)
+- edytor tekstu
 
-**Skutek:**  
-Podsłuch przez MITM (np. na publicznym Wi-Fi).
+### Kroki:
+1. Sprawdź zawartość kolumny `password`.
+2. Jeśli zawartość wygląda jak `admin123` – hasła są w plaintext.
 
-**Poprawne podejście:**
-Wymuszaj `HTTPS` i stosuj HSTS.
+➡️ Luka wysokiego ryzyka – brak hashowania haseł.
 
 ---
 
-### 4. Szyfrowanie lokalne bez salt/IV
+## 🧪 Test 4: Szyfrowanie lokalne (klient) – inspekcja kodu JS
 
-**Błąd:**
-```python
-cipher = AES.new(key, AES.MODE_CBC)
-ct = cipher.encrypt(data)
+### Narzędzia:
+- DevTools / lokalne pliki JS
+- obsługa CryptoJS / WebCrypto
+
+### Kroki:
+1. Sprawdź, czy klucz szyfrujący nie jest zakodowany w JS:
+```js
+const key = "1234567890abcdef"; // 🔥 krytyczny błąd
+```
+2. Sprawdź, czy IV jest stały:
+```js
+const iv = "0000000000000000"; // 🔥
 ```
 
-**Skutek:**  
-Szyfrowanie deterministyczne – dwa takie same ciągi zaszyfrowane identycznie.
+➡️ Brak losowości w kryptografii = podatność na ataki deszyfrujące.
 
-**Poprawne podejście:**
-Używaj losowego IV i saltingu:
-```python
-iv = get_random_bytes(16)
-cipher = AES.new(key, AES.MODE_CBC, iv=iv)
+---
+
+## 🛠️ Testy automatyczne
+
+### Narzędzia:
+- [TestSSL.sh](https://testssl.sh/)
+- [SSL Labs](https://www.ssllabs.com/ssltest/)
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog)
+- [Gitleaks](https://github.com/gitleaks/gitleaks)
+
+**Przykład:**
+```bash
+./testssl.sh https://example.com
 ```
 
----
-
-## 📦 Przykładowe podatności CVE
-
-- [CVE-2020-0601 (CurveBall)](https://nvd.nist.gov/vuln/detail/CVE-2020-0601) – Błąd w obsłudze certyfikatów EC przez Windows.
-- [CVE-2021-3449](https://nvd.nist.gov/vuln/detail/CVE-2021-3449) – DoS w OpenSSL.
-- [CVE-2022-0778](https://nvd.nist.gov/vuln/detail/CVE-2022-0778) – Infinite loop przy analizie certyfikatu w OpenSSL.
+➡️ Wykrycie niebezpiecznych protokołów (np. TLS 1.0) lub słabych algorytmów.
 
 ---
 
-## 🧠 Podsumowanie
+## 🧠 Wskazówki
 
-Podatności kryptograficzne rzadko wynikają z błędów w samych algorytmach – częściej są efektem ich **niewłaściwego użycia lub konfiguracji**. Nawet silny algorytm może być bezużyteczny, jeśli zastosowany bez odpowiednich praktyk bezpieczeństwa.
+- Weryfikuj, czy hasła są haszowane silnym algorytmem (BCrypt, Argon2).
+- Sprawdzaj długość kluczy szyfrowania – minimum 128 bitów (symetryczne), 2048 bitów (RSA).
+- Upewnij się, że komunikacja odbywa się tylko przez HTTPS z ważnym certyfikatem.
 
 ---
 
-W kolejnym kroku przejdziemy do testowania tych podatności w praktyce (3.2.2).
+W kolejnym kroku przeanalizujemy konfigurację aplikacji i serwera (3.2.3).
