@@ -194,6 +194,19 @@
                 <rect x="-12" y="-3" width="24" height="6" fill="#666666"/>
                 <circle cx="0" cy="0" r="4" fill="#ff0000"/>
             </g>
+            <!-- heavy Fighter -->
+            <g id="heavy">
+                <path d="M -15,-5 L 15,-5 L 15,5 L -15,5 Z" fill="#333333" stroke="#666666" stroke-width="1"/>
+                <path d="M -12,-3 L 12,-3 L 12,3 L -12,3 Z" fill="#444444" stroke="#666666" stroke-width="1"/>
+                <path d="M -6,-2 L 6,-2 L 6,2 L -6,2 Z" fill="#666666" stroke="#666666" stroke-width="1"/>
+                <path d="M 0,-4 L 0,4 M -4,0 L 4,0" stroke="#ff0000" stroke-width="2" stroke-linecap="round"/>
+            </g>            
+            <!-- interceptor Fighter -->
+            <g id="interceptor">
+                <circle cx="0" cy="0" r="8" fill="#ff6600" stroke="#ff0000" stroke-width="2"/>
+                <path d="M -6,0 L 6,0 M 0,-6 L 0,6" stroke="#ff0000" stroke-width="2" stroke-linecap="round"/>
+                <path d="M -4,-4 L 4,4 M -4,4 L 4,-4" stroke="#ff0000" stroke-width="2" stroke-linecap="round"/>
+            </g>
 
             <!-- Boss Ship -->
             <g id="boss">
@@ -217,7 +230,7 @@
                 <rect x="-1" y="-8" width="2" height="16" fill="#ff0000"/>
                 <rect x="-2" y="-6" width="4" height="12" fill="#ff8888" opacity="0.5"/>
             </g>
-
+            
             <!-- Power-up -->
             <g id="powerup">
                 <rect x="-8" y="-8" width="16" height="16" fill="#0088ff" stroke="#00ccff" stroke-width="2"/>
@@ -623,6 +636,7 @@
                 shootCooldown: 500 + Math.random() * 1000
             };
             
+            // Dodaj wroga do gry
             game.enemies.push(enemy);
         }
 
@@ -862,7 +876,13 @@
             
             // Draw enemies
             game.enemies.forEach(enemy => {
-                drawEnemy(enemy);
+                if (enemy.type === 'heavy') {
+                    drawHeavy(enemy);
+                } else if (enemy.type === 'interceptor') {
+                    drawInterceptor(enemy);
+                } else {
+                    drawEnemy(enemy);
+                }
             });
             
             // Draw boss
@@ -954,6 +974,69 @@
             }
         }
 
+        // Rysuj nowych wrog w
+        function drawHeavy(enemy) {
+            ctx.save();
+            ctx.translate(enemy.x, enemy.y);
+            ctx.rotate(enemy.angle);
+            ctx.fillStyle = '#990000';
+            ctx.strokeStyle = '#cc0000';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(-15, 0);
+            ctx.bezierCurveTo(-10, 10, 10, 10, 15, 0);
+            ctx.bezierCurveTo(10, -10, -10, -10, -15, 0);
+            ctx.fill();
+            ctx.stroke();
+            
+            ctx.fillStyle = '#ff0000';
+            ctx.beginPath();
+            ctx.moveTo(-5, 0);
+            ctx.bezierCurveTo(0, 5, 5, 5, 10, 0);
+            ctx.bezierCurveTo(5, -5, 0, -5, -5, 0);
+            ctx.fill();
+            
+            ctx.restore();
+            
+            // Health bar
+            if (enemy.health < enemy.maxHealth) {
+                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30);
+            }
+        }
+        // draw interceptor
+        function drawInterceptor(interceptor) {
+            ctx.save();
+            ctx.translate(interceptor.x, interceptor.y);
+            ctx.rotate(interceptor.angle);
+            
+            ctx.fillStyle = '#005500';
+            ctx.strokeStyle = '#007700';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(-10, 0);
+            ctx.lineTo(0, -10);
+            ctx.lineTo(10, 0);
+            ctx.lineTo(0, 10);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+            
+            ctx.fillStyle = '#009900';
+            ctx.fillRect(-12, -6, 24, 12);
+            
+            ctx.fillStyle = '#00ff00';
+            ctx.beginPath();
+            ctx.arc(0, 0, 3, 0, Math.PI * 2);
+            ctx.fill();
+            
+            ctx.restore();
+            
+            // Health bar
+            if (interceptor.health < interceptor.maxHealth) {
+                drawHealthBar(interceptor.x, interceptor.y - 25, interceptor.health, interceptor.maxHealth, 30);
+            }
+        }
+
         function drawBoss(boss) {
             ctx.save();
             ctx.translate(boss.x, boss.y);
@@ -998,21 +1081,25 @@
             drawHealthBar(boss.x, boss.y - 50, boss.health, boss.maxHealth, 80);
         }
 
+        // Rysuj laser gracza lub wroga
         function drawLaser(laser) {
             ctx.save();
             ctx.translate(laser.x, laser.y);
             
             if (laser.type === 'player') {
+                // zielony laser gracza
                 ctx.fillStyle = '#00ff00';
                 ctx.shadowColor = '#00ff00';
                 ctx.shadowBlur = 5;
             } else {
+                // czerwony laser wroga
                 ctx.fillStyle = '#ff0000';
                 ctx.shadowColor = '#ff0000';
                 ctx.shadowBlur = 5;
             }
             
-            ctx.fillRect(-1, -8, 2, 16);
+            // rysuj laser
+            ctx.fillRect(-1, -2, 5, 5);
             ctx.shadowBlur = 0;
             ctx.restore();
         }
