@@ -2,19 +2,42 @@
 sidebar_position: 0
 ---
 
+## Intro
 
-**Majdak Think Tank** to przestrzeń dla pasjonatów technologii, bezpieczeństwa IT, automatyzacji oraz innowacyjnych rozwiązań. Tworzymy bazę wiedzy, analizy i praktyczne poradniki dla tych, którzy chcą zgłębiać tematykę cyberbezpieczeństwa, programowania, automatyzacji oraz tworzenia aplikacji internetowych.
+**Majdak Think Tank** to przestrzeń dla osób, które chcą nie tylko podążać za technologią — ale ją rozumieć, wykorzystywać i budować z niej przewagę.
 
-👨‍💻 Założyciel: inż. Przemysław Majdak — Full-Stack Developer, Automation Engineer & Web Security Specialist.
+Publikujemy **praktyczne poradniki**, **analizy**, **case studies** i **narzędzia**, które pomagają rozwijać się w obszarach cyberbezpieczeństwa, programowania, automatyzacji i tworzenia aplikacji internetowych. Jeśli zależy Ci na sprawdzonych rozwiązaniach, a nie pustych hasłach — jesteś we właściwym miejscu.
 
-🚀 **Nasze główne obszary:**  
-🔒 Bezpieczeństwo sieciowe i webowe
-🤖 Automatyzacja testów i procesów (Playwright, ESP32)
-💻 Tworzenie stron i aplikacji internetowych (Angular, Firebase, TypeScript)
-📡 Projekty open-source i tutoriale techniczne
-📊 Analizy, raporty i strategie rozwoju IT
-📱 Internet Rzeczy (IoT), ESP32 i Raspberry Pi
-🔗 Integracje systemów oraz automatyzacje pracy
+---
 
-💡 **Dołącz do społeczności i rozwijaj swoje umiejętności z nami!**
-📬 Śledź nasze projekty, poradniki i najnowsze wpisy z zakresu technologii i bezpieczeństwa IT.
+👨‍💻 **Założyciel**: inż. **Przemysław Majdak** — Full-Stack Developer, Automation Engineer & Web Security Specialist.
+
+---
+
+### 🚀 Nasze główne obszary:
+
+#### 🌐 **Tworzenie aplikacji webowych**:
+- ⚡ Angular, Firebase, TypeScript – szybki rozwój nowoczesnych aplikacji
+- 🖥️ SSR, PWA, responsywne UI – lekkie i wydajne na każdym urządzeniu
+- 🧰 Autoryzacja, baza danych i storage – kompletne środowisko aplikacji
+- 🔧 Od MVP po gotowy produkt – wsparcie startupów, scale-upów i większych firm
+- 🧪 Testy, monitoring, rozwój – pełne wsparcie po uruchomieniu
+
+#### 🔒 **Cyberbezpieczeństwo**:
+- 🔍 Audyty bezpieczeństwa i testy penetracyjne (web, API, sieć)
+- 🧩 Wdrażanie standardów (ISO 27001, OWASP, NIS2)
+- 🔒 Zabezpieczanie aplikacji webowych, urządzeń IoT i sieci firmowych
+- 📑 Tworzenie polityk bezpieczeństwa, dokumentacja i szkolenia
+- 🧠 Konsultacje bezpieczeństwa oparte na realnych zagrożeniach, nie na checklistach
+
+#### 🤖 **Automatyzacja i integracje**:
+- 🤖 Automatyzacja procesów w Make, n8n, OpenAI
+- 🧪 Testy automatyczne i CI/CD z Playwright i GitHub Actions
+- 📡 Obsługa i integracja urządzeń IoT (ESP32, Raspberry Pi)
+- 🔗 Integracje API – sklepy internetowe, CRM-y, systemy płatności
+- 🛠️ Rozwiązania, które skalują się razem z Twoją firmą
+
+---
+
+💡 **Dołącz do społeczności i rozwijaj się razem z nami.**  
+📬 Śledź najnowsze poradniki, projekty open-source i aktualności ze świata technologii, automatyzacji i cyberbezpieczeństwa.
