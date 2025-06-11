@@ -3,7 +3,7 @@ slug: kurs-owasp-top10-2025
 title: "🛡️ Kurs praktyczny: Testowanie bezpieczeństwa aplikacji webowych – OWASP Top 10 2025"
 authors: [przemyslvw]
 tags: ["owasp", "cybersecurity", "pentesting", "web-security", "kurs"]
-date: 2025-06-10
+date: 2025-06-14
 ---
 
 Zastanawiasz się, jak **praktycznie testować bezpieczeństwo aplikacji webowych**?  

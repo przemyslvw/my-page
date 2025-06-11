@@ -1,6 +1,6 @@
 ---
 slug: news-2025-06-11
-title: "Microsoft Podniósł Alarm: Nowe ataki na WebDAV i krytyczna luka w Windows 11 od człowieka za mgłą!"
+title: "Microsoft Podniósł Alarm: Nowe ataki na WebDAV i krytyczna luka w Windows 11!"
 authors: [przemyslvw]
 tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: 2025-06-11
