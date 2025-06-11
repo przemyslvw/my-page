@@ -2,48 +2,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-06-11T00:00:00.000Z</updated>
+    <updated>2025-06-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Microsoft Podniósł Alarm: Nowe ataki na WebDAV i krytyczna luka w Windows 11 od człowieka za mgłą!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-11</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-11"/>
-        <updated>2025-06-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.]]></summary>
-        <content type="html"><![CDATA[<p>W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tytuł-sekcji">Tytuł sekcji<a href="https://www.majdak.online/blog/news-2025-06-11#tytu%C5%82-sekcji" class="hash-link" aria-label="Bezpośredni link do Tytuł sekcji" title="Bezpośredni link do Tytuł sekcji">​</a></h3>
-<p>Eksperci zabezpieczeń ujawnili nową lukę w Microsoft 365 Copilot, nazwaną 'EchoLeak', która stanowi pierwszy przypadek ataku zero-click na platformę AI. Ta luka pozwala hakerom na bezkontaktowe wykradanie poufnych danych z kontekstu użytkownika.</p>
-<p>Atak ten działa w tle, bez konieczności interakcji ze strony ofiary, co czyni go o wiele bardziej niebezpiecznym i trudnym do wykrycia. Eksperci ostrzegają, że jeżeli luka nie zostanie zabezpieczona, może dojść do poważnych naruszeń prywatności na skalę globalną.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksploitacje-i-zagrożenia-w-popularyzowanych-platformach">Eksploitacje i zagrożenia w popularyzowanych platformach<a href="https://www.majdak.online/blog/news-2025-06-11#eksploitacje-i-zagro%C5%BCenia-w-popularyzowanych-platformach" class="hash-link" aria-label="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach" title="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach">​</a></h3>
-<p>Na początku tego miesiąca odnotowano pojawienie się dwóch nowych exploitatów związanych z Secure Boot, które umożliwiają atakującym obejście mechanizmów zabezpieczeń na wielu urządzeniach, co stanowi poważne zagrożenie dla infrastruktury krytycznej.</p>
-<p>Microsoft intensyfikuje swoje wysiłki w poprawianiu bezpieczeństwa, wypuszczając aktualizacje łatające 66 znanych luk, w tym krytyczną WebDAV i exploity zeroday, które były używane w realnych atakach na systemy Windows i Windows Server.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-w-ekosystemach-chmurowych-i-platformach-low-code">Nowe zagrożenia w ekosystemach chmurowych i platformach low-code<a href="https://www.majdak.online/blog/news-2025-06-11#nowe-zagro%C5%BCenia-w-ekosystemach-chmurowych-i-platformach-low-code" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code" title="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code">​</a></h3>
-<p>Cyberprzestępcy coraz częściej wykorzystują konfiguracje w Salesforce oraz słabości w platformach typu low-code, takich jak Salesforce Industries, aby uzyskać dostęp do wrażliwych danych i wykorzystywać je w dalszych atakach.</p>
-<p>Dodatkowo, niektóre firmy, jak Fortinet i Ivanti, wypuściły poprawki w odpowiedzi na poważne luki, które mogły prowadzić do przejęcia kontroli nad systemami i wycieku danych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-periferie-i-urządzenia-iot">Ataki na periferie i urządzenia IoT<a href="https://www.majdak.online/blog/news-2025-06-11#ataki-na-periferie-i-urz%C4%85dzenia-iot" class="hash-link" aria-label="Bezpośredni link do Ataki na periferie i urządzenia IoT" title="Bezpośredni link do Ataki na periferie i urządzenia IoT">​</a></h3>
-<p>Idą za tym także zagrożenia wynikające z niezałatanych urządzeń IoT — na przykład ponad 40 tysięcy kamer bezpieczeństwa zostało zidentyfikowanych jako podatne na zdalne przejęcie i podsłuch.</p>
-<p>Podobnie, urządzenia GPS firmy SinoTrack zostały ujawnione jako podatne na zdalne przejęcie funkcji pojazdów, co podkreśla rosnącce ryzyko związane z bezpieczeństwem urządzeń połączonych w sieci.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dezinformacja-i-manipulacja-w-cyberprzestrzeni">Dezinformacja i manipulacja w cyberprzestrzeni<a href="https://www.majdak.online/blog/news-2025-06-11#dezinformacja-i-manipulacja-w-cyberprzestrzeni" class="hash-link" aria-label="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni" title="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni">​</a></h3>
-<p>Ważne wiadomości pojawiły się również wokół dezinformacji i manipulacji, jak na przykład przypadek ataku na stronę z informacjami o szczepieniach rządu USA, gdzie treści zostały zamienione na spam tematyczne i nieodpowiednie.</p>
-<p>Takie działania mogą poważnie zakłócić zaufanie publiczne do instytucji i stanowią poważne wyzwanie dla organów ścigania w walce z cyberzagrożeniami.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[🛡️ Kurs praktyczny: Testowanie bezpieczeństwa aplikacji webowych – OWASP Top 10 2025]]></title>
         <id>https://www.majdak.online/blog/kurs-owasp-top10-2025</id>
         <link href="https://www.majdak.online/blog/kurs-owasp-top10-2025"/>
-        <updated>2025-06-10T00:00:00.000Z</updated>
+        <updated>2025-06-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Zastanawiasz się, jak praktycznie testować bezpieczeństwo aplikacji webowych?]]></summary>
         <content type="html"><![CDATA[<p>Zastanawiasz się, jak <strong>praktycznie testować bezpieczeństwo aplikacji webowych</strong>?<br>
 <!-- -->Chcesz poznać <strong>narzędzia</strong>, <strong>techniki</strong> i <strong>raportowanie zgodne z OWASP Top 10 2025</strong>?</p>
@@ -91,6 +59,38 @@
         <category label="Penetration Testing" term="Penetration Testing"/>
         <category label="Web Security" term="Web Security"/>
         <category label="kurs" term="kurs"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Podniósł Alarm: Nowe ataki na WebDAV i krytyczna luka w Windows 11!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-11</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-11"/>
+        <updated>2025-06-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.]]></summary>
+        <content type="html"><![CDATA[<p>W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tytuł-sekcji">Tytuł sekcji<a href="https://www.majdak.online/blog/news-2025-06-11#tytu%C5%82-sekcji" class="hash-link" aria-label="Bezpośredni link do Tytuł sekcji" title="Bezpośredni link do Tytuł sekcji">​</a></h3>
+<p>Eksperci zabezpieczeń ujawnili nową lukę w Microsoft 365 Copilot, nazwaną 'EchoLeak', która stanowi pierwszy przypadek ataku zero-click na platformę AI. Ta luka pozwala hakerom na bezkontaktowe wykradanie poufnych danych z kontekstu użytkownika.</p>
+<p>Atak ten działa w tle, bez konieczności interakcji ze strony ofiary, co czyni go o wiele bardziej niebezpiecznym i trudnym do wykrycia. Eksperci ostrzegają, że jeżeli luka nie zostanie zabezpieczona, może dojść do poważnych naruszeń prywatności na skalę globalną.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksploitacje-i-zagrożenia-w-popularyzowanych-platformach">Eksploitacje i zagrożenia w popularyzowanych platformach<a href="https://www.majdak.online/blog/news-2025-06-11#eksploitacje-i-zagro%C5%BCenia-w-popularyzowanych-platformach" class="hash-link" aria-label="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach" title="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach">​</a></h3>
+<p>Na początku tego miesiąca odnotowano pojawienie się dwóch nowych exploitatów związanych z Secure Boot, które umożliwiają atakującym obejście mechanizmów zabezpieczeń na wielu urządzeniach, co stanowi poważne zagrożenie dla infrastruktury krytycznej.</p>
+<p>Microsoft intensyfikuje swoje wysiłki w poprawianiu bezpieczeństwa, wypuszczając aktualizacje łatające 66 znanych luk, w tym krytyczną WebDAV i exploity zeroday, które były używane w realnych atakach na systemy Windows i Windows Server.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-w-ekosystemach-chmurowych-i-platformach-low-code">Nowe zagrożenia w ekosystemach chmurowych i platformach low-code<a href="https://www.majdak.online/blog/news-2025-06-11#nowe-zagro%C5%BCenia-w-ekosystemach-chmurowych-i-platformach-low-code" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code" title="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code">​</a></h3>
+<p>Cyberprzestępcy coraz częściej wykorzystują konfiguracje w Salesforce oraz słabości w platformach typu low-code, takich jak Salesforce Industries, aby uzyskać dostęp do wrażliwych danych i wykorzystywać je w dalszych atakach.</p>
+<p>Dodatkowo, niektóre firmy, jak Fortinet i Ivanti, wypuściły poprawki w odpowiedzi na poważne luki, które mogły prowadzić do przejęcia kontroli nad systemami i wycieku danych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-periferie-i-urządzenia-iot">Ataki na periferie i urządzenia IoT<a href="https://www.majdak.online/blog/news-2025-06-11#ataki-na-periferie-i-urz%C4%85dzenia-iot" class="hash-link" aria-label="Bezpośredni link do Ataki na periferie i urządzenia IoT" title="Bezpośredni link do Ataki na periferie i urządzenia IoT">​</a></h3>
+<p>Idą za tym także zagrożenia wynikające z niezałatanych urządzeń IoT — na przykład ponad 40 tysięcy kamer bezpieczeństwa zostało zidentyfikowanych jako podatne na zdalne przejęcie i podsłuch.</p>
+<p>Podobnie, urządzenia GPS firmy SinoTrack zostały ujawnione jako podatne na zdalne przejęcie funkcji pojazdów, co podkreśla rosnącce ryzyko związane z bezpieczeństwem urządzeń połączonych w sieci.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dezinformacja-i-manipulacja-w-cyberprzestrzeni">Dezinformacja i manipulacja w cyberprzestrzeni<a href="https://www.majdak.online/blog/news-2025-06-11#dezinformacja-i-manipulacja-w-cyberprzestrzeni" class="hash-link" aria-label="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni" title="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni">​</a></h3>
+<p>Ważne wiadomości pojawiły się również wokół dezinformacji i manipulacji, jak na przykład przypadek ataku na stronę z informacjami o szczepieniach rządu USA, gdzie treści zostały zamienione na spam tematyczne i nieodpowiednie.</p>
+<p>Takie działania mogą poważnie zakłócić zaufanie publiczne do instytucji i stanowią poważne wyzwanie dla organów ścigania w walce z cyberzagrożeniami.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[🛡️ Kompletny przewodnik po roli Security Engineera – od narzędzi po przyszłość branży]]></title>
