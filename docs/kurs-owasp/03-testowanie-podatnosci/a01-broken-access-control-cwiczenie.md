@@ -1,6 +1,6 @@
 ---
 id: "a01-broken-access-control-cwiczenie"
-title: "🛡️ 3.1.5 – Praktyczne ćwiczenie: Testowanie i mitigacja podatności Broken Access Control"
+title: "Praktyczne ćwiczenie: Testowanie i mitigacja podatności Broken Access Control"
 sidebar_position: 5
 ---
 

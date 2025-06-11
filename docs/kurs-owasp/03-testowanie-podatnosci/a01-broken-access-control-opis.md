@@ -1,6 +1,6 @@
 ---
 id: "a01-broken-access-control-opis"
-title: "A01:2025 – Broken Access Control: Opis podatności i jej wpływ"
+title: "Broken Access Control: Opis podatności i jej wpływ"
 sidebar_position: 1
 ---
 

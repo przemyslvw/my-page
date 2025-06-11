@@ -1,6 +1,6 @@
 ---
 id: "a01-broken-access-control-testowanie"
-title: "A01:2025 – Broken Access Control: Metody testowania podatności"
+title: "Broken Access Control: Metody testowania podatności"
 sidebar_position: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: "a01-broken-access-control-konfiguracja"
-title: "A01:2025 – Broken Access Control: Weryfikacja konfiguracji aplikacji i serwera"
+title: "Broken Access Control: Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 3
 ---
 
