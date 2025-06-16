@@ -98,6 +98,26 @@ pihole:
   permalink: /pihole
   description: Blokowanie reklam i ochrona sieci przy użyciu Pi-hole.
 
+gps:
+  label: GPS
+  permalink: /gps
+  description: Systemy nawigacji satelitarnej, technologie GPS i ich zastosowania.
+
+spoofing:
+  label: Spoofing
+  permalink: /spoofing
+  description: Techniki podszywania się pod inne urządzenia lub sygnały.
+
+nawigacja:
+  label: Nawigacja
+  permalink: /nawigacja
+  description: Systemy i technologie nawigacyjne, zarówno satelitarne, jak i tradycyjne.
+
+open-source-intel:
+  label: Open Source Intel
+  permalink: /open-source-intel
+  description: Analiza i wykorzystanie otwartych źródeł informacji (OSINT).
+
 vaultwarden:
   label: Vaultwarden
   permalink: /vaultwarden
