@@ -324,6 +324,28 @@
         resizeCanvas();
         window.addEventListener('resize', resizeCanvas);
 
+        // Konfiguracja typów przeciwników
+        const enemyTypes = {
+            tie: {
+                laserColor: '#ff0000',
+                healthBarColor: '#ff4444',
+                health: 20,
+                speed: 1.5
+            },
+            heavy: {
+                laserColor: '#00ffff',
+                healthBarColor: '#ff8800',
+                health: 40,
+                speed: 0.8
+            },
+            interceptor: {
+                laserColor: '#ffff00',
+                healthBarColor: '#00ffcc',
+                health: 15,
+                speed: 2.2
+            }
+        };
+
         // Game state
         const game = {
             state: 'menu', // menu, playing, paused, gameOver, levelIntro
@@ -690,14 +712,16 @@
             const angle = Math.random() * Math.PI * 2;
             const distance = 400;
             
+            const type = config.enemyTypes[Math.floor(Math.random() * config.enemyTypes.length)];
+            const enemyConfig = enemyTypes[type];
             const enemy = {
                 x: game.player.worldX + Math.cos(angle) * distance,
                 y: game.player.worldY + Math.sin(angle) * distance,
-                health: 20,
-                maxHealth: 20,
+                health: enemyConfig.health,
+                maxHealth: enemyConfig.health,
                 angle: 0,
-                speed: 1 + Math.random(),
-                type: config.enemyTypes[Math.floor(Math.random() * config.enemyTypes.length)],
+                speed: enemyConfig.speed,
+                type: type,
                 lastShot: 0,
                 shootCooldown: 500 + Math.random() * 1000
             };
@@ -728,45 +752,58 @@
 
         function updateEnemies() {
             // Update regular enemies
-            game.enemies.forEach((enemy, index) => {
-                // AI: Move towards player
+            for (let i = game.enemies.length - 1; i >= 0; i--) {
+                const enemy = game.enemies[i];
                 const dx = game.player.worldX - enemy.x;
                 const dy = game.player.worldY - enemy.y;
                 const distance = Math.sqrt(dx * dx + dy * dy);
                 
+                // Kolizja gracza z wrogiem
+                if (distance < 30) {
+                    createExplosion(game.player.worldX, game.player.worldY, true);
+                    game.player.health = Math.floor(game.player.health / 2);
+                    game.enemies.splice(i, 1);
+                    if (game.player.health <= 0) {
+                        gameOver();
+                        return;
+                    }
+                    continue;
+                }
+
+                // Move towards player
                 if (distance > 50) {
                     enemy.x += (dx / distance) * enemy.speed;
                     enemy.y += (dy / distance) * enemy.speed;
                 }
-                
                 enemy.angle = Math.atan2(dy, dx);
-                
+
                 // Enemy shooting
                 const now = Date.now();
                 if (now - enemy.lastShot > enemy.shootCooldown && distance < 300) {
                     game.lasers.push({
                         x: enemy.x,
                         y: enemy.y,
-                        dx: Math.cos(enemy.angle) * 5,
-                        dy: Math.sin(enemy.angle) * 5,
-                        type: 'enemy'
+                        dx: Math.cos(enemy.angle) * 6,
+                        dy: Math.sin(enemy.angle) * 6,
+                        type: 'enemy',
+                        enemyType: enemy.type
                     });
                     enemy.lastShot = now;
                 }
-                
+
                 // Remove dead enemies
                 if (enemy.health <= 0) {
                     createExplosion(enemy.x, enemy.y);
-                    game.enemies.splice(index, 1);
+                    game.enemies.splice(i, 1);
                     game.score += 100;
                     game.enemiesKilled++;
-                    
                     // Chance to spawn power-up
                     if (Math.random() < 0.3) {
                         spawnPowerUp(enemy.x, enemy.y);
                     }
+                    continue;
                 }
-            });
+            };
             
             // Update boss
             if (game.boss) {
@@ -1036,7 +1073,7 @@
             
             // Health bar
             if (enemy.health < enemy.maxHealth) {
-                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30);
+                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30, enemyTypes[enemy.type]?.healthBarColor);
             }
         }
 
@@ -1066,7 +1103,7 @@
             
             // Health bar
             if (enemy.health < enemy.maxHealth) {
-                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30);
+                drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30, enemyTypes[enemy.type]?.healthBarColor);
             }
         }
         // draw interceptor
@@ -1099,7 +1136,7 @@
             
             // Health bar
             if (interceptor.health < interceptor.maxHealth) {
-                drawHealthBar(interceptor.x, interceptor.y - 25, interceptor.health, interceptor.maxHealth, 30);
+                drawHealthBar(interceptor.x, interceptor.y - 25, interceptor.health, interceptor.maxHealth, 30, enemyTypes[interceptor.type]?.healthBarColor);
             }
         }
 
@@ -1157,8 +1194,13 @@
                 ctx.fillStyle = '#00ff00';
                 ctx.shadowColor = '#00ff00';
                 ctx.shadowBlur = 5;
+            } else if (laser.type === 'enemy' && laser.enemyType && enemyTypes[laser.enemyType]) {
+                // laser przeciwnika z dedykowanym kolorem
+                ctx.fillStyle = enemyTypes[laser.enemyType].laserColor;
+                ctx.shadowColor = enemyTypes[laser.enemyType].laserColor;
+                ctx.shadowBlur = 5;
             } else {
-                // czerwony laser wroga
+                // domyślny laser wroga
                 ctx.fillStyle = '#ff0000';
                 ctx.shadowColor = '#ff0000';
                 ctx.shadowBlur = 5;
@@ -1211,13 +1253,13 @@
             ctx.restore();
         }
 
-        function drawHealthBar(x, y, health, maxHealth, width) {
+        function drawHealthBar(x, y, health, maxHealth, width, color = null) {
             const healthPercent = health / maxHealth;
             
             ctx.fillStyle = 'rgba(255, 0, 0, 0.3)';
             ctx.fillRect(x - width/2, y, width, 6);
             
-            ctx.fillStyle = `hsl(${healthPercent * 120}, 100%, 50%)`;
+            ctx.fillStyle = color ? color : `hsl(${healthPercent * 120}, 100%, 50%)`;
             ctx.fillRect(x - width/2, y, width * healthPercent, 6);
             
             ctx.strokeStyle = 'white';
