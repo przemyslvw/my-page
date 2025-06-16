@@ -664,7 +664,7 @@
                 
                 // Auto-strzelaj
                 const now = Date.now();
-                if (now - game.lastShot > game.shootCooldown * 2) {
+                if (now - game.lastShot > game.shootCooldown * 3) {
                     fireLaser();
                     game.lastShot = now;
                 }
@@ -676,8 +676,8 @@
             game.lasers.push({
                 x: game.player.worldX, // Pozycja początkowa lasera (pozycja gracza)
                 y: game.player.worldY,
-                dx: Math.cos(game.player.angle) * 1, // Prędkość pocisku w osi X
-                dy: Math.sin(game.player.angle) * 1, // Prędkość pocisku w osi Y
+                dx: Math.cos(game.player.angle) * 4, // Prędkość pocisku w osi X
+                dy: Math.sin(game.player.angle) * 4, // Prędkość pocisku w osi Y
                 type: 'player' // Typ pocisku (gracza)
             });
         }
