@@ -2,11 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-06-15T00:00:00.000Z</updated>
+    <updated>2025-06-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🛰️ Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?]]></title>
+        <id>https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025</id>
+        <link href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025"/>
+        <updated>2025-06-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W ostatnich tygodniach północna Polska – szczególnie rejon Trójmiasta i Półwyspu Helskiego – doświadcza bezprecedensowych zakłóceń sygnału GPS. Drony spadają z nieba, systemy nawigacji szaleją, a operatorzy są zdezorientowani. Czy to awaria systemowa? A może coś znacznie poważniejszego?]]></summary>
+        <content type="html"><![CDATA[<p>W ostatnich tygodniach północna Polska – szczególnie rejon Trójmiasta i Półwyspu Helskiego – doświadcza <strong>bezprecedensowych zakłóceń sygnału GPS</strong>. Drony spadają z nieba, systemy nawigacji szaleją, a operatorzy są zdezorientowani. Czy to awaria systemowa? A może coś znacznie poważniejszego?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-dokładnie-się-dzieje">🚨 Co dokładnie się dzieje?<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-co-dok%C5%82adnie-si%C4%99-dzieje" class="hash-link" aria-label="Bezpośredni link do 🚨 Co dokładnie się dzieje?" title="Bezpośredni link do 🚨 Co dokładnie się dzieje?">​</a></h2>
+<p>Od końca maja 2025 roku piloci dronów oraz użytkownicy systemów opartych o GNSS (Global Navigation Satellite Systems) raportują:</p>
+<ul>
+<li>Utraty sygnału GPS w rejonach <strong>Gdyni, Helu, Władysławowa i Jastarni</strong></li>
+<li>Masowe błędy lokalizacji – drony „myślą”, że są w Kaliningradzie, a nie nad Bałtykiem</li>
+<li>Spadki z powodu <code>failsafe GPS lost</code>, <code>RTH</code> w złym kierunku lub <strong>błędnego powrotu</strong> do punktu startowego</li>
+<li>Nietypowe sygnały ostrzegawcze w <strong>samochodowych systemach nawigacji</strong> i na pokładzie samolotów GA (General Aviation)</li>
+</ul>
+<p>Nie jest to przypadek. Zjawisko jest <strong>rozległe, długotrwałe i powtarzalne</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-spoofing-i-jamming--co-to-znaczy">🛠️ Spoofing i jamming – co to znaczy?<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#%EF%B8%8F-spoofing-i-jamming--co-to-znaczy" class="hash-link" aria-label="Bezpośredni link do 🛠️ Spoofing i jamming – co to znaczy?" title="Bezpośredni link do 🛠️ Spoofing i jamming – co to znaczy?">​</a></h2>
+<p>Zakłócenia sygnału GNSS można podzielić na dwie główne techniki:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-jamming-zagłuszanie-sygnału">📡 <strong>Jamming (zagłuszanie sygnału)</strong><a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-jamming-zag%C5%82uszanie-sygna%C5%82u" class="hash-link" aria-label="Bezpośredni link do -jamming-zagłuszanie-sygnału" title="Bezpośredni link do -jamming-zagłuszanie-sygnału">​</a></h3>
+<ul>
+<li>Emitowanie fal radiowych w paśmie GPS (L1), aby zablokować odbiór legalnego sygnału</li>
+<li>Efekt: całkowity brak sygnału GPS lub niestabilna lokalizacja</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-spoofing-fałszowanie-pozycji">🧠 <strong>Spoofing (fałszowanie pozycji)</strong><a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-spoofing-fa%C5%82szowanie-pozycji" class="hash-link" aria-label="Bezpośredni link do -spoofing-fałszowanie-pozycji" title="Bezpośredni link do -spoofing-fałszowanie-pozycji">​</a></h3>
+<ul>
+<li>Emitowanie <strong>podrobionego sygnału GPS</strong>, który podszywa się pod prawdziwy</li>
+<li>Efekt: urządzenie odbiera pozornie poprawny sygnał, ale z błędnymi współrzędnymi</li>
+<li>W przypadku dronów może prowadzić do <strong>przejęcia trajektorii lotu</strong> lub <strong>zmuszenia do lądowania</strong></li>
+</ul>
+<p>🔎 Według informacji z <a href="https://niebezpiecznik.pl/post/uwaga-piloci-dronow-na-polnocy-polski/" target="_blank" rel="noopener noreferrer">Niebezpiecznika</a>, odnotowano <strong>przemieszczanie „pozycji domowej” o kilkadziesiąt kilometrów</strong>, a drony raportowały "utracony sygnał" nawet na otwartym terenie.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-kto-za-tym-stoi">🧭 Kto za tym stoi?<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-kto-za-tym-stoi" class="hash-link" aria-label="Bezpośredni link do 🧭 Kto za tym stoi?" title="Bezpośredni link do 🧭 Kto za tym stoi?">​</a></h2>
+<p>Nie ma oficjalnych komunikatów ze strony rządu, ale wiele wskazuje na <strong>działania wojskowe</strong>:</p>
+<ul>
+<li>Obszar zakłóceń pokrywa się z korytarzami lotów NATO i ćwiczeniami armii</li>
+<li>Możliwe użycie <strong>mobilnych nadajników zakłócających</strong> w ramach treningu obrony elektronicznej</li>
+<li>Alternatywnie – działania <strong>sąsiedniego państwa</strong>, wykorzystujące zakłócanie jako element <strong>wojny hybrydowej</strong></li>
+</ul>
+<p>Na serwisach typu <a href="https://gpsjam.org/" target="_blank" rel="noopener noreferrer">GPSJam.org</a> widać <strong>anomalie sygnału</strong> nad Polską, Litwą i Bałtykiem – szczególnie wokół obwodu kaliningradzkiego.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-jak-się-chronić-jako-operator-drona">🧑‍✈️ Jak się chronić jako operator drona?<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#%EF%B8%8F-jak-si%C4%99-chroni%C4%87-jako-operator-drona" class="hash-link" aria-label="Bezpośredni link do 🧑‍✈️ Jak się chronić jako operator drona?" title="Bezpośredni link do 🧑‍✈️ Jak się chronić jako operator drona?">​</a></h2>
+<p>Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-co-robić">✅ Co robić:<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-co-robi%C4%87" class="hash-link" aria-label="Bezpośredni link do ✅ Co robić:" title="Bezpośredni link do ✅ Co robić:">​</a></h3>
+<ul>
+<li><strong>Wyłącz GPS</strong> i przejdź na tryb ręczny, jeśli zauważysz błędne pozycjonowanie</li>
+<li><strong>Nie używaj funkcji RTH</strong> w podejrzanym środowisku – dron może wrócić… ale gdzie indziej</li>
+<li><strong>Zachowaj wzrokowy kontakt</strong> z dronem i trzymaj go w zasięgu sterowania (VLOS)</li>
+<li><strong>Ustaw limity wysokości i dystansu</strong> w kontrolerze – unikniesz ucieczki poza zasięg</li>
+<li>Korzystaj z <strong>czujników inercyjnych i barometrycznych</strong>, a nie tylko z GPS</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-czego-unikać">❌ Czego unikać:<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-czego-unika%C4%87" class="hash-link" aria-label="Bezpośredni link do ❌ Czego unikać:" title="Bezpośredni link do ❌ Czego unikać:">​</a></h3>
+<ul>
+<li>Lotów automatycznych (waypoints, follow me)</li>
+<li>Latania nad wodą lub poza zasięgiem wzroku</li>
+<li>Używania sprzętu bez wsparcia <code>failsafe manual override</code></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-to-oznacza-szerzej">🌍 Co to oznacza szerzej?<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-co-to-oznacza-szerzej" class="hash-link" aria-label="Bezpośredni link do 🌍 Co to oznacza szerzej?" title="Bezpośredni link do 🌍 Co to oznacza szerzej?">​</a></h2>
+<p>To zjawisko to nie tylko problem dla droniarzy:</p>
+<ul>
+<li><strong>Systemy transportu</strong>, rolnictwo precyzyjne, logistyka – wszystkie opierają się na GNSS</li>
+<li>Zakłócenia mogą wpływać na <strong>lotnictwo cywilne</strong> i służby ratownicze</li>
+<li>W dobie wojny hybrydowej, <strong>bezpieczeństwo elektromagnetyczne</strong> staje się równie ważne jak sieciowe</li>
+</ul>
+<p>Nie jesteśmy odporni na tego typu działania. I to powinien być sygnał ostrzegawczy dla firm, operatorów i instytucji.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-podsumowanie-i-rekomendacje">🔐 Podsumowanie i rekomendacje<a href="https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025#-podsumowanie-i-rekomendacje" class="hash-link" aria-label="Bezpośredni link do 🔐 Podsumowanie i rekomendacje" title="Bezpośredni link do 🔐 Podsumowanie i rekomendacje">​</a></h2>
+<p>Zakłócenia GPS to nie science-fiction. To realna, rosnąca w siłę technika walki elektronicznej, która <strong>testuje odporność naszej infrastruktury</strong>.</p>
+<p>🎯 <strong>Co warto zrobić już teraz?</strong></p>
+<ul>
+<li>Uświadom użytkowników – <strong>drony, rolnicy, transportowcy</strong></li>
+<li>Weryfikuj dane z GPS z innymi źródłami (mapy offline, czujniki)</li>
+<li>Zainwestuj w systemy <strong>multi-GNSS (GPS + GLONASS + Galileo)</strong> z detekcją spoofingu</li>
+<li>Monitoruj sytuację na serwisach typu <code>gpsjam.org</code>, <code>adsbexchange.com</code>, <code>openskynetwork.org</code></li>
+</ul>
+<hr>
+<p>🛰️ <strong>To nie był test – to był sygnał. A będzie ich więcej.</strong> Przygotujmy się, zanim nasze systemy zostaną realnie oślepione.</p>
+<hr>
+<p>#CyberSecurity #Drony #Spoofing #GPS #ElectronicWarfare</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="GPS" term="GPS"/>
+        <category label="Spoofing" term="Spoofing"/>
+        <category label="Jamming" term="Jamming"/>
+        <category label="Drony" term="Drony"/>
+        <category label="Nawigacja" term="Nawigacja"/>
+        <category label="Open Source Intel" term="Open Source Intel"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jak Google chroni Twoje dane przed cyberzagrożeniami? Odkryj szokujące tajemnice!]]></title>
         <id>https://www.majdak.online/blog/news-2025-06-15</id>
@@ -690,40 +777,6 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="perspektywy-rozwoju-i-przyszłe-wyzwania">Perspektywy rozwoju i przyszłe wyzwania<a href="https://www.majdak.online/blog/news-2025-05-19#perspektywy-rozwoju-i-przysz%C5%82e-wyzwania" class="hash-link" aria-label="Bezpośredni link do Perspektywy rozwoju i przyszłe wyzwania" title="Bezpośredni link do Perspektywy rozwoju i przyszłe wyzwania">​</a></h2>
 <p>Przypadki ataków i wycieków danych pokazują, że cyberprzestępcy stale udoskonalają swoje metody, a zagrożenia stają się coraz bardziej wyrafinowane. W tym kontekście kluczowe jest wspieranie innowacji, edukacji i ścisłe monitorowanie środowiska cyfrowego.</p>
 <p>Zarządzanie ryzykiem, rozbudowa systemów detekcji oraz wdrażanie nowoczesnych rozwiązań sztucznej inteligencji będą decydowały o zdolności organizacji do obrony w szybko zmieniającym się cyberświecie.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Ransomware" term="Ransomware"/>
-        <category label="Vulnerabilities" term="Vulnerabilities"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Najważniejsze wydarzenia i zagrożenia w cyberbezpieczeństwie w maju 2025]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-17</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-17"/>
-        <updated>2025-05-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Miesiąc maj 2025 przyniósł szereg istotnych informacji z branży cyberbezpieczeństwa. Od poważnych luk w procesorach Intel, przez kampanie malware, po rosnącą aktywność grup hakerskich — te wydarzenia mają kluczowe znaczenie dla bezpieczeństwa cyfrowego organizacji na całym świecie.]]></summary>
-        <content type="html"><![CDATA[<p>Miesiąc maj 2025 przyniósł szereg istotnych informacji z branży cyberbezpieczeństwa. Od poważnych luk w procesorach Intel, przez kampanie malware, po rosnącą aktywność grup hakerskich — te wydarzenia mają kluczowe znaczenie dla bezpieczeństwa cyfrowego organizacji na całym świecie.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-w-procesorach-intel-i-powrót-problemów-spectre-i-meltdown">Nowe luki w procesorach Intel i powrót problemów Spectre i Meltdown<a href="https://www.majdak.online/blog/news-2025-05-17#nowe-luki-w-procesorach-intel-i-powr%C3%B3t-problem%C3%B3w-spectre-i-meltdown" class="hash-link" aria-label="Bezpośredni link do Nowe luki w procesorach Intel i powrót problemów Spectre i Meltdown" title="Bezpośredni link do Nowe luki w procesorach Intel i powrót problemów Spectre i Meltdown">​</a></h2>
-<p>Badacze z ETH Zürich i Vrije Universiteit Amsterdam odkryli nowe luki w procesorach Intel, które umożliwiają wycieki pamięci oraz ataki typu Spectre v2. Pomimo upływu ponad siedmiu lat od ujawnienia podatności Spectre i Meltdown, te problemy wciąż stanowią poważne zagrożenie dla bezpieczeństwa systemów.</p>
-<p>Zidentyfikowana luka, nazwana Branch Privilege Injection (BPI), pozwala na manipulację przewidywaniami wykonywania instrukcji, co może prowadzić do wycieku danych i inne formy ataków. Eksperci podkreślają, że konieczne są nowe środki zabezpieczające i aktualizacje firmware, aby ograniczyć ryzyko.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cyberataki-na-sektor-gamingowy-i-technologiczną-rośnie-aktywność-botnetów">Cyberataki na sektor gamingowy i technologiczną, rośnie aktywność botnetów<a href="https://www.majdak.online/blog/news-2025-05-17#cyberataki-na-sektor-gamingowy-i-technologiczn%C4%85-ro%C5%9Bnie-aktywno%C5%9B%C4%87-botnet%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Cyberataki na sektor gamingowy i technologiczną, rośnie aktywność botnetów" title="Bezpośredni link do Cyberataki na sektor gamingowy i technologiczną, rośnie aktywność botnetów">​</a></h2>
-<p>Nowo odkryty botnet HTTPBot rozpoczął serię ponad 200 precyzyjnych ataków DDoS skierowanych głównie na branżę gamingową, firmy technologiczne oraz instytucje edukacyjne w Chinach. Według raportów NSFOCUS, malware ten korzysta z zainfekowanych urządzeń do masowego prowadzenia ataków z dużą precyzją.</p>
-<p>Takie działania pokazują, jak grupy cyberprzestępcze coraz częściej ставiają na rozbudowane i ukierunkowane kampanie, co wymusza na firmach podnoszenie poziomu obrony i monitorowania aktywności sieciowej.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wypływ-danych-i-ataki-na-instytucje-publiczne">Wypływ danych i ataki na instytucje publiczne<a href="https://www.majdak.online/blog/news-2025-05-17#wyp%C5%82yw-danych-i-ataki-na-instytucje-publiczne" class="hash-link" aria-label="Bezpośredni link do Wypływ danych i ataki na instytucje publiczne" title="Bezpośredni link do Wypływ danych i ataki na instytucje publiczne">​</a></h2>
-<p>Aż 4 tys. specjalistów z 41 krajów wzięło udział w 15. edycji ćwiczeń NATO Locked Shields, które potwierdziły rosnący poziom kompetencji w dziedzinie cyberobrony. Wśród najnowszych incydentów pojawiły się także ataki z użyciem zero-day na VMware ESXi i Microsoft SharePoint, co przyniosło prawie pół miliona dolarów w nagrodach dla hakerów na Pwn2Own Berlin 2025.</p>
-<p>Dodatkowo, rosyjski grup APT28 od września 2023 roku wykorzystuje podatności na serwerach mailowych do ataków na instytucje rządowe i obronne, a grupa związana z USA tworzy nowe zagrożenia, w tym zaawansowane ataki deepfake skierowane przeciwko urzędnikom federalnym.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rozwiązania-i-dobre-praktyki-w-ochronie-danych">Rozwiązania i dobre praktyki w ochronie danych<a href="https://www.majdak.online/blog/news-2025-05-17#rozwi%C4%85zania-i-dobre-praktyki-w-ochronie-danych" class="hash-link" aria-label="Bezpośredni link do Rozwiązania i dobre praktyki w ochronie danych" title="Bezpośredni link do Rozwiązania i dobre praktyki w ochronie danych">​</a></h2>
-<p>Eksperci podkreślają, że skuteczna ochrona danych wymaga wdrożenia kompleksowych strategii, obejmujących stosowanie najlepszych praktyk, takich jak regularne kopie zapasowe, segmentacja sieci i aktualizacje zabezpieczeń. Przykładem są też narzędzia takie jak 'Defendnot', które potrafią dezaktualizować Microsoft Defender poprzez fałszywe sygnatury, co pokazuje, jak hakerzy próbują obejść standardowe mechanizmy ochronne.</p>
-<p>Ponadto, ważne jest prowadzenie transparentnych i dobrze udokumentowanych programów reagowania na incydenty, które zwiększają gotowość organizacji na cyberzagrożenia, zwłaszcza w erze szybkiego tempa rozwoju chmury i aplikacji nowoczesnych.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-i-prognozy-na-przyszłość">Podsumowanie i prognozy na przyszłość<a href="https://www.majdak.online/blog/news-2025-05-17#podsumowanie-i-prognozy-na-przysz%C5%82o%C5%9B%C4%87" class="hash-link" aria-label="Bezpośredni link do Podsumowanie i prognozy na przyszłość" title="Bezpośredni link do Podsumowanie i prognozy na przyszłość">​</a></h2>
-<p>Maj 2025 wyraźnie pokazuje, że zagrożenia w cyberprzestrzeni stają się coraz bardziej złożone i wyrafinowane. Niezbędne jest nieustanne doskonalenie mechanizmów obronnych, edukacja pracowników oraz ścisłe monitorowanie nowych luk bezpieczeństwa.</p>
-<p>Rozwój narzędzi AI, a także coraz większa aktywność grup państwowych, będzie wymuszać na organizacjach coraz bardziej zaawansowane strategie ochrony, aby skutecznie przeciwdziałać rosnącym zagrożeniom cyfrowym.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
