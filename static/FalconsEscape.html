@@ -390,6 +390,63 @@
 
         // Input handling
         let keys = {};
+
+        // --- WSAD keyboard support ---
+        document.addEventListener('keydown', function(e) {
+            keys[e.key.toLowerCase()] = true;
+        });
+        document.addEventListener('keyup', function(e) {
+            keys[e.key.toLowerCase()] = false;
+        });
+
+        function updateKeyboardToJoystick() {
+            // Map WSAD to joystick.x/y
+            let x = 0, y = 0;
+            if (keys['w']) y -= 1;
+            if (keys['s']) y += 1;
+            if (keys['a']) x -= 1;
+            if (keys['d']) x += 1;
+            // Normalize
+            if (x !== 0 || y !== 0) {
+                const len = Math.sqrt(x*x + y*y);
+                x /= len; y /= len;
+            }
+            // Nadpisz joystick tylko jeśli nie jest aktywny dotyk/mysz
+            if (!game.joystick.active) {
+                game.joystick.x = x;
+                game.joystick.y = y;
+            }
+        }
+
+        // --- Gamepad API support ---
+        function pollGamepadToJoystick() {
+            const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
+            if (gamepads) {
+                for (let i = 0; i < gamepads.length; i++) {
+                    const gp = gamepads[i];
+                    if (gp && gp.connected) {
+                        let x = gp.axes[0] || 0;
+                        let y = gp.axes[1] || 0;
+                        // Deadzone
+                        if (Math.abs(x) < 0.15) x = 0;
+                        if (Math.abs(y) < 0.15) y = 0;
+                        if ((x !== 0 || y !== 0) && !game.joystick.active) {
+                            game.joystick.x = x;
+                            game.joystick.y = y;
+                        }
+                        break; // Obsłuż pierwszy podłączony pad
+                    }
+                }
+            }
+        }
+
+        // --- Integracja wejść ---
+        function inputIntegrationLoop() {
+            updateKeyboardToJoystick();
+            pollGamepadToJoystick();
+            requestAnimationFrame(inputIntegrationLoop);
+        }
+        inputIntegrationLoop();
         
         // Touch/Mouse joystick
         const joystickElement = document.getElementById('joystick');
@@ -566,10 +623,19 @@
 
         // Game logic
         function updatePlayer() {
-            // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka
+            // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka/klawiatury/pada
             if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
                 game.player.worldX += game.joystick.x * game.player.maxSpeed;
                 game.player.worldY += game.joystick.y * game.player.maxSpeed;
+            } else if (keys['w'] || keys['arrowup']) {
+                game.player.worldY -= game.player.maxSpeed;
+            } else if (keys['s'] || keys['arrowdown']) {
+                game.player.worldY += game.player.maxSpeed;
+            }
+            if (keys['a'] || keys['arrowleft']) {
+                game.player.worldX -= game.player.maxSpeed;
+            } else if (keys['d'] || keys['arrowright']) {
+                game.player.worldX += game.player.maxSpeed;
             }
             
             // Kamera zawsze sledzi pozycje gracza w przestrzeni swiata
