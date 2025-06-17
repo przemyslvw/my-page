@@ -5,14 +5,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  img: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Cyberbezpieczeństwo',
-    Svg: require('@site/static/img/undraw_security.svg').default,
+    img: require('@site/static/img/undraw_security.png').default,
     description: (
       <>
       <strong>Bezpieczeństwo to podstawa każdego nowoczesnego i skalującego się biznesu.</strong><br />
@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Automatyzacja',
-    Svg: require('@site/static/img/undraw_programming.svg').default,
+    img: require('@site/static/img/undraw_programming.png').default,
     description: (
       <>
       <strong>Zyskaj czas, wyeliminuj błędy i przyspiesz rozwój swojego biznesu.</strong><br />
@@ -48,7 +48,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Tworzenie Aplikacji Internetowych',
-    Svg: require('@site/static/img/undraw_web_development.svg').default,
+    img: require('@site/static/img/undraw_web_development.png').default,
     description: (
       <>
       <strong>Szybkie, bezpieczne i nowoczesne aplikacje dopasowane do Twoich potrzeb.</strong><br />
@@ -66,15 +66,26 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, img, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img
+  src={img}
+  className={styles.featureSvg}
+  alt={title}
+  loading="lazy"
+  style={{
+    maxWidth: '100%',
+    height: 'auto',
+    padding: '12px'
+  }}
+/>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        {description}
+        <br/>
       </div>
     </div>
   );
