@@ -17,7 +17,7 @@ function HomepageHeader() {
           <div className="col col--6 col--offset-3">
             <div className={styles.contentWrapper}>
               <Heading as="h1" className="hero__title">
-                <img src="/img/logo.png" alt="Majdak Think Tank Logo" /><br />
+                <img src="/img/logo.png" alt="Majdak Think Tank Logo" style={{width: '240px', height: 'auto'}} /><br />
                 <span className="text--gradient">Majdak Think Tank</span>
               </Heading>
               <p className="hero__subtitle">
@@ -50,8 +50,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -74,10 +74,10 @@ const config: Config = {
       {name: 'keywords', content: 'Majdak, Think Tank, bezpieczeństwo IT, automatyzacja, ESP32, Playwright, programowanie, sieci, web security'}
     ],
     navbar: {
-      title: '',
+      title: 'Majdak Think Tank',
       logo: {
         alt: 'Majdak Think Tank Logo',
-        src: 'img/logo.png',
+        src: 'img/logo_small.png',
       },
       items: [
         {
