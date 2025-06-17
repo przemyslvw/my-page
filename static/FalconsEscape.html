@@ -272,9 +272,27 @@
         <button id="startBtn" class="menu-button">
             <i class="fas fa-play mr-2"></i>START GRY
         </button>
-        <button id="instructionsBtn" class="menu-button">
+        <button id="
+        " class="menu-button">
             <i class="fas fa-info-circle mr-2"></i>INSTRUKCJE
         </button>
+    </div>
+
+    <!-- Instructions Screen -->
+    <div id="instructionsScreen" class="hidden" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.95); z-index: 30; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white;">
+        <h2 class="text-4xl mb-6 text-blue-300 font-bold"><i class="fas fa-info-circle mr-2"></i>INSTRUKCJE</h2>
+        <div class="text-lg max-w-xl mb-8 text-center">
+            <p>Steruj Millennium Falconem, unikaj wrogów i zbieraj power-upy!</p>
+            <ul class="list-disc list-inside text-left mt-4 mb-4">
+                <li>Poruszaj się joystickiem (lewy dolny róg) lub klawiszami WSAD/strzałkami.</li>
+                <li>Automatycznie strzelasz do najbliższego wroga.</li>
+                <li>Zbieraj niebieskie power-upy, aby odzyskać zdrowie.</li>
+                <li>Pokonuj kolejne fale wrogów i bossów, aby przejść do następnego poziomu.</li>
+                <li>Unikaj laserów przeciwników i nie pozwól, by pasek zdrowia spadł do zera!</li>
+            </ul>
+            <p>Powodzenia, niech Moc będzie z Tobą!</p>
+        </div>
+        <button id="backToMenuBtn" class="menu-button"><i class="fas fa-arrow-left mr-2"></i>WRÓĆ DO MENU</button>
     </div>
 
     <!-- Game Over Screen -->
@@ -538,6 +556,8 @@
         document.getElementById('pauseBtn').addEventListener('click', togglePause);
         document.getElementById('startLevelBtn').addEventListener('click', startLevel);
         document.getElementById('skipBtn').addEventListener('click', skipCutscene);
+        document.getElementById('instructionsBtn').addEventListener('click', showInstructions);
+        document.getElementById('backToMenuBtn').addEventListener('click', hideInstructions);
 
         // Game functions
         function startGame() {
@@ -568,6 +588,17 @@
             document.getElementById('menu').classList.remove('hidden');
             document.getElementById('gameOverScreen').classList.add('hidden');
             document.getElementById('levelIntro').classList.add('hidden');
+            document.getElementById('instructionsScreen').classList.add('hidden');
+        }
+
+        function showInstructions() {
+            document.getElementById('menu').classList.add('hidden');
+            document.getElementById('instructionsScreen').classList.remove('hidden');
+        }
+
+        function hideInstructions() {
+            document.getElementById('instructionsScreen').classList.add('hidden');
+            document.getElementById('menu').classList.remove('hidden');
         }
 
         function showLevelIntro() {
