@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>Majdak Think Tank Blog</title>
-    <updated>2025-06-16T00:00:00.000Z</updated>
+    <updated>2025-06-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>Majdak Think Tank Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Gericht chroni Google, ale czy Twoje dane są bezpieczne przed hackerskimi atakami na Google?]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-17</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-17"/>
+        <updated>2025-06-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W świecie cyberbezpieczeństwa nie brakuje zaskakujących i druzgocących informacji. Najnowsze odkrycia pokazują, jak łatwo możemy stać się ofiarami zaawansowanych cyberataków, które nie tylko naruszają prywatność, ale i zagrażają naszemu bezpieczeństwu na skalę globalną.]]></summary>
+        <content type="html"><![CDATA[<p>W świecie cyberbezpieczeństwa nie brakuje zaskakujących i druzgocących informacji. Najnowsze odkrycia pokazują, jak łatwo możemy stać się ofiarami zaawansowanych cyberataków, które nie tylko naruszają prywatność, ale i zagrażają naszemu bezpieczeństwu na skalę globalną.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="google-to-zwiększa-działania-w-zakresie-wykrywania-oszustw-i-scams-w-indiach">Google to zwiększa działania w zakresie wykrywania oszustw i scams w Indiach<a href="https://www.majdak.online/blog/news-2025-06-17#google-to-zwi%C4%99ksza-dzia%C5%82ania-w-zakresie-wykrywania-oszustw-i-scams-w-indiach" class="hash-link" aria-label="Bezpośredni link do Google to zwiększa działania w zakresie wykrywania oszustw i scams w Indiach" title="Bezpośredni link do Google to zwiększa działania w zakresie wykrywania oszustw i scams w Indiach">​</a></h3>
+<p>Google ogłosiło rozszerzenie swoich działań w Indiach, skupiając się na walce z rosnącym zjawiskiem oszustw i scamów cyfrowych. Firma uruchomiła inicjatywę opartą na sztucznej inteligencji, mającą na celu identyfikację i blokowanie prób wyłudzeń, zwłaszcza związanych z systemem UPI.</p>
+<p>W ocenie ekspertów, ten krok jest nie tylko odpowiedzią na obecne zagrożenia, ale także zapowiedzią podniesienia poziomu bezpieczeństwa w jednym z najbardziej dynamicznych rynków cyfrowych na świecie. Jednak czy te działania wystarczą, by skutecznie powstrzymać coraz bardziej wyrafinowanych cyberprzestępców?</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksplozja-cyberataków-na-popularne-platformy-i-serwisy">Eksplozja cyberataków na popularne platformy i serwisy<a href="https://www.majdak.online/blog/news-2025-06-17#eksplozja-cyberatak%C3%B3w-na-popularne-platformy-i-serwisy" class="hash-link" aria-label="Bezpośredni link do Eksplozja cyberataków na popularne platformy i serwisy" title="Bezpośredni link do Eksplozja cyberataków na popularne platformy i serwisy">​</a></h3>
+<p>Najnowsze dane pokazują, że cyberprzestępcy coraz częściej targetują znane i szeroko używane platformy, takie jak WhatsApp, Reddit czy platformy branżowe. To wyraźny sygnał, że ataki typu phishing i AI-fake coraz bardziej zyskują na zaawansowaniu i skali.</p>
+<p>Przykładem są reklamy z deepfake'ami na Instagramie czy ataki na serwisy pocztowe typu Cock.li, które w ostatnich miesiącach straciły dostęp do danych wielu użytkowników. Walka o bezpieczeństwo na poziomie end-to-end wymaga ciągłej uwagi i aktualizacji metod obronnych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="narastające-zagrożenia-w-infrastrukturze-krytycznej">Narastające zagrożenia w infrastrukturze krytycznej<a href="https://www.majdak.online/blog/news-2025-06-17#narastaj%C4%85ce-zagro%C5%BCenia-w-infrastrukturze-krytycznej" class="hash-link" aria-label="Bezpośredni link do Narastające zagrożenia w infrastrukturze krytycznej" title="Bezpośredni link do Narastające zagrożenia w infrastrukturze krytycznej">​</a></h3>
+<p>Eksploatacja luk w urządzeniach sieciowych, takich jak Zyxel czy TP-Link, nadal stanowi poważne wyzwanie dla administratorów. Uaktywnione ataki wykorzystują znane błędy, które były już zgłaszane i mają aktywne exploity w środowisku operacyjnym.</p>
+<p>Dodatkowo, ataki na systemy obsługi przedsiębiorstw, np. Sitecore czy Microsoft Surface Hub, potwierdzają, że cyberprzestępcy coraz częściej celują w infrastrukturę krytyczną, próbując uzyskać pełną kontrolę nad systemami i danymi firmy.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wyzwania-związane-z-krytycznymi-lukami-i-złamaniami-danych">Wyzwania związane z krytycznymi lukami i złamaniami danych<a href="https://www.majdak.online/blog/news-2025-06-17#wyzwania-zwi%C4%85zane-z-krytycznymi-lukami-i-z%C5%82amaniami-danych" class="hash-link" aria-label="Bezpośredni link do Wyzwania związane z krytycznymi lukami i złamaniami danych" title="Bezpośredni link do Wyzwania związane z krytycznymi lukami i złamaniami danych">​</a></h3>
+<p>Serwisy takie jak 23andMe i Asheville Eye Associates zostały ukarane grzywnami za poważne wycieki danych, ujawniając potrzebę wzmocnienia zabezpieczeń szczególnie w sektorze zdrowia i biotechnologii.</p>
+<p>Nowe zagrożenia obejmują także złośliwe malware typu Anubis z funkcją automatycznego kasowania danych czy botnet Flodrix, który wykorzystuje luki w Langflow do rozprzestrzeniania DDoS i ataków na systemy.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rola-narzędzi-i-testów-w-obronie-przed-cyberzagrożeniami">Rola narzędzi i testów w obronie przed cyberzagrożeniami<a href="https://www.majdak.online/blog/news-2025-06-17#rola-narz%C4%99dzi-i-test%C3%B3w-w-obronie-przed-cyberzagro%C5%BCeniami" class="hash-link" aria-label="Bezpośredni link do Rola narzędzi i testów w obronie przed cyberzagrożeniami" title="Bezpośredni link do Rola narzędzi i testów w obronie przed cyberzagrożeniami">​</a></h3>
+<p>Rosnące wyzwania wymuszają na specjalistach coraz częstsze użycie narzędzi takich jak Kali Linux, Nmap czy Burp Suite, aby identyfikować i neutralizować zagrożenia na wczesnym etapie.</p>
+<p>Edukacja i szkolenia z zakresu cyberbezpieczeństwa, np. w ramach inicjatyw Videopoint, stają się kluczowe w budowaniu odporności organizacji, zwłaszcza w obliczu zaawansowanych ataków na infrastrukturę i dane.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🛰️ Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?]]></title>
         <id>https://www.majdak.online/blog/zaklocenia-gps-spoofing-jamming-2025</id>
@@ -741,40 +773,6 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="jak-się-bronić-praktyczne-wskazówki-i-prognozy">Jak się bronić? Praktyczne wskazówki i prognozy<a href="https://www.majdak.online/blog/news-2025-05-23#jak-si%C4%99-broni%C4%87-praktyczne-wskaz%C3%B3wki-i-prognozy" class="hash-link" aria-label="Bezpośredni link do Jak się bronić? Praktyczne wskazówki i prognozy" title="Bezpośredni link do Jak się bronić? Praktyczne wskazówki i prognozy">​</a></h2>
 <p>Specjaliści podkreślają konieczność automatyzacji procesów bezpieczeństwa, a eksperci od tożsamości zwracają uwagę na potrzebę pełnej automatyzacji kluczowych systemów, aby ograniczyć ryzyko błędów ludzkich.</p>
 <p>Na horyzoncie pojawiają się nowe wyzwania związane z rozwojem AI, dużymi modelami językowymi, a także z lukami w popularnych systemach, takich jak Windows Server czy Ivanti EPMM.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Ransomware" term="Ransomware"/>
-        <category label="Vulnerabilities" term="Vulnerabilities"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyberwojna 2025: Największe wycieki, ataki hakerów i przełomowe techniki obrony – co musisz wiedzieć?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-21</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-21"/>
-        <updated>2025-05-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.]]></summary>
-        <content type="html"><![CDATA[<p>Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skandale-i-wycieki-danych-na-szeroką-skalę">Skandale i wycieki danych na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-05-21#skandale-i-wycieki-danych-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Skandale i wycieki danych na szeroką skalę" title="Bezpośredni link do Skandale i wycieki danych na szeroką skalę">​</a></h2>
-<p>W 2025 roku media informują o wyciekach danych milionów użytkowników – przykładami są Coinbase, które ujawniło dane ponad 69 tysięcy klientów, oraz PowerSchool, gdzie uczeń przyznał się do hacku narażającego dane milionów uczniów.</p>
-<p>Oprócz tego, badacze z Imperva odkryli podatność w WordPressie, umożliwiającą poznanie tytułów prywatnych wpisów i szkiców, co może prowadzić do poważnych konsekwencji, zwłaszcza w przypadku wpisów wrażliwych lub poufnych decyzji.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-działania-państwowych-grup-hakerskich">Zaawansowane działania państwowych grup hakerskich<a href="https://www.majdak.online/blog/news-2025-05-21#zaawansowane-dzia%C5%82ania-pa%C5%84stwowych-grup-hakerskich" class="hash-link" aria-label="Bezpośredni link do Zaawansowane działania państwowych grup hakerskich" title="Bezpośredni link do Zaawansowane działania państwowych grup hakerskich">​</a></h2>
-<p>Rosyjskie grupy APT, takie jak APT28, kontynuują działania wymierzone w zachodnie firmy logistyczne i technologiczne, wykorzystując m.in. exploitowania luk w DNS i infrastrukturze chmurowej. Z kolei Chiny i Korea Północna poszerzają swoją aktywność, skierowaną na międzynarodowe organizacje, wykorzystując złośliwe backdoory i spear phishing.</p>
-<p>Szczególnie ciekawe jest użycie MarsSnake, nowego backdoora, który był stosowany w atakach na saudyjskie organizacje, oraz kampanie rozprzestrzeniające malware typu PureRAT, które w 2025 roku zwiększyły swoją skalę czterokrotnie w porównaniu z poprzednimi latami.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="infostalerowe-zagrożenia-i-kampanie-oszustwowe">Infostalerowe zagrożenia i kampanie oszustwowe<a href="https://www.majdak.online/blog/news-2025-05-21#infostalerowe-zagro%C5%BCenia-i-kampanie-oszustwowe" class="hash-link" aria-label="Bezpośredni link do Infostalerowe zagrożenia i kampanie oszustwowe" title="Bezpośredni link do Infostalerowe zagrożenia i kampanie oszustwowe">​</a></h2>
-<p>Cyberprzestępcy stosują fałszywe reklamy na Facebooku, rozpowszechniając malware takie jak RAT, a także tworzą złośliwe rozszerzenia do Chrome, które wykradają dane użytkowników. Przykładem są maskujące kampanie wykorzystujące fałszywe strony Kling AI, które mają na celu wyłudzenie danych lub instalację złośliwego oprogramowania.</p>
-<p>W tym roku odnotowano również ataki na popularne platformy, takie jak Instagram i TikTok, gdzie w wyniku exploittowania API oraz wykorzystywania złośliwych pakietów na PyPI, cyberprzestępcy próbują zdobyć dostęp do kont lub wyłudzać informacje.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-narzędzia-i-mechanizmy-obronne">Nowoczesne narzędzia i mechanizmy obronne<a href="https://www.majdak.online/blog/news-2025-05-21#nowoczesne-narz%C4%99dzia-i-mechanizmy-obronne" class="hash-link" aria-label="Bezpośredni link do Nowoczesne narzędzia i mechanizmy obronne" title="Bezpośredni link do Nowoczesne narzędzia i mechanizmy obronne">​</a></h2>
-<p>Microsoft wprowadził funkcję automatycznej zmiany haseł w swoim przeglądarce Chrome, co jest kluczowym krokiem w walce z wyłudzaniem danych. Podobnie, Google DeepMind pracuje nad rozwiązaniami chroniącymi przed atakami typu prompt injection, a firmy takie jak ThreatLocker i Tenable rozwijają narzędzia do zarządzania lukami i monitorowania bezpieczeństwa środowisk chmurowych.</p>
-<p>Ważną rolę odgrywa także rozwój algorytmów matematycznych, takich jak 'LEV', który ma ocenić prawdopodobieństwo, że dany bug został już wykorzystany, co znacząco przyspiesza proces reakcji na zagrożenia.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cyberbezpieczne-praktyki-i-wyzwania-przyszłości">Cyberbezpieczne praktyki i wyzwania przyszłości<a href="https://www.majdak.online/blog/news-2025-05-21#cyberbezpieczne-praktyki-i-wyzwania-przysz%C5%82o%C5%9Bci" class="hash-link" aria-label="Bezpośredni link do Cyberbezpieczne praktyki i wyzwania przyszłości" title="Bezpośredni link do Cyberbezpieczne praktyki i wyzwania przyszłości">​</a></h2>
-<p>Obecnie coraz więcej organizacji dostrzega konieczność wdrażania elastycznych i adaptacyjnych programów bezpieczeństwa, zamiast sztywnych i nieelastycznych systemów. Równocześnie, rosnące zagrożenia związane z ransomware, tworzeniem własnych narzędzi malware i wykorzystywaniem słabości w infrastrukturze, wymuszają na firmach stałe aktualizacje i monitorowanie środowisk.</p>
-<p>Przykłady takich działań to skuteczne blokady domen, neutralizacja działalności grup takich jak Lumma oraz śledzenie kampanii phishingowych i wprowadzanie odpowiednich mechanizmów zapobiegawczych, co w przyszłości będzie kluczowe dla zapewnienia bezpieczeństwa cyberprzestrzeni.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
