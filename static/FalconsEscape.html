@@ -272,8 +272,7 @@
         <button id="startBtn" class="menu-button">
             <i class="fas fa-play mr-2"></i>START GRY
         </button>
-        <button id="
-        " class="menu-button">
+        <button id="instructionsBtn" class="menu-button">
             <i class="fas fa-info-circle mr-2"></i>INSTRUKCJE
         </button>
     </div>
@@ -1062,7 +1061,10 @@
             // Player is ALWAYS drawn at screen center
             const centerX = canvas.width / 2;
             const centerY = canvas.height / 2;
-            
+
+            // Draw health bar above player
+            drawHealthBar(centerX, centerY - 55, game.player.health, game.player.maxHealth, 60, '#00ff00');
+
             ctx.save();
             ctx.translate(centerX, centerY);
             ctx.rotate(game.player.angle);
