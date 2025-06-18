@@ -4,41 +4,10 @@
         <title>Majdak Think Tank Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>Majdak Think Tank Blog</description>
-        <lastBuildDate>Wed, 18 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
-        <item>
-            <title><![CDATA[Iran tłumi Internet, żeby ukryć cyberatak na Izrael! Co się dzieje w regionalnym konflikcie?]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-18</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-18</guid>
-            <pubDate>Wed, 18 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cyberprzestępcy coraz częściej wykorzystują zaawansowane techniki, by wyłudzić dane i zasoby finansowe. Najnowsza kampania z użyciem Cloudflare Tunnel pokazuje, jak łatwo można ukryć złośliwe payloady w infrastrukturze chmurowej.]]></description>
-            <content:encoded><![CDATA[<p>Cyberprzestępcy coraz częściej wykorzystują zaawansowane techniki, by wyłudzić dane i zasoby finansowe. Najnowsza kampania z użyciem Cloudflare Tunnel pokazuje, jak łatwo można ukryć złośliwe payloady w infrastrukturze chmurowej.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowa-kampania-malware-używa-cloudflare-tunnels-do-ataków-typu-phishing">Nowa kampania malware używa Cloudflare Tunnels do ataków typu phishing<a href="https://www.majdak.online/blog/news-2025-06-18#nowa-kampania-malware-u%C5%BCywa-cloudflare-tunnels-do-atak%C3%B3w-typu-phishing" class="hash-link" aria-label="Bezpośredni link do Nowa kampania malware używa Cloudflare Tunnels do ataków typu phishing" title="Bezpośredni link do Nowa kampania malware używa Cloudflare Tunnels do ataków typu phishing">​</a></h3>
-<p>Najnowsza seria ataków o kryptonimie SERPENTINE#CLOUD korzysta z infrastruktury Cloudflare Tunnel do hostowania złośliwych ładunków.</p>
-<p>Cyberprzestępcy używają zaawansowanych technik, aby ukryć swoje działania i rozprzestrzeniać malware poprzez phishingowe wiadomości z załącznikami. To pokazuje, jak chmura i narzędzia DevOps mogą być wykorzystywane do celów przestępczych, zwiększając zagrożenie dla użytkowników i organizacji.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wielowymiarowe-zagrożenia-w-globalnej-przestrzeni-cybernetycznej">Wielowymiarowe zagrożenia w globalnej przestrzeni cybernetycznej<a href="https://www.majdak.online/blog/news-2025-06-18#wielowymiarowe-zagro%C5%BCenia-w-globalnej-przestrzeni-cybernetycznej" class="hash-link" aria-label="Bezpośredni link do Wielowymiarowe zagrożenia w globalnej przestrzeni cybernetycznej" title="Bezpośredni link do Wielowymiarowe zagrożenia w globalnej przestrzeni cybernetycznej">​</a></h3>
-<p>Iran doświadcza poważnych zakłóceń w dostępie do internetu, co może mieć powiązanie z próbami ograniczenia działań cybernetycznych mających na celu utrudnienie działań Izraelowi.</p>
-<p>Po stronie finansowej, największa irańska giełda kryptowalut została zaatakowana, co skutkowało kradzieżą i zniszczeniem milionów dolarów, co potwierdza rosnącą skalę cyberprzestępczości w regionie.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rosja-korea-północ-i-inne-odniesienia-do-aktorów-państwowych">Rosja, Korea Północ i inne odniesienia do aktorów państwowych<a href="https://www.majdak.online/blog/news-2025-06-18#rosja-korea-p%C3%B3%C5%82noc-i-inne-odniesienia-do-aktor%C3%B3w-pa%C5%84stwowych" class="hash-link" aria-label="Bezpośredni link do Rosja, Korea Północ i inne odniesienia do aktorów państwowych" title="Bezpośredni link do Rosja, Korea Północ i inne odniesienia do aktorów państwowych">​</a></h3>
-<p>Rosyjskie grupy hakerskie nadal skutecznie omijają metody uwierzytelniania dwuskładnikowego, wykradając dostęp do kont Gmail za pomocą zaawansowanych technik opartych na specjalnych hasłach aplikacyjnych.</p>
-<p>Z kolei Północnokoreański aktor BlueNoroff używa technik deepfake podczas zdalnych spotkań Zoom, aby oszukać pracowników i zainfekować ich złośliwym oprogramowaniem na masową skalę, co pokazuje ewolucję strategii ataków państwowych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-zagrożenia-i-luki-bezpieczeństwa-w-oprogramowaniu">Nowoczesne zagrożenia i luki bezpieczeństwa w oprogramowaniu<a href="https://www.majdak.online/blog/news-2025-06-18#nowoczesne-zagro%C5%BCenia-i-luki-bezpiecze%C5%84stwa-w-oprogramowaniu" class="hash-link" aria-label="Bezpośredni link do Nowoczesne zagrożenia i luki bezpieczeństwa w oprogramowaniu" title="Bezpośredni link do Nowoczesne zagrożenia i luki bezpieczeństwa w oprogramowaniu">​</a></h3>
-<p>Wiele systemów korzysta z niezałatanych podatności, takich jak CVE-2023-33538 w routerach TP-Link czy zaawansowane luki w Linuxie, które pozwalają na eskalację uprawnień i pełny dostęp administratora.</p>
-<p>Ponadto, znaczne ryzyko wiąże się z nowymi kampaniami malware, które wykorzystują Cloudflare Tunnels oraz różne techniki ukrywania się przed wykryciem, aby rozprzestrzeniać złośliwe payloady i przeprowadzać ataki DDoS.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-dla-sektora-publicznego-i-prywatnego">Zagrożenia dla sektora publicznego i prywatnego<a href="https://www.majdak.online/blog/news-2025-06-18#zagro%C5%BCenia-dla-sektora-publicznego-i-prywatnego" class="hash-link" aria-label="Bezpośredni link do Zagrożenia dla sektora publicznego i prywatnego" title="Bezpośredni link do Zagrożenia dla sektora publicznego i prywatnego">​</a></h3>
-<p>Ataki na organizacje ochrony zdrowia, takie jak incydent w firmie Episource, ujawniają, jak duży wpływ mogą mieć cyberprzestępcy na przechowywane dane osobowe i zdrowotne ponad 5 milionów pacjentów.</p>
-<p>W sektorze prywatnym, firmy takie jak Scania czy Zoomcar odnotowują wycieki danych i próby wymuszeń, przypominając, jak istotne jest utrzymanie wysokiego poziomu zabezpieczeń w erze cyfrowej.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwój-technologii-i-odpornych-systemów-bezpieczeństwa">Rozwój technologii i odpornych systemów bezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-06-18#rozw%C3%B3j-technologii-i-odpornych-system%C3%B3w-bezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Rozwój technologii i odpornych systemów bezpieczeństwa" title="Bezpośredni link do Rozwój technologii i odpornych systemów bezpieczeństwa">​</a></h3>
-<p>Najnowsze wydarzenia pokazują, jak ważne jest szybkie wdrażanie poprawek i aktualizacji, na przykład w przypadku Chrome czy systemów backupowych, aby minimalizować ryzyko poważnych luk bezpieczeństwa.</p>
-<p>Organizacje coraz częściej korzystają z narzędzi do wykrywania wyrafinowanych technik obronnych, takich jak Jitter-Trap, które pomagają wykrywać komunikację z złośliwymi beaconami i unieszkodliwiać ataki wewnętrzne.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
         <item>
             <title><![CDATA[Gericht chroni Google, ale czy Twoje dane są bezpieczne przed hackerskimi atakami na Google?]]></title>
             <link>https://www.majdak.online/blog/news-2025-06-17</link>
@@ -696,6 +665,39 @@
 <p>Regularne aktualizacje, edukacja pracowników i korzystanie z najnowszych narzędzi bezpieczeństwa — to Twoja tarcza w coraz bardziej wrogim cyfrowym świecie.</p>
 <p>Nie pozwól, by cyberprzestępcy Cię zaskoczyli. Bądź na bieżąco!</p>
 <p>![Obrazek](/img/blog/ChatGPT Image May 24, 2025, 10_36_52 AM.png)</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Cyberbezpieczeństwo</category>
+            <category>Malware</category>
+            <category>Ransomware</category>
+            <category>Vulnerabilities</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
+        <item>
+            <title><![CDATA[10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-05-23</link>
+            <guid>https://www.majdak.online/blog/news-2025-05-23</guid>
+            <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić.]]></description>
+            <content:encoded><![CDATA[<p>Cyberprzestępczość nie śpi, a nowe luki i ataki pojawiają się jak grzyby po deszczu. Dowiedz się, jakie najważniejsze zagrożenia mogą dziś zagrozić Twojemu biznesowi i jak się przed nimi bronić.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-zagrożenia-i-kontrowersje-w-świecie-cyberbezpieczeństwa">Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-23#najnowsze-zagro%C5%BCenia-i-kontrowersje-w-%C5%9Bwiecie-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa" title="Bezpośredni link do Najnowsze zagrożenia i kontrowersje w świecie cyberbezpieczeństwa">​</a></h2>
+<p>Apple i Google starają się wpłynąć na prawo dotyczące ochrony dzieci, dzwoniąc do polityków i próbując opóźnić kontrowersyjne ustawodawstwo, co może wpłynąć na przyszłe wyzwania w zakresie prywatności i kontroli danych.</p>
+<p>Na konferencjach typu TechCrunch Sessions eksperci ostrzegają, że AI przekracza granice etyki, stawiając pytania o bezpieczeństwo i dezinformację na niespotykaną skalę.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kto-stoi-za-cyberatakami-tajemniczy-grupy-i-ich-złożone-operacje">Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje<a href="https://www.majdak.online/blog/news-2025-05-23#kto-stoi-za-cyberatakami-tajemniczy-grupy-i-ich-z%C5%82o%C5%BCone-operacje" class="hash-link" aria-label="Bezpośredni link do Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje" title="Bezpośredni link do Kto stoi za cyberatakami? Tajemniczy grupy i ich złożone operacje">​</a></h2>
+<p>Mające powiązania z rządem hiszpańskim grupa Careto potajemnie prowadziła ataki, a chińskie grupy aktywnie wykorzystują luki w systemach amerykańskich instytucji oraz atakują rządy lokalne i przedsiębiorstwa.</p>
+<p>Aż 5 300 urządzeń Cisco zostało przejętych przez ViciousTrap, a grupa ta wykorzystała krytyczne luki w routerach do budowy globalnego honeypotu, co pokazuje skalę i złożoność dzisiejszych zagrożeń.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-ataki-i-narzędzia-malware--co-musisz-wiedzieć">Nowe ataki i narzędzia malware — co musisz wiedzieć?<a href="https://www.majdak.online/blog/news-2025-05-23#nowe-ataki-i-narz%C4%99dzia-malware--co-musisz-wiedzie%C4%87" class="hash-link" aria-label="Bezpośredni link do Nowe ataki i narzędzia malware — co musisz wiedzieć?" title="Bezpośredni link do Nowe ataki i narzędzia malware — co musisz wiedzieć?">​</a></h2>
+<p>Microsoft zatrzymał i ograniczył działanie malware Lumma, które od dwóch lat szerzyło się w systemach Windows. Podobnie Signal zablokował screenshoty, chroniąc prywatność użytkowników w Windows 11.</p>
+<p>TikTok i inne platformy używane jako nośniki malware, takie jak Vidar i StealC, stają się jeszcze bardziej skuteczne dzięki technice ClickFix, która pozwala malware działać bez zapisania na dysku.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="przełomowe-sukcesy-służb-i-operatorów-rozbicie-mafii-ransomware-i-infrastruktury-przestępczej">Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej<a href="https://www.majdak.online/blog/news-2025-05-23#prze%C5%82omowe-sukcesy-s%C5%82u%C5%BCb-i-operator%C3%B3w-rozbicie-mafii-ransomware-i-infrastruktury-przest%C4%99pczej" class="hash-link" aria-label="Bezpośredni link do Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej" title="Bezpośredni link do Przełomowe sukcesy służb i operatorów: rozbicie mafii ransomware i infrastruktury przestępczej">​</a></h2>
+<p>Europol i FBI zniszczyły sieci ransomware, wyłączając setki serwerów i zatrzymując kilkunastu podejrzanych, co może oznaczać koniec dominacji takich grup jak DanaBot czy Lumma.</p>
+<p>Operacje te pokazują, jak współpraca międzynarodowa i zaawansowana technologia mogą zatrzymać cyberprzestępców i ochronić sieci od katastrofalnych skutków.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-narzędzia-i-technologie-w-służbie-bezpieczeństwa">Nowe narzędzia i technologie w służbie bezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-05-23#nowe-narz%C4%99dzia-i-technologie-w-s%C5%82u%C5%BCbie-bezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Nowe narzędzia i technologie w służbie bezpieczeństwa" title="Bezpośredni link do Nowe narzędzia i technologie w służbie bezpieczeństwa">​</a></h2>
+<p>Open source’owy WAF SafeLine z funkcją wykrywania zero-day i ochroną przed botami staje się kluczowym narzędziem dla firm dbających o bezpieczeństwo aplikacji internetowych.</p>
+<p>Microsoft testuje nowe funkcje AI, takie jak generowanie tekstu w Notepadzie, a firmy coraz częściej korzystają z AI do automatyzacji i usprawnienia działań obronnych.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jak-się-bronić-praktyczne-wskazówki-i-prognozy">Jak się bronić? Praktyczne wskazówki i prognozy<a href="https://www.majdak.online/blog/news-2025-05-23#jak-si%C4%99-broni%C4%87-praktyczne-wskaz%C3%B3wki-i-prognozy" class="hash-link" aria-label="Bezpośredni link do Jak się bronić? Praktyczne wskazówki i prognozy" title="Bezpośredni link do Jak się bronić? Praktyczne wskazówki i prognozy">​</a></h2>
+<p>Specjaliści podkreślają konieczność automatyzacji procesów bezpieczeństwa, a eksperci od tożsamości zwracają uwagę na potrzebę pełnej automatyzacji kluczowych systemów, aby ograniczyć ryzyko błędów ludzkich.</p>
+<p>Na horyzoncie pojawiają się nowe wyzwania związane z rozwojem AI, dużymi modelami językowymi, a także z lukami w popularnych systemach, takich jak Windows Server czy Ivanti EPMM.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Cyberbezpieczeństwo</category>
             <category>Malware</category>
