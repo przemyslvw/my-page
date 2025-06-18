@@ -1,12 +1,14 @@
 ---
 slug: zaklocenia-gps-spoofing-jamming-2025
-title: "🛰️ Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?"
+title: '🛰️ Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?'
 authors: [przemyslvw]
-tags: ["cybersecurity", "gps", "spoofing", "jamming", "drony", "nawigacja", "open-source-intel"]
+tags: ['cybersecurity', 'gps', 'spoofing', 'jamming', 'drony', 'nawigacja', 'open-source-intel']
 date: 2025-06-16
 ---
 
 W ostatnich tygodniach północna Polska – szczególnie rejon Trójmiasta i Półwyspu Helskiego – doświadcza **bezprecedensowych zakłóceń sygnału GPS**. Drony spadają z nieba, systemy nawigacji szaleją, a operatorzy są zdezorientowani. Czy to awaria systemowa? A może coś znacznie poważniejszego?
+
+<!-- truncate -->
 
 ## 🚨 Co dokładnie się dzieje?
 
@@ -24,10 +26,12 @@ Nie jest to przypadek. Zjawisko jest **rozległe, długotrwałe i powtarzalne**.
 Zakłócenia sygnału GNSS można podzielić na dwie główne techniki:
 
 ### 📡 **Jamming (zagłuszanie sygnału)**
+
 - Emitowanie fal radiowych w paśmie GPS (L1), aby zablokować odbiór legalnego sygnału
 - Efekt: całkowity brak sygnału GPS lub niestabilna lokalizacja
 
 ### 🧠 **Spoofing (fałszowanie pozycji)**
+
 - Emitowanie **podrobionego sygnału GPS**, który podszywa się pod prawdziwy
 - Efekt: urządzenie odbiera pozornie poprawny sygnał, ale z błędnymi współrzędnymi
 - W przypadku dronów może prowadzić do **przejęcia trajektorii lotu** lub **zmuszenia do lądowania**
@@ -49,6 +53,7 @@ Na serwisach typu [GPSJam.org](https://gpsjam.org) widać **anomalie sygnału** 
 Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:
 
 ### ✅ Co robić:
+
 - **Wyłącz GPS** i przejdź na tryb ręczny, jeśli zauważysz błędne pozycjonowanie
 - **Nie używaj funkcji RTH** w podejrzanym środowisku – dron może wrócić… ale gdzie indziej
 - **Zachowaj wzrokowy kontakt** z dronem i trzymaj go w zasięgu sterowania (VLOS)
@@ -56,6 +61,7 @@ Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:
 - Korzystaj z **czujników inercyjnych i barometrycznych**, a nie tylko z GPS
 
 ### ❌ Czego unikać:
+
 - Lotów automatycznych (waypoints, follow me)
 - Latania nad wodą lub poza zasięgiem wzroku
 - Używania sprzętu bez wsparcia `failsafe manual override`
@@ -75,6 +81,7 @@ Nie jesteśmy odporni na tego typu działania. I to powinien być sygnał ostrze
 Zakłócenia GPS to nie science-fiction. To realna, rosnąca w siłę technika walki elektronicznej, która **testuje odporność naszej infrastruktury**.
 
 🎯 **Co warto zrobić już teraz?**
+
 - Uświadom użytkowników – **drony, rolnicy, transportowcy**
 - Weryfikuj dane z GPS z innymi źródłami (mapy offline, czujniki)
 - Zainwestuj w systemy **multi-GNSS (GPS + GLONASS + Galileo)** z detekcją spoofingu
