@@ -6,7 +6,7 @@ import { bossTypes } from '../enemyTypes.js';
  * Spawns a boss enemy based on the current level configuration.
  * The boss's type and attributes are determined by the level configuration.
  * Only one boss can be active at a time.
- * 
+ *
  * @returns {void}
  */
 export function spawnBoss() {
@@ -17,7 +17,7 @@ export function spawnBoss() {
   const bossConfig = bossTypes[config.bossType] || bossTypes['tie-boss'];
 
   game.boss = {
-    x: game.player.worldX + 400,
+    x: game.player.worldX + 600,
     y: game.player.worldY,
     health: bossConfig.health,
     maxHealth: bossConfig.health,
@@ -32,7 +32,7 @@ export function spawnBoss() {
     phase: 1,
     points: bossConfig.points,
     attackPattern: bossConfig.attackPattern,
-    image: bossConfig.image
+    image: bossConfig.image,
   };
 }
 

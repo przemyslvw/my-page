@@ -12,6 +12,26 @@ export function updateEnemies() {
     const dy = game.player.worldY - enemy.y;
     const distance = Math.sqrt(dx * dx + dy * dy);
 
+    // Respawn enemy if too far from player
+    if (distance > 1000) {
+      game.enemies.splice(i, 1);
+      // Spawn new enemy near player
+      const angle = Math.random() * Math.PI * 2;
+      const spawnDistance = 700;
+      game.enemies.push({
+        x: game.player.worldX + Math.cos(angle) * spawnDistance,
+        y: game.player.worldY + Math.sin(angle) * spawnDistance,
+        health: enemy.maxHealth,
+        maxHealth: enemy.maxHealth,
+        angle: 0,
+        speed: enemy.speed,
+        type: enemy.type,
+        lastShot: 0,
+        shootCooldown: enemy.shootCooldown,
+      });
+      continue;
+    }
+
     // Kolizja gracza z wrogiem
     if (distance < 30) {
       createExplosion(game.player.worldX, game.player.worldY, true);
