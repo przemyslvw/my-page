@@ -1,4 +1,7 @@
 import { fireLaser, spawnEnemy } from './gameLogic.js';
+import { enemyTypes } from './enemyTypes.js';
+import { levelConfigs } from './levelConfigs.js';
+import { game } from './gameState.js';
 
 // Game variables
 const canvas = document.getElementById('gameCanvas');
@@ -11,92 +14,6 @@ function resizeCanvas() {
 }
 resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
-
-// Konfiguracja typów przeciwników
-const enemyTypes = {
-  tie: {
-    laserColor: '#ff0000',
-    healthBarColor: '#ff4444',
-    health: 15,
-    speed: 1.5,
-  },
-  heavy: {
-    laserColor: '#00ffff',
-    healthBarColor: '#ff8800',
-    health: 40,
-    speed: 0.8,
-  },
-  interceptor: {
-    laserColor: '#ffff00',
-    healthBarColor: '#00ffcc',
-    health: 20,
-    speed: 2.5,
-  },
-};
-
-// Game state
-const game = {
-  state: 'menu', // menu, playing, paused, gameOver, levelIntro
-  level: 1,
-  score: 0,
-  player: {
-    worldX: 0, // Player's position in world coordinates
-    worldY: 0,
-    health: 100,
-    maxHealth: 100,
-    angle: 0,
-    speed: 0,
-    maxSpeed: 5,
-  },
-  camera: { x: 0, y: 0 },
-  enemies: [],
-  lasers: [],
-  powerups: [],
-  explosions: [],
-  lastShot: 0,
-  shootCooldown: 200,
-  enemySpawnTimer: 0,
-  enemiesKilled: 0,
-  enemiesNeededForNextLevel: 10,
-  joystick: {
-    active: false,
-    x: 0,
-    y: 0,
-    centerX: 80,
-    centerY: window.innerHeight - 80,
-    radius: 60,
-  },
-  bossActive: false,
-  boss: null,
-};
-
-// Level configurations
-const levelConfigs = [
-  {
-    name: 'TIE Fighter Assault',
-    description: 'Flotilla myśliwców TIE nadciąga! Przygotuj się do walki!',
-    enemyTypes: ['tie'],
-    spawnRate: 2000,
-    maxEnemies: 10,
-    bossType: 'tie-boss',
-  },
-  {
-    name: 'Imperial Squadron',
-    description: 'Elitarne eskadry Imperium! Uważaj na ich formacje!',
-    enemyTypes: ['tie', 'heavy'],
-    spawnRate: 1500,
-    maxEnemies: 10,
-    bossType: 'destroyer',
-  },
-  {
-    name: 'Death Star Approach',
-    description: 'Zbliżasz się do Gwiazdy Śmierci. To będzie trudne!',
-    enemyTypes: ['tie', 'heavy', 'interceptor'],
-    spawnRate: 1000,
-    maxEnemies: 30,
-    bossType: 'death-star',
-  },
-];
 
 // Input handling
 let keys = {};
@@ -374,8 +291,8 @@ function updatePlayer() {
   let nearestDistance = Infinity;
 
   [...game.enemies, game.boss]
-    .filter(e => e)
-    .forEach(enemy => {
+    .filter((e) => e)
+    .forEach((enemy) => {
       const dx = enemy.x - game.player.worldX;
       const dy = enemy.y - game.player.worldY;
       const distance = Math.sqrt(dx * dx + dy * dy);
@@ -541,7 +458,7 @@ function updateLasers() {
     // Collision detection
     if (laser.type === 'player') {
       // Sprawdź kolizje z wrogami
-      game.enemies.forEach(enemy => {
+      game.enemies.forEach((enemy) => {
         const dx = laser.x - enemy.x;
         const dy = laser.y - enemy.y;
         if (Math.sqrt(dx * dx + dy * dy) < 20) {
@@ -642,17 +559,17 @@ function render() {
   ctx.translate(-game.camera.x, -game.camera.y);
 
   // Draw power-ups
-  game.powerups.forEach(powerup => {
+  game.powerups.forEach((powerup) => {
     drawPowerUp(powerup);
   });
 
   // Draw lasers
-  game.lasers.forEach(laser => {
+  game.lasers.forEach((laser) => {
     drawLaser(laser);
   });
 
   // Draw enemies
-  game.enemies.forEach(enemy => {
+  game.enemies.forEach((enemy) => {
     if (enemy.type === 'heavy') {
       drawHeavy(enemy);
     } else if (enemy.type === 'interceptor') {
@@ -668,7 +585,7 @@ function render() {
   }
 
   // Draw explosions
-  game.explosions.forEach(explosion => {
+  game.explosions.forEach((explosion) => {
     drawExplosion(explosion);
   });
 
@@ -750,14 +667,7 @@ function drawEnemy(enemy) {
 
   // Health bar
   if (enemy.health < enemy.maxHealth) {
-    drawHealthBar(
-      enemy.x,
-      enemy.y - 25,
-      enemy.health,
-      enemy.maxHealth,
-      30,
-      enemyTypes[enemy.type]?.healthBarColor
-    );
+    drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30, enemyTypes[enemy.type]?.healthBarColor);
   }
 }
 
@@ -787,14 +697,7 @@ function drawHeavy(enemy) {
 
   // Health bar
   if (enemy.health < enemy.maxHealth) {
-    drawHealthBar(
-      enemy.x,
-      enemy.y - 25,
-      enemy.health,
-      enemy.maxHealth,
-      30,
-      enemyTypes[enemy.type]?.healthBarColor
-    );
+    drawHealthBar(enemy.x, enemy.y - 25, enemy.health, enemy.maxHealth, 30, enemyTypes[enemy.type]?.healthBarColor);
   }
 }
 // draw interceptor
@@ -992,13 +895,7 @@ function gameLoop() {
 
   if (now - game.enemySpawnTimer > config.spawnRate) {
     if (!game.bossActive && game.enemiesKilled < game.enemiesNeededForNextLevel) {
-      const newEnemies = spawnEnemy(
-        game.level,
-        game.player,
-        game.enemies,
-        levelConfigs,
-        enemyTypes
-      );
+      const newEnemies = spawnEnemy(game.level, game.player, game.enemies, levelConfigs, enemyTypes);
       if (newEnemies) {
         game.enemies = newEnemies;
       }
