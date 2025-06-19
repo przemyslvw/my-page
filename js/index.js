@@ -23,15 +23,33 @@ import { game } from './gameState.js';
 // Import canvas and context
 import { canvas, ctx } from './canvas.js';
 
-// Menu event listeners
-document.getElementById('startBtn').addEventListener('click', startGame);
-document.getElementById('restartBtn').addEventListener('click', restartGame);
-document.getElementById('menuBtn').addEventListener('click', showMenu);
-document.getElementById('pauseBtn').addEventListener('click', togglePause);
-document.getElementById('startLevelBtn').addEventListener('click', startLevel);
-document.getElementById('skipBtn').addEventListener('click', skipCutscene);
-document.getElementById('instructionsBtn').addEventListener('click', showInstructions);
-document.getElementById('backToMenuBtn').addEventListener('click', hideInstructions);
+// Initialize menu and event listeners when the DOM is fully loaded
+function initMenu() {
+  // Add event listeners
+  const startBtn = document.getElementById('startBtn');
+  const restartBtn = document.getElementById('restartBtn');
+  const menuBtn = document.getElementById('menuBtn');
+  const pauseBtn = document.getElementById('pauseBtn');
+  const startLevelBtn = document.getElementById('startLevelBtn');
+  const skipBtn = document.getElementById('skipBtn');
+  const instructionsBtn = document.getElementById('instructionsBtn');
+  const backToMenuBtn = document.getElementById('backToMenuBtn');
+
+  if (startBtn) startBtn.addEventListener('click', startGame);
+  if (restartBtn) restartBtn.addEventListener('click', restartGame);
+  if (menuBtn) menuBtn.addEventListener('click', showMenu);
+  if (pauseBtn) pauseBtn.addEventListener('click', togglePause);
+  if (startLevelBtn) startLevelBtn.addEventListener('click', startLevel);
+  if (skipBtn) skipBtn.addEventListener('click', skipCutscene);
+  if (instructionsBtn) instructionsBtn.addEventListener('click', showInstructions);
+  if (backToMenuBtn) backToMenuBtn.addEventListener('click', hideInstructions);
+
+  // Initialize the menu
+  showMenu();
+}
+
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', initMenu);
 
 // Game functions
 function startGame() {

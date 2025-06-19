@@ -17,6 +17,7 @@
         document.write('<script>System.import("/js/index.js");<\/script>');
       }
     </script>
+    <!-- Main game scripts will be loaded here -->
   </head>
   <body>
     <!-- SVG Sprites -->
@@ -110,7 +111,7 @@
     </div>
 
     <!-- Instructions Screen -->
-    <div id="instructionsScreen" class="hidden">
+    <div id="instructionsScreen" class="">
       <h2 class="text-4xl mb-6 text-blue-300 font-bold">
         <i class="fas fa-info-circle mr-2"></i>
         INSTRUKCJE
@@ -200,28 +201,9 @@
       </video>
     </div>
 
-    <script type="module">
-      // Import and initialize the game
-      import './js/canvas.js';
-      import './js/gameState.js';
-      import './js/enemyTypes.js';
-      import './js/levelConfigs.js';
-      import './js/inputController.js';
-      import './js/gameLogic.js';
-      // Spawn
-      import './js/spawn/spawn.js';
-      // Update
-      import './js/update/updateEnemies.js';
-      import './js/update/updatePowerup.js';
-      import './js/update/updateLaser.js';
-      // import './js/update/updatePlayer.js';
-      // Draw
-      import './js/draw/draw.js';
-      // Background
-      import './js/background.js';
-      // Index
-      import './js/index.js';
-    </script>
+    <!-- Load game scripts -->
+    <script type="module" src="/js/index.js"></script>
+    <script type="module" src="/js/background.js"></script>
 
     <!-- Fallback for browsers without module support -->
     <script nomodule>

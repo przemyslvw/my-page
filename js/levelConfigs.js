@@ -3,7 +3,7 @@ export const levelConfigs = [
   {
     name: 'TIE Fighter Assault',
     description: 'Flotilla myśliwców TIE nadciąga! Przygotuj się do walki!',
-    enemyTypes: ['tie', 'interceptor'],
+    enemyTypes: ['tie'],
     spawnRate: 2000,
     maxEnemies: 10,
     bossType: 'tie-boss',
