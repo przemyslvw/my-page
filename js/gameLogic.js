@@ -18,7 +18,7 @@ export function spawnEnemy(level, player, enemies, levelConfigs, enemyTypes) {
 
   // Spawn around player but off-screen
   const angle = Math.random() * Math.PI * 2;
-  const distance = 600;
+  const distance = 700;
 
   const type = config.enemyTypes[Math.floor(Math.random() * config.enemyTypes.length)];
   const enemyConfig = enemyTypes[type];

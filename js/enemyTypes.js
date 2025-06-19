@@ -5,18 +5,24 @@ export const enemyTypes = {
     healthBarColor: '#ff4444',
     health: 15,
     speed: 1.5,
+    shootCooldown: 2000,
+    range: 600,
   },
   heavy: {
     laserColor: '#00ffff',
     healthBarColor: '#ff8800',
     health: 40,
     speed: 0.8,
+    shootCooldown: 2000,
+    range: 600,
   },
   interceptor: {
     laserColor: '#ffff00',
     healthBarColor: '#00ffcc',
-    health: 20,
+    health: 30,
     speed: 2.5,
+    shootCooldown: 1200,
+    range: 700,
   },
 };
 

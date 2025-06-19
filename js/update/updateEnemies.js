@@ -3,6 +3,7 @@ import { createExplosion } from '../spawn/spawn.js';
 import { gameOver } from '../gameState.js';
 import { spawnPowerUp } from '../spawn/spawn.js';
 import { showLevelIntro } from '../index.js';
+import { enemyTypes } from '../enemyTypes.js';
 
 export function updateEnemies() {
   // Update regular enemies
@@ -53,7 +54,7 @@ export function updateEnemies() {
 
     // Enemy shooting
     const now = Date.now();
-    if (now - enemy.lastShot > enemy.shootCooldown && distance < 400) {
+    if (now - enemy.lastShot > enemyTypes[enemy.type].shootCooldown && distance < enemyTypes[enemy.type].range) {
       game.lasers.push({
         x: enemy.x,
         y: enemy.y,
