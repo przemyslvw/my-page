@@ -10,7 +10,7 @@ export const game = {
     maxHealth: 100,
     angle: 0,
     speed: 0,
-    maxSpeed: 5,
+    maxSpeed: 3, // Reduced from 5 to slow down movement
   },
   camera: { x: 0, y: 0 },
   enemies: [],
