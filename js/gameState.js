@@ -33,3 +33,10 @@ export const game = {
   bossActive: false,
   boss: null,
 };
+
+export function gameOver() {
+  game.state = 'gameOver';
+  document.getElementById('finalScore').textContent = game.score;
+  document.getElementById('finalLevel').textContent = game.level;
+  document.getElementById('gameOverScreen').classList.remove('hidden');
+}
