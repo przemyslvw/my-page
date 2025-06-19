@@ -171,7 +171,9 @@ export function updatePlayer() {
 
     // Auto-shoot
     const now = Date.now();
-    if (now - game.lastShot > game.shootCooldown * 3) {
+    // Shoot twice as fast when health is below 50%
+    const cooldownMultiplier = (game.player.health < game.player.maxHealth / 2) ? 1.5 : 3;
+    if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
       game.lasers = fireLaser(game.player, game.lasers);
       game.lastShot = now;
     }
