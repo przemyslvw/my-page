@@ -93,15 +93,20 @@ export function updateEnemies() {
     if (game.boss.health <= 0) {
       createExplosion(game.boss.x, game.boss.y, true);
       game.score += 1000;
+      const bossWasActive = game.bossActive;
       game.boss = null;
       game.bossActive = false;
 
       // Level complete
-      setTimeout(() => {
-        game.level++;
-        game.state = 'levelIntro';
-        showLevelIntro();
-      }, 2000);
+      if (bossWasActive) { // Only trigger level complete if boss was actually active
+        setTimeout(() => {
+          game.level++;
+          game.state = 'levelIntro';
+          game.boss = null; // Ensure boss is null
+          game.bossActive = false; // Ensure boss is not active
+          showLevelIntro();
+        }, 2000);
+      }
     }
   }
 }

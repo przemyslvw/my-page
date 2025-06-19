@@ -113,6 +113,8 @@ function startLevel() {
   game.explosions = [];
   game.enemiesKilled = 0;
   game.enemiesNeededForNextLevel = 10 + (game.level - 1) * 5;
+  
+  // Ensure boss state is fully reset
   game.bossActive = false;
   game.boss = null;
 
