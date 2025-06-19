@@ -47,26 +47,11 @@ export function drawEnemy(enemy) {
   ctx.translate(enemy.x, enemy.y);
   ctx.rotate(enemy.angle);
 
-  // Draw TIE Fighter
-  ctx.fillStyle = '#333333';
-  ctx.strokeStyle = '#666666';
-  ctx.lineWidth = 1;
-  ctx.beginPath();
-  ctx.arc(0, 0, 8, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.stroke();
+  // Draw TIE Fighter using image
+  const tieImage = new Image();
+  tieImage.src = `../gameFiles/tie.png`; // Use the enemy type to determine the image
 
-  ctx.fillStyle = '#444444';
-  ctx.fillRect(-15, -5, 30, 10);
-
-  ctx.fillStyle = '#666666';
-  ctx.fillRect(-12, -3, 24, 6);
-
-  ctx.fillStyle = '#ff0000';
-  ctx.beginPath();
-  ctx.arc(0, 0, 4, 0, Math.PI * 2);
-  ctx.fill();
-
+  ctx.drawImage(tieImage, -tieImage.width / 2, -tieImage.height / 2);
   ctx.restore();
 
   // Health bar
@@ -79,22 +64,10 @@ export function drawHeavy(enemy) {
   ctx.save();
   ctx.translate(enemy.x, enemy.y);
   ctx.rotate(enemy.angle);
-  ctx.fillStyle = '#990000';
-  ctx.strokeStyle = '#cc0000';
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(-15, 0);
-  ctx.bezierCurveTo(-10, 10, 10, 10, 15, 0);
-  ctx.bezierCurveTo(10, -10, -10, -10, -15, 0);
-  ctx.fill();
-  ctx.stroke();
 
-  ctx.fillStyle = '#ff0000';
-  ctx.beginPath();
-  ctx.moveTo(-5, 0);
-  ctx.bezierCurveTo(0, 5, 5, 5, 10, 0);
-  ctx.bezierCurveTo(5, -5, 0, -5, -5, 0);
-  ctx.fill();
+  const heavyImage = new Image();
+  heavyImage.src = `../gameFiles/heavy.png`;
+  ctx.drawImage(heavyImage, -heavyImage.width / 2, -heavyImage.height / 2);
 
   ctx.restore();
 
@@ -109,25 +82,9 @@ export function drawInterceptor(interceptor) {
   ctx.translate(interceptor.x, interceptor.y);
   ctx.rotate(interceptor.angle);
 
-  ctx.fillStyle = '#005500';
-  ctx.strokeStyle = '#007700';
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(-10, 0);
-  ctx.lineTo(0, -10);
-  ctx.lineTo(10, 0);
-  ctx.lineTo(0, 10);
-  ctx.closePath();
-  ctx.fill();
-  ctx.stroke();
-
-  ctx.fillStyle = '#009900';
-  ctx.fillRect(-12, -6, 24, 12);
-
-  ctx.fillStyle = '#00ff00';
-  ctx.beginPath();
-  ctx.arc(0, 0, 3, 0, Math.PI * 2);
-  ctx.fill();
+  const interceptorImage = new Image();
+  interceptorImage.src = `../gameFiles/interceptor.png`;
+  ctx.drawImage(interceptorImage, -interceptorImage.width / 2, -interceptorImage.height / 2);
 
   ctx.restore();
 
@@ -149,43 +106,16 @@ export function drawBoss(boss) {
   ctx.translate(boss.x, boss.y);
   ctx.rotate(boss.angle);
 
-  // Draw large enemy ship
-  ctx.fillStyle = '#444444';
-  ctx.strokeStyle = '#666666';
-  ctx.lineWidth = 3;
-  ctx.beginPath();
-  ctx.ellipse(0, 0, 40, 20, 0, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.stroke();
-
-  ctx.fillStyle = '#666666';
-  ctx.beginPath();
-  ctx.ellipse(0, 0, 30, 15, 0, 0, Math.PI * 2);
-  ctx.fill();
-
-  ctx.fillStyle = '#333333';
-  ctx.fillRect(-35, -8, 70, 16);
-
-  // Weapon mounts
-  ctx.fillStyle = '#ff0000';
-  ctx.beginPath();
-  ctx.arc(-20, 0, 6, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.beginPath();
-  ctx.arc(0, 0, 6, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.beginPath();
-  ctx.arc(20, 0, 6, 0, Math.PI * 2);
-  ctx.fill();
-
-  // Engine
-  ctx.fillStyle = '#ff6600';
-  ctx.fillRect(-5, 20, 10, 15);
+  const bossImage = new Image();
+  bossImage.src = `../gameFiles/${boss.image}`;
+  ctx.drawImage(bossImage, -bossImage.width / 2, -bossImage.height / 2);
 
   ctx.restore();
 
-  // Boss health bar (larger)
-  drawHealthBar(boss.x, boss.y - 50, boss.health, boss.maxHealth, 80);
+  // Health bar
+  if (boss.health < boss.maxHealth) {
+    drawHealthBar(boss.x, boss.y - 50, boss.health, boss.maxHealth, 80);
+  }
 }
 
 // Rysuj laser gracza lub wroga

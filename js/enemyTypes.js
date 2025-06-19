@@ -19,3 +19,51 @@ export const enemyTypes = {
     speed: 2.5,
   },
 };
+
+// Konfiguracja bossów
+export const bossTypes = {
+  'tie-boss': {
+    name: 'TIE Advanced x1',
+    health: 200,
+    speed: 0.8,
+    laserColor: '#ff3366',
+    healthBarColor: '#ff0000',
+    shootCooldown: 1000,
+    image: 'tie-boss.png',
+    points: 1000,
+    attackPattern: 'single',
+  },
+  destroyer: {
+    name: 'Imperial Destroyer',
+    health: 500,
+    speed: 0.5,
+    laserColor: '#00ffff',
+    healthBarColor: '#0066ff',
+    shootCooldown: 1500,
+    image: 'destroyer-boss.png',
+    points: 2500,
+    attackPattern: 'spread',
+  },
+  'star-destroyer': {
+    name: 'Star Destroyer',
+    health: 1000,
+    speed: 0.3,
+    laserColor: '#ff9900',
+    healthBarColor: '#ff5500',
+    shootCooldown: 2000,
+    image: 'star-destroyer-boss.png',
+    points: 5000,
+    attackPattern: 'barrage',
+  },
+  'death-star': {
+    name: 'Death Star',
+    health: 2000,
+    speed: 0.1,
+    laserColor: '#ff9900',
+    healthBarColor: '#ff5500',
+    shootCooldown: 2000,
+    image: 'death-star-boss.png',
+    points: 10000,
+    attackPattern: 'barrage',
+  },
+};

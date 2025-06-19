@@ -1,23 +1,31 @@
 import { game } from '../gameState.js';
 import { levelConfigs } from '../levelConfigs.js';
+import { bossTypes } from '../enemyTypes.js';
 
 export function spawnBoss() {
   if (game.bossActive) return;
 
   game.bossActive = true;
   const config = levelConfigs[(game.level - 1) % levelConfigs.length];
+  const bossConfig = bossTypes[config.bossType] || bossTypes['tie-boss'];
 
   game.boss = {
     x: game.player.worldX + 400,
     y: game.player.worldY,
-    health: 100,
-    maxHealth: 100,
+    health: bossConfig.health,
+    maxHealth: bossConfig.health,
     angle: 0,
-    speed: 0.5,
+    speed: bossConfig.speed,
     type: config.bossType,
+    name: bossConfig.name,
+    laserColor: bossConfig.laserColor,
+    healthBarColor: bossConfig.healthBarColor,
     lastShot: 0,
-    shootCooldown: 500,
+    shootCooldown: bossConfig.shootCooldown,
     phase: 1,
+    points: bossConfig.points,
+    attackPattern: bossConfig.attackPattern,
+    image: bossConfig.image
   };
 }
 
