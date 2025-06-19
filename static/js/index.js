@@ -68,7 +68,7 @@ async function startGame() {
     if (!isImagesLoaded) {
       isImagesLoaded = await preloadGameImages();
     }
-    
+
     game.state = 'levelIntro';
     game.level = 1;
     game.score = 0;
@@ -132,8 +132,8 @@ function startLevel() {
   game.powerups = [];
   game.explosions = [];
   game.enemiesKilled = 0;
-  game.enemiesNeededForNextLevel = 10 + (game.level - 1) * 5;
-  
+  game.enemiesNeededForNextLevel = levelConfigs[(game.level - 1) % levelConfigs.length].maxEnemies;
+
   // Ensure boss state is fully reset
   game.bossActive = false;
   game.boss = null;
@@ -271,8 +271,13 @@ function gameLoop() {
     game.enemySpawnTimer = now;
   }
 
-  // Boss spawning
-  if (game.enemiesKilled >= game.enemiesNeededForNextLevel && !game.bossActive && !game.boss) {
+  // Boss spawning - only spawn if we've killed enough enemies, there's no boss active, and we're not in the process of completing the level
+  if (
+    game.enemiesKilled >= game.enemiesNeededForNextLevel &&
+    !game.bossActive &&
+    !game.boss &&
+    game.state === 'playing'
+  ) {
     spawnBoss();
   }
 

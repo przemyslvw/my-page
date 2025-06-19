@@ -66,7 +66,8 @@ export function updateEnemies() {
     const distance = Math.sqrt(dx * dx + dy * dy);
 
     // Boss AI - move towards player and face the player
-    if (distance > 100) {  // Keep some distance from the player
+    if (distance > 100) {
+      // Keep some distance from the player
       game.boss.x += (dx / distance) * game.boss.speed;
       game.boss.y += (dy / distance) * game.boss.speed;
     }
@@ -95,10 +96,12 @@ export function updateEnemies() {
       game.score += 1000;
       const bossWasActive = game.bossActive;
       game.boss = null;
+      game.state = 'pause';
       game.bossActive = false;
 
       // Level complete
-      if (bossWasActive) { // Only trigger level complete if boss was actually active
+      if (bossWasActive) {
+        // Only trigger level complete if boss was actually active
         setTimeout(() => {
           game.level++;
           game.state = 'levelIntro';
