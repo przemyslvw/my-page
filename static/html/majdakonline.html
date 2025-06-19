@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majdak Online - Blog o programowaniu i cyberbezpieczeństwie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: 'Inter', sans-serif;
+      }
+
+      .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+      }
+
+      body {
+        overflow-x: hidden;
+        background: #0a0a0a;
+      }
+
+      .gradient-bg {
+        background: linear-gradient(-45deg, #667eea, #764ba2, #f093fb, #f5576c, #4facfe, #00f2fe);
+        background-size: 400% 400%;
+        animation: gradientShift 15s ease infinite;
+      }
+
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+      .cyber-grid {
+        background-image: linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+        background-size: 50px 50px;
+        animation: gridMove 20s linear infinite;
+      }
+
+      @keyframes gridMove {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(50px, 50px);
+        }
+      }
+
+      .floating {
+        animation: floating 6s ease-in-out infinite;
+      }
+
+      @keyframes floating {
+        0%,
+        100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+
+      .glow {
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+      }
+
+      .glow-green {
+        box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
+      }
+
+      .glow-purple {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+      }
+
+      .text-gradient {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .text-gradient-cyber {
+        background: linear-gradient(135deg, #00f5ff 0%, #00ff88 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+
+      .card-hover:hover {
+        transform: translateY(-10px) scale(1.02);
+      }
+
+      .progress-bar {
+        width: 0%;
+        transition: width 2s ease-in-out;
+      }
+
+      .skill-card {
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .hero-particle {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: #00f5ff;
+        border-radius: 50%;
+        animation: particle 15s infinite linear;
+      }
+
+      @keyframes particle {
+        0% {
+          opacity: 0;
+          transform: translateY(100vh) scale(0);
+        }
+        10% {
+          opacity: 1;
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-100vh) scale(1);
+        }
+      }
+
+      .typing-effect {
+        overflow: hidden;
+        border-right: 0.15em solid #00f5ff;
+        white-space: nowrap;
+        margin: 0 auto;
+        animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+      }
+
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      @keyframes blink-caret {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #00f5ff;
+        }
+      }
+
+      .nav-blur {
+        backdrop-filter: blur(20px);
+        background: rgba(10, 10, 10, 0.8);
+      }
+
+      .section-reveal {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.8s ease;
+      }
+
+      .section-reveal.revealed {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .holographic {
+        background: linear-gradient(
+          45deg,
+          transparent 30%,
+          rgba(255, 255, 255, 0.1) 50%,
+          transparent 70%
+        );
+        background-size: 200% 200%;
+        animation: holographic 3s ease-in-out infinite;
+      }
+
+      @keyframes holographic {
+        0%,
+        100% {
+          background-position: 0% 0%;
+        }
+        50% {
+          background-position: 100% 100%;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 nav-blur">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center">
+            <div class="text-xl font-bold text-gradient font-mono">MAJDAK.ONLINE</div>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-8">
+              <a href="#hero" class="hover:text-blue-400 transition-colors">Home</a>
+              <a href="#about" class="hover:text-blue-400 transition-colors">O mnie</a>
+              <a href="#posts" class="hover:text-blue-400 transition-colors">Blog</a>
+              <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
+              <a href="#contact" class="hover:text-blue-400 transition-colors">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
+      <div class="absolute inset-0 gradient-bg opacity-20"></div>
+      <div class="absolute inset-0 cyber-grid"></div>
+
+      <!-- Floating particles -->
+      <div class="hero-particle" style="left: 10%; animation-delay: 0s"></div>
+      <div class="hero-particle" style="left: 20%; animation-delay: 2s"></div>
+      <div class="hero-particle" style="left: 30%; animation-delay: 4s"></div>
+      <div class="hero-particle" style="left: 50%; animation-delay: 1s"></div>
+      <div class="hero-particle" style="left: 70%; animation-delay: 3s"></div>
+      <div class="hero-particle" style="left: 80%; animation-delay: 5s"></div>
+      <div class="hero-particle" style="left: 90%; animation-delay: 1.5s"></div>
+
+      <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
+        <div class="floating">
+          <h1 class="text-6xl md:text-8xl font-bold mb-6">
+            <span class="text-gradient-cyber">MAJDAK</span>
+            <br />
+            <span class="text-white">ONLINE</span>
+          </h1>
+        </div>
+        <div class="typing-effect text-xl md:text-2xl mb-8 text-blue-300 font-mono">
+          Programowanie • Cyberbezpieczeństwo • Technologie
+        </div>
+        <p class="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+          Odkryj świat nowoczesnych technologii, programowania i cyberbezpieczeństwa. Dzielę się
+          wiedzą, doświadczeniem i najnowszymi trendami w IT.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button
+            class="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-all duration-300 glow transform hover:scale-105"
+          >
+            <i class="fas fa-rocket mr-2"></i>
+            Rozpocznij podróż
+          </button>
+          <button
+            class="px-8 py-4 border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-black rounded-lg font-semibold transition-all duration-300 glow-green transform hover:scale-105"
+          >
+            <i class="fas fa-shield-alt mr-2"></i>
+            Cyberbezpieczeństwo
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 relative">
+      <div class="max-w-6xl mx-auto px-4 section-reveal">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gradient">O mnie</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="skill-card p-8 rounded-2xl">
+            <div
+              class="w-32 h-32 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center"
+            >
+              <i class="fas fa-user-ninja text-4xl text-white"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-4 text-center text-gradient-cyber">
+              Programista & Security Expert
+            </h3>
+          </div>
+
+          <div class="space-y-6">
+            <h3 class="text-3xl font-bold text-white">Cześć! Jestem pasjonatem technologii</h3>
+            <p class="text-gray-300 leading-relaxed">
+              Zajmuję się programowaniem od ponad 5 lat, specjalizując się w bezpieczeństwie
+              aplikacji i nowoczesnych technologiach web. Moją misją jest dzielenie się wiedzą i
+              pomaganie innym w rozwoju kariery w IT.
+            </p>
+            <p class="text-gray-300 leading-relaxed">
+              Na blogu znajdziesz artykuły o najnowszych trendach w programowaniu, praktyczne
+              poradniki z zakresu cyberbezpieczeństwa oraz analizy narzędzi i technologii, które
+              kształtują przyszłość IT.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-blue-600 rounded-full text-sm">Python</span>
+              <span class="px-4 py-2 bg-green-600 rounded-full text-sm">JavaScript</span>
+              <span class="px-4 py-2 bg-purple-600 rounded-full text-sm">Cybersecurity</span>
+              <span class="px-4 py-2 bg-red-600 rounded-full text-sm">Penetration Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Posts Section -->
+    <section id="posts" class="py-20 bg-gradient-to-b from-gray-900 to-black">
+      <div class="max-w-6xl mx-auto px-4 section-reveal">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gradient">Najnowsze posty</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-green-400 to-blue-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <article class="skill-card rounded-2xl overflow-hidden card-hover">
+            <div class="p-6">
+              <div
+                class="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg mb-4 flex items-center justify-center"
+              >
+                <i class="fas fa-code text-4xl text-white"></i>
+              </div>
+              <span class="text-blue-400 text-sm font-mono">PROGRAMOWANIE</span>
+              <h3 class="text-xl font-bold mt-2 mb-3">Nowoczesne frameworki JavaScript w 2024</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Przegląd najnowszych trendów w ekosystemie JavaScript, analiza popularnych
+                frameworków...
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="text-gray-500 text-xs">15 min czytania</span>
+                <button class="text-blue-400 hover:text-blue-300 transition-colors">
+                  Czytaj więcej <i class="fas fa-arrow-right ml-1"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill-card rounded-2xl overflow-hidden card-hover">
+            <div class="p-6">
+              <div
+                class="w-full h-48 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg mb-4 flex items-center justify-center"
+              >
+                <i class="fas fa-shield-alt text-4xl text-white"></i>
+              </div>
+              <span class="text-green-400 text-sm font-mono">CYBERBEZPIECZEŃSTWO</span>
+              <h3 class="text-xl font-bold mt-2 mb-3">
+                Zaawansowane techniki penetration testingu
+              </h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Jak skutecznie testować bezpieczeństwo aplikacji webowych używając najnowszych
+                narzędzi...
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="text-gray-500 text-xs">22 min czytania</span>
+                <button class="text-green-400 hover:text-green-300 transition-colors">
+                  Czytaj więcej <i class="fas fa-arrow-right ml-1"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article class="skill-card rounded-2xl overflow-hidden card-hover">
+            <div class="p-6">
+              <div
+                class="w-full h-48 bg-gradient-to-br from-red-500 to-pink-600 rounded-lg mb-4 flex items-center justify-center"
+              >
+                <i class="fas fa-bug text-4xl text-white"></i>
+              </div>
+              <span class="text-red-400 text-sm font-mono">BEZPIECZEŃSTWO</span>
+              <h3 class="text-xl font-bold mt-2 mb-3">OWASP Top 10 - praktyczny przewodnik</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Analiza najczęstszych zagrożeń bezpieczeństwa aplikacji webowych z przykładami...
+              </p>
+              <div class="flex items-center justify-between">
+                <span class="text-gray-500 text-xs">18 min czytania</span>
+                <button class="text-red-400 hover:text-red-300 transition-colors">
+                  Czytaj więcej <i class="fas fa-arrow-right ml-1"></i>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center mt-12">
+          <button
+            class="px-8 py-4 border-2 border-purple-500 text-purple-400 hover:bg-purple-500 hover:text-white rounded-lg font-semibold transition-all duration-300 glow-purple transform hover:scale-105"
+          >
+            <i class="fas fa-blog mr-2"></i>
+            Zobacz wszystkie posty
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 relative">
+      <div class="max-w-6xl mx-auto px-4 section-reveal">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gradient">Umiejętności</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="skill-card p-8 rounded-2xl">
+            <h3 class="text-2xl font-bold mb-8 text-gradient-cyber">Programowanie</h3>
+            <div class="space-y-6">
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Python</span>
+                  <span class="text-blue-400">95%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-blue-400 to-blue-600 h-3 rounded-full"
+                    data-width="95"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">JavaScript/TypeScript</span>
+                  <span class="text-green-400">90%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-green-400 to-green-600 h-3 rounded-full"
+                    data-width="90"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">React/Next.js</span>
+                  <span class="text-purple-400">85%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-purple-400 to-purple-600 h-3 rounded-full"
+                    data-width="85"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Node.js</span>
+                  <span class="text-yellow-400">80%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-yellow-400 to-yellow-600 h-3 rounded-full"
+                    data-width="80"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card p-8 rounded-2xl">
+            <h3 class="text-2xl font-bold mb-8 text-gradient-cyber">Cyberbezpieczeństwo</h3>
+            <div class="space-y-6">
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Penetration Testing</span>
+                  <span class="text-red-400">92%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-red-400 to-red-600 h-3 rounded-full"
+                    data-width="92"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Web Application Security</span>
+                  <span class="text-cyan-400">88%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-cyan-400 to-cyan-600 h-3 rounded-full"
+                    data-width="88"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Network Security</span>
+                  <span class="text-indigo-400">83%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-indigo-400 to-indigo-600 h-3 rounded-full"
+                    data-width="83"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="flex justify-between mb-2">
+                  <span class="font-semibold">Malware Analysis</span>
+                  <span class="text-pink-400">78%</span>
+                </div>
+                <div class="w-full bg-gray-700 rounded-full h-3">
+                  <div
+                    class="progress-bar bg-gradient-to-r from-pink-400 to-pink-600 h-3 rounded-full"
+                    data-width="78"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-b from-black to-gray-900">
+      <div class="max-w-4xl mx-auto px-4 section-reveal">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold mb-4 text-gradient">Kontakt</h2>
+          <div class="w-24 h-1 bg-gradient-to-r from-pink-400 to-red-500 mx-auto"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+          <div class="space-y-8">
+            <h3 class="text-2xl font-bold text-gradient-cyber">Skontaktuj się ze mną</h3>
+            <p class="text-gray-300 leading-relaxed">
+              Masz pytania dotyczące programowania lub cyberbezpieczeństwa? Chcesz nawiązać
+              współpracę? Napisz do mnie!
+            </p>
+
+            <div class="space-y-4">
+              <div class="flex items-center space-x-4">
+                <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center glow">
+                  <i class="fas fa-envelope text-white"></i>
+                </div>
+                <div>
+                  <p class="font-semibold">Email</p>
+                  <p class="text-gray-400">contact@majdak.online</p>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center glow-green"
+                >
+                  <i class="fas fa-globe text-white"></i>
+                </div>
+                <div>
+                  <p class="font-semibold">Website</p>
+                  <p class="text-gray-400">majdak.online</p>
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div
+                  class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center glow-purple"
+                >
+                  <i class="fab fa-github text-white"></i>
+                </div>
+                <div>
+                  <p class="font-semibold">GitHub</p>
+                  <p class="text-gray-400">github.com/majdak</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-card p-8 rounded-2xl">
+            <form class="space-y-6">
+              <div>
+                <label class="block text-sm font-semibold mb-2">Imię</label>
+                <input
+                  type="text"
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:border-blue-500 focus:outline-none transition-colors"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold mb-2">Email</label>
+                <input
+                  type="email"
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:border-blue-500 focus:outline-none transition-colors"
+                />
+              </div>
+
+              <div>
+                <label class="block text-sm font-semibold mb-2">Wiadomość</label>
+                <textarea
+                  rows="4"
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:border-blue-500 focus:outline-none transition-colors resize-none"
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg font-semibold transition-all duration-300 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 glow"
+              >
+                <i class="fas fa-paper-plane mr-2"></i>
+                Wyślij wiadomość
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-black border-t border-gray-800">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-gradient font-mono mb-4">MAJDAK.ONLINE</div>
+          <p class="text-gray-400 mb-6">Programowanie • Cyberbezpieczeństwo • Technologie</p>
+
+          <div class="flex justify-center space-x-6 mb-8">
+            <a
+              href="#"
+              class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors glow"
+            >
+              <i class="fab fa-twitter text-white"></i>
+            </a>
+            <a
+              href="#"
+              class="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors"
+            >
+              <i class="fab fa-github text-white"></i>
+            </a>
+            <a
+              href="#"
+              class="w-12 h-12 bg-blue-800 rounded-lg flex items-center justify-center hover:bg-blue-900 transition-colors"
+            >
+              <i class="fab fa-linkedin text-white"></i>
+            </a>
+            <a
+              href="#"
+              class="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center hover:bg-red-700 transition-colors"
+            >
+              <i class="fab fa-youtube text-white"></i>
+            </a>
+          </div>
+
+          <div class="border-t border-gray-800 pt-8">
+            <p class="text-gray-500 text-sm">
+              © 2024 Majdak Online. Wszystkie prawa zastrzeżone.
+              <span class="text-gradient-cyber font-mono">Zbudowane z pasją do technologii.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',
+            });
+          }
+        });
+      });
+
+      // Intersection Observer for scroll animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px',
+      };
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+
+            // Animate progress bars when skills section is visible
+            if (entry.target.id === 'skills') {
+              setTimeout(() => {
+                document.querySelectorAll('.progress-bar').forEach(bar => {
+                  const width = bar.getAttribute('data-width');
+                  bar.style.width = width + '%';
+                });
+              }, 500);
+            }
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll('.section-reveal').forEach(section => {
+        observer.observe(section);
+      });
+
+      // Add parallax effect to hero section
+      window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const hero = document.getElementById('hero');
+        if (hero) {
+          hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+        }
+      });
+
+      // Add typing effect restart on scroll
+      let hasTyped = false;
+      window.addEventListener('scroll', () => {
+        const typingElement = document.querySelector('.typing-effect');
+        if (typingElement && !hasTyped && window.scrollY < 100) {
+          typingElement.style.animation = 'none';
+          setTimeout(() => {
+            typingElement.style.animation =
+              'typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite';
+          }, 100);
+          hasTyped = true;
+        }
+      });
+
+      // Add holographic effect to cards on hover
+      document.querySelectorAll('.card-hover').forEach(card => {
+        card.addEventListener('mouseenter', function () {
+          this.classList.add('holographic');
+        });
+
+        card.addEventListener('mouseleave', function () {
+          this.classList.remove('holographic');
+        });
+      });
+
+      // Dynamic particle generation
+      function createParticle() {
+        const particle = document.createElement('div');
+        particle.className = 'hero-particle';
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 5 + 's';
+        document.getElementById('hero').appendChild(particle);
+
+        setTimeout(() => {
+          particle.remove();
+        }, 15000);
+      }
+
+      // Create particles periodically
+      setInterval(createParticle, 3000);
+
+      // Add form validation and effects
+      document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const button = this.querySelector('button[type="submit"]');
+        const originalText = button.innerHTML;
+
+        button.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Wysyłanie...';
+        button.disabled = true;
+
+        setTimeout(() => {
+          button.innerHTML = '<i class="fas fa-check mr-2"></i>Wysłano!';
+          button.classList.remove('from-blue-600', 'to-purple-600');
+          button.classList.add('from-green-600', 'to-green-700');
+
+          setTimeout(() => {
+            button.innerHTML = originalText;
+            button.disabled = false;
+            button.classList.remove('from-green-600', 'to-green-700');
+            button.classList.add('from-blue-600', 'to-purple-600');
+            this.reset();
+          }, 2000);
+        }, 2000);
+      });
+
+      // Add navbar color change on scroll
+      window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 100) {
+          nav.classList.add('border-b', 'border-gray-800');
+        } else {
+          nav.classList.remove('border-b', 'border-gray-800');
+        }
+      });
+    </script>
+  </body>
+</html>
