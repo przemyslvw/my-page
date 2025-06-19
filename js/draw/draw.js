@@ -2,6 +2,63 @@ import { game } from '../gameState.js';
 import { canvas, ctx } from '../canvas.js';
 import { enemyTypes } from '../enemyTypes.js';
 
+// Cache dla załadowanych obrazów
+export const imageCache = new Map();
+
+/**
+ * Ładuje obraz i cache'uje go
+ * @param {string} src - Ścieżka do obrazu
+ * @returns {Promise<HTMLImageElement>}
+ */
+export function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    // Sprawdź czy obraz jest już w cache
+    if (imageCache.has(src)) {
+      const img = imageCache.get(src);
+      if (img.complete) {
+        resolve(img);
+        return;
+      }
+    }
+
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    
+    img.onload = () => {
+      imageCache.set(src, img);
+      resolve(img);
+    };
+    
+    img.onerror = (e) => {
+      console.error('Błąd ładowania obrazu:', src, e);
+      reject(new Error(`Nie udało się załadować obrazu: ${src}`));
+    };
+    
+    // Rozpocznij ładowanie obrazu
+    img.src = src;
+  });
+}
+
+// Wstępne ładowanie obrazów
+export async function preloadGameImages() {
+  const images = [
+    '/gameFiles/falcon.png',
+    '/gameFiles/tie.png',
+    '/gameFiles/heavy.png',
+    '/gameFiles/interceptor.png',
+    // Dodaj tutaj inne obrazy używane w grze
+  ];
+
+  try {
+    await Promise.all(images.map(loadImage));
+    console.log('Wszystkie obrazy zostały załadowane');
+    return true;
+  } catch (error) {
+    console.error('Błąd podczas wczytywania obrazów:', error);
+    return false;
+  }
+}
+
 export function drawStars() {
   // Scrolling star field based on camera position
   ctx.fillStyle = 'white';
@@ -22,7 +79,10 @@ export function drawStars() {
   }
 }
 
-export function drawPlayer() {
+// Referencja do obrazu gracza
+let playerImage = null;
+
+export async function drawPlayer() {
   // Player is ALWAYS drawn at screen center
   const centerX = canvas.width / 2;
   const centerY = canvas.height / 2;
@@ -34,11 +94,40 @@ export function drawPlayer() {
   ctx.translate(centerX, centerY);
   ctx.rotate(game.player.angle);
 
-  // Draw Millennium Falcon using image
-  const falconImage = new Image();
-  falconImage.src = '../gameFiles/falcon.png'; // Path to the PNG file
-  ctx.drawImage(falconImage, -falconImage.width / 2, -falconImage.height / 2);
+  try {
+    // Spróbuj załadować obraz, jeśli nie jest jeszcze załadowany
+    if (!playerImage) {
+      playerImage = await loadImage('/gameFiles/falcon.png');
+    }
 
+    if (playerImage && playerImage.complete) {
+      ctx.drawImage(playerImage, -playerImage.width / 2, -playerImage.height / 2);
+    } else {
+      // Rysuj zastępczy prostokąt, jeśli obraz się nie załadował
+      drawPlaceholder(0, 0, 40, '#ff0');
+    }
+  } catch (error) {
+    console.error('Błąd podczas rysowania gracza:', error);
+    drawPlaceholder(0, 0, 40, '#f00');
+  }
+
+  ctx.restore();
+}
+
+/**
+ * Rysuje prostokąt zastępczy w miejscu brakującego obrazu
+ * @param {number} x - Pozycja X
+ * @param {number} y - Pozycja Y
+ * @param {number} size - Rozmiar boku kwadratu
+ * @param {string} color - Kolor wypełnienia
+ */
+function drawPlaceholder(x, y, size, color = 'yellow') {
+  ctx.save();
+  ctx.fillStyle = color;
+  ctx.fillRect(x - size/2, y - size/2, size, size);
+  ctx.strokeStyle = 'black';
+  ctx.lineWidth = 1;
+  ctx.strokeRect(x - size/2, y - size/2, size, size);
   ctx.restore();
 }
 
