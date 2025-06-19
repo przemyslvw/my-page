@@ -1,3 +1,5 @@
+import { fireLaser, spawnEnemy } from './gameLogic.js';
+
 // Game variables
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
@@ -389,51 +391,18 @@ function updatePlayer() {
     const dy = nearestEnemy.y - game.player.worldY;
     game.player.angle = Math.atan2(dy, dx);
 
-    // Auto-strzelaj
+    // Auto-shoot
     const now = Date.now();
     if (now - game.lastShot > game.shootCooldown * 3) {
-      fireLaser();
+      game.lasers = fireLaser(game.player, game.lasers);
       game.lastShot = now;
     }
   }
 }
 
-function fireLaser() {
-  // Dodaj pocisk lasera do gry
-  game.lasers.push({
-    x: game.player.worldX, // Pozycja początkowa lasera (pozycja gracza)
-    y: game.player.worldY,
-    dx: Math.cos(game.player.angle) * 4, // Prędkość pocisku w osi X
-    dy: Math.sin(game.player.angle) * 4, // Prędkość pocisku w osi Y
-    type: 'player', // Typ pocisku (gracza)
-  });
-}
+// fireLaser function is now imported from gameLogic.js
 
-function spawnEnemy() {
-  const config = levelConfigs[(game.level - 1) % levelConfigs.length];
-  if (game.enemies.length >= config.maxEnemies) return;
-
-  // Spawn around player but off-screen
-  const angle = Math.random() * Math.PI * 2;
-  const distance = 600;
-
-  const type = config.enemyTypes[Math.floor(Math.random() * config.enemyTypes.length)];
-  const enemyConfig = enemyTypes[type];
-  const enemy = {
-    x: game.player.worldX + Math.cos(angle) * distance,
-    y: game.player.worldY + Math.sin(angle) * distance,
-    health: enemyConfig.health,
-    maxHealth: enemyConfig.health,
-    angle: 0,
-    speed: enemyConfig.speed,
-    type: type,
-    lastShot: 0,
-    shootCooldown: 500 + Math.random() * 1000,
-  };
-
-  // Dodaj wroga do gry
-  game.enemies.push(enemy);
-}
+// spawnEnemy function is now imported from gameLogic.js
 
 function spawnBoss() {
   if (game.bossActive) return;
@@ -1023,7 +992,16 @@ function gameLoop() {
 
   if (now - game.enemySpawnTimer > config.spawnRate) {
     if (!game.bossActive && game.enemiesKilled < game.enemiesNeededForNextLevel) {
-      spawnEnemy();
+      const newEnemies = spawnEnemy(
+        game.level,
+        game.player,
+        game.enemies,
+        levelConfigs,
+        enemyTypes
+      );
+      if (newEnemies) {
+        game.enemies = newEnemies;
+      }
     }
     game.enemySpawnTimer = now;
   }
