@@ -2,6 +2,13 @@ import { game } from '../gameState.js';
 import { levelConfigs } from '../levelConfigs.js';
 import { bossTypes } from '../enemyTypes.js';
 
+/**
+ * Spawns a boss enemy based on the current level configuration.
+ * The boss's type and attributes are determined by the level configuration.
+ * Only one boss can be active at a time.
+ * 
+ * @returns {void}
+ */
 export function spawnBoss() {
   if (game.bossActive) return;
 
