@@ -65,10 +65,12 @@ export function updateEnemies() {
     const dy = game.player.worldY - game.boss.y;
     const distance = Math.sqrt(dx * dx + dy * dy);
 
-    // Boss AI - circle around player
-    game.boss.angle += 0.02;
-    game.boss.x += Math.cos(game.boss.angle) * game.boss.speed;
-    game.boss.y += Math.sin(game.boss.angle) * game.boss.speed;
+    // Boss AI - move towards player and face the player
+    if (distance > 100) {  // Keep some distance from the player
+      game.boss.x += (dx / distance) * game.boss.speed;
+      game.boss.y += (dy / distance) * game.boss.speed;
+    }
+    game.boss.angle = Math.atan2(dy, dx);
 
     // Boss shooting
     const now = Date.now();
