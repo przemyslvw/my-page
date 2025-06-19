@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
-    <title>Majdak Think Tank Blog</title>
+    <title>MAJDAK.ONLINE Blog</title>
     <updated>2025-06-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
-    <subtitle>Majdak Think Tank Blog</subtitle>
+    <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Iran tłumi Internet, żeby ukryć cyberatak na Izrael! Co się dzieje w regionalnym konflikcie?]]></title>
