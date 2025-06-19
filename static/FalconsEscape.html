@@ -231,7 +231,16 @@
       </video>
     </div>
 
-    <script type="module" src="js/index.js"></script>
-    <script type="module" src="js/background.js"></script>
+    <script type="module">
+      // Import and initialize the game
+      import './js/gameLogic.js';
+      import './js/background.js';
+      import './js/index.js';
+    </script>
+    
+    <!-- Fallback for browsers without module support -->
+    <script nomodule>
+      console.warn('Your browser does not support JavaScript modules. Please use a modern browser.');
+    </script>
   </body>
 </html>
