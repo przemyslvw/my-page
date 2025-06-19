@@ -36,7 +36,7 @@ export function drawPlayer() {
 
   // Draw Millennium Falcon using image
   const falconImage = new Image();
-  falconImage.src = 'falcon.png'; // Path to the PNG file
+  falconImage.src = '../gameFiles/falcon.png'; // Path to the PNG file
   ctx.drawImage(falconImage, -falconImage.width / 2, -falconImage.height / 2);
 
   ctx.restore();
