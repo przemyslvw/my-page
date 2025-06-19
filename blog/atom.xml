@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-06-18T00:00:00.000Z</updated>
+    <updated>2025-06-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Meta dodaje Passkey do Facebooka – czy to przyszłość bez haseł?]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-19</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-19"/>
+        <updated>2025-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.]]></summary>
+        <content type="html"><![CDATA[<p>W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberwojna-na-najwyższych-obrotach-predatory-sparrow-pali-90-milionów-dolarów-w-iranie">Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie<a href="https://www.majdak.online/blog/news-2025-06-19#cyberwojna-na-najwy%C5%BCszych-obrotach-predatory-sparrow-pali-90-milion%C3%B3w-dolar%C3%B3w-w-iranie" class="hash-link" aria-label="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie" title="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie">​</a></h3>
+<p>Proizraelska grupa hackerska Predatory Sparrow przeprowadziła cyberatak na irański największy kryptobroker, Nobitex, co zakończyło się spaleniem ponad 90 milionów dolarów worth of cryptocurrencies. To wyraźny sygnał, że cyberwojny mają coraz bardziej złożony i bezpośredni wymiar finansowy i polityczny.</p>
+<p>Takie operacje pokazują, jak ważne jest nieustanne wzmacnianie ochrony na poziomie infrastruktury cyfrowej, zwłaszcza w regionach zaognionych konfliktami, gdzie cyberprzestępczość staje się narzędziem walki na arenie międzynarodowej.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-ataki-na-infrastrukturę-i-strony-internetowe">Zaawansowane ataki na infrastrukturę i strony internetowe<a href="https://www.majdak.online/blog/news-2025-06-19#zaawansowane-ataki-na-infrastruktur%C4%99-i-strony-internetowe" class="hash-link" aria-label="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe" title="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe">​</a></h3>
+<p>Koronnym przykładem są ataki na główne portale i firmy technologiczne, takie jak Microsoft, Apple oraz Bank of America, które są coraz częściej celem cyberprzestępców próbujących wyłudzić dane lub wprowadzić złośliwe oprogramowanie.</p>
+<p>Niestety, aktywność ta obejmuje nie tylko wyłudzanie danych, ale także działania mające na celu zakłócenie funkcjonowania kluczowych usług cyfrowych, co stawia wyzwania dla cyberbezpieczeństwa na poziomie globalnym.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-wyzwania-dla-hakerów-malware-które-tworzą-izolowane-środowiska">Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-wyzwania-dla-haker%C3%B3w-malware-kt%C3%B3re-tworz%C4%85-izolowane-%C5%9Brodowiska" class="hash-link" aria-label="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska" title="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska">​</a></h3>
+<p>Malware, takie jak GodFather i AntiDot, wykorzystują zaawansowane techniki virtualizacji i infiltrowania urządzeń mobilnych, co pozwala na skuteczniejsze przejęcie kontroli nad kontami bankowymi i transakcjami.</p>
+<p>Dzięki tworzeniu odizolowanych środowisk atakujący mogą unikać tradycyjnych detektorów zagrożeń, co wymaga od specjalistów cyberbezpieczeństwa ciągłego podnoszenia poziomu obrony.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-wykorzystujące-znane-platformy-i-popularne-narzędzia">Zagrożenia wykorzystujące znane platformy i popularne narzędzia<a href="https://www.majdak.online/blog/news-2025-06-19#zagro%C5%BCenia-wykorzystuj%C4%85ce-znane-platformy-i-popularne-narz%C4%99dzia" class="hash-link" aria-label="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia" title="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia">​</a></h3>
+<p>Ataki typu LOTS pokazują, że cyberprzestępcy coraz chętniej korzystają z zaufanych platform, takich jak Google, Microsoft, Dropbox czy Slack, aby ukryć swoje działania i skuteczniej włamywać się do systemów firm.</p>
+<p>Tego rodzaju strategia wymaga od firm czujności i monitorowania nawet najbardziej rutynowych operacji, aby wykryć nieautoryzowane działania w ich własnym środowisku.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-techniki-socjotechniczne-i-wyłudzanie-danych">Nowe techniki socjotechniczne i wyłudzanie danych<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-techniki-socjotechniczne-i-wy%C5%82udzanie-danych" class="hash-link" aria-label="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych" title="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych">​</a></h3>
+<p>Zjawisko deepfake’ów i oszukańczych ataków Zoom pokazuje, że cyberkriminalność coraz częściej sięga po sztuczną inteligencję i manipulacje wizualne, aby podszywać się pod znane osoby i nakłonić ofiary do instalacji złośliwego oprogramowania.</p>
+<p>Podnoszą się również zagrożenia związane z wykradaniem loginów i haseł za pomocą zamieszczania ich na nieuczciwych stronach, co wymusza na firmach wdrażanie coraz bardziej zaawansowanych metod ochrony tożsamości.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reakcje-na-zagrożenia-i-rola-instytucji-rządowych">Reakcje na zagrożenia i rola instytucji rządowych<a href="https://www.majdak.online/blog/news-2025-06-19#reakcje-na-zagro%C5%BCenia-i-rola-instytucji-rz%C4%85dowych" class="hash-link" aria-label="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych" title="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych">​</a></h3>
+<p>Agencje takie jak CISA ostrzegają, że aktywne wykorzystywanie luk w systemach Linux, Android czy Linux Kernel jest dziś powszechne i wymaga natychmiastowego reagowania.</p>
+<p>Ponadto, rosnąca liczba cyberataków wymusza na rządach i firmach rozwijanie strategii priorytetowego wzmacniania podstaw bezpieczeństwa, zamiast tylko naprawiania powstałych już problemów.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Iran tłumi Internet, żeby ukryć cyberatak na Izrael! Co się dzieje w regionalnym konflikcie?]]></title>
         <id>https://www.majdak.online/blog/news-2025-06-18</id>
@@ -725,56 +760,6 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-10-forstowych-trendów-które-zmienią-twój-świat-cyber">Podsumowanie: 10 Forstowych Trendów, które Zmienią Twój Świat Cyber<a href="https://www.majdak.online/blog/news-2025-05-31#podsumowanie-10-forstowych-trend%C3%B3w-kt%C3%B3re-zmieni%C4%85-tw%C3%B3j-%C5%9Bwiat-cyber" class="hash-link" aria-label="Bezpośredni link do Podsumowanie: 10 Forstowych Trendów, które Zmienią Twój Świat Cyber" title="Bezpośredni link do Podsumowanie: 10 Forstowych Trendów, które Zmienią Twój Świat Cyber">​</a></h2>
 <p>Od nowych technik hakerskich po globalne operacje - zachowaj czujność i bądź o krok przed cyberzagrożeniami.</p>
 <p>Twoje bezpieczeństwo zależy od tego, ile jesteś na bieżąco!</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Cyberbezpieczeństwo" term="Cyberbezpieczeństwo"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Ransomware" term="Ransomware"/>
-        <category label="Vulnerabilities" term="Vulnerabilities"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jak TikTok i AI mogą zagrażać Twojemu bezpieczeństwu? 10 szokujących faktów, które musisz znać!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-05-24</id>
-        <link href="https://www.majdak.online/blog/news-2025-05-24"/>
-        <updated>2025-05-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberzagrożenia rosną w zastraszającym tempie. Od wykorzystania TikToka do rozprzestrzeniania malware, po poważne luki w zabezpieczeniach – sprawdzamy, co naprawdę czai się za rogiem. Dowiedz się, jak chronić siebie i swoją firmę w świecie pełnym zagrożeń!]]></summary>
-        <content type="html"><![CDATA[<p>Cyberzagrożenia rosną w zastraszającym tempie. Od wykorzystania TikToka do rozprzestrzeniania malware, po poważne luki w zabezpieczeniach – sprawdzamy, co naprawdę czai się za rogiem. Dowiedz się, jak chronić siebie i swoją firmę w świecie pełnym zagrożeń!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tiktok-i-clickfix--jak-malware-trafia-do-twojego-urządzenia">TikTok i ClickFix – jak malware trafia do Twojego urządzenia?<a href="https://www.majdak.online/blog/news-2025-05-24#tiktok-i-clickfix--jak-malware-trafia-do-twojego-urz%C4%85dzenia" class="hash-link" aria-label="Bezpośredni link do TikTok i ClickFix – jak malware trafia do Twojego urządzenia?" title="Bezpośredni link do TikTok i ClickFix – jak malware trafia do Twojego urządzenia?">​</a></h2>
-<p>Cyberprzestępcy wykorzystują popularność TikToka, aby rozprowadzać malware Latrodectus za pomocą techniki ClickFix, która umożliwia uruchomienie złośliwego kodu w pamięci przeglądarki, omijając zabezpieczenia.</p>
-<p>To nowoczesne i ekstremalnie ryzykowne rozwiązanie, które sprawia, że infekcji trudno zapobiec – zabezpieczenia bazujące na tradycyjnych metodach stają się bezsilne.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="poważne-luki-w-routerach-cisco-i-kompromitacja-tysięcy-urządzeń">Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń<a href="https://www.majdak.online/blog/news-2025-05-24#powa%C5%BCne-luki-w-routerach-cisco-i-kompromitacja-tysi%C4%99cy-urz%C4%85dze%C5%84" class="hash-link" aria-label="Bezpośredni link do Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń" title="Bezpośredni link do Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń">​</a></h2>
-<p>Wykorzystanie krytycznego błędu CVE-2023-20118 pozwala hackerom na kontrolę nad setkami sieciowych urządzeń na świecie. Zainfekowanych zostało aż 5300 urządzeń w ponad 84 krajach, tworząc globalną sieć honeypotów.</p>
-<p>To zagrożenie pokazuje, jak łatwo można przekształcić zainfekowane urządzenia w narzędzie inwigilacji i ataków na skali globalnej.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zamach-na-infrastrukturę--300-serwerów-i-650-domen-zniszczonych-przez-europol">Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol<a href="https://www.majdak.online/blog/news-2025-05-24#zamach-na-infrastruktur%C4%99--300-serwer%C3%B3w-i-650-domen-zniszczonych-przez-europol" class="hash-link" aria-label="Bezpośredni link do Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol" title="Bezpośredni link do Zamach na infrastrukturę – 300 serwerów i 650 domen zniszczonych przez Europol">​</a></h2>
-<p>Międzynarodowa akcja wymierzona w ransomware skutecznie wyłączyła 300 serwerów, unieszkodliwiła 650 domen i zatrzymała 20 przestępców na całym świecie.</p>
-<p>To jedno z największych uderzeń w cyberprzestępczy świat, które pokazuje, że współpraca organów ścigania działa na najwyższych obrotach.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="eksperci-udowadniają--ai-nie-jest-do-końca-bezpieczna">Eksperci udowadniają – AI nie jest do końca bezpieczna<a href="https://www.majdak.online/blog/news-2025-05-24#eksperci-udowadniaj%C4%85--ai-nie-jest-do-ko%C5%84ca-bezpieczna" class="hash-link" aria-label="Bezpośredni link do Eksperci udowadniają – AI nie jest do końca bezpieczna" title="Bezpośredni link do Eksperci udowadniają – AI nie jest do końca bezpieczna">​</a></h2>
-<p>Najnowsze testy wykazały, że asystent AI w GitLab Duo może zostać zmanipulowany, co umożliwia atakującemu wykradanie kodu i ładowanie złośliwego HTML.</p>
-<p>To dowód, że nawet najbardziej zaawansowane systemy AI mogą stać się narzędziem cyberataków, jeśli nie są odpowiednio chronione.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="geolokalizacja-użytkowników--o-co-poszło-z-o2-uk">Geolokalizacja użytkowników – o co poszło z O2 UK?<a href="https://www.majdak.online/blog/news-2025-05-24#geolokalizacja-u%C5%BCytkownik%C3%B3w--o-co-posz%C5%82o-z-o2-uk" class="hash-link" aria-label="Bezpośredni link do Geolokalizacja użytkowników – o co poszło z O2 UK?" title="Bezpośredni link do Geolokalizacja użytkowników – o co poszło z O2 UK?">​</a></h2>
-<p>Operator sieci O2 UK naprawił podatność w technologii VoLTE, która mogła pozwolić hackerom na śledzenie lokalizacji użytkowników smartfonów.</p>
-<p>To pokazuje, jak starsze technologie mogą stanowić poważne zagrożenie dla prywatności, jeśli nie są odpowiednio zabezpieczone.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="jak-tiktok-i-youtube-pomagają-malware--nowa-taktyka-hackerska">Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska<a href="https://www.majdak.online/blog/news-2025-05-24#jak-tiktok-i-youtube-pomagaj%C4%85-malware--nowa-taktyka-hackerska" class="hash-link" aria-label="Bezpośredni link do Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska" title="Bezpośredni link do Jak TikTok i YouTube pomagają malware? – nowa taktyka hackerska">​</a></h2>
-<p>Cyberprzestępcy używają TikTok i YouTube do rozprzestrzeniania infostealer malware, wykorzystując popularne platformy do oszukiwania użytkowników.</p>
-<p>To kolejny krok w rozwoju strategii społecznego inżynierii, które mogą kosztować Cię fortunę lub dane.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-globalnego-zagrożenia--rosyjska-grupa-qakbot-i-ransomware-na-celowniku">Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku<a href="https://www.majdak.online/blog/news-2025-05-24#wzrost-globalnego-zagro%C5%BCenia--rosyjska-grupa-qakbot-i-ransomware-na-celowniku" class="hash-link" aria-label="Bezpośredni link do Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku" title="Bezpośredni link do Wzrost globalnego zagrożenia – rosyjska grupa Qakbot i ransomware na celowniku">​</a></h2>
-<p>Przykład? Putinowska grupa Qakbot, która została oficjalnie oskarżona i zatrzymano jej lidera w USA. Czyni to cyberprzestępców jeszcze bardziej niebezpiecznymi.</p>
-<p>Ponadto, operacje takie jak DanaBot czy działania Europolu pokazują, że cyberprzestępczości nie można ignorować.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="czy-twoje-dane-są-bezpieczne--sprawdzamy-największe-luki">Czy Twoje dane są bezpieczne? – sprawdzamy największe luki<a href="https://www.majdak.online/blog/news-2025-05-24#czy-twoje-dane-s%C4%85-bezpieczne--sprawdzamy-najwi%C4%99ksze-luki" class="hash-link" aria-label="Bezpośredni link do Czy Twoje dane są bezpieczne? – sprawdzamy największe luki" title="Bezpośredni link do Czy Twoje dane są bezpieczne? – sprawdzamy największe luki">​</a></h2>
-<p>Vulnerabilities w popularnych narzędziach, takich jak Ivanti czy Cityworks, są wykorzystywane przez chińskie grupy szpiegowskie do ataków na sektor publiczny i prywatny.</p>
-<p>Ochrona przed tym wymaga stałego monitorowania i aktualizacji systemów, bo luka w jednym momencie może kosztować Cię miliardy.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="przyszłość-cyberbezpieczeństwa--jak-ai-i-automatyzacja-zmieniają-grę">Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę<a href="https://www.majdak.online/blog/news-2025-05-24#przysz%C5%82o%C5%9B%C4%87-cyberbezpiecze%C5%84stwa--jak-ai-i-automatyzacja-zmieniaj%C4%85-gr%C4%99" class="hash-link" aria-label="Bezpośredni link do Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę" title="Bezpośredni link do Przyszłość cyberbezpieczeństwa – jak AI i automatyzacja zmieniają grę">​</a></h2>
-<p>Organizacje coraz częściej sięgają po AI do automatyzacji wykrywania zagrożeń i ochrony danych, ale to rozwiązanie ma swoje pułapki.</p>
-<p>Kluczem jest więc zrównoważone podejście – technologia, trening i współpraca to gwarancja bezpieczeństwa.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="co-dalej-jak-się-chronić-w-świecie-pełnym-cyberzagrożeń">Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?<a href="https://www.majdak.online/blog/news-2025-05-24#co-dalej-jak-si%C4%99-chroni%C4%87-w-%C5%9Bwiecie-pe%C5%82nym-cyberzagro%C5%BCe%C5%84" class="hash-link" aria-label="Bezpośredni link do Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?" title="Bezpośredni link do Co dalej? Jak się chronić w świecie pełnym cyberzagrożeń?">​</a></h2>
-<p>Regularne aktualizacje, edukacja pracowników i korzystanie z najnowszych narzędzi bezpieczeństwa — to Twoja tarcza w coraz bardziej wrogim cyfrowym świecie.</p>
-<p>Nie pozwól, by cyberprzestępcy Cię zaskoczyli. Bądź na bieżąco!</p>
-<p>![Obrazek](/img/blog/ChatGPT Image May 24, 2025, 10_36_52 AM.png)</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
