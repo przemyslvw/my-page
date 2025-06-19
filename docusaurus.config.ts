@@ -1,11 +1,11 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Majdak Think Tank',
+  title: 'MAJDAK.ONLINE',
   tagline: 'Innowacje, Bezpieczeństwo IT i Automatyzacja',
   favicon: 'img/favicon.ico',
 
@@ -22,7 +22,7 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  trailingSlash: false,               // (opcjonalne) usuwa ostrzeżenia o ukośnikach
+  trailingSlash: false, // (opcjonalne) usuwa ostrzeżenia o ukośnikach
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -40,8 +40,7 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars.ts'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/przemyslvw/my-page/edit/master/',
+          editUrl: 'https://github.com/przemyslvw/my-page/edit/master/',
         },
         blog: {
           showReadingTime: true,
@@ -52,8 +51,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/przemyslvw/my-page/edit/master/',
+          editUrl: 'https://github.com/przemyslvw/my-page/edit/master/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -70,13 +68,21 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     metadata: [
-      {name: 'description', content: 'Majdak Think Tank — centrum wiedzy o bezpieczeństwie IT, automatyzacji i nowych technologiach.'},
-      {name: 'keywords', content: 'Majdak, Think Tank, bezpieczeństwo IT, automatyzacja, ESP32, Playwright, programowanie, sieci, web security'}
+      {
+        name: 'description',
+        content:
+          'MAJDAK.ONLINE — centrum wiedzy o bezpieczeństwie IT, automatyzacji i nowych technologiach.',
+      },
+      {
+        name: 'keywords',
+        content:
+          'Majdak, Think Tank, bezpieczeństwo IT, automatyzacja, ESP32, Playwright, programowanie, sieci, web security',
+      },
     ],
     navbar: {
-      title: 'Majdak Think Tank',
+      title: 'MAJDAK.ONLINE',
       logo: {
-        alt: 'Majdak Think Tank Logo',
+        alt: 'MAJDAK.ONLINE Logo',
         src: 'img/logo_small.png',
       },
       items: [
@@ -86,7 +92,7 @@ const config: Config = {
           position: 'left',
           label: 'Dokumentacja',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/automatyzacja', label: 'Automatyzacja', position: 'left' },
         { to: '/contact', label: 'Kontakt', position: 'left' },
         {
@@ -132,7 +138,7 @@ const config: Config = {
               href: 'mailto:kontakt@majdak.online',
             },
           ],
-        },        
+        },
         {
           title: 'More',
           items: [
@@ -160,6 +166,4 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-
 export default config;
-
