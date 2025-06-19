@@ -3,7 +3,7 @@ import { createExplosion } from '../spawn/spawn.js';
 import { gameOver } from '../gameState.js';
 import { spawnPowerUp } from '../spawn/spawn.js';
 import { showLevelIntro } from '../index.js';
-import { enemyTypes } from '../enemyTypes.js';
+import { bossTypes, enemyTypes } from '../enemyTypes.js';
 
 export function updateEnemies() {
   // Update regular enemies
@@ -88,9 +88,10 @@ export function updateEnemies() {
 
     // Boss AI - move towards player and face the player
     if (distance > 100) {
-      // Keep some distance from the player
-      game.boss.x += (dx / distance) * game.boss.speed;
-      game.boss.y += (dy / distance) * game.boss.speed;
+      // Move faster when far from player
+      const currentSpeed = distance > 600 ? game.boss.speed * 5 : game.boss.speed;
+      game.boss.x += (dx / distance) * currentSpeed;
+      game.boss.y += (dy / distance) * currentSpeed;
     }
     game.boss.angle = Math.atan2(dy, dx);
 
@@ -114,7 +115,7 @@ export function updateEnemies() {
     // Boss defeated
     if (game.boss.health <= 0) {
       createExplosion(game.boss.x, game.boss.y, true);
-      game.score += 1000;
+      game.score += bossTypes[game.boss.type].points;
       const bossWasActive = game.bossActive;
       game.boss = null;
       game.state = 'pause';

@@ -31,7 +31,7 @@ export const bossTypes = {
   'tie-boss': {
     name: 'TIE Advanced x1',
     health: 200,
-    speed: 0.8,
+    speed: 1,
     laserColor: '#ff3366',
     healthBarColor: '#ff0000',
     shootCooldown: 1000,
@@ -42,7 +42,7 @@ export const bossTypes = {
   destroyer: {
     name: 'Imperial Destroyer',
     health: 500,
-    speed: 0.5,
+    speed: 1.2,
     laserColor: '#00ffff',
     healthBarColor: '#0066ff',
     shootCooldown: 1500,
@@ -53,7 +53,7 @@ export const bossTypes = {
   'star-destroyer': {
     name: 'Star Destroyer',
     health: 1000,
-    speed: 0.3,
+    speed: 1.4,
     laserColor: '#ff9900',
     healthBarColor: '#ff5500',
     shootCooldown: 2000,
@@ -64,7 +64,7 @@ export const bossTypes = {
   'death-star': {
     name: 'Death Star',
     health: 2000,
-    speed: 0.1,
+    speed: 1.5,
     laserColor: '#ff9900',
     healthBarColor: '#ff5500',
     shootCooldown: 2000,
