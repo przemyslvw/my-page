@@ -19,12 +19,22 @@ import {
 } from './draw/draw.js';
 import { levelConfigs } from './levelConfigs.js';
 import { game } from './gameState.js';
+import { preloadGameImages } from './draw/draw.js';
+
+let isImagesLoaded = false;
 
 // Import canvas and context
 import { canvas, ctx } from './canvas.js';
 
 // Initialize menu and event listeners when the DOM is fully loaded
-function initMenu() {
+async function initMenu() {
+  // Wstępne ładowanie obrazów
+  try {
+    isImagesLoaded = await preloadGameImages();
+    console.log('Obrazy załadowane:', isImagesLoaded ? 'sukces' : 'błąd');
+  } catch (error) {
+    console.error('Błąd podczas wczytywania obrazów:', error);
+  }
   // Add event listeners
   const startBtn = document.getElementById('startBtn');
   const restartBtn = document.getElementById('restartBtn');
@@ -52,12 +62,22 @@ function initMenu() {
 document.addEventListener('DOMContentLoaded', initMenu);
 
 // Game functions
-function startGame() {
-  game.state = 'levelIntro';
-  game.level = 1;
-  game.score = 0;
-  resetPlayer();
-  showLevelIntro();
+async function startGame() {
+  try {
+    // Upewnij się, że obrazy są załadowane przed rozpoczęciem gry
+    if (!isImagesLoaded) {
+      isImagesLoaded = await preloadGameImages();
+    }
+    
+    game.state = 'levelIntro';
+    game.level = 1;
+    game.score = 0;
+    resetPlayer();
+    showLevelIntro();
+  } catch (error) {
+    console.error('Błąd podczas rozpoczynania gry:', error);
+    alert('Wystąpił błąd podczas ładowania gry. Proszę odświeżyć stronę.');
+  }
 }
 
 function restartGame() {
