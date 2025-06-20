@@ -1,6 +1,10 @@
 import { game } from './gameState.js';
-import { canvas } from './canvas.js';
+import { canvas, ctx } from './canvas.js';
 import { fireLaser } from './gameLogic.js';
+
+// Mouse position tracking
+let mouseX = 0;
+let mouseY = 0;
 
 // Input handling
 let keys = {};
@@ -119,44 +123,46 @@ function updateJoystick(e) {
   }
 }
 
-// Event listeners for joystick
+// Event listeners for joystick and mouse
 joystickElement.addEventListener('touchstart', handleJoystickStart);
 joystickElement.addEventListener('touchmove', handleJoystickMove);
 joystickElement.addEventListener('touchend', handleJoystickEnd);
 joystickElement.addEventListener('mousedown', handleJoystickStart);
-document.addEventListener('mousemove', handleJoystickMove);
+document.addEventListener('mousemove', (e) => {
+  handleJoystickMove(e);
+  // Update mouse position for aiming
+  const rect = canvas.getBoundingClientRect();
+  mouseX = e.clientX - rect.left;
+  mouseY = e.clientY - rect.top;
+});
 document.addEventListener('mouseup', handleJoystickEnd);
 
-export function updatePlayer() {
-  // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka/klawiatury/pada
-  if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
-    game.player.worldX += game.joystick.x * game.player.maxSpeed;
-    game.player.worldY += game.joystick.y * game.player.maxSpeed;
-  } else if (keys['w'] || keys['arrowup']) {
-    game.player.worldY -= game.player.maxSpeed;
-  } else if (keys['s'] || keys['arrowdown']) {
-    game.player.worldY += game.player.maxSpeed;
-  }
-  if (keys['a'] || keys['arrowleft']) {
-    game.player.worldX -= game.player.maxSpeed;
-  } else if (keys['d'] || keys['arrowright']) {
-    game.player.worldX += game.player.maxSpeed;
-  }
+/**
+ * Gets the angle from player to mouse cursor
+ * @returns {number} Angle in radians
+ */
+function getMouseAngle() {
+  const playerScreenX = canvas.width / 2;  // Player is always at screen center
+  const playerScreenY = canvas.height / 2;
+  const dx = mouseX - playerScreenX;
+  const dy = mouseY - playerScreenY;
+  return Math.atan2(dy, dx);
+}
 
-  // Kamera zawsze sledzi pozycje gracza w przestrzeni swiata
-  game.camera.x = game.player.worldX - canvas.width / 2;
-  game.camera.y = game.player.worldY - canvas.height / 2;
-
-  // Auto-namierzaj na najblizszego wroga
+/**
+ * Finds the nearest enemy to the player
+ * @returns {Object|null} Nearest enemy or null if none found
+ */
+function findNearestEnemy() {
   let nearestEnemy = null;
   let nearestDistance = Infinity;
 
   [...game.enemies, game.boss]
-    .filter((e) => e)
-    .forEach((enemy) => {
+    .filter(Boolean)
+    .forEach(enemy => {
       const dx = enemy.x - game.player.worldX;
       const dy = enemy.y - game.player.worldY;
-      const distance = Math.sqrt(dx * dx + dy * dy);
+      const distance = Math.hypot(dx, dy);
 
       if (distance < nearestDistance) {
         nearestDistance = distance;
@@ -164,18 +170,97 @@ export function updatePlayer() {
       }
     });
 
-  if (nearestEnemy) {
-    const dx = nearestEnemy.x - game.player.worldX;
-    const dy = nearestEnemy.y - game.player.worldY;
-    game.player.angle = Math.atan2(dy, dx);
+  return nearestEnemy;
+}
 
-    // Auto-shoot
-    const now = Date.now();
-    // Shoot twice as fast when health is below 50%
-    const cooldownMultiplier = (game.player.health < game.player.maxHealth / 2) ? 1.5 : 3;
-    if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
-      game.lasers = fireLaser(game.player, game.lasers);
-      game.lastShot = now;
+/**
+ * Handles shooting with the given angle
+ * @param {number} angle - Angle to shoot at (in radians)
+ */
+function shootAtAngle(angle) {
+  const now = Date.now();
+  const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
+  
+  if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
+    const tempPlayer = { ...game.player, angle };
+    game.lasers = fireLaser(tempPlayer, game.lasers);
+    game.lastShot = now;
+  }
+}
+
+// Handle mouse click for shooting
+document.addEventListener('click', (e) => {
+  if (game.state === 'playing') {
+    const rect = canvas.getBoundingClientRect();
+    mouseX = e.clientX - rect.left;
+    mouseY = e.clientY - rect.top;
+    shootAtAngle(getMouseAngle());
+  }
+});
+
+/**
+ * Updates the player's position based on input
+ */
+function updatePlayerPosition() {
+  // Check if joystick is being used (not just active, but actually moved)
+  const isUsingJoystick = game.joystick.active && 
+    (Math.abs(game.joystick.x) > 0.1 || Math.abs(game.joystick.y) > 0.1);
+  
+  // Check if any keyboard movement keys are pressed
+  const isUsingKeyboard = ['w', 's', 'a', 'd', 'arrowup', 'arrowdown', 'arrowleft', 'arrowright']
+    .some(key => keys[key]);
+  
+  // Handle movement based on input method
+  if (isUsingJoystick) {
+    // Smooth joystick movement
+    game.player.worldX += game.joystick.x * game.player.maxSpeed;
+    game.player.worldY += game.joystick.y * game.player.maxSpeed;
+  } else if (isUsingKeyboard) {
+    // Precise keyboard movement
+    if (keys['w'] || keys['arrowup']) game.player.worldY -= game.player.maxSpeed;
+    if (keys['s'] || keys['arrowdown']) game.player.worldY += game.player.maxSpeed;
+    if (keys['a'] || keys['arrowleft']) game.player.worldX -= game.player.maxSpeed;
+    if (keys['d'] || keys['arrowright']) game.player.worldX += game.player.maxSpeed;
+  }
+  
+  return { isUsingJoystick, isUsingKeyboard };
+}
+
+/**
+ * Main player update function
+ */
+export function updatePlayer() {
+  // Update position and get input state
+  const { isUsingJoystick, isUsingKeyboard } = updatePlayerPosition();
+  
+  // Update camera to follow player
+  game.camera.x = game.player.worldX - canvas.width / 2;
+  game.camera.y = game.player.worldY - canvas.height / 2;
+  
+  // Get current mouse angle for aiming
+  const mouseAngle = getMouseAngle();
+  
+  // Handle different control schemes
+  if (isUsingJoystick && !isUsingKeyboard) {
+    // Joystick controls with auto-aim
+    const nearestEnemy = findNearestEnemy();
+    
+    if (nearestEnemy) {
+      // Face the nearest enemy
+      const dx = nearestEnemy.x - game.player.worldX;
+      const dy = nearestEnemy.y - game.player.worldY;
+      game.player.angle = Math.atan2(dy, dx);
+      
+      // Auto-shoot at the enemy
+      shootAtAngle(game.player.angle);
+    }
+  } else {
+    // Mouse + keyboard controls with manual aiming
+    game.player.angle = mouseAngle;
+    
+    // Shoot when space is pressed
+    if (keys[' ']) {
+      shootAtAngle(mouseAngle);
     }
   }
 }
