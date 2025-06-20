@@ -36,7 +36,7 @@ export function updateEnemies() {
     // Kolizja gracza z wrogiem
     if (distance < 30) {
       createExplosion(game.player.worldX, game.player.worldY, true);
-      game.player.health = Math.floor(game.player.health / 2);
+      game.player.health -= Math.floor(game.player.maxHealth / 2);
       game.enemies.splice(i, 1);
       if (game.player.health <= 0) {
         gameOver();
