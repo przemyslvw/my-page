@@ -72,8 +72,12 @@ export function updateEnemies() {
       game.enemies.splice(i, 1);
       game.score += 100;
       game.enemiesKilled++;
-      // Chance to spawn power-up
-      if (Math.random() < 0.3) {
+      // Chance to spawn power-up (decreases with level)
+      const baseChance = 0.3; // 30% base chance
+      const levelPenalty = Math.min(0.05 * (game.level - 1), 0.25); // 5% less per level, max 25% reduction
+      const dropChance = Math.max(baseChance - levelPenalty, 0.05); // Never go below 5%
+      
+      if (Math.random() < dropChance) {
         spawnPowerUp(enemy.x, enemy.y);
       }
       continue;
