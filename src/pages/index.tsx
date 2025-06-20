@@ -17,19 +17,15 @@ function HomepageHeader() {
           <div className="col col--6 col--offset-3">
             <div className={styles.contentWrapper}>
               <Heading as="h1" className="hero__title">
-                <img
-                  src="/img/logo.png"
-                  alt="MAJDAK.ONLINE Logo"
-                  style={{ width: '240px', height: 'auto' }}
-                />
+                <img src="/img/logo.png" alt="MAJDAK.ONLINE Logo" style={{ width: '240px', height: 'auto' }} />
                 <br />
-                <span className="text--gradient">MAJDAK.ONLINE</span>
+                <span className="text--gradient">MAJDAK ONLINE</span>
               </Heading>
               <p className="hero__subtitle">🚀 Więcej klientów 🔧 Mniej pracy 💸 Większy zysk ⚙️</p>
               <p className="hero__description">
-                Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych
-                przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy,
-                które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie.
+                Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju
+                operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji,
+                przez projekt, aż po wdrożenie i utrzymanie.
               </p>
               <div className={styles.buttons}>
                 <Link className="button button--primary button--lg" to="/docs/intro">
@@ -52,8 +48,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie."
-    >
+      description="Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

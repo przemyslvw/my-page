@@ -1,10 +1,6 @@
 import { game } from './gameState.js';
-import { canvas, ctx } from './canvas.js';
+import { canvas } from './canvas.js';
 import { fireLaser } from './gameLogic.js';
-
-// Mouse position tracking
-let mouseX = 0;
-let mouseY = 0;
 
 // Input handling
 let keys = {};
@@ -123,58 +119,44 @@ function updateJoystick(e) {
   }
 }
 
-// Event listeners for joystick and mouse
+// Event listeners for joystick
 joystickElement.addEventListener('touchstart', handleJoystickStart);
 joystickElement.addEventListener('touchmove', handleJoystickMove);
 joystickElement.addEventListener('touchend', handleJoystickEnd);
 joystickElement.addEventListener('mousedown', handleJoystickStart);
-document.addEventListener('mousemove', (e) => {
-  handleJoystickMove(e);
-  // Update mouse position for aiming
-  const rect = canvas.getBoundingClientRect();
-  mouseX = e.clientX - rect.left;
-  mouseY = e.clientY - rect.top;
-});
-// We'll handle mouseup separately for joystick and shooting
-document.addEventListener('mouseup', (e) => {
-  handleJoystickEnd();
-  
-  // Handle mouse up for shooting (if needed by other parts of the code)
-  if (e.button === 0) { // Left mouse button
-    isMouseDown = false;
-    if (shootInterval) {
-      clearInterval(shootInterval);
-      shootInterval = null;
-    }
+document.addEventListener('mousemove', handleJoystickMove);
+document.addEventListener('mouseup', handleJoystickEnd);
+
+export function updatePlayer() {
+  // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka/klawiatury/pada
+  if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
+    game.player.worldX += game.joystick.x * game.player.maxSpeed;
+    game.player.worldY += game.joystick.y * game.player.maxSpeed;
+  } else if (keys['w'] || keys['arrowup']) {
+    game.player.worldY -= game.player.maxSpeed;
+  } else if (keys['s'] || keys['arrowdown']) {
+    game.player.worldY += game.player.maxSpeed;
   }
-});
+  if (keys['a'] || keys['arrowleft']) {
+    game.player.worldX -= game.player.maxSpeed;
+  } else if (keys['d'] || keys['arrowright']) {
+    game.player.worldX += game.player.maxSpeed;
+  }
 
-/**
- * Gets the angle from player to mouse cursor
- * @returns {number} Angle in radians
- */
-function getMouseAngle() {
-  const playerScreenX = canvas.width / 2;  // Player is always at screen center
-  const playerScreenY = canvas.height / 2;
-  const dx = mouseX - playerScreenX;
-  const dy = mouseY - playerScreenY;
-  return Math.atan2(dy, dx);
-}
+  // Kamera zawsze sledzi pozycje gracza w przestrzeni swiata
+  game.camera.x = game.player.worldX - canvas.width / 2;
+  game.camera.y = game.player.worldY - canvas.height / 2;
 
-/**
- * Finds the nearest enemy to the player
- * @returns {Object|null} Nearest enemy or null if none found
- */
-function findNearestEnemy() {
+  // Auto-namierzaj na najblizszego wroga
   let nearestEnemy = null;
   let nearestDistance = Infinity;
 
   [...game.enemies, game.boss]
-    .filter(Boolean)
-    .forEach(enemy => {
+    .filter((e) => e)
+    .forEach((enemy) => {
       const dx = enemy.x - game.player.worldX;
       const dy = enemy.y - game.player.worldY;
-      const distance = Math.hypot(dx, dy);
+      const distance = Math.sqrt(dx * dx + dy * dy);
 
       if (distance < nearestDistance) {
         nearestDistance = distance;
@@ -182,140 +164,18 @@ function findNearestEnemy() {
       }
     });
 
-  return nearestEnemy;
-}
+  if (nearestEnemy) {
+    const dx = nearestEnemy.x - game.player.worldX;
+    const dy = nearestEnemy.y - game.player.worldY;
+    game.player.angle = Math.atan2(dy, dx);
 
-/**
- * Handles shooting with the given angle
- * @param {number} angle - Angle to shoot at (in radians)
- */
-function shootAtAngle(angle) {
-  const now = Date.now();
-  const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
-  
-  if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
-    const tempPlayer = { ...game.player, angle };
-    game.lasers = fireLaser(tempPlayer, game.lasers);
-    game.lastShot = now;
-  }
-}
-
-// Track mouse button state
-let isMouseDown = false;
-let shootInterval = null;
-
-// Handle mouse down for continuous shooting
-document.addEventListener('mousedown', (e) => {
-  if (e.button === 0 && game.state === 'playing') { // Left mouse button
-    isMouseDown = true;
-    // Start shooting immediately
-    const rect = canvas.getBoundingClientRect();
-    mouseX = e.clientX - rect.left;
-    mouseY = e.clientY - rect.top;
-    const angle = getMouseAngle();
-    shootAtAngle(angle);
-    
-    // Set up continuous shooting
-    shootInterval = setInterval(() => {
-      if (game.state === 'playing' && isMouseDown) {
-        const angle = getMouseAngle();
-        shootAtAngle(angle);
-      }
-    }, 200); // Adjust the interval (in ms) to control firing rate
-  }
-});
-
-// Handle mouse up to stop shooting
-document.addEventListener('mouseup', (e) => {
-  if (e.button === 0) { // Left mouse button
-    isMouseDown = false;
-    if (shootInterval) {
-      clearInterval(shootInterval);
-      shootInterval = null;
-    }
-  }
-});
-
-// Clean up interval when leaving the page
-window.addEventListener('beforeunload', () => {
-  if (shootInterval) {
-    clearInterval(shootInterval);
-  }
-});
-
-// Handle mouse click for shooting
-document.addEventListener('click', (e) => {
-  if (game.state === 'playing') {
-    const rect = canvas.getBoundingClientRect();
-    mouseX = e.clientX - rect.left;
-    mouseY = e.clientY - rect.top;
-    shootAtAngle(getMouseAngle());
-  }
-});
-
-/**
- * Updates the player's position based on input
- */
-function updatePlayerPosition() {
-  // Check if joystick is being used (not just active, but actually moved)
-  const isUsingJoystick = game.joystick.active && 
-    (Math.abs(game.joystick.x) > 0.1 || Math.abs(game.joystick.y) > 0.1);
-  
-  // Check if any keyboard movement keys are pressed
-  const isUsingKeyboard = ['w', 's', 'a', 'd', 'arrowup', 'arrowdown', 'arrowleft', 'arrowright']
-    .some(key => keys[key]);
-  
-  // Handle movement based on input method
-  if (isUsingJoystick) {
-    // Smooth joystick movement
-    game.player.worldX += game.joystick.x * game.player.maxSpeed;
-    game.player.worldY += game.joystick.y * game.player.maxSpeed;
-  } else if (isUsingKeyboard) {
-    // Precise keyboard movement
-    if (keys['w'] || keys['arrowup']) game.player.worldY -= game.player.maxSpeed;
-    if (keys['s'] || keys['arrowdown']) game.player.worldY += game.player.maxSpeed;
-    if (keys['a'] || keys['arrowleft']) game.player.worldX -= game.player.maxSpeed;
-    if (keys['d'] || keys['arrowright']) game.player.worldX += game.player.maxSpeed;
-  }
-  
-  return { isUsingJoystick, isUsingKeyboard };
-}
-
-/**
- * Main player update function
- */
-export function updatePlayer() {
-  // Update position and get input state
-  const { isUsingJoystick, isUsingKeyboard } = updatePlayerPosition();
-  
-  // Update camera to follow player
-  game.camera.x = game.player.worldX - canvas.width / 2;
-  game.camera.y = game.player.worldY - canvas.height / 2;
-  
-  // Get current mouse angle for aiming
-  const mouseAngle = getMouseAngle();
-  
-  // Handle different control schemes
-  if (isUsingJoystick && !isUsingKeyboard) {
-    // Joystick controls with auto-aim
-    const nearestEnemy = findNearestEnemy();
-    
-    if (nearestEnemy) {
-      // Face the nearest enemy
-      const dx = nearestEnemy.x - game.player.worldX;
-      const dy = nearestEnemy.y - game.player.worldY;
-      game.player.angle = Math.atan2(dy, dx);
-      
-      // Auto-shoot at the enemy
-      shootAtAngle(game.player.angle);
-    }
-  } else {
-    // Mouse + keyboard controls with manual aiming
-    game.player.angle = mouseAngle;
-    
-    // Shoot when space is pressed
-    if (keys[' ']) {
-      shootAtAngle(mouseAngle);
+    // Auto-shoot
+    const now = Date.now();
+    // Shoot twice as fast when health is below 50%
+    const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
+    if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
+      game.lasers = fireLaser(game.player, game.lasers);
+      game.lastShot = now;
     }
   }
 }
