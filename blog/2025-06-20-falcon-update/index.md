@@ -28,6 +28,7 @@ Czas na solidny update – poprawiamy tempo, podkręcamy wyzwanie i dorzucamy sz
 - 🎬 **Nowe wideo demonstracyjne** – zobacz grę w akcji!
 - 🎵 **Dodano muzykę w tle** + opcja **wyciszenia** dźwięków, jeśli wolisz ciszę.
 - ⏸️ **Stop-klatka po pokonaniu bossa** – zasłużona chwila triumfu.
+- 🎯 **Auto-aim został wyłączony** dla myszki i klawiatury – działa teraz wyłącznie podczas gry na joysticku.
 
 ---
 
