@@ -135,7 +135,19 @@ document.addEventListener('mousemove', (e) => {
   mouseX = e.clientX - rect.left;
   mouseY = e.clientY - rect.top;
 });
-document.addEventListener('mouseup', handleJoystickEnd);
+// We'll handle mouseup separately for joystick and shooting
+document.addEventListener('mouseup', (e) => {
+  handleJoystickEnd();
+  
+  // Handle mouse up for shooting (if needed by other parts of the code)
+  if (e.button === 0) { // Left mouse button
+    isMouseDown = false;
+    if (shootInterval) {
+      clearInterval(shootInterval);
+      shootInterval = null;
+    }
+  }
+});
 
 /**
  * Gets the angle from player to mouse cursor
@@ -187,6 +199,49 @@ function shootAtAngle(angle) {
     game.lastShot = now;
   }
 }
+
+// Track mouse button state
+let isMouseDown = false;
+let shootInterval = null;
+
+// Handle mouse down for continuous shooting
+document.addEventListener('mousedown', (e) => {
+  if (e.button === 0 && game.state === 'playing') { // Left mouse button
+    isMouseDown = true;
+    // Start shooting immediately
+    const rect = canvas.getBoundingClientRect();
+    mouseX = e.clientX - rect.left;
+    mouseY = e.clientY - rect.top;
+    const angle = getMouseAngle();
+    shootAtAngle(angle);
+    
+    // Set up continuous shooting
+    shootInterval = setInterval(() => {
+      if (game.state === 'playing' && isMouseDown) {
+        const angle = getMouseAngle();
+        shootAtAngle(angle);
+      }
+    }, 200); // Adjust the interval (in ms) to control firing rate
+  }
+});
+
+// Handle mouse up to stop shooting
+document.addEventListener('mouseup', (e) => {
+  if (e.button === 0) { // Left mouse button
+    isMouseDown = false;
+    if (shootInterval) {
+      clearInterval(shootInterval);
+      shootInterval = null;
+    }
+  }
+});
+
+// Clean up interval when leaving the page
+window.addEventListener('beforeunload', () => {
+  if (shootInterval) {
+    clearInterval(shootInterval);
+  }
+});
 
 // Handle mouse click for shooting
 document.addEventListener('click', (e) => {
