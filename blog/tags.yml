@@ -447,3 +447,11 @@ aiact:
 kurs:
   label: kurs
   permalink: /blog/tags/kurs
+
+game-dev:
+  label: game-dev
+  permalink: /blog/tags/game-dev
+
+falconsescape:
+  label: falconsescape
+  permalink: /blog/tags/falconsescape
