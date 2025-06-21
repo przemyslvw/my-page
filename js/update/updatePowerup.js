@@ -1,5 +1,8 @@
 import { game } from '../gameState.js';
 
+// Store the damage boost timeout ID
+game.damageBoostTimeout = null;
+
 export function updatePowerUps() {
   game.powerups.forEach((powerup, index) => {
     // Bobbing animation
@@ -13,10 +16,16 @@ export function updatePowerUps() {
       if (powerup.type === 'health') {
         game.player.health = Math.min(game.player.maxHealth, game.player.health + 25);
       } else if (powerup.type === 'damage') {
-        // Activate double damage
+        // Clear existing timeout if any
+        if (game.damageBoostTimeout) {
+          clearTimeout(game.damageBoostTimeout);
+        }
+        
+        // Activate or extend damage boost
         game.player.damageMultiplier = 4;
-        // Reset damage multiplier after 10 seconds
-        setTimeout(() => {
+        
+        // Set new timeout (10 seconds from now)
+        game.damageBoostTimeout = setTimeout(() => {
           if (game.player.damageMultiplier === 4) {
             game.player.damageMultiplier = 1;
           }
