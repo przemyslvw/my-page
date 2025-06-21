@@ -3,6 +3,11 @@ export const game = {
   state: 'menu', // menu, playing, paused, gameOver, levelIntro
   level: 1,
   score: 0,
+  previousLevel: {
+    level: 1,
+    score: 0,
+    health: 0
+  },
   player: {
     worldX: 0, // Player's position in world coordinates
     worldY: 0,
@@ -35,7 +40,27 @@ export const game = {
   boss: null,
 };
 
+export function saveLevelResults() {
+  game.previousLevel = {
+    level: game.level,
+    score: game.score,
+    health: game.player.health
+  };
+}
+
+export function loadPreviousLevel() {
+  if (game.previousLevel.level > 0) {
+    game.level = game.previousLevel.level;
+    game.score = game.previousLevel.score;
+    game.player.health = game.previousLevel.health;
+    game.player.maxHealth = Math.max(100, game.previousLevel.health); // Ensure maxHealth is at least the current health
+    return true;
+  }
+  return false;
+}
+
 export function gameOver() {
+  saveLevelResults();
   game.state = 'gameOver';
   document.getElementById('finalScore').textContent = game.score;
   document.getElementById('finalLevel').textContent = game.level;

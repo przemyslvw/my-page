@@ -12,7 +12,7 @@ import { drawLaser } from './draw/drawLaser.js';
 import { drawPowerUp } from './draw/drawPowerUp.js';
 import { drawPlayer, drawEnemy, drawHeavy, drawInterceptor, drawBoss, drawCondor } from './draw/draw.js';
 import { levelConfigs } from './levelConfigs.js';
-import { game } from './gameState.js';
+import { game, loadPreviousLevel } from './gameState.js';
 import { preloadGameImages } from './draw/draw.js';
 
 let isImagesLoaded = false;
@@ -74,10 +74,8 @@ async function startGame() {
   }
 }
 
-function restartGame() {
+function restartGame(loadPrevious = false) {
   game.state = 'levelIntro';
-  game.level = 1;
-  game.score = 0;
   game.enemies = [];
   game.lasers = [];
   game.powerups = [];
@@ -85,6 +83,20 @@ function restartGame() {
   game.enemiesKilled = 0;
   game.bossActive = false;
   game.boss = null;
+  
+  if (loadPrevious) {
+    const loaded = loadPreviousLevel();
+    if (!loaded) {
+      // If no previous level to load, reset to level 1
+      game.level = 1;
+      game.score = 0;
+    }
+  } else {
+    // Normal restart - start from beginning
+    game.level = 1;
+    game.score = 0;
+  }
+  
   resetPlayer();
   showLevelIntro();
 }
