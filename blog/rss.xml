@@ -4,10 +4,38 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Fri, 20 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Meta ujawnia nową lukę bezpieczeństwa, która zagraża miliardom użytkowników!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-06-21</link>
+            <guid>https://www.majdak.online/blog/news-2025-06-21</guid>
+            <pubDate>Sat, 21 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Najbardziej intrygującą wiadomością tego dnia jest rekordowy atak DDoS o sile 7,3 Tbps, który został skutecznie zablokowany przez Cloudflare. To wydarzenie pokazuje, jak coraz bardziej zaawansowane i destrukcyjne stają się ataki na infrastrukturę internetową.]]></description>
+            <content:encoded><![CDATA[<p>Najbardziej intrygującą wiadomością tego dnia jest rekordowy atak DDoS o sile 7,3 Tbps, który został skutecznie zablokowany przez Cloudflare. To wydarzenie pokazuje, jak coraz bardziej zaawansowane i destrukcyjne stają się ataki na infrastrukturę internetową.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="najpotężniejszy-atak-ddos-w-historii">Najpotężniejszy atak DDoS w historii<a href="https://www.majdak.online/blog/news-2025-06-21#najpot%C4%99%C5%BCniejszy-atak-ddos-w-historii" class="hash-link" aria-label="Bezpośredni link do Najpotężniejszy atak DDoS w historii" title="Bezpośredni link do Najpotężniejszy atak DDoS w historii">​</a></h3>
+<p>W maju 2025 roku Cloudflare po raz kolejny udowodnił swoją moc, blokując atak typu DDoS o rekordowej sile 7,3 Tbps, co jest największym zarejestrowanym tego typu incydentem.</p>
+<p>Atak ten trwał zaledwie 45 sekund i nacelował na nieujawnionego dostawcę usług hostingowych, zatapiając internetową infrastrukturę w ponad 37 TB niechcianego ruchu.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-na-horyzoncie--kampania-z-trojanami-na-github">Nowe zagrożenia na horyzoncie – kampania z trojanami na GitHub<a href="https://www.majdak.online/blog/news-2025-06-21#nowe-zagro%C5%BCenia-na-horyzoncie--kampania-z-trojanami-na-github" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia na horyzoncie – kampania z trojanami na GitHub" title="Bezpośredni link do Nowe zagrożenia na horyzoncie – kampania z trojanami na GitHub">​</a></h3>
+<p>Cyberprzestępcy rozszerzyli swoje działania, publikując ponad 200 podrabianych repozytoriów na GitHub, które mają oferować rzekome narzędzia hackingowe w Pythonie, a w rzeczywistości rozprzestrzeniają trojanizowane ładunki.</p>
+<p>Taka działalność, nazwana Banana Squad przez ReversingLabs, kontynuuje wcześniej zidentyfikowaną kampanię rogue Python, skierowaną przeciwko programistom i graczom, co stanowi poważne zagrożenie dla ekosystemu deweloperskiego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ukrainy-i-globalne-napięcia-geopolityczne--cyberwojna-w-centrum-uwagi">Ukrainy i globalne napięcia geopolityczne – cyberwojna w centrum uwagi<a href="https://www.majdak.online/blog/news-2025-06-21#ukrainy-i-globalne-napi%C4%99cia-geopolityczne--cyberwojna-w-centrum-uwagi" class="hash-link" aria-label="Bezpośredni link do Ukrainy i globalne napięcia geopolityczne – cyberwojna w centrum uwagi" title="Bezpośredni link do Ukrainy i globalne napięcia geopolityczne – cyberwojna w centrum uwagi">​</a></h3>
+<p>Konflikt między Izraelem a Iranem eskaluje, a cyberoperacje i hacktivism odgrywają coraz większą rolę w nowoczesnym konflikcie zbrojnym, zmieniając dynamikę starć na arenie międzynarodowej.</p>
+<p>Eksperci podkreślają, że cyberwojna od teraz to integralna część strategii państw, co wymaga od firm i rządów jeszcze większego nacisku na cyberobronę i prewencję.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-instytucje-i-przedsiębiorstwa-na-szeroką-skalę">Ataki na instytucje i przedsiębiorstwa na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-06-21#ataki-na-instytucje-i-przedsi%C4%99biorstwa-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Ataki na instytucje i przedsiębiorstwa na szeroką skalę" title="Bezpośredni link do Ataki na instytucje i przedsiębiorstwa na szeroką skalę">​</a></h3>
+<p>Firma Aflac ujawniła incydent, w którym podejrzewana jest kradzież danych osobowych i zdrowotnych, w ramach szerszej kampanii wymierzonej w branżę ubezpieczeniową w USA.</p>
+<p>Warto także wspomnieć o sukcesie Lazarus Group – północnokoreańskiej grupy hakerskiej, która według BitoPro, odpowiada za kradzież kryptowalut o wartości 11 milionów dolarów w maju br.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-zagrożenia-i-narzędzia-cyberprzestępców">Nowoczesne zagrożenia i narzędzia cyberprzestępców<a href="https://www.majdak.online/blog/news-2025-06-21#nowoczesne-zagro%C5%BCenia-i-narz%C4%99dzia-cyberprzest%C4%99pc%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Nowoczesne zagrożenia i narzędzia cyberprzestępców" title="Bezpośredni link do Nowoczesne zagrożenia i narzędzia cyberprzestępców">​</a></h3>
+<p>Wzrost aktywności cyberprzestępców wykorzystujących złośliwe repozytoria na GitHub, trojany Android, a także złożone kampanie z użyciem Cloudflare Tunnels i zero-dayów na FreeType wskazują, że era coraz bardziej zaawansowanych i ukierunkowanych ataków trwa w najlepsze.</p>
+<p>Ponadto, planowane usunięcie starszych sterowników Windows przez Microsoft to kolejny krok w kierunku zwiększenia bezpieczeństwa systemów operacyjnych i ograniczenia podatności na cyberzagrożenia.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[🚀 Falcons Escape – aktualizacja: Berserk Mode, nowe statki i bossy!]]></title>
             <link>https://www.majdak.online/blog/aktualizacja-falcons-escape-czerwiec-2025</link>
@@ -644,33 +672,6 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="ochrona-i-odpowiedź--co-musisz-wiedzieć">Ochrona i odpowiedź – co musisz wiedzieć<a href="https://www.majdak.online/blog/news-2025-06-02#ochrona-i-odpowied%C5%BA--co-musisz-wiedzie%C4%87" class="hash-link" aria-label="Bezpośredni link do Ochrona i odpowiedź – co musisz wiedzieć" title="Bezpośredni link do Ochrona i odpowiedź – co musisz wiedzieć">​</a></h2>
 <p>Firmy muszą zaktualizować swoje systemy, stosować wielowarstwowe zabezpieczenia i nie ufać automatycznie wszystkim certyfikatom czy narzędziom. Warto śledzić najnowsze wytyczne od CISA czy producentów urządzeń, by nie paść ofiarą skutecznych ataków.</p>
 <p>Wieloetapowe monitorowanie, szybka reakcja na wykryte luki oraz edukacja pracowników są kluczem do przetrwania w świecie pełnym nieustających zagrożeń cybernetycznych.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Cyberbezpieczeństwo</category>
-            <category>Malware</category>
-            <category>Ransomware</category>
-            <category>Vulnerabilities</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Jak hakerzy zsynchronizowali globalne ataki i ukryli się pod maską cyberprzestępców? Oto najnowsze tajemnice bezpieczeństwa!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-01</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-01</guid>
-            <pubDate>Sun, 01 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cyberzagrożenia rosną w zastraszającym tempie, a cyberprzestępcy idą na coraz poważniejsze kroki. Poznaj najnowsze ataki, które mogą zagrozić twoim danym i dowiedz się, jak się przed nimi bronić!]]></description>
-            <content:encoded><![CDATA[<p>Cyberzagrożenia rosną w zastraszającym tempie, a cyberprzestępcy idą na coraz poważniejsze kroki. Poznaj najnowsze ataki, które mogą zagrozić twoim danym i dowiedz się, jak się przed nimi bronić!</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="król-ransomware-stern-zidentyfikowany-przez-niemieckie-służby">Król ransomware ‘Stern’ zidentyfikowany przez niemieckie służby<a href="https://www.majdak.online/blog/news-2025-06-01#kr%C3%B3l-ransomware-stern-zidentyfikowany-przez-niemieckie-s%C5%82u%C5%BCby" class="hash-link" aria-label="Bezpośredni link do Król ransomware ‘Stern’ zidentyfikowany przez niemieckie służby" title="Bezpośredni link do Król ransomware ‘Stern’ zidentyfikowany przez niemieckie służby">​</a></h2>
-<p>Najnowsze śledztwo ujawnia, że liderem Trickbot jest Vitaliy Nikolaevich Kovalev, znany jako ‘Stern’. To oznacza poważne zagrożenie dla globalnych systemów finansowych i przedsiębiorstw.</p>
-<p>Zwalczanie tego rodzaju cyberprzestępczości wymaga nie tylko zaawansowanych narzędzi, ale także precyzyjnego wywiadu i współpracy międzynarodowej.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-w-linuxie-kradzież-haseł-przez-core-dump-w-ubuntu-rhel-i-fedora">Nowe luki w Linuxie: kradzież haseł przez core dump w Ubuntu, RHEL i Fedora<a href="https://www.majdak.online/blog/news-2025-06-01#nowe-luki-w-linuxie-kradzie%C5%BC-hase%C5%82-przez-core-dump-w-ubuntu-rhel-i-fedora" class="hash-link" aria-label="Bezpośredni link do Nowe luki w Linuxie: kradzież haseł przez core dump w Ubuntu, RHEL i Fedora" title="Bezpośredni link do Nowe luki w Linuxie: kradzież haseł przez core dump w Ubuntu, RHEL i Fedora">​</a></h2>
-<p>Dwie poważne luki w apport i systemd-coredump mogą umożliwić lokalnym atakującym dostęp do poufnych informacji, wykorzystując race condition.</p>
-<p>Zagrożenie jest realne dla użytkowników Ubuntu, Red Hat oraz Fedory, szczególnie tych, którzy nie zaktualizowali systemów do najnowszej wersji.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="us-doj-zamknął-cztery-domeny-wspierające-cyberprzestępców-na-globalnym-froncie">U.S. DoJ zamknął cztery domeny wspierające cyberprzestępców na globalnym froncie<a href="https://www.majdak.online/blog/news-2025-06-01#us-doj-zamkn%C4%85%C5%82-cztery-domeny-wspieraj%C4%85ce-cyberprzest%C4%99pc%C3%B3w-na-globalnym-froncie" class="hash-link" aria-label="Bezpośredni link do U.S. DoJ zamknął cztery domeny wspierające cyberprzestępców na globalnym froncie" title="Bezpośredni link do U.S. DoJ zamknął cztery domeny wspierające cyberprzestępców na globalnym froncie">​</a></h2>
-<p>Międzynarodowa operacja służb prawa skonfiskowała cztery kluczowe domeny wykorzystywane do ukrywania usług cryptingowych, gwarantujących pozostanie ukrytym złośliwego oprogramowania.</p>
-<p>To pierwszy krok do powstrzymania szerzącej się cyberprzestępczości i odzyskania kontroli nad szkodliwym ekosystemem online.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="eksploit-szczytowy-cisco-ios-xe-ujawnia-poważną-lukę-z-nagłówkiem-cve-2025-20188">Eksploit szczytowy: Cisco IOS XE ujawnia poważną lukę z nagłówkiem CVE-2025-20188<a href="https://www.majdak.online/blog/news-2025-06-01#eksploit-szczytowy-cisco-ios-xe-ujawnia-powa%C5%BCn%C4%85-luk%C4%99-z-nag%C5%82%C3%B3wkiem-cve-2025-20188" class="hash-link" aria-label="Bezpośredni link do Eksploit szczytowy: Cisco IOS XE ujawnia poważną lukę z nagłówkiem CVE-2025-20188" title="Bezpośredni link do Eksploit szczytowy: Cisco IOS XE ujawnia poważną lukę z nagłówkiem CVE-2025-20188">​</a></h2>
-<p>Publikacja szczegółów dotyczących krytycznej luki pozwala atakującym na złośliwe przesyłanie plików i przejęcie kontroli nad infrastrukturą sieciową.</p>
-<p>Eksperci ostrzegają, że wkrótce może pojawić się działający exploit, więc administratorzy powinni natychmiast zastosować dostępne poprawki, by nie dać się złapać.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Cyberbezpieczeństwo</category>
             <category>Malware</category>
