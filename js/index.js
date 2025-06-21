@@ -183,8 +183,20 @@ function resetPlayer() {
   game.player.worldY = 0;
   game.player.health = game.player.maxHealth;
   game.player.angle = 0;
+  game.player.damageMultiplier = 1;
+  game.player.shootCooldownMultiplier = 1;
   game.camera.x = 0;
   game.camera.y = 0;
+  
+  // Clear any active timeouts
+  if (game.damageBoostTimeout) {
+    clearTimeout(game.damageBoostTimeout);
+    game.damageBoostTimeout = null;
+  }
+  if (game.speedBoostTimeout) {
+    clearTimeout(game.speedBoostTimeout);
+    game.speedBoostTimeout = null;
+  }
 }
 
 // Rendering
@@ -262,6 +274,18 @@ function updateHUD() {
     dmgElement.classList.add('animate-pulse');
   } else {
     dmgElement.classList.remove('animate-pulse');
+  }
+  
+  // Update speed multiplier displa
+  const speedMultiplier = game.player.shootCooldownMultiplier || 1;
+  const speedElement = document.getElementById('speedMultiplier');
+  speedElement.textContent = `${Math.round(1/speedMultiplier)}x`;
+  
+  // Add/remove glow effect based on speed multiplier
+  if (speedMultiplier < 1) {
+    speedElement.classList.add('animate-pulse');
+  } else {
+    speedElement.classList.remove('animate-pulse');
   }
 }
 

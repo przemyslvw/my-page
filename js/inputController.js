@@ -181,8 +181,11 @@ export function updatePlayer() {
 
     // Auto-shoot when using keyboard controls
     const now = Date.now();
-    const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
-    if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
+    const healthMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
+    const shootCooldownMultiplier = game.player.shootCooldownMultiplier || 1;
+    const totalCooldown = game.shootCooldown * healthMultiplier * shootCooldownMultiplier;
+    
+    if (now - game.lastShot > totalCooldown) {
       game.lasers = fireLaser(game.player, game.lasers);
       game.lastShot = now;
     }
@@ -211,8 +214,11 @@ export function updatePlayer() {
 
       // Auto-shoot
       const now = Date.now();
-      const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
-      if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
+      const healthMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
+      const shootCooldownMultiplier = game.player.shootCooldownMultiplier || 1;
+      const totalCooldown = game.shootCooldown * healthMultiplier * shootCooldownMultiplier;
+      
+      if (now - game.lastShot > totalCooldown) {
         game.lasers = fireLaser(game.player, game.lasers);
         game.lastShot = now;
       }
