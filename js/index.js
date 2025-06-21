@@ -10,7 +10,7 @@ import { drawExplosion } from './draw/drawExplosion.js';
 import { drawStars } from './draw/drawStars.js';
 import { drawLaser } from './draw/drawLaser.js';
 import { drawPowerUp } from './draw/drawPowerUp.js';
-import { drawPlayer, drawEnemy, drawHeavy, drawInterceptor, drawBoss } from './draw/draw.js';
+import { drawPlayer, drawEnemy, drawHeavy, drawInterceptor, drawBoss, drawCondor } from './draw/draw.js';
 import { levelConfigs } from './levelConfigs.js';
 import { game } from './gameState.js';
 import { preloadGameImages } from './draw/draw.js';
@@ -206,6 +206,8 @@ function render() {
       drawHeavy(enemy);
     } else if (enemy.type === 'interceptor') {
       drawInterceptor(enemy);
+    } else if (enemy.type === 'condor') {
+      drawCondor(enemy);
     } else {
       drawEnemy(enemy);
     }

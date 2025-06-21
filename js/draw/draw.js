@@ -173,6 +173,31 @@ export function drawInterceptor(interceptor) {
   }
 }
 
+// draw condor
+export function drawCondor(condor) {
+  ctx.save();
+  ctx.translate(condor.x, condor.y);
+  ctx.rotate(condor.angle);
+
+  const condorImage = new Image();
+  condorImage.src = `../gameFiles/condor.png`;
+  ctx.drawImage(condorImage, -condorImage.width / 2, -condorImage.height / 2);
+
+  ctx.restore();
+
+  // Health bar
+  if (condor.health < condor.maxHealth) {
+    drawHealthBar(
+      condor.x,
+      condor.y - 25,
+      condor.health,
+      condor.maxHealth,
+      30,
+      enemyTypes[condor.type]?.healthBarColor
+    );
+  }
+}
+
 export function drawBoss(boss) {
   ctx.save();
   ctx.translate(boss.x, boss.y);

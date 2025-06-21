@@ -24,6 +24,14 @@ export const enemyTypes = {
     shootCooldown: 1200,
     range: 700,
   },
+  condor: {
+    laserColor: '#ff00ff',
+    healthBarColor: '#ff00ff',
+    health: 40,
+    speed: 0,
+    shootCooldown: 2000,
+    range: 700,
+  },
 };
 
 // Konfiguracja bossów
