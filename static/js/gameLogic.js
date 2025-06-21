@@ -1,12 +1,16 @@
 // Game logic functions
 export function fireLaser(player, lasers) {
-  // Add laser to the game
+  // Add laser to the game with damage based on player's damage multiplier
+  const baseDamage = 5; // Base damage of the laser
+  const damage = Math.round(baseDamage * (player.damageMultiplier || 1));
+  
   lasers.push({
     x: player.worldX, // Starting position of the laser (player's position)
     y: player.worldY,
     dx: Math.cos(player.angle) * 4, // Laser speed on X axis
     dy: Math.sin(player.angle) * 4, // Laser speed on Y axis
     type: 'player', // Laser type (player)
+    damage: damage, // Store the calculated damage
   });
 
   return lasers;

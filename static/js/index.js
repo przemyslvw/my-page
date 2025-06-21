@@ -240,6 +240,17 @@ function updateHUD() {
   // Update score and level
   document.getElementById('score').textContent = game.score;
   document.getElementById('level').textContent = game.level;
+  
+  // Update damage multiplier display
+  const dmgElement = document.getElementById('damageMultiplier');
+  dmgElement.textContent = `${game.player.damageMultiplier}x`;
+  
+  // Add/remove glow effect based on damage multiplier
+  if (game.player.damageMultiplier > 1) {
+    dmgElement.classList.add('animate-pulse');
+  } else {
+    dmgElement.classList.remove('animate-pulse');
+  }
 }
 
 // Game loop

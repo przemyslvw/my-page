@@ -23,9 +23,10 @@ export function updateLasers() {
         const dx = laser.x - enemy.x;
         const dy = laser.y - enemy.y;
         if (Math.sqrt(dx * dx + dy * dy) < 20) {
-          // Zadaj obra enie wrogowi
-          enemy.health -= 5;
-          // Usu  laser
+          // Zadaj obrażenia wrogowi z uwzględnieniem wartości damage lasera
+          const damage = laser.damage || 5;
+          enemy.health -= damage;
+          // Usuń laser
           game.lasers.splice(index, 1);
         }
       });
