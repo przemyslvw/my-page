@@ -139,7 +139,7 @@ export function updateEnemies() {
         case 'barrage':
           // Standard barrage for bosses (5 shots in quick succession)
           for (let i = 0; i < 5; i++) {
-            const spread = (Math.random() - 0.5) * 0.4; // Slight spread
+            const spread = (Math.random() - 0.5) * 1; // Slight spread
             const angle = game.boss.angle + spread;
 
             // Stagger the shots slightly for visual effect
