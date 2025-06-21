@@ -10,6 +10,7 @@ import { drawExplosion } from './draw/drawExplosion.js';
 import { drawStars } from './draw/drawStars.js';
 import { drawLaser } from './draw/drawLaser.js';
 import { drawPowerUp } from './draw/drawPowerUp.js';
+import { initPlanets, drawPlanets } from './draw/drawPlanets.js';
 import { drawPlayer, drawEnemy, drawHeavy, drawInterceptor, drawBoss, drawCondor } from './draw/draw.js';
 import { levelConfigs } from './levelConfigs.js';
 import { game, loadPreviousLevel } from './gameState.js';
@@ -138,6 +139,9 @@ function startLevel() {
   game.powerups = [];
   game.explosions = [];
   game.enemiesKilled = 0;
+  
+  // Initialize planets for the level
+  initPlanets();
   game.enemiesNeededForNextLevel = levelConfigs[(game.level - 1) % levelConfigs.length].maxEnemies;
 
   // Ensure boss state is fully reset
@@ -205,8 +209,9 @@ function render() {
   ctx.fillStyle = '#001122';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Draw scrolling starfield
+  // Draw space background elements
   drawStars();
+  drawPlanets();
 
   // Save context for world transformations
   ctx.save();
