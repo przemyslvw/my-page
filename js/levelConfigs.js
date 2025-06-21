@@ -27,7 +27,7 @@ export const levelConfigs = [
   {
     name: 'Imperial Fleet',
     description: 'Zbliżasz się do Gwiazdy Śmierci. To będzie trudne!',
-    enemyTypes: ['condor', 'interceptor'],
+    enemyTypes: ['tie', 'condor', 'interceptor'],
     spawnRate: 1700,
     maxEnemies: 30,
     bossType: 'death-star',
