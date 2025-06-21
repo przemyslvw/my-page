@@ -37,16 +37,16 @@ export function spawnBoss() {
 }
 
 export function spawnPowerUp(x, y) {
-  // 30% chance for health, 30% for damage, 40% for speed
+  // 50% chance for health, 25% for speed, 25% for damage
   const rand = Math.random();
   let powerupType;
 
-  if (rand < 0.25) {
-    powerupType = 'speed';
-  } else if (rand < 0.25) {
-    powerupType = 'damage';
-  } else {
+  if (rand < 0.5) {
     powerupType = 'health';
+  } else if (rand < 0.75) {
+    powerupType = 'speed';
+  } else {
+    powerupType = 'damage';
   }
 
   game.powerups.push({
