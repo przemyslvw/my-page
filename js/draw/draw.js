@@ -23,17 +23,17 @@ export function loadImage(src) {
 
     const img = new Image();
     img.crossOrigin = 'anonymous';
-    
+
     img.onload = () => {
       imageCache.set(src, img);
       resolve(img);
     };
-    
+
     img.onerror = (e) => {
       console.error('Błąd ładowania obrazu:', src, e);
       reject(new Error(`Nie udało się załadować obrazu: ${src}`));
     };
-    
+
     // Rozpocznij ładowanie obrazu
     img.src = src;
   });
@@ -124,10 +124,10 @@ export async function drawPlayer() {
 function drawPlaceholder(x, y, size, color = 'yellow') {
   ctx.save();
   ctx.fillStyle = color;
-  ctx.fillRect(x - size/2, y - size/2, size, size);
+  ctx.fillRect(x - size / 2, y - size / 2, size, size);
   ctx.strokeStyle = 'black';
   ctx.lineWidth = 1;
-  ctx.strokeRect(x - size/2, y - size/2, size, size);
+  ctx.strokeRect(x - size / 2, y - size / 2, size, size);
   ctx.restore();
 }
 
@@ -211,14 +211,14 @@ export function drawBoss(boss) {
 export function drawLaser(laser) {
   ctx.save();
   ctx.translate(laser.x, laser.y);
-  
+
   // Ustaw domyślne wartości
   let laserColor = '#ff0000';
   let shadowColor = '#ff0000';
   let shadowBlur = 5;
-  let width = 2; // Domyślna szerokość lasera
-  let height = 5; // Domyślna wysokość lasera
-  let offsetX = -1; // Domyślne przesunięcie X
+  let width = 20; // Zwiększona szerokość lasera do 20 pikseli
+  let height = 2; // Domyślna wysokość lasera (zachowana)
+  let offsetX = -10; // Przesunięcie X (połowa szerokości)
   let offsetY = -2; // Domyślne przesunięcie Y
 
   if (laser.type === 'player') {
@@ -234,7 +234,7 @@ export function drawLaser(laser) {
       laserColor = enemyTypes[laser.enemyType].laserColor;
       shadowColor = enemyTypes[laser.enemyType].laserColor;
     }
-    
+
     // Dostosuj rozmiar lasera jeśli zdefiniowany
     if (laser.width) {
       width = laser.width;
@@ -252,16 +252,16 @@ export function drawLaser(laser) {
   // Rysuj laser z uwzględnieniem kierunku ruchu
   const angle = Math.atan2(laser.dy, laser.dx);
   ctx.rotate(angle);
-  
+
   // Rysuj prostokąt obrócony w kierunku ruchu
   ctx.fillRect(offsetX, offsetY, width, height);
-  
+
   // Dodatkowy efekt dla potężniejszych laserów
   if (laser.damage > 15) {
     ctx.fillStyle = 'rgba(255, 255, 255, 0.7)';
     ctx.fillRect(offsetX + 1, offsetY + 1, width - 2, height - 2);
   }
-  
+
   ctx.shadowBlur = 0;
   ctx.restore();
 }
