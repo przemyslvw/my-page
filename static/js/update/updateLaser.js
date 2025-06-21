@@ -1,5 +1,6 @@
 import { game } from '../gameState.js';
 import { gameOver } from '../gameState.js';
+import { createExplosion } from '../spawn/spawn.js';
 
 export function updateLasers() {
   game.lasers.forEach((laser, index) => {
@@ -34,8 +35,16 @@ export function updateLasers() {
         const dx = laser.x - game.boss.x;
         const dy = laser.y - game.boss.y;
         if (Math.sqrt(dx * dx + dy * dy) < 40) {
-          game.boss.health -= 10;
+          // Use the laser's damage property if it exists, otherwise default to 10
+          const damage = laser.damage || 10;
+          game.boss.health -= damage;
           game.lasers.splice(index, 1);
+          
+          // Visual feedback for critical hits
+          if (damage > 15) {
+            // Add a bigger explosion for powerful hits
+            createExplosion(laser.x, laser.y, true);
+          }
         }
       }
     } else if (laser.type === 'enemy') {
@@ -43,8 +52,13 @@ export function updateLasers() {
       const dx = laser.x - game.player.worldX;
       const dy = laser.y - game.player.worldY;
       if (Math.sqrt(dx * dx + dy * dy) < 25) {
-        game.player.health -= 10;
+        // Use the laser's damage property if it exists, otherwise default to 10
+        const damage = laser.damage || 10;
+        game.player.health -= damage;
         game.lasers.splice(index, 1);
+
+        // Visual feedback for hit
+        createExplosion(laser.x, laser.y, damage > 15);
 
         if (game.player.health <= 0) {
           gameOver();

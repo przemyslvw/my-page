@@ -102,17 +102,77 @@ export function updateEnemies() {
     // Boss shooting
     const now = Date.now();
     if (now - game.boss.lastShot > game.boss.shootCooldown) {
-      // Multi-directional shots
-      for (let i = 0; i < 3; i++) {
-        const angle = Math.atan2(dy, dx) + (i - 1) * 0.3;
-        game.lasers.push({
-          x: game.boss.x,
-          y: game.boss.y,
-          dx: Math.cos(angle) * 6,
-          dy: Math.sin(angle) * 6,
-          type: 'enemy',
-        });
+      const bossType = bossTypes[game.boss.type];
+      
+      switch(game.boss.attackPattern) {
+        case 'single':
+          // Single powerful shot
+          game.lasers.push({
+            x: game.boss.x,
+            y: game.boss.y,
+            dx: Math.cos(game.boss.angle) * 8,
+            dy: Math.sin(game.boss.angle) * 8,
+            type: 'enemy',
+            damage: 20, // More damage for single shot
+            laserColor: bossType.laserColor,
+            width: 4
+          });
+          break;
+          
+        case 'spread':
+          // Spread shot (3-way)
+          for (let i = -1; i <= 1; i++) {
+            const angle = game.boss.angle + (i * 0.3);
+            game.lasers.push({
+              x: game.boss.x,
+              y: game.boss.y,
+              dx: Math.cos(angle) * 6,
+              dy: Math.sin(angle) * 6,
+              type: 'enemy',
+              laserColor: bossType.laserColor,
+              width: 3
+            });
+          }
+          break;
+          
+        case 'barrage':
+          // Rapid fire barrage (5 shots in quick succession)
+          for (let i = 0; i < 5; i++) {
+            const spread = (Math.random() - 0.5) * 0.2; // Slight spread
+            const angle = game.boss.angle + spread;
+            
+            // Stagger the shots slightly for visual effect
+            setTimeout(() => {
+              if (game.boss) { // Check if boss still exists
+                game.lasers.push({
+                  x: game.boss.x,
+                  y: game.boss.y,
+                  dx: Math.cos(angle) * 7,
+                  dy: Math.sin(angle) * 7,
+                  type: 'enemy',
+                  laserColor: bossType.laserColor,
+                  width: 2
+                });
+              }
+            }, i * 50); // 50ms between shots
+          }
+          break;
+          
+        default:
+          // Default pattern (similar to spread but with 5 shots)
+          for (let i = -2; i <= 2; i++) {
+            const angle = game.boss.angle + (i * 0.2);
+            game.lasers.push({
+              x: game.boss.x,
+              y: game.boss.y,
+              dx: Math.cos(angle) * 6,
+              dy: Math.sin(angle) * 6,
+              type: 'enemy',
+              laserColor: bossType.laserColor
+            });
+          }
       }
+      
       game.boss.lastShot = now;
     }
 
