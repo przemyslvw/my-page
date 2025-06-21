@@ -42,9 +42,9 @@ function drawStar(star, time) {
   // Increase the twinkle intensity (from 0.7-1.3 to 0.5-1.5 range)
   const brightness = star.baseBrightness * (0.5 + twinkle);
 
-  // Calculate position with parallax
-  const parallaxX = game.camera.x * (1 - star.parallaxFactor);
-  const parallaxY = game.camera.y * (1 - star.parallaxFactor);
+  // Calculate position with parallax (reduced to 25% of original)
+  const parallaxX = game.camera.x * (1 - star.parallaxFactor) * 0.15;
+  const parallaxY = game.camera.y * (1 - star.parallaxFactor) * 0.25;
 
   let x = (star.x + parallaxX) % (canvas.width * 1.5);
   if (x < -canvas.width * 0.5) x += canvas.width * 1.5;
