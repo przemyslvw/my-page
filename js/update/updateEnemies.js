@@ -162,9 +162,9 @@ export function updateEnemies() {
           break;
 
         case 'super-barrage':
-          // Death Star's super spread attack - 9 shots in a very wide arc
-          for (let i = -5; i <= 5; i++) {
-            const angle = game.boss.angle + i * 0.5; // Very wide spread
+          // Death Star's super spread attack - 21 shots in a very wide arc
+          for (let i = -10; i <= 10; i++) {
+            const angle = game.boss.angle + i * 0.25; // Wider spread with more projectiles
 
             setTimeout(() => {
               if (game.boss) {
