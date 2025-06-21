@@ -133,8 +133,13 @@ let mouseY = 0;
 
 document.addEventListener('mousemove', (e) => {
   const rect = canvas.getBoundingClientRect();
-  mouseX = e.clientX - rect.left + game.camera.x;
-  mouseY = e.clientY - rect.top + game.camera.y;
+  if (!game.joystick.active) {
+    mouseX = e.clientX - rect.left + game.camera.x;
+    mouseY = e.clientY - rect.top + game.camera.y;
+  } else {
+    mouseX = 0;
+    mouseY = 0;
+  }
 });
 
 export function updatePlayer() {
