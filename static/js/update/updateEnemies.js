@@ -115,7 +115,7 @@ export function updateEnemies() {
             type: 'enemy',
             damage: 20, // More damage for single shot
             laserColor: bossType.laserColor,
-            width: 4,
+            width: 20,
           });
           break;
 
@@ -129,8 +129,9 @@ export function updateEnemies() {
               dx: Math.cos(angle) * 6,
               dy: Math.sin(angle) * 6,
               type: 'enemy',
+              damage: 25,
               laserColor: bossType.laserColor,
-              width: 3,
+              width: 20,
             });
           }
           break;
@@ -151,8 +152,9 @@ export function updateEnemies() {
                   dx: Math.cos(angle) * 7,
                   dy: Math.sin(angle) * 7,
                   type: 'enemy',
+                  damage: 30,
                   laserColor: bossType.laserColor,
-                  width: 2,
+                  width: 20,
                 });
               }
             }, i * 50); // 50ms between shots
@@ -172,9 +174,9 @@ export function updateEnemies() {
                   dx: Math.cos(angle) * 8, // Slightly faster
                   dy: Math.sin(angle) * 8,
                   type: 'enemy',
-                  damage: 25, // More damage per shot
+                  damage: 35, // More damage per shot
                   laserColor: bossType.laserColor,
-                  width: 3, // Thicker lasers
+                  width: 20, // Thicker lasers
                   // Add a special effect property for the super attack
                   isSuperLaser: true,
                 });
@@ -196,6 +198,8 @@ export function updateEnemies() {
               dx: Math.cos(angle) * 6,
               dy: Math.sin(angle) * 6,
               type: 'enemy',
+              damage: 20,
+              width: 20,
               laserColor: bossType.laserColor,
             });
           }

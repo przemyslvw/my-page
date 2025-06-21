@@ -10,10 +10,10 @@ export function drawLaser(laser) {
   let laserColor = '#ff0000';
   let shadowColor = '#ff0000';
   let shadowBlur = 5;
-  let width = 20; // Zwiększona szerokość lasera do 20 pikseli
-  let height = 2; // Domyślna wysokość lasera (zachowana)
+  let width = 20; // Szerokość lasera (wąski)
+  let height = 2; // Wysokość lasera (długość)
   let offsetX = -10; // Przesunięcie X (połowa szerokości)
-  let offsetY = -2; // Domyślne przesunięcie Y
+  let offsetY = -2; // Przesunięcie Y (połowa wysokości)
 
   if (laser.type === 'player') {
     // zielony laser gracza
@@ -30,9 +30,9 @@ export function drawLaser(laser) {
     }
 
     // Dostosuj rozmiar lasera jeśli zdefiniowany
-    if (laser.width) {
-      width = laser.width;
-      height = laser.width * 2.5; // Zachowaj proporcje
+    if (laser.width !== undefined && laser.width !== null) {
+      height = 2; // Ustawiamy długość lasera
+      width = parseFloat(laser.width);
       offsetX = -width / 2;
       offsetY = -height / 2;
     }
