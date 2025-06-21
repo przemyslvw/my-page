@@ -76,7 +76,7 @@ export function updateEnemies() {
       const baseChance = 0.3; // 30% base chance
       const levelPenalty = Math.min(0.05 * (game.level - 1), 0.25); // 5% less per level, max 25% reduction
       const dropChance = Math.max(baseChance - levelPenalty, 0.05); // Never go below 5%
-      
+
       if (Math.random() < dropChance) {
         spawnPowerUp(enemy.x, enemy.y);
       }
@@ -102,17 +102,105 @@ export function updateEnemies() {
     // Boss shooting
     const now = Date.now();
     if (now - game.boss.lastShot > game.boss.shootCooldown) {
-      // Multi-directional shots
-      for (let i = 0; i < 3; i++) {
-        const angle = Math.atan2(dy, dx) + (i - 1) * 0.3;
-        game.lasers.push({
-          x: game.boss.x,
-          y: game.boss.y,
-          dx: Math.cos(angle) * 6,
-          dy: Math.sin(angle) * 6,
-          type: 'enemy',
-        });
+      const bossType = bossTypes[game.boss.type];
+
+      switch (game.boss.attackPattern) {
+        case 'single':
+          // Single powerful shot
+          game.lasers.push({
+            x: game.boss.x,
+            y: game.boss.y,
+            dx: Math.cos(game.boss.angle) * 8,
+            dy: Math.sin(game.boss.angle) * 8,
+            type: 'enemy',
+            damage: 20, // More damage for single shot
+            laserColor: bossType.laserColor,
+            width: 4,
+          });
+          break;
+
+        case 'spread':
+          // Spread shot (3-way)
+          for (let i = -1; i <= 1; i++) {
+            const angle = game.boss.angle + i * 0.3;
+            game.lasers.push({
+              x: game.boss.x,
+              y: game.boss.y,
+              dx: Math.cos(angle) * 6,
+              dy: Math.sin(angle) * 6,
+              type: 'enemy',
+              laserColor: bossType.laserColor,
+              width: 3,
+            });
+          }
+          break;
+
+        case 'barrage':
+          // Standard barrage for bosses (5 shots in quick succession)
+          for (let i = 0; i < 5; i++) {
+            const spread = (Math.random() - 0.5) * 0.2; // Slight spread
+            const angle = game.boss.angle + spread;
+
+            // Stagger the shots slightly for visual effect
+            setTimeout(() => {
+              if (game.boss) {
+                // Check if boss still exists
+                game.lasers.push({
+                  x: game.boss.x,
+                  y: game.boss.y,
+                  dx: Math.cos(angle) * 7,
+                  dy: Math.sin(angle) * 7,
+                  type: 'enemy',
+                  laserColor: bossType.laserColor,
+                  width: 2,
+                });
+              }
+            }, i * 50); // 50ms between shots
+          }
+          break;
+
+        case 'super-barrage':
+          // Death Star's super spread attack - 9 shots in a very wide arc
+          for (let i = -5; i <= 5; i++) {
+            const angle = game.boss.angle + i * 0.5; // Very wide spread
+
+            setTimeout(() => {
+              if (game.boss) {
+                game.lasers.push({
+                  x: game.boss.x,
+                  y: game.boss.y,
+                  dx: Math.cos(angle) * 8, // Slightly faster
+                  dy: Math.sin(angle) * 8,
+                  type: 'enemy',
+                  damage: 25, // More damage per shot
+                  laserColor: bossType.laserColor,
+                  width: 3, // Thicker lasers
+                  // Add a special effect property for the super attack
+                  isSuperLaser: true,
+                });
+
+                // Add a visual effect for each super laser
+                createExplosion(game.boss.x, game.boss.y, false, 0.5);
+              }
+            }, (i + 4) * 50); // Stagger the shots for dramatic effect
+          }
+          break;
+
+        default:
+          // Default pattern (similar to spread but with 5 shots)
+          for (let i = -2; i <= 2; i++) {
+            const angle = game.boss.angle + i * 0.2;
+            game.lasers.push({
+              x: game.boss.x,
+              y: game.boss.y,
+              dx: Math.cos(angle) * 6,
+              dy: Math.sin(angle) * 6,
+              type: 'enemy',
+              laserColor: bossType.laserColor,
+            });
+          }
       }
+
       game.boss.lastShot = now;
     }
 
