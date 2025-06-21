@@ -11,6 +11,7 @@ export const game = {
     angle: 0,
     speed: 0,
     maxSpeed: 3, // Reduced from 5 to slow down movement
+    damageMultiplier: 1, // For damage powerup
   },
   camera: { x: 0, y: 0 },
   enemies: [],
