@@ -127,6 +127,16 @@ joystickElement.addEventListener('mousedown', handleJoystickStart);
 document.addEventListener('mousemove', handleJoystickMove);
 document.addEventListener('mouseup', handleJoystickEnd);
 
+// Track mouse position
+let mouseX = 0;
+let mouseY = 0;
+
+document.addEventListener('mousemove', (e) => {
+  const rect = canvas.getBoundingClientRect();
+  mouseX = e.clientX - rect.left + game.camera.x;
+  mouseY = e.clientY - rect.top + game.camera.y;
+});
+
 export function updatePlayer() {
   // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka/klawiatury/pada
   if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
@@ -147,35 +157,60 @@ export function updatePlayer() {
   game.camera.x = game.player.worldX - canvas.width / 2;
   game.camera.y = game.player.worldY - canvas.height / 2;
 
-  // Auto-namierzaj na najblizszego wroga
-  let nearestEnemy = null;
-  let nearestDistance = Infinity;
+  // Check if using keyboard (WSAD) - if so, face the mouse cursor
+  const isUsingKeyboard =
+    keys['w'] ||
+    keys['a'] ||
+    keys['s'] ||
+    keys['d'] ||
+    keys['arrowup'] ||
+    keys['arrowleft'] ||
+    keys['arrowdown'] ||
+    keys['arrowright'];
 
-  [...game.enemies, game.boss]
-    .filter((e) => e)
-    .forEach((enemy) => {
-      const dx = enemy.x - game.player.worldX;
-      const dy = enemy.y - game.player.worldY;
-      const distance = Math.sqrt(dx * dx + dy * dy);
-
-      if (distance < nearestDistance) {
-        nearestDistance = distance;
-        nearestEnemy = enemy;
-      }
-    });
-
-  if (nearestEnemy) {
-    const dx = nearestEnemy.x - game.player.worldX;
-    const dy = nearestEnemy.y - game.player.worldY;
+  if (mouseX !== 0 || mouseY !== 0) {
+    // Face the mouse cursor when using keyboard
+    const dx = mouseX - game.player.worldX;
+    const dy = mouseY - game.player.worldY;
     game.player.angle = Math.atan2(dy, dx);
 
-    // Auto-shoot
+    // Auto-shoot when using keyboard controls
     const now = Date.now();
-    // Shoot twice as fast when health is below 50%
     const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
     if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
       game.lasers = fireLaser(game.player, game.lasers);
       game.lastShot = now;
+    }
+  } else if (game.joystick.active) {
+    // Auto-aim at nearest enemy when not using keyboard or joystick
+    let nearestEnemy = null;
+    let nearestDistance = Infinity;
+
+    [...game.enemies, game.boss]
+      .filter((e) => e)
+      .forEach((enemy) => {
+        const dx = enemy.x - game.player.worldX;
+        const dy = enemy.y - game.player.worldY;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < nearestDistance) {
+          nearestDistance = distance;
+          nearestEnemy = enemy;
+        }
+      });
+
+    if (nearestEnemy) {
+      const dx = nearestEnemy.x - game.player.worldX;
+      const dy = nearestEnemy.y - game.player.worldY;
+      game.player.angle = Math.atan2(dy, dx);
+
+      // Auto-shoot
+      const now = Date.now();
+      const cooldownMultiplier = game.player.health < game.player.maxHealth / 2 ? 1.5 : 3;
+      if (now - game.lastShot > game.shootCooldown * cooldownMultiplier) {
+        game.lasers = fireLaser(game.player, game.lasers);
+        game.lastShot = now;
+      }
     }
   }
 }
