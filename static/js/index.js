@@ -6,17 +6,11 @@ import { updateExplosions } from './update/updateExplosion.js';
 import { updateLasers } from './update/updateLaser.js';
 import { updatePowerUps } from './update/updatePowerup.js';
 import { spawnBoss } from './spawn/spawn.js';
-import {
-  drawStars,
-  drawPlayer,
-  drawEnemy,
-  drawHeavy,
-  drawInterceptor,
-  drawBoss,
-  drawLaser,
-  drawPowerUp,
-  drawExplosion,
-} from './draw/draw.js';
+import { drawExplosion } from './draw/drawExplosion.js';
+import { drawStars } from './draw/drawStars.js';
+import { drawLaser } from './draw/drawLaser.js';
+import { drawPowerUp } from './draw/drawPowerUp.js';
+import { drawPlayer, drawEnemy, drawHeavy, drawInterceptor, drawBoss } from './draw/draw.js';
 import { levelConfigs } from './levelConfigs.js';
 import { game } from './gameState.js';
 import { preloadGameImages } from './draw/draw.js';
