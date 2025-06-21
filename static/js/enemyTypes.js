@@ -70,6 +70,6 @@ export const bossTypes = {
     shootCooldown: 2000,
     image: 'death-star-boss.png',
     points: 10000,
-    attackPattern: 'barrage',
+    attackPattern: 'super-barrage',
   },
 };
