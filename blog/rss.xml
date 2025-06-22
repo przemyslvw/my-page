@@ -4,10 +4,32 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sat, 21 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Cyberatak na M&S i Co-op: Czy Amazon Web Services chroni nas przed nowym zagrożeniem?]]></title>
+            <link>https://www.majdak.online/blog/news-2025-06-22</link>
+            <guid>https://www.majdak.online/blog/news-2025-06-22</guid>
+            <pubDate>Sun, 22 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Cyberatak na Wielkiej Brytanii, który zalał sklepy M&S i Co-op, może kosztować aż 592 miliony dolarów i ukazuje rosnącą skalę zagrożeń cyfrowych. Eksperci ostrzegają, że coraz częściej za cyberprzestępstwami stoją zorganizowane grupy operujące na szeroką skalę.]]></description>
+            <content:encoded><![CDATA[<p>Cyberatak na Wielkiej Brytanii, który zalał sklepy M&amp;S i Co-op, może kosztować aż 592 miliony dolarów i ukazuje rosnącą skalę zagrożeń cyfrowych. Eksperci ostrzegają, że coraz częściej za cyberprzestępstwami stoją zorganizowane grupy operujące na szeroką skalę.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tytuł-sekcji">Tytuł sekcji<a href="https://www.majdak.online/blog/news-2025-06-22#tytu%C5%82-sekcji" class="hash-link" aria-label="Bezpośredni link do Tytuł sekcji" title="Bezpośredni link do Tytuł sekcji">​</a></h3>
+<p>W kwietniu 2025 roku marksowe i lokalne sieci handlowe w Wielkiej Brytanii padły ofiarą zjednoczonego ataku cybernetycznego, który został sklasyfikowany jako jedno wydarzenie cyfrowe.</p>
+<p>Zabójcza precyzja i skala tych ataków pokazują, jak ważna jest ochrona danych i szybkie reagowanie na nowe zagrożenia. Firmy muszą inwestować w zaawansowane narzędzia bezpieczeństwa, aby nie dać się zaskoczyć.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-firmy-amerykańskie">Ataki na firmy amerykańskie<a href="https://www.majdak.online/blog/news-2025-06-22#ataki-na-firmy-ameryka%C5%84skie" class="hash-link" aria-label="Bezpośredni link do Ataki na firmy amerykańskie" title="Bezpośredni link do Ataki na firmy amerykańskie">​</a></h3>
+<p>Aflac, jedna z wiodących firm ubezpieczeniowych, poinformowała o podejrzanej aktywności na swojej amerykańskiej sieci, która może wpłynąć na dane społeczne i numery ubezpieczenia społecznego klientów.</p>
+<p>Aktualnie trwa wstępna analiza incydentu, a liczba dotkniętych osób pozostaje nieznana, co pokazuje, że cyberzagrożenia nie omijają dużych korporacji nawet na początku roku.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowości-od-aws">Nowości od AWS<a href="https://www.majdak.online/blog/news-2025-06-22#nowo%C5%9Bci-od-aws" class="hash-link" aria-label="Bezpośredni link do Nowości od AWS" title="Bezpośredni link do Nowości od AWS">​</a></h3>
+<p>Podczas konferencji re<!-- -->:Inforce<!-- --> 2025 Amazon Web Services ogłosił dodanie nowych funkcji zwiększających widoczność i kontekst w ich podstawowych narzędziach bezpieczeństwa chmury.</p>
+<p>Te innowacje mają na celu umożliwienie klientom lepszej identyfikacji i analizy potencjalnych zagrożeń, co jest kluczowe w obliczu coraz bardziej zaawansowanych cyberataków.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Meta ujawnia nową lukę bezpieczeństwa, która zagraża miliardom użytkowników!]]></title>
             <link>https://www.majdak.online/blog/news-2025-06-21</link>
@@ -650,33 +672,6 @@
 <p>Wycieki danych, m.in. z Cartier czy Coinbase, podkreślają, że firmy coraz częściej stają się celem ataków na infrastrukturę i dane klientów, co wymaga bardziej zaawansowanych strategii bezpieczeństwa.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Cyberbezpieczeństwo w epicentrum chaosu: 10 najnowszych zagrożeń, które mogą zniszczyć Twoją firmę w 2025 roku]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-02</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-02</guid>
-            <pubDate>Mon, 02 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Świat cyfrowy stoi na krawędzi kryzysu – cyberprzestępcy coraz sprytniej wykorzystują luki, by wykradać dane, zasiewać malware czy przejmować infrastrukturę. Dowiedz się, jakie najnowsze ataki i zagrożenia mogą zagrozić Twojej organizacji już dziś.]]></description>
-            <content:encoded><![CDATA[<p>Świat cyfrowy stoi na krawędzi kryzysu – cyberprzestępcy coraz sprytniej wykorzystują luki, by wykradać dane, zasiewać malware czy przejmować infrastrukturę. Dowiedz się, jakie najnowsze ataki i zagrożenia mogą zagrozić Twojej organizacji już dziś.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="eksploatacja-luk-i-złośliwe-kampanie-na-szeroką-skalę">Eksploatacja luk i złośliwe kampanie na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-06-02#eksploatacja-luk-i-z%C5%82o%C5%9Bliwe-kampanie-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Eksploatacja luk i złośliwe kampanie na szeroką skalę" title="Bezpośredni link do Eksploatacja luk i złośliwe kampanie na szeroką skalę">​</a></h2>
-<p>Odkryto poważne luki w popularnych aplikacjach, takich jak Ulefone czy Krüger&amp;Matz, które umożliwiają reset urządzenia i kradzież PINów. Złośliwe grupy atakują też za pomocą cryptojacking i eksploatują API DevOps, by nielegalnie kopal Monero.</p>
-<p>Specjaliści alarmują o rosnącej liczbie kampanii cryptojacking, które wykorzystują nieprawidłową konfigurację serwerów Docker, Gitea i HashiCorp, by ukradkiem wydobywać kryptowaluty na infrastrukturalnych słabościach.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-ataki-i-exploity-wykorzystujące-zero-day">Zaawansowane ataki i exploity wykorzystujące zero-day<a href="https://www.majdak.online/blog/news-2025-06-02#zaawansowane-ataki-i-exploity-wykorzystuj%C4%85ce-zero-day" class="hash-link" aria-label="Bezpośredni link do Zaawansowane ataki i exploity wykorzystujące zero-day" title="Bezpośredni link do Zaawansowane ataki i exploity wykorzystujące zero-day">​</a></h2>
-<p>Android i sprzęt Qualcomm padają ofiarą złośliwych exploitów – w tym trzech zero-day, które są używane w ograniczonych, ale celowanych atakach. Podczas gdy Google i Qualcomm przenoszą łaty, cyberprzestępcy nie śpią.</p>
-<p>Eksploatacja luk w Cisco IOS XE czy vBulletin pokazuje, jak łatwo można wykorzystać niezabezpieczone systemy, prowadząc do poważnych naruszeń i zagrożeń bezpieczeństwa na globalną skalę.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-i-oszustwa-na-skalę-globalną">Nowe zagrożenia i oszustwa na skalę globalną<a href="https://www.majdak.online/blog/news-2025-06-02#nowe-zagro%C5%BCenia-i-oszustwa-na-skal%C4%99-globaln%C4%85" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia i oszustwa na skalę globalną" title="Bezpośredni link do Nowe zagrożenia i oszustwa na skalę globalną">​</a></h2>
-<p>Spear-phishing wykorzystujący zaufane narzędzia, takie jak Netbird, ma na celu przejęcie kont CFO i finansowych liderów, co może skutkować poważnymi stratami dla firm ze sporego spektrum branż.</p>
-<p>Cyberprzestępcy korzystają też z fake’owych wiadomości i podmiany certyfikatów, próbując wyłudzić dostęp lub uzyskać kontrolę nad systemami – Google już zaczęło odmawiać zaufania do niektórych certyfikatów.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ochrona-i-odpowiedź--co-musisz-wiedzieć">Ochrona i odpowiedź – co musisz wiedzieć<a href="https://www.majdak.online/blog/news-2025-06-02#ochrona-i-odpowied%C5%BA--co-musisz-wiedzie%C4%87" class="hash-link" aria-label="Bezpośredni link do Ochrona i odpowiedź – co musisz wiedzieć" title="Bezpośredni link do Ochrona i odpowiedź – co musisz wiedzieć">​</a></h2>
-<p>Firmy muszą zaktualizować swoje systemy, stosować wielowarstwowe zabezpieczenia i nie ufać automatycznie wszystkim certyfikatom czy narzędziom. Warto śledzić najnowsze wytyczne od CISA czy producentów urządzeń, by nie paść ofiarą skutecznych ataków.</p>
-<p>Wieloetapowe monitorowanie, szybka reakcja na wykryte luki oraz edukacja pracowników są kluczem do przetrwania w świecie pełnym nieustających zagrożeń cybernetycznych.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Cyberbezpieczeństwo</category>
-            <category>Malware</category>
-            <category>Ransomware</category>
-            <category>Vulnerabilities</category>
             <category>Exploits</category>
             <category>Privacy</category>
         </item>
