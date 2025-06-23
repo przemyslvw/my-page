@@ -1,0 +1,467 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Czyszczenie Elewacji - Profesjonalne Usługi Mycia Fasad</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style003.css" />
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+  <style>
+    /* Gallery Styles */
+    .gallery-item {
+      display: block;
+      transition: all 0.3s ease;
+    }
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+    .aspect-w-4 {
+      position: relative;
+      padding-bottom: 75%; /* 4:3 Aspect Ratio */
+    }
+    .aspect-h-3 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body class="loaded">
+  <!-- Hero Section -->
+  <section class="hero-bg min-h-screen flex items-center justify-center relative" style="transform: translateY(0px)">
+    <div class="container mx-auto px-6 text-center text-white relative z-10">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 fade-up active">
+        Przywracamy świeżość
+        <br />
+        <span class="gradient-text">Twojej elewacji!</span>
+      </h1>
+      <p class="text-xl md:text-2xl mb-8 fade-up opacity-90 active">
+        Profesjonalne czyszczenie fasad, dachów i usuwanie graffiti
+      </p>
+      <a href="#kontakt" class="btn-primary fade-up active">
+        <i class="fas fa-calculator mr-2"></i>
+        Umów bezpłatną wycenę
+      </a>
+    </div>
+
+    <!-- Animated water drops -->
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-1/4 left-1/4 w-4 h-4 bg-white rounded-full opacity-30 animate-pulse"></div>
+      <div
+        class="absolute top-1/3 right-1/3 w-3 h-3 bg-white rounded-full opacity-40 animate-pulse"
+        style="animation-delay: 0.5s"></div>
+      <div
+        class="absolute bottom-1/4 left-1/3 w-2 h-2 bg-white rounded-full opacity-50 animate-pulse"
+        style="animation-delay: 1s"></div>
+    </div>
+  </section>
+
+  <!-- Before/After Section -->
+  <section class="section-spacing bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 gradient-text fade-up active">Zobacz różnicę przed i po</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="before-after-container glass fade-up active">
+          <div class="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-600"></div>
+          <div class="before-after-slider" data-slider="1" style="left: 83.0357%"></div>
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-blue-200 to-green-200"
+            style="clip-path: polygon(0px 0px, 83.0357% 0px, 83.0357% 100%, 0px 100%)"></div>
+          <div class="absolute bottom-4 left-4 text-white font-semibold">PRZED</div>
+          <div class="absolute bottom-4 right-4 text-white font-semibold">PO</div>
+        </div>
+        <div class="before-after-container glass fade-up active">
+          <div class="absolute inset-0 bg-gradient-to-r from-red-400 to-red-600"></div>
+          <div class="before-after-slider" data-slider="2" style="left: 12.706%"></div>
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-blue-100 to-white"
+            style="clip-path: polygon(0px 0px, 12.706% 0px, 12.706% 100%, 0px 100%)"></div>
+          <div class="absolute bottom-4 left-4 text-white font-semibold">Z GRAFFITI</div>
+          <div class="absolute bottom-4 right-4 text-gray-800 font-semibold">CZYSTA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section-spacing hero-bg">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white fade-up active">Nasze usługi</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="service-card glass p-8 text-center text-white fade-up active" style="animation-delay: 0s">
+          <div class="text-5xl mb-4">
+            <i class="fas fa-building"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Czyszczenie elewacji</h3>
+          <p class="opacity-90">Przywracamy pierwotny wygląd fasadom budynków</p>
+        </div>
+        <div class="service-card glass p-8 text-center text-white fade-up active" style="animation-delay: 0.1s">
+          <div class="text-5xl mb-4">
+            <i class="fas fa-home"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Czyszczenie dachów</h3>
+          <p class="opacity-90">Usuwamy mech, porosty i zabrudzenia z dachówek</p>
+        </div>
+        <div class="service-card glass p-8 text-center text-white fade-up active" style="animation-delay: 0.2s">
+          <div class="text-5xl mb-4">
+            <i class="fas fa-spray-can"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Usuwanie graffiti</h3>
+          <p class="opacity-90">Skutecznie usuwamy niechciane napisy i rysunki</p>
+        </div>
+        <div class="service-card glass p-8 text-center text-white fade-up active" style="animation-delay: 0.3s">
+          <div class="text-5xl mb-4">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-3">Impregnacja</h3>
+          <p class="opacity-90">Zabezpieczamy powierzchnie przed przyszłymi zabrudzeniami</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section-spacing bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 gradient-text fade-up active">Co mówią nasi klienci</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="testimonial-bubble active">
+          <div class="flex items-center mb-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-blue-400 to-green-400 rounded-full flex items-center justify-center text-white font-bold mr-4">
+              AK
+            </div>
+            <div>
+              <h4 class="font-semibold">Anna Kowalska</h4>
+              <div class="text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>"Niesamowita różnica! Elewacja mojego domu wyglądała jak nowa po czyszczeniu. Polecam wszystkim!"</p>
+        </div>
+        <div class="testimonial-bubble active">
+          <div class="flex items-center mb-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-green-400 to-blue-400 rounded-full flex items-center justify-center text-white font-bold mr-4">
+              MN
+            </div>
+            <div>
+              <h4 class="font-semibold">Marek Nowak</h4>
+              <div class="text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>"Profesjonalna obsługa, terminowość i świetny efekt. Graffiti zniknęły bez śladu!"</p>
+        </div>
+        <div class="testimonial-bubble active">
+          <div class="flex items-center mb-4">
+            <div
+              class="w-12 h-12 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full flex items-center justify-center text-white font-bold mr-4">
+              EW
+            </div>
+            <div>
+              <h4 class="font-semibold">Ewa Wiśniewska</h4>
+              <div class="text-yellow-400">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>"Bardzo uczciwe ceny i doskonała jakość pracy. Zdecydowanie skorzystam ponownie!"</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price Calculator Section -->
+  <section class="section-spacing hero-bg">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white fade-up active">Kalkulator ceny</h2>
+      <div class="max-w-2xl mx-auto">
+        <div class="calculator-card fade-up active">
+          <div class="form-group">
+            <label class="block text-white mb-2 font-semibold">Typ powierzchni:</label>
+            <select id="surfaceType" class="form-input">
+              <option value="">Wybierz typ powierzchni</option>
+              <option value="30">Elewacja budynku (30 zł/m²)</option>
+              <option value="25">Dach (25 zł/m²)</option>
+              <option value="40">Usuwanie graffiti (40 zł/m²)</option>
+              <option value="20">Impregnacja (20 zł/m²)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="block text-white mb-2 font-semibold">Powierzchnia (m²):</label>
+            <input type="number" id="area" class="form-input" placeholder="Wprowadź powierzchnię w m²" min="1" />
+          </div>
+          <div class="price-display text-white">
+            <div id="calculatedPrice">Wybierz opcje aby obliczyć cenę</div>
+          </div>
+          <div class="text-center mt-6">
+            <button class="btn-primary" onclick="requestQuote()">
+              <i class="fas fa-phone mr-2"></i>
+              Umów wizytę
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 gradient-text fade-up active">Nasze realizacje</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <a href="img/05fc93cf-840a-4d41-b346-e47a3f0e4e75.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/05fc93cf-840a-4d41-b346-e47a3f0e4e75.jpeg" alt="Realizacja 1" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/0954560b-032f-4a11-87b0-84222696280d.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/0954560b-032f-4a11-87b0-84222696280d.jpeg" alt="Realizacja 2" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/0fe3cb7f-5f86-424c-b60b-f1a015b8a6da.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/0fe3cb7f-5f86-424c-b60b-f1a015b8a6da.jpeg" alt="Realizacja 3" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/17aca32e-710c-4dd5-b43c-9872121f138f.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/17aca32e-710c-4dd5-b43c-9872121f138f.jpeg" alt="Realizacja 4" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/198f2820-7be5-4358-b911-e17a4b6e7531.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/198f2820-7be5-4358-b911-e17a4b6e7531.jpeg" alt="Realizacja 5" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/1bc30fa5-61a5-4ee6-903f-9f66872300f3.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/1bc30fa5-61a5-4ee6-903f-9f66872300f3.jpeg" alt="Realizacja 6" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/1e67551b-48cb-470f-bb0b-8bc003aa38ce.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/1e67551b-48cb-470f-bb0b-8bc003aa38ce.jpeg" alt="Realizacja 7" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/20823586-f3cb-41b4-b682-1e32bf253ff3.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/20823586-f3cb-41b4-b682-1e32bf253ff3.jpeg" alt="Realizacja 8" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/228bf40f-02fc-42d0-a838-abab95f4a48c.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/228bf40f-02fc-42d0-a838-abab95f4a48c.jpeg" alt="Realizacja 9" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/25447969-69d7-4699-8e41-d3b692f94068.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/25447969-69d7-4699-8e41-d3b692f94068.jpeg" alt="Realizacja 10" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/285603a4-4e33-49f3-a8cf-fc384cc5673b.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/285603a4-4e33-49f3-a8cf-fc384cc5673b.jpeg" alt="Realizacja 11" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/2d63a9d9-02ec-4d18-a304-7370189b1635.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/2d63a9d9-02ec-4d18-a304-7370189b1635.jpeg" alt="Realizacja 12" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/3352afdb-a5ec-4238-9dba-81f5bfcf32d2.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/3352afdb-a5ec-4238-9dba-81f5bfcf32d2.jpeg" alt="Realizacja 13" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/38f62dac-6440-4094-9ab0-ad061f69c207.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/38f62dac-6440-4094-9ab0-ad061f69c207.jpeg" alt="Realizacja 14" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/3a978420-cbe0-404f-9c6e-3b7e1622d242.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/3a978420-cbe0-404f-9c6e-3b7e1622d242.jpeg" alt="Realizacja 15" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/3dd1b4b6-b067-465a-b28d-0c43f2f29656.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/3dd1b4b6-b067-465a-b28d-0c43f2f29656.jpeg" alt="Realizacja 16" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/4285f04e-7c32-4075-b370-6621ece51978.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/4285f04e-7c32-4075-b370-6621ece51978.jpeg" alt="Realizacja 17" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/4b423106-1e78-495c-b03e-b89ac1ef48c9.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/4b423106-1e78-495c-b03e-b89ac1ef48c9.jpeg" alt="Realizacja 18" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/4b4c9398-7a17-416a-9dfc-7bc9be18dc26.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/4b4c9398-7a17-416a-9dfc-7bc9be18dc26.jpeg" alt="Realizacja 19" loading="lazy" />
+          </div>
+        </a>
+        <a href="img/4d222196-2813-4e83-8d78-0693203ce55a.jpeg" class="gallery-item" data-lightbox="gallery">
+          <div>
+            <img src="img/4d222196-2813-4e83-8d78-0693203ce55a.jpeg" alt="Realizacja 20" loading="lazy" />
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="kontakt" class="section-spacing bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 gradient-text fade-up active">Skontaktuj się z nami</h2>
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div class="fade-up active">
+          <form id="contactForm" class="space-y-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-input" placeholder="Imię i nazwisko" required="" />
+              <div class="error-message" id="nameError"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" class="form-input" placeholder="Adres e-mail" required="" />
+              <div class="error-message" id="emailError"></div>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" class="form-input" placeholder="Numer telefonu" required="" />
+              <div class="error-message" id="phoneError"></div>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                class="form-input"
+                rows="5"
+                placeholder="Opisz swoją potrzebę..."
+                required=""></textarea>
+              <div class="error-message" id="messageError"></div>
+            </div>
+            <button type="submit" class="btn-primary w-full">
+              <i class="fas fa-paper-plane mr-2"></i>
+              Wyślij wiadomość
+            </button>
+          </form>
+        </div>
+        <div class="fade-up active">
+          <div class="glass p-8 h-full">
+            <h3 class="text-2xl font-bold mb-6 gradient-text">Dane kontaktowe</h3>
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <i class="fas fa-phone text-blue-600 mr-4 text-xl"></i>
+                <span class="text-lg">+48 123 456 789</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-envelope text-green-600 mr-4 text-xl"></i>
+                <span class="text-lg">kontakt@czyszczenie-elewacji.pl</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-map-marker-alt text-red-600 mr-4 text-xl"></i>
+                <span class="text-lg">ul. Przykładowa 123, 00-000 Warszawa</span>
+              </div>
+              <div class="flex items-center">
+                <i class="fas fa-clock text-purple-600 mr-4 text-xl"></i>
+                <span class="text-lg">Pn-Pt: 8:00-18:00, Sb: 9:00-15:00</span>
+              </div>
+            </div>
+            <div class="mt-8">
+              <div
+                class="w-full h-48 bg-gradient-to-br from-blue-200 to-green-200 rounded-lg flex items-center justify-center">
+                <i class="fas fa-map text-4xl text-gray-600"></i>
+                <span class="ml-4 text-gray-600">Mapa Google</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-2xl font-bold mb-4">Czyszczenie Elewacji</h3>
+      <p class="mb-6">Profesjonalne usługi czyszczenia dla Twojego budynku</p>
+      <div class="flex justify-center space-x-6">
+        <a href="#" class="text-2xl hover:text-blue-400 transition-colors">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="text-2xl hover:text-blue-400 transition-colors">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="text-2xl hover:text-green-400 transition-colors">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <div class="mt-8 pt-8 border-t border-gray-700">
+        <p>© 2024 Czyszczenie Elewacji. Wszystkie prawa zastrzeżone.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Contact Buttons -->
+  <div class="floating-contact">
+    <a href="tel:+48123456789" class="floating-btn phone-btn" title="Zadzwoń">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://wa.me/48123456789" class="floating-btn whatsapp-btn" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- Lightbox2 JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <script src="003.js"></script>
+
+  <div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay" style="display: none"></div>
+  <div id="lightbox" tabindex="-1" class="lightbox" style="display: none">
+    <div class="lb-outerContainer">
+      <div class="lb-container">
+        <img
+          class="lb-image"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+          alt="" />
+        <div class="lb-nav">
+          <a class="lb-prev" aria-label="Previous image" href=""></a>
+          <a class="lb-next" aria-label="Next image" href=""></a>
+        </div>
+        <div class="lb-loader"><a class="lb-cancel"></a></div>
+      </div>
+    </div>
+    <div class="lb-dataContainer">
+      <div class="lb-data">
+        <div class="lb-details">
+          <span class="lb-caption"></span>
+          <span class="lb-number"></span>
+        </div>
+        <div class="lb-closeContainer"><a class="lb-close"></a></div>
+      </div>
+    </div>
+  </div>
+</body>
