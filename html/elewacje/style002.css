@@ -1,8 +1,17 @@
 :root {
-  --primary-blue: #1e40af;
-  --sea-green: #059669;
-  --accent-blue: #0ea5e9;
-  --white: #ffffff;
+  /* Main colors */
+  --dark-bg: #fef5d6; /* Dark background for headers, footer, buttons */
+  --accent-red: #e91b28; /* Main accent color */
+  --accent-red-dark: #e91b28; /* Darker red for hover states */
+  --light-bg: #f5f5f5; /* Light background for content sections */
+  --white: #2d2d2d; /* Main background, section headers */
+  --text-primary: #2d2d2d; /* Main text color */
+  --text-secondary: #7a7a7a; /* Secondary text color */
+  --border-color: #e4e4e4; /* Borders, dividers, form backgrounds */
+
+  /* Utility colors */
+  --shadow-color: rgba(30, 28, 28, 0.1);
+  --overlay: rgba(30, 28, 28, 0.9);
 }
 
 * {
@@ -12,6 +21,9 @@
 body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  background-color: var(--white);
+  color: var(--text-primary);
+  line-height: 1.6;
 }
 
 .font-poppins {
@@ -97,16 +109,11 @@ body {
 }
 
 .gradient-water {
-  background: linear-gradient(135deg, #0ea5e9 0%, #1e40af 50%, #059669 100%);
+  background: linear-gradient(135deg, var(--dark-bg) 0%, #2a2626 100%);
 }
 
 .gradient-water-light {
-  background: linear-gradient(
-    135deg,
-    rgba(14, 165, 233, 0.1) 0%,
-    rgba(30, 64, 175, 0.1) 50%,
-    rgba(5, 150, 105, 0.1) 100%
-  );
+  background-color: var(--light-bg);
 }
 
 .hero-animation {
@@ -156,7 +163,7 @@ body {
 .phone-btn {
   right: 20px;
   bottom: 20px;
-  background: var(--primary-blue);
+  background: var(--accent-red);
 }
 
 .service-card {
@@ -207,19 +214,25 @@ body {
   height: 40px;
   background: white;
   border-radius: 50%;
-  border: 3px solid var(--primary-blue);
+  border: 3px solid var(--accent-red);
   cursor: ew-resize;
   z-index: 10;
 }
 
 .navbar-sticky {
+  background-color: var(--dark-bg);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  color: var(--white);
   transition: all 0.3s ease;
 }
 
-.navbar-sticky.scrolled {
-  backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+.navbar-sticky a {
+  color: var(--white);
+  transition: all 0.2s ease;
+}
+
+.navbar-sticky a:hover {
+  color: var(--accent-red);
 }
 
 .parallax-bg {
@@ -306,8 +319,8 @@ body {
 .input-group textarea:focus,
 .input-group select:focus {
   outline: none;
-  border-color: var(--primary-blue);
-  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+  border-color: var(--accent-red);
+  box-shadow: 0 0 0 3px rgba(255, 41, 58, 0.1);
 }
 
 .input-group label {
@@ -327,7 +340,7 @@ body {
   top: -10px;
   left: 10px;
   font-size: 12px;
-  color: var(--primary-blue);
+  color: var(--accent-red);
   background: white;
   padding: 0 5px;
 }
@@ -340,50 +353,57 @@ body {
 }
 
 .success-message {
-  color: var(--sea-green);
+  color: var(--accent-red);
   font-size: 12px;
   margin-top: 5px;
   display: none;
 }
 
 .btn-primary {
-  background: var(--primary-blue);
-  color: white;
-  padding: 15px 30px;
-  border-radius: 50px;
-  border: none;
+  background: var(--accent-red);
+  color: var(--white);
+  border-radius: 4px;
   font-weight: 600;
-  cursor: pointer;
   transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 8px;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
 }
 
 .btn-primary:hover {
-  background: #1e3a8a;
+  background: var(--accent-red-dark);
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(30, 64, 175, 0.3);
+  box-shadow: 0 4px 12px rgba(255, 41, 58, 0.3);
 }
 
-.btn-secondary {
-  background: var(--sea-green);
-  color: white;
-  padding: 15px 30px;
-  border-radius: 50px;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+/* Update focus states for better accessibility */
+button:focus,
+a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 41, 58, 0.3);
+  border-radius: 6px;
 }
 
-.btn-secondary:hover {
-  background: #047857;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(5, 150, 105, 0.3);
+/* Update call-to-action elements */
+.phone-btn {
+  background: var(--accent-red);
+}
+
+.phone-btn:hover {
+  background: var(--accent-red-dark);
+}
+
+/* Add red accent to active navigation items */
+nav a:hover,
+nav a:focus,
+nav a.active {
+  color: var(--accent-red);
+  transition: all 0.2s ease;
 }
