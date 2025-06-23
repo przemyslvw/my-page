@@ -192,40 +192,6 @@
     </div>
   </section>
 
-  <!-- Price Calculator Section -->
-  <section class="section-spacing hero-bg">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12 text-white fade-up active">Kalkulator ceny</h2>
-      <div class="max-w-2xl mx-auto">
-        <div class="calculator-card fade-up active">
-          <div class="form-group">
-            <label class="block text-white mb-2 font-semibold">Typ powierzchni:</label>
-            <select id="surfaceType" class="form-input">
-              <option value="">Wybierz typ powierzchni</option>
-              <option value="30">Elewacja budynku (30 zł/m²)</option>
-              <option value="25">Dach (25 zł/m²)</option>
-              <option value="40">Usuwanie graffiti (40 zł/m²)</option>
-              <option value="20">Impregnacja (20 zł/m²)</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="block text-white mb-2 font-semibold">Powierzchnia (m²):</label>
-            <input type="number" id="area" class="form-input" placeholder="Wprowadź powierzchnię w m²" min="1" />
-          </div>
-          <div class="price-display text-white">
-            <div id="calculatedPrice">Wybierz opcje aby obliczyć cenę</div>
-          </div>
-          <div class="text-center mt-6">
-            <button class="btn-primary" onclick="requestQuote()">
-              <i class="fas fa-phone mr-2"></i>
-              Umów wizytę
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Photo Gallery Section -->
   <section class="py-16 bg-white">
     <div class="container mx-auto px-6">
@@ -331,6 +297,40 @@
             <img src="img/4d222196-2813-4e83-8d78-0693203ce55a.jpeg" alt="Realizacja 20" loading="lazy" />
           </div>
         </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Price Calculator Section -->
+  <section class="section-spacing hero-bg">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12 text-white fade-up active">Kalkulator ceny</h2>
+      <div class="max-w-2xl mx-auto">
+        <div class="calculator-card fade-up active">
+          <div class="form-group">
+            <label class="block text-white mb-2 font-semibold">Typ powierzchni:</label>
+            <select id="surfaceType" class="form-input">
+              <option value="">Wybierz typ powierzchni</option>
+              <option value="30">Elewacja budynku (30 zł/m²)</option>
+              <option value="25">Dach (25 zł/m²)</option>
+              <option value="40">Usuwanie graffiti (40 zł/m²)</option>
+              <option value="20">Impregnacja (20 zł/m²)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="block text-white mb-2 font-semibold">Powierzchnia (m²):</label>
+            <input type="number" id="area" class="form-input" placeholder="Wprowadź powierzchnię w m²" min="1" />
+          </div>
+          <div class="price-display text-white">
+            <div id="calculatedPrice">Wybierz opcje aby obliczyć cenę</div>
+          </div>
+          <div class="text-center mt-6">
+            <button class="btn-primary" onclick="requestQuote()">
+              <i class="fas fa-phone mr-2"></i>
+              Umów wizytę
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
