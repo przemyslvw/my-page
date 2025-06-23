@@ -53,9 +53,8 @@
     <!-- Navigation -->
     <nav class="navbar-sticky fixed top-0 w-full z-50 px-4 py-4">
       <div class="container mx-auto flex justify-between items-center">
-        <div class="font-poppins font-bold text-2xl text-blue-800">
-          <i class="fas fa-spray-can mr-2"></i>
-          Mycie Ciśnieniowe
+        <div class="h-12">
+          <img src="img/logo.png" alt="Mycie Ciśnieniowe" class="h-full w-auto">
         </div>
         <div class="hidden md:flex space-x-6">
           <a href="#home" class="hover:text-blue-600 transition-colors">Strona główna</a>
@@ -78,7 +77,7 @@
         <h1 class="font-poppins font-bold text-5xl md:text-7xl mb-6" data-aos="fade-up">
           Przywracamy świeżość
           <br />
-          <span class="text-yellow-300">elewacji!</span>
+          <span class="text-yellow-300" id="rotating-text">elewacji!</span>
         </h1>
         <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
           Profesjonalne mycie ciśnieniowe od 2006 roku. Nowoczesny sprzęt Karcher, ekologiczna chemia, pełne
@@ -936,6 +935,52 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <style>
+      #rotating-text {
+        display: inline-block;
+        transition: opacity 0.5s ease-in-out;
+        min-width: 150px; /* Prevents layout shift during text change */
+      }
+    </style>
+    <script>
+      // Smooth rotating text effect
+      document.addEventListener('DOMContentLoaded', function() {
+        const words = ['elewacji!', 'kostki!', 'dachu!'];
+        let currentIndex = 0;
+        const rotatingText = document.getElementById('rotating-text');
+        let isAnimating = false;
+        
+        // Initial setup
+        rotatingText.style.opacity = '1';
+        
+        function rotateText() {
+          if (isAnimating) return;
+          isAnimating = true;
+          
+          // Fade out
+          rotatingText.style.opacity = '0';
+          
+          // Wait for fade out to complete
+          setTimeout(() => {
+            // Change text
+            currentIndex = (currentIndex + 1) % words.length;
+            rotatingText.textContent = words[currentIndex];
+            
+            // Fade in
+            setTimeout(() => {
+              rotatingText.style.opacity = '1';
+              isAnimating = false;
+            }, 50);
+          }, 500);
+        }
+        
+        // Start the rotation after initial load
+        setTimeout(() => {
+          // Change text every 2.5 seconds (2s visible + 0.5s transition)
+          setInterval(rotateText, 2500);
+        }, 2000); // Initial delay before first rotation
+      });
+    </script>
     <script src="002.js"></script>
 
     <script></script>
