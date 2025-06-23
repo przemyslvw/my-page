@@ -1,583 +1,690 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ElevationClean Pro - Profesjonalne Czyszczenie Elewacji</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style001.css">
-</head>
-<body class="bg-gray-50">
-    <!-- Header -->
-    <header class="gradient-bg text-white py-4 sticky top-0 z-50 animate-fade-in">
-        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
-            <div class="flex items-center">
-                <i class="fas fa-building text-2xl mr-3"></i>
-                <h1 class="text-xl font-bold">ElevationClean Pro</h1>
-            </div>
-            <nav class="hidden md:flex space-x-6">
-                <a href="#services" class="hover:text-blue-200 transition duration-300">Usługi</a>
-                <a href="#process" class="hover:text-blue-200 transition duration-300">Proces</a>
-                <a href="#gallery" class="hover:text-blue-200 transition duration-300">Realizacje</a>
-                <a href="#contact" class="hover:text-blue-200 transition duration-300">Kontakt</a>
-            </nav>
-            <button class="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-blue-50 transition duration-300 ripple-effect">
-                Bezpłatna Wycena
-            </button>
-        </div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profesjonalne Czyszczenie Elewacji - ElevationClean Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style001.css" />
+  </head>
+  <body class="font-sans">
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar" style="width: 0%"></div>
 
-    <!-- Hero Section -->
-    <section class="gradient-bg text-white py-20 relative overflow-hidden">
-        <div class="absolute inset-0 bg-black opacity-10"></div>
-        <div class="max-w-7xl mx-auto px-4 relative z-10">
-            <div class="text-center animate-slide-up">
-                <h2 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                    Profesjonalne<br>
-                    <span class="text-yellow-300">Czyszczenie Elewacji</span>
-                </h2>
-                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-                    Przywracamy pierwotny blask Twojemu budynkowi dzięki najnowocześniejszym technologiom czyszczenia
-                </p>
-                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
-                    <button class="bg-yellow-400 text-gray-900 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-300 transition duration-300 transform hover:scale-105 ripple-effect">
-                        <i class="fas fa-phone mr-2"></i>
-                        Zadzwoń Teraz: 123-456-789
-                    </button>
-                    <button class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300">
-                        <i class="fas fa-calculator mr-2"></i>
-                        Bezpłatna Wycena Online
-                    </button>
-                </div>
-            </div>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-sm shadow-lg z-50">
+      <div class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <div class="text-2xl font-bold text-gray-800">
+            <i class="fas fa-building text-blue-600"></i>
+            ElevationClean Pro
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="#home" class="text-gray-700 hover:text-blue-600 transition duration-300">Strona główna</a>
+            <a href="#services" class="text-gray-700 hover:text-blue-600 transition duration-300">Usługi</a>
+            <a href="#about" class="text-gray-700 hover:text-blue-600 transition duration-300">O nas</a>
+            <a href="#gallery" class="text-gray-700 hover:text-blue-600 transition duration-300">Galeria</a>
+            <a href="#contact" class="text-gray-700 hover:text-blue-600 transition duration-300">Kontakt</a>
+          </div>
+          <a
+            href="#contact"
+            class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition duration-300">
+            Bezpłatna wycena
+          </a>
         </div>
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce-slow">
-            <i class="fas fa-chevron-down text-2xl text-white opacity-70"></i>
+      </div>
+    </nav>
+
+    <!-- Hero Section with Animated Slides -->
+    <section id="home" class="hero-slider">
+      <!-- Floating Elements -->
+      <div class="floating-elements">
+        <i class="fas fa-spray-can floating-element text-white text-4xl"></i>
+        <i class="fas fa-brush floating-element text-white text-3xl"></i>
+        <i class="fas fa-water floating-element text-white text-5xl"></i>
+      </div>
+
+      <!-- Slide 1: Budynki mieszkalne -->
+      <div class="slide slide-1 active">
+        <i class="fas fa-home building-icon text-white"></i>
+        <div class="container mx-auto px-6 text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            Budynki
+            <br />
+            <span class="text-yellow-300">Mieszkalne</span>
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+            Profesjonalne czyszczenie elewacji domów jednorodzinnych i wielorodzinnych. Przywracamy pierwotny blask
+            Twojemu budynkowi.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              class="bg-white text-gray-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-calculator mr-2"></i>
+              Bezpłatna wycena
+            </a>
+            <a
+              href="#services"
+              class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-info-circle mr-2"></i>
+              Dowiedz się więcej
+            </a>
+          </div>
         </div>
+      </div>
+
+      <!-- Slide 2: Biurowce -->
+      <div class="slide slide-2">
+        <i class="fas fa-building building-icon text-white"></i>
+        <div class="container mx-auto px-6 text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            Biurowce
+            <br />
+            <span class="text-yellow-300">Komercyjne</span>
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+            Specjalizujemy się w czyszczeniu elewacji budynków biurowych i komercyjnych. Profesjonalny wizerunek zaczyna
+            się od czystej fasady.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              class="bg-white text-gray-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-handshake mr-2"></i>
+              Współpraca B2B
+            </a>
+            <a
+              href="#services"
+              class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-briefcase mr-2"></i>
+              Oferta dla firm
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Zabytki -->
+      <div class="slide slide-3">
+        <i class="fas fa-landmark building-icon text-white"></i>
+        <div class="container mx-auto px-6 text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            Budynki
+            <br />
+            <span class="text-yellow-300">Zabytkowe</span>
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+            Delikatne i precyzyjne czyszczenie obiektów zabytkowych. Zachowujemy historię przy użyciu nowoczesnych,
+            bezpiecznych metod.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              class="bg-white text-gray-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-shield-alt mr-2"></i>
+              Bezpieczne metody
+            </a>
+            <a
+              href="#services"
+              class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-history mr-2"></i>
+              Nasze doświadczenie
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Nowoczesne fasady -->
+      <div class="slide slide-4">
+        <i class="fas fa-city building-icon text-white"></i>
+        <div class="container mx-auto px-6 text-center text-white">
+          <h1 class="text-6xl md:text-8xl font-bold mb-6 leading-tight">
+            Nowoczesne
+            <br />
+            <span class="text-yellow-300">Fasady</span>
+          </h1>
+          <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+            Czyszczenie szkła, aluminium, kompozytów i innych nowoczesnych materiałów. Zaawansowane technologie dla
+            wymagających powierzchni.
+          </p>
+          <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a
+              href="#contact"
+              class="bg-white text-gray-800 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-rocket mr-2"></i>
+              Nowoczesne tech.
+            </a>
+            <a
+              href="#services"
+              class="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-800 transition duration-300 transform hover:scale-105">
+              <i class="fas fa-tools mr-2"></i>
+              Nasze metody
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="slider-dots">
+        <div class="dot active" data-slide="0"></div>
+        <div class="dot" data-slide="1"></div>
+        <div class="dot" data-slide="2"></div>
+        <div class="dot" data-slide="3"></div>
+      </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16 animate-fade-in">
-                <h3 class="text-4xl md:text-5xl font-bold gradient-text mb-6">Nasze Usługi</h3>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Oferujemy kompleksowe rozwiązania dla każdego typu elewacji
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating">
-                    <div class="text-center">
-                        <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-spray-can text-2xl text-blue-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Mycie Ciśnieniowe</h4>
-                        <p class="text-gray-600 mb-6">
-                            Usuwanie brudu, mchu i innych zanieczyszczeń za pomocą profesjonalnych urządzeń wysokociśnieniowych.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Bezpieczne dla elewacji</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Ekologiczne detergenty</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Szybkie rezultaty</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating" style="animation-delay: 0.2s;">
-                    <div class="text-center">
-                        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-leaf text-2xl text-green-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Usuwanie Mchu i Glonów</h4>
-                        <p class="text-gray-600 mb-6">
-                            Specjalistyczne środki do eliminacji organizmów biologicznych z powierzchni elewacji.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Długotrwały efekt</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Profilaktyka biologiczna</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Bezpieczne środki</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating" style="animation-delay: 0.4s;">
-                    <div class="text-center">
-                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-shield-alt text-2xl text-purple-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Impregnacja Ochronna</h4>
-                        <p class="text-gray-600 mb-6">
-                            Zabezpieczenie elewacji przed przyszłymi zanieczyszczeniami i wpływem warunków atmosferycznych.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Ochrona na lata</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Odporność na warunki</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Łatwiejsze czyszczenie</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating" style="animation-delay: 0.6s;">
-                    <div class="text-center">
-                        <div class="bg-red-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-paint-brush text-2xl text-red-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Usuwanie Graffiti</h4>
-                        <p class="text-gray-600 mb-6">
-                            Profesjonalne usuwanie napisów i rysunków bez uszkodzenia powierzchni elewacji.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Bezślady rezultat</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Delikatne metody</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Przywrócenie estetyki</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating" style="animation-delay: 0.8s;">
-                    <div class="text-center">
-                        <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-hard-hat text-2xl text-yellow-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Prace Wysokościowe</h4>
-                        <p class="text-gray-600 mb-6">
-                            Bezpieczne czyszczenie elewacji w trudno dostępnych miejscach z użyciem technik alpinistycznych.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Certyfikowani specjaliści</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Pełne ubezpieczenie</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Nowoczesny sprzęt</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card p-8 rounded-2xl hover-lift animate-scale-in floating" style="animation-delay: 1s;">
-                    <div class="text-center">
-                        <div class="bg-indigo-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <i class="fas fa-calendar-check text-2xl text-indigo-600"></i>
-                        </div>
-                        <h4 class="text-2xl font-bold mb-4 text-gray-800">Serwis Okresowy</h4>
-                        <p class="text-gray-600 mb-6">
-                            Regularne utrzymanie czystości elewacji w ramach długoterminowych kontraktów serwisowych.
-                        </p>
-                        <ul class="text-left space-y-2 text-gray-600">
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Atrakcyjne ceny</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Planowane prace</li>
-                            <li><i class="fas fa-check text-green-500 mr-2"></i>Zawsze czysta elewacja</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <section id="services" class="py-24 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-5xl font-bold text-gray-800 mb-6">Nasze Usługi</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Oferujemy kompleksowe usługi czyszczenia elewacji z wykorzystaniem najnowszych technologii i ekologicznych
+            rozwiązań
+          </p>
         </div>
-    </section>
 
-    <!-- Process Section -->
-    <section id="process" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-bold gradient-text mb-6">Jak Pracujemy</h3>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Nasz sprawdzony proces gwarantuje najlepsze rezultaty
-                </p>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="service-card bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="text-5xl text-blue-600 mb-6">
+              <i class="fas fa-spray-can"></i>
             </div>
-            
-            <div class="grid md:grid-cols-4 gap-8">
-                <div class="text-center group">
-                    <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:bg-blue-700 transition duration-300 transform group-hover:scale-110">
-                        1
-                    </div>
-                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Inspekcja</h4>
-                    <p class="text-gray-600">
-                        Dokładne oględziny elewacji i ocena stanu powierzchni. Identyfikacja problemów i dobór odpowiednich metod czyszczenia.
-                    </p>
-                </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Mycie Ciśnieniowe</h3>
+            <p class="text-gray-600 mb-6">
+              Profesjonalne mycie wysokociśnieniowe usuwające nawet najbardziej uporczywe zabrudzenia
+            </p>
+            <ul class="text-sm text-gray-500 space-y-2">
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Regulacja ciśnienia
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Ekologiczne detergenty
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Bezpieczne dla materiałów
+              </li>
+            </ul>
+          </div>
 
-                <div class="text-center group">
-                    <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:bg-blue-700 transition duration-300 transform group-hover:scale-110">
-                        2
-                    </div>
-                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Wycena</h4>
-                    <p class="text-gray-600">
-                        Przygotowanie szczegółowej wyceny uwzględniającej wszystkie aspekty pracy. Transparent na cenova bez ukrytych kosztów.
-                    </p>
-                </div>
-
-                <div class="text-center group">
-                    <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:bg-blue-700 transition duration-300 transform group-hover:scale-110">
-                        3
-                    </div>
-                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Realizacja</h4>
-                    <p class="text-gray-600">
-                        Profesjonalne wykonanie prac przez doświadczony zespół z użyciem najnowocześniejszego sprzętu i środków.
-                    </p>
-                </div>
-
-                <div class="text-center group">
-                    <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold group-hover:bg-blue-700 transition duration-300 transform group-hover:scale-110">
-                        4
-                    </div>
-                    <h4 class="text-2xl font-bold mb-4 text-gray-800">Odbiór</h4>
-                    <p class="text-gray-600">
-                        Kontrola jakości wykonanych prac i formalna procedura odbioru. Gwarancja na wykonane usługi.
-                    </p>
-                </div>
+          <div class="service-card bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="text-5xl text-green-600 mb-6">
+              <i class="fas fa-leaf"></i>
             </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Usuwanie Glonów</h3>
+            <p class="text-gray-600 mb-6">Skuteczne usuwanie glonów, mchów i grzybów z powierzchni elewacji</p>
+            <ul class="text-sm text-gray-500 space-y-2">
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Środki biobójcze
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Długotrwały efekt
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Bezpieczne dla roślin
+              </li>
+            </ul>
+          </div>
+
+          <div class="service-card bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="text-5xl text-purple-600 mb-6">
+              <i class="fas fa-wind"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Czyszczenie Parowe</h3>
+            <p class="text-gray-600 mb-6">Delikatne czyszczenie parą wodną idealne dla powierzchni wrażliwych</p>
+            <ul class="text-sm text-gray-500 space-y-2">
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Bez chemii
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Wysoka temperatura
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Dezynfekcja
+              </li>
+            </ul>
+          </div>
+
+          <div class="service-card bg-white p-8 rounded-2xl shadow-lg fade-in">
+            <div class="text-5xl text-red-600 mb-6">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Impregnacja</h3>
+            <p class="text-gray-600 mb-6">Ochronne powłoki zabezpieczające elewację przed przyszłymi zabrudzeniami</p>
+            <ul class="text-sm text-gray-500 space-y-2">
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Długotrwała ochrona
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Odporna na UV
+              </li>
+              <li>
+                <i class="fas fa-check text-green-500 mr-2"></i>
+                Efekt samoczyszczący
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Gallery Section -->
-    <section id="gallery" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-bold gradient-text mb-6">Nasze Realizacje</h3>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Zobacz różnicę przed i po naszych usługach
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-gray-400 via-gray-300 to-gray-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Biurowiec Centrum</h5>
-                            <p class="text-sm text-gray-600">Usunięcie zanieczyszczeń atmosferycznych</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-green-400 via-green-300 to-green-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Kamienica Historyczna</h5>
-                            <p class="text-sm text-gray-600">Delikatne czyszczenie zabytkowej elewacji</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-blue-400 via-blue-300 to-blue-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Osiedle Mieszkaniowe</h5>
-                            <p class="text-sm text-gray-600">Usunięcie mchu i glonów</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-purple-400 via-purple-300 to-purple-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Centrum Handlowe</h5>
-                            <p class="text-sm text-gray-600">Kompleksowe czyszczenie i impregnacja</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-red-400 via-red-300 to-red-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Budynek Przemysłowy</h5>
-                            <p class="text-sm text-gray-600">Usunięcie graffiti i renowacja</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="hover-lift">
-                    <div class="before-after-slider">
-                        <div class="absolute inset-0 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-100"></div>
-                        <div class="absolute bottom-4 left-4 right-4 bg-white bg-opacity-90 p-4 rounded-lg">
-                            <h5 class="font-bold text-gray-800">Hotel Miejski</h5>
-                            <p class="text-sm text-gray-600">Przywrócenie pierwotnego blasku</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="gallery" class="py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-5xl font-bold text-gray-800 mb-6">Przed i Po</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Zobacz spektakularne efekty naszej pracy. Każda elewacja zyskuje nowe życie
+          </p>
         </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-gradient-to-br from-gray-800 to-gray-600 rounded-2xl p-8 text-white text-center fade-in">
+            <i class="fas fa-home text-6xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Dom Jednorodzinny</h3>
+            <p class="text-gray-300 mb-4">Warszawa, Wilanów</p>
+            <div class="bg-green-500 text-white px-4 py-2 rounded-full inline-block">
+              <i class="fas fa-star mr-1"></i>
+              Efekt: Spektakularny
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-blue-800 to-blue-600 rounded-2xl p-8 text-white text-center fade-in">
+            <i class="fas fa-building text-6xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Biurowiec</h3>
+            <p class="text-gray-300 mb-4">Kraków, Centrum</p>
+            <div class="bg-green-500 text-white px-4 py-2 rounded-full inline-block">
+              <i class="fas fa-star mr-1"></i>
+              Efekt: Profesjonalny
+            </div>
+          </div>
+
+          <div class="bg-gradient-to-br from-purple-800 to-purple-600 rounded-2xl p-8 text-white text-center fade-in">
+            <i class="fas fa-landmark text-6xl mb-4"></i>
+            <h3 class="text-2xl font-bold mb-4">Budynek Zabytkowy</h3>
+            <p class="text-gray-300 mb-4">Gdańsk, Stare Miasto</p>
+            <div class="bg-green-500 text-white px-4 py-2 rounded-full inline-block">
+              <i class="fas fa-star mr-1"></i>
+              Efekt: Delikatny
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Benefits Section -->
-    <section class="py-20 gradient-bg text-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-bold mb-6">Dlaczego My?</h3>
-                <p class="text-xl opacity-90 max-w-3xl mx-auto">
-                    Zaufaj ekspertom z wieloletnim doświadczeniem
-                </p>
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="fade-in">
+            <h2 class="text-5xl font-bold text-gray-800 mb-8">Dlaczego My?</h2>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+              ElevationClean Pro to zespół specjalistów z 15-letnim doświadczeniem w branży czyszczenia elewacji.
+              Łączymy tradycyjne metody z nowoczesnymi technologiami.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="bg-blue-600 text-white p-3 rounded-full">
+                  <i class="fas fa-certificate text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Certyfikowane Metody</h3>
+                  <p class="text-gray-600">Stosujemy tylko sprawdzone i certyfikowane technologie czyszczenia</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="bg-green-600 text-white p-3 rounded-full">
+                  <i class="fas fa-leaf text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Ekologiczne Podejście</h3>
+                  <p class="text-gray-600">Dbamy o środowisko używając biodegradowalnych środków czyszczących</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="bg-purple-600 text-white p-3 rounded-full">
+                  <i class="fas fa-clock text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Terminowość</h3>
+                  <p class="text-gray-600">Zawsze dotrzymujemy ustalonych terminów realizacji</p>
+                </div>
+              </div>
             </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <div class="text-center group">
-                    <div class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 transition duration-300">
-                        <i class="fas fa-award text-2xl text-yellow-300"></i>
-                    </div>
-                    <h4 class="text-xl font-bold mb-3">15 Lat Doświadczenia</h4>
-                    <p class="opacity-80">Setki zadowolonych klientów i tysięce metrów kwadratowych oczyszczonych elewacji</p>
-                </div>
+          </div>
 
-                <div class="text-center group">
-                    <div class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 transition duration-300">
-                        <i class="fas fa-tools text-2xl text-yellow-300"></i>
-                    </div>
-                    <h4 class="text-xl font-bold mb-3">Nowoczesny Sprzęt</h4>
-                    <p class="opacity-80">Najnowsze technologie czyszczenia gwarantujące bezpieczeństwo i skuteczność</p>
-                </div>
-
-                <div class="text-center group">
-                    <div class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 transition duration-300">
-                        <i class="fas fa-shield-alt text-2xl text-yellow-300"></i>
-                    </div>
-                    <h4 class="text-xl font-bold mb-3">Pełne Ubezpieczenie</h4>
-                    <p class="opacity-80">Kompleksowe pokrycie ubezpieczeniowe chroniące Cię i Twoją nieruchomość</p>
-                </div>
-
-                <div class="text-center group">
-                    <div class="bg-white bg-opacity-20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-opacity-30 transition duration-300">
-                        <i class="fas fa-leaf text-2xl text-yellow-300"></i>
-                    </div>
-                    <h4 class="text-xl font-bold mb-3">Eko-friendly</h4>
-                    <p class="opacity-80">Używamy tylko ekologicznych środków bezpiecznych dla środowiska</p>
-                </div>
+          <div class="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl p-12 text-white text-center fade-in">
+            <div class="grid grid-cols-2 gap-8">
+              <div>
+                <div class="text-4xl font-bold mb-2">500+</div>
+                <div class="text-blue-200">Zrealizowanych projektów</div>
+              </div>
+              <div>
+                <div class="text-4xl font-bold mb-2">15</div>
+                <div class="text-blue-200">Lat doświadczenia</div>
+              </div>
+              <div>
+                <div class="text-4xl font-bold mb-2">100%</div>
+                <div class="text-blue-200">Zadowolonych klientów</div>
+              </div>
+              <div>
+                <div class="text-4xl font-bold mb-2">24/7</div>
+                <div class="text-blue-200">Serwis telefoniczny</div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-bold gradient-text mb-6">Opinie Klientów</h3>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Zobacz co mówią o nas nasi zadowoleni klienci
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift">
-                    <div class="flex items-center mb-4">
-                        <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                            <i class="fas fa-user text-blue-600"></i>
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-gray-800">Anna Kowalska</h5>
-                            <p class="text-sm text-gray-600">Zarządczyni budynku</p>
-                        </div>
-                    </div>
-                    <div class="flex mb-4">
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                    </div>
-                    <p class="text-gray-600 italic">
-                        "Profesjonalna obsługa od początku do końca. Elewacja naszego budynku wygląda jak nowa! Polecam każdemu."
-                    </p>
-                </div>
-
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift">
-                    <div class="flex items-center mb-4">
-                        <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                            <i class="fas fa-user text-green-600"></i>
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-gray-800">Marek Nowak</h5>
-                            <p class="text-sm text-gray-600">Właściciel kamienicy</p>
-                        </div>
-                    </div>
-                    <div class="flex mb-4">
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                    </div>
-                    <p class="text-gray-600 italic">
-                        "Moja zabytkowa kamienica wymagała delikatnego podejścia. ElevationClean wykonali pracę perfekcyjnie!"
-                    </p>
-                </div>
-
-                <div class="bg-white p-8 rounded-2xl shadow-lg hover-lift">
-                    <div class="flex items-center mb-4">
-                        <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                            <i class="fas fa-user text-purple-600"></i>
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-gray-800">Katarzyna Wiśniewska</h5>
-                            <p class="text-sm text-gray-600">Prezes spółdzielni</p>
-                        </div>
-                    </div>
-                    <div class="flex mb-4">
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                        <i class="fas fa-star text-yellow-400"></i>
-                    </div>
-                    <p class="text-gray-600 italic">
-                        "Terminowo, profesjonalnie i w atrakcyjnej cenie. Współpraca z ElevationClean była bezproblemowa."
-                    </p>
-                </div>
-            </div>
+    <section class="py-24 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-5xl font-bold text-gray-800 mb-6">Opinie Klientów</h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">Zaufali nam setki zadowolonych klientów w całej Polsce</p>
         </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-gray-50 p-8 rounded-2xl fade-in">
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                A
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800">Anna Kowalska</h3>
+                <p class="text-gray-600 text-sm">Właścicielka domu</p>
+              </div>
+            </div>
+            <div class="text-yellow-400 mb-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic">
+              "Fantastyczna robota! Elewacja wygląda jak nowa. Zespół bardzo profesjonalny i punktualny. Polecam
+              każdemu!"
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-8 rounded-2xl fade-in">
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                M
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800">Marek Nowak</h3>
+                <p class="text-gray-600 text-sm">Zarządca nieruchomości</p>
+              </div>
+            </div>
+            <div class="text-yellow-400 mb-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic">
+              "Współpracujemy już 3 lata. Zawsze solidne wykonanie, konkurencyjne ceny. Budynki wyglądają świetnie."
+            </p>
+          </div>
+
+          <div class="bg-gray-50 p-8 rounded-2xl fade-in">
+            <div class="flex items-center mb-6">
+              <div
+                class="bg-purple-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mr-4">
+                K
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800">Katarzyna Wiśniewska</h3>
+                <p class="text-gray-600 text-sm">Prezes spółdzielni</p>
+              </div>
+            </div>
+            <div class="text-yellow-400 mb-4">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="text-gray-700 italic">
+              "Wyczyścili elewacje 12 budynków. Efekt przeszedł nasze oczekiwania. Mieszkańcy są zachwyceni!"
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 gradient-bg text-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h3 class="text-4xl md:text-5xl font-bold mb-6">Skontaktuj Się z Nami</h3>
-                <p class="text-xl opacity-90 max-w-3xl mx-auto">
-                    Zadzwoń lub napisz - odpowiemy na wszystkie pytania
-                </p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 gap-12">
-                <div>
-                    <h4 class="text-2xl font-bold mb-8">Dane Kontaktowe</h4>
-                    <div class="space-y-6">
-                        <div class="flex items-center">
-                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                                <i class="fas fa-phone text-yellow-300"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold">Telefon</p>
-                                <p class="opacity-90">+48 123 456 789</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center">
-                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                                <i class="fas fa-envelope text-yellow-300"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold">E-mail</p>
-                                <p class="opacity-90">kontakt@elevationclean.pl</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center">
-                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                                <i class="fas fa-map-marker-alt text-yellow-300"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold">Adres</p>
-                                <p class="opacity-90">ul. Przykładowa 123<br>00-000 Warszawa</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center">
-                            <div class="bg-white bg-opacity-20 w-12 h-12 rounded-full flex items-center justify-center mr-4">
-                                <i class="fas fa-clock text-yellow-300"></i>
-                            </div>
-                            <div>
-                                <p class="font-semibold">Godziny pracy</p>
-                                <p class="opacity-90">Pon-Pt: 8:00-18:00<br>Sobota: 9:00-15:00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <h4 class="text-2xl font-bold mb-8">Formularz Kontaktowy</h4>
-                    <form class="space-y-6">
-                        <div>
-                            <input type="text" placeholder="Imię i nazwisko" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-300">
-                        </div>
-                        <div>
-                            <input type="email" placeholder="Adres e-mail" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-300">
-                        </div>
-                        <div>
-                            <input type="tel" placeholder="Numer telefonu" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-300">
-                        </div>
-                        <div>
-                            <textarea rows="4" placeholder="Opis projektu..." class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-yellow-300 resize-none"></textarea>
-                        </div>
-                        <button type="submit" class="w-full bg-yellow-400 text-gray-900 py-3 px-6 rounded-lg font-semibold hover:bg-yellow-300 transition duration-300 ripple-effect">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            Wyślij Zapytanie
-                        </button>
-                    </form>
-                </div>
-            </div>
+    <section id="contact" class="py-24 bg-gray-900 text-white">
+      <div class="container mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+          <h2 class="text-5xl font-bold mb-6">Skontaktuj się z nami</h2>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            Gotowi do transformacji Twojej elewacji? Skontaktuj się z nami już dziś!
+          </p>
         </div>
+
+        <div class="grid lg:grid-cols-2 gap-16">
+          <div class="fade-in">
+            <h3 class="text-3xl font-bold mb-8">Bezpłatna wycena</h3>
+            <form class="space-y-6">
+              <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                  <label class="block text-sm font-medium mb-2">Imię i nazwisko</label>
+                  <input
+                    type="text"
+                    class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="Jan Kowalski" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium mb-2">Telefon</label>
+                  <input
+                    type="tel"
+                    class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                    placeholder="+48 123 456 789" />
+                </div>
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Email</label>
+                <input
+                  type="email"
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="jan@example.com" />
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Typ budynku</label>
+                <select
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                  <option>Dom jednorodzinny</option>
+                  <option>Budynek wielorodzinny</option>
+                  <option>Biurowiec</option>
+                  <option>Budynek zabytkowy</option>
+                  <option>Inne</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Opis projektu</label>
+                <textarea
+                  rows="4"
+                  class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="Opisz swój projekt..."></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
+                <i class="fas fa-paper-plane mr-2"></i>
+                Wyślij zapytanie
+              </button>
+            </form>
+          </div>
+
+          <div class="fade-in">
+            <h3 class="text-3xl font-bold mb-8">Dane kontaktowe</h3>
+            <div class="space-y-6">
+              <div class="flex items-start space-x-4">
+                <div class="bg-blue-600 p-3 rounded-full">
+                  <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg mb-2">Adres</h4>
+                  <p class="text-gray-300">
+                    ul. Czysta 123
+                    <br />
+                    00-001 Warszawa
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="bg-green-600 p-3 rounded-full">
+                  <i class="fas fa-phone text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg mb-2">Telefon</h4>
+                  <p class="text-gray-300">
+                    +48 123 456 789
+                    <br />
+                    +48 987 654 321
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="bg-purple-600 p-3 rounded-full">
+                  <i class="fas fa-envelope text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg mb-2">Email</h4>
+                  <p class="text-gray-300">
+                    kontakt@elevationclean.pl
+                    <br />
+                    wycena@elevationclean.pl
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-4">
+                <div class="bg-red-600 p-3 rounded-full">
+                  <i class="fas fa-clock text-xl"></i>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg mb-2">Godziny pracy</h4>
+                  <p class="text-gray-300">
+                    Pon-Pt: 7:00 - 18:00
+                    <br />
+                    Sob: 8:00 - 14:00
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-12 p-6 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl">
+              <h4 class="text-xl font-bold mb-4">
+                <i class="fas fa-gift mr-2"></i>
+                Promocja!
+              </h4>
+              <p class="text-blue-100 mb-4">
+                Skorzystaj z naszej promocji - przy zamówieniu usługi do końca miesiąca, impregnacja GRATIS!
+              </p>
+              <div class="text-sm text-blue-200">
+                <i class="fas fa-info-circle mr-1"></i>
+                Oferta ważna dla nowych klientów
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="grid md:grid-cols-4 gap-8">
-                <div>
-                    <div class="flex items-center mb-4">
-                        <i class="fas fa-building text-2xl mr-3 text-blue-400"></i>
-                        <h5 class="text-xl font-bold">ElevationClean Pro</h5>
-                    </div>
-                    <p class="text-gray-400 mb-4">
-                        Profesjonalne czyszczenie elewacji z 15-letnim doświadczeniem na rynku.
-                    </p>
-                    <div class="flex space-x-4">
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-facebook-f text-xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-instagram text-xl"></i>
-                        </a>
-                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
-                            <i class="fab fa-linkedin-in text-xl"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div>
-                    <h6 class="text-lg font-semibold mb-4">Usługi</h6>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition duration-300">Mycie ciśnieniowe</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Usuwanie mchu</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Impregnacja</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Usuwanie graffiti</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h6 class="text-lg font-semibold mb-4">Firma</h6>
-                    <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition duration-300">O nas</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Realizacje</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Certyfikaty</a></li>
-                        <li><a href="#" class="hover:text-white transition duration-300">Kariera</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h6 class="text-lg font-semibold mb-4">Kontakt</h6>
-                    <ul class="space-y-2 text-gray-400">
-                        <li>+48 123 456 789</li>
-                        <li>kontakt@elevationclean.pl</li>
-                        <li>ul. Przykładowa 123</li>
-                        <li>00-000 Warszawa</li>
-                    </ul>
-                </div>
+    <footer class="bg-black text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <div class="text-2xl font-bold mb-4">
+              <i class="fas fa-building text-blue-400"></i>
+              ElevationClean Pro
             </div>
-            
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 ElevationClean Pro. Wszystkie prawa zastrzeżone.</p>
+            <p class="text-gray-400 mb-4">
+              Profesjonalne czyszczenie elewacji z 15-letnim doświadczeniem na rynku polskim.
+            </p>
+            <div class="flex space-x-4">
+              <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                <i class="fab fa-facebook text-xl"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                <i class="fab fa-instagram text-xl"></i>
+              </a>
+              <a href="#" class="text-gray-400 hover:text-blue-400 transition duration-300">
+                <i class="fab fa-linkedin text-xl"></i>
+              </a>
             </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold mb-4">Usługi</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li><a href="#" class="hover:text-white transition duration-300">Mycie ciśnieniowe</a></li>
+              <li><a href="#" class="hover:text-white transition duration-300">Usuwanie glonów</a></li>
+              <li><a href="#" class="hover:text-white transition duration-300">Czyszczenie parowe</a></li>
+              <li><a href="#" class="hover:text-white transition duration-300">Impregnacja</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold mb-4">Obszar działania</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>Warszawa i okolice</li>
+              <li>Kraków i okolice</li>
+              <li>Gdańsk i okolice</li>
+              <li>Cała Polska</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold mb-4">Kontakt</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <i class="fas fa-phone mr-2"></i>
+                +48 123 456 789
+              </li>
+              <li>
+                <i class="fas fa-envelope mr-2"></i>
+                kontakt@elevationclean.pl
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                Warszawa, ul. Czysta 123
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+          <p>&copy; 2024 ElevationClean Pro. Wszelkie prawa zastrzeżone.</p>
+        </div>
+      </div>
     </footer>
 
-    <!-- Floating Call Button -->
-    <div class="fixed bottom-6 right-6 z-50">
-        <a href="tel:+48123456789" class="bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition duration-300 animate-pulse-slow">
-            <i class="fas fa-phone text-xl"></i>
-        </a>
-    </div>
-</body>
+    <script src="001.js"></script>
+  </body>
 </html>
-
-    

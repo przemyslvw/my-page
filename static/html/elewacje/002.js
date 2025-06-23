@@ -135,6 +135,54 @@ function submitForm(event) {
   }
 }
 
+// Image Modal Functionality
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImage');
+const modalCaption = document.getElementById('modalCaption');
+const closeModal = document.getElementById('closeModal');
+
+// Open modal when clicking on gallery items
+document.querySelectorAll('.gallery-item').forEach(item => {
+  item.addEventListener('click', function(e) {
+    e.preventDefault();
+    const imgSrc = this.getAttribute('data-image');
+    const caption = this.getAttribute('data-caption') || '';
+    
+    modalImg.src = imgSrc;
+    modalImg.alt = caption;
+    modalCaption.textContent = caption;
+    
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+// Close modal when clicking the close button
+closeModal.addEventListener('click', function() {
+  modal.classList.add('hidden');
+  modal.classList.remove('flex');
+  document.body.style.overflow = '';
+});
+
+// Close modal when clicking outside the image
+modal.addEventListener('click', function(e) {
+  if (e.target === modal) {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+});
+
+// Close modal with Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+});
+
 // Mobile menu toggle (basic implementation)
 document.querySelector('.md\\:hidden button').addEventListener('click', function () {
   // Mobile menu implementation would go here

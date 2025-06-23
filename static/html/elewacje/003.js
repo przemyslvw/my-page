@@ -130,6 +130,55 @@
             errorDiv.textContent = '';
         }
 
+        // Image Modal Functionality
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+        const closeModal = document.getElementById('closeModal');
+        
+        // Open modal when clicking on gallery items
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                const imgSrc = this.getAttribute('data-image');
+                const caption = this.getAttribute('data-caption') || '';
+                
+                modalImg.src = imgSrc;
+                modalImg.alt = caption;
+                modalCaption.textContent = caption;
+                
+                // Show modal
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+            });
+        });
+        
+        // Close modal when clicking the close button
+        closeModal.addEventListener('click', function() {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = ''; // Re-enable scrolling
+        });
+        
+        // Close modal when clicking outside the image
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = ''; // Re-enable scrolling
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                document.body.style.overflow = ''; // Re-enable scrolling
+            }
+        });
+
         // Real-time validation
         document.getElementById('name').addEventListener('input', function() {
             if (this.value.trim().length < 2) {
