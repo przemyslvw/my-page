@@ -53,7 +53,16 @@ function calculatePrice() {
   const serviceType = document.getElementById('serviceType');
   const area = document.getElementById('area').value;
   const totalPriceElement = document.getElementById('totalPrice');
+  const serviceTypeContainer = serviceType.closest('.input-group');
 
+  // Update visual state
+  if (serviceType.value) {
+    serviceTypeContainer.classList.add('has-value');
+  } else {
+    serviceTypeContainer.classList.remove('has-value');
+  }
+
+  // Calculate price
   if (serviceType.value && area) {
     const pricePerUnit = parseFloat(serviceType.selectedOptions[0].dataset.price);
     const total = pricePerUnit * parseFloat(area);
@@ -62,6 +71,26 @@ function calculatePrice() {
     totalPriceElement.textContent = '0';
   }
 }
+
+// Initialize service type visual state on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const serviceType = document.getElementById('serviceType');
+  const serviceTypeContainer = serviceType.closest('.input-group');
+  
+  // Set initial state
+  if (serviceType.value) {
+    serviceTypeContainer.classList.add('has-value');
+  }
+  
+  // Update state on change
+  serviceType.addEventListener('change', function() {
+    if (this.value) {
+      serviceTypeContainer.classList.add('has-value');
+    } else {
+      serviceTypeContainer.classList.remove('has-value');
+    }
+  });
+});
 
 // Form Validation
 function validateField(fieldId, errorId, validationFn, errorMessage) {
