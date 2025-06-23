@@ -22,8 +22,8 @@ function scrollToSection(sectionId) {
   });
 }
 
-// Navigation links
-document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
+// Navigation links - only handle desktop navigation
+document.querySelectorAll('nav .hidden.md\:flex a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
     const sectionId = this.getAttribute('href').substring(1);

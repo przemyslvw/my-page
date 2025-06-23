@@ -64,9 +64,26 @@
           <a href="#testimonials" class="hover:text-blue-600 transition-colors">Opinie</a>
           <a href="#contact" class="hover:text-blue-600 transition-colors">Kontakt</a>
         </div>
-        <button class="md:hidden text-black-800">
+        <button id="mobile-menu-button" class="md:hidden text-black-800 focus:outline-none">
           <i class="fas fa-bars text-xl"></i>
         </button>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="fixed inset-0 bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+          <div class="flex justify-between items-center p-4 border-b">
+            <img src="img/logo.png" alt="Mycie Ciśnieniowe" class="h-12 w-auto" />
+            <button id="close-mobile-menu" class="text-gray-600 hover:text-gray-900 focus:outline-none">
+              <i class="fas fa-times text-2xl"></i>
+            </button>
+          </div>
+          <div class="p-4 space-y-4">
+            <a href="#home" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Strona główna</a>
+            <a href="#services" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Usługi</a>
+            <a href="#gallery" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Galeria</a>
+            <a href="#calculator" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Kalkulator</a>
+            <a href="#testimonials" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Opinie</a>
+            <a href="#contact" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Kontakt</a>
+          </div>
+        </div>
       </div>
     </nav>
 
@@ -1080,6 +1097,41 @@
             }, 50);
           }, 500);
         }
+
+        // Mobile menu functionality
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const closeMobileMenuButton = document.getElementById('close-mobile-menu');
+
+        function toggleMobileMenu() {
+          mobileMenu.classList.toggle('translate-x-0');
+          mobileMenu.classList.toggle('-translate-x-full');
+          document.body.style.overflow = mobileMenu.classList.contains('translate-x-0') ? 'hidden' : '';
+        }
+
+        function closeMobileMenu() {
+          mobileMenu.classList.remove('translate-x-0');
+          mobileMenu.classList.add('-translate-x-full');
+          document.body.style.overflow = '';
+        }
+
+
+        mobileMenuButton.addEventListener('click', toggleMobileMenu);
+        closeMobileMenuButton.addEventListener('click', closeMobileMenu);
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+          if (!mobileMenu.contains(e.target) && !mobileMenuButton.contains(e.target)) {
+            closeMobileMenu();
+          }
+        });
+
+        // Close menu on escape key
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') {
+            closeMobileMenu();
+          }
+        });
 
         // Start the rotation after initial load
         setTimeout(() => {
