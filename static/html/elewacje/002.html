@@ -53,8 +53,8 @@
     <!-- Navigation -->
     <nav class="navbar-sticky fixed top-0 w-full z-50 px-4 py-4">
       <div class="container mx-auto flex justify-between items-center">
-        <div class="h-12">
-          <img src="img/logo.png" alt="Mycie Ciśnieniowe" class="h-full w-auto">
+        <div class="h-14" style="height: 5.5rem !important">
+          <img src="img/logo.png" alt="Mycie Ciśnieniowe" class="h-full w-auto" />
         </div>
         <div class="hidden md:flex space-x-6">
           <a href="#home" class="hover:text-blue-600 transition-colors">Strona główna</a>
@@ -944,28 +944,28 @@
     </style>
     <script>
       // Smooth rotating text effect
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('DOMContentLoaded', function () {
         const words = ['elewacji!', 'kostki!', 'dachu!'];
         let currentIndex = 0;
         const rotatingText = document.getElementById('rotating-text');
         let isAnimating = false;
-        
+
         // Initial setup
         rotatingText.style.opacity = '1';
-        
+
         function rotateText() {
           if (isAnimating) return;
           isAnimating = true;
-          
+
           // Fade out
           rotatingText.style.opacity = '0';
-          
+
           // Wait for fade out to complete
           setTimeout(() => {
             // Change text
             currentIndex = (currentIndex + 1) % words.length;
             rotatingText.textContent = words[currentIndex];
-            
+
             // Fade in
             setTimeout(() => {
               rotatingText.style.opacity = '1';
@@ -973,7 +973,7 @@
             }, 50);
           }, 500);
         }
-        
+
         // Start the rotation after initial load
         setTimeout(() => {
           // Change text every 2.5 seconds (2s visible + 0.5s transition)
