@@ -361,7 +361,7 @@ body {
 
 .btn-primary {
   background: var(--accent-red);
-  color: var(--white);
+  color: white;
   border-radius: 4px;
   font-weight: 600;
   transition: all 0.3s ease;
