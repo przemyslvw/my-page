@@ -290,8 +290,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function closeMobileMenu() {
   const mobileMenu = document.getElementById('mobile-menu');
   if (mobileMenu) {
-    mobileMenu.classList.add('hidden');
-    mobileMenu.classList.remove('flex');
+    mobileMenu.classList.remove('translate-x-0');
+    mobileMenu.classList.add('-translate-x-full');
     document.body.style.overflow = '';
   }
 }
@@ -299,9 +299,20 @@ function closeMobileMenu() {
 function openMobileMenu() {
   const mobileMenu = document.getElementById('mobile-menu');
   if (mobileMenu) {
-    mobileMenu.classList.remove('hidden');
-    mobileMenu.classList.add('flex');
+    mobileMenu.classList.remove('-translate-x-full');
+    mobileMenu.classList.add('translate-x-0');
     document.body.style.overflow = 'hidden';
+  }
+}
+
+function toggleMobileMenu() {
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (mobileMenu) {
+    if (mobileMenu.classList.contains('-translate-x-full')) {
+      openMobileMenu();
+    } else {
+      closeMobileMenu();
+    }
   }
 }
 
@@ -313,20 +324,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Initialize menu as closed
   if (mobileMenu) {
-    mobileMenu.classList.add('hidden');
-    mobileMenu.classList.remove('flex');
+    mobileMenu.classList.add('-translate-x-full');
   }
 
   // Toggle menu on button click
   if (mobileMenuButton) {
     mobileMenuButton.addEventListener('click', function (e) {
       e.preventDefault();
-      const isMenuOpen = mobileMenu && !mobileMenu.classList.contains('hidden');
-      if (isMenuOpen) {
-        closeMobileMenu();
-      } else {
-        openMobileMenu();
-      }
+      toggleMobileMenu();
     });
   }
 
@@ -341,32 +346,72 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Close menu when clicking outside
-  if (mobileMenu) {
-    mobileMenu.addEventListener('click', function (e) {
-      if (e.target === mobileMenu) {
-        closeMobileMenu();
-      }
-    });
-  }
+  document.addEventListener('click', function (e) {
+    if (!mobileMenu || !mobileMenuButton) return;
 
-  // Close menu with Escape key
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+    const isClickInsideMenu = mobileMenu.contains(e.target);
+    const isMenuButton = mobileMenuButton.contains(e.target);
+    const isMenuOpen = !mobileMenu.classList.contains('-translate-x-full');
+
+    if (!isClickInsideMenu && !isMenuButton && isMenuOpen) {
       closeMobileMenu();
     }
   });
 
-  // Remove any existing onclick handlers from HTML
-  document.querySelectorAll('#mobile-menu a[onclick]').forEach((link) => {
-    link.removeAttribute('onclick');
+  // Close menu with Escape key
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('-translate-x-full')) {
+      closeMobileMenu();
+    }
   });
 });
 
-// Add loading animation on page load
-window.addEventListener('load', function () {
+// Smooth rotating text effect
+document.addEventListener('DOMContentLoaded', function () {
+  const words = ['elewacji!', 'kostki!', 'dachu!'];
+  let currentIndex = 0;
+  const rotatingText = document.getElementById('rotating-text');
+  let isAnimating = false;
+
+  // Initial setup
+  if (rotatingText) {
+    rotatingText.style.opacity = '1';
+
+    function rotateText() {
+      if (isAnimating) return;
+      isAnimating = true;
+
+      // Fade out
+      rotatingText.style.opacity = '0';
+
+      // Wait for fade out to complete
+      setTimeout(() => {
+        // Change text
+        currentIndex = (currentIndex + 1) % words.length;
+        rotatingText.textContent = words[currentIndex];
+
+        // Fade in
+        setTimeout(() => {
+          rotatingText.style.opacity = '1';
+          isAnimating = false;
+        }, 50);
+      }, 500);
+    }
+
+    // Start the rotation after initial load
+    setTimeout(() => {
+      // Change text every 2.5 seconds (2s visible + 0.5s transition)
+      setInterval(rotateText, 2500);
+    }, 2000); // Initial delay before first rotation
+  }
+});
+
+// Smooth page load
+document.addEventListener('DOMContentLoaded', function () {
+  // Add fade-in effect when page loads
   document.body.style.opacity = '0';
-  document.body.style.transition = 'opacity 0.5s ease';
-  setTimeout(() => {
+  setTimeout(function () {
+    document.body.style.transition = 'opacity 0.5s ease-in';
     document.body.style.opacity = '1';
   }, 100);
 });
