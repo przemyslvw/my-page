@@ -991,13 +991,12 @@
           </p>
         </div>
 
-        <div class="grid lg:grid-cols-2 gap-12">
+        <div class="grid lg:grid-cols-2 gap-12 h-full">
           <!-- Contact Info -->
-          <div data-aos="fade-right" data-aos-delay="300">
-            <div class="bg-white p-8 rounded-2xl shadow-lg">
+          <div data-aos="fade-right" data-aos-delay="300" class="h-full">
+            <div class="bg-white p-8 rounded-2xl shadow-lg h-full flex flex-col">
               <h3 class="font-poppins font-semibold text-2xl mb-6">Dane kontaktowe</h3>
-
-              <div class="space-y-4">
+              <div class="space-y-4 flex-grow">
                 <div class="flex items-center">
                   <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
                     <i class="fas fa-map-marker-alt text-white"></i>
@@ -1063,32 +1062,30 @@
             </div>
           </div>
 
-          <!--  Map -->
-          <div data-aos="fade-left" data-aos-delay="300">
-            <div class="space-y-8">
-              <!-- Map -->
-              <div class="bg-white p-4 rounded-2xl shadow-lg">
-                <div class="rounded-xl overflow-hidden">
-                  <iframe
-                    width="100%"
-                    height="100%"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
-                    src="https://www.openstreetmap.org/export/embed.html?bbox=18.5224%2C54.0674%2C18.5284%2C54.0714&amp;layer=mapnik&amp;marker=54.0694%2C18.5254"
-                    class="border-0"
-                    title="Lokalizacja na mapie"></iframe>
-                  <div class="text-center mt-2">
-                    <a
-                      href="https://www.openstreetmap.org/?mlat=54.0694&amp;mlon=18.5254#map=17/54.0694/18.5254"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="text-blue-600 hover:underline text-sm">
-                      Zobacz większą mapę
-                    </a>
-                  </div>
-                </div>
+          <!-- Map -->
+          <div data-aos="fade-left" data-aos-delay="300" class="h-full">
+            <div class="bg-white p-4 rounded-2xl shadow-lg h-full flex flex-col">
+              <h3 class="font-poppins font-semibold text-2xl mb-6">Lokalizacja</h3>
+              <div class="flex-grow rounded-xl overflow-hidden">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=18.5224%2C54.0674%2C18.5284%2C54.0714&layer=mapnik&marker=54.0694,18.5254"
+                  class="border-0 w-full h-full"
+                  title="Lokalizacja na mapie"></iframe>
+              </div>
+              <div class="text-center mt-4">
+                <a
+                  href="https://www.openstreetmap.org/?mlat=54.0694&mlon=18.5254#map=17/54.0694/18.5254"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-blue-600 hover:underline text-sm">
+                  Zobacz większą mapę
+                </a>
               </div>
             </div>
           </div>
