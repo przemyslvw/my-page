@@ -60,7 +60,7 @@
           <a href="#home" class="hover:text-blue-600 transition-colors">Strona główna</a>
           <a href="#services" class="hover:text-blue-600 transition-colors">Usługi</a>
           <a href="#gallery" class="hover:text-blue-600 transition-colors">Galeria</a>
-          <a href="#calculator" class="hover:text-blue-600 transition-colors">Kalkulator</a>
+          <a href="#calculator" class="hover:text-blue-600 transition-colors">Cennik</a>
           <a href="#testimonials" class="hover:text-blue-600 transition-colors">Opinie</a>
           <a href="#contact" class="hover:text-blue-600 transition-colors">Kontakt</a>
         </div>
@@ -723,7 +723,7 @@
     </section>
 
     <!-- Cennik -->
-    <section id="pricing" class="py-44 gradient-water-light">
+    <section id="calculator" class="py-44 gradient-water-light">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -828,7 +828,7 @@
     </section>
 
     <!-- Calculator Section -->
-    <section id="calculator" class="py-44 bg-white">
+    <section class="py-44 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -992,136 +992,83 @@
         </div>
 
         <div class="grid lg:grid-cols-2 gap-12">
-          <!-- Contact Form -->
+          <!-- Contact Info -->
           <div data-aos="fade-right" data-aos-delay="300">
-            <div class="contact-form">
-              <h3 class="font-poppins font-semibold text-2xl mb-6">Formularz kontaktowy</h3>
-              <form id="contactForm" onsubmit="submitForm(event)">
-                <div class="input-group">
-                  <input type="text" id="name" placeholder=" " required />
-                  <label>Imię i nazwisko *</label>
-                  <div class="error-message" id="nameError">Proszę podać imię i nazwisko</div>
-                </div>
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 class="font-poppins font-semibold text-2xl mb-6">Dane kontaktowe</h3>
 
-                <div class="input-group">
-                  <input type="tel" id="phone" placeholder=" " required />
-                  <label>Numer telefonu *</label>
-                  <div class="error-message" id="phoneError">Proszę podać prawidłowy numer telefonu</div>
-                </div>
-
-                <div class="input-group">
-                  <input type="email" id="email" placeholder=" " />
-                  <label>Adres e-mail</label>
-                  <div class="error-message" id="emailError">Proszę podać prawidłowy adres e-mail</div>
-                </div>
-
-                <div class="input-group">
-                  <select id="serviceSelect">
-                    <option value="">Wybierz usługę</option>
-                    <option value="elewacja">Mycie elewacji</option>
-                    <option value="kostka">Kostka brukowa</option>
-                    <option value="dach">Mycie dachu</option>
-                    <option value="rynny">Czyszczenie rynien</option>
-                    <option value="graffiti">Usuwanie graffiti</option>
-                    <option value="impregnacja">Impregnacja</option>
-                    <option value="drzewa">Wycinka drzew</option>
-                    <option value="podnosnik">Podnośnik koszowy</option>
-                  </select>
-                  <label>Interesująca usługa</label>
-                </div>
-
-                <div class="input-group">
-                  <textarea id="message" rows="4" placeholder=" "></textarea>
-                  <label>Wiadomość</label>
-                </div>
-
-                <button type="submit" class="btn-primary w-full">
-                  <i class="fas fa-paper-plane"></i>
-                  Wyślij wiadomość
-                </button>
-
-                <div class="success-message mt-4 text-center" id="successMessage">
-                  Wiadomość została wysłana! Skontaktujemy się w ciągu 24h.
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <!-- Contact Info & Map -->
-          <div data-aos="fade-left" data-aos-delay="300">
-            <div class="space-y-8">
-              <!-- Contact Info -->
-              <div class="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 class="font-poppins font-semibold text-2xl mb-6">Dane kontaktowe</h3>
-
-                <div class="space-y-4">
-                  <div class="flex items-center">
-                    <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
-                      <i class="fas fa-map-marker-alt text-white"></i>
-                    </div>
-                    <div>
-                      <p class="font-semibold">Adres</p>
-                      <p class="text-gray-600">
-                        ul. Słoneczna 5
-                        <br />
-                        83-112 Lubiszewo Tczewskie
-                      </p>
-                    </div>
+              <div class="space-y-4">
+                <div class="flex items-center">
+                  <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-map-marker-alt text-white"></i>
                   </div>
-
-                  <div class="flex items-center">
-                    <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
-                      <i class="fas fa-phone text-white"></i>
-                    </div>
-                    <div>
-                      <p class="font-semibold">Telefon</p>
-                      <a href="tel:660376880" class="text-blue-600 hover:text-blue-800">660 376 880</a>
-                    </div>
+                  <div>
+                    <p class="font-semibold">Adres</p>
+                    <p class="text-gray-600">
+                      ul. Słoneczna 5
+                      <br />
+                      83-112 Lubiszewo Tczewskie
+                    </p>
                   </div>
+                </div>
 
-                  <div class="flex items-center">
-                    <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
-                      <i class="fas fa-envelope text-white"></i>
-                    </div>
-                    <div>
-                      <p class="font-semibold">Email</p>
-                      <a href="mailto:myciecisnieniowe.pomorskie@gmail.com" class="text-blue-600 hover:text-blue-800">
-                        myciecisnieniowe.pomorskie@gmail.com
-                      </a>
-                    </div>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-phone text-white"></i>
                   </div>
-
-                  <div class="flex items-center">
-                    <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
-                      <i class="fas fa-id-card text-white"></i>
-                    </div>
-                    <div>
-                      <p class="font-semibold">NIP</p>
-                      <p class="text-gray-600">7411412788</p>
-                    </div>
+                  <div>
+                    <p class="font-semibold">Telefon</p>
+                    <a href="tel:660376880" class="text-blue-600 hover:text-blue-800">660 376 880</a>
                   </div>
+                </div>
 
-                  <div class="flex items-center">
-                    <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
-                      <i class="fab fa-facebook text-white"></i>
-                    </div>
-                    <div>
-                      <p class="font-semibold">Facebook</p>
-                      <a
-                        href="https://www.facebook.com/people/Mycie-ci%C5%9Bnieniowe/100094771740929/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="text-blue-600 hover:text-blue-800">
-                        Znajdź nas na Facebooku
-                      </a>
-                    </div>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-envelope text-white"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Email</p>
+                    <a href="mailto:myciecisnieniowe.pomorskie@gmail.com" class="text-blue-600 hover:text-blue-800">
+                      myciecisnieniowe.pomorskie@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div class="flex items-center">
+                  <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
+                    <i class="fas fa-id-card text-white"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">NIP</p>
+                    <p class="text-gray-600">7411412788</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center">
+                  <div class="w-12 h-12 gradient-water rounded-full flex items-center justify-center mr-4">
+                    <i class="fab fa-facebook text-white"></i>
+                  </div>
+                  <div>
+                    <p class="font-semibold">Facebook</p>
+                    <a
+                      href="https://www.facebook.com/people/Mycie-ci%C5%9Bnieniowe/100094771740929/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="text-blue-600 hover:text-blue-800">
+                      Znajdź nas na Facebooku
+                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
 
+          <!--  Map -->
+          <div data-aos="fade-left" data-aos-delay="300">
+            <div class="space-y-8">
               <!-- Map -->
               <div class="bg-white p-4 rounded-2xl shadow-lg">
-                <div class="h-64 rounded-xl overflow-hidden">
+                <div class="rounded-xl overflow-hidden">
                   <iframe
                     width="100%"
                     height="100%"
