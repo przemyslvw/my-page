@@ -23,7 +23,7 @@ function scrollToSection(sectionId) {
 }
 
 // Navigation links - only handle desktop navigation
-document.querySelectorAll('nav .hidden.md\:flex a[href^="#"]').forEach((anchor) => {
+document.querySelectorAll('nav .hidden.md\\:flex a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
     const sectionId = this.getAttribute('href').substring(1);
