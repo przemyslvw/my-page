@@ -162,35 +162,36 @@ body {
   .gallery-item {
     aspect-ratio: 1/1;
   }
-  
+
   /* Mobile navigation styles */
   .navbar-sticky {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  
+
   .navbar-sticky .container {
     width: 100%;
     max-width: 100%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
-  
+
   .navbar-sticky img {
     max-height: 3.5rem;
     width: auto;
   }
-  
+
   .md\:hidden {
     display: block;
   }
-  
+
   .md\:flex {
     display: none;
   }
-  
+
   /* Ensure content doesn't overflow on small screens */
-  html, body {
+  html,
+  body {
     max-width: 100%;
     overflow-x: hidden;
   }
