@@ -722,8 +722,113 @@
       </div>
     </section>
 
-    <!-- Price Calculator -->
-    <section id="calculator" class="py-44 gradient-water-light">
+    <!-- Cennik -->
+    <section id="pricing" class="py-44 gradient-water-light">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
+            Cennik usług
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            Sprawdź nasze konkurencyjne ceny na usługi mycia ciśnieniowego
+          </p>
+        </div>
+
+        <div
+          class="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-8 md:p-12"
+          data-aos="fade-up"
+          data-aos-delay="300">
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Dachy</h3>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex justify-between">
+                  <span>Mycie dachu</span>
+                  <span class="font-semibold">od 11 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Mycie chemiczne dachu</span>
+                  <span class="font-semibold">od 13 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Impregnacja dachówki</span>
+                  <span class="font-semibold">od 15 zł / m²</span>
+                </li>
+              </ul>
+
+              <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Kostka brukowa</h3>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex justify-between">
+                  <span>Mycie kostki brukowej</span>
+                  <span class="font-semibold">od 9 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Mycie chemiczne kostki brukowej</span>
+                  <span class="font-semibold">od 11 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Impregnacja kostki brukowej</span>
+                  <span class="font-semibold">od 15 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Usuwanie plam i odgrzybianie powierzchni</span>
+                  <span class="font-semibold">od 20 zł / m²</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Elewacje</h3>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex justify-between">
+                  <span>Mycie elewacji</span>
+                  <span class="font-semibold">od 8 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Mycie chemiczne elewacji</span>
+                  <span class="font-semibold">od 12 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Impregnacja elewacji</span>
+                  <span class="font-semibold">od 15 zł / m²</span>
+                </li>
+              </ul>
+
+              <h3 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Tarasy</h3>
+              <ul class="space-y-3 text-gray-700">
+                <li class="flex justify-between">
+                  <span>Mycie tarasów</span>
+                  <span class="font-semibold">od 10 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Mycie chemiczne tarasów</span>
+                  <span class="font-semibold">od 12 zł / m²</span>
+                </li>
+                <li class="flex justify-between">
+                  <span>Impregnacja tarasów</span>
+                  <span class="font-semibold">od 15 zł / m²</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-12 text-center">
+            <p class="text-gray-600 mb-6">
+              <strong>Ceny netto (bez podatku)</strong>
+              są cenami poglądowymi za metr kwadratowy (m²), zależnymi od rodzaju zabrudzonej powierzchni.
+            </p>
+            <p class="text-red-600 font-bold text-lg mb-8">Zadzwoń i umów się na indywidualną wycenę.</p>
+            <a href="tel:660376880" class="btn-primary text-lg px-8 py-3 inline-flex items-center">
+              <i class="fas fa-phone-alt mr-2"></i>
+              Zadzwoń po wycenę
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calculator Section -->
+    <section id="calculator" class="py-44 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -740,19 +845,32 @@
               <div class="input-group">
                 <select id="serviceType" onchange="calculatePrice()">
                   <option value="">Wybierz usługę</option>
-                  <option value="elewacja" data-price="15">Mycie elewacji (15 zł/m²)</option>
-                  <option value="kostka" data-price="8">Kostka brukowa (8 zł/m²)</option>
-                  <option value="dach" data-price="12">Mycie dachu (12 zł/m²)</option>
-                  <option value="rynny" data-price="10">Czyszczenie rynien (10 zł/mb)</option>
-                  <option value="graffiti" data-price="25">Usuwanie graffiti (25 zł/m²)</option>
-                  <option value="impregnacja" data-price="8">Impregnacja (8 zł/m²)</option>
+                  <!-- Dachy -->
+                  <option value="dach" data-price="11">Mycie dachu (od 11 zł/m²)</option>
+                  <option value="dach-chem" data-price="13">Mycie chemiczne dachu (od 13 zł/m²)</option>
+                  <option value="dach-impregnacja" data-price="15">Impregnacja dachówki (od 15 zł/m²)</option>
+                  <!-- Kostka brukowa -->
+                  <option value="kostka" data-price="9">Mycie kostki brukowej (od 9 zł/m²)</option>
+                  <option value="kostka-chem" data-price="11">Mycie chemiczne kostki (od 11 zł/m²)</option>
+                  <option value="kostka-impregnacja" data-price="15">Impregnacja kostki (od 15 zł/m²)</option>
+                  <option value="kostka-odgrzybianie" data-price="20">
+                    Usuwanie plam i odgrzybianie (od 20 zł/m²)
+                  </option>
+                  <!-- Elewacje -->
+                  <option value="elewacja" data-price="8">Mycie elewacji (od 8 zł/m²)</option>
+                  <option value="elewacja-chem" data-price="12">Mycie chemiczne elewacji (od 12 zł/m²)</option>
+                  <option value="elewacja-impregnacja" data-price="15">Impregnacja elewacji (od 15 zł/m²)</option>
+                  <!-- Tarasy -->
+                  <option value="taras" data-price="10">Mycie tarasów (od 10 zł/m²)</option>
+                  <option value="taras-chem" data-price="12">Mycie chemiczne tarasów (od 12 zł/m²)</option>
+                  <option value="taras-impregnacja" data-price="15">Impregnacja tarasów (od 15 zł/m²)</option>
                 </select>
                 <label>Rodzaj usługi</label>
               </div>
 
               <div class="input-group">
-                <input type="number" id="area" placeholder=" " oninput="calculatePrice()" />
-                <label>Powierzchnia (m² lub mb)</label>
+                <input type="number" id="area" placeholder=" " oninput="calculatePrice()" min="1" step="1" />
+                <label>Powierzchnia (m²)</label>
               </div>
             </div>
 
