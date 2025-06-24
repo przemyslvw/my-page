@@ -68,7 +68,9 @@
           <i class="fas fa-bars text-xl"></i>
         </button>
         <!-- Mobile menu -->
-        <div id="mobile-menu" class="fixed inset-0 bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden">
+        <div
+          id="mobile-menu"
+          class="fixed inset-0 bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out md:hidden">
           <div class="flex justify-between items-center p-4 border-b">
             <img src="img/logo.png" alt="Mycie Ciśnieniowe" class="h-12 w-auto" />
             <button id="close-mobile-menu" class="text-gray-600 hover:text-gray-900 focus:outline-none">
@@ -76,12 +78,42 @@
             </button>
           </div>
           <div class="p-4 space-y-4">
-            <a href="#home" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Strona główna</a>
-            <a href="#services" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Usługi</a>
-            <a href="#gallery" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Galeria</a>
-            <a href="#calculator" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Kalkulator</a>
-            <a href="#testimonials" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Opinie</a>
-            <a href="#contact" class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors" onclick="closeMobileMenu()">Kontakt</a>
+            <a
+              href="#home"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Strona główna
+            </a>
+            <a
+              href="#services"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Usługi
+            </a>
+            <a
+              href="#gallery"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Galeria
+            </a>
+            <a
+              href="#calculator"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Kalkulator
+            </a>
+            <a
+              href="#testimonials"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Opinie
+            </a>
+            <a
+              href="#contact"
+              class="block py-3 px-4 rounded-lg hover:bg-gray-100 transition-colors"
+              onclick="closeMobileMenu()">
+              Kontakt
+            </a>
           </div>
         </div>
       </div>
@@ -117,7 +149,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-44 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -177,7 +209,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 gradient-water-light">
+    <section id="services" class="py-44 gradient-water-light">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -270,99 +302,8 @@
       </div>
     </section>
 
-    <!-- Before/After Gallery -->
-    <section id="gallery" class="py-20 bg-white">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-16">
-          <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
-            Zobacz efekty naszej pracy
-          </h2>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
-            Porównaj stan przed i po naszym profesjonalnym czyszczeniu
-          </p>
-        </div>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div
-            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
-            data-aos="fade-up"
-            data-aos-delay="100">
-            <div
-              class="before-img w-full h-full bg-cover bg-center"
-              style="background-image: url('img/elewacjaprzed.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">elewacja</p>
-                </div>
-              </div>
-            </div>
-            <div
-              class="after-img w-full h-full bg-cover bg-center"
-              style="background-image: url('img/elewacjapo.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">elewacja</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
-            data-aos="fade-up"
-            data-aos-delay="200">
-            <div
-              class="before-img w-full h-full bg-cover bg-center"
-              style="background-image: url('img/kostkaprzed.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">kostka</p>
-                </div>
-              </div>
-            </div>
-            <div class="after-img w-full h-full bg-cover bg-center" style="background-image: url('img/kostkapo.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">kostka</p>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="slider-handle"></div> -->
-          </div>
-
-          <div
-            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
-            data-aos="fade-up"
-            data-aos-delay="300">
-            <div
-              class="before-img w-full h-full bg-cover bg-center"
-              style="background-image: url('img/mechprzed.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">Dach</p>
-                </div>
-              </div>
-            </div>
-            <div class="after-img w-full h-full bg-cover bg-center" style="background-image: url('img/mechpo.jpeg')">
-              <div class="w-full h-full flex items-center justify-center">
-                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
-                  <p class="font-semibold text-lg"></p>
-                  <p class="text-sm">Dach</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Photo Gallery -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-44 bg-gray-50">
       <div class="container mx-auto px-4">
         <div class="text-center mb-12">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -689,8 +630,98 @@
       </div>
     </section>
 
+    <section id="gallery" class="py-44 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
+            Zobacz efekty naszej pracy
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            Porównaj stan przed i po naszym profesjonalnym czyszczeniu
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
+            data-aos="fade-up"
+            data-aos-delay="100">
+            <div
+              class="before-img w-full h-full bg-cover bg-center"
+              style="background-image: url('img/elewacjaprzed.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">elewacja</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="after-img w-full h-full bg-cover bg-center"
+              style="background-image: url('img/elewacjapo.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">elewacja</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
+            data-aos="fade-up"
+            data-aos-delay="200">
+            <div
+              class="before-img w-full h-full bg-cover bg-center"
+              style="background-image: url('img/kostkaprzed.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">kostka</p>
+                </div>
+              </div>
+            </div>
+            <div class="after-img w-full h-full bg-cover bg-center" style="background-image: url('img/kostkapo.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">kostka</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="slider-handle"></div> -->
+          </div>
+
+          <div
+            class="before-after-slider rounded-2xl overflow-hidden h-64 relative"
+            data-aos="fade-up"
+            data-aos-delay="300">
+            <div
+              class="before-img w-full h-full bg-cover bg-center"
+              style="background-image: url('img/mechprzed.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-gray-800 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">Dach</p>
+                </div>
+              </div>
+            </div>
+            <div class="after-img w-full h-full bg-cover bg-center" style="background-image: url('img/mechpo.jpeg')">
+              <div class="w-full h-full flex items-center justify-center">
+                <div class="text-center text-white bg-green-700 bg-opacity-90 px-4 py-2 rounded-lg">
+                  <p class="font-semibold text-lg"></p>
+                  <p class="text-sm">Dach</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Price Calculator -->
-    <section id="calculator" class="py-20 gradient-water-light">
+    <section id="calculator" class="py-44 gradient-water-light">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -743,7 +774,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials" class="py-20 bg-white">
+    <section id="testimonials" class="py-44 bg-white">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -829,7 +860,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 gradient-water-light">
+    <section id="contact" class="py-44 gradient-water-light">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h2 class="font-poppins font-bold text-4xl md:text-5xl text-gray-800 mb-4" data-aos="fade-up">
@@ -1114,7 +1145,6 @@
           mobileMenu.classList.add('-translate-x-full');
           document.body.style.overflow = '';
         }
-
 
         mobileMenuButton.addEventListener('click', toggleMobileMenu);
         closeMobileMenuButton.addEventListener('click', closeMobileMenu);
