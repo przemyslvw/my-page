@@ -2,8 +2,6 @@
 sidebar_position: 0
 ---
 
-## Intro
-
 **MAJDAK.ONLINE** to przestrzeń dla osób, które chcą nie tylko podążać za technologią — ale ją rozumieć, wykorzystywać i budować z niej przewagę.
 
 Publikujemy **praktyczne poradniki**, **analizy**, **case studies** i **narzędzia**, które pomagają rozwijać się w obszarach cyberbezpieczeństwa, programowania, automatyzacji i tworzenia aplikacji internetowych. Jeśli zależy Ci na sprawdzonych rozwiązaniach, a nie pustych hasłach — jesteś we właściwym miejscu.
