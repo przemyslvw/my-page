@@ -1,0 +1,325 @@
+/**
+ * Wsparcie page styles
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #2b5876 0%, #4e4376 100%);
+  color: white;
+}
+
+.mainContainer {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.wsparcieContent {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.wsparcieContent h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.wsparcieContent h3 {
+  color: var(--ifm-color-primary);
+  margin: 2rem 0 1rem;
+}
+
+.wsparcieContent p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.wsparcieContent ul {
+  text-align: left;
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.wsparcieContent li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}
+
+.donationMethods {
+  margin: 3rem 0;
+}
+
+.methodsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.methodCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.methodCard h4 {
+  color: var(--ifm-color-primary);
+  margin: 1rem 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.methodCard p {
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.methodIcon {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.methodCard:hover .methodIcon {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.methodCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.buttonContainer {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.coffeeButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2a2a2a;
+  background: linear-gradient(90deg, #00cfff 0%, #ffbf00 100%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.coffeeButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+.coffeeIcon {
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+.bankDetails {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.blikNumber {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: var(--ifm-color-primary);
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: var(--ifm-background-surface-color);
+  border-radius: 6px;
+  text-align: center;
+  font-family: monospace;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.note {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 1rem 0 0;
+  line-height: 1.5;
+}
+
+.coffeeAlternative {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thankYou {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+.thankYou h3 {
+  color: var(--ifm-color-primary);
+  margin-top: 0;
+}
+
+/* Buy Me a Coffee Widget */
+.coffeeWidget {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.coffeeWidgetHeader {
+  box-sizing: border-box;
+  padding: 11px;
+  border-radius: 16px;
+  width: 100%;
+  color: #000000de;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.coffeeWidgetHeader h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  color: #000000de;
+}
+
+.coffeeSizes {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.coffeeSizeButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border-radius: 16px;
+  box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000de;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.coffeeSizeButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #000000de;
+  text-decoration: none;
+}
+
+.coffeeIcon {
+  width: 28px;
+  height: 28px;
+  margin-bottom: 8px;
+}
+
+.coffeeSizeButton span {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .methodsGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .methodCard {
+    padding: 1.5rem;
+  }
+
+  .methodIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+  }
+
+  .methodCard h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroBanner {
+    padding: 3rem 0;
+  }
+
+  .mainContainer {
+    padding: 2rem 0;
+  }
+
+  .methodCard {
+    padding: 1.5rem;
+  }
+
+  .coffeeSizes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffeeSizeButton {
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 12px 16px;
+    gap: 12px;
+  }
+
+  .coffeeIcon {
+    margin-bottom: 0;
+    width: 24px;
+    height: 24px;
+  }
+}

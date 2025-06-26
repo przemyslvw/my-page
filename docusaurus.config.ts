@@ -70,8 +70,7 @@ const config: Config = {
     metadata: [
       {
         name: 'description',
-        content:
-          'MAJDAK.ONLINE — centrum wiedzy o bezpieczeństwie IT, automatyzacji i nowych technologiach.',
+        content: 'MAJDAK.ONLINE — centrum wiedzy o bezpieczeństwie IT, automatyzacji i nowych technologiach.',
       },
       {
         name: 'keywords',
@@ -96,6 +95,12 @@ const config: Config = {
         { to: '/automatyzacja', label: 'Automatyzacja', position: 'left' },
         { to: '/contact', label: 'Kontakt', position: 'left' },
         {
+          to: '/wsparcie',
+          label: 'Doceń naszą pracę',
+          position: 'right',
+          className: 'wsparcie-button',
+        },
+        {
           href: 'https://github.com/przemyslvw',
           label: 'GitHub',
           position: 'right',
@@ -109,8 +114,24 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'OWASP top 10',
+              to: '/docs/category/owasp-top-10--testy-penetracyjne-aplikacji-webowych',
+            },
+            {
+              label: 'Kurs Security Engineer',
+              to: '/docs/category/kurs-security-engineer',
+            },
+            {
+              label: 'Kurs Kali Linux',
+              to: '/docs/category/kali-linux--testy-penetracyjne-aplikacji-webowych',
+            },
+            {
+              label: 'ISO27002',
+              to: '/docs/category/dokumentacja---iso27002',
+            },
+            {
+              label: 'ISO27001',
+              to: '/docs/category/dokumentacja---iso27001',
             },
           ],
         },
@@ -153,6 +174,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/przemyslvw',
+            },
+            {
+              label: 'Doceń naszą pracę',
+              to: '/wsparcie',
             },
           ],
         },

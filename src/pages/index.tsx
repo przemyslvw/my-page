@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import BuyMeACoffee from '@site/src/components/BuyMeACoffee';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
@@ -52,6 +53,7 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <BuyMeACoffee />
       </main>
     </Layout>
   );
