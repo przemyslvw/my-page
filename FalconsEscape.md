@@ -2,14 +2,14 @@
 
 ## Overview
 
-FalconsEscape is a 2D browser-based platformer game where players control a falcon navigating through various levels, avoiding obstacles, and collecting power-ups. Built with Angular 17+ and Firebase for real-time game state synchronization, the game features both single-player and multiplayer modes.
+FalconsEscape is a 2D browser-based platformer game where players control a falcon navigating through various levels, avoiding obstacles, and collecting power-ups. Built with Angular 18+ and Firebase for real-time game state synchronization, the game features both single-player and multiplayer modes.
 
 ## Technical Stack
 
 ### Core Technologies
 
-- **Frontend Framework**: Angular 17+
-- **Language**: TypeScript 5.2+
+- **Frontend Framework**: Angular 18+
+- **Language**: TypeScript 5.4+
 - **Game Engine**: HTML5 Canvas with custom engine integrated with Angular
 - **State Management**: NgRx (for complex state) / Signals (for component state)
 - **Backend**: Firebase (Firestore, Authentication, Hosting, Cloud Functions)
@@ -221,7 +221,7 @@ export class GameSessionService {
 
 ### Phase 1: Core Game Setup
 
-- [ ] Set up Angular 17+ project with standalone components
+- [ ] Set up Angular 18+ project with standalone components
 - [ ] Configure Firebase with AngularFire
 - [ ] Implement basic game loop with Signals
 - [ ] Create canvas rendering system
@@ -254,12 +254,13 @@ export class GameSessionService {
 npm install -g @angular/cli@latest
 
 # Create new Angular project with routing and SCSS
-ng new falcons-escape --standalone --routing --style=scss
+ng new falcons-escape --standalone --routing --style=scss --skip-tests
 
 # Install dependencies
 cd falcons-escape
-ng add @angular/fire
-npm install @angular/material @angular/cdk
+ng add @angular/fire@latest
+ng add @angular/material@latest
+npm install @angular/cdk@latest
 
 # Start development server
 ng serve
