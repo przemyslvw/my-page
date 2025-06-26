@@ -4,10 +4,41 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Tue, 24 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Policja aresztowała hackerów BreachForums! Czy to koniec znanego forum cyberprzestępców?]]></title>
+            <link>https://www.majdak.online/blog/news-2025-06-26</link>
+            <guid>https://www.majdak.online/blog/news-2025-06-26</guid>
+            <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ostatnie informacje z sektora cyberbezpieczeństwa wskazują na rosnące zagrożenia ze strony zaawansowanych grup hakerskich oraz krytyczne luki w najpopularniejszych systemach i narzędziach. Szczególnie niepokojąca jest eskalacja ataków oraz wykorzystywanie nowoczesnych technologii, takich jak sztuczna inteligencja, przez cyberprzestępców.]]></description>
+            <content:encoded><![CDATA[<p>Ostatnie informacje z sektora cyberbezpieczeństwa wskazują na rosnące zagrożenia ze strony zaawansowanych grup hakerskich oraz krytyczne luki w najpopularniejszych systemach i narzędziach. Szczególnie niepokojąca jest eskalacja ataków oraz wykorzystywanie nowoczesnych technologii, takich jak sztuczna inteligencja, przez cyberprzestępców.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczne-luki-w-systemach-i-nowoczesne-ataki">Krytyczne luki w systemach i nowoczesne ataki<a href="https://www.majdak.online/blog/news-2025-06-26#krytyczne-luki-w-systemach-i-nowoczesne-ataki" class="hash-link" aria-label="Bezpośredni link do Krytyczne luki w systemach i nowoczesne ataki" title="Bezpośredni link do Krytyczne luki w systemach i nowoczesne ataki">​</a></h3>
+<p>Wczoraj ujawniono poważne podatności w systemie Cisco ISE oraz w popularnym registry Open VSX, które mogą pozwolić atakującym na przejęcie kontroli nad sieciami i rozprowadzanie złośliwego oprogramowania.</p>
+<p>Jednocześnie, cyberprzestępcy coraz częściej korzystają z narzędzi open-source, takich jak pakiety npm, aby atakować instytucje finansowe w Afryce. Te zaawansowane operacje są wspierane przez grupy powiązane z Koreą Północną, które ukrywają się pod kryptonimem 'Contagious Interview'.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-metody-ataków-i-ewolucja-technik-cyberprzestępców">Nowoczesne metody ataków i ewolucja technik cyberprzestępców<a href="https://www.majdak.online/blog/news-2025-06-26#nowoczesne-metody-atak%C3%B3w-i-ewolucja-technik-cyberprzest%C4%99pc%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Nowoczesne metody ataków i ewolucja technik cyberprzestępców" title="Bezpośredni link do Nowoczesne metody ataków i ewolucja technik cyberprzestępców">​</a></h3>
+<p>Przemysłowe rozwiązania, takie jak Microsoft ClickOnce, są wykorzystywane przez cyberatakowców do ukrywania złośliwego kodu, a rozbudowana dezinformacja i fake wywiady poprzez pakiety npm zwiększają ryzyko infekcji. Z kolei, zaawansowane ataki na dostawców usług chmurowych i infrastruktury krytycznej, takie jak wypadki w Brother i SAP, pokazują, jak poważne są konsekwencje braku odpowiednich zabezpieczeń.</p>
+<p>Eksperci ostrzegają, że zjawisko jailbroken AI, używane przez cyberprzestępców do tworzenia lepiej ukrytych kampanii, może wywołać nową falę zagrożeń, a samo AI zaczyna odgrywać podwójną rolę - zarówno jako narzędzie ataku, jak i obrony.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwój-narzędzi-i-kampanie-cyberprzestępcze">Rozwój narzędzi i kampanie cyberprzestępcze<a href="https://www.majdak.online/blog/news-2025-06-26#rozw%C3%B3j-narz%C4%99dzi-i-kampanie-cyberprzest%C4%99pcze" class="hash-link" aria-label="Bezpośredni link do Rozwój narzędzi i kampanie cyberprzestępcze" title="Bezpośredni link do Rozwój narzędzi i kampanie cyberprzestępcze">​</a></h3>
+<p>Cyberprzestępcy coraz częściej wykorzystują legalne mechanizmy, takie jak Microsoft ClickOnce, do ukrywania złośliwego oprogramowania i prowadzenia ukrytych operacji na dużą skalę.</p>
+<p>Kampanie typu 'Contagious Interview' od Korei Północnej pokazują, jak malware i złośliwe biblioteki npm są wykorzystywane do infekowania deweloperów, co zagraża infrastrukturze krytycznej.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="poważne-luki-w-zabezpieczeniach-kluczowych-systemów">Poważne luki w zabezpieczeniach kluczowych systemów<a href="https://www.majdak.online/blog/news-2025-06-26#powa%C5%BCne-luki-w-zabezpieczeniach-kluczowych-system%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Poważne luki w zabezpieczeniach kluczowych systemów" title="Bezpośredni link do Poważne luki w zabezpieczeniach kluczowych systemów">​</a></h3>
+<p>Wiadomo o krytycznych podatnościach w Cisco ISE, NetScaler, SAP GUI i innych systemach, które umożliwiają atakującym pełną kontrolę nad sieciami i systemami ofiar.</p>
+<p>Aktywnie wykorzystywane w atakach w terenie, te luki stanowią ogromne zagrożenie dla infrastruktury chmurowej i lokalnej.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problemy-związane-z-bezpieczeństwem-i-prywatnością-użytkowników">Problemy związane z bezpieczeństwem i prywatnością użytkowników<a href="https://www.majdak.online/blog/news-2025-06-26#problemy-zwi%C4%85zane-z-bezpiecze%C5%84stwem-i-prywatno%C5%9Bci%C4%85-u%C5%BCytkownik%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Problemy związane z bezpieczeństwem i prywatnością użytkowników" title="Bezpośredni link do Problemy związane z bezpieczeństwem i prywatnością użytkowników">​</a></h3>
+<p>Badania pokazują, że wiele urządzeń, w tym drukarki Brother i Fujifilm, Toshiba, Konica Minolta, ma domyślne hasła administratora, które mogą być generowane zdalnie przez atakujących.</p>
+<p>Ponadto, usługi takie jak Microsoft Family Safety blokują dostęp do popularnych przeglądarek, co wywołuje kontrowersje i pytania o balans między bezpieczeństwem a wygodą.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-geopolityczne-i-ich-wpływ-na-cyberwojnę">Zagrożenia geopolityczne i ich wpływ na cyberwojnę<a href="https://www.majdak.online/blog/news-2025-06-26#zagro%C5%BCenia-geopolityczne-i-ich-wp%C5%82yw-na-cyberwojn%C4%99" class="hash-link" aria-label="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę" title="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę">​</a></h3>
+<p>Współczesne konflikty międzynarodowe coraz częściej przenikają do przestrzeni cybernetycznej, wymuszając na instytucjach i firmach wzmożoną czujność oraz przygotowanie na ataki o skali globalnej.</p>
+<p>Tymczasem, działania grup takich jak Charming Kitten czy Cyber Fattah pokazują, jak państwa wykorzystują cybertechnologie do szpiegowania i operacji informacyjnych.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[U.S. Kongres zakazuje WhatsApp na oficjalnych urządzeniach z powodu poważnych zagrożeń bezpieczeństwa!]]></title>
             <link>https://www.majdak.online/blog/news-2025-06-24</link>
@@ -632,37 +663,6 @@
 <p>Automatyzacja procesów, jak w przypadku MIND czy F5, oraz rosnące zastosowanie sztucznej inteligencji, wymuszają rozwijanie coraz bardziej zaawansowanych technik ochrony. Z kolei rosnąca liczba luk w popularnych rozszerzeniach Chrome czy systemach operacyjnych wymusza na specjalistach szybkie i skuteczne reakcje.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="wyzwania-prawne-i-regulacyjne">Wyzwania prawne i regulacyjne<a href="https://www.majdak.online/blog/news-2025-06-06#wyzwania-prawne-i-regulacyjne" class="hash-link" aria-label="Bezpośredni link do Wyzwania prawne i regulacyjne" title="Bezpośredni link do Wyzwania prawne i regulacyjne">​</a></h3>
 <p>W obliczu niezwykle dynamicznych zmian technologicznych, takich jak nadchodzące modele AI od OpenAI czy plany regulacyjne w Stanach Zjednoczonych, konieczne jest wypracowanie skutecznych i adaptacyjnych ram prawnych. Tylko to pozwoli na skuteczne i etyczne wykorzystanie nowych technologii.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Meta i Google pod lupą hakerów: czy Twoje dane są naprawdę bezpieczne?!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-05</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-05</guid>
-            <pubDate>Thu, 05 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[W dobie rosnącej ilości cyberataków, największe firmy technologiczne muszą zmierzyć się z poważnymi wyzwaniami w zabezpieczaniu danych użytkowników. Oto najnowsze trendy i zagrożenia, które mogą wpłynąć na Twoje bezpieczeństwo w sieci.]]></description>
-            <content:encoded><![CDATA[<p>W dobie rosnącej ilości cyberataków, największe firmy technologiczne muszą zmierzyć się z poważnymi wyzwaniami w zabezpieczaniu danych użytkowników. Oto najnowsze trendy i zagrożenia, które mogą wpłynąć na Twoje bezpieczeństwo w sieci.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="meta-i-google-pod-lupą-hakerów-czy-twoje-dane-są-naprawdę-bezpieczne">Meta i Google pod lupą hakerów: czy Twoje dane są naprawdę bezpieczne?<a href="https://www.majdak.online/blog/news-2025-06-05#meta-i-google-pod-lup%C4%85-haker%C3%B3w-czy-twoje-dane-s%C4%85-naprawd%C4%99-bezpieczne" class="hash-link" aria-label="Bezpośredni link do Meta i Google pod lupą hakerów: czy Twoje dane są naprawdę bezpieczne?" title="Bezpośredni link do Meta i Google pod lupą hakerów: czy Twoje dane są naprawdę bezpieczne?">​</a></h3>
-<p>Giganci technologiczni, takie jak Meta i Google, coraz częściej stają się celem złośliwych ataków, które mogą narazić miliony użytkowników na kradzież danych i inne zagrożenia.</p>
-<p>Najnowsze incydenty pokazują, że nawet największe platformy nie są odporne na wyrafinowane zagrożenia, co podkreśla potrzebę stałego monitorowania i ulepszania mechanizmów bezpieczeństwa.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="backdoored-open-source-malware-repositories-target-novice-cybercriminals">Backdoored Open Source Malware Repositories Target Novice Cybercriminals<a href="https://www.majdak.online/blog/news-2025-06-05#backdoored-open-source-malware-repositories-target-novice-cybercriminals" class="hash-link" aria-label="Bezpośredni link do Backdoored Open Source Malware Repositories Target Novice Cybercriminals" title="Bezpośredni link do Backdoored Open Source Malware Repositories Target Novice Cybercriminals">​</a></h3>
-<p>Złośliwi aktorzy tworzą backdoored open source repozytoria z malware, skierowane głównie do początkujących cyberprzestępców i graczy cheatujących w grach.</p>
-<p>Takie działania zwiększają ryzyko rozprzestrzeniania się złośliwego oprogramowania w społeczności deweloperów i użytkowników, podkreślając konieczność ostrożności przy korzystaniu z niezweryfikowanych źródeł.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="germany-fines-vodafone-51-million-for-privacy-and-security-violations">Germany Fines Vodafone $51 Million for Privacy and Security Violations<a href="https://www.majdak.online/blog/news-2025-06-05#germany-fines-vodafone-51-million-for-privacy-and-security-violations" class="hash-link" aria-label="Bezpośredni link do Germany Fines Vodafone $51 Million for Privacy and Security Violations" title="Bezpośredni link do Germany Fines Vodafone $51 Million for Privacy and Security Violations">​</a></h3>
-<p>Niemiecka agencja ochrony danych (BfDI) nałożyła na Vodafone GmbH karę w wysokości 45 milionów euro (ponad 51 milionów dolarów) za naruszenia prywatności i bezpieczeństwa.</p>
-<p>To jedno z największych tego typu sankcji w Europie, które pokazuje, jak poważnie traktowane są kwestie ochrony danych w sektorze telekomunikacyjnym, motywując firmy do zwiększenia standardów bezpieczeństwa.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="researchers-bypass-deepfake-detection-with-replay-attacks">Researchers Bypass Deepfake Detection With Replay Attacks<a href="https://www.majdak.online/blog/news-2025-06-05#researchers-bypass-deepfake-detection-with-replay-attacks" class="hash-link" aria-label="Bezpośredni link do Researchers Bypass Deepfake Detection With Replay Attacks" title="Bezpośredni link do Researchers Bypass Deepfake Detection With Replay Attacks">​</a></h3>
-<p>Międzynarodowy zespół naukowców wykazał, że odtwarzanie deepfake audio poprzez nagranie w tle pozwala na obejście systemów wykrywających fałszywe treści.</p>
-<p>To oznacza, że nowoczesne techniki oszustw cyfrowych wymagają jeszcze bardziej zaawansowanych metod weryfikacji autentyczności, co stawia wyzwania przed twórcami systemów bezpieczeństwa.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fbi-play-ransomware-breached-900-victims-including-critical-organizations">FBI: Play Ransomware Breached 900 Victims, Including Critical Organizations<a href="https://www.majdak.online/blog/news-2025-06-05#fbi-play-ransomware-breached-900-victims-including-critical-organizations" class="hash-link" aria-label="Bezpośredni link do FBI: Play Ransomware Breached 900 Victims, Including Critical Organizations" title="Bezpośredni link do FBI: Play Ransomware Breached 900 Victims, Including Critical Organizations">​</a></h3>
-<p>Grupa ransomware Play zaatakowała około 900 organizacji, według najnowszych danych FBI, co stanowi trzy razy więcej ofiar niż w 2023 roku.</p>
-<p>Coraz bardziej agresywna działalność cyberprzestępców wymusza na służbach bezpieczeństwa coraz szybsze aktualizacje i reakcje, aby chronić kluczowe infrastruktury i firmy.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hacker-arrested-for-breaching-5000-hosting-accounts-to-mine-crypto">Hacker Arrested for Breaching 5,000 Hosting Accounts to Mine Crypto<a href="https://www.majdak.online/blog/news-2025-06-05#hacker-arrested-for-breaching-5000-hosting-accounts-to-mine-crypto" class="hash-link" aria-label="Bezpośredni link do Hacker Arrested for Breaching 5,000 Hosting Accounts to Mine Crypto" title="Bezpośredni link do Hacker Arrested for Breaching 5,000 Hosting Accounts to Mine Crypto">​</a></h3>
-<p>Ukraińska policja aresztowała 35-letniego hakera, który włamał się do 5000 kont hostingowych, aby wykorzystywać je do kopania kryptowalut, generując straty w wysokości 4,5 miliona dolarów.</p>
-<p>Ten przypadek przypomina, jak poważne konsekwencje mogą mieć niedoskonałości w zabezpieczeniach usług hostingowych i jak ważne jest wdrażanie skutecznych mechanizmów ochrony.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
