@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-06-26T00:00:00.000Z</updated>
+    <updated>2025-06-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hakerzy z Microsoft Copilot wyciekają dane bez ingerencji użytkowników - zagrożenie na skalę krytyczną!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-30</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-30"/>
+        <updated>2025-06-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nowe odkrycie w świecie cyberbezpieczeństwa, które może mieć poważne konsekwencje dla firm korzystających z Microsoft 365 Copilot. To pierwsza podatność typu „zero-click”, która pozwala na wyciek poufnych danych bez żadnej ingerencji użytkownika.]]></summary>
+        <content type="html"><![CDATA[<p>Nowe odkrycie w świecie cyberbezpieczeństwa, które może mieć poważne konsekwencje dla firm korzystających z Microsoft 365 Copilot. To pierwsza podatność typu „zero-click”, która pozwala na wyciek poufnych danych bez żadnej ingerencji użytkownika.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczna-luka-w-microsoft-365-copilot">Krytyczna luka w Microsoft 365 Copilot<a href="https://www.majdak.online/blog/news-2025-06-30#krytyczna-luka-w-microsoft-365-copilot" class="hash-link" aria-label="Bezpośredni link do Krytyczna luka w Microsoft 365 Copilot" title="Bezpośredni link do Krytyczna luka w Microsoft 365 Copilot">​</a></h3>
+<p>Badacze z Aim Security ujawnili rewelacyjną podatność CVE-2025-32711, ocenioną na CVSS 9.3, oznaczającą poważne zagrożenie dla organizacji korzystających z tego narzędzia AI.</p>
+<p>Wystarczy wysłać spreparowanego maila, aby AI zostało zmuszone do wycieku danych, co stawia pod znakiem zapytania bezpieczeństwo szerokiej gamy usług opartych na sztucznej inteligencji firmy Microsoft.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-infrastrukturę-wywiadowczą-i-sektory-krytyczne">Ataki na infrastrukturę wywiadowczą i sektory krytyczne<a href="https://www.majdak.online/blog/news-2025-06-30#ataki-na-infrastruktur%C4%99-wywiadowcz%C4%85-i-sektory-krytyczne" class="hash-link" aria-label="Bezpośredni link do Ataki na infrastrukturę wywiadowczą i sektory krytyczne" title="Bezpośredni link do Ataki na infrastrukturę wywiadowczą i sektory krytyczne">​</a></h3>
+<p>U.S. agencies ostrzegają o rosnącej aktywności iranianów w cyberprzestrzeni, szczególnie wobec obronności, sieci OT i infrastruktur krytycznych. Zjawisko to może prowadzić do poważnych naruszeń bezpieczeństwa na poziomie międzynarodowym.</p>
+<p>Wzrost działań państwowych aktorów cybernetycznych wymaga od organów ścigania i firm zwiększonej czujności oraz wdrażania zaawansowanych środków obronnych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zwalczanie-globalnych-oszustw-finansowych">Zwalczanie globalnych oszustw finansowych<a href="https://www.majdak.online/blog/news-2025-06-30#zwalczanie-globalnych-oszustw-finansowych" class="hash-link" aria-label="Bezpośredni link do Zwalczanie globalnych oszustw finansowych" title="Bezpośredni link do Zwalczanie globalnych oszustw finansowych">​</a></h3>
+<p>Europol i lokalne służby zatrzymały pięciu podejrzanych w sprawie procederu prania pieniędzy i oszustw związanych z kryptowalutami na kwotę przekraczającą 540 milionów dolarów. To kolejny krok w globalnej walce z cyberprzestępczością finansową.</p>
+<p>Operacja ta ukazuje, jak zaawansowane i złożone są dzisiejsze schematy oszustw, które niszczą życie tysięcy ofiar na całym świecie.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-ze-strony-cyberprzestępców-na-tle-technologii-i-urządzeń">Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń<a href="https://www.majdak.online/blog/news-2025-06-30#zagro%C5%BCenia-ze-strony-cyberprzest%C4%99pc%C3%B3w-na-tle-technologii-i-urz%C4%85dze%C5%84" class="hash-link" aria-label="Bezpośredni link do Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń" title="Bezpośredni link do Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń">​</a></h3>
+<p>Hakerzy korzystają z usług bulletproof hosting Proton66 do ataków phishingowych i deployingu złośliwego oprogramowania na banki kolumbijskie, pokazując, jak ważne jest monitorowanie infrastruktury chmurowej i usług hostingowych.</p>
+<p>Vulnerabilities in Airoha Bluetooth chips mogą umożliwić nieautoryzowany dostęp do słuchawek i urządzeń połączonych, co stanowi poważne zagrożenie dla prywatności użytkowników.</p>
+<p>Tymczasem Google wypuszcza nową wersję Veo 3, sztucznej inteligencji do tworzenia wideo, co podkreśla dynamiczny rozwój technologii, ale także potrzebę zabezpieczenia nowych narzędzi.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podnoszenie-poziomu-bezpieczeństwa-i-reakcja-na-incydenty">Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty<a href="https://www.majdak.online/blog/news-2025-06-30#podnoszenie-poziomu-bezpiecze%C5%84stwa-i-reakcja-na-incydenty" class="hash-link" aria-label="Bezpośredni link do Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty" title="Bezpośredni link do Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty">​</a></h3>
+<p>Microsoft wprowadza automatyczne ochrony przed atakami typu email bombing, a także ostrzega o opóźnieniach w aktualizacjach Windows spowodowanych błędami metadanych, co podkreśla konieczność ciągłego monitorowania i szybkiej reakcji na pojawiające się problemy.</p>
+<p>Kraje takie jak Kanada czy Szwajcaria pośpiesznie reagują na zagrożenia, zamykając działalność firm czy usuwając aplikacje, które stanowią poważne ryzyko dla bezpieczeństwa narodowego.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Policja aresztowała hackerów BreachForums! Czy to koniec znanego forum cyberprzestępców?]]></title>
         <id>https://www.majdak.online/blog/news-2025-06-26</id>
@@ -708,36 +741,6 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-zagrożenie-pathwiper-atakuje-ukraińską-infrastrukturę-krytyczną">Najnowsze zagrożenie: PathWiper atakuje ukraińską infrastrukturę krytyczną<a href="https://www.majdak.online/blog/news-2025-06-07#najnowsze-zagro%C5%BCenie-pathwiper-atakuje-ukrai%C5%84sk%C4%85-infrastruktur%C4%99-krytyczn%C4%85" class="hash-link" aria-label="Bezpośredni link do Najnowsze zagrożenie: PathWiper atakuje ukraińską infrastrukturę krytyczną" title="Bezpośredni link do Najnowsze zagrożenie: PathWiper atakuje ukraińską infrastrukturę krytyczną">​</a></h3>
 <p>Nowy złośliwy program PathWiper, powiązany z rosyjskim hakerstwem, jest wykorzystywany do celowanych ataków na systemy krytyczne w Ukrainie, próbując zakłócić ich funkcjonowanie.</p>
 <p>To pierwszy raz, gdy malware tego typu zostało użyte w tak szerokim zakresie, pokazując rosnący poziom zagrożenia dla bezpieczeństwa regionalnego.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PathWiper - Najnowszy i najgroźniejszy malware, który atakuje ukraińską infrastrukturę krytyczną!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-06</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-06"/>
-        <updated>2025-06-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W dzisiejszym świecie cyberbezpieczeństwo to nie tylko technologia, ale również odpowiedzialność i szybka reakcja na zagrożenia. Najnowsze informacje pokazują, jak łatwo można narazić się na poważne ataki i jakie konsekwencje mogą z tego wyniknąć.]]></summary>
-        <content type="html"><![CDATA[<p>W dzisiejszym świecie cyberbezpieczeństwo to nie tylko technologia, ale również odpowiedzialność i szybka reakcja na zagrożenia. Najnowsze informacje pokazują, jak łatwo można narazić się na poważne ataki i jakie konsekwencje mogą z tego wyniknąć.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="topowy-atak-na-infrastrukturę-krytyczną-w-ukrainie">Topowy atak na infrastrukturę krytyczną w Ukrainie<a href="https://www.majdak.online/blog/news-2025-06-06#topowy-atak-na-infrastruktur%C4%99-krytyczn%C4%85-w-ukrainie" class="hash-link" aria-label="Bezpośredni link do Topowy atak na infrastrukturę krytyczną w Ukrainie" title="Bezpośredni link do Topowy atak na infrastrukturę krytyczną w Ukrainie">​</a></h3>
-<p>Najnowsze doniesienia z Cisco Talos ujawniają, że ukraińskie instytucje infrastruktury krytycznej padły ofiarą nowego, wyjątkowo groźnego malware o nazwie PathWiper.</p>
-<p>Atak ten miał na celu zakłócenie podstawowych funkcji państwowych i wywołać chaos w strategicznych sektorach, co pokazuje, jak poważne i niebezpieczne są dzisiejsze cyberzagrożenia dla globalnego bezpieczeństwa.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberzagrożenia-w-sektorze-zdrowia-i-telekomunikacji">Cyberzagrożenia w sektorze zdrowia i telekomunikacji<a href="https://www.majdak.online/blog/news-2025-06-06#cyberzagro%C5%BCenia-w-sektorze-zdrowia-i-telekomunikacji" class="hash-link" aria-label="Bezpośredni link do Cyberzagrożenia w sektorze zdrowia i telekomunikacji" title="Bezpośredni link do Cyberzagrożenia w sektorze zdrowia i telekomunikacji">​</a></h3>
-<p>Kolejne ataki na instytucje publiczne i firmy telekomunikacyjne podkreślają rosnącą skalę cyberataków na krytyczną infrastrukturę. Za przykład mogą posłużyć niedawne naruszenia u Kettering Health i Vodafone, które ujawniły poważne luki w zabezpieczeniach systemów ochrony danych osobowych i operacyjnych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-związane-z-malware-i-exploitami">Nowe zagrożenia związane z malware i exploitami<a href="https://www.majdak.online/blog/news-2025-06-06#nowe-zagro%C5%BCenia-zwi%C4%85zane-z-malware-i-exploitami" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia związane z malware i exploitami" title="Bezpośredni link do Nowe zagrożenia związane z malware i exploitami">​</a></h3>
-<p>Rozwój złośliwego oprogramowania, takiego jak PathWiper czy BadBox 2.0, pokazuje, że cyberprzestępcy coraz częściej kierują swoje ataki na krytyczne ugrupowania i urządzenia domowe. Eksploatacja luk w popularnych systemach, takich jak Fortinet czy Roundcube, wciąż pozostaje głównym narzędziem w rękach hakerów.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-ze-strony-cyberprzestępczości-i-grup-państwowych">Zagrożenia ze strony cyberprzestępczości i grup państwowych<a href="https://www.majdak.online/blog/news-2025-06-06#zagro%C5%BCenia-ze-strony-cyberprzest%C4%99pczo%C5%9Bci-i-grup-pa%C5%84stwowych" class="hash-link" aria-label="Bezpośredni link do Zagrożenia ze strony cyberprzestępczości i grup państwowych" title="Bezpośredni link do Zagrożenia ze strony cyberprzestępczości i grup państwowych">​</a></h3>
-<p>Szybkie rozwijanie się grup APT, takich jak Bitter czy BladedFeline, świadczy o rosnącym zaangażowaniu państw w cyberwojnę. Ataki te często mają wymiar szpiegowski i wywiadowczy, z kolei organizacje takie jak Qilin czy cyberkriminalne platformy, np. BidenCash, zagrażają stabilności cyfrowego świata na szeroką skalę.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-narzędzia-i-wyzwania-w-cyberbezpieczeństwie">Nowe narzędzia i wyzwania w cyberbezpieczeństwie<a href="https://www.majdak.online/blog/news-2025-06-06#nowe-narz%C4%99dzia-i-wyzwania-w-cyberbezpiecze%C5%84stwie" class="hash-link" aria-label="Bezpośredni link do Nowe narzędzia i wyzwania w cyberbezpieczeństwie" title="Bezpośredni link do Nowe narzędzia i wyzwania w cyberbezpieczeństwie">​</a></h3>
-<p>Automatyzacja procesów, jak w przypadku MIND czy F5, oraz rosnące zastosowanie sztucznej inteligencji, wymuszają rozwijanie coraz bardziej zaawansowanych technik ochrony. Z kolei rosnąca liczba luk w popularnych rozszerzeniach Chrome czy systemach operacyjnych wymusza na specjalistach szybkie i skuteczne reakcje.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wyzwania-prawne-i-regulacyjne">Wyzwania prawne i regulacyjne<a href="https://www.majdak.online/blog/news-2025-06-06#wyzwania-prawne-i-regulacyjne" class="hash-link" aria-label="Bezpośredni link do Wyzwania prawne i regulacyjne" title="Bezpośredni link do Wyzwania prawne i regulacyjne">​</a></h3>
-<p>W obliczu niezwykle dynamicznych zmian technologicznych, takich jak nadchodzące modele AI od OpenAI czy plany regulacyjne w Stanach Zjednoczonych, konieczne jest wypracowanie skutecznych i adaptacyjnych ram prawnych. Tylko to pozwoli na skuteczne i etyczne wykorzystanie nowych technologii.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
