@@ -1,7 +1,7 @@
 ---
 slug: 'zmodernizowane-shahed-136-nvidia-ai-crpa'
 title: 'Nowe Shahed-136 z AI i termowizją — Latające Drony Kamikadze Stają się Inteligentne!'
-authors: [dokozaurus]
+authors: [przemyslvw]
 tags: ['military', 'drony', 'communication', 'technologie']
 date: 2025-06-30
 ---
