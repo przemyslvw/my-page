@@ -4,10 +4,38 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Mon, 30 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Microsoft ujawnia lukę w Visual Studio Code, która umożliwia uruchomienie złośliwego kodu na komputerach deweloperów!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-07-01</link>
+            <guid>https://www.majdak.online/blog/news-2025-07-01</guid>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Najbardziej intrygującą informacją jest odkrycie luki w Model Context Protocol (MCP) firmy Anthropic, która umożliwia zdalne przejęcie kontroli nad systemami AI. To ostrzeżenie dla wszystkich osób i firm korzystających z technologii sztucznej inteligencji.]]></description>
+            <content:encoded><![CDATA[<p>Najbardziej intrygującą informacją jest odkrycie luki w Model Context Protocol (MCP) firmy Anthropic, która umożliwia zdalne przejęcie kontroli nad systemami AI. To ostrzeżenie dla wszystkich osób i firm korzystających z technologii sztucznej inteligencji.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="potężna-luka-w-systemie-ai-firmy-anthropic">Potężna luka w Systemie AI firmy Anthropic<a href="https://www.majdak.online/blog/news-2025-07-01#pot%C4%99%C5%BCna-luka-w-systemie-ai-firmy-anthropic" class="hash-link" aria-label="Bezpośredni link do Potężna luka w Systemie AI firmy Anthropic" title="Bezpośredni link do Potężna luka w Systemie AI firmy Anthropic">​</a></h3>
+<p>Najnowsze badania ujawniły krytyczną lukę bezpieczeństwa w Model Context Protocol (MCP) firmy Anthropic, która oznaczona została jako CVE-2025-49596 i uzyskała wysoką ocenę CVSS 9,4.</p>
+<p>Luka ta pozwala atakującym na zdalne wykonanie kodu (RCE), co daje pełny dostęp do hostowanych systemów AI. Taka podatność stanowi poważne zagrożenie dla firm i użytkowników korzystających z rozwiązań opartych na sztucznej inteligencji, podkreślając potrzebę natychmiastowych działań i aktualizacji systemów.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-zagrożenia-związane-z-technologiami-ai-i-ich-konsekwencje">Najnowsze zagrożenia związane z technologiami AI i ich konsekwencje<a href="https://www.majdak.online/blog/news-2025-07-01#najnowsze-zagro%C5%BCenia-zwi%C4%85zane-z-technologiami-ai-i-ich-konsekwencje" class="hash-link" aria-label="Bezpośredni link do Najnowsze zagrożenia związane z technologiami AI i ich konsekwencje" title="Bezpośredni link do Najnowsze zagrożenia związane z technologiami AI i ich konsekwencje">​</a></h3>
+<p>Oprócz głównej informacji o krytycznej luce w systemach AI Anthropic, pojawiły się nowe zagrożenia związane z atakami typu SEO poisoning, które wykorzystują popularność ChatGPT i Luma AI do rozprzestrzeniania malware, takich jak Lumma i Vidar.</p>
+<p>Ataki te mają na celu nie tylko infekowanie użytkowników, ale także wyłudzanie informacji i crypto stealerów, co zwiększa zagrożenie dla firm i indywidualnych użytkowników korzystających z wyszukiwarek internetowych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-ataków-i-ich-skala--ogromne-wyzwania-dla-zamknięcia-luk">Wzrost ataków i ich skala – ogromne wyzwania dla zamknięcia luk<a href="https://www.majdak.online/blog/news-2025-07-01#wzrost-atak%C3%B3w-i-ich-skala--ogromne-wyzwania-dla-zamkni%C4%99cia-luk" class="hash-link" aria-label="Bezpośredni link do Wzrost ataków i ich skala – ogromne wyzwania dla zamknięcia luk" title="Bezpośredni link do Wzrost ataków i ich skala – ogromne wyzwania dla zamknięcia luk">​</a></h3>
+<p>W ostatnich dniach odnotowano ponad 263 tys. dotkniętych danych pacjentów w wyniku cyberataku na firmę opiekuńczą Esse Health, a także poważne ataki na Citrix NetScaler, które pozostają niezałatane i narażone na wykorzystanie luk CVE-2025-5777 i CVE-2025-6543.</p>
+<p>Ten ciągły wzrost zagrożeń wymusza pilne działania na poziomie globalnych i lokalnych instytucji, które coraz częściej muszą reagować na coraz bardziej wyrafinowane i rozprzestrzeniające się ataki.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wpływ-na-instytucje-międzynarodowe-i-rządy">Wpływ na instytucje międzynarodowe i rządy<a href="https://www.majdak.online/blog/news-2025-07-01#wp%C5%82yw-na-instytucje-mi%C4%99dzynarodowe-i-rz%C4%85dy" class="hash-link" aria-label="Bezpośredni link do Wpływ na instytucje międzynarodowe i rządy" title="Bezpośredni link do Wpływ na instytucje międzynarodowe i rządy">​</a></h3>
+<p>Międzynarodowe organizacje, takie jak Międzynarodowy Trybunał Karny, padają ofiarą coraz bardziej zaawansowanych cyberataków, co wymusza zwiększony nadzór i poprawę cyberbezpieczeństwa.</p>
+<p>Ponadto, działania rządów, takie jak aresztowania i zamrożenia kont, odgrywają kluczową rolę w ograniczaniu cyberprzestępczości, szczególnie w przypadku zorganizowanych grup przestępczych i państwowych aktorów cybernetycznych.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-wyzwania-dla-firm-i-użytkowników-indywidualnych">Nowe wyzwania dla firm i użytkowników indywidualnych<a href="https://www.majdak.online/blog/news-2025-07-01#nowe-wyzwania-dla-firm-i-u%C5%BCytkownik%C3%B3w-indywidualnych" class="hash-link" aria-label="Bezpośredni link do Nowe wyzwania dla firm i użytkowników indywidualnych" title="Bezpośredni link do Nowe wyzwania dla firm i użytkowników indywidualnych">​</a></h3>
+<p>Wzrost zagrożeń związanych z urządzeniami Bluetooth, które mogą być użyte do podsłuchiwania, czy zagrożenia związane z botnetami i kampaniami phishingowymi, podkreślają konieczność aktualizacji zabezpieczeń i świadomego korzystania z technologii.</p>
+<p>Rozwój takich zagrożeń wymaga od firm i użytkowników ostrożności, edukacji i stosowania najnowszych rozwiązań zabezpieczających, aby minimalizować ryzyko utraty danych i prywatności.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Hakerzy z Microsoft Copilot wyciekają dane bez ingerencji użytkowników - zagrożenie na skalę krytyczną!]]></title>
             <link>https://www.majdak.online/blog/news-2025-06-30</link>
@@ -648,34 +676,6 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-dla-użytkowników-indywidualnych-i-przedsiębiorstw">Zagrożenia dla użytkowników indywidualnych i przedsiębiorstw<a href="https://www.majdak.online/blog/news-2025-06-09#zagro%C5%BCenia-dla-u%C5%BCytkownik%C3%B3w-indywidualnych-i-przedsi%C4%99biorstw" class="hash-link" aria-label="Bezpośredni link do Zagrożenia dla użytkowników indywidualnych i przedsiębiorstw" title="Bezpośredni link do Zagrożenia dla użytkowników indywidualnych i przedsiębiorstw">​</a></h3>
 <p>Złośliwe rozszerzenia przeglądarek i kampanie phishingowe coraz skuteczniej kradną dane uwierzytelniające, szczególnie na rynku amerykańsko-lateńskoamerykańskim, co wymaga zwiększonej czujności od użytkowników.</p>
 <p>Ponadto, masowe ataki zero-click na iPhone’y oraz zagrożenia związane z kryptowalutami i operacjami wykradania danych przypominają o konieczności stosowania najnowszych aktualizacji i silnych mechanizmów obronnych na poziomie urządzeń i aplikacji.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Meta i TikTok pod ostrzałem cyberprzestępców: jak chronić swoje dane na platformach społecznościowych?]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-08</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-08</guid>
-            <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cyberprzestępcy coraz częściej sięgają po złośliwe rozszerzenia do przeglądarek, które mogą zagrozić bezpieczeństwu tysięcy użytkowników. Kampanie te są szczególnie skuteczne, ponieważ korzystają z niedoskonałych zabezpieczeń platform, by wykradać dane uwierzytelniające i przejmować konta.]]></description>
-            <content:encoded><![CDATA[<p>Cyberprzestępcy coraz częściej sięgają po złośliwe rozszerzenia do przeglądarek, które mogą zagrozić bezpieczeństwu tysięcy użytkowników. Kampanie te są szczególnie skuteczne, ponieważ korzystają z niedoskonałych zabezpieczeń platform, by wykradać dane uwierzytelniające i przejmować konta.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="złośliwe-rozszerzenia-do-przeglądarek-carrefour-nowa-tańczące-z-niebezpieczeństwem">Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem<a href="https://www.majdak.online/blog/news-2025-06-08#z%C5%82o%C5%9Bliwe-rozszerzenia-do-przegl%C4%85darek-carrefour-nowa-ta%C5%84cz%C4%85ce-z-niebezpiecze%C5%84stwem" class="hash-link" aria-label="Bezpośredni link do Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem" title="Bezpośredni link do Złośliwe rozszerzenia do przeglądarek Carrefour Nowa Tańczące z Niebezpieczeństwem">​</a></h3>
-<p>Od początku 2025 roku badacze odnotowali wzrost liczby zainfekowanych użytkowników w Ameryce Łacińskiej, którzy korzystali z złośliwych rozszerzeń dla Chromium. Ataki te polegają na przechwytywaniu danych logowania i kierowaniu ofiar na fałszywe strony phishingowe.</p>
-<p>Podejrzewane rozszerzenia podszywają się pod legalne narzędzia, co czyni je trudniejszymi do wykrycia. Polańczając od czego to się zaczęło, ataki te pokazują, jak istotne jest zabezpieczenie przeglądarek i uważna kontrola instalowanych dodatków.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ryzyko-związanego-z-zaufanymi-pakietami-w-ekosystemie-npm-i-pypi">Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI<a href="https://www.majdak.online/blog/news-2025-06-08#ryzyko-zwi%C4%85zanego-z-zaufanymi-pakietami-w-ekosystemie-npm-i-pypi" class="hash-link" aria-label="Bezpośredni link do Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI" title="Bezpośredni link do Ryzyko związanego z zaufanymi pakietami w ekosystemie npm i PyPI">​</a></h3>
-<p>Cyberprzestępcy zaatakowali popularne pakiety w repozytorium npm, dodając złośliwy kod, który umożliwia ataki typu RAT, czyli remote access trojan.</p>
-<p>Ponad 950 000 pobrań tygodniowo i zaufanie społeczności sprawiły, że ten atak ma potencjał dotarcia do milionów użytkowników na całym świecie, co wymaga natychmiastowej reakcji i analizy.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="maskujące-się-z-narzędziami-złośliwe-pakiety-npm">Maskujące się z narzędziami złośliwe pakiety npm<a href="https://www.majdak.online/blog/news-2025-06-08#maskuj%C4%85ce-si%C4%99-z-narz%C4%99dziami-z%C5%82o%C5%9Bliwe-pakiety-npm" class="hash-link" aria-label="Bezpośredni link do Maskujące się z narzędziami złośliwe pakiety npm" title="Bezpośredni link do Maskujące się z narzędziami złośliwe pakiety npm">​</a></h3>
-<p>W ekosystemie npm odkryto dwa pakiety, które wyglądały na przydatne narzędzia, lecz w rzeczywistości były destrukcyjnymi wierszami poleceń usuwającymi całe katalogi projektów.</p>
-<p>Takie oszustwa pokazują, jak łatwo cyberprzestępcy mogą wykorzystać zaufanie deweloperów i spowodować poważne straty w projektach.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-infrastrukturę-serwerów-i-cyberprzestępcze-kampanie-na-szeroką-skalę">Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę<a href="https://www.majdak.online/blog/news-2025-06-08#ataki-na-infrastruktur%C4%99-serwer%C3%B3w-i-cyberprzest%C4%99pcze-kampanie-na-szerok%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę" title="Bezpośredni link do Ataki na infrastrukturę serwerów i cyberprzestępcze kampanie na szeroką skalę">​</a></h3>
-<p>Badacze z Positive Technologies ujawnili kampanię phishingową z wykorzystaniem zainfekowanych serwerów, które rozsyłały złośliwe rozszerzenia do przeglądarek w Brazylii od początku 2025 roku.</p>
-<p>Tego typu działania zwiększają ryzyko kradzieży danych logowania i stanowią poważne zagrożenie dla internautów na wielu poziomach.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowa-wersja-trojana-crocodilus-na-androida">Nowa wersja trojana Crocodilus na Androida<a href="https://www.majdak.online/blog/news-2025-06-08#nowa-wersja-trojana-crocodilus-na-androida" class="hash-link" aria-label="Bezpośredni link do Nowa wersja trojana Crocodilus na Androida" title="Bezpośredni link do Nowa wersja trojana Crocodilus na Androida">​</a></h3>
-<p>Trojan Crocodilus atakuje urządzenia z Androidem, omijając zabezpieczenia systemowe Android 13+, i dodaje kontakty w telefonie ofiary za pomocą technik overlay i zdalnego dostępu.</p>
-<p>Eksperci ostrzegają przed rozprzestrzenianiem się tego złośliwego oprogramowania, które może wyłudzać poufne dane i przejmować kontrolę nad smartfonami.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
