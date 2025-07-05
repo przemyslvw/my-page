@@ -4,10 +4,35 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Tue, 01 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Google oszukało użytkowników Androida – 314 milionów dolarów kary za wyciek danych!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-07-05</link>
+            <guid>https://www.majdak.online/blog/news-2025-07-05</guid>
+            <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Najnowszy wyciek danych z Telefónica wywołał lawinę spekulacji i obaw o bezpieczeństwo w sektorze telekomunikacyjnym. Haker zagroził ujawnieniem 106GB poufnych informacji, co może oznaczać poważny cios dla firmy i jej klientów.]]></description>
+            <content:encoded><![CDATA[<p>Najnowszy wyciek danych z Telefónica wywołał lawinę spekulacji i obaw o bezpieczeństwo w sektorze telekomunikacyjnym. Haker zagroził ujawnieniem 106GB poufnych informacji, co może oznaczać poważny cios dla firmy i jej klientów.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="atak-na-telefónica">Atak na Telefónica<a href="https://www.majdak.online/blog/news-2025-07-05#atak-na-telef%C3%B3nica" class="hash-link" aria-label="Bezpośredni link do Atak na Telefónica" title="Bezpośredni link do Atak na Telefónica">​</a></h3>
+<p>Haker grozi ujawnieniem 106GB danych, które rzekomo zostały wykradzione z hiszpańskiego operatora Telefónica, mimo że firma nie potwierdziła żadnych problemów bezpieczeństwa.</p>
+<p>Incydent pogłębia niepokój związany z zagrożeniami cybernetycznymi w branży telekomunikacyjnej, a brak oficjalnego komentarza tylko zwiększa niepewność i spekulacje o skali ataku.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-sektor-telekomunikacyjny">Ataki na sektor telekomunikacyjny<a href="https://www.majdak.online/blog/news-2025-07-05#ataki-na-sektor-telekomunikacyjny" class="hash-link" aria-label="Bezpośredni link do Ataki na sektor telekomunikacyjny" title="Bezpośredni link do Ataki na sektor telekomunikacyjny">​</a></h3>
+<p>Haker grozi ujawnieniem 106GB danych z Telefónica, choć firma nie potwierdziła naruszenia bezpieczeństwa, co podkreśla powagę sytuacji.</p>
+<p>Taki wyciek może mieć poważne konsekwencje dla prywatności użytkowników oraz stabilności operacji firmy na rynku międzynarodowym.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberatak-na-ingram-micro">Cyberatak na Ingram Micro<a href="https://www.majdak.online/blog/news-2025-07-05#cyberatak-na-ingram-micro" class="hash-link" aria-label="Bezpośredni link do Cyberatak na Ingram Micro" title="Bezpośredni link do Cyberatak na Ingram Micro">​</a></h3>
+<p>Globalna awaria w Ingram Micro wywołała obawy o możliwy cyberatak, ponieważ systemy firmy pozostają nieczynne, a brak oficjalnych informacji zwiększa niepokój wśród klientów.</p>
+<p>Sytuacja wymaga natychmiastowej reakcji i zabezpieczenia infrastruktury, aby zapobiec powtórzeniu się takiego incydentu.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="inne-ważne-wydarzenia">Inne ważne wydarzenia<a href="https://www.majdak.online/blog/news-2025-07-05#inne-wa%C5%BCne-wydarzenia" class="hash-link" aria-label="Bezpośredni link do Inne ważne wydarzenia" title="Bezpośredni link do Inne ważne wydarzenia">​</a></h3>
+<p>Haker zatrudniony przez kartel narkotykowy pomagał zidentyfikować informatorów FBI, co pokazuje coraz bardziej złożone relacje między cyberprzestępczością a zorganizowanymi grupami.</p>
+<p>Oprócz tego, wyrok dla rosyjskiego twórcy ransomware oraz śledztwo w sprawie negocjatora od ransomwere to kolejne przypadki, które podkreślają rosnące zagrożenia w cyberprzestrzeni.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Automatyzacja testów penetracyjnych i monitoringu logów dla aplikacji webowej]]></title>
             <link>https://www.majdak.online/blog/automatyzacja-pentestow</link>
@@ -828,45 +853,6 @@
             <category>Ataki</category>
             <category>Exploits</category>
             <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[🛡️ Kompletny przewodnik po roli Security Engineera – od narzędzi po przyszłość branży]]></title>
-            <link>https://www.majdak.online/blog/security-engineer-przewodnik-2025</link>
-            <guid>https://www.majdak.online/blog/security-engineer-przewodnik-2025</guid>
-            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Czas uporządkować chaos informacji o tym, czym naprawdę zajmuje się Security Engineer.]]></description>
-            <content:encoded><![CDATA[<p>Czas uporządkować chaos informacji o tym, czym naprawdę zajmuje się <strong>Security Engineer</strong>.</p>
-<p>Stworzyliśmy <strong>kompletny przewodnik</strong>, który krok po kroku pokazuje wszystkie kluczowe aspekty tej roli – zarówno od strony technicznej, jak i organizacyjnej.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-co-znajdziesz-w-przewodniku">📚 Co znajdziesz w przewodniku?<a href="https://www.majdak.online/blog/security-engineer-przewodnik-2025#-co-znajdziesz-w-przewodniku" class="hash-link" aria-label="Bezpośredni link do 📚 Co znajdziesz w przewodniku?" title="Bezpośredni link do 📚 Co znajdziesz w przewodniku?">​</a></h2>
-<ul>
-<li>Czym zajmuje się Security Engineer na co dzień</li>
-<li>Jak wygląda analiza logów, testy penetracyjne i zarządzanie incydentami</li>
-<li>Przegląd narzędzi: DevTools, Postman, Burp, SIEM, skanery podatności</li>
-<li>Automatyzacja i integracja bezpieczeństwa w DevSecOps</li>
-<li>Zgodność z ISO 27001, NIS2, AI Act i RODO</li>
-<li>Rozwój kariery: bug bounty, CTF-y, certyfikaty i ścieżki rozwoju</li>
-<li>Checklisty i gotowe scenariusze do codziennej pracy</li>
-<li>Trendy i wyzwania stojące przed branżą w nadchodzących latach</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-dla-kogo">🎯 Dla kogo?<a href="https://www.majdak.online/blog/security-engineer-przewodnik-2025#-dla-kogo" class="hash-link" aria-label="Bezpośredni link do 🎯 Dla kogo?" title="Bezpośredni link do 🎯 Dla kogo?">​</a></h2>
-<ul>
-<li>Dla początkujących – jako punkt startu</li>
-<li>Dla zaawansowanych – jako uporządkowany kompendium</li>
-<li>Dla menedżerów – by zrozumieć rolę security inżyniera w zespole</li>
-<li>Dla pasjonatów – by zobaczyć, jak wygląda ta praca od środka</li>
-</ul>
-<p>➡️ Sprawdź przewodnik tutaj: <strong><a href="https://www.majdak.online/docs/category/kurs-security-engineer">Kompletny przewodnik po roli Security Engineera</a></strong></p>
-<blockquote>
-<p>Bezpieczeństwo nie dzieje się przypadkiem – to zestaw świadomych decyzji, procesów i narzędzi. Ten przewodnik pomoże Ci je zrozumieć i wdrożyć.</p>
-</blockquote>
-<p>#cybersecurity #securityengineer #devsecops #iso27001 #bugbounty #ai #infosec</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Security Engineer</category>
-            <category>Przewodnik</category>
-            <category>Ataki</category>
-            <category>Certyfikaty</category>
-            <category>ISO 27001</category>
-            <category>AI Act</category>
         </item>
     </channel>
 </rss>
