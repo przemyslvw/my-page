@@ -10,6 +10,8 @@ To był intensywny czas pełen praktycznej wiedzy i inspirujących wyzwań. Ale 
 
 <!-- truncate -->
 
+![Certyfikat ukończenia pierwszego semestru Sekurak Academy](/img/blog/certyfikat_semestr_pierwaszy.jpg)
+
 ## Co czeka na nas w drugim semestrze?
 
 W drugim semestrze takie tematy jak:
