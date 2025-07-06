@@ -4,10 +4,36 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Szokujące: Google musi zapłacić 314 milionów dolarów za ukryte zbieranie danych Androida!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-07-06</link>
+            <guid>https://www.majdak.online/blog/news-2025-07-06</guid>
+            <pubDate>Sun, 06 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Google ukarane 314 milionami dolarów – szczegóły sprawy]]></description>
+            <content:encoded><![CDATA[<p><strong>Google ukarane 314 milionami dolarów – szczegóły sprawy</strong></p>
+<p>Google zostało zobowiązane przez sąd w Kalifornii do zapłaty ponad 314 milionów dolarów odszkodowania użytkownikom Androida za nielegalne zbieranie i wykorzystywanie ich danych komórkowych bez wyraźnej zgody. Sprawa dotyczy około 14 milionów mieszkańców Kalifornii, którzy korzystali z urządzeń z systemem Android.</p>
+<p><strong>Najważniejsze fakty</strong></p>
+<p><strong>Przedmiot pozwu:</strong> Google miało zbierać dane z telefonów nawet wtedy, gdy urządzenia były nieaktywne (w trybie czuwania), a użytkownicy nie korzystali z żadnej aplikacji. Dane te były wykorzystywane m.in. do personalizowania reklam, a transfery odbywały się przez płatne pakiety danych użytkowników.</p>
+<p><strong>Zarzuty:</strong> Użytkownicy zarzucili firmie, że:</p>
+<ul>
+<li>Dane były zbierane potajemnie, bez ich wiedzy i zgody.</li>
+<li>Przesyłanie danych generowało koszty po stronie użytkowników (zużycie pakietów danych).</li>
+<li>Google czerpało z tego korzyści reklamowe, nie informując o tym właścicieli urządzeń.</li>
+</ul>
+<p><strong>Wyrok:</strong> Sąd uznał, że Google naruszyło prawo stanu Kalifornia, a działania firmy były „rażącym naruszeniem prywatności”. Odszkodowanie ma zrekompensować użytkownikom nielegalne wykorzystanie ich danych i poniesione koszty.</p>
+<p><strong>Odpowiedź Google:</strong> Firma nie zgadza się z wyrokiem i zapowiedziała apelację. Google twierdzi, że użytkownicy wyrazili zgodę na przetwarzanie danych, akceptując warunki korzystania z usług i politykę prywatności. Według Google, przesyłanie danych w tle jest niezbędne dla bezpieczeństwa i funkcjonalności Androida.</p>
+<p><strong>Kontekst i dalsze konsekwencje</strong><br>
+<!-- -->Pozew zbiorowy: Sprawa rozpoczęła się w 2019 roku i dotyczyła wyłącznie mieszkańców Kalifornii. Jednak już zapowiedziano kolejny pozew na poziomie federalnym, obejmujący użytkowników z pozostałych 49 stanów USA. Proces ten ma ruszyć w kwietniu 2026 roku i może skutkować jeszcze większymi karami dla Google.</p>
+<p>#prywatność #Google #Android #dane #bezpieczeństwo #technologia</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Google oszukało użytkowników Androida – 314 milionów dolarów kary za wyciek danych!]]></title>
             <link>https://www.majdak.online/blog/news-2025-07-05</link>
@@ -821,34 +847,6 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberzagrożenia-stawiające-na-prywatność-i-infrastruktury">Cyberzagrożenia Stawiające na Prywatność i Infrastruktury<a href="https://www.majdak.online/blog/news-2025-06-12#cyberzagro%C5%BCenia-stawiaj%C4%85ce-na-prywatno%C5%9B%C4%87-i-infrastruktury" class="hash-link" aria-label="Bezpośredni link do Cyberzagrożenia Stawiające na Prywatność i Infrastruktury" title="Bezpośredni link do Cyberzagrożenia Stawiające na Prywatność i Infrastruktury">​</a></h3>
 <p>Od ataków na strony rządowe USA, po naruszenia bezpieczeństwa dużych firm farmaceutycznych i firm opieki zdrowotnej — zagrożenia stale rosną i są coraz bardziej wyrafinowane.</p>
 <p>Przykłady obejmują również wykorzystywanie słabych punktów w platformach do wyciągania danych osobowych i finansowych, co stanowi poważne zagrożenie dla prywatności i stabilności systemów.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Microsoft Podniósł Alarm: Nowe ataki na WebDAV i krytyczna luka w Windows 11!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-11</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-11</guid>
-            <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.]]></description>
-            <content:encoded><![CDATA[<p>W dobie rosnących zagrożeń cybernetycznych, coraz bardziej niepokojące staje się wykorzystanie luk w popularnych platformach, takich jak Microsoft 365. Nowe odkrycia wskazują na niezwykle niebezpieczną lukę zero-click, która może wyciekć poufne dane bez wiedzy użytkownika.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tytuł-sekcji">Tytuł sekcji<a href="https://www.majdak.online/blog/news-2025-06-11#tytu%C5%82-sekcji" class="hash-link" aria-label="Bezpośredni link do Tytuł sekcji" title="Bezpośredni link do Tytuł sekcji">​</a></h3>
-<p>Eksperci zabezpieczeń ujawnili nową lukę w Microsoft 365 Copilot, nazwaną 'EchoLeak', która stanowi pierwszy przypadek ataku zero-click na platformę AI. Ta luka pozwala hakerom na bezkontaktowe wykradanie poufnych danych z kontekstu użytkownika.</p>
-<p>Atak ten działa w tle, bez konieczności interakcji ze strony ofiary, co czyni go o wiele bardziej niebezpiecznym i trudnym do wykrycia. Eksperci ostrzegają, że jeżeli luka nie zostanie zabezpieczona, może dojść do poważnych naruszeń prywatności na skalę globalną.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksploitacje-i-zagrożenia-w-popularyzowanych-platformach">Eksploitacje i zagrożenia w popularyzowanych platformach<a href="https://www.majdak.online/blog/news-2025-06-11#eksploitacje-i-zagro%C5%BCenia-w-popularyzowanych-platformach" class="hash-link" aria-label="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach" title="Bezpośredni link do Eksploitacje i zagrożenia w popularyzowanych platformach">​</a></h3>
-<p>Na początku tego miesiąca odnotowano pojawienie się dwóch nowych exploitatów związanych z Secure Boot, które umożliwiają atakującym obejście mechanizmów zabezpieczeń na wielu urządzeniach, co stanowi poważne zagrożenie dla infrastruktury krytycznej.</p>
-<p>Microsoft intensyfikuje swoje wysiłki w poprawianiu bezpieczeństwa, wypuszczając aktualizacje łatające 66 znanych luk, w tym krytyczną WebDAV i exploity zeroday, które były używane w realnych atakach na systemy Windows i Windows Server.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-w-ekosystemach-chmurowych-i-platformach-low-code">Nowe zagrożenia w ekosystemach chmurowych i platformach low-code<a href="https://www.majdak.online/blog/news-2025-06-11#nowe-zagro%C5%BCenia-w-ekosystemach-chmurowych-i-platformach-low-code" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code" title="Bezpośredni link do Nowe zagrożenia w ekosystemach chmurowych i platformach low-code">​</a></h3>
-<p>Cyberprzestępcy coraz częściej wykorzystują konfiguracje w Salesforce oraz słabości w platformach typu low-code, takich jak Salesforce Industries, aby uzyskać dostęp do wrażliwych danych i wykorzystywać je w dalszych atakach.</p>
-<p>Dodatkowo, niektóre firmy, jak Fortinet i Ivanti, wypuściły poprawki w odpowiedzi na poważne luki, które mogły prowadzić do przejęcia kontroli nad systemami i wycieku danych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-periferie-i-urządzenia-iot">Ataki na periferie i urządzenia IoT<a href="https://www.majdak.online/blog/news-2025-06-11#ataki-na-periferie-i-urz%C4%85dzenia-iot" class="hash-link" aria-label="Bezpośredni link do Ataki na periferie i urządzenia IoT" title="Bezpośredni link do Ataki na periferie i urządzenia IoT">​</a></h3>
-<p>Idą za tym także zagrożenia wynikające z niezałatanych urządzeń IoT — na przykład ponad 40 tysięcy kamer bezpieczeństwa zostało zidentyfikowanych jako podatne na zdalne przejęcie i podsłuch.</p>
-<p>Podobnie, urządzenia GPS firmy SinoTrack zostały ujawnione jako podatne na zdalne przejęcie funkcji pojazdów, co podkreśla rosnącce ryzyko związane z bezpieczeństwem urządzeń połączonych w sieci.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dezinformacja-i-manipulacja-w-cyberprzestrzeni">Dezinformacja i manipulacja w cyberprzestrzeni<a href="https://www.majdak.online/blog/news-2025-06-11#dezinformacja-i-manipulacja-w-cyberprzestrzeni" class="hash-link" aria-label="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni" title="Bezpośredni link do Dezinformacja i manipulacja w cyberprzestrzeni">​</a></h3>
-<p>Ważne wiadomości pojawiły się również wokół dezinformacji i manipulacji, jak na przykład przypadek ataku na stronę z informacjami o szczepieniach rządu USA, gdzie treści zostały zamienione na spam tematyczne i nieodpowiednie.</p>
-<p>Takie działania mogą poważnie zakłócić zaufanie publiczne do instytucji i stanowią poważne wyzwanie dla organów ścigania w walce z cyberzagrożeniami.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
