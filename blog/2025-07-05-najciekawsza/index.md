@@ -6,7 +6,7 @@ tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: 2025-07-05
 ---
 
-Najnowszy wyciek danych z Telefónica wywołał lawinę spekulacji i obaw o bezpieczeństwo w sektorze telekomunikacyjnym. Haker zagroził ujawnieniem 106GB poufnych informacji, co może oznaczać poważny cios dla firmy i jej klientów.
+Google zostało zobowiązane przez sąd w Kalifornii do zapłaty ponad 314 milionów dolarów odszkodowania użytkownikom Androida za nielegalne zbieranie i wykorzystywanie ich danych komórkowych bez wyraźnej zgody. Sprawa dotyczy około 14 milionów mieszkańców Kalifornii, którzy korzystali z urządzeń z systemem Android.
 <!-- truncate -->
 ### Atak na Telefónica
 
