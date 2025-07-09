@@ -2,32 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-07-09T00:00:00.000Z</updated>
+    <updated>2025-07-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
-    <entry>
-        <title type="html"><![CDATA[Czy Facebook i Microsoft ukrywają zagrożenia? Szokujące odkrycia z cyberbezpieczeństwa!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-07-09</id>
-        <link href="https://www.majdak.online/blog/news-2025-07-09"/>
-        <updated>2025-07-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberbezpieczeństwo nigdy nie było tak dynamiczne i pełne zagrożeń jak dzisiaj. Najnowsze odkrycia pokazują, że nawet największe firmy i najbardziej zaawansowane systemy są narażone na niezwykle sprytne ataki i luki, które mogą wyrządzić ogromne szkody.]]></summary>
-        <content type="html"><![CDATA[<p>Cyberbezpieczeństwo nigdy nie było tak dynamiczne i pełne zagrożeń jak dzisiaj. Najnowsze odkrycia pokazują, że nawet największe firmy i najbardziej zaawansowane systemy są narażone na niezwykle sprytne ataki i luki, które mogą wyrządzić ogromne szkody.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="czy-facebook-i-microsoft-ukrywają-zagrożenia-szokujące-odkrycia-z-cyberbezpieczeństwa">Czy Facebook i Microsoft ukrywają zagrożenia? Szokujące odkrycia z cyberbezpieczeństwa!<a href="https://www.majdak.online/blog/news-2025-07-09#czy-facebook-i-microsoft-ukrywaj%C4%85-zagro%C5%BCenia-szokuj%C4%85ce-odkrycia-z-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Czy Facebook i Microsoft ukrywają zagrożenia? Szokujące odkrycia z cyberbezpieczeństwa!" title="Bezpośredni link do Czy Facebook i Microsoft ukrywają zagrożenia? Szokujące odkrycia z cyberbezpieczeństwa!">​</a></h3>
-<p>Eksperci alarmują, że nawet najbardziej renomowane firmy technologiczne mogą ukrywać poważne zagrożenia i luki bezpieczeństwa, które są wykorzystywane przez cyberprzestępców. Odkrycia te rzucają nowe światło na konieczność nieustannej czujności i ciągłego monitorowania sytuacji w cyfrowym świecie.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="czy-google-i-microsoft-ukrywają-poważne-zagrożenia-nowe-informacje-z-cyberbezpieczeństwa">Czy Google i Microsoft ukrywają poważne zagrożenia? Nowe informacje z cyberbezpieczeństwa!<a href="https://www.majdak.online/blog/news-2025-07-09#czy-google-i-microsoft-ukrywaj%C4%85-powa%C5%BCne-zagro%C5%BCenia-nowe-informacje-z-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Czy Google i Microsoft ukrywają poważne zagrożenia? Nowe informacje z cyberbezpieczeństwa!" title="Bezpośredni link do Czy Google i Microsoft ukrywają poważne zagrożenia? Nowe informacje z cyberbezpieczeństwa!">​</a></h3>
-<p>Eksperci alarmują, że nawet najbardziej rozpoznawalne firmy technologiczne mogą nie zdawać sobie sprawy z pełnego zakresu wykorzystywanych luk, co stawia użytkowników na dużym ryzyku. Odkrycia te mają potencjał wywołać prawdziwą burzę w branży IT.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
     <entry>
         <title type="html"><![CDATA[🚨 Czy Twoje AI jest bezpieczne? 10 śmiertelnych zagrożeń dla modeli ML, które mogą zniszczyć Twój biznes w 2025!]]></title>
         <id>https://www.majdak.online/blog/news-2025-07-07-owasp-top10-ml</id>
@@ -1156,6 +1135,41 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="ochrona-i-premierowe-narzędzia--co-nowego-w-cyberprzestrzeni">Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?<a href="https://www.majdak.online/blog/news-2025-06-16#ochrona-i-premierowe-narz%C4%99dzia--co-nowego-w-cyberprzestrzeni" class="hash-link" aria-label="Bezpośredni link do Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?" title="Bezpośredni link do Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?">​</a></h3>
 <p>Na rynku pojawiły się nowe narzędzia, takie jak Kali Linux 2025.2 z dodatkowymi funkcjami car hacking oraz opcją wybierania najlepszych rozwiązań w AI. Podczas gdy giganci, tacy jak Google, podejmują próbę wyłamania się z hegemonii Google, firmy coraz bardziej inwestują w rozwój własnych rozwiązań obronnych.</p>
 <p>Ważne jest, aby organizacje wyciągały wnioski z najnowszych wydarzeń, inwestując w zaawansowane technologie i strategie ochrony przed coraz bardziej wyrafinowanymi atakami.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jak Google chroni Twoje dane przed cyberzagrożeniami? Odkryj szokujące tajemnice!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-06-15</id>
+        <link href="https://www.majdak.online/blog/news-2025-06-15"/>
+        <updated>2025-06-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberataki stają się coraz bardziej wyrafinowane, a firmy takie jak Google muszą ciągle ulepszać swoje zabezpieczenia. Oto najnowsze zagrożenie, które może dotknąć każdego użytkownika korzystającego z usług tej giganta technologicznego.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberataki stają się coraz bardziej wyrafinowane, a firmy takie jak Google muszą ciągle ulepszać swoje zabezpieczenia. Oto najnowsze zagrożenie, które może dotknąć każdego użytkownika korzystającego z usług tej giganta technologicznego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="czy-google-chroni-twoje-dane-wystarczająco-skutecznie">Czy Google chroni Twoje dane wystarczająco skutecznie?<a href="https://www.majdak.online/blog/news-2025-06-15#czy-google-chroni-twoje-dane-wystarczaj%C4%85co-skutecznie" class="hash-link" aria-label="Bezpośredni link do Czy Google chroni Twoje dane wystarczająco skutecznie?" title="Bezpośredni link do Czy Google chroni Twoje dane wystarczająco skutecznie?">​</a></h3>
+<p>W dzisiejszych czasach bezpieczeństwo danych to priorytet dla największych firm technologicznych. Google, będące jednym z liderów na rynku, wciąż inwestuje w nowe metody ochrony przed coraz bardziej wyrafinowanymi cyberatakami.</p>
+<p>Niemniej jednak, nawet najwięksi nie są immune od luk i zagrożeń, które mogą narazić użytkowników na poważne ryzyko utraty prywatności i danych osobowych.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wirusy-i-malware-na-discord-zyskują-na-sile">Wirusy i malware na Discord zyskują na sile<a href="https://www.majdak.online/blog/news-2025-06-15#wirusy-i-malware-na-discord-zyskuj%C4%85-na-sile" class="hash-link" aria-label="Bezpośredni link do Wirusy i malware na Discord zyskują na sile" title="Bezpośredni link do Wirusy i malware na Discord zyskują na sile">​</a></h3>
+<p>Nowa kampania cyberprzestępców wykorzystuje słabości w systemie zaproszeń Discord, by dostarczyć malware takie jak AsyncRAT i Skuld Stealer, które kradną dane i przejmują kontrolę nad komputerami użytkowników.</p>
+<p>Atakujący korzystają z vanity linków, które są rejestrowane i silnie maskowane. Użytkownicy powinni zachować ostrożność przy klikaniu nieznanych linków i korzystać z aktualnych zabezpieczeń.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksperci-ostrzegają-przed-ponad-46-000-niezabezpieczonych-instancji-grafana">Eksperci ostrzegają przed ponad 46 000 niezabezpieczonych instancji Grafana<a href="https://www.majdak.online/blog/news-2025-06-15#eksperci-ostrzegaj%C4%85-przed-ponad-46-000-niezabezpieczonych-instancji-grafana" class="hash-link" aria-label="Bezpośredni link do Eksperci ostrzegają przed ponad 46 000 niezabezpieczonych instancji Grafana" title="Bezpośredni link do Eksperci ostrzegają przed ponad 46 000 niezabezpieczonych instancji Grafana">​</a></h3>
+<p>Ponad tyle serwerów Grafana jest nadal podatnych na ataki z powodu niezałatanych luk w zabezpieczeniach, które umożliwiają przejęcie kont i wstrzykiwanie złośliwych dodatków.</p>
+<p>Administratorzy systemów powinni jak najszybciej wdrożyć aktualizacje, aby zapobiec ewentualnym naruszeniom danych i utracie kontroli nad systemami.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberatak-na-linie-lotnicze-westjet--co-wiadomo">Cyberatak na linie lotnicze WestJet – co wiadomo?<a href="https://www.majdak.online/blog/news-2025-06-15#cyberatak-na-linie-lotnicze-westjet--co-wiadomo" class="hash-link" aria-label="Bezpośredni link do Cyberatak na linie lotnicze WestJet – co wiadomo?" title="Bezpośredni link do Cyberatak na linie lotnicze WestJet – co wiadomo?">​</a></h3>
+<p>Kanadyjskie linie lotnicze WestJet borykają się z poważnym atakiem cybernetycznym, który zakłócił dostęp do kluczowych systemów wewnętrznych.</p>
+<p>Firma pracuje nad zneutralizowaniem zagrożenia i minimalizacją skutków dla klientów i operacji, jednak sytuacja wymaga ciągłej czujności.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowa-funkcja-w-chatgpt-codex--wybór-najlepszych-rozwiązań">Nowa funkcja w ChatGPT Codex – wybór najlepszych rozwiązań<a href="https://www.majdak.online/blog/news-2025-06-15#nowa-funkcja-w-chatgpt-codex--wyb%C3%B3r-najlepszych-rozwi%C4%85za%C5%84" class="hash-link" aria-label="Bezpośredni link do Nowa funkcja w ChatGPT Codex – wybór najlepszych rozwiązań" title="Bezpośredni link do Nowa funkcja w ChatGPT Codex – wybór najlepszych rozwiązań">​</a></h3>
+<p>AI kodująca ChatGPT Codex wprowadza opcję selekcji najefektywniejszych rozwiązań programistycznych, co podnosi funkcjonalność i przyspiesza pracę użytkowników.</p>
+<p>To narzędzie otwiera nowe możliwości dla deweloperów i entuzjastów technologii, ułatwiając korzystanie z sztucznej inteligencji w codziennych zadaniach.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="openai-konkurencją-dla-google-nowa-aktualizacja-chatgpt-search">OpenAI konkurencją dla Google? Nowa aktualizacja ChatGPT Search<a href="https://www.majdak.online/blog/news-2025-06-15#openai-konkurencj%C4%85-dla-google-nowa-aktualizacja-chatgpt-search" class="hash-link" aria-label="Bezpośredni link do OpenAI konkurencją dla Google? Nowa aktualizacja ChatGPT Search" title="Bezpośredni link do OpenAI konkurencją dla Google? Nowa aktualizacja ChatGPT Search">​</a></h3>
+<p>Aktualizacja ChatGPT Search to krok w celu poprawy jakości wyników i wyzwania dla dominacji Google na rynku wyszukiwarek internetowych.</p>
+<p>Użytkownicy mogą już korzystać z ulepszonej wersji, która obiecuje bardziej precyzyjne i szybkie wyszukiwania, redefiniując sposób, w jaki korzystamy z AI do informacji w sieci.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
