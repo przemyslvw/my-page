@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-07-09T00:00:00.000Z</updated>
+    <updated>2025-07-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Uwaga Google! Nowe luki w Androidzie mogą zagrażać twoim danym jak nigdy dotąd!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-07-11</id>
+        <link href="https://www.majdak.online/blog/news-2025-07-11"/>
+        <updated>2025-07-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Uwaga Google! Nowe luki w Androidzie mogą zagrażać twoim danym jak nigdy dotąd! W obliczu globalnych zagrożeń cybernetycznych wzmacniają się głosy ostrzegające przed lukami, które pozwalają hakerom na przejęcie kontroli nad urządzeniami i systemami. Podobnie jak w przypadku poważnych luk w Citrix czy Edge, podatności w Androidzie mogą umożliwić zdalne wykonywanie złośliwego kodu, co stawia bezpieczeństwo użytkowników na pierwszym miejscu. Coraz częstsze incydenty podkreślają, że nadchodzące dni wymagają jeszcze bardziej czujnej reakcji i szybkiego załatania potencjalnych zagrożeń.]]></summary>
+        <content type="html"><![CDATA[<p>Uwaga Google! Nowe luki w Androidzie mogą zagrażać twoim danym jak nigdy dotąd! W obliczu globalnych zagrożeń cybernetycznych wzmacniają się głosy ostrzegające przed lukami, które pozwalają hakerom na przejęcie kontroli nad urządzeniami i systemami. Podobnie jak w przypadku poważnych luk w Citrix czy Edge, podatności w Androidzie mogą umożliwić zdalne wykonywanie złośliwego kodu, co stawia bezpieczeństwo użytkowników na pierwszym miejscu. Coraz częstsze incydenty podkreślają, że nadchodzące dni wymagają jeszcze bardziej czujnej reakcji i szybkiego załatania potencjalnych zagrożeń.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aktualne-zagrożenia-i-wyzwania-dla-sektora-publicznego">Aktualne zagrożenia i wyzwania dla sektora publicznego<a href="https://www.majdak.online/blog/news-2025-07-11#aktualne-zagro%C5%BCenia-i-wyzwania-dla-sektora-publicznego" class="hash-link" aria-label="Bezpośredni link do Aktualne zagrożenia i wyzwania dla sektora publicznego" title="Bezpośredni link do Aktualne zagrożenia i wyzwania dla sektora publicznego">​</a></h3>
+<p>U.S. Cybersecurity and Infrastructure Security Agency (CISA) ostrzega przed aktywnym wykorzystywaniem krytycznej luki w Citrix NetScaler, co wymusiło natychmiastowe działania ze strony federalnych instytucji. Podobne zagrożenia jak CVE-2025-5777 czy CVE-2025-25257 podkreślają, jak ważne jest szybkie załatanie podatności, aby chronić infrastrukturę krytyczną przed atakami.</p>
+<p>Zagrożenia dla sektora publicznego i krytycznej infrastruktury coraz częściej łączą się z złożonymi cyberatakami, w tym wykorzystywaniem zero-day i zaawansowanych technik inżynierii społecznej.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberzagrożenia-w-sektorze-komercyjnym-i-detalicznym">Cyberzagrożenia w sektorze komercyjnym i detalicznym<a href="https://www.majdak.online/blog/news-2025-07-11#cyberzagro%C5%BCenia-w-sektorze-komercyjnym-i-detalicznym" class="hash-link" aria-label="Bezpośredni link do Cyberzagrożenia w sektorze komercyjnym i detalicznym" title="Bezpośredni link do Cyberzagrożenia w sektorze komercyjnym i detalicznym">​</a></h3>
+<p>W Wielkiej Brytanii zatrzymano cztery osoby podejrzewane o udział w cyberatakach na gigantów retail, takich jak Marks &amp; Spencer, Co-op i Harrods. Na liście zagrożeń znajdują się także ataki ransomware, które wzbudzają niepokój, szczególnie w kontekście dużych sieci sklepów.</p>
+<p>Przypadki takie jak aresztowania sportowców i młodych hackingów wskazują na rosnącce zagrożenie ze strony zorganizowanych grup cyberprzestępczych, wykorzystujących zaawansowane metody i techniki wyłudzeń.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-zagrożenia-i-ich-ewolucja">Nowoczesne zagrożenia i ich ewolucja<a href="https://www.majdak.online/blog/news-2025-07-11#nowoczesne-zagro%C5%BCenia-i-ich-ewolucja" class="hash-link" aria-label="Bezpośredni link do Nowoczesne zagrożenia i ich ewolucja" title="Bezpośredni link do Nowoczesne zagrożenia i ich ewolucja">​</a></h3>
+<p>Odkrycia takie jak nowe warianty złośliwego oprogramowania ZuRu na macOS czy luk w Bluetooth związane z PerfektBlue pokazują rozwój ataków ukierunkowanych na różnorodne platformy i urządzenia. W szczególności, automoto i deweloperzy są narażeni na zdalne wykonanie kodu, co może mieć krytyczne konsekwencje.</p>
+<p>Kolejne przykłady jak Rowhammer na Nvidia czy ataki na GDDR6 to wyzwania, które wymuszają na producentach wzmożone działania prewencyjne w zakresie sprzętowego bezpieczeństwa.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wpływ-ai-na-bezpieczeństwo-danych-i-praktyki-sektora">Wpływ AI na bezpieczeństwo danych i praktyki sektora<a href="https://www.majdak.online/blog/news-2025-07-11#wp%C5%82yw-ai-na-bezpiecze%C5%84stwo-danych-i-praktyki-sektora" class="hash-link" aria-label="Bezpośredni link do Wpływ AI na bezpieczeństwo danych i praktyki sektora" title="Bezpośredni link do Wpływ AI na bezpieczeństwo danych i praktyki sektora">​</a></h3>
+<p>Raport o zabezpieczeniu danych w erze AI podkreśla, że firmy coraz bardziej ryzykują utratę cennych informacji, korzystając z AI i chmury. Wzrost użycia narzędzi opartych na sztucznej inteligencji wymaga zintegrowanych strategii bezpieczeństwa, aby chronić wrażliwe dane przedsiębiorstw.</p>
+<p>W międzyczasie, rosnąca obecność AI w aplikacjach SaaS i automatyzacji procesów wymusza nowe standardy zarządzania i nadzoru, szczególnie w kontekście regulacji UE.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-związane-z-technologiami-i-operacyjnymi-lukami">Zagrożenia związane z technologiami i operacyjnymi lukami<a href="https://www.majdak.online/blog/news-2025-07-11#zagro%C5%BCenia-zwi%C4%85zane-z-technologiami-i-operacyjnymi-lukami" class="hash-link" aria-label="Bezpośredni link do Zagrożenia związane z technologiami i operacyjnymi lukami" title="Bezpośredni link do Zagrożenia związane z technologiami i operacyjnymi lukami">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="szczególne-wyzwania-w-zakresie-prywatności-i-nowych-technologii">Szczególne wyzwania w zakresie prywatności i nowych technologii<a href="https://www.majdak.online/blog/news-2025-07-11#szczeg%C3%B3lne-wyzwania-w-zakresie-prywatno%C5%9Bci-i-nowych-technologii" class="hash-link" aria-label="Bezpośredni link do Szczególne wyzwania w zakresie prywatności i nowych technologii" title="Bezpośredni link do Szczególne wyzwania w zakresie prywatności i nowych technologii">​</a></h3>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Czy Google i Microsoft ukrywają poważne zagrożenia? Eksperci podnoszą alarm!]]></title>
         <id>https://www.majdak.online/blog/news-2025-07-09</id>
@@ -1161,37 +1191,5 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
         <category label="Drony" term="Drony"/>
         <category label="Nawigacja" term="Nawigacja"/>
         <category label="Open Source Intel" term="Open Source Intel"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Uwaga na cyberatak na Google! Czy to początek dużej afery w cybersecurity?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-16</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-16"/>
-        <updated>2025-06-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberprzestępcy coraz częściej korzystają z zaawansowanych narzędzi i metod, by ukryć swoje działania przed oczami służb i firm bezpieczeństwa. Ostatnie ataki pokazują, jak ważne jest ciągłe monitorowanie i reagowanie na nowe zagrożenia w cyfrowym świecie.]]></summary>
-        <content type="html"><![CDATA[<p>Cyberprzestępcy coraz częściej korzystają z zaawansowanych narzędzi i metod, by ukryć swoje działania przed oczami służb i firm bezpieczeństwa. Ostatnie ataki pokazują, jak ważne jest ciągłe monitorowanie i reagowanie na nowe zagrożenia w cyfrowym świecie.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-zagrożenia-w-cyberbezpieczeństwie">Nowe zagrożenia w cyberbezpieczeństwie<a href="https://www.majdak.online/blog/news-2025-06-16#nowe-zagro%C5%BCenia-w-cyberbezpiecze%C5%84stwie" class="hash-link" aria-label="Bezpośredni link do Nowe zagrożenia w cyberbezpieczeństwie" title="Bezpośredni link do Nowe zagrożenia w cyberbezpieczeństwie">​</a></h3>
-<p>W ostatnich miesiącach zaobserwowano, że cyberprzestępcy używają subtelnych metod ukrywania swoich działań, co utrudnia wykrycie ataków we wczesnym stadium. Zeszły tydzień przyniósł raporty o zuchwałych włamach na największe firmy, w których wykorzystano zaawansowane taktyki maskowania i zacierania śladów.</p>
-<p>Eksperci alarmują, że bez stałego doskonalenia narzędzi wykrywania i analizy zagrożeń, organizacje stają się coraz bardziej podatne na ataki, które mogą wyrządzić ogromne szkody zarówno finansowe, jak i wizerunkowe.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberzagrożenie-na-szeroką-skalę---ataki-na-firmy-i-instytucje">Cyberzagrożenie na szeroką skalę - ataki na firmy i instytucje<a href="https://www.majdak.online/blog/news-2025-06-16#cyberzagro%C5%BCenie-na-szerok%C4%85-skal%C4%99---ataki-na-firmy-i-instytucje" class="hash-link" aria-label="Bezpośredni link do Cyberzagrożenie na szeroką skalę - ataki na firmy i instytucje" title="Bezpośredni link do Cyberzagrożenie na szeroką skalę - ataki na firmy i instytucje">​</a></h3>
-<p>Ostatnie tygodnie przyniosły szereg poważnych incydentów, od wycieków danych na skalę milionową po ataki wymierzone w krytyczną infrastrukturę. Firmy z różnych branż, w tym sektor lotniczy i medyczny, odnotowały poważne naruszenia, które mogą mieć długofalowe konsekwencje.</p>
-<p>Wzrost liczby incydentów pokazuje, że cyberprzestępcy coraz częściej korzystają z zaawansowanych technik, by omijać ochronę i osiągać swoje cele. Warto zwracać uwagę na rosnące zagrożenia, aby skutecznie się przed nimi bronić.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="najnowsze-luki-i-awarie-w-oprogramowaniu-wiodących-producentów">Najnowsze luki i awarie w oprogramowaniu wiodących producentów<a href="https://www.majdak.online/blog/news-2025-06-16#najnowsze-luki-i-awarie-w-oprogramowaniu-wiod%C4%85cych-producent%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Najnowsze luki i awarie w oprogramowaniu wiodących producentów" title="Bezpośredni link do Najnowsze luki i awarie w oprogramowaniu wiodących producentów">​</a></h3>
-<p>Eksperci z branży informatycznej ostrzegają przed wykrytymi lukami w produktach takich jak Kali Linux i Kali Linux 2025.2, które ułatwiają cyberatakującym przeprowadzanie działań na najwyższym poziomie. Dodatkowo, problem z aktualizacjami Windows Server może zakłócać funkcjonowanie sieci firmowych.</p>
-<p>Przypadki te pokazują, jak ważne jest regularne testowanie i aktualizowanie systemów, aby minimalizować ryzyko związane z wykorzystywaniem luk w oprogramowaniu przez cyberprzestępców.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="złośliwe-oprogramowanie-i-ataki-typu-ransomware-atakują-coraz-poważniej">Złośliwe oprogramowanie i ataki typu ransomware atakują coraz poważniej<a href="https://www.majdak.online/blog/news-2025-06-16#z%C5%82o%C5%9Bliwe-oprogramowanie-i-ataki-typu-ransomware-atakuj%C4%85-coraz-powa%C5%BCniej" class="hash-link" aria-label="Bezpośredni link do Złośliwe oprogramowanie i ataki typu ransomware atakują coraz poważniej" title="Bezpośredni link do Złośliwe oprogramowanie i ataki typu ransomware atakują coraz poważniej">​</a></h3>
-<p>Nowe odmiany ransomware, takie jak Anubis, zyskały funkcje umożliwiające nie tylko zaszyfrowanie danych, ale również ich trwałe usunięcie. Ta strategia jest szczególnie niebezpieczna dla organizacji, które mogą stracić krytyczne informacje na zawsze.</p>
-<p>Ponadto, grupa KillSec zainfekowała dużą ilość danych w firmie Ocuco, a wśród najbardziej uciążliwych zagrożeń znajdują się ataki z wykorzystaniem funkcji wipe w ransomware, które mogą sparaliżować działalność na długo.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ochrona-i-premierowe-narzędzia--co-nowego-w-cyberprzestrzeni">Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?<a href="https://www.majdak.online/blog/news-2025-06-16#ochrona-i-premierowe-narz%C4%99dzia--co-nowego-w-cyberprzestrzeni" class="hash-link" aria-label="Bezpośredni link do Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?" title="Bezpośredni link do Ochrona i premierowe narzędzia – co nowego w cyberprzestrzeni?">​</a></h3>
-<p>Na rynku pojawiły się nowe narzędzia, takie jak Kali Linux 2025.2 z dodatkowymi funkcjami car hacking oraz opcją wybierania najlepszych rozwiązań w AI. Podczas gdy giganci, tacy jak Google, podejmują próbę wyłamania się z hegemonii Google, firmy coraz bardziej inwestują w rozwój własnych rozwiązań obronnych.</p>
-<p>Ważne jest, aby organizacje wyciągały wnioski z najnowszych wydarzeń, inwestując w zaawansowane technologie i strategie ochrony przed coraz bardziej wyrafinowanymi atakami.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
     </entry>
 </feed>
