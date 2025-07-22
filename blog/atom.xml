@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-07-21T00:00:00.000Z</updated>
+    <updated>2025-07-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Szokujące wycieki danych i ataki na największe firmy – kto za tym stoi?]]></title>
+        <id>https://www.majdak.online/blog/news-2025-07-22</id>
+        <link href="https://www.majdak.online/blog/news-2025-07-22"/>
+        <updated>2025-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nagłówki dotyczą obecnie rosnącego zagrożenia związanego z atakami na największe firmy i instytucje, które w ostatnich miesiącach przyniosły szokujące wycieki danych, użycie złośliwego oprogramowania i zaawansowanych technik hakerskich. Przykłady obejmują cyberataki na SharePoint, które od lipca są wykorzystywane do uzyskania trwałego dostępu do krytycznych systemów, a także szeroko zakrojone kampanie wykradania informacji i infekcji na skalę globalną. Ukazuje się wyraźnie, że cyberprzestępcy coraz częściej sięgają po zero-day i wykorzystywalne luki, prowadząc do masowych incydentów wycieków i kradzieży danych. W obliczu tych zagrożeń, organizacje muszą nie tylko szybko reagować, ale także zasadniczo zmienić podejście do bezpieczeństwa, aby skutecznie się bronić przed narastającymi atakami.]]></summary>
+        <content type="html"><![CDATA[<p>Nagłówki dotyczą obecnie rosnącego zagrożenia związanego z atakami na największe firmy i instytucje, które w ostatnich miesiącach przyniosły szokujące wycieki danych, użycie złośliwego oprogramowania i zaawansowanych technik hakerskich. Przykłady obejmują cyberataki na SharePoint, które od lipca są wykorzystywane do uzyskania trwałego dostępu do krytycznych systemów, a także szeroko zakrojone kampanie wykradania informacji i infekcji na skalę globalną. Ukazuje się wyraźnie, że cyberprzestępcy coraz częściej sięgają po zero-day i wykorzystywalne luki, prowadząc do masowych incydentów wycieków i kradzieży danych. W obliczu tych zagrożeń, organizacje muszą nie tylko szybko reagować, ale także zasadniczo zmienić podejście do bezpieczeństwa, aby skutecznie się bronić przed narastającymi atakami.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aktywne-ataki-i-wycieki-danych-na-globalną-skalę">Aktywne ataki i wycieki danych na globalną skalę<a href="https://www.majdak.online/blog/news-2025-07-22#aktywne-ataki-i-wycieki-danych-na-globaln%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Aktywne ataki i wycieki danych na globalną skalę" title="Bezpośredni link do Aktywne ataki i wycieki danych na globalną skalę">​</a></h3>
+<p>Coraz częściej dochodzi do dużych wycieków danych i aktywnych ataków, które dotykają największe firmy i instytucje na świecie. Przykłady obejmują sytuacje, w których hackerskie grupy wykorzystują luki zero-day w popularnych systemach jak SharePoint oraz Windows Server, aby przejąć kontrolę i uzyskać dostęp do krytycznych zasobów.</p>
+<p>W ostatnich miesiącach odnotowano masowe kampanie, w których cyberprzestępcy infekują tysiące serwerów na całym świecie, kradnąc dane osobowe, finansowe czy firmowe. Przedsiębiorstwa i rządy są coraz bardziej narażone na skuteczne i złożone ataki, które mogą wywołać poważne konsekwencje dla bezpieczeństwa narodowego i prywatności użytkowników.</p>
+<p>Różne grupy, w tym te powiązane z Chinami i Rosją, nieustannie rozwijają swoje techniki, od ukrytych malware po zaawansowane manipulacje infrastrukturalne, prowadząc do globalnego wyzwania w obszarze cyberbezpieczeństwa. Sytuacja wymaga od firm i organów państwowych nie tylko szybkiej reakcji, ale też długoterminowych strategii ochrony.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wykorzystanie-luk-zero-day-i-technologie-przyszłości-w-cyberatakach">Wykorzystanie luk zero-day i technologie przyszłości w cyberatakach<a href="https://www.majdak.online/blog/news-2025-07-22#wykorzystanie-luk-zero-day-i-technologie-przysz%C5%82o%C5%9Bci-w-cyberatakach" class="hash-link" aria-label="Bezpośredni link do Wykorzystanie luk zero-day i technologie przyszłości w cyberatakach" title="Bezpośredni link do Wykorzystanie luk zero-day i technologie przyszłości w cyberatakach">​</a></h3>
+<p>Coraz więcej ataków opiera się na eksploatacji niezagojonych jeszcze luk zero-day, co pozwala hakerom na zupełnie nowe poziomy infiltracji. Na przykład, grupy takie jak China-linked APT41 wykorzystują te słabości, aby uzyskać dostęp do serwerów SharePointów oraz innych kluczowych platform, zanim pojawią się poprawki.</p>
+<p>W ostatnich tygodniach zaobserwowano, że cyberprzestępcy adaptują najnowsze technologie, od malware wykorzystującego sztuczną inteligencję po zaawansowane kampanie espionage. Takie działania świadczą o tym, jak wyrafinowane i niebezpieczne staje się cyberzagrożenie na poziomie międzynarodowym.</p>
+<p>Eksperci podkreślają, że organizacje muszą nie tylko wdrażać regularne aktualizacje, ale także rozwijać zaawansowane systemy obronne korzystające z AI i automatyzacji, aby skutecznie odpierać ataki z wyprzedzeniem.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rosnąca-rola-rządów-i-działań-prewencyjnych">Rosnąca rola rządów i działań prewencyjnych<a href="https://www.majdak.online/blog/news-2025-07-22#rosn%C4%85ca-rola-rz%C4%85d%C3%B3w-i-dzia%C5%82a%C5%84-prewencyjnych" class="hash-link" aria-label="Bezpośredni link do Rosnąca rola rządów i działań prewencyjnych" title="Bezpośredni link do Rosnąca rola rządów i działań prewencyjnych">​</a></h3>
+<p>Rządy na całym świecie coraz aktywniej włączają się w walkę z cyberprzestępczością, wprowadzając nowe regulacje i narzędzia, które mają ułatwić identyfikację i przeciwdziałanie atakom. Na przykład, Wielka Brytania planuje zakazać organizacjom publicznym płacenia okupu, aby ograniczyć finansowe motywacje cyberprzestępców.</p>
+<p>Wprowadzanie takich środków jest odpowiedzią na rosnącą skalę i zaawansowanie cyberataków, które mogą mieć poważne konsekwencje także dla bezpieczeństwa narodowego. Międzynarodowa współpraca i wymiana informacji są kluczowe, by skutecznie walczyć z tym globalnym zagrożeniem.</p>
+<p>Eksperci podkreślają, że bezpieczeństwo to wyzwanie, które wymaga zintegrowanych działań, od technicznej ochrony infrastruktury po ściganie cyberprzestępców na poziomie prawa międzynarodowego.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft SharePoint na celowniku cyberprzestępców: globalne ataki na lukę zero-day]]></title>
         <id>https://www.majdak.online/blog/news-2025-07-21</id>
@@ -1092,40 +1120,5 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
         </author>
         <category label="game-dev" term="game-dev"/>
         <category label="falconsescape" term="falconsescape"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta dodaje Passkey do Facebooka – czy to przyszłość bez haseł?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-19</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-19"/>
-        <updated>2025-06-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.]]></summary>
-        <content type="html"><![CDATA[<p>W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberwojna-na-najwyższych-obrotach-predatory-sparrow-pali-90-milionów-dolarów-w-iranie">Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie<a href="https://www.majdak.online/blog/news-2025-06-19#cyberwojna-na-najwy%C5%BCszych-obrotach-predatory-sparrow-pali-90-milion%C3%B3w-dolar%C3%B3w-w-iranie" class="hash-link" aria-label="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie" title="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie">​</a></h3>
-<p>Proizraelska grupa hackerska Predatory Sparrow przeprowadziła cyberatak na irański największy kryptobroker, Nobitex, co zakończyło się spaleniem ponad 90 milionów dolarów worth of cryptocurrencies. To wyraźny sygnał, że cyberwojny mają coraz bardziej złożony i bezpośredni wymiar finansowy i polityczny.</p>
-<p>Takie operacje pokazują, jak ważne jest nieustanne wzmacnianie ochrony na poziomie infrastruktury cyfrowej, zwłaszcza w regionach zaognionych konfliktami, gdzie cyberprzestępczość staje się narzędziem walki na arenie międzynarodowej.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-ataki-na-infrastrukturę-i-strony-internetowe">Zaawansowane ataki na infrastrukturę i strony internetowe<a href="https://www.majdak.online/blog/news-2025-06-19#zaawansowane-ataki-na-infrastruktur%C4%99-i-strony-internetowe" class="hash-link" aria-label="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe" title="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe">​</a></h3>
-<p>Koronnym przykładem są ataki na główne portale i firmy technologiczne, takie jak Microsoft, Apple oraz Bank of America, które są coraz częściej celem cyberprzestępców próbujących wyłudzić dane lub wprowadzić złośliwe oprogramowanie.</p>
-<p>Niestety, aktywność ta obejmuje nie tylko wyłudzanie danych, ale także działania mające na celu zakłócenie funkcjonowania kluczowych usług cyfrowych, co stawia wyzwania dla cyberbezpieczeństwa na poziomie globalnym.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-wyzwania-dla-hakerów-malware-które-tworzą-izolowane-środowiska">Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-wyzwania-dla-haker%C3%B3w-malware-kt%C3%B3re-tworz%C4%85-izolowane-%C5%9Brodowiska" class="hash-link" aria-label="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska" title="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska">​</a></h3>
-<p>Malware, takie jak GodFather i AntiDot, wykorzystują zaawansowane techniki virtualizacji i infiltrowania urządzeń mobilnych, co pozwala na skuteczniejsze przejęcie kontroli nad kontami bankowymi i transakcjami.</p>
-<p>Dzięki tworzeniu odizolowanych środowisk atakujący mogą unikać tradycyjnych detektorów zagrożeń, co wymaga od specjalistów cyberbezpieczeństwa ciągłego podnoszenia poziomu obrony.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-wykorzystujące-znane-platformy-i-popularne-narzędzia">Zagrożenia wykorzystujące znane platformy i popularne narzędzia<a href="https://www.majdak.online/blog/news-2025-06-19#zagro%C5%BCenia-wykorzystuj%C4%85ce-znane-platformy-i-popularne-narz%C4%99dzia" class="hash-link" aria-label="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia" title="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia">​</a></h3>
-<p>Ataki typu LOTS pokazują, że cyberprzestępcy coraz chętniej korzystają z zaufanych platform, takich jak Google, Microsoft, Dropbox czy Slack, aby ukryć swoje działania i skuteczniej włamywać się do systemów firm.</p>
-<p>Tego rodzaju strategia wymaga od firm czujności i monitorowania nawet najbardziej rutynowych operacji, aby wykryć nieautoryzowane działania w ich własnym środowisku.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-techniki-socjotechniczne-i-wyłudzanie-danych">Nowe techniki socjotechniczne i wyłudzanie danych<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-techniki-socjotechniczne-i-wy%C5%82udzanie-danych" class="hash-link" aria-label="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych" title="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych">​</a></h3>
-<p>Zjawisko deepfake’ów i oszukańczych ataków Zoom pokazuje, że cyberkriminalność coraz częściej sięga po sztuczną inteligencję i manipulacje wizualne, aby podszywać się pod znane osoby i nakłonić ofiary do instalacji złośliwego oprogramowania.</p>
-<p>Podnoszą się również zagrożenia związane z wykradaniem loginów i haseł za pomocą zamieszczania ich na nieuczciwych stronach, co wymusza na firmach wdrażanie coraz bardziej zaawansowanych metod ochrony tożsamości.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reakcje-na-zagrożenia-i-rola-instytucji-rządowych">Reakcje na zagrożenia i rola instytucji rządowych<a href="https://www.majdak.online/blog/news-2025-06-19#reakcje-na-zagro%C5%BCenia-i-rola-instytucji-rz%C4%85dowych" class="hash-link" aria-label="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych" title="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych">​</a></h3>
-<p>Agencje takie jak CISA ostrzegają, że aktywne wykorzystywanie luk w systemach Linux, Android czy Linux Kernel jest dziś powszechne i wymaga natychmiastowego reagowania.</p>
-<p>Ponadto, rosnąca liczba cyberataków wymusza na rządach i firmach rozwijanie strategii priorytetowego wzmacniania podstaw bezpieczeństwa, zamiast tylko naprawiania powstałych już problemów.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
     </entry>
 </feed>
