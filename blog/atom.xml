@@ -2,11 +2,111 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-07-21T00:00:00.000Z</updated>
+    <updated>2025-07-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Google i Microsoft wiodą prym w cyberwojnach, wyciekach danych i wyzwaniu AI – czy jesteśmy gotowi na przyszłość pełną zagrożeń?]]></title>
+        <id>https://www.majdak.online/blog/news-2025-07-24</id>
+        <link href="https://www.majdak.online/blog/news-2025-07-24"/>
+        <updated>2025-07-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Wzrost zagrożeń w cyberprzestrzeni jest ogromny – od masowych ataków na SharePoint i WordPress, przez wycieki danych i złośliwe oprogramowanie, po narastającą akcję chińskich i rosyjskich grup hakerskich. Google, Microsoft i Proton wprowadzają nowe rozwiązania, aby chronić użytkowników przed ransomware, backdoorami czy phishingiem, ale równocześnie rośnie liczba zaawansowanych ataków na infrastrukturę krytyczną. Eksperci ostrzegają, że bez proaktywnego budowania ofensywnych zespołów SOC i globalnych standardów bezpieczeństwa, ryzyko katastrofalnych incydentów będzie tylko rosło. W międzyczasie, AI i narzędzia automatyzacji stają się zarówno sojusznikami, jak i zagrożeniami, oferując nowe możliwości, ale i wyzwania, które mogą zagrozić naszej prywatności i infrastrukturze.]]></summary>
+        <content type="html"><![CDATA[<p>Wzrost zagrożeń w cyberprzestrzeni jest ogromny – od masowych ataków na SharePoint i WordPress, przez wycieki danych i złośliwe oprogramowanie, po narastającą akcję chińskich i rosyjskich grup hakerskich. Google, Microsoft i Proton wprowadzają nowe rozwiązania, aby chronić użytkowników przed ransomware, backdoorami czy phishingiem, ale równocześnie rośnie liczba zaawansowanych ataków na infrastrukturę krytyczną. Eksperci ostrzegają, że bez proaktywnego budowania ofensywnych zespołów SOC i globalnych standardów bezpieczeństwa, ryzyko katastrofalnych incydentów będzie tylko rosło. W międzyczasie, AI i narzędzia automatyzacji stają się zarówno sojusznikami, jak i zagrożeniami, oferując nowe możliwości, ale i wyzwania, które mogą zagrozić naszej prywatności i infrastrukturze.</p>
+<p>Forum cyberprzestępczy Leak Zone publicznie ujawnił adresy IP swoich użytkowników
+Ekskluzywnie: Popularne forum 'leaking and cracking' pozostawiło swoją bazę danych wystawioną na internet bez hasła, ujawniając adresy IP logujących się użytkowników.</p>
+<hr>
+<p>AI generuje wiele fikcyjnych raportów o lukach bezpieczeństwa, co wyczerpuje zasoby zespołów bug bounty
+Założyciel jednej z firm zajmujących się testami bezpieczeństwa mówi, że otrzymują dużo czegoś, co wygląda jak złoto, ale jest w rzeczywistości tylko crap. Generowane przez AI raporty o lukach bezpieczeństwa już wpływają na hunting błędów, na lepsze i gorsze sposoby.</p>
+<hr>
+<p>Europejskie władze aresztowały domniemanego administratora słynnego rosyjskiego forum cyberprzestępczego XSS
+Francuskie służby twierdzą, że podsłuchiwały serwer używany przez administratora do dostępu do ich prywatnych wiadomości, które ujawniły działania związane z cyberprzestępczością i atakami ransomware.</p>
+<hr>
+<p>Setki organizacji naruszone w masowych atakach na SharePoint
+Jedna z zaatakowanych organizacji to rządowa agencja odpowiedzialna za utrzymanie zapasu broni jądrowej w USA. Hakerzy wspierani przez Chiny przeprowadzają ataki na serwery SharePoint.</p>
+<hr>
+<p>Co należy wiedzieć o ToolShell, zagrożeniu na SharePoint poddanym masowej eksploatacji
+Unikalny w dostępnej masie exploitable. Bez uwierzytelnienia. Ogromny zasięg. ToolShell ma to wszystko.</p>
+<hr>
+<p>Po ataku za 380 mln USD, Clorox pozywa 'serwis desk' swojego dostawcę za po prostu wydawanie haseł
+Massive hack w 2023 roku był łatwo zapobiegany, twierdzi Clorox.</p>
+<hr>
+<p>Malware CastleLoader infects 469 devices using fake GitHub repos and ClickFix phishing
+Badacze bezpieczeństwa ujawnili nowy, wszechstronny loader malware pod nazwą CastleLoader, używany w kampaniach dystrybuujących różne programy kradnące dane i RATy. Aktywność ta korzysta z phishingu ClickFix, przypominającego Cloudflare, i fałszywych repozytoriów GitHub pod nazwami legalnych aplikacji – mówi szwajcarska firma PRODAFT.</p>
+<hr>
+<p>Firma Sophos i SonicWall załatały krytyczne luki RCE w firewallach i urządzeniach SMA 100
+Firma Sophos oraz SonicWall ostrzegają użytkowników o krytycznych błędach bezpieczeństwa w Sophos Firewall i Secure Mobile Access (SMA) 100 Series, które mogą być wykorzystane do zdalnego wykonania kodu.
+Przedstawione są dwie luki -</p>
+<p>CVE-2025-6704 (CVSS 9.8) – luka w zapisie plików w funkcji Secure PDF eXchange (SPX)</p>
+<hr>
+<p>Obejrzyj ten webinar, aby odkryć ukryte błędy w logowaniu, AI i zaufaniu cyfrowym — i je naprawić
+Czy zarządzanie logowaniami klientów i danymi sprawia, że masz bóle głowy? Nie jesteś sam!
+Dziś oczekujemy superszybkich, bezpiecznych i spersonalizowanych doświadczeń online. Ale szczerze mówiąc, jesteśmy też bardziej ostrożni w wykorzystaniu naszych danych. Jeśli coś wydaje się nie tak, zaufanie znika w mgnieniu oka. Na dodatek, błyskawiczne zmiany w AI zmieniają wszystko — od logowania po wykrywanie oszustw.</p>
+<hr>
+<p>Ataki pentestów raz w roku? Nie, czas na ofensywny SOC
+Nie prowadzisz blue team raz do roku, więc dlaczego akceptować tak słabe harmonogramy dla zespołów ofensywnych? Twoje zespoły cybersecurity muszą być proaktywne, aby wykryć słabości sieci zanim zrobią to przeciwnicy. Jednak w wielu firmach bezpieczeństwo ofensywne jest nadal traktowane jako jednorazowe wydarzenie: coroczny pentest, kwartalne red team albo sprint audytowy.</p>
+<hr>
+<p>Chiny złośliwe grupy APT deployują fałszywe aplikacje Dalaj-szamana do szpiegowania społeczności tybetańskiej
+Społeczność tybetańska była celem grupy cyber-espionage z Chin w ramach dwóch kampanii przeprowadzonych w ubiegłym miesiącu, tuż przed 90. urodzinami Dalaj-szamana 6 lipca 2025.
+Operacje noszą nazwy GhostChat i PhantomPrayers, a badacze Zscaler ThreatLabz twierdzą, że atakujący przejęli kontrolę nad legalną stroną internetową, przekierowując użytkowników poprzez złośliwy link.</p>
+<hr>
+<p>Eksploatacja luk w SharePoint przez Storm-2603 do wdrożenia ransomware Warlock na aktualnych systemach
+Microsoft ujawnił, że jeden z aktorów za próbami aktywnego wykorzystywania luk w SharePoint angażuje się w wdrażanie ransomware Warlock na celowanych systemach.
+Firma, w aktualizacji z środy, podała, że wyniki opierają się na rozszerzonej analizie i wywiadzie cybernetycznym, monitorującym działalność Storm-2603.
+Aktor zagrożenia został przypisany do działania na rzecz finansowych celów.</p>
+<hr>
+<p>Europol aresztował administratora forum XSS w Kijowie po 12 latach działalności na rynku cyberprzestępczym
+Europol ogłosił w poniedziałek aresztowanie podejrzanego administratora XSS.is (dawniej DaMaGeLaB), słynnej platformy cyberprzestępczej z rosyjskojęzycznym personelem.
+Aresztowanie miało miejsce w Kijowie na Ukrainie 22 lipca 2025 r., kierowane przez francuską policję i prokuratora Paryża we współpracy z ukraińskimi służbami.
+Działanie to jest wynikiem śledztwa wszczętego przez organy ścigania.</p>
+<hr>
+<p>Hakerzy wdrażają ukrytą tylną furtkę w WordPress mu-plugins, aby utrzymać dostęp administratora
+Cybersecurity badacze odkryli nową, ukrytą tylną furtkę w katalogu "mu-plugins" na stronach WordPress, pozwalającą zagrożeniom na stały dostęp i wykonywanie dowolnych działań.
+Must-use plugins (w skrócie mu-plugins) to specjalne wtyczki, które są automatycznie aktywowane na wszystkich stronach WordPress po instalacji. Znajdują się w katalogu "wp-content/mu-plugins".</p>
+<hr>
+<p>Aktor zagrożenia Mimo celuje w Magento i Docker, by wdrażać koparki kryptowalut i proxyware
+Aktor zagrożenia odpowiedzialny za wykorzystywanie podatnych wersji Craft CMS przesunął swoją działalność na Magento CMS i źle skonfigurowane kontenery Docker.
+Działanie to przypisuje się aktorowi trackerowanemu jako Mimo (aka Hezb), który ma długą historię wykorzystywania luk N-day w różnych aplikacjach webowych do wdrażania koparek kryptowalut.</p>
+<hr>
+<p>Nowa odmiana malware Coyote wykorzystuje Windows UI Automation do kradzieży danych bankowych
+Znany trojan bankowy Coyote staje się pierwszym złośliwym oprogramowaniem, które korzysta z dostępnej platformy Windows UI Automation (UIA) do pozyskiwania wrażliwych informacji.
+Nowa odmiana ataku jest skierowana do użytkowników w Brazylii i używa UIA do ekstrakcji danych logowania powiązanych z 75 bankami i giełdami kryptowalut.</p>
+<hr>
+<p>Detekcje Kerberoasting: Nowe podejście do wyzwania sprzed dekady
+Eksperci od bezpieczeństwa od ponad dekady mówią o Kerberoasting, ale ten atak nadal unika zwykłych metod obronnych. Dlaczego?
+Ponieważ istniejące wykrycia opierają się na słabych heurystykach i statycznych regułach, które nie nadają się do wykrywania wzorców ataku w wysoko zmiennym ruchu Kerberos.
+Często generują fałszywe alarmy lub pomijają ataki "low-and-slow".</p>
+<hr>
+<p>Google uruchamia OSS Rebuild, aby wykrywać złośliwy kod w szeroko używanych pakietach open-source
+Google ogłosił nową inicjatywę OSS Rebuild mającą na celu zwiększenie bezpieczeństwa ekosystemu open-source i zapobieganie atakom na łańcuch dostaw oprogramowania.
+"Ponieważ ataki na łańcuch dostaw nadal celują w szeroko używane zależności, OSS Rebuild zapewnia zespołom bezpieczeństwa potężne dane, aby uniknąć naruszeń bez obciążania twórców upstream" – mówi Matthew Suozzo z Google Security.</p>
+<hr>
+<p>CISA nakazuje pilne poprawki po wykorzystaniu luk w SharePoint przez chińskich hakerów
+Amerykańska Agencja ds. Cyberbezpieczeństwa i Infrastruktury (CISA) 22 lipca 2025 r. dodała dwie luki w SharePoint, CVE-2025-49704 i CVE-2025-49706, do katalogu znanych eksploatowanych podatności (KEV), bazując na dowodach aktywnego wykorzystywania.
+Proces remediacji jest obowiązkowy dla agencji federalnych do 23 lipca 2025 r.</p>
+<hr>
+<p>CISA ostrzega: luki w SysAid pod aktywnym atakiem umożliwiają zdalny dostęp do plików i SSRF
+U.S. Cybersecurity and Infrastructure Security Agency (CISA) dodała dwie luki bezpieczeństwa w oprogramowaniu SysAid do katalogu KEV, na podstawie dowodów aktywnego wykorzystania.
+Podane luki to:</p>
+<p>CVE-2025-2775 (CVSS: 9.3) – nieprawidłowe ograniczenie odniesienia XML external entity (XXE)</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="herodevs-pozyskał-125-milionów-dolarów-na-zabezpieczenie-przestarzałego-oprogramowania-open-sourceherodevs-otrzymał-strategiczny-wkład-w-wysokości-125-milionów-dolarów-od-psg-na-zabezpieczenie-stosów-bezpieczeństwa-dla-przedsiębiorstw">HeroDevs pozyskał 125 milionów dolarów na zabezpieczenie przestarzałego oprogramowania open-source
+HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PSG na zabezpieczenie stosów bezpieczeństwa dla przedsiębiorstw.
+—<a href="https://www.majdak.online/blog/news-2025-07-24#herodevs-pozyska%C5%82-125-milion%C3%B3w-dolar%C3%B3w-na-zabezpieczenie-przestarza%C5%82ego-oprogramowania-open-sourceherodevs-otrzyma%C5%82-strategiczny-wk%C5%82ad-w-wysoko%C5%9Bci-125-milion%C3%B3w-dolar%C3%B3w-od-psg-na-zabezpieczenie-stos%C3%B3w-bezpiecze%C5%84stwa-dla-przedsi%C4%99biorstw" class="hash-link" aria-label="Bezpośredni link do HeroDevs pozyskał 125 milionów dolarów na zabezpieczenie przestarzałego oprogramowania open-source
+HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PSG na zabezpieczenie stosów bezpieczeństwa dla przedsiębiorstw.
+—" title="Bezpośredni link do HeroDevs pozyskał 125 milionów dolarów na zabezpieczenie przestarzałego oprogramowania open-source
+HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PSG na zabezpieczenie stosów bezpieczeństwa dla przedsiębiorstw.
+—">​</a></h2>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft SharePoint na celowniku cyberprzestępców: globalne ataki na lukę zero-day]]></title>
         <id>https://www.majdak.online/blog/news-2025-07-21</id>
@@ -1108,40 +1208,5 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
         </author>
         <category label="game-dev" term="game-dev"/>
         <category label="falconsescape" term="falconsescape"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta dodaje Passkey do Facebooka – czy to przyszłość bez haseł?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-19</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-19"/>
-        <updated>2025-06-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.]]></summary>
-        <content type="html"><![CDATA[<p>W świecie cyberataków nie brakuje fascynujących i zaskakujących historii, które pokazują jak poważne konsekwencje mogą mieć nawet najbardziej z pozoru niewielkie luki w bezpieczeństwie. Jednym z najbardziej intrygujących wydarzeń jest atak grupy Predatory Sparrow na irański rynek kryptowalut, który skończył się stratą aż 90 milionów dolarów.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cyberwojna-na-najwyższych-obrotach-predatory-sparrow-pali-90-milionów-dolarów-w-iranie">Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie<a href="https://www.majdak.online/blog/news-2025-06-19#cyberwojna-na-najwy%C5%BCszych-obrotach-predatory-sparrow-pali-90-milion%C3%B3w-dolar%C3%B3w-w-iranie" class="hash-link" aria-label="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie" title="Bezpośredni link do Cyberwojna na najwyższych obrotach: Predatory Sparrow pali 90 milionów dolarów w Iranie">​</a></h3>
-<p>Proizraelska grupa hackerska Predatory Sparrow przeprowadziła cyberatak na irański największy kryptobroker, Nobitex, co zakończyło się spaleniem ponad 90 milionów dolarów worth of cryptocurrencies. To wyraźny sygnał, że cyberwojny mają coraz bardziej złożony i bezpośredni wymiar finansowy i polityczny.</p>
-<p>Takie operacje pokazują, jak ważne jest nieustanne wzmacnianie ochrony na poziomie infrastruktury cyfrowej, zwłaszcza w regionach zaognionych konfliktami, gdzie cyberprzestępczość staje się narzędziem walki na arenie międzynarodowej.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-ataki-na-infrastrukturę-i-strony-internetowe">Zaawansowane ataki na infrastrukturę i strony internetowe<a href="https://www.majdak.online/blog/news-2025-06-19#zaawansowane-ataki-na-infrastruktur%C4%99-i-strony-internetowe" class="hash-link" aria-label="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe" title="Bezpośredni link do Zaawansowane ataki na infrastrukturę i strony internetowe">​</a></h3>
-<p>Koronnym przykładem są ataki na główne portale i firmy technologiczne, takie jak Microsoft, Apple oraz Bank of America, które są coraz częściej celem cyberprzestępców próbujących wyłudzić dane lub wprowadzić złośliwe oprogramowanie.</p>
-<p>Niestety, aktywność ta obejmuje nie tylko wyłudzanie danych, ale także działania mające na celu zakłócenie funkcjonowania kluczowych usług cyfrowych, co stawia wyzwania dla cyberbezpieczeństwa na poziomie globalnym.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-wyzwania-dla-hakerów-malware-które-tworzą-izolowane-środowiska">Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-wyzwania-dla-haker%C3%B3w-malware-kt%C3%B3re-tworz%C4%85-izolowane-%C5%9Brodowiska" class="hash-link" aria-label="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska" title="Bezpośredni link do Nowe wyzwania dla hakerów: malware, które tworzą izolowane środowiska">​</a></h3>
-<p>Malware, takie jak GodFather i AntiDot, wykorzystują zaawansowane techniki virtualizacji i infiltrowania urządzeń mobilnych, co pozwala na skuteczniejsze przejęcie kontroli nad kontami bankowymi i transakcjami.</p>
-<p>Dzięki tworzeniu odizolowanych środowisk atakujący mogą unikać tradycyjnych detektorów zagrożeń, co wymaga od specjalistów cyberbezpieczeństwa ciągłego podnoszenia poziomu obrony.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-wykorzystujące-znane-platformy-i-popularne-narzędzia">Zagrożenia wykorzystujące znane platformy i popularne narzędzia<a href="https://www.majdak.online/blog/news-2025-06-19#zagro%C5%BCenia-wykorzystuj%C4%85ce-znane-platformy-i-popularne-narz%C4%99dzia" class="hash-link" aria-label="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia" title="Bezpośredni link do Zagrożenia wykorzystujące znane platformy i popularne narzędzia">​</a></h3>
-<p>Ataki typu LOTS pokazują, że cyberprzestępcy coraz chętniej korzystają z zaufanych platform, takich jak Google, Microsoft, Dropbox czy Slack, aby ukryć swoje działania i skuteczniej włamywać się do systemów firm.</p>
-<p>Tego rodzaju strategia wymaga od firm czujności i monitorowania nawet najbardziej rutynowych operacji, aby wykryć nieautoryzowane działania w ich własnym środowisku.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-techniki-socjotechniczne-i-wyłudzanie-danych">Nowe techniki socjotechniczne i wyłudzanie danych<a href="https://www.majdak.online/blog/news-2025-06-19#nowe-techniki-socjotechniczne-i-wy%C5%82udzanie-danych" class="hash-link" aria-label="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych" title="Bezpośredni link do Nowe techniki socjotechniczne i wyłudzanie danych">​</a></h3>
-<p>Zjawisko deepfake’ów i oszukańczych ataków Zoom pokazuje, że cyberkriminalność coraz częściej sięga po sztuczną inteligencję i manipulacje wizualne, aby podszywać się pod znane osoby i nakłonić ofiary do instalacji złośliwego oprogramowania.</p>
-<p>Podnoszą się również zagrożenia związane z wykradaniem loginów i haseł za pomocą zamieszczania ich na nieuczciwych stronach, co wymusza na firmach wdrażanie coraz bardziej zaawansowanych metod ochrony tożsamości.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="reakcje-na-zagrożenia-i-rola-instytucji-rządowych">Reakcje na zagrożenia i rola instytucji rządowych<a href="https://www.majdak.online/blog/news-2025-06-19#reakcje-na-zagro%C5%BCenia-i-rola-instytucji-rz%C4%85dowych" class="hash-link" aria-label="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych" title="Bezpośredni link do Reakcje na zagrożenia i rola instytucji rządowych">​</a></h3>
-<p>Agencje takie jak CISA ostrzegają, że aktywne wykorzystywanie luk w systemach Linux, Android czy Linux Kernel jest dziś powszechne i wymaga natychmiastowego reagowania.</p>
-<p>Ponadto, rosnąca liczba cyberataków wymusza na rządach i firmach rozwijanie strategii priorytetowego wzmacniania podstaw bezpieczeństwa, zamiast tylko naprawiania powstałych już problemów.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
     </entry>
 </feed>
