@@ -1,13 +1,8 @@
 ---
 slug: news-2025-07-24
 title: "Google i Microsoft wiodą prym w cyberwojnach, wyciekach danych i wyzwaniu AI – czy jesteśmy gotowi na przyszłość pełną zagrożeń?"
-authors:
-  - przemyslvw
-tags:
-  - cybersecurity
-  - ataki
-  - exploits
-  - privacy
+authors: [przemyslvw]
+tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: "2025-07-24"
 ---
 
@@ -116,5 +111,5 @@ CVE-2025-2775 (CVSS: 9.3) – nieprawidłowe ograniczenie odniesienia XML extern
 ---
 HeroDevs pozyskał 125 milionów dolarów na zabezpieczenie przestarzałego oprogramowania open-source
 HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PSG na zabezpieczenie stosów bezpieczeństwa dla przedsiębiorstw.
-—
+
 ---
