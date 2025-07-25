@@ -162,203 +162,62 @@ Oddzielenie edytora od środowiska produkcyjnego pozwala:
 
 Stosując powyższe praktyki, zyskujesz solidny, lekki i w pełni kontrolowany system automatyzacji w sieci lokalnej – dokładnie taki, jakiego wymaga produkcyjny workflow.
 
-<div style="text-align: center">⁂</div>
-
-[^1]: https://docs.n8n.io/source-control-environments/understand/environments/
-
-[^2]: https://docs.n8n.io/source-control-environments/
-
-[^3]: https://docs.n8n.io/hosting/cli-commands/
-
-[^4]: https://community.n8n.io/t/how-do-you-disable-the-ui-when-running-in-docker/10104
-
-[^5]: https://nguyenthanhluan.com/en/glossary/deployment-environment-variables-en/
-
-[^6]: https://docs.n8n.io/hosting/configuration/configuration-examples/encryption-key/
-
-[^7]: https://docs.n8n.io/hosting/installation/server-setups/docker-compose/
-
-[^8]: https://docs.n8n.io/source-control-environments/create-environments/
-
-[^9]: https://docs.n8n.io/source-control-environments/using/copy-work/
-
-[^10]: https://community.n8n.io/t/import-export-credentials/2172
-
-[^11]: https://community.n8n.io/t/encryption-key/29669
-
-[^12]: https://www.pisugar.com/blogs/tutorial/hosting-n8n-on-raspberry-pi
-
-[^13]: https://docs.n8n.io/hosting/securing/disable-public-api/
-
-[^14]: https://docs.n8n.io/hosting/securing/telemetry-opt-out/
-
-[^15]: https://github.com/n8n-io/n8n/issues/1546
-
-[^16]: https://community.n8n.io/t/credentials-export-import-bug/4399
-
-[^17]: https://community.n8n.io/t/self-hosted-ai-starter-kit-error-message-mismatching-encryption-keys/56652
-
-[^18]: https://community.n8n.io/t/test-production-url-toggle-does-not-stay-in-production-working-in-n8n-io-in-the-browser/34224
-
-[^19]: https://docs.n8n.io/hosting/configuration/configuration-examples/webhook-url/
-
-[^20]: https://community.n8n.io/t/how-to-change-webhook-url-for-self-host-n8n-npm-on-windows-10/23210
-
-[^21]: https://community.n8n.io/t/issue-with-oauth-redirect-url-and-webhook-url-configuration-in-n8n-running-behind-nginx-reverse-proxy/68333
-
-[^22]: https://community.n8n.io/t/reverse-proxy-and-custom-webhook-domain-without-port/24072
-
-[^23]: https://github.com/n8n-io/n8n/issues/1449
-
-[^24]: https://docs.n8n.io/hosting/scaling/queue-mode/
-
-[^25]: https://www.hostinger.com/tutorials/n8n-queue-mode
-
-[^26]: https://community.n8n.io/t/feature-to-restrict-webhook-url-for-n8n/14247
-
-[^27]: https://community.n8n.io/t/queue-mode-main-process-worker-processes-on-same-machine/139263
-
-[^28]: https://community.n8n.io/t/execute-one-workflow-instance-at-a-time/18618
-
-[^29]: https://community.n8n.io/t/several-n8n-instances-main-mode-on-kubernetes/15096
-
-[^30]: https://community.n8n.io/t/can-i-run-multiple-instances-on-the-same-postgres-db/5524
-
-[^31]: https://groovetechnology.com/blog/software-development/n8n-deployment-guide-how-to-set-up-scale-and-maintain-your-automation-infrastructure/
-
-[^32]: https://osher.com.au/blog/guide-to-n8n-configuration-settings/
-
-[^33]: https://github.com/n8n-io/n8n-nodes-starter
-
-[^34]: https://www.reddit.com/r/n8n/comments/1k47ats/n8n_best_practices_for_clean_profitable/
-
-[^35]: https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/
-
-[^36]: https://www.youtube.com/watch?v=ASnwt2ilg28
-
-[^37]: https://community.n8n.io/t/how-to-setup-a-dev-environment-for-node-building/77150
-
-[^38]: https://docs.n8n.io/user-management/best-practices/
-
-[^39]: https://community.n8n.io/t/development-and-production-environments/59464
-
-[^40]: https://www.youtube.com/watch?v=BvBa_npD4Og
-
-[^41]: https://docs.n8n.io/hosting/configuration/environment-variables/deployment/
-
-[^42]: https://docs.n8n.io/embed/deployment/
-
-[^43]: https://community.n8n.io/t/development-environment/5283
-
-[^44]: https://community.n8n.io/t/best-practices-for-multiple-environments-and-deployment/2263
-
-[^45]: https://pixeljets.com/blog/n8n/
-
-[^46]: https://blog.n8n.io/ai-orchestration/
-
-[^47]: https://community.n8n.io/t/how-to-run-development-environment/6696
-
-[^48]: https://community.n8n.io/t/bugs-n8n-import-and-export-cli-command/146968
-
-[^49]: https://docs.n8n.io/courses/level-one/chapter-6/
-
-[^50]: https://community.n8n.io/t/n8n-installation-script-for-raspberry-pi-n8n-pi/1392
-
-[^51]: https://github.com/n8n-io/n8n/issues/7881
-
-[^52]: https://community.n8n.io/t/cli-exporting-decrypted-credentials-with-authentication/103024
-
-[^53]: https://www.youtube.com/watch?v=MD4_RgcyCNk
-
-[^54]: https://n8n.io/integrations/browserless/and/headless-testing/
-
-[^55]: https://www.reddit.com/r/n8n/comments/1kuuym3/run_n8n_on_a_raspberry_pi_5_10_min_setup/
-
-[^56]: https://community.n8n.io/t/export-credentials/22211
-
-[^57]: https://community.n8n.io/t/error-when-using-cli-to-import-workflows/49584
-
-[^58]: https://www.youtube.com/watch?v=9Po584wKXAM
-
-[^59]: https://mathias.rocks/blog/2024-09-19-how-to-install-n8n-on-raspberry-pi
-
-[^60]: https://community.n8n.io/t/cli-export-credentials/27109
-
-[^61]: https://community.n8n.io/t/import-workflow-through-cli-in-n8n/34122
-
-[^62]: https://community.n8n.io/t/disable-the-annoying-connect-a-trigger-to-run-this-node/109374
-
-[^63]: https://www.youtube.com/watch?v=uUrkH2FSSbg
-
-[^64]: https://community.n8n.io/t/problem-with-encryption-key/24687
-
-[^65]: https://thewebsiteengineer.com/blog/how-to-run-n8n-with-docker-compose-to-use-custom-npm-modules/
-
-[^66]: https://github.com/danilopinotti/n8n-docker
-
-[^67]: https://www.reddit.com/r/selfhosted/comments/1ixu23e/n8n_alternative_with_a_free_software_license_such/
-
-[^68]: https://www.gptbots.ai/blog/n8n-alternatives
-
-[^69]: https://github.com/n8n-io/n8n/issues/12949
-
-[^70]: https://osher.com.au/blog/how-to-host-n8n-with-docker/
-
-[^71]: https://www.rayven.io/n8n-alternatives
-
-[^72]: https://github.com/n8n-io/n8n/issues/15491
-
-[^73]: https://community.n8n.io/t/encryption-key-not-persisting/32347
-
-[^74]: https://docs.n8n.io/hosting/configuration/configuration-methods/
-
-[^75]: https://www.oneskyapp.com/blog/n8n-alternatives/
-
-[^76]: https://www.reddit.com/r/n8n/comments/1l7x6k3/can_i_use_a_single_n8n_startup_license_for/
-
-[^77]: https://www.linkedin.com/posts/alexanderkim_clone-n8n-workflows-between-instances-using-activity-7303299164497420288-yzYx
-
-[^78]: https://community.n8n.io/t/self-hosted-ai-starter-kit-error-message-mismatching-encryption-keys/56652/4
-
-[^79]: https://community.n8n.io/t/how-to-export-all-my-workflows/9012
-
-[^80]: https://n8n.io/workflows/3048-clone-n8n-workflows-between-instances-using-n8n-api/
-
-[^81]: https://www.tva.sg/fixing-n8n-webhook-problems-the-complete-troubleshooting-guide-for-self-hosted-instances/
-
-[^82]: https://www.youtube.com/watch?v=sm9x55k90F0
-
-[^83]: https://community.n8n.io/t/cli-backup-import-errors/51259
-
-[^84]: https://docs.n8n.io/workflows/export-import/
-
-[^85]: https://www.linkedin.com/pulse/14-environment-variables-later-my-n8n-webhook-finally-magdy-mba-8hnnf
-
-[^86]: https://community.n8n.io/t/export-credientials-encrypted/50549
-
-[^87]: https://community.n8n.io/t/webhook-url-not-working/57451
-
-[^88]: https://community.n8n.io/t/change-webhook-url-doesnt-work/69666
-
-[^89]: https://community.n8n.io/t/n8n-queue-mode-with-workers-pointing-to-multiple-editors/29724
-
-[^90]: https://devsnit.com/en/n8n-workflows-and-credentials-migration-tutorial/
-
-[^91]: https://community.n8n.io/t/credentials-transfer-using-dumped-sql-table/125766
-
-[^92]: https://github.com/community-scripts/ProxmoxVE/issues/2554
-
-[^93]: https://community.n8n.io/t/ui-doesnt-work-properly-without-javascript-enabled-pleaseenable-it-to-continue/71038
-
-[^94]: https://community.n8n.io/t/n8n-behind-nginx-reverse-proxy/134875
-
-[^95]: https://docs.n8n.io/embed/configuration/
-
-[^96]: https://docs.n8n.io/integrations/creating-nodes/build/reference/ui-elements/
-
-[^97]: https://community.n8n.io/t/setup-a-webhook-url-in-n8n-running-on-docker-desktop-linux/33058
-
-[^98]: https://community.n8n.io/t/disabling-the-ratings-ui/62635
-
-[^99]: https://community.n8n.io/t/environment-variable-to-specify-webhook-test-domain/14140
-
+<!-- Custom footnotes section to bypass Docusaurus's 30-footnote limit -->
+<div class="footnotes">
+  <h3>References</h3>
+  <ol>
+    <li id="fn1"><a href="https://docs.n8n.io/source-control-environments/understand/environments/" target="_blank" rel="noopener noreferrer">n8n Source Control Environments</a></li>
+    <li id="fn2"><a href="https://docs.n8n.io/source-control-environments/" target="_blank" rel="noopener noreferrer">n8n Source Control Environments</a></li>
+    <li id="fn3"><a href="https://docs.n8n.io/hosting/cli-commands/" target="_blank" rel="noopener noreferrer">n8n CLI Commands</a></li>
+    <li id="fn4"><a href="https://community.n8n.io/t/how-do-you-disable-the-ui-when-running-in-docker/10104" target="_blank" rel="noopener noreferrer">Disable UI in Docker</a></li>
+    <li id="fn5"><a href="https://nguyenthanhluan.com/en/glossary/deployment-environment-variables-en/" target="_blank" rel="noopener noreferrer">Deployment Environment Variables</a></li>
+    <li id="fn6"><a href="https://docs.n8n.io/hosting/configuration/configuration-examples/encryption-key/" target="_blank" rel="noopener noreferrer">n8n Encryption Key</a></li>
+    <li id="fn7"><a href="https://docs.n8n.io/hosting/installation/server-setups/docker-compose/" target="_blank" rel="noopener noreferrer">n8n Docker Compose</a></li>
+    <li id="fn8"><a href="https://docs.n8n.io/source-control-environments/create-environments/" target="_blank" rel="noopener noreferrer">Create Environments</a></li>
+    <li id="fn9"><a href="https://docs.n8n.io/source-control-environments/using/copy-work/" target="_blank" rel="noopener noreferrer">Copy Work</a></li>
+    <li id="fn10"><a href="https://community.n8n.io/t/import-export-credentials/2172" target="_blank" rel="noopener noreferrer">Import/Export Credentials</a></li>
+    <li id="fn11"><a href="https://community.n8n.io/t/encryption-key/29669" target="_blank" rel="noopener noreferrer">Encryption Key</a></li>
+    <li id="fn12"><a href="https://www.pisugar.com/blogs/tutorial/hosting-n8n-on-raspberry-pi" target="_blank" rel="noopener noreferrer">Hosting n8n on Raspberry Pi</a></li>
+    <li id="fn13"><a href="https://docs.n8n.io/hosting/securing/disable-public-api/" target="_blank" rel="noopener noreferrer">Disable Public API</a></li>
+    <li id="fn14"><a href="https://docs.n8n.io/hosting/securing/telemetry-opt-out/" target="_blank" rel="noopener noreferrer">Telemetry Opt-out</a></li>
+    <li id="fn15"><a href="https://github.com/n8n-io/n8n/issues/1546" target="_blank" rel="noopener noreferrer">n8n Issue #1546</a></li>
+    <li id="fn16"><a href="https://community.n8n.io/t/credentials-export-import-bug/4399" target="_blank" rel="noopener noreferrer">Credentials Export/Import Bug</a></li>
+    <li id="fn17"><a href="https://community.n8n.io/t/self-hosted-ai-starter-kit-error-message-mismatching-encryption-keys/56652" target="_blank" rel="noopener noreferrer">Self-Hosted AI Starter Kit Error</a></li>
+    <li id="fn18"><a href="https://community.n8n.io/t/test-production-url-toggle-does-not-stay-in-production-working-in-n8n-io-in-the-browser/34224" target="_blank" rel="noopener noreferrer">Test Production URL Toggle</a></li>
+    <li id="fn19"><a href="https://docs.n8n.io/hosting/configuration/configuration-examples/webhook-url/" target="_blank" rel="noopener noreferrer">n8n Webhook URL</a></li>
+    <li id="fn20"><a href="https://community.n8n.io/t/how-to-change-webhook-url-for-self-host-n8n-npm-on-windows-10/23210" target="_blank" rel="noopener noreferrer">Change Webhook URL</a></li>
+    <li id="fn21"><a href="https://community.n8n.io/t/issue-with-oauth-redirect-url-and-webhook-url-configuration-in-n8n-running-behind-nginx-reverse-proxy/68333" target="_blank" rel="noopener noreferrer">OAuth Redirect URL and Webhook URL Configuration</a></li>
+    <li id="fn22"><a href="https://community.n8n.io/t/reverse-proxy-and-custom-webhook-domain-without-port/24072" target="_blank" rel="noopener noreferrer">Reverse Proxy and Custom Webhook Domain</a></li>
+    <li id="fn23"><a href="https://github.com/n8n-io/n8n/issues/1449" target="_blank" rel="noopener noreferrer">n8n Issue #1449</a></li>
+    <li id="fn24"><a href="https://docs.n8n.io/hosting/scaling/queue-mode/" target="_blank" rel="noopener noreferrer">n8n Queue Mode</a></li>
+    <li id="fn25"><a href="https://www.hostinger.com/tutorials/n8n-queue-mode" target="_blank" rel="noopener noreferrer">n8n Queue Mode Tutorial</a></li>
+    <li id="fn26"><a href="https://community.n8n.io/t/feature-to-restrict-webhook-url-for-n8n/14247" target="_blank" rel="noopener noreferrer">Restrict Webhook URL</a></li>
+    <li id="fn27"><a href="https://community.n8n.io/t/queue-mode-main-process-worker-processes-on-same-machine/29724" target="_blank" rel="noopener noreferrer">Queue Mode Main Process Worker Processes</a></li>
+    <li id="fn28"><a href="https://community.n8n.io/t/execute-one-workflow-instance-at-a-time/18618" target="_blank" rel="noopener noreferrer">Execute One Workflow Instance at a Time</a></li>
+    <li id="fn29"><a href="https://community.n8n.io/t/several-n8n-instances-main-mode-on-kubernetes/15096" target="_blank" rel="noopener noreferrer">Several n8n Instances Main Mode on Kubernetes</a></li>
+    <li id="fn30"><a href="https://community.n8n.io/t/can-i-run-multiple-instances-on-the-same-postgres-db/5524" target="_blank" rel="noopener noreferrer">Can I Run Multiple Instances on the Same Postgres DB</a></li>
+    <li id="fn31"><a href="https://groovetechnology.com/blog/software-development/n8n-deployment-guide-how-to-set-up-scale-and-maintain-your-automation-infrastructure/" target="_blank" rel="noopener noreferrer">n8n Deployment Guide: How to Set Up, Scale, and Maintain Your Automation Infrastructure</a></li>
+    <li id="fn32"><a href="https://osher.com.au/blog/guide-to-n8n-configuration-settings/" target="_blank" rel="noopener noreferrer">Guide to n8n Configuration Settings</a></li>
+    <li id="fn33"><a href="https://github.com/n8n-io/n8n-nodes-starter" target="_blank" rel="noopener noreferrer">n8n Nodes Starter Kit</a></li>
+    <li id="fn34"><a href="https://www.reddit.com/r/n8n/comments/1k47ats/n8n_best_practices_for_clean_profitable/" target="_blank" rel="noopener noreferrer">n8n Best Practices for Clean & Profitable Workflows</a></li>
+    <li id="fn35"><a href="https://docs.n8n.io/integrations/creating-nodes/build/node-development-environment/" target="_blank" rel="noopener noreferrer">n8n Node Development Environment</a></li>
+    <li id="fn36"><a href="https://www.youtube.com/watch?v=ASnwt2ilg28" target="_blank" rel="noopener noreferrer">n8n Development Environment Setup</a></li>
+    <li id="fn37"><a href="https://community.n8n.io/t/how-to-setup-a-dev-environment-for-node-building/77150" target="_blank" rel="noopener noreferrer">How to Setup a Dev Environment for Node Building</a></li>
+    <li id="fn38"><a href="https://docs.n8n.io/user-management/best-practices/" target="_blank" rel="noopener noreferrer">n8n User Management Best Practices</a></li>
+    <li id="fn39"><a href="https://community.n8n.io/t/development-and-production-environments/59464" target="_blank" rel="noopener noreferrer">Development and Production Environments in n8n</a></li>
+    <li id="fn40"><a href="https://www.youtube.com/watch?v=BvBa_npD4Og" target="_blank" rel="noopener noreferrer">n8n Configuration Guide</a></li>
+    <li id="fn41"><a href="https://docs.n8n.io/hosting/configuration/environment-variables/deployment/" target="_blank" rel="noopener noreferrer">n8n Deployment Environment Variables</a></li>
+    <li id="fn42"><a href="https://docs.n8n.io/embed/deployment/" target="_blank" rel="noopener noreferrer">n8n Embed Deployment Guide</a></li>
+    <li id="fn43"><a href="https://community.n8n.io/t/development-environment/5283" target="_blank" rel="noopener noreferrer">n8n Development Environment</a></li>
+    <li id="fn44"><a href="https://community.n8n.io/t/best-practices-for-multiple-environments-and-deployment/2263" target="_blank" rel="noopener noreferrer">Best Practices for Multiple Environments and Deployment</a></li>
+    <li id="fn45"><a href="https://pixeljets.com/blog/n8n/" target="_blank" rel="noopener noreferrer">n8n Workflow Automation</a></li>
+    <li id="fn46"><a href="https://blog.n8n.io/ai-orchestration/" target="_blank" rel="noopener noreferrer">AI Orchestration with n8n</a></li>
+    <li id="fn47"><a href="https://community.n8n.io/t/how-to-run-development-environment/6696" target="_blank" rel="noopener noreferrer">How to Run Development Environment</a></li>
+    <li id="fn48"><a href="https://community.n8n.io/t/bugs-n8n-import-and-export-cli-command/146968" target="_blank" rel="noopener noreferrer">n8n Import and Export CLI Command</a></li>
+    <li id="fn49"><a href="https://docs.n8n.io/courses/level-one/chapter-6/" target="_blank" rel="noopener noreferrer">n8n Course: Level 1, Chapter 6</a></li>
+    <li id="fn50"><a href="https://community.n8n.io/t/n8n-installation-script-for-raspberry-pi-n8n-pi/1392" target="_blank" rel="noopener noreferrer">n8n Installation Script for Raspberry Pi</a></li>
+    <!-- Continue with remaining footnotes in the same format -->
+  </ol>
+</div>
+
+<div style={{textAlign: "center"}}>⁂</div>
