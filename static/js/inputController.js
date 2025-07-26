@@ -1,62 +1,62 @@
+// --- Imports ---
 import { game } from './gameState.js';
 import { canvas } from './canvas.js';
 import { fireLaser } from './gameLogic.js';
 
-// Input handling
-let keys = {};
+// --- Global State ---
+const keys = {};
+let mouseX = 0;
+let mouseY = 0;
 
-// --- WSAD keyboard support ---
-document.addEventListener('keydown', function (e) {
+// --- Keyboard Input ---
+document.addEventListener('keydown', e => {
   keys[e.key.toLowerCase()] = true;
 });
-document.addEventListener('keyup', function (e) {
+document.addEventListener('keyup', e => {
   keys[e.key.toLowerCase()] = false;
 });
 
 function updateKeyboardToJoystick() {
-  // Map WSAD to joystick.x/y
-  let x = 0,
-    y = 0;
-  if (keys['w']) y -= 1;
-  if (keys['s']) y += 1;
-  if (keys['a']) x -= 1;
-  if (keys['d']) x += 1;
+  // Map WSAD/Arrow keys to joystick.x/y
+  let x = 0, y = 0;
+  if (keys['w'] || keys['arrowup']) y -= 1;
+  if (keys['s'] || keys['arrowdown']) y += 1;
+  if (keys['a'] || keys['arrowleft']) x -= 1;
+  if (keys['d'] || keys['arrowright']) x += 1;
+
   // Normalize
   if (x !== 0 || y !== 0) {
     const len = Math.sqrt(x * x + y * y);
     x /= len;
     y /= len;
   }
-  // Nadpisz joystick tylko jeśli nie jest aktywny dotyk/mysz
+  // Only update if not using touch/mouse joystick
   if (!game.joystick.active) {
     game.joystick.x = x;
     game.joystick.y = y;
   }
 }
 
-// --- Gamepad API support ---
+// --- Gamepad Input ---
 function pollGamepadToJoystick() {
   const gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
-  if (gamepads) {
-    for (let i = 0; i < gamepads.length; i++) {
-      const gp = gamepads[i];
-      if (gp && gp.connected) {
-        let x = gp.axes[0] || 0;
-        let y = gp.axes[1] || 0;
-        // Deadzone
-        if (Math.abs(x) < 0.15) x = 0;
-        if (Math.abs(y) < 0.15) y = 0;
-        if ((x !== 0 || y !== 0) && !game.joystick.active) {
-          game.joystick.x = x;
-          game.joystick.y = y;
-        }
-        break; // Obsłuż pierwszy podłączony pad
+  if (!gamepads) return;
+  for (const gp of gamepads) {
+    if (gp && gp.connected) {
+      let x = gp.axes[0] || 0;
+      let y = gp.axes[1] || 0;
+      if (Math.abs(x) < 0.15) x = 0;
+      if (Math.abs(y) < 0.15) y = 0;
+      if ((x !== 0 || y !== 0) && !game.joystick.active) {
+        game.joystick.x = x;
+        game.joystick.y = y;
       }
+      break; // Only first connected pad
     }
   }
 }
 
-// --- Integracja wejść ---
+// --- Input Integration Loop ---
 function inputIntegrationLoop() {
   updateKeyboardToJoystick();
   pollGamepadToJoystick();
@@ -64,7 +64,7 @@ function inputIntegrationLoop() {
 }
 inputIntegrationLoop();
 
-// Touch/Mouse joystick
+// --- Touch/Mouse Joystick ---
 const joystickElement = document.getElementById('joystick');
 const knobElement = document.getElementById('joystickKnob');
 
@@ -72,13 +72,9 @@ function handleJoystickStart(e) {
   game.joystick.active = true;
   updateJoystick(e);
 }
-
 function handleJoystickMove(e) {
-  if (game.joystick.active) {
-    updateJoystick(e);
-  }
+  if (game.joystick.active) updateJoystick(e);
 }
-
 function handleJoystickEnd() {
   game.joystick.active = false;
   game.joystick.x = 0;
@@ -95,9 +91,11 @@ function updateJoystick(e) {
   if (e.touches && e.touches[0]) {
     clientX = e.touches[0].clientX;
     clientY = e.touches[0].clientY;
-  } else {
+  } else if (typeof e.clientX === 'number' && typeof e.clientY === 'number') {
     clientX = e.clientX;
     clientY = e.clientY;
+  } else {
+    return; // brak danych o pozycji
   }
 
   const deltaX = clientX - centerX;
@@ -113,13 +111,11 @@ function updateJoystick(e) {
     const angle = Math.atan2(deltaY, deltaX);
     game.joystick.x = Math.cos(angle);
     game.joystick.y = Math.sin(angle);
-    knobElement.style.transform = `translate(${Math.cos(angle) * maxDistance - 25}px, ${
-      Math.sin(angle) * maxDistance - 25
-    }px)`;
+    knobElement.style.transform = `translate(${Math.cos(angle) * maxDistance - 25}px, ${Math.sin(angle) * maxDistance - 25}px)`;
   }
 }
 
-// Event listeners for joystick
+// --- Joystick Event Listeners ---
 joystickElement.addEventListener('touchstart', handleJoystickStart);
 joystickElement.addEventListener('touchmove', handleJoystickMove);
 joystickElement.addEventListener('touchend', handleJoystickEnd);
@@ -127,10 +123,7 @@ joystickElement.addEventListener('mousedown', handleJoystickStart);
 document.addEventListener('mousemove', handleJoystickMove);
 document.addEventListener('mouseup', handleJoystickEnd);
 
-// Track mouse position
-let mouseX = 0;
-let mouseY = 0;
-
+// --- Mouse Tracking ---
 document.addEventListener('mousemove', (e) => {
   const rect = canvas.getBoundingClientRect();
   if (!game.joystick.active) {
@@ -142,6 +135,7 @@ document.addEventListener('mousemove', (e) => {
   }
 });
 
+// --- Player Update Logic ---
 export function updatePlayer() {
   // Aktualizuj pozycje gracza w przestrzeni swiata na podstawie joysticka/klawiatury/pada
   if (game.joystick.active || game.joystick.x !== 0 || game.joystick.y !== 0) {
