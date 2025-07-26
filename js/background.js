@@ -1,39 +1,44 @@
-// Initialize background music
+// static/js/background.js
+
 document.addEventListener('DOMContentLoaded', () => {
   const bgMusic = document.getElementById('backgroundMusic');
   const volumeControl = document.getElementById('volumeControl');
   const volumeIcon = document.getElementById('volumeIcon');
+  const pauseBtn = document.getElementById('pauseBtn');
   let isMuted = false;
-
-  // Configure audio
-  bgMusic.loop = true;
-  bgMusic.volume = 0.1; // Set volume to 10%
   let currentVolume = 0.1;
 
-  // Toggle mute function
+  const USER_EVENTS = ['click', 'keydown', 'touchstart', 'mousedown'];
+
+  const setVolumeIcon = (volume, muted) => {
+    if (muted || volume === 0) {
+      volumeIcon.className = 'fas fa-volume-mute';
+    } else if (volume > 0.1) {
+      volumeIcon.className = 'fas fa-volume-up';
+    } else if (volume > 0) {
+      volumeIcon.className = 'fas fa-volume-down';
+    } else {
+      volumeIcon.className = 'fas fa-volume-off';
+    }
+  };
+
   const toggleMute = () => {
     isMuted = !isMuted;
-    if (isMuted) {
-      bgMusic.volume = 0;
-      volumeIcon.className = 'fas fa-volume-mute';
-    } else {
-      bgMusic.volume = currentVolume;
-      volumeIcon.className =
-        currentVolume > 0.1 ? 'fas fa-volume-up' : currentVolume > 0 ? 'fas fa-volume-down' : 'fas fa-volume-off';
-    }
+    bgMusic.volume = isMuted ? 0 : currentVolume;
+    setVolumeIcon(bgMusic.volume, isMuted);
     volumeControl.style.opacity = isMuted ? '0.5' : '1';
   };
 
-  // Set initial icon based on volume
-  volumeIcon.className = 'fas fa-volume-off'; // 25% volume
+  // Set initial state
+  bgMusic.loop = true;
+  bgMusic.volume = currentVolume;
+  setVolumeIcon(currentVolume, false);
 
-  // Volume control click handler
   volumeControl.addEventListener('click', (e) => {
     e.stopPropagation();
     toggleMute();
   });
 
-  // Try to play music when user interacts with the page
   const playMusic = async () => {
     try {
       if (bgMusic.paused) {
@@ -41,29 +46,22 @@ document.addEventListener('DOMContentLoaded', () => {
         bgMusic.volume = 0.2;
         bgMusic.muted = false;
         isMuted = false;
-        volumeIcon.className = 'fas fa-volume-up';
+        setVolumeIcon(bgMusic.volume, false);
       }
     } catch (err) {
-      console.log('Audio playback failed:', err);
+      console.error('Audio playback failed:', err);
+    } finally {
+      USER_EVENTS.forEach(event => document.removeEventListener(event, playMusic));
     }
-
-    // Remove event listeners after first interaction
-    ['click', 'keydown', 'touchstart', 'mousedown'].forEach((event) => {
-      document.removeEventListener(event, playMusic);
-    });
   };
 
-  // Add event listeners for user interaction
-  ['click', 'keydown', 'touchstart', 'mousedown'].forEach((event) => {
-    document.addEventListener(event, playMusic, { once: true });
-  });
+  USER_EVENTS.forEach(event => document.addEventListener(event, playMusic, { once: true }));
 
-  // Pause music when game is paused
-  document.getElementById('pauseBtn')?.addEventListener('click', () => {
-    if (!bgMusic.paused) {
-      bgMusic.pause();
-    } else {
+  pauseBtn?.addEventListener('click', () => {
+    if (bgMusic.paused) {
       bgMusic.play().catch(console.error);
+    } else {
+      bgMusic.pause();
     }
   });
 });
