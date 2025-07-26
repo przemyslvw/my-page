@@ -2,11 +2,148 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-07-25T00:00:00.000Z</updated>
+    <updated>2025-07-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Meta AI z luką bezpieczeństwa umożliwiała dostęp do prywatnych wiadomości!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-07-26</id>
+        <link href="https://www.majdak.online/blog/news-2025-07-26"/>
+        <updated>2025-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Oto przegląd najważniejszych wydarzeń z branży cyberbezpieczeństwa zamiast BlackSuit pojawiła się grupa Chaos, a chińskie cybergrupy kontynuują ataki na infrastrukturę w tym na virtualne środowiska VMware. W kontekście zagrożeń wewnętrznych, wykryto krytyczną lukę w platformie Mitel, a wśród cyberprzestępców rośnie użycie AI do tworzenia złośliwego oprogramowania, takiego jak Koske Linux Malware. Dodatkowo, amerykańskie władze ukarały North Koreańskie firmy i osoby za prowadzenie oszukańczych schematów IT, a indywidualne przypadki, jak 8-letnia kara dla kobiety za pomoc North Korei, przypominają o roli, jaką odgrywają ludzkie czynniki w cyberzagrożeniach.]]></summary>
+        <content type="html"><![CDATA[<p>Oto przegląd najważniejszych wydarzeń z branży cyberbezpieczeństwa: w ostatnich tygodniach doszło do wycieku danych 72 tysięcy użytkowników aplikacji Tea, a Allianz Life potwierdziła kradzież danych większości swoich 1,4 miliona klientów. Google zlikwidowało telefonową inwigilacyjną operację hostowaną na swoich serwerach, podczas gdy Meta AI zaprogra- mowała poważną lukę umożliwiającą dostęp do prywatnych wiadomości. W międzyczasie na globalnym poziomie pojawiły się nowe zagrożenia: zamiast BlackSuit pojawiła się grupa Chaos, a chińskie cybergrupy kontynuują ataki na infrastrukturę w tym na virtualne środowiska VMware. W kontekście zagrożeń wewnętrznych, wykryto krytyczną lukę w platformie Mitel, a wśród cyberprzestępców rośnie użycie AI do tworzenia złośliwego oprogramowania, takiego jak Koske Linux Malware. Dodatkowo, amerykańskie władze ukarały North Koreańskie firmy i osoby za prowadzenie oszukańczych schematów IT, a indywidualne przypadki, jak 8-letnia kara dla kobiety za pomoc North Korei, przypominają o roli, jaką odgrywają ludzkie czynniki w cyberzagrożeniach.</p>
+<p>App bezpieczeństwa randek Tea został złamany, ujawniając 72 000 zdjęć użytkowników
+Tea, aplikacja pozwalająca kobietom na anonimowe komentowanie mężczyzn, z którymi rzekomo się spotykały, ogłosiła w piątek, że padła ofiarą naruszenia danych, a hackerzy uzyskali dostęp do 72 000 zdjęć.</p>
+<hr>
+<p>Allianz Life informuje, że 'większość' danych osobowych klientów została skradziona w cyberataku
+Ekskluzywnie: Allianz Life stwierdziła, że 'większość' danych jej klientów i pracowników została skradziona podczas cyberataków w lipcu. Firma poinformowała o tym FBI.</p>
+<hr>
+<p>Google zajęło miesiąc, aby zamknąć Catwatchful, operację szpiegowskiego oprogramowania na telefonach, hostowaną na jej serwerach
+Google zawiesiło konto Firebase operacji Catwatchful po dochodzeniu TechCrunch. Operacja szpiegowska korzystała z serwerów Google do hostowania i uruchamiania swojej aplikacji nadzoru, która dyskretnie monitorowała telefony tysięcy ludzi.</p>
+<hr>
+<p>Microsoft zapowiedział zakończenie współpracy z zespołami z Chin wspierającymi Departament Obrony
+Gigant technologiczny korzystał z globalnej siły roboczej do wsparcia klientów federalnych.</p>
+<hr>
+<p>Po zamknięciu BlackSuit pojawiła się nowa grupa ransomware o nazwie Chaos
+Gdy strona BlackSuit na czarnym rynku zniknęła, grupa Chaos już działała, aby przejąć jej miejsce.</p>
+<hr>
+<p>Hakerzy z Korei Północnej prowadzili amerykańską „farmę laptopów” z domu kobiety w Arizonie
+Korea Północna zarobiła na tym miliony dolarów.</p>
+<hr>
+<p>Ataki łańcucha dostaw na oprogramowanie open source wymykają się spod kontroli
+Ataki dotknęły pakiety, w tym jeden z około 2,8 milionami tygodniowych pobrań.</p>
+<hr>
+<p>Chatbot od Meta AI umożliwiał dostęp do prywatnych wiadomości i odpowiedzi generowanych dla innych użytkowników
+Incydent opisuje serwis TechCrunch, któremu Sandeep Hodkasia, założyciel firmy AppSecure zajmującej się testami bezpieczeństwa, przekazał informację o otrzymaniu 10 000 dolarów za zgłoszenie błędu 26 grudnia 2024 roku w ramach programu bug bounty. Meta wdrożyła poprawkę 24 stycznia 2025 roku i podobno nie wykryła dowodów na to, że luka została...
+Artykuł Sekurak "Chatbot od Meta AI pozwalał na dostęp do prywatnych wiadomości i odpowiedzi wygenerowanych dla innych użytkowników" pochodzi z serwisu Sekurak.</p>
+<hr>
+<p>Szukamy admina do Securitum (Kraków!)
+💼 tl;dr – szukamy Administratora IT z solidną znajomością sieci, bardzo dobrą znajomością Linuksa, w tym perfekcyjnie Debiana. Podejście i doświadczenie pracy w modelu security-first będzie krytyczne, zaś o znajomości sieci TCP/IP nawet nie wspominamy :) Praca tylko stacjonarnie w Krakowie. Start: sierpień lub wrzesień 2025. CV (PDF) wyślij na:...
+Artykuł Sekurak "Szukamy admina do Securitum (Kraków!)" pochodzi z serwisu Sekurak.</p>
+<hr>
+<p>USA sankcjonują firmę za schemat IT z Korei Północnej; Arizonańska kobieta skazana za prowadzenie farmy laptopów
+Departament Skarbu USA zawiesił działalność koreańskiej firmy fikcyjnej oraz trzech powiązanych osób za udział w oszukańczym schemacie pracy zdalnej w IT, mającym na celu generowanie nielegalnych dochodów dla Pjongjangu.
+Sankcje obejmują Korea Sobaeksu Trading Company (znaną też jako Sobaeksu United Corporation) oraz Kim Se Un, Jo.</p>
+<hr>
+<p>Patchwork atakuje tureckie firmy obronne za pomocą spear-phishingu z złośliwymi plikami LNK
+Przestępca znany jako Patchwork został przypisany do nowej kampanii spear-phishingowej wymierzonej w tureckie firmy z branży obronnej, mającej na celu zbieranie wywiadu strategicznego.
+"Kampania wykorzystuje pięcioetapową sekwencję działań dostarczaną za pomocą złośliwych plików LNK udających zaproszenia na konferencje wysyłane do celów zainteresowanych systemami bezzałogowych pojazdów," powiedział Arctic Wolf Labs.</p>
+<hr>
+<p>Kampania cyberszpiegowska atakuje rosyjski sektor kosmiczny, używając backdoora EAGLET
+Rosyjskie branże lotnicze i obronne stały się celem kampanii cyberszpiegowskiej, która dostarcza backdoora o nazwie EAGLET, ułatwiającego ekstrakcję danych.
+Aktywność, nazwana Operation CargoTalon, została przypisana do grupy zagrożeń oznaczonej jako UNG0901 (short for Unknown Group 901).
+"Kampania jest skierowana na pracowników Voronezh Aircraft Production Association (VASO),"</p>
+<hr>
+<p>Malware Soco404 i Koske celują w usługi chmurowe poprzez wieloplatformowe ataki kryptominingowe
+Zespół analityków wykrył dwie odrębne kampanie malware, które celowały w luki i błędy konfiguracji w środowiskach chmurowych, aby wdrożyć koparki kryptowalut.
+Klastry zagrożeń nazwano Soco404 i Koske przez firmy zabezpieczające chmurę Wiz i Aqua.
+Soco404 "celuje w zarówno Linux, jak i Windows, wdrażając specyficzne dla platformy złośliwe oprogramowanie," powiedział Wiz.</p>
+<hr>
+<p>Przezwyciężanie ryzyka z używaniem chińskich narzędzi GenAI
+Niedawna analiza danych przedsiębiorstw sugeruje, że narzędzia generatywnej AI opracowane w Chinach są szeroko wykorzystywane przez pracowników w USA i Wielkiej Brytanii, często bez nadzoru lub zgody zespołów bezpieczeństwa. Badanie, przeprowadzone przez Harmonic Security, wykazało setki przypadków, gdy wrażliwe dane były przesyłane do platform hostowanych w Chinach, co rodzi obawy o zgodność i bezpieczeństwo danych.</p>
+<hr>
+<p>Ataki ToolShell na SharePoint: ogromne zagrożenie dla organizacji na całym świecie
+Luki ToolShell są wykorzystywane zarówno przez cyberprzestępców, jak i grupy APT, a Stany Zjednoczone stanowią 13 procent wszystkich ataków.</p>
+<hr>
+<p>Inne wiadomości: luka za 30 tys. dolarów w Google Cloud Build, aktualizacja naruszenia danych Louis Vuitton, rosnąca powierzchnia ataku
+Niektóre istotne wydarzenia, które mogły umknąć uwadze: luka w Google Cloud Build przyniosła badaczowi duży od łupu, więcej krajów zaatakowanych przez naruszenie Louis Vuitton, rosnąca powierzchnia ataku organizacji.</p>
+<hr>
+<p>Mitel załatał krytyczną lukę w platformie komunikacyjnej dla przedsiębiorstw
+Luka pozwalająca na obejście uwierzytelniania w Mitel MiVoice MX-ONE umożliwiała atakującym dostęp do kont użytkowników lub administratorów.</p>
+<hr>
+<p>Zaawansowane złośliwe oprogramowanie Linux Koske, opracowane z pomocą AI
+Koske Linux Malware pokazuje, jak cyberprzestępcy mogą wykorzystywać AI do rozwoju payload, utrzymania i adaptacji.</p>
+<hr>
+<p>Brytyjska studentka skazana na więzienie za sprzedaż zestawów phishingowych
+Ollie Holman został skazany na więzienie za sprzedaż ponad 1000 zestawów phishingowych, które spowodowały straty szacowane na ponad 134 miliony dolarów.</p>
+<hr>
+<p>Chińskie szpiegowskie grupy celują w błędy w sieciach i virtualizacji, aby włamać się do odizolowanych środowisk
+Chińska grupa szpiegowska Fire Ant atakuje infrastrukturę sieciową i virtualizacyjną, próbując uzyskać dostęp do odizolowanych środowisk.</p>
+<hr>
+<p>Brak poprawki na lukę ujawniającą setki kamer LG na zdalny hacking
+Kamery bezpieczeństwa LG Innotek LNV5110R są dotknięte luką pozwalającą na nieautoryzowane zdalne wykonywanie kodu.</p>
+<hr>
+<p>USA celują w nielegalne fundusze Korei Północnej: oferowane nagrody 15 milionów dolarów, a kobieta z Arizony skazana za farmę laptopów
+Christina Chapman została skazana na 8 lat więzienia za pomoc Koreańczykom Północnym w infiltracji 300 amerykańskich firm i prowadzenie farmy laptopów.</p>
+<hr>
+<p>Gry Steam ponownie wykorzystywane do rozprowadzania malware
+Cyberprzestępca wprowadził złośliwe pliki do przedpremierowej wersji gry na platformie Steam, prowadząc do kradzieży informacji.</p>
+<hr>
+<p>Uważajcie: użytkownicy Instagrama celem nowej kampanii phishingowej
+Phisherzy korzystają z wiarygodnie wyglądających e-maili z Instagrama, aby oszukiwać użytkowników.</p>
+<hr>
+<p>Możliwości kariery w cyberbezpieczeństwie: ocena certyfikatów a stopni naukowych
+Od doświadczonej CISO Meliny Scotto pochodzi dyskusja o wskazówkach zawodowych z jej 30-letniej kariery w branży cyber.</p>
+<hr>
+<p>Cyber szpiedzy 'Fire Ant' kompromitują odizolowane systemy VMware
+Podejrzewany chiński podmiot szpiegowski Fire Ant atakuje środowiska wirtualne, korzystając z różnych narzędzi, aby ominąć zabezpieczenia i uzyskać dostęp do odizolowanych części sieci ofiar.</p>
+<hr>
+<p>AI-generujący Linux Miner 'Koske' przewyższa ludzkie malware
+Koske, oparty na AI, pokazuje, że malware tworzone przez maszyny coraz częściej dorównuje lub przewyższa tradycyjne złośliwe oprogramowanie.</p>
+<hr>
+<p>Kontynuacja działań NK z pracą fikcyjnych pracowników IT mimo działań DOJ
+Aresztowania i oskarżenia nie ustają, a schemat fałszywych pracowników IT z Korei Północnej się rozrasta. Firmy nie mogą zakładać, że ich procesy rekrutacyjne skutecznie wyłapują oszustów.</p>
+<hr>
+<p>Czemu metody 'security nudges' zdobyły popularność
+Nudgingi mogą być skuteczne — ale nie są wolne od nadmiernego wykorzystywania czy błędnego zastosowania.</p>
+<hr>
+<p>Młodzi cyberprzestępcy budzą niepokój
+Rządy ostrzegają, że grupy hakerów zachęcają młodych ludzi poprzez poczucie wspólnoty, sławę lub obietnicę pieniędzy, często z przekonaniem, że ryzyko ich schwytania jest niskie.</p>
+<hr>
+<p>Allianz Life potwierdza naruszenie danych, obejmujące większość 1,4 miliona klientów
+Firma Allianz Life potwierdziła, że dane osobowe 'większości' swoich 1,4 miliona klientów zostały ujawnione w naruszeniu danych, które miało miejsce na początku tego miesiąca.</p>
+<hr>
+<p>Usterka w pluginie Post SMTP naraża na przejęcie 200 tys. stron WordPress
+Ponad 200 000 stron WordPress korzysta z wersji pluginu Post SMTP z luką, która pozwala hakerom przejąć kontrolę nad kontem administratora.</p>
+<hr>
+<p>Hakerzy zaatakowali Amazon's AI: wprowadzili kod do wymazywania danych
+Hakerzy zainfekowali wersję asystenta AI od Amazon, wtyczkę Q Developer Extension do Visual Studio Code, z kodem do wymazywania danych.</p>
+<hr>
+<p>Microsoft bada awarię uniemożliwiającą dostęp do centrum administracyjnego Microsoft 365
+Microsoft prowadzi dochodzenie w sprawie trwającej awarii, która blokuje administratorom Microsoft 365 dostęp do centrum administracyjnego.</p>
+<hr>
+<p>Rola menedżera cyberbezpieczeństwa w rozwoju opartym na incydentach
+Od nadużycia PowerShell po kradzież danych przez USB, nowoczesne zagrożenia pojawiają się szybko i trudno. Zobacz, jak menedżerowie zorientowani na bezpieczeństwo reagują, korzystając z kontroli w czasie rzeczywistym, mądrzejszych polityk i narzędzi takich jak ThreatLocker Patch Management.</p>
+<hr>
+<p>USA nałożyły sankcje na firmę i obywateli Półwyspu Koreańskiego za schematy IT
+Departament Skarbu USA ukarał trzech obywateli Korei Północnej i firmę za wspieranie oszukańczych schematów pracowników IT, które przynosiły nielegalne dochody dla rządu DPRK.</p>
+<hr>
+<p>Kobieta skazana na 8 lat więzienia za pomoc Północnokoreańczykom w infiltracji 300 firm w USA
+Christina Marie Chapman, kobieta w wieku 50 lat z Arizony, została skazana na 8 lat więzienia po przyznaniu się do winy w schemacie umożliwiającym północnokoreańskim pracownikom IT infiltrację 309 amerykańskich firm.</p>
+<hr>
+<p>Microsoft znosi blokadę aktualizacji Windows 11 dla użytkowników Easy Anti-Cheat
+Microsoft usunął blokadę kompatybilności, która uniemożliwiała niektórym użytkownikom Easy Anti-Cheat instalację aktualizacji Windows 11 2024, z powodu znanego problemu wywołującego restart z błędem BSOD.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Rozdzielone środowiska n8n w sieci lokalnej – przewodnik najlepszych praktyk]]></title>
         <id>https://www.majdak.online/blog/n8ndev-2025-07-25</id>
@@ -1419,32 +1556,6 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="ryzyko-i-zagrożenia-związane-z-nowymi-technologiami-i-sztuczną-inteligencją">Ryzyko i zagrożenia związane z nowymi technologiami i sztuczną inteligencją<a href="https://www.majdak.online/blog/news-2025-06-23#ryzyko-i-zagro%C5%BCenia-zwi%C4%85zane-z-nowymi-technologiami-i-sztuczn%C4%85-inteligencj%C4%85" class="hash-link" aria-label="Bezpośredni link do Ryzyko i zagrożenia związane z nowymi technologiami i sztuczną inteligencją" title="Bezpośredni link do Ryzyko i zagrożenia związane z nowymi technologiami i sztuczną inteligencją">​</a></h3>
 <p>Nowe metody ataków, takie jak Echo Chamber, pokazują, jak cyberprzestępcy i badacze bezpieczeństwa manipulują systemami AI, by generować niepożądane i niebezpieczne treści.</p>
 <p>Google i inni inwestują w wielowarstwowe zabezpieczenia, aby chronić generatywne systemy AI przed próbami obejścia zabezpieczeń przez podstępne prompty i manipulacje kontekstowe.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyberatak na M&S i Co-op: Czy Amazon Web Services chroni nas przed nowym zagrożeniem?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-22</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-22"/>
-        <updated>2025-06-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberatak na Wielkiej Brytanii, który zalał sklepy M&S i Co-op, może kosztować aż 592 miliony dolarów i ukazuje rosnącą skalę zagrożeń cyfrowych. Eksperci ostrzegają, że coraz częściej za cyberprzestępstwami stoją zorganizowane grupy operujące na szeroką skalę.]]></summary>
-        <content type="html"><![CDATA[<p>Cyberatak na Wielkiej Brytanii, który zalał sklepy M&amp;S i Co-op, może kosztować aż 592 miliony dolarów i ukazuje rosnącą skalę zagrożeń cyfrowych. Eksperci ostrzegają, że coraz częściej za cyberprzestępstwami stoją zorganizowane grupy operujące na szeroką skalę.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tytuł-sekcji">Tytuł sekcji<a href="https://www.majdak.online/blog/news-2025-06-22#tytu%C5%82-sekcji" class="hash-link" aria-label="Bezpośredni link do Tytuł sekcji" title="Bezpośredni link do Tytuł sekcji">​</a></h3>
-<p>W kwietniu 2025 roku marksowe i lokalne sieci handlowe w Wielkiej Brytanii padły ofiarą zjednoczonego ataku cybernetycznego, który został sklasyfikowany jako jedno wydarzenie cyfrowe.</p>
-<p>Zabójcza precyzja i skala tych ataków pokazują, jak ważna jest ochrona danych i szybkie reagowanie na nowe zagrożenia. Firmy muszą inwestować w zaawansowane narzędzia bezpieczeństwa, aby nie dać się zaskoczyć.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-firmy-amerykańskie">Ataki na firmy amerykańskie<a href="https://www.majdak.online/blog/news-2025-06-22#ataki-na-firmy-ameryka%C5%84skie" class="hash-link" aria-label="Bezpośredni link do Ataki na firmy amerykańskie" title="Bezpośredni link do Ataki na firmy amerykańskie">​</a></h3>
-<p>Aflac, jedna z wiodących firm ubezpieczeniowych, poinformowała o podejrzanej aktywności na swojej amerykańskiej sieci, która może wpłynąć na dane społeczne i numery ubezpieczenia społecznego klientów.</p>
-<p>Aktualnie trwa wstępna analiza incydentu, a liczba dotkniętych osób pozostaje nieznana, co pokazuje, że cyberzagrożenia nie omijają dużych korporacji nawet na początku roku.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowości-od-aws">Nowości od AWS<a href="https://www.majdak.online/blog/news-2025-06-22#nowo%C5%9Bci-od-aws" class="hash-link" aria-label="Bezpośredni link do Nowości od AWS" title="Bezpośredni link do Nowości od AWS">​</a></h3>
-<p>Podczas konferencji re<!-- -->:Inforce<!-- --> 2025 Amazon Web Services ogłosił dodanie nowych funkcji zwiększających widoczność i kontekst w ich podstawowych narzędziach bezpieczeństwa chmury.</p>
-<p>Te innowacje mają na celu umożliwienie klientom lepszej identyfikacji i analizy potencjalnych zagrożeń, co jest kluczowe w obliczu coraz bardziej zaawansowanych cyberataków.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
