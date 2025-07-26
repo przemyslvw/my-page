@@ -80,6 +80,9 @@ function handleJoystickEnd() {
   game.joystick.x = 0;
   game.joystick.y = 0;
   knobElement.style.transform = 'translate(-50%, -50%)';
+  // Reset mouse position to (0,0) when joystick is released
+  mouseX = 0;
+  mouseY = 0;
 }
 
 function updateJoystick(e) {
@@ -126,12 +129,14 @@ document.addEventListener('mouseup', handleJoystickEnd);
 // --- Mouse Tracking ---
 document.addEventListener('mousemove', (e) => {
   const rect = canvas.getBoundingClientRect();
-  if (!game.joystick.active) {
-    mouseX = e.clientX - rect.left + game.camera.x;
-    mouseY = e.clientY - rect.top + game.camera.y;
-  } else {
+  if (game.joystick.active) {
+    // When joystick is active, force mouse position to (0,0)
     mouseX = 0;
     mouseY = 0;
+  } else {
+    // Only update mouse position if joystick is not active
+    mouseX = e.clientX - rect.left + game.camera.x;
+    mouseY = e.clientY - rect.top + game.camera.y;
   }
 });
 
