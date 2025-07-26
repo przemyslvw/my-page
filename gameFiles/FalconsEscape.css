@@ -7,7 +7,7 @@ body {
   user-select: none;
   -webkit-user-select: none;
   -webkit-touch-callout: none;
-  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="none" stroke="%2300FF00" stroke-width="2" stroke-opacity="0.7"/><line x1="16" y1="8" x2="16" y2="24" stroke="%2300FF00" stroke-width="2" stroke-opacity="0.7"/><line x1="8" y1="16" x2="24" y2="16" stroke="%2300FF00" stroke-width="2" stroke-opacity="0.7"/></svg>') 16 16, crosshair;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="2" fill="%23FFFFFF" fill-opacity="0.7"/><line x1="16" y1="4" x2="16" y2="14" stroke="%23FFFFFF" stroke-width="2" stroke-opacity="0.7"/><line x1="8" y1="20" x2="16" y2="14" stroke="%23FFFFFF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round"/><line x1="24" y1="20" x2="16" y2="14" stroke="%23FFFFFF" stroke-width="2" stroke-opacity="0.7" stroke-linecap="round"/></svg>') 16 16, crosshair;
 }
 
 #gameCanvas {
