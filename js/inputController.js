@@ -156,13 +156,8 @@ export function updatePlayer() {
   game.camera.x = game.player.worldX - canvas.width / 2;
   game.camera.y = game.player.worldY - canvas.height / 2;
 
-  // --- AUTO-AIM ---
-  // Jeśli joystick jest aktywny na dotyku (mobilne) i nie używamy myszki
-  if (
-    game.joystick.active &&
-    (game.joystick.x !== 0 || game.joystick.y !== 0) &&
-    (mouseX === 0 && mouseY === 0)
-  ) {
+  // --- AUTO-AIM: jeśli pozycja myszy to (0,0), auto-namierzanie na najbliższego wroga ---
+  if (mouseX === 0 && mouseY === 0) {
     let nearestEnemy = null;
     let nearestDistance = Infinity;
     [...game.enemies, game.boss].filter(Boolean).forEach(enemy => {
@@ -188,9 +183,8 @@ export function updatePlayer() {
         game.lastShot = now;
       }
     }
-  }
-  // --- AUTO-AIM DLA KLAWIATURY/MYSZKI ---
-  else if (mouseX !== 0 || mouseY !== 0) {
+  } else {
+    // --- MANUAL-AIM: jeśli pozycja myszy różna od (0,0), celowanie myszą ---
     const dx = mouseX - game.player.worldX;
     const dy = mouseY - game.player.worldY;
     game.player.angle = Math.atan2(dy, dx);
