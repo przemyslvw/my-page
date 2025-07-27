@@ -4,10 +4,42 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sat, 26 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Meta i Microsoft w centrum cyberataku: ukryte luki, które mogą wykradać Twoje dane!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-07-27</link>
+            <guid>https://www.majdak.online/blog/news-2025-07-27</guid>
+            <pubDate>Sun, 27 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hakerzy wykradli dane milionów użytkowników, atakując m.in. Allianz Life i WordPress, a 72 000 zdjęć z aplikacji Tea zostało wyciekniętych. Czarna seria cyberataków trwa, z nową grupą ransomware Chaos, która pojawiła się po upadku BlackSuit. Microsoft zapowiedział zakończenie współpracy z chińskim zespołem wspierającym Departament Obrony USA, podczas gdy Scattered Spider już atakuje serwery VMware ESXi w różnych sektorach. Tewich zagrożenia przypominają, jak bardzo jesteśmy narażeni na cyberprzestępcze ataki na każdym kroku.]]></description>
+            <content:encoded><![CDATA[<p>Hakerzy wykradli dane milionów użytkowników, atakując m.in. Allianz Life i WordPress, a 72 000 zdjęć z aplikacji Tea zostało wyciekniętych. Czarna seria cyberataków trwa, z nową grupą ransomware Chaos, która pojawiła się po upadku BlackSuit. Microsoft zapowiedział zakończenie współpracy z chińskim zespołem wspierającym Departament Obrony USA, podczas gdy Scattered Spider już atakuje serwery VMware ESXi w różnych sektorach. Tewich zagrożenia przypominają, jak bardzo jesteśmy narażeni na cyberprzestępcze ataki na każdym kroku.</p>
+<p>Atak na aplikację do bezpieczeństwa randek Tea spowodował wyciek 72 000 zdjęć użytkowników
+Tea, aplikacja umożliwiająca kobietom zamieszczanie anonimowych komentarzy na temat mężczyzn, z którymi rzekomo się spotkały, ogłosiła w piątek, że padła ofiarą naruszenia danych, a hakerzy uzyskali dostęp do 72 000 zdjęć.</p>
+<hr>
+<p>Allianz Life informuje, że „większość” danych osobowych klientów została skradziona w cyberataku
+Ekskluzywnie: Allianz Life ujawniło, że „większość” danych swoich klientów i pracowników została skradziona podczas cyberataku w lipcu. Firma poinformowała, że powiadomiła FBI.</p>
+<hr>
+<p>Microsoft zaprzestanie korzystania z zespołów z Chin w wsparciu dla Departamentu Obrony</p>
+<p>Gigant technologiczny polegał na globalnej sile roboczej, aby wspierać federalnych klientów.</p>
+<hr>
+<p>Po zamknięciu BlackSuit pojawia się nowa grupa ransomware Chaos</p>
+<p>Gdy dark web BlackSuita milknie, Chaos już działa, aby uzupełnić braki.</p>
+<hr>
+<p>Scattered Spider prowadzi serię ataków na VMware ESXi
+Scattered Spider, hakerzy, aktywnie atakują środowiska wirtualizowane poprzez ataki na hypervisory VMware ESXi w amerykańskich firmach z sektorów detalicznego handlu, lotnictwa, transportu i ubezpieczeń. [...]</p>
+<hr>
+<p>Allianz Life potwierdza, że naruszenie danych dotknęło większość z 1,4 miliona klientów
+Firma ubezpieczeniowa Allianz Life potwierdziła, że dane osobowe „większości” swoich 1,4 miliona klientów zostały ujawnione w naruszeniu danych, które miało miejsce wcześniej w tym miesiącu. [...]</p>
+<hr>
+<p>Wada w wtyczce Post SMTP naraża na przejęcie ponad 200 000 witryn WordPress
+Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, która pozwala hakerom na przejęcie konta administratora. [...]</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Krytyczna luka bezpieczeństwa w kamerach LG bez możliwości naprawy]]></title>
             <link>https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg</link>
@@ -1532,30 +1564,6 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-geopolityczne-i-ich-wpływ-na-cyberwojnę">Zagrożenia geopolityczne i ich wpływ na cyberwojnę<a href="https://www.majdak.online/blog/news-2025-06-26#zagro%C5%BCenia-geopolityczne-i-ich-wp%C5%82yw-na-cyberwojn%C4%99" class="hash-link" aria-label="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę" title="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę">​</a></h3>
 <p>Współczesne konflikty międzynarodowe coraz częściej przenikają do przestrzeni cybernetycznej, wymuszając na instytucjach i firmach wzmożoną czujność oraz przygotowanie na ataki o skali globalnej.</p>
 <p>Tymczasem, działania grup takich jak Charming Kitten czy Cyber Fattah pokazują, jak państwa wykorzystują cybertechnologie do szpiegowania i operacji informacyjnych.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[U.S. Kongres zakazuje WhatsApp na oficjalnych urządzeniach z powodu poważnych zagrożeń bezpieczeństwa!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-24</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-24</guid>
-            <pubDate>Tue, 24 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Kim jesteśmy i dlaczego powinniśmy się tego obawiać? Nowe badania pokazują, że nawet najbardziej zabezpieczone systemy mogą zostać przejęte przez zaawansowane kampanie cybernetyczne.]]></description>
-            <content:encoded><![CDATA[<p>Kim jesteśmy i dlaczego powinniśmy się tego obawiać? Nowe badania pokazują, że nawet najbardziej zabezpieczone systemy mogą zostać przejęte przez zaawansowane kampanie cybernetyczne.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="eksplozja-zagrożeń-na-międzynarodową-skalę">Eksplozja zagrożeń na międzynarodową skalę<a href="https://www.majdak.online/blog/news-2025-06-24#eksplozja-zagro%C5%BCe%C5%84-na-mi%C4%99dzynarodow%C4%85-skal%C4%99" class="hash-link" aria-label="Bezpośredni link do Eksplozja zagrożeń na międzynarodową skalę" title="Bezpośredni link do Eksplozja zagrożeń na międzynarodową skalę">​</a></h3>
-<p>Najnowsze działania grup wywiadowczych i cyberprzestępców pokazują, że państwa takie jak Chiny i Rosja coraz bardziej angażują się w ataki na telekomunikację, infrastrukturę krytyczną oraz systemy finansowe na całym świecie.</p>
-<p>W szczególności wysoce zaawansowane kampanie, takie jak Salt Typhoon czy APT28, wykorzystują lukę w sprzęcie Cisco oraz korzystają z bezpiecznych komunikatorów takich jak Signal, aby bezpiecznie przekazywać złośliwe oprogramowanie.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ważne-cyberataki-na-globalną-infrastrukturę">Ważne cyberataki na globalną infrastrukturę<a href="https://www.majdak.online/blog/news-2025-06-24#wa%C5%BCne-cyberataki-na-globaln%C4%85-infrastruktur%C4%99" class="hash-link" aria-label="Bezpośredni link do Ważne cyberataki na globalną infrastrukturę" title="Bezpośredni link do Ważne cyberataki na globalną infrastrukturę">​</a></h3>
-<p>Rewelacyjne odkrycia pokazują, że państwa takie jak Chiny i Rosja nie ustają w działaniach szpiegowskich i cyberatakach na kluczowe sektory, w tym telekomunikację i systemy finansowe na całym świecie.</p>
-<p>Szczególnie niepokojące są kampanie, które wykorzystują luki w globalnym sprzęcie Cisco oraz zaawansowane narzędzia komunikacyjne, takie jak Signal, do ukrywania działań złośliwego oprogramowania.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rosnąca-skala-zagrożeń-i-narastające-wykorzystywanie-nowych-technik">Rosnąca skala zagrożeń i narastające wykorzystywanie nowych technik<a href="https://www.majdak.online/blog/news-2025-06-24#rosn%C4%85ca-skala-zagro%C5%BCe%C5%84-i-narastaj%C4%85ce-wykorzystywanie-nowych-technik" class="hash-link" aria-label="Bezpośredni link do Rosnąca skala zagrożeń i narastające wykorzystywanie nowych technik" title="Bezpośredni link do Rosnąca skala zagrożeń i narastające wykorzystywanie nowych technik">​</a></h3>
-<p>Ataki z użyciem złośliwych plików LNK, które wykorzystują lukę w Windows, wskazują na rosnąccy poziom zaawansowania cyberprzestępców, szczególnie w regionie Europy Wschodniej.</p>
-<p>Ponadto, kampanie wykorzystujące misconfiguracje w Docker API i korzystające z sieci Tor do ukrywania kopania kryptowalut pokazują, że cyberprzestępcy stale szukają nowych sposobów ukrycia swoich działań.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-aktywności-grup-hakerskich-i-zagrożeń-związanych-z-geopolityką">Wzrost aktywności grup hakerskich i zagrożeń związanych z geopolityką<a href="https://www.majdak.online/blog/news-2025-06-24#wzrost-aktywno%C5%9Bci-grup-hakerskich-i-zagro%C5%BCe%C5%84-zwi%C4%85zanych-z-geopolityk%C4%85" class="hash-link" aria-label="Bezpośredni link do Wzrost aktywności grup hakerskich i zagrożeń związanych z geopolityką" title="Bezpośredni link do Wzrost aktywności grup hakerskich i zagrożeń związanych z geopolityką">​</a></h3>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kwestie-bezpieczeństwa-technicznego-i-podatności-systemów">Kwestie bezpieczeństwa technicznego i podatności systemów<a href="https://www.majdak.online/blog/news-2025-06-24#kwestie-bezpiecze%C5%84stwa-technicznego-i-podatno%C5%9Bci-system%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Kwestie bezpieczeństwa technicznego i podatności systemów" title="Bezpośredni link do Kwestie bezpieczeństwa technicznego i podatności systemów">​</a></h3>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
