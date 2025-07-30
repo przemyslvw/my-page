@@ -4,10 +4,140 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sun, 27 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Palo Alto Networks przejmuje CyberArk za 25 mld dolarów — czy to koniec ery słabego bezpieczeństwa tożsamości?]]></title>
+            <link>https://www.majdak.online/blog/news-2025-07-30</link>
+            <guid>https://www.majdak.online/blog/news-2025-07-30</guid>
+            <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[W ostatnim czasie świat cyberbezpieczeństwa obiegły niezwykle istotne wiadomości – Palo Alto Networks planuje przejęcie CyberArk za 25 miliardów dolarów, co jest jednym z największych tego roku, a jednocześnie skutecznie wprowadza firmę na rynek bezpieczeństwa tożsamości.]]></description>
+            <content:encoded><![CDATA[<p>W ostatnim czasie świat cyberbezpieczeństwa obiegły niezwykle istotne wiadomości – Palo Alto Networks planuje przejęcie CyberArk za 25 miliardów dolarów, co jest jednym z największych tego roku, a jednocześnie skutecznie wprowadza firmę na rynek bezpieczeństwa tożsamości.</p>
+<p>Na coraz bardziej złożone ataki narażone są zarówno giganty tacy jak Orange czy Allianz Life, które odnotowały milionowe wycieki danych i przerwy w usługach. Również problemem jest rosnąca aktywność cyberprzestępców korzystających z fałszywych aplikacji i złośliwego oprogramowania, takiego jak JSCEAL czy ransomware Chaos, które infiltrują firmy na szeroką skalę.</p>
+<p>Włos na głowie jeży fakt, że nawet największe firmy, jak Apple czy Google, muszą łatać luki bezpieczeństwa w swoich produktach, a ataki wykorzystujące krytyczne błędy w oprogramowaniu i firmware są coraz bardziej wyrafinowane.</p>
+<p>Co gorsza, cyberataki wymierzają także w infrastrukturę krytyczną i służby publiczne, na przykład w Minnesota czy na pokładzie rosyjskiego Aeroflot, co pokazuje, jak poważne konsekwencje mogą mieć te zagrożenia dla codziennego funkcjonowania.</p>
+<p>W sferze technologii rośnie też znaczenie sztucznej inteligencji, której wykorzystanie w zabezpieczeniach z jednej strony zwiększa skuteczność, a z drugiej otwiera nowe furtki dla cyberprzestępców.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najważniejsze-wiadomości-z-cyberbezpieczeństwa">Najważniejsze wiadomości z cyberbezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-07-30#najwa%C5%BCniejsze-wiadomo%C5%9Bci-z-cyberbezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Najważniejsze wiadomości z cyberbezpieczeństwa" title="Bezpośredni link do Najważniejsze wiadomości z cyberbezpieczeństwa">​</a></h2>
+<ul>
+<li>
+<p><strong>Palo Alto Networks zgadza się na zakup CyberArk za 25 miliardów dolarów.</strong> Gigant cyberbezpieczeństwa wchodzi w segment bezpieczeństwa tożsamości, co czyni tę transakcję jedną z największych w tym roku.</p>
+</li>
+<li>
+<p><strong>Germ wprowadza końcową szyfrowaną komunikację do Bluesky.</strong> Nowa aplikacja pozwala użytkownikom na wysyłanie wiadomości chronionych end-to-end, a TechCrunch rozmawia z jej twórcami, aby poznać motywację.</p>
+</li>
+<li>
+<p><strong>Hackerzy ukradli numery Social Security podczas cyberataku na Allianz Life.</strong> Amerykański gigant ubezpieczeniowy informuje, że w połowie lipca skradziono część danych osobowych, w tym numery Social Security.</p>
+</li>
+<li>
+<p><strong>Minnesota aktywuje Gwardię Narodową, gdy cyberatak na Saint Paul zakłócił usługi publiczne.</strong> Władze oddelegowały cyberwojska, aby zapewnić ciągłość działania usług, podczas gdy miasto walczy z trwającym cyberatakiem.</p>
+</li>
+<li>
+<p><strong>Skechers produkuje dziecięce buty z ukrytym schowkiem na AirTag.</strong> Firma wprowadza na rynek obuwie z wbudowanym uchwytem na śledzące urządzenia.</p>
+</li>
+<li>
+<p><strong>Google oświadczył, że rząd UK nie żądał ukrytnej tylnej furtki do danych użytkowników.</strong> Google odmówił ujawnienia, czy otrzymał tajne brytyjskie zlecenie szpiegowskie, domagające się dostępu do zaszyfrowanych danych, podobnie jak Apple wcześniej w tym roku.</p>
+</li>
+<li>
+<p><strong>Aplikacja Tea wyłącza wiadomości prywatne po drugim wycieku danych, który ujawnił ponad milion poufnych wiadomości użytkowników.</strong></p>
+</li>
+<li>
+<p><strong>Gigant telekomunikacyjny Orange ostrzega przed zakłóceniami usług z powodu trwającego cyberataku.</strong> Firma, jedna z największych na świecie, informuje, że klienci doświadczają poważnych zakłóceń, które są spowodowane nieokreślonym włamanie.</p>
+</li>
+<li>
+<p><strong>Producent zabawek seksowych Lovense został przyłapany na wycieku adresów e-mail użytkowników i narażeniu kont na przejęcia.</strong> Naukowiec ds. bezpieczeństwa ujawnił, że firma przez ponad rok zwlekała z naprawą luk, które wyciekły prywatne adresy i umożliwiły włamania do kont.</p>
+</li>
+<li>
+<p><strong>Luka w narzędziu programistycznym Gemini CLI pozwala hakerom na wykonywanie złośliwych poleceń.</strong> Uważaj na agentów kodowania, którzy mogą uzyskać dostęp do twojego okna poleceń.</p>
+</li>
+<li>
+<p><strong>Jak dodatkowa funkcja Microsoft Copilota otworzyła furtkę dla hakerów.</strong> Niedawno pisaliśmy o zagrożeniach związanych z rozwiązaniem MCP, ale to nie wszystko. Brak odpowiedniego modelowania zagrożeń może mieć krytyczne znaczenie. Badacze z Eye Research opisali szczegóły… Artykuł Sekurak „Jak dodatkowa funkcja Microsoft Copilota otworzyła furtkę dla hakerów” pochodzi z serwisu Sekurak.</p>
+</li>
+<li>
+<p><strong>Najbezpieczniejsze AI na rynku? Proton wypuszcza swojego asystenta Lumo.</strong> Proton, znany z usług Proton Mail i Proton VPN, zaprezentował Lumo – narzędzie AI zaprojektowane z myślą o pełnej ochronie danych. Firma podkreśla, że Lumo nie przechowuje żadnych logów konwersacji na serwerach, nie wykorzystuje promptów użytkowników do trenowania modeli AI oraz stosuje szyfrowanie typu zero‑access, co chroni dane nawet przed Proton. Artykuł Sekurak „Najbezpieczniejsze AI na rynku? Proton wypuszcza swojego asystenta Lumo” pochodzi z serwisu Sekurak.</p>
+</li>
+<li>
+<p><strong>Badacze ostrzegają przed fałszywymi aplikacjami kryptowalutowymi rozprzestrzenianymi za pośrednictwem reklam na Facebooku, wykorzystującymi złośliwe oprogramowanie JavaScript (JSC) o nazwie JSCEAL, które może przechwytywać dane uwierzytelniające i informacje o portfelach.</strong> Używają one tysięcy reklam, aby przekierować użytkowników na fałszywe strony.</p>
+</li>
+<li>
+<p><strong>Eksperci ds. bezpieczeństwa wypuścili darmowy dekryptor dla ransomware FunkSec, które odnotowało 172 ofiary od końca 2024 r.</strong> Ponieważ ransomware jest teraz uważane za nieaktywne, narzędzie jest dostępne publicznie, oferując ofiarom bezpłatny odtwarzacz.</p>
+</li>
+<li>
+<p><strong>Krótka analiza platformy Pillar Security pokazuje, jak firmy zaczynają podejmować wyzwania związane z AI, oferując kompleksowe rozwiązania w ramach cyklu życia.</strong></p>
+</li>
+<li>
+<p><strong>Apple wydał aktualizacje zabezpieczeń dla całej swojej oprogramowania, naprawiając 29 podatności, w większości w WebKit.</strong> Wśród nich jest krytyczna luka (CVE-2025-6558, CVSS 8.8), wykorzystywana wcześniej jako zero-day w Google Chrome, dotycząca nieprawidłowej walidacji niezaufanego wejścia, co mogłoby doprowadzić do ucieczki z piaskownicy.</p>
+</li>
+<li>
+<p><strong>Krytyczne luki w inteligentnych kamerach firmy Dahua zostały naprawione;</strong> luki te w protokole ONVIF i handlerach uploadu plików mogły umożliwić atakującym zdalne przejęcie urządzeń, wykonywanie dowolnych poleceń bez uwierzytelnienia.</p>
+</li>
+<li>
+<p><strong>Chińskie firmy związane z grupą Silk Typhoon (Hafnium) złożyły ponad 15 wniosków patentowych na narzędzia szpiegowskie,</strong> w tym te umożliwiające zbieranie danych z urządzeń końcowych, analizę forenzyjną urządzeń Apple i zdalne dostęp do systemów.</p>
+</li>
+<li>
+<p><strong>Google ogłosił otwarty beta-test nowego mechanizmu Device Bound Session Credentials (DBSC) w Chrome,</strong> celem którego jest związanie sesji uwierzytelniania z urządzeniem, uniemożliwiając atakującym wykorzystanie skradzionych ciasteczek do przejęcia kont użytkowników.</p>
+</li>
+<li>
+<p><strong>Atakujący wykorzystali naprawioną lukę krytyczną w SAP NetWeaver (CVE-2025-31324), aby wdrożyć malware Auto-Color Linux w ataku na amerykańską firmę chemiczną,</strong> zdobywając dostęp, próbując pobrać podejrzane pliki i komunikując się z nieuczciwymi infrastrukturami.</p>
+</li>
+<li>
+<p><strong>Aresztowania członków grupy Scattered Spider doprowadziły do spadku ich aktywności,</strong> ale inni aktorzy kontynuują adopcję ich taktyk inżynierii społecznej, atakując systemy backupowe.</p>
+</li>
+<li>
+<p><strong>Krytyczna, już naprawiona, luka w platformie kodowania Base44 firmy Wiz została odkryta przez badaczy,</strong> co mogłoby umożliwić nieautoryzowany dostęp do prywatnych aplikacji, wykorzystując prostą lukę w parametrze 'app_id'.</p>
+</li>
+<li>
+<p><strong>Organizacje są ostrzegane o niebezpieczeństwie nieautoryzowanego dostępu;</strong> za pomocą odpowiednich narzędzi IGA, polityk governance i progów ryzyka mogą wykryć i zapobiec nieautoryzowanemu dostępowi przed atakującymi.</p>
+</li>
+<li>
+<p><strong>Badacze odkryli backdoory, zatrute kod i szkodliwe commity w popularnych narzędziach programistycznych, takich jak GitHub Actions, Gravity Forms i npm,</strong> zagrażając łańcuchom dostaw oprogramowania.</p>
+</li>
+<li>
+<p><strong>Fundacja Python ostrzega przed phishingiem z użyciem fałszywej strony PyPI,</strong> celem którego jest kradzież danych uwierzytelniających za pomocą oszukańczych wiadomości z tematem "[PyPI] Email verification".</p>
+</li>
+<li>
+<p><strong>Gang ransomware SafePay grozi wyciekiem 3,5 TB danych należących do Ingram Micro,</strong> której rzekomo skradziono z systemów Ingrama wczesnym w tym miesiącu.</p>
+</li>
+<li>
+<p><strong>Atakujący wykorzystali krytyczną lukę w motywie WordPress 'Alone',</strong> aby wdrożyć ataki typu RCE i zdobyć kontrolę nad całą stroną internetową.</p>
+</li>
+<li>
+<p><strong>Grupa UNC2891, znana również jako LightBasin, wykorzystała Raspberry Pi ukryty w sieci bankowej, aby ominąć systemy bezpieczeństwa</strong> w ostatnio odkrytym ataku, co zapowiada nowe taktyki w cyber-bandycie.</p>
+</li>
+<li>
+<p><strong>Apple wydał aktualizacje zabezpieczeń, aby naprawić krytyczną lukę wykorzystywaną w atakach zero-day przeciwko użytkownikom Google Chrome.</strong></p>
+</li>
+<li>
+<p><strong>Lenovo wydał nowe aktualizacje firmware UEFI, aby naprawić poważne luki w BIOSie</strong> na wszystkich w pełni funkcjonalnych komputerach z niestandardowym firmware UEFI firmy Insyde.</p>
+</li>
+<li>
+<p><strong>AI znacznie redukuje obciążenie pracy vCISO o 68%,</strong> według raportów, które pokazują trzykrotny wzrost adopcji i znaczny spadek wymagań operacyjnych wśród MŚP, podczas gdy MSP i MSSP skalują usługi cyberbezpieczeństwa.</p>
+</li>
+<li>
+<p><strong>Gubernator Minnesoty Tim Walz aktywował Gwardię Narodową w odpowiedzi na cyberatak, który sparaliżował Saint Paul, stolicę stanu.</strong></p>
+</li>
+<li>
+<p><strong>Rosyjska linia lotnicza Aeroflot musiała anulować ponad 60 lotów i zmierzyć się z poważnymi opóźnieniami po cyberataku na jej systemy.</strong></p>
+</li>
+<li>
+<p><strong>Atakujący wykorzystali krytyczną lukę w SAP NetWeaver (CVE-2025-31324), aby wdrożyć malware Auto-Color Linux w ataku na amerykańską firmę chemiczną,</strong> zdobywając dostęp, próbując pobrać podejrzane pliki i komunikując się z nieuczciwymi infrastrukturami.</p>
+</li>
+<li>
+<p><strong>Microsoft Edge teraz oferuje tryb Copilot Mode,</strong> który przekształca przeglądarkę w przeglądarkę internetową zintegrowaną z AI, celem którego jest poprawa doświadczenia użytkownika za pomocą integracji AI.</p>
+</li>
+<li>
+<p><strong>Francuski gigant telekomunikacyjny Orange poinformował o naruszeniu bezpieczeństwa na swojej sieci w piątek,</strong> co wpłynęło na usługi dla klientów w Europie i Afryce.</p>
+</li>
+<li>
+<p><strong>FBI w Dallas skonfiskowało prawie 23 Bitcoiny (około 2,4 miliona dolarów) od afilianta ransomware Chaos</strong> związanego z cyberatakami i płatnościami za odszyfrowanie od firm w Teksasie.</p>
+</li>
+</ul>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Meta i Microsoft w centrum cyberataku: ukryte luki, które mogą wykradać Twoje dane!]]></title>
             <link>https://www.majdak.online/blog/news-2025-07-27</link>
@@ -1537,37 +1667,6 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
             <category>Drony</category>
             <category>Communication</category>
             <category>Technologie</category>
-        </item>
-        <item>
-            <title><![CDATA[Policja aresztowała hackerów BreachForums! Czy to koniec znanego forum cyberprzestępców?]]></title>
-            <link>https://www.majdak.online/blog/news-2025-06-26</link>
-            <guid>https://www.majdak.online/blog/news-2025-06-26</guid>
-            <pubDate>Thu, 26 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Ostatnie informacje z sektora cyberbezpieczeństwa wskazują na rosnące zagrożenia ze strony zaawansowanych grup hakerskich oraz krytyczne luki w najpopularniejszych systemach i narzędziach. Szczególnie niepokojąca jest eskalacja ataków oraz wykorzystywanie nowoczesnych technologii, takich jak sztuczna inteligencja, przez cyberprzestępców.]]></description>
-            <content:encoded><![CDATA[<p>Ostatnie informacje z sektora cyberbezpieczeństwa wskazują na rosnące zagrożenia ze strony zaawansowanych grup hakerskich oraz krytyczne luki w najpopularniejszych systemach i narzędziach. Szczególnie niepokojąca jest eskalacja ataków oraz wykorzystywanie nowoczesnych technologii, takich jak sztuczna inteligencja, przez cyberprzestępców.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczne-luki-w-systemach-i-nowoczesne-ataki">Krytyczne luki w systemach i nowoczesne ataki<a href="https://www.majdak.online/blog/news-2025-06-26#krytyczne-luki-w-systemach-i-nowoczesne-ataki" class="hash-link" aria-label="Bezpośredni link do Krytyczne luki w systemach i nowoczesne ataki" title="Bezpośredni link do Krytyczne luki w systemach i nowoczesne ataki">​</a></h3>
-<p>Wczoraj ujawniono poważne podatności w systemie Cisco ISE oraz w popularnym registry Open VSX, które mogą pozwolić atakującym na przejęcie kontroli nad sieciami i rozprowadzanie złośliwego oprogramowania.</p>
-<p>Jednocześnie, cyberprzestępcy coraz częściej korzystają z narzędzi open-source, takich jak pakiety npm, aby atakować instytucje finansowe w Afryce. Te zaawansowane operacje są wspierane przez grupy powiązane z Koreą Północną, które ukrywają się pod kryptonimem 'Contagious Interview'.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowoczesne-metody-ataków-i-ewolucja-technik-cyberprzestępców">Nowoczesne metody ataków i ewolucja technik cyberprzestępców<a href="https://www.majdak.online/blog/news-2025-06-26#nowoczesne-metody-atak%C3%B3w-i-ewolucja-technik-cyberprzest%C4%99pc%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Nowoczesne metody ataków i ewolucja technik cyberprzestępców" title="Bezpośredni link do Nowoczesne metody ataków i ewolucja technik cyberprzestępców">​</a></h3>
-<p>Przemysłowe rozwiązania, takie jak Microsoft ClickOnce, są wykorzystywane przez cyberatakowców do ukrywania złośliwego kodu, a rozbudowana dezinformacja i fake wywiady poprzez pakiety npm zwiększają ryzyko infekcji. Z kolei, zaawansowane ataki na dostawców usług chmurowych i infrastruktury krytycznej, takie jak wypadki w Brother i SAP, pokazują, jak poważne są konsekwencje braku odpowiednich zabezpieczeń.</p>
-<p>Eksperci ostrzegają, że zjawisko jailbroken AI, używane przez cyberprzestępców do tworzenia lepiej ukrytych kampanii, może wywołać nową falę zagrożeń, a samo AI zaczyna odgrywać podwójną rolę - zarówno jako narzędzie ataku, jak i obrony.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozwój-narzędzi-i-kampanie-cyberprzestępcze">Rozwój narzędzi i kampanie cyberprzestępcze<a href="https://www.majdak.online/blog/news-2025-06-26#rozw%C3%B3j-narz%C4%99dzi-i-kampanie-cyberprzest%C4%99pcze" class="hash-link" aria-label="Bezpośredni link do Rozwój narzędzi i kampanie cyberprzestępcze" title="Bezpośredni link do Rozwój narzędzi i kampanie cyberprzestępcze">​</a></h3>
-<p>Cyberprzestępcy coraz częściej wykorzystują legalne mechanizmy, takie jak Microsoft ClickOnce, do ukrywania złośliwego oprogramowania i prowadzenia ukrytych operacji na dużą skalę.</p>
-<p>Kampanie typu 'Contagious Interview' od Korei Północnej pokazują, jak malware i złośliwe biblioteki npm są wykorzystywane do infekowania deweloperów, co zagraża infrastrukturze krytycznej.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="poważne-luki-w-zabezpieczeniach-kluczowych-systemów">Poważne luki w zabezpieczeniach kluczowych systemów<a href="https://www.majdak.online/blog/news-2025-06-26#powa%C5%BCne-luki-w-zabezpieczeniach-kluczowych-system%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Poważne luki w zabezpieczeniach kluczowych systemów" title="Bezpośredni link do Poważne luki w zabezpieczeniach kluczowych systemów">​</a></h3>
-<p>Wiadomo o krytycznych podatnościach w Cisco ISE, NetScaler, SAP GUI i innych systemach, które umożliwiają atakującym pełną kontrolę nad sieciami i systemami ofiar.</p>
-<p>Aktywnie wykorzystywane w atakach w terenie, te luki stanowią ogromne zagrożenie dla infrastruktury chmurowej i lokalnej.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="problemy-związane-z-bezpieczeństwem-i-prywatnością-użytkowników">Problemy związane z bezpieczeństwem i prywatnością użytkowników<a href="https://www.majdak.online/blog/news-2025-06-26#problemy-zwi%C4%85zane-z-bezpiecze%C5%84stwem-i-prywatno%C5%9Bci%C4%85-u%C5%BCytkownik%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Problemy związane z bezpieczeństwem i prywatnością użytkowników" title="Bezpośredni link do Problemy związane z bezpieczeństwem i prywatnością użytkowników">​</a></h3>
-<p>Badania pokazują, że wiele urządzeń, w tym drukarki Brother i Fujifilm, Toshiba, Konica Minolta, ma domyślne hasła administratora, które mogą być generowane zdalnie przez atakujących.</p>
-<p>Ponadto, usługi takie jak Microsoft Family Safety blokują dostęp do popularnych przeglądarek, co wywołuje kontrowersje i pytania o balans między bezpieczeństwem a wygodą.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-geopolityczne-i-ich-wpływ-na-cyberwojnę">Zagrożenia geopolityczne i ich wpływ na cyberwojnę<a href="https://www.majdak.online/blog/news-2025-06-26#zagro%C5%BCenia-geopolityczne-i-ich-wp%C5%82yw-na-cyberwojn%C4%99" class="hash-link" aria-label="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę" title="Bezpośredni link do Zagrożenia geopolityczne i ich wpływ na cyberwojnę">​</a></h3>
-<p>Współczesne konflikty międzynarodowe coraz częściej przenikają do przestrzeni cybernetycznej, wymuszając na instytucjach i firmach wzmożoną czujność oraz przygotowanie na ataki o skali globalnej.</p>
-<p>Tymczasem, działania grup takich jak Charming Kitten czy Cyber Fattah pokazują, jak państwa wykorzystują cybertechnologie do szpiegowania i operacji informacyjnych.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
         </item>
     </channel>
 </rss>
