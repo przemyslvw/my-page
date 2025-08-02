@@ -39,7 +39,7 @@ Najnowsze doniesienia z branży cyberbezpieczeństwa wskazują na rosnące zagro
 - **Nowa technika „Shade BIOS”** pozwala malware działać bez systemu operacyjnego.
 - **ISC2** uruchomiła nowy certyfikat bezpieczeństwa dla ekspertów AI (6 kursów: podstawy AI, etyka, ryzyko).
 - **Rynek SIEM** na rozdrożu – XDR i generatywna AI mogą zmienić analitykę bezpieczeństwa.
-- **OpenAI** pracuje nad tańszym planem subskrypcyjnym ChatGPT „Go” (<20 USD/miesiąc).
+- **OpenAI** pracuje nad tańszym planem subskrypcyjnym ChatGPT „Go” (&lt;20 USD/miesiąc).
 - **Pi-hole** ujawnia wyciek danych przez lukę w GiveWP na WordPress.
 - **AI w Cursor IDE** podatny na prompt-injection – luka CurXecute umożliwia RCE z uprawnieniami dewelopera.
 - **Pwn2Own** wypłaca 1 mln USD za exploit WhatsApp. Organizatorzy ZDI szukają złamań, które pozwolą na zeroklikowy atak, nagradzając najbardziej innowacyjne odkrycia.
