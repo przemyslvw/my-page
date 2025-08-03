@@ -2,11 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-08-02T00:00:00.000Z</updated>
+    <updated>2025-08-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Meta pod ostrzałem: tajne ataki i zaskakujące zagrożenia w cyberprzestrzeni!]]></title>
+        <id>https://www.majdak.online/blog/news-2025-08-03</id>
+        <link href="https://www.majdak.online/blog/news-2025-08-03"/>
+        <updated>2025-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cyberzagrożenia rosną, a ataki zagrażają krytycznej infrastrukturze — od tajnych malware w sieciach telekomunikacyjnych w Azji Południowo-Wschodniej, przez ukrytą tygrysią tylną furtkę 'Plague' na Linuxie, po ransomware Akira atakujące VPN-y SonicWall. Eksperci ostrzegają, że cyberprzestępcy coraz częściej korzystają z zaawansowanych metod, aby uzyskać nieautoryzowany dostęp i poważnie zagrozić bezpieczeństwu globalnych systemów, podczas gdy firmy takie jak OpenAI i Anthropic rywalizują o przewagę w rozwoju najbardziej zaawansowanych modeli AI.]]></summary>
+        <content type="html"><![CDATA[<p>Cyberzagrożenia rosną, a ataki zagrażają krytycznej infrastrukturze — od tajnych malware w sieciach telekomunikacyjnych w Azji Południowo-Wschodniej, przez ukrytą tygrysią tylną furtkę 'Plague' na Linuxie, po ransomware Akira atakujące VPN-y SonicWall. Eksperci ostrzegają, że cyberprzestępcy coraz częściej korzystają z zaawansowanych metod, aby uzyskać nieautoryzowany dostęp i poważnie zagrozić bezpieczeństwu globalnych systemów, podczas gdy firmy takie jak OpenAI i Anthropic rywalizują o przewagę w rozwoju najbardziej zaawansowanych modeli AI.</p>
+<p>CL-STA-0969 Instaluje Ukrytą Złośliwą Oprogramowanie w Sieciach Telekomunikacyjnych w Ciągu 10-miesięcznej Kampanii Szpiegowskiej
+Organizacje telekomunikacyjne w Azji Południowo-Wschodniej zostały zaatakowane przez państwowo sponsorowanego aktywnego zagrożenia znanego jako CL-STA-0969, aby umożliwić zdalne zarządzanie przejętymi sieciami.
+Palo Alto Networks Unit 42 powiedział, że zaobserwował wiele incydentów w regionie, w tym jeden skierowany na krytyczną infrastrukturę telekomunikacyjną w okresie od lutego do listopada 2024.
+Ataki charakteryzują się tym, że</p>
+<hr>
+<p>Nowa tylnia furtka ‘Plague’ PAM Ujawnia Krytyczne Systemy Linux na Ciche Kradzieże Danych Dostępowych
+Cyberbezpieczeństwo naukowcy zgłosili wcześniej nieznaną tylną furtkę Linux o nazwie Plague, która udało się uniknąć wykrycia przez rok.
+„Implant jest zbudowany jako złośliwy PAM (Pluggable Authentication Module), umożliwiający napastnikom ciche obchodzenie się z uwierzytelnianiem systemu i uzyskanie trwałego dostępu SSH,” powiedział badacz Nextron Systems Pierre-Henri Pezier.
+Płaszcz Authentication Modules</p>
+<hr>
+<p>Akira Ransomware Eksploatuje SonicWall VPN w Prawdopodobnym Zero-Day Ataku na W pełni Zainstalowanych Urządzenia
+Urządzenia SonicWall SSL VPN stały się celem ataków ransomware Akira w ramach nowej fali aktywności zaobserwowanej pod koniec lipca 2025.
+„W przeanalizowanych włamaniach zaobserwowano wiele wstępnych włamań przed ransomware w krótkim okresie czasu, z każdego z nich korzystano z dostępu VPN poprzez SonicWall SSL VPN,” powiedział badacz Arctic Wolf Labs Julian Tuin w raporcie.
+Firma cyberbezpieczeństwa</p>
+<hr>
+<p>OpenAI przygotowuje nowe otwarte modele wag wraz z GPT-5
+OpenAI nie pracuje tylko nad GPT-5. Wygląda na to, że OpenAI również przygotowuje się do wypuszczenia nowych otwartych wag źródłowych, spełniając swoją nazwę, OpenAI.' [...]</p>
+<hr>
+<p>Anthropic twierdzi, że inżynierowie OpenAI korzystają z Claude Code przed premiery GPT-5
+Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inżynierowie ChatGPT zostali złapani na używaniu narzędzi kodowania Claude. [...]</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Meta zagraża bezpieczeństwu użytkowników: nowy atak na WhatsApp z nagrodą miliona dolarów!]]></title>
         <id>https://www.majdak.online/blog/news-2025-08-02</id>
@@ -1717,39 +1753,6 @@ Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które 
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-wyzwania-dla-firm-i-użytkowników-indywidualnych">Nowe wyzwania dla firm i użytkowników indywidualnych<a href="https://www.majdak.online/blog/news-2025-07-01#nowe-wyzwania-dla-firm-i-u%C5%BCytkownik%C3%B3w-indywidualnych" class="hash-link" aria-label="Bezpośredni link do Nowe wyzwania dla firm i użytkowników indywidualnych" title="Bezpośredni link do Nowe wyzwania dla firm i użytkowników indywidualnych">​</a></h3>
 <p>Wzrost zagrożeń związanych z urządzeniami Bluetooth, które mogą być użyte do podsłuchiwania, czy zagrożenia związane z botnetami i kampaniami phishingowymi, podkreślają konieczność aktualizacji zabezpieczeń i świadomego korzystania z technologii.</p>
 <p>Rozwój takich zagrożeń wymaga od firm i użytkowników ostrożności, edukacji i stosowania najnowszych rozwiązań zabezpieczających, aby minimalizować ryzyko utraty danych i prywatności.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hakerzy z Microsoft Copilot wyciekają dane bez ingerencji użytkowników - zagrożenie na skalę krytyczną!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-06-30</id>
-        <link href="https://www.majdak.online/blog/news-2025-06-30"/>
-        <updated>2025-06-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nowe odkrycie w świecie cyberbezpieczeństwa, które może mieć poważne konsekwencje dla firm korzystających z Microsoft 365 Copilot. To pierwsza podatność typu „zero-click”, która pozwala na wyciek poufnych danych bez żadnej ingerencji użytkownika.]]></summary>
-        <content type="html"><![CDATA[<p>Nowe odkrycie w świecie cyberbezpieczeństwa, które może mieć poważne konsekwencje dla firm korzystających z Microsoft 365 Copilot. To pierwsza podatność typu „zero-click”, która pozwala na wyciek poufnych danych bez żadnej ingerencji użytkownika.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczna-luka-w-microsoft-365-copilot">Krytyczna luka w Microsoft 365 Copilot<a href="https://www.majdak.online/blog/news-2025-06-30#krytyczna-luka-w-microsoft-365-copilot" class="hash-link" aria-label="Bezpośredni link do Krytyczna luka w Microsoft 365 Copilot" title="Bezpośredni link do Krytyczna luka w Microsoft 365 Copilot">​</a></h3>
-<p>Badacze z Aim Security ujawnili rewelacyjną podatność CVE-2025-32711, ocenioną na CVSS 9.3, oznaczającą poważne zagrożenie dla organizacji korzystających z tego narzędzia AI.</p>
-<p>Wystarczy wysłać spreparowanego maila, aby AI zostało zmuszone do wycieku danych, co stawia pod znakiem zapytania bezpieczeństwo szerokiej gamy usług opartych na sztucznej inteligencji firmy Microsoft.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-na-infrastrukturę-wywiadowczą-i-sektory-krytyczne">Ataki na infrastrukturę wywiadowczą i sektory krytyczne<a href="https://www.majdak.online/blog/news-2025-06-30#ataki-na-infrastruktur%C4%99-wywiadowcz%C4%85-i-sektory-krytyczne" class="hash-link" aria-label="Bezpośredni link do Ataki na infrastrukturę wywiadowczą i sektory krytyczne" title="Bezpośredni link do Ataki na infrastrukturę wywiadowczą i sektory krytyczne">​</a></h3>
-<p>U.S. agencies ostrzegają o rosnącej aktywności iranianów w cyberprzestrzeni, szczególnie wobec obronności, sieci OT i infrastruktur krytycznych. Zjawisko to może prowadzić do poważnych naruszeń bezpieczeństwa na poziomie międzynarodowym.</p>
-<p>Wzrost działań państwowych aktorów cybernetycznych wymaga od organów ścigania i firm zwiększonej czujności oraz wdrażania zaawansowanych środków obronnych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zwalczanie-globalnych-oszustw-finansowych">Zwalczanie globalnych oszustw finansowych<a href="https://www.majdak.online/blog/news-2025-06-30#zwalczanie-globalnych-oszustw-finansowych" class="hash-link" aria-label="Bezpośredni link do Zwalczanie globalnych oszustw finansowych" title="Bezpośredni link do Zwalczanie globalnych oszustw finansowych">​</a></h3>
-<p>Europol i lokalne służby zatrzymały pięciu podejrzanych w sprawie procederu prania pieniędzy i oszustw związanych z kryptowalutami na kwotę przekraczającą 540 milionów dolarów. To kolejny krok w globalnej walce z cyberprzestępczością finansową.</p>
-<p>Operacja ta ukazuje, jak zaawansowane i złożone są dzisiejsze schematy oszustw, które niszczą życie tysięcy ofiar na całym świecie.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-ze-strony-cyberprzestępców-na-tle-technologii-i-urządzeń">Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń<a href="https://www.majdak.online/blog/news-2025-06-30#zagro%C5%BCenia-ze-strony-cyberprzest%C4%99pc%C3%B3w-na-tle-technologii-i-urz%C4%85dze%C5%84" class="hash-link" aria-label="Bezpośredni link do Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń" title="Bezpośredni link do Zagrożenia ze strony cyberprzestępców na tle technologii i urządzeń">​</a></h3>
-<p>Hakerzy korzystają z usług bulletproof hosting Proton66 do ataków phishingowych i deployingu złośliwego oprogramowania na banki kolumbijskie, pokazując, jak ważne jest monitorowanie infrastruktury chmurowej i usług hostingowych.</p>
-<p>Vulnerabilities in Airoha Bluetooth chips mogą umożliwić nieautoryzowany dostęp do słuchawek i urządzeń połączonych, co stanowi poważne zagrożenie dla prywatności użytkowników.</p>
-<p>Tymczasem Google wypuszcza nową wersję Veo 3, sztucznej inteligencji do tworzenia wideo, co podkreśla dynamiczny rozwój technologii, ale także potrzebę zabezpieczenia nowych narzędzi.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podnoszenie-poziomu-bezpieczeństwa-i-reakcja-na-incydenty">Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty<a href="https://www.majdak.online/blog/news-2025-06-30#podnoszenie-poziomu-bezpiecze%C5%84stwa-i-reakcja-na-incydenty" class="hash-link" aria-label="Bezpośredni link do Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty" title="Bezpośredni link do Podnoszenie poziomu bezpieczeństwa i reakcja na incydenty">​</a></h3>
-<p>Microsoft wprowadza automatyczne ochrony przed atakami typu email bombing, a także ostrzega o opóźnieniach w aktualizacjach Windows spowodowanych błędami metadanych, co podkreśla konieczność ciągłego monitorowania i szybkiej reakcji na pojawiające się problemy.</p>
-<p>Kraje takie jak Kanada czy Szwajcaria pośpiesznie reagują na zagrożenia, zamykając działalność firm czy usuwając aplikacje, które stanowią poważne ryzyko dla bezpieczeństwa narodowego.</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
