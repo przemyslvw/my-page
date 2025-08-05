@@ -132,9 +132,7 @@ Najbardziej niszczące cyberataki nie polegają na brute force, lecz na cichośc
 
 ### Nowy backdoor 'Plague' w PAM ujawnia krytyczne systemy Linux na ciche kradzieże danych uwierzytelniających
 
-Cyberbezpieczeństwo ostrzega przed nowym, wcześniej nieznanym Linux backdoorem o nazwie Plague, który unika wykrycia od ponad roku.
-
-> "Implant jest zbudowany jako złośliwy PAM (Pluggable Authentication Module), umożliwiający napastnikom ciche obchodzenie autoryzacji systemu i uzyskanie trwałego dostępu SSH," powiedział badacz Nextron Systems Pierre-Henri Pezier.
+Cyberbezpieczeństwo ostrzega przed nowym, wcześniej nieznanym Linux backdoorem o nazwie Plague, który unika wykrycia od ponad roku. Implant jest zbudowany jako złośliwy PAM (Pluggable Authentication Module), umożliwiający napastnikom ciche obchodzenie autoryzacji systemu i uzyskanie trwałego dostępu SSH.
 
 ---
 
@@ -148,9 +146,9 @@ Gdy bramy SaaS i AI się otworzyły, IT nie tylko się demokratyzowało, ale i b
 
 ### PlayPraetor Android Trojan infekuje ponad 11 000 urządzeń za pomocą fałszywych stron Google Play i reklam Meta
 
-Cyberbezpieczeństwo odkryło nowy trojan zdalnego dostępu o nazwie PlayPraetor, który zainfekował ponad 11 000 urządzeń, głównie w Portugalii, Hiszpanii, Francji, Maroku, Peru i Hongkongu.
+Cyberbezpieczeństwo odkryło nowy trojan zdalnego dostępu o nazwie PlayPraetor, który zainfekował ponad 11 000 urządzeń, głównie w Portugalii, Hiszpanii, Francji, Maroku, Peru i Hongkongu. Szybki wzrost botnetu, obecnie przekraczający 2000 nowych infekcji tygodniowo, jest napędzany przez agresywne kampanie skierowane na użytkowników mówiących po hiszpańsku i francusku, co wskazuje na strategiczny cel.
 
-> "Szybki wzrost botnetu, obecnie przekraczający 2000 nowych infekcji tygodniowo, jest napędzany przez agresywne kampanie skierowane na użytkowników mówiących po hiszpańsku i francusku, co wskazuje na strategiczny cel".
+---
 
 ### Microsoft Ire: projekt automatycznie reverse-engine’ujący oprogramowanie w celu wykrywania malware
 
@@ -249,12 +247,6 @@ Microsoft ogłosił, że funkcje transkrypcji, dyktowania i odczytu na głos prz
 ### CTM360 wykrywa szkodliwą kampanię ‘FraudOnTok’ skierowaną do użytkowników TikTok Shop
 
 CTM360 odkryło nową globalną kampanię malware o nazwie "FraudOnTok", która rozprzestrzenia spyware SparkKitty poprzez fałszywe sklepy TikTok, aby kraść portfele kryptowalutowe i wyczerpywać fundusze.
-
----
-
-### Nowy Linux malware Plague cicho utrzymuje dostęp SSH
-
-Nowo odkryte złośliwe oprogramowanie Linux, które unikało wykrycia przez ponad rok, pozwala napastnikom na trwały dostęp SSH i obchodzenie autoryzacji na zaatakowanych systemach.
 
 ---
 
