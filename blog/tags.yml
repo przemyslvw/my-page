@@ -23,6 +23,11 @@ cybersecurity:
   permalink: /cybersecurity
   description: Wszystko o bezpieczeństwie IT i cyberzagrożeniach.
 
+security:
+  label: Security
+  permalink: /security
+  description: Ochrona danych, systemów i sieci komputerowych.
+
 automation:
   label: Automation
   permalink: /automation
@@ -455,3 +460,7 @@ game-dev:
 falconsescape:
   label: falconsescape
   permalink: /blog/tags/falconsescape
+
+fedora:
+  label: Fedora
+  permalink: /blog/tags/fedora
