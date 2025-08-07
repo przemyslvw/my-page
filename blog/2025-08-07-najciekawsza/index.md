@@ -7,6 +7,8 @@ date: "2025-08-07"
 ---
 W ostatnich tygodniach globalne cyberzagrożenia przybierają na sile – ataki na francuskiego giganta **Bouygues Telecom**, które wyciekły dane 6,4 miliona klientów, wpisują się w rosnącą skalę naruszeń bezpieczeństwa. Organizacje takie jak **Google**, **Meta** i **Microsoft** odnotowują poważne luki: od wycieków danych i scamów, po zaawansowane ataki z użyciem sztucznej inteligencji oraz złośliwych pakietów oprogramowania.
 
+<!-- truncate -->
+
 W tym samym czasie wykryto nowe narzędzia cyberprzestępców, w tym cieszącego się złą sławą **VexTrio** czy rozbudowane systemy *malware-as-a-service*, które umożliwiają eskalację uprawnień i włamania na dużą skalę. Rosnąca liczba luk w klasycznych rozwiązaniach bezpieczeństwa oraz coraz bardziej wyrafinowane metody socjotechniczne sprawiają, że nadzór i obrona przed cyberzagrożeniami stają się jeszcze trudniejsze.
 
 Eksperci alarmują, że obecnie cyberprzestępcy korzystają z AI, by przełamać nawet najbardziej zaawansowane systemy, a każda luka – jak ta w **Microsoft Exchange** czy **Amazon ECS** – może kosztować przedsiębiorstwa miliony złotych. To wszystko przypomina, że w 2025 roku cyfrowe bezpieczeństwo wymaga nie tylko nowych narzędzi, lecz także głębokiej świadomości i natychmiastowej reakcji na coraz bardziej złożone zagrożenia.
