@@ -2,11 +2,225 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-08-07T00:00:00.000Z</updated>
+    <updated>2025-08-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Google pokazuje, jak hackers z North Korea wykradli tajne dane w mega włamaniach]]></title>
+        <id>https://www.majdak.online/blog/news-2025-08-12</id>
+        <link href="https://www.majdak.online/blog/news-2025-08-12"/>
+        <updated>2025-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ostatni tydzień przyniósł szokujące informacje o szeroko zakrojonych cyberatakach i lukach w bezpieczeństwie na globalną skalę. Zaawansowane grupy hackerskie, takie jak Kimsuky z Korei Północnej czy rosyjskie RomCom, wykorzystują nowoczesne narzędzia i exploity, m.in. w WinRAR czy Fortinet VPN, aby siać chaos i wykradać miliardy danych.]]></summary>
+        <content type="html"><![CDATA[<p>Ostatni tydzień przyniósł szokujące informacje o szeroko zakrojonych cyberatakach i lukach w bezpieczeństwie na globalną skalę. Zaawansowane grupy hackerskie, takie jak <strong>Kimsuky</strong> z Korei Północnej czy rosyjskie <strong>RomCom</strong>, wykorzystują nowoczesne narzędzia i exploity, m.in. w <strong>WinRAR</strong> czy <strong>Fortinet VPN</strong>, aby siać chaos i wykradać miliardy danych.</p>
+<p>W międzyczasie lawinowo rośnie liczba ataków na infrastrukturę krytyczną, a państwa i przedsiębiorstwa próbują się bronić przed rosnącym zagrożeniem ransomware, takiego jak <strong>BlackSuit</strong> czy <strong>Charon</strong>. Niemal każdy system — od automotoryzacji po systemy chmurowe — jest teraz zagrożony lukami i złośliwym oprogramowaniem, co potwierdzają liczne wycieki i ataki z ostatnich dni.</p>
+<p>Eksperci ostrzegają, że zaawansowana digitalizacja przynosi nowe wyzwania i wymaga jeszcze bardziej wzmocnionych zabezpieczeń, zwłaszcza w erze rosnącej roli sztucznej inteligencji i zautomatyzowanych cyberoperacji.</p>
+<p>Hakerzy złamali zabezpieczenia i ujawnili dużą operację szpiegowską Korei Północnej. Dwóch hackerów włamało się do komputera północnokoreańskiego hakera rządowego i wyciekło jego zawartość, oferując rzadki wgląd w tajne działania tego kraju.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rząd-usa-przejmuje-1-mln-dolarów-od-rosyjskiej-grupy-ransomware">Rząd USA przejmuje 1 mln dolarów od rosyjskiej grupy ransomware<a href="https://www.majdak.online/blog/news-2025-08-12#rz%C4%85d-usa-przejmuje-1-mln-dolar%C3%B3w-od-rosyjskiej-grupy-ransomware" class="hash-link" aria-label="Bezpośredni link do Rząd USA przejmuje 1 mln dolarów od rosyjskiej grupy ransomware" title="Bezpośredni link do Rząd USA przejmuje 1 mln dolarów od rosyjskiej grupy ransomware">​</a></h3>
+<p>Międzynarodowa koordynacja organów ścigania doprowadziła do zajęcia infrastruktury grupy odpowiedzialnej za ransomware Royal i BlackSuit, która od 2022 roku wyłudziła od ofiar około 370 mln dolarów.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="electronic-arts-blokuje-300-000-prób-oszustw-w-battlefield-6">Electronic Arts blokuje 300 000 prób oszustw w Battlefield 6<a href="https://www.majdak.online/blog/news-2025-08-12#electronic-arts-blokuje-300-000-pr%C3%B3b-oszustw-w-battlefield-6" class="hash-link" aria-label="Bezpośredni link do Electronic Arts blokuje 300 000 prób oszustw w Battlefield 6" title="Bezpośredni link do Electronic Arts blokuje 300 000 prób oszustw w Battlefield 6">​</a></h3>
+<p>Po uruchomieniu bety Battlefield 6, EA zablokowało ponad 300 000 prób oszustw, reagując na masowe próby cheatowania przez graczy.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-portalu-producenta-samochodów-umożliwiła-zdalne-odblokowanie-pojazdów">Luka w portalu producenta samochodów umożliwiła zdalne odblokowanie pojazdów<a href="https://www.majdak.online/blog/news-2025-08-12#luka-w-portalu-producenta-samochod%C3%B3w-umo%C5%BCliwi%C5%82a-zdalne-odblokowanie-pojazd%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Luka w portalu producenta samochodów umożliwiła zdalne odblokowanie pojazdów" title="Bezpośredni link do Luka w portalu producenta samochodów umożliwiła zdalne odblokowanie pojazdów">​</a></h3>
+<p>Badacz bezpieczeństwa Eaton Zveare ujawnił, że luki w portalu dealerskim pozwalały na szeroki dostęp do danych klientów i pojazdów, a nawet zdalne przejęcie konta i odblokowanie samochodu.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="winrar-poważna-luka-0-day-wykorzystywana-przez-dwie-grupy">WinRAR: poważna luka (0-day) wykorzystywana przez dwie grupy<a href="https://www.majdak.online/blog/news-2025-08-12#winrar-powa%C5%BCna-luka-0-day-wykorzystywana-przez-dwie-grupy" class="hash-link" aria-label="Bezpośredni link do WinRAR: poważna luka (0-day) wykorzystywana przez dwie grupy" title="Bezpośredni link do WinRAR: poważna luka (0-day) wykorzystywana przez dwie grupy">​</a></h3>
+<p>Przez tygodnie exploity pozwalały na trwałe wstawienie backdoora, gdy ofiary otwierały zainfekowane archiwa.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="czy-z-kamer-lenovo-można-zrobić-badusb-prawie">Czy z kamer Lenovo można zrobić BadUSB? Prawie...<a href="https://www.majdak.online/blog/news-2025-08-12#czy-z-kamer-lenovo-mo%C5%BCna-zrobi%C4%87-badusb-prawie" class="hash-link" aria-label="Bezpośredni link do Czy z kamer Lenovo można zrobić BadUSB? Prawie..." title="Bezpośredni link do Czy z kamer Lenovo można zrobić BadUSB? Prawie...">​</a></h3>
+<p>Badacze z Eclypsium na DEF CON 33 pokazali nowy wektor ataku: zdalna zmiana firmware kamer USB, by działały jak BadUSB, bez fizycznego dostępu do urządzenia.<br>
+<a href="https://sekurak.pl/czy-mozna-z-kamer-lenovo-zrobic-usb-rubber-ducky-no-prawie/" target="_blank" rel="noopener noreferrer">Więcej na Sekurak</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sekurak-hacking-party-wraca-do-warszawy">Sekurak Hacking Party wraca do Warszawy<a href="https://www.majdak.online/blog/news-2025-08-12#sekurak-hacking-party-wraca-do-warszawy" class="hash-link" aria-label="Bezpośredni link do Sekurak Hacking Party wraca do Warszawy" title="Bezpośredni link do Sekurak Hacking Party wraca do Warszawy">​</a></h3>
+<p>Ekipa sekuraka ponownie rusza w trasę po Polsce, prezentując praktyczne pokazy łamania zabezpieczeń i etycznego hackingu.<br>
+<a href="https://sekurak.pl/ekipa-sekuraka-rusza-ponownie-w-trase/" target="_blank" rel="noopener noreferrer">Więcej na Sekurak</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wiele-podatności-w-hashicorp-vault">Wiele podatności w HashiCorp Vault<a href="https://www.majdak.online/blog/news-2025-08-12#wiele-podatno%C5%9Bci-w-hashicorp-vault" class="hash-link" aria-label="Bezpośredni link do Wiele podatności w HashiCorp Vault" title="Bezpośredni link do Wiele podatności w HashiCorp Vault">​</a></h3>
+<p>Popularne narzędzie do zarządzania poufnymi danymi stało się celem ataków — uzyskanie dostępu do Vault umożliwia przejęcie wszystkich przechowywanych sekretów.<br>
+<a href="https://sekurak.pl/wiele-podatnosci-w-hashicorp-vault/" target="_blank" rel="noopener noreferrer">Więcej na Sekurak</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podatność-cve-2025-8088-w-winrar-aktywnie-wykorzystywana">Podatność CVE-2025-8088 w WinRAR aktywnie wykorzystywana<a href="https://www.majdak.online/blog/news-2025-08-12#podatno%C5%9B%C4%87-cve-2025-8088-w-winrar-aktywnie-wykorzystywana" class="hash-link" aria-label="Bezpośredni link do Podatność CVE-2025-8088 w WinRAR aktywnie wykorzystywana" title="Bezpośredni link do Podatność CVE-2025-8088 w WinRAR aktywnie wykorzystywana">​</a></h3>
+<p>Badacze ESET informują o aktywnym wykorzystywaniu luki przez grupę RomCom. Luka została załatana w WinRAR 7.13 i dotyczy tylko Windows.<br>
+<a href="https://sekurak.pl/podatnosc-w-winrar-dla-windows-wykorzystywana-w-atakach/" target="_blank" rel="noopener noreferrer">Więcej na Sekurak</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="xz-utils-backdoor-wciąż-obecny-w-obrazach-docker-hub">XZ Utils Backdoor wciąż obecny w obrazach Docker Hub<a href="https://www.majdak.online/blog/news-2025-08-12#xz-utils-backdoor-wci%C4%85%C5%BC-obecny-w-obrazach-docker-hub" class="hash-link" aria-label="Bezpośredni link do XZ Utils Backdoor wciąż obecny w obrazach Docker Hub" title="Bezpośredni link do XZ Utils Backdoor wciąż obecny w obrazach Docker Hub">​</a></h3>
+<p>Nowe badania wykazały, że obrazy Docker na Docker Hub nadal zawierają backdoora XZ Utils, ponad rok po jego odkryciu.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fortinet-ssl-vpns-pod-globalną-falą-brute-force">Fortinet SSL VPNs pod globalną falą brute-force<a href="https://www.majdak.online/blog/news-2025-08-12#fortinet-ssl-vpns-pod-globaln%C4%85-fal%C4%85-brute-force" class="hash-link" aria-label="Bezpośredni link do Fortinet SSL VPNs pod globalną falą brute-force" title="Bezpośredni link do Fortinet SSL VPNs pod globalną falą brute-force">​</a></h3>
+<p>Odnotowano znaczny wzrost ataków brute-force na urządzenia Fortinet SSL VPN, z udziałem setek unikalnych adresów IP.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shinyhunters-i-scattered-spider-łączą-siły-w-atakach-ransomware">ShinyHunters i Scattered Spider łączą siły w atakach ransomware<a href="https://www.majdak.online/blog/news-2025-08-12#shinyhunters-i-scattered-spider-%C5%82%C4%85cz%C4%85-si%C5%82y-w-atakach-ransomware" class="hash-link" aria-label="Bezpośredni link do ShinyHunters i Scattered Spider łączą siły w atakach ransomware" title="Bezpośredni link do ShinyHunters i Scattered Spider łączą siły w atakach ransomware">​</a></h3>
+<p>Nowa fala wymuszeń danych skierowana do klientów Salesforce może wkrótce objąć instytucje finansowe i dostawców usług technologicznych.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowy-apt-curly-comrades-atakuje-gruzję-i-mołdawię">Nowy APT Curly COMrades atakuje Gruzję i Mołdawię<a href="https://www.majdak.online/blog/news-2025-08-12#nowy-apt-curly-comrades-atakuje-gruzj%C4%99-i-mo%C5%82dawi%C4%99" class="hash-link" aria-label="Bezpośredni link do Nowy APT Curly COMrades atakuje Gruzję i Mołdawię" title="Bezpośredni link do Nowy APT Curly COMrades atakuje Gruzję i Mołdawię">​</a></h3>
+<p>Nieznana wcześniej grupa cyberzagrożeń wykorzystuje przechwytywanie NGEN COM do długoterminowego dostępu do sieci ofiar.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="przeglądarki-enterprise-kontra-rozszerzenia-bezpieczeństwa">Przeglądarki enterprise kontra rozszerzenia bezpieczeństwa<a href="https://www.majdak.online/blog/news-2025-08-12#przegl%C4%85darki-enterprise-kontra-rozszerzenia-bezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Przeglądarki enterprise kontra rozszerzenia bezpieczeństwa" title="Bezpośredni link do Przeglądarki enterprise kontra rozszerzenia bezpieczeństwa">​</a></h3>
+<p>Liderzy bezpieczeństwa muszą wybrać między dedykowaną przeglądarką enterprise a rozszerzeniami klasy enterprise dla już używanych przeglądarek.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="holenderski-ncsc-aktywne-ataki-na-citrix-netscaler-cve-2025-6543">Holenderski NCSC: aktywne ataki na Citrix NetScaler (CVE-2025-6543)<a href="https://www.majdak.online/blog/news-2025-08-12#holenderski-ncsc-aktywne-ataki-na-citrix-netscaler-cve-2025-6543" class="hash-link" aria-label="Bezpośredni link do Holenderski NCSC: aktywne ataki na Citrix NetScaler (CVE-2025-6543)" title="Bezpośredni link do Holenderski NCSC: aktywne ataki na Citrix NetScaler (CVE-2025-6543)">​</a></h3>
+<p>NCSC-NL potwierdza wykorzystanie krytycznej luki w Citrix NetScaler ADC w sektorach krytycznych w Holandii.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-w-szyfrowaniu-tetra-zagrażają-komunikacji-policyjnej">Nowe luki w szyfrowaniu TETRA zagrażają komunikacji policyjnej<a href="https://www.majdak.online/blog/news-2025-08-12#nowe-luki-w-szyfrowaniu-tetra-zagra%C5%BCaj%C4%85-komunikacji-policyjnej" class="hash-link" aria-label="Bezpośredni link do Nowe luki w szyfrowaniu TETRA zagrażają komunikacji policyjnej" title="Bezpośredni link do Nowe luki w szyfrowaniu TETRA zagrażają komunikacji policyjnej">​</a></h3>
+<p>Badacze ujawnili problemy w protokole TETRA, umożliwiające ataki replay, brute-force i deszyfrowanie ruchu.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wzrost-exploitu-rce-w-erlangotp-ssh">Wzrost exploitu RCE w Erlang/OTP SSH<a href="https://www.majdak.online/blog/news-2025-08-12#wzrost-exploitu-rce-w-erlangotp-ssh" class="hash-link" aria-label="Bezpośredni link do Wzrost exploitu RCE w Erlang/OTP SSH" title="Bezpośredni link do Wzrost exploitu RCE w Erlang/OTP SSH">​</a></h3>
+<p>Krytyczna luka CVE-2025-32433 wykorzystywana głównie przeciwko sieciom OT, pozwala na ataki bez uwierzytelniania.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tygodniowe-podsumowanie-badcam-winrar-0-day-luki-w-nvidia-ransomware">Tygodniowe podsumowanie: BadCam, WinRAR 0-day, luki w NVIDIA, ransomware<a href="https://www.majdak.online/blog/news-2025-08-12#tygodniowe-podsumowanie-badcam-winrar-0-day-luki-w-nvidia-ransomware" class="hash-link" aria-label="Bezpośredni link do Tygodniowe podsumowanie: BadCam, WinRAR 0-day, luki w NVIDIA, ransomware" title="Bezpośredni link do Tygodniowe podsumowanie: BadCam, WinRAR 0-day, luki w NVIDIA, ransomware">​</a></h3>
+<p>Cyberprzestępcy szybko wykorzystują nowe luki — regularne aktualizacje zabezpieczeń są kluczowe.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-lekcji-bezpieczeństwo-tam-gdzie-wartość-biznesowa">6 lekcji: bezpieczeństwo tam, gdzie wartość biznesowa<a href="https://www.majdak.online/blog/news-2025-08-12#6-lekcji-bezpiecze%C5%84stwo-tam-gdzie-warto%C5%9B%C4%87-biznesowa" class="hash-link" aria-label="Bezpośredni link do 6 lekcji: bezpieczeństwo tam, gdzie wartość biznesowa" title="Bezpośredni link do 6 lekcji: bezpieczeństwo tam, gdzie wartość biznesowa">​</a></h3>
+<p>Najważniejsze zasoby to te, które wspierają kluczowe procesy biznesowe — ich utrata może mieć poważne konsekwencje.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="winrar-aktywne-wykorzystywanie-luki-zero-day--aktualizuj-natychmiast">WinRAR: aktywne wykorzystywanie luki zero-day — aktualizuj natychmiast<a href="https://www.majdak.online/blog/news-2025-08-12#winrar-aktywne-wykorzystywanie-luki-zero-day--aktualizuj-natychmiast" class="hash-link" aria-label="Bezpośredni link do WinRAR: aktywne wykorzystywanie luki zero-day — aktualizuj natychmiast" title="Bezpośredni link do WinRAR: aktywne wykorzystywanie luki zero-day — aktualizuj natychmiast">​</a></h3>
+<p>CVE-2025-8088 pozwala na wykonanie dowolnego kodu przez złośliwe archiwa.<br>
+<a href="https://sekurak.pl/winrar-zero-day-aktualizacja/" target="_blank" rel="noopener noreferrer">Zaktualizuj WinRAR</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="winrar-w-atakach-szpiegowskich-na-firmy-w-europie-i-kanadzie">WinRAR w atakach szpiegowskich na firmy w Europie i Kanadzie<a href="https://www.majdak.online/blog/news-2025-08-12#winrar-w-atakach-szpiegowskich-na-firmy-w-europie-i-kanadzie" class="hash-link" aria-label="Bezpośredni link do WinRAR w atakach szpiegowskich na firmy w Europie i Kanadzie" title="Bezpośredni link do WinRAR w atakach szpiegowskich na firmy w Europie i Kanadzie">​</a></h3>
+<p>Luka zero-day wykorzystywana w kampaniach spearphishing na firmy z sektora finansowego, produkcyjnego, obronności i logistyki.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="romcom-i-inne-grupy-wykorzystują-lukę-zero-day-w-winrar">RomCom i inne grupy wykorzystują lukę zero-day w WinRAR<a href="https://www.majdak.online/blog/news-2025-08-12#romcom-i-inne-grupy-wykorzystuj%C4%85-luk%C4%99-zero-day-w-winrar" class="hash-link" aria-label="Bezpośredni link do RomCom i inne grupy wykorzystują lukę zero-day w WinRAR" title="Bezpośredni link do RomCom i inne grupy wykorzystują lukę zero-day w WinRAR">​</a></h3>
+<p>Ataki spearphishing z użyciem złośliwych archiwów podszywających się pod dokumenty aplikacyjne.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rynek-dostępu-dark-web-jak-hackerzy-sprzedają-klucze-do-sieci">Rynek dostępu Dark Web: jak hackerzy sprzedają klucze do sieci<a href="https://www.majdak.online/blog/news-2025-08-12#rynek-dost%C4%99pu-dark-web-jak-hackerzy-sprzedaj%C4%85-klucze-do-sieci" class="hash-link" aria-label="Bezpośredni link do Rynek dostępu Dark Web: jak hackerzy sprzedają klucze do sieci" title="Bezpośredni link do Rynek dostępu Dark Web: jak hackerzy sprzedają klucze do sieci">​</a></h3>
+<p>Elitarni hackerzy sprzedają dostęp do sieci firmowych na forach dark web, przekształcając cyberprzestępczość w zorganizowany biznes.<br>
+<a href="https://www.securityweek.com/inside-the-dark-webs-access-economy-how-hackers-sell-the-keys-to-enterprise-networks/" target="_blank" rel="noopener noreferrer">Więcej na SecurityWeek</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1kosmos-zdobywa-57-mln-dolarów-na-platformę-weryfikacji-tożsamości">1Kosmos zdobywa 57 mln dolarów na platformę weryfikacji tożsamości<a href="https://www.majdak.online/blog/news-2025-08-12#1kosmos-zdobywa-57-mln-dolar%C3%B3w-na-platform%C4%99-weryfikacji-to%C5%BCsamo%C5%9Bci" class="hash-link" aria-label="Bezpośredni link do 1Kosmos zdobywa 57 mln dolarów na platformę weryfikacji tożsamości" title="Bezpośredni link do 1Kosmos zdobywa 57 mln dolarów na platformę weryfikacji tożsamości">​</a></h3>
+<p>Firma zebrała łącznie 72 mln dolarów w serii B.<br>
+<a href="https://www.securityweek.com/1kosmos-raises-57-million-for-identity-verification-and-authentication-platform/" target="_blank" rel="noopener noreferrer">Więcej na SecurityWeek</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="teraz-na-żywo-codeseccon--bezpieczeństwo-oprogramowania">Teraz na żywo: CodeSecCon — bezpieczeństwo oprogramowania<a href="https://www.majdak.online/blog/news-2025-08-12#teraz-na-%C5%BCywo-codeseccon--bezpiecze%C5%84stwo-oprogramowania" class="hash-link" aria-label="Bezpośredni link do Teraz na żywo: CodeSecCon — bezpieczeństwo oprogramowania" title="Bezpośredni link do Teraz na żywo: CodeSecCon — bezpieczeństwo oprogramowania">​</a></h3>
+<p>Wirtualne wydarzenie skupia deweloperów i specjalistów ds. cyberbezpieczeństwa.<br>
+<a href="https://www.securityweek.com/codeseccon-is-today-where-software-securitys-next-chapter-unfolds-virtual-event/" target="_blank" rel="noopener noreferrer">Zobacz szczegóły</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sap-łata-krytyczną-lukę-w-s4hana">SAP łata krytyczną lukę w S/4HANA<a href="https://www.majdak.online/blog/news-2025-08-12#sap-%C5%82ata-krytyczn%C4%85-luk%C4%99-w-s4hana" class="hash-link" aria-label="Bezpośredni link do SAP łata krytyczną lukę w S/4HANA" title="Bezpośredni link do SAP łata krytyczną lukę w S/4HANA">​</a></h3>
+<p>W sierpniowym Patch Tuesday SAP wdrożył 15 nowych notatek bezpieczeństwa.<br>
+<a href="https://www.securityweek.com/sap-patches-critical-s-4hana-vulnerability/" target="_blank" rel="noopener noreferrer">Więcej na SecurityWeek</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sieci-ot-szeroko-wykorzystywane-w-exploicie-erlangotp">Sieci OT szeroko wykorzystywane w exploicie Erlang/OTP<a href="https://www.majdak.online/blog/news-2025-08-12#sieci-ot-szeroko-wykorzystywane-w-exploicie-erlangotp" class="hash-link" aria-label="Bezpośredni link do Sieci OT szeroko wykorzystywane w exploicie Erlang/OTP" title="Bezpośredni link do Sieci OT szeroko wykorzystywane w exploicie Erlang/OTP">​</a></h3>
+<p>Luka CVE-2025-32433 aktywnie wykorzystywana od maja 2025 r.<br>
+<a href="https://www.securityweek.com/ot-networks-targeted-in-widespread-exploitation-of-erlang-otp-vulnerability/" target="_blank" rel="noopener noreferrer">Czytaj więcej</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="chrome-rekordowa-nagroda-250-000-dolarów-za-exploit-sandboxa">Chrome: rekordowa nagroda 250 000 dolarów za exploit sandboxa<a href="https://www.majdak.online/blog/news-2025-08-12#chrome-rekordowa-nagroda-250-000-dolar%C3%B3w-za-exploit-sandboxa" class="hash-link" aria-label="Bezpośredni link do Chrome: rekordowa nagroda 250 000 dolarów za exploit sandboxa" title="Bezpośredni link do Chrome: rekordowa nagroda 250 000 dolarów za exploit sandboxa">​</a></h3>
+<p>Najwyższa nagroda Google za skuteczne obejście sandboxa w Chrome.<br>
+<a href="https://www.securityweek.com/chrome-sandbox-escape-earns-researcher-250000/" target="_blank" rel="noopener noreferrer">Więcej szczegółów</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zarządzanie-zaufaniem-i-ryzykiem-w-ai">Zarządzanie zaufaniem i ryzykiem w AI<a href="https://www.majdak.online/blog/news-2025-08-12#zarz%C4%85dzanie-zaufaniem-i-ryzykiem-w-ai" class="hash-link" aria-label="Bezpośredni link do Zarządzanie zaufaniem i ryzykiem w AI" title="Bezpośredni link do Zarządzanie zaufaniem i ryzykiem w AI">​</a></h3>
+<p>Nowe badania sugerują, że duże modele językowe mogą przewidzieć własne halucynacje, co może poprawić bezpieczeństwo AI.<br>
+<a href="https://www.securityweek.com/managing-the-trust-risk-equation-in-ai-predicting-hallucinations-before-they-strike/" target="_blank" rel="noopener noreferrer">Więcej na SecurityWeek</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-danych-z-connex-credit-union">Wyciek danych z Connex Credit Union<a href="https://www.majdak.online/blog/news-2025-08-12#wyciek-danych-z-connex-credit-union" class="hash-link" aria-label="Bezpośredni link do Wyciek danych z Connex Credit Union" title="Bezpośredni link do Wyciek danych z Connex Credit Union">​</a></h3>
+<p>Hakerzy zaatakowali jedno z największych stowarzyszeń kredytowych w Connecticut, wykradając dane osobowe.<br>
+<a href="https://www.securityweek.com/connex-credit-union-data-breach-impacts-172000-people/" target="_blank" rel="noopener noreferrer">Więcej na SecurityWeek</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-systemach-dealerskich-umożliwiła-hakowanie-samochodów">Luka w systemach dealerskich umożliwiła hakowanie samochodów<a href="https://www.majdak.online/blog/news-2025-08-12#luka-w-systemach-dealerskich-umo%C5%BCliwi%C5%82a-hakowanie-samochod%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Luka w systemach dealerskich umożliwiła hakowanie samochodów" title="Bezpośredni link do Luka w systemach dealerskich umożliwiła hakowanie samochodów">​</a></h3>
+<p>Platforma używana przez ponad 1000 dealerów w USA pozwalała na włamania do pojazdów i kradzież danych.<br>
+<a href="https://www.securityweek.com/flaws-in-major-automakers-dealership-systems-allowed-car-hacking-personal-data-theft/" target="_blank" rel="noopener noreferrer">Czytaj więcej</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rosyjscy-hackerzy-wykorzystali-zero-day-w-winrar-w-atakach-na-europę-i-kanadę">Rosyjscy hackerzy wykorzystali zero-day w WinRAR w atakach na Europę i Kanadę<a href="https://www.majdak.online/blog/news-2025-08-12#rosyjscy-hackerzy-wykorzystali-zero-day-w-winrar-w-atakach-na-europ%C4%99-i-kanad%C4%99" class="hash-link" aria-label="Bezpośredni link do Rosyjscy hackerzy wykorzystali zero-day w WinRAR w atakach na Europę i Kanadę" title="Bezpośredni link do Rosyjscy hackerzy wykorzystali zero-day w WinRAR w atakach na Europę i Kanadę">​</a></h3>
+<p>WinRAR naprawił CVE-2025-8088, wykorzystywaną przez grupę RomCom do ataków na firmy.<br>
+<a href="https://www.securityweek.com/russian-hackers-exploited-winrar-zero-day-in-attacks-on-europe-canada/" target="_blank" rel="noopener noreferrer">Więcej szczegółów</a></p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dwie-grupy-przestępcze-nadużyły-tej-samej-luki-w-winrar">Dwie grupy przestępcze nadużyły tej samej luki w WinRAR<a href="https://www.majdak.online/blog/news-2025-08-12#dwie-grupy-przest%C4%99pcze-nadu%C5%BCy%C5%82y-tej-samej-luki-w-winrar" class="hash-link" aria-label="Bezpośredni link do Dwie grupy przestępcze nadużyły tej samej luki w WinRAR" title="Bezpośredni link do Dwie grupy przestępcze nadużyły tej samej luki w WinRAR">​</a></h3>
+<p>Zidentyfikowano dwie grupy, które wykorzystały już załataną lukę.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="oszuści-podszywający-się-pod-urząd-skarbowy-wyłudzają-od-scamerów">Oszuści podszywający się pod urząd skarbowy wyłudzają od scamerów<a href="https://www.majdak.online/blog/news-2025-08-12#oszu%C5%9Bci-podszywaj%C4%85cy-si%C4%99-pod-urz%C4%85d-skarbowy-wy%C5%82udzaj%C4%85-od-scamer%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Oszuści podszywający się pod urząd skarbowy wyłudzają od scamerów" title="Bezpośredni link do Oszuści podszywający się pod urząd skarbowy wyłudzają od scamerów">​</a></h3>
+<p>Julie-Anne Kearns, pomagająca ofiarom oszustw online, sama padła ofiarą oszustwa podatkowego.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fałszywy-e-mail-rekall-zapasów-amazon-to-oszustwo">Fałszywy e-mail "Rekall Zapasów Amazon" to oszustwo<a href="https://www.majdak.online/blog/news-2025-08-12#fa%C5%82szywy-e-mail-rekall-zapas%C3%B3w-amazon-to-oszustwo" class="hash-link" aria-label="Bezpośredni link do Fałszywy e-mail &quot;Rekall Zapasów Amazon&quot; to oszustwo" title="Bezpośredni link do Fałszywy e-mail &quot;Rekall Zapasów Amazon&quot; to oszustwo">​</a></h3>
+<p>Oszuści wysyłają fałszywe powiadomienia o wycofaniu produktu od Amazon, by wywołać panikę i skłonić do kliknięcia.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podcast-szara-strefa-internetu-z-ograniczeniem-wiekowym">Podcast: Szara strefa internetu z ograniczeniem wiekowym<a href="https://www.majdak.online/blog/news-2025-08-12#podcast-szara-strefa-internetu-z-ograniczeniem-wiekowym" class="hash-link" aria-label="Bezpośredni link do Podcast: Szara strefa internetu z ograniczeniem wiekowym" title="Bezpośredni link do Podcast: Szara strefa internetu z ograniczeniem wiekowym">​</a></h3>
+<p>W podcaście Lock and Code rozmowa o weryfikacji wieku online i "szarej sieci".</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="portal-online-ujawnił-dane-pojazdów-i-użytkowników">Portal online ujawnił dane pojazdów i użytkowników<a href="https://www.majdak.online/blog/news-2025-08-12#portal-online-ujawni%C5%82-dane-pojazd%C3%B3w-i-u%C5%BCytkownik%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Portal online ujawnił dane pojazdów i użytkowników" title="Bezpośredni link do Portal online ujawnił dane pojazdów i użytkowników">​</a></h3>
+<p>Luka w portalu dealerskim umożliwiła zdalne odblokowanie samochodów i wyciek danych klientów.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tydzień-w-bezpieczeństwie-410-sierpnia">Tydzień w bezpieczeństwie (4–10 sierpnia)<a href="https://www.majdak.online/blog/news-2025-08-12#tydzie%C5%84-w-bezpiecze%C5%84stwie-410-sierpnia" class="hash-link" aria-label="Bezpośredni link do Tydzień w bezpieczeństwie (4–10 sierpnia)" title="Bezpośredni link do Tydzień w bezpieczeństwie (4–10 sierpnia)">​</a></h3>
+<p>Lista tematów omówionych w tygodniu od 4 do 10 sierpnia 2025.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ransomware-charon-z-nową-taktyką-apt">Ransomware Charon z nową taktyką APT<a href="https://www.majdak.online/blog/news-2025-08-12#ransomware-charon-z-now%C4%85-taktyk%C4%85-apt" class="hash-link" aria-label="Bezpośredni link do Ransomware Charon z nową taktyką APT" title="Bezpośredni link do Ransomware Charon z nową taktyką APT">​</a></h3>
+<p>Pierwsze udokumentowane użycie nowego ransomware w kampanii przeciwko sektorowi publicznemu Bliskiego Wschodu i przemysłowi lotniczemu.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zabezpieczenie-logiki-biznesowej--nieoczywiste-zagrożenia">Zabezpieczenie logiki biznesowej — nieoczywiste zagrożenia<a href="https://www.majdak.online/blog/news-2025-08-12#zabezpieczenie-logiki-biznesowej--nieoczywiste-zagro%C5%BCenia" class="hash-link" aria-label="Bezpośredni link do Zabezpieczenie logiki biznesowej — nieoczywiste zagrożenia" title="Bezpośredni link do Zabezpieczenie logiki biznesowej — nieoczywiste zagrożenia">​</a></h3>
+<p>Ochrona logiki biznesowej to nie tylko wymóg techniczny, ale i biznesowy.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shinyhunters-i-scattered-spider-współpracują-przy-dużych-celach">ShinyHunters i Scattered Spider współpracują przy dużych celach<a href="https://www.majdak.online/blog/news-2025-08-12#shinyhunters-i-scattered-spider-wsp%C3%B3%C5%82pracuj%C4%85-przy-du%C5%BCych-celach" class="hash-link" aria-label="Bezpośredni link do ShinyHunters i Scattered Spider współpracują przy dużych celach" title="Bezpośredni link do ShinyHunters i Scattered Spider współpracują przy dużych celach">​</a></h3>
+<p>Dowody wskazują na współpracę dwóch niebezpiecznych grup cyberprzestępczych.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blacksuit-ransomware-uderzone-przez-służby-ścigania">BlackSuit ransomware uderzone przez służby ścigania<a href="https://www.majdak.online/blog/news-2025-08-12#blacksuit-ransomware-uderzone-przez-s%C5%82u%C5%BCby-%C5%9Bcigania" class="hash-link" aria-label="Bezpośredni link do BlackSuit ransomware uderzone przez służby ścigania" title="Bezpośredni link do BlackSuit ransomware uderzone przez służby ścigania">​</a></h3>
+<p>Amerykańskie i międzynarodowe agencje zniosły serwery i domeny oraz skonfiskowały ponad 1 mln dolarów powiązanych z operacjami ransomware BlackSuit (Royal).</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="przestępca-revil-rosja-planowała-atak-na-kaseya-w-2021">Przestępca REvil: Rosja planowała atak na Kaseya w 2021<a href="https://www.majdak.online/blog/news-2025-08-12#przest%C4%99pca-revil-rosja-planowa%C5%82a-atak-na-kaseya-w-2021" class="hash-link" aria-label="Bezpośredni link do Przestępca REvil: Rosja planowała atak na Kaseya w 2021" title="Bezpośredni link do Przestępca REvil: Rosja planowała atak na Kaseya w 2021">​</a></h3>
+<p>Yaroslav Vasinskyi twierdzi, że rosyjskie władze miały kluczowe znaczenie dla ataku ransomware na Kaseya.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="black-hat-noc-rozszerza-wdrożenie-ai">Black Hat NOC rozszerza wdrożenie AI<a href="https://www.majdak.online/blog/news-2025-08-12#black-hat-noc-rozszerza-wdro%C5%BCenie-ai" class="hash-link" aria-label="Bezpośredni link do Black Hat NOC rozszerza wdrożenie AI" title="Bezpośredni link do Black Hat NOC rozszerza wdrożenie AI">​</a></h3>
+<p>James Pope z Corelight opisuje rosnące zastosowanie AI w działaniach bezpieczeństwa podczas Black Hat.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ukryte-ryzyka-w-odzyskiwaniu-kont-bez-hasła">Ukryte ryzyka w odzyskiwaniu kont bez hasła<a href="https://www.majdak.online/blog/news-2025-08-12#ukryte-ryzyka-w-odzyskiwaniu-kont-bez-has%C5%82a" class="hash-link" aria-label="Bezpośredni link do Ukryte ryzyka w odzyskiwaniu kont bez hasła" title="Bezpośredni link do Ukryte ryzyka w odzyskiwaniu kont bez hasła">​</a></h3>
+<p>Odzyskiwanie kont bezhasłowych stwarza nowe zagrożenia przejęcia kont przez mniej wykwalifikowanych atakujących.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="echo-chamber-i-prompt-y-używane-do-jailbreakowania-gpt-5">Echo Chamber i prompt-y używane do jailbreakowania GPT-5<a href="https://www.majdak.online/blog/news-2025-08-12#echo-chamber-i-prompt-y-u%C5%BCywane-do-jailbreakowania-gpt-5" class="hash-link" aria-label="Bezpośredni link do Echo Chamber i prompt-y używane do jailbreakowania GPT-5" title="Bezpośredni link do Echo Chamber i prompt-y używane do jailbreakowania GPT-5">​</a></h3>
+<p>Naukowcy połączyli technikę jailbreakowania z opowiadaniem historii, by model generował instrukcje do niebezpiecznych działań.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="urządzenia-przemysłowe-zagrożone-przez-luki-w-protokołach-opc-ua">Urządzenia przemysłowe zagrożone przez luki w protokołach OPC UA<a href="https://www.majdak.online/blog/news-2025-08-12#urz%C4%85dzenia-przemys%C5%82owe-zagro%C5%BCone-przez-luki-w-protoko%C5%82ach-opc-ua" class="hash-link" aria-label="Bezpośredni link do Urządzenia przemysłowe zagrożone przez luki w protokołach OPC UA" title="Bezpośredni link do Urządzenia przemysłowe zagrożone przez luki w protokołach OPC UA">​</a></h3>
+<p>Protokół OPC UA, mimo złożonej kryptografii, jest podatny na różne luki.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bezpieczne-ai--nowy-kierunek-kariery-w-cyberbezpieczeństwie">Bezpieczne AI — nowy kierunek kariery w cyberbezpieczeństwie?<a href="https://www.majdak.online/blog/news-2025-08-12#bezpieczne-ai--nowy-kierunek-kariery-w-cyberbezpiecze%C5%84stwie" class="hash-link" aria-label="Bezpośredni link do Bezpieczne AI — nowy kierunek kariery w cyberbezpieczeństwie?" title="Bezpośredni link do Bezpieczne AI — nowy kierunek kariery w cyberbezpieczeństwie?">​</a></h3>
+<p>Zabezpieczenie systemów AI tworzy nowe ścieżki kariery i wyzwania dla organizacji.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="docker-hub-wciąż-hostuje-obrazy-linux-z-backdoorem-xz">Docker Hub wciąż hostuje obrazy Linux z backdoorem XZ<a href="https://www.majdak.online/blog/news-2025-08-12#docker-hub-wci%C4%85%C5%BC-hostuje-obrazy-linux-z-backdoorem-xz" class="hash-link" aria-label="Bezpośredni link do Docker Hub wciąż hostuje obrazy Linux z backdoorem XZ" title="Bezpośredni link do Docker Hub wciąż hostuje obrazy Linux z backdoorem XZ">​</a></h3>
+<p>Backdoor XZ-Utils nadal obecny w co najmniej 35 obrazach Linux na Docker Hub.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="microsoft-łata-107-luk-w-sierpniu-2025-w-tym-jedno-zero-day">Microsoft łata 107 luk w sierpniu 2025, w tym jedno zero-day<a href="https://www.majdak.online/blog/news-2025-08-12#microsoft-%C5%82ata-107-luk-w-sierpniu-2025-w-tym-jedno-zero-day" class="hash-link" aria-label="Bezpośredni link do Microsoft łata 107 luk w sierpniu 2025, w tym jedno zero-day" title="Bezpośredni link do Microsoft łata 107 luk w sierpniu 2025, w tym jedno zero-day">​</a></h3>
+<p>Sierpniowe aktualizacje obejmują 107 luk, w tym publicznie ujawnioną zero-day w Windows Kerberos.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aktualizacje-windows-11-kb5063878-i-kb5063875">Aktualizacje Windows 11 KB5063878 i KB5063875<a href="https://www.majdak.online/blog/news-2025-08-12#aktualizacje-windows-11-kb5063878-i-kb5063875" class="hash-link" aria-label="Bezpośredni link do Aktualizacje Windows 11 KB5063878 i KB5063875" title="Bezpośredni link do Aktualizacje Windows 11 KB5063878 i KB5063875">​</a></h3>
+<p>Kumulacyjne aktualizacje dla wersji 24H2 i 23H2 naprawiają podatności i błędy.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aktualizacja-windows-10-kb5063709">Aktualizacja Windows 10 KB5063709<a href="https://www.majdak.online/blog/news-2025-08-12#aktualizacja-windows-10-kb5063709" class="hash-link" aria-label="Bezpośredni link do Aktualizacja Windows 10 KB5063709" title="Bezpośredni link do Aktualizacja Windows 10 KB5063709">​</a></h3>
+<p>Kumulacyjne poprawki dla Windows 10 22H2 i 21H2, w tym naprawa błędu rejestracji do rozszerzonych aktualizacji zabezpieczeń.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rząd-usa-przejął-1-mln-dolarów-w-kryptowalutach-od-blacksuit">Rząd USA przejął 1 mln dolarów w kryptowalutach od BlackSuit<a href="https://www.majdak.online/blog/news-2025-08-12#rz%C4%85d-usa-przej%C4%85%C5%82-1-mln-dolar%C3%B3w-w-kryptowalutach-od-blacksuit" class="hash-link" aria-label="Bezpośredni link do Rząd USA przejął 1 mln dolarów w kryptowalutach od BlackSuit" title="Bezpośredni link do Rząd USA przejął 1 mln dolarów w kryptowalutach od BlackSuit">​</a></h3>
+<p>Departament Sprawiedliwości skonfiskował kryptowaluty i aktywa cyfrowe o wartości ponad 1 mln dolarów od grupy ransomware BlackSuit.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hypervisor-pkvm-od-android-z-certyfikacją-sesip-poziomu-5">Hypervisor pKVM od Android z certyfikacją SESIP poziomu 5<a href="https://www.majdak.online/blog/news-2025-08-12#hypervisor-pkvm-od-android-z-certyfikacj%C4%85-sesip-poziomu-5" class="hash-link" aria-label="Bezpośredni link do Hypervisor pKVM od Android z certyfikacją SESIP poziomu 5" title="Bezpośredni link do Hypervisor pKVM od Android z certyfikacją SESIP poziomu 5">​</a></h3>
+<p>Google ogłosił, że pKVM dla Android osiągnął najwyższy poziom pewności bezpieczeństwa dla IoT i mobilnych.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="curly-comrades-atakują-organy-rządowe-niestandardowym-malware">Curly COMrades atakują organy rządowe niestandardowym malware<a href="https://www.majdak.online/blog/news-2025-08-12#curly-comrades-atakuj%C4%85-organy-rz%C4%85dowe-niestandardowym-malware" class="hash-link" aria-label="Bezpośredni link do Curly COMrades atakują organy rządowe niestandardowym malware" title="Bezpośredni link do Curly COMrades atakują organy rządowe niestandardowym malware">​</a></h3>
+<p>Nowa grupa cyberzagrożeń używa backdoora zapewniającego trwały dostęp przez zaplanowaną operację.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ponad-3000-urządzeń-netscaler-niezałatanych-przeciwko-citrixbleed-2">Ponad 3000 urządzeń NetScaler niezałatanych przeciwko CitrixBleed 2<a href="https://www.majdak.online/blog/news-2025-08-12#ponad-3000-urz%C4%85dze%C5%84-netscaler-nieza%C5%82atanych-przeciwko-citrixbleed-2" class="hash-link" aria-label="Bezpośredni link do Ponad 3000 urządzeń NetScaler niezałatanych przeciwko CitrixBleed 2" title="Bezpośredni link do Ponad 3000 urządzeń NetScaler niezałatanych przeciwko CitrixBleed 2">​</a></h3>
+<p>Ponad 3300 urządzeń Citrix NetScaler nadal niezałatanych dwa miesiące po wydaniu łatek.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="275-mln-rekordów-pacjentów-wyciekło--jak-spełnić-wymogi-hipaa">275 mln rekordów pacjentów wyciekło — jak spełnić wymogi HIPAA<a href="https://www.majdak.online/blog/news-2025-08-12#275-mln-rekord%C3%B3w-pacjent%C3%B3w-wyciek%C5%82o--jak-spe%C5%82ni%C4%87-wymogi-hipaa" class="hash-link" aria-label="Bezpośredni link do 275 mln rekordów pacjentów wyciekło — jak spełnić wymogi HIPAA" title="Bezpośredni link do 275 mln rekordów pacjentów wyciekło — jak spełnić wymogi HIPAA">​</a></h3>
+<p>W 2024 roku najwięcej wycieków dotyczyło sektora zdrowotnego, głównie przez słabe lub skradzione hasła.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="windows-11-23h2-home-i-pro-kończą-wsparcie-w-listopadzie">Windows 11 23H2 Home i Pro kończą wsparcie w listopadzie<a href="https://www.majdak.online/blog/news-2025-08-12#windows-11-23h2-home-i-pro-ko%C5%84cz%C4%85-wsparcie-w-listopadzie" class="hash-link" aria-label="Bezpośredni link do Windows 11 23H2 Home i Pro kończą wsparcie w listopadzie" title="Bezpośredni link do Windows 11 23H2 Home i Pro kończą wsparcie w listopadzie">​</a></h3>
+<p>Microsoft ogłosił koniec wsparcia dla tych wersji za trzy miesiące.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="manpower-ujawnia-wyciek-danych-145-000-osób">Manpower ujawnia wyciek danych 145 000 osób<a href="https://www.majdak.online/blog/news-2025-08-12#manpower-ujawnia-wyciek-danych-145-000-os%C3%B3b" class="hash-link" aria-label="Bezpośredni link do Manpower ujawnia wyciek danych 145 000 osób" title="Bezpośredni link do Manpower ujawnia wyciek danych 145 000 osób">​</a></h3>
+<p>Jedna z największych firm staffingowych informuje o wycieku danych niemal 145 000 osób po włamaniu w grudniu 2024.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="atak-cybernetyczny-w-saint-paul-powiązany-z-interlock">Atak cybernetyczny w Saint Paul powiązany z Interlock<a href="https://www.majdak.online/blog/news-2025-08-12#atak-cybernetyczny-w-saint-paul-powi%C4%85zany-z-interlock" class="hash-link" aria-label="Bezpośredni link do Atak cybernetyczny w Saint Paul powiązany z Interlock" title="Bezpośredni link do Atak cybernetyczny w Saint Paul powiązany z Interlock">​</a></h3>
+<p>Grupa Interlock odpowiedzialna za cyberatak, który zakłócił działanie systemów miasta Saint Paul.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hakerzy-kimsuky-ujawnieni-po-wycieku-danych">Hakerzy Kimsuky ujawnieni po wycieku danych<a href="https://www.majdak.online/blog/news-2025-08-12#hakerzy-kimsuky-ujawnieni-po-wycieku-danych" class="hash-link" aria-label="Bezpośredni link do Hakerzy Kimsuky ujawnieni po wycieku danych" title="Bezpośredni link do Hakerzy Kimsuky ujawnieni po wycieku danych">​</a></h3>
+<p>Grupa Kimsuky z Korei Północnej doznała wycieku danych po ataku dwóch hackerów, którzy upublicznili skradzione informacje.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Ataki" term="Ataki"/>
+        <category label="Exploits" term="Exploits"/>
+        <category label="Privacy" term="Privacy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google padający ofiarą kolejnego skandalu wycieku danych i nowej fali cyberataków]]></title>
         <id>https://www.majdak.online/blog/news-2025-08-07</id>
@@ -1758,67 +1972,6 @@ HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PS
 <p>Nie mogę się doczekać kolejnych spotkań i jeszcze większej dawki cyberwiedzy! 💡</p>
 <p>Będzie się działo!</p>
 <p>#cybersecurity #SekurakAcademy #CPE #rozwójosobisty #ITsecurity #sekurak</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jak oszuści podszywają się pod kurierów i gangi AI – zobacz ich metody!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-07-06</id>
-        <link href="https://www.majdak.online/blog/news-2025-07-06"/>
-        <updated>2025-07-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ostatnie tygodnie pokazują, jak szybko oszuści reagują na sytuacje kryzysowe – np. awarię systemów DHL. Wykorzystują zamieszanie, wysyłając fałszywe SMS-y i e-maile podszywające się pod znane firmy kurierskie. To tylko jeden z wielu przykładów oszustw, które w 2025 roku przybierają na sile.]]></summary>
-        <content type="html"><![CDATA[<p>Ostatnie tygodnie pokazują, jak szybko oszuści reagują na sytuacje kryzysowe – np. awarię systemów DHL. Wykorzystują zamieszanie, wysyłając fałszywe SMS-y i e-maile podszywające się pod znane firmy kurierskie. To tylko jeden z wielu przykładów oszustw, które w 2025 roku przybierają na sile.</p>
-<p>statnie tygodnie pokazują, jak szybko oszuści reagują na sytuacje kryzysowe – np. awarię systemów DHL. Wykorzystują zamieszanie, wysyłając fałszywe SMS-y i e-maile podszywające się pod znane firmy kurierskie. To tylko jeden z wielu przykładów oszustw, które w 2025 roku przybierają na sile.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="przykłady-najczęstszych-oszustw-i-realne-treści-wiadomości">Przykłady najczęstszych oszustw i realne treści wiadomości<a href="https://www.majdak.online/blog/news-2025-07-06#przyk%C5%82ady-najcz%C4%99stszych-oszustw-i-realne-tre%C5%9Bci-wiadomo%C5%9Bci" class="hash-link" aria-label="Bezpośredni link do Przykłady najczęstszych oszustw i realne treści wiadomości" title="Bezpośredni link do Przykłady najczęstszych oszustw i realne treści wiadomości">​</a></h3>
-<ul>
-<li><strong>Fałszywe SMS-y od kurierów (DHL, InPost, Poczta Polska):</strong>
-<blockquote>
-<p>Twoja paczka została wstrzymana z powodu braku numeru ulicy na paczce. Zaktualizuj informacje o wysyłce: [link]</p>
-</blockquote>
-</li>
-</ul>
-<blockquote>
-<p>Twoja paczka została wstrzymana z tytułu niedopłaty. Ureguluj brakującą opłatę, aby wznowić dostawę: [link]</p>
-</blockquote>
-<blockquote>
-<p>Twoja paczka została zatrzymana przez służby celne. Aby ją odebrać, kliknij w poniższy link i postępuj zgodnie z instrukcjami: [link]</p>
-</blockquote>
-<ul>
-<li><strong>E-mail podszywający się pod DHL Express:</strong>
-<blockquote>
-<p>Temat: "Wymagane działanie"
-Paczka wysłana za pośrednictwem DHL Express oczekuje na podjęcie działań. Prosimy o zapłatę 2,99 USD, aby paczka została niezwłocznie wysłana do Twojego domu. Kliknij 'Wyślij moją paczkę', aby dokonać płatności.</p>
-</blockquote>
-</li>
-<li><strong>SMS z prośbą o instalację aplikacji:</strong>
-<blockquote>
-<p>Z powodu awarii naszej aplikacji prosimy o instalację nowej wersji, aby śledzić przesyłkę: [link]</p>
-</blockquote>
-</li>
-<li><strong>Podrabiane sklepy internetowe:</strong>
-Kuszą bardzo niskimi cenami. Po opłaceniu zamówienia towar nie dociera, a dane karty mogą zostać wykorzystane.</li>
-<li><strong>Oszustwa na Booking.com i fałszywe rezerwacje:</strong>
-Przejęte konta właścicieli obiektów lub nieistniejące apartamenty. Oszuści żądają dodatkowych wpłat.</li>
-<li><strong>Fałszywe inwestycje i deepfake:</strong>
-Reklamy z wizerunkiem znanych osób zachęcające do inwestycji. Po wpłacie kontakt się urywa.</li>
-<li><strong>Phishing bankowy:</strong>
-Wiadomości z prośbą o potwierdzenie danych lub instalację aplikacji, które wyłudzają loginy i hasła.</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="jak-się-chronić">Jak się chronić?<a href="https://www.majdak.online/blog/news-2025-07-06#jak-si%C4%99-chroni%C4%87" class="hash-link" aria-label="Bezpośredni link do Jak się chronić?" title="Bezpośredni link do Jak się chronić?">​</a></h3>
-<ul>
-<li>Nie klikaj w podejrzane linki.</li>
-<li>Sprawdzaj adresy stron i nadawców.</li>
-<li>W razie wątpliwości skontaktuj się z firmą oficjalnie.</li>
-<li>Nie instaluj aplikacji spoza oficjalnych sklepów.</li>
-<li>W przypadku podejrzenia oszustwa, natychmiast skontaktuj się z bankiem i zgłoś sprawę do CERT Polska.</li>
-</ul>
-<p><strong>Pamiętaj:</strong> Oszuści zawsze wykorzystują zamieszanie i aktualne wydarzenia. Zachowaj czujność, zwłaszcza gdy ktoś prosi o pieniądze lub dane przez SMS lub e-mail!</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
