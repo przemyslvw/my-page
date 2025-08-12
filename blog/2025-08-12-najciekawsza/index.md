@@ -1,6 +1,6 @@
 ---
 slug: news-2025-08-12
-title: "Google pokazuje, jak hackers z North Korea wykradli tajne dane w mega włamaniach"
+title: "Google ujawnia, jak północnokoreańscy hakerzy wykradli tajne dane podczas spektakularnych włamań"
 authors: [przemyslvw]
 tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: "2025-08-12"
