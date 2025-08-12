@@ -6,242 +6,389 @@ tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: "2025-08-12"
 ---
 
-Ostatni tydzień przyniósł szokujące informacje o szeroko zakrojonych cyberatakach i lukach w bezpieczeństwie na globalną skalę. Zaawansowane grupy hackerskie, takie jak Kimsuky z Korei Północnej czy rosyjskie RomCom, wykorzystują nowoczesne narzędzia i exploity, m.in. w WinRAR czy Fortinet VPN, aby siać chaos i wykradać miliardy danych. W międzyczasie lawinowo rośnie liczba ataków na infrastrukturę krytyczną, a państwa i przedsiębiorstwa próbują się bronić przed rosnącym zagrożeniem ransomware, takiego jak BlackSuit czy Charon. Niemal każdy system, od automotoryzacji po systemy chmurowe, jest teraz zagrożony lukami i złośliwym oprogramowaniem, co dowodzą liczne wycieki i ataki z ostatnich dni. Eksperci ostrzegają, że zaawansowana digitalizacja przynosi nowe wyzwania i wymaga jeszcze bardziej wzmocnionych zabezpieczeń, zwłaszcza w erze rosnącej roli sztucznej inteligencji i zautomatyzowanych cyberoperacji.
+Ostatni tydzień przyniósł szokujące informacje o szeroko zakrojonych cyberatakach i lukach w bezpieczeństwie na globalną skalę. Zaawansowane grupy hackerskie, takie jak **Kimsuky** z Korei Północnej czy rosyjskie **RomCom**, wykorzystują nowoczesne narzędzia i exploity, m.in. w **WinRAR** czy **Fortinet VPN**, aby siać chaos i wykradać miliardy danych.
+
+
+W międzyczasie lawinowo rośnie liczba ataków na infrastrukturę krytyczną, a państwa i przedsiębiorstwa próbują się bronić przed rosnącym zagrożeniem ransomware, takiego jak **BlackSuit** czy **Charon**. Niemal każdy system — od automotoryzacji po systemy chmurowe — jest teraz zagrożony lukami i złośliwym oprogramowaniem, co potwierdzają liczne wycieki i ataki z ostatnich dni.
 
 <!-- truncate -->
+
+Eksperci ostrzegają, że zaawansowana digitalizacja przynosi nowe wyzwania i wymaga jeszcze bardziej wzmocnionych zabezpieczeń, zwłaszcza w erze rosnącej roli sztucznej inteligencji i zautomatyzowanych cyberoperacji.
 
 Hakerzy złamali zabezpieczenia i ujawnili dużą operację szpiegowską Korei Północnej. Dwóch hackerów włamało się do komputera północnokoreańskiego hakera rządowego i wyciekło jego zawartość, oferując rzadki wgląd w tajne działania tego kraju.
 
 ---
 
-Rząd USA zajął 1 milion dolarów od rosyjskiej grupy ransomware. Międzynarodowa koordynacja organów ścigania celowała w infrastrukturę grupy odpowiedzialnej za strainy ransomware Royal i BlackSuit, rzekomo wyłudzającej od ofiar 370 milionów dolarów od 2022 roku.
+### Rząd USA przejmuje 1 mln dolarów od rosyjskiej grupy ransomware
+
+Międzynarodowa koordynacja organów ścigania doprowadziła do zajęcia infrastruktury grupy odpowiedzialnej za ransomware Royal i BlackSuit, która od 2022 roku wyłudziła od ofiar około 370 mln dolarów.
 
 ---
 
-Electronic Arts zablokowało ponad 300 000 prób oszustw po uruchomieniu bety Battlefield 6. Zaraz po premierze pierwszoosobowej strzelanki Battlefield 6, gracze masowo próbowali oszukiwać, co zmusiło EA do podjęcia działań.
+### Electronic Arts blokuje 300 000 prób oszustw w Battlefield 6
+
+Po uruchomieniu bety Battlefield 6, EA zablokowało ponad 300 000 prób oszustw, reagując na masowe próby cheatowania przez graczy.
 
 ---
 
-Luki bezpieczeństwa w internetowym portalu producenta samochodów pozwoliły jednemu hackerowi na zdalne odblokowanie samochodów z dowolnego miejsca. Badacz bezpieczeństwa Eaton Zveare poinformował TechCrunch, że odkryte przez niego w centralnym portalu dealerów auta luki umożliwiły szeroki dostęp do danych klientów i pojazdów. Z tego dostępu mógł zdalnie przejąć konto klienta i odblokować jego samochód, oraz więcej.
+### Luka w portalu producenta samochodów umożliwiła zdalne odblokowanie pojazdów
+
+Badacz bezpieczeństwa Eaton Zveare ujawnił, że luki w portalu dealerskim pozwalały na szeroki dostęp do danych klientów i pojazdów, a nawet zdalne przejęcie konta i odblokowanie samochodu.
 
 ---
 
-Wysoka powaga luki (0-day) WinRAR była wykorzystywana od tygodni przez dwie grupy. Exploity pozwalały na trwałe złośliwe wstawienie backdoora, gdy ofiary otwierały pułapkowane archiwa.
+### WinRAR: poważna luka (0-day) wykorzystywana przez dwie grupy
+
+Przez tygodnie exploity pozwalały na trwałe wstawienie backdoora, gdy ofiary otwierały zainfekowane archiwa.
 
 ---
 
-Czy można z kamer Lenovo zrobić BadUSB? Prawie... Badacze z firmy Eclypsium zaprezentowali na DEF CON 33 nowy wektor ataku, polegający na wykorzystaniu podłączonych urządzeń, w tym kamer USB, do zdalnych ataków poprzez zmianę firmware i przekształcenie ich w urządzenia realizujące atak BadUSB, bez konieczności odłączania ich od komputera i konieczności dostarczania sprzętu. TLDR: Dla...<a rel="nofollow" href="https://sekurak.pl/czy-mozna-z-kamer-lenovo-zrobic-usb-rubber-ducky-no-prawie/">Czy można z kamer Lenovo zrobić BadUSB? No prawie…</a> pochodzi z serwisu <a rel="nofollow" href="https://sekurak.pl">Sekurak</a>.
+### Czy z kamer Lenovo można zrobić BadUSB? Prawie...
+
+Badacze z Eclypsium na DEF CON 33 pokazali nowy wektor ataku: zdalna zmiana firmware kamer USB, by działały jak BadUSB, bez fizycznego dostępu do urządzenia.  
+[Więcej na Sekurak](https://sekurak.pl/czy-mozna-z-kamer-lenovo-zrobic-usb-rubber-ducky-no-prawie/)
 
 ---
 
-Ekipa sekuraka ponownie w trasie! Cześć, obecni i przyszli "bezpiecznicy"! Konkretna ekipa sekuraka znów rusza w Polskę. Sekurak Hacking Party tym razem odwiedzi Warszawę. Zapomnijcie o nudnych pokazach slajdów — to krótkie, intensywne imprezy, podczas których etyczni hackerzy z sekuraka pokażą, jak przechytrzyć cyberprzestępców. Będzie też okazja do rozmów i wspólnego świętowania! Wszystko to...<a rel="nofollow" href="https://sekurak.pl/ekipa-sekuraka-rusza-ponownie-w-trase/">Ekipa sekuraka rusza ponownie w trasę!</a> z serwisu <a rel="nofollow" href="https://sekurak.pl">Sekurak</a>.
+### Sekurak Hacking Party wraca do Warszawy
+
+Ekipa sekuraka ponownie rusza w trasę po Polsce, prezentując praktyczne pokazy łamania zabezpieczeń i etycznego hackingu.  
+[Więcej na Sekurak](https://sekurak.pl/ekipa-sekuraka-rusza-ponownie-w-trase/)
 
 ---
 
-Wiele podatności w HashiCorp Vault. HashiCorp Vault to popularne, otwartoźródłowe narzędzie do zarządzania poufnymi danymi, takimi jak klucze API, certyfikaty, hasła czy tokeny. Z racji przechowywanych danych, Vault jest cennym celem dla włamywaczy — uzyskanie dostępu do Vault pozwala na dostęp do wszystkich usług, w których są przechowywane sekrety. TLDR: Badacze z firmy Cyata...<a rel="nofollow" href="https://sekurak.pl/wiele-podatnosci-w-hashicorp-vault/">Wiele podatności w HashiCorp Vault</a> pochodzi z serwisu <a rel="nofollow" href="https://sekurak.pl">Sekurak</a>.
+### Wiele podatności w HashiCorp Vault
+
+Popularne narzędzie do zarządzania poufnymi danymi stało się celem ataków — uzyskanie dostępu do Vault umożliwia przejęcie wszystkich przechowywanych sekretów.  
+[Więcej na Sekurak](https://sekurak.pl/wiele-podatnosci-w-hashicorp-vault/)
 
 ---
 
-Podatność w WinRAR dla Windows wykorzystywana w atakach. Badacze z firmy ESET informują, że podatność oznaczona symbolem CVE-2025-8088 jest aktywnie wykorzystywana przez powiązaną z Rosją grupę RomCom. Opisywana podatność została załatana w wersji WinRAR 7.13 i dotyczy wyłącznie systemów Windows. TLDR: Podatność wykorzystuje ADS systemu NTFS (ang. Alternate Data Streams), de facto Tomek Turba wskazywał ten problem na poprzednim Mega Sekurak Hacking...<a rel="nofollow" href="https://sekurak.pl/podatnosc-w-winrar-dla-windows-wykorzystywana-w-atakach/">Podatność w WinRAR dla Windows wykorzystywana w atakach</a> pochodzi z serwisu <a rel="nofollow" href="https://sekurak.pl">Sekurak</a>.
+### Podatność CVE-2025-8088 w WinRAR aktywnie wykorzystywana
+
+Badacze ESET informują o aktywnym wykorzystywaniu luki przez grupę RomCom. Luka została załatana w WinRAR 7.13 i dotyczy tylko Windows.  
+[Więcej na Sekurak](https://sekurak.pl/podatnosc-w-winrar-dla-windows-wykorzystywana-w-atakach/)
 
 ---
 
-Researchers Spot XZ Utils Backdoor in Dozens of Docker Hub Images, Fueling Supply Chain Risks. Nowe badania ujawniły, że obrazy Docker na Docker Hub zawierają słynnego backdoora XZ Utils, jeszcze ponad rok po odkryciu tego incydentu. Co gorsza, inne obrazy były budowane na bazie tych zainfekowanych obrazów podstawowych, co jeszcze bardziej rozprzestrzeniało infekcję w sposób transpozycyjny, powiedział Binarly Research w raporcie udostępnionym dla The Hacker News.
+### XZ Utils Backdoor wciąż obecny w obrazach Docker Hub
+
+Nowe badania wykazały, że obrazy Docker na Docker Hub nadal zawierają backdoora XZ Utils, ponad rok po jego odkryciu.
 
 ---
 
-Fortinet SSL VPNs zaatakowane przez globalną falę brute-force przed atakami na FortiManager. Cyberbezpieczeństwo ostrzegają o "znacznym wzroście" ruchu brute-force skierowanego na urządzenia Fortinet SSL VPN. Koordynowana aktywność, według firmy wywiadowczej GreyNoise, zaobserwowano 3 sierpnia 2025 roku z udziałem ponad 780 unikalnych adresów IP. W ciągu ostatnich 24 godzin odnotowano aż 56 unikalnych adresów IP, wszystkie z nich są...<br><br> ---
+### Fortinet SSL VPNs pod globalną falą brute-force
 
-Grupy cyberprzestępcze ShinyHunters i Scattered Spider łączą siły w szantażowych atakach na firmy. Trwająca kampania wymuszeń danych, skierowana do klientów Salesforce, może wkrótce przenieść się na instytucje finansowe i dostawców usług technologicznych, według nowych ustaleń. "Najnowsza fala ataków przypisywanych ShinyHunters pokazuje drastyczny zwrot w taktyce, wykraczający poza wcześniejsze kradzieże danych i bazy...<br><br> ---
-
-Nowy APT Curly COMrades używa przechwytywania NGEN COM w atakach na Gruzję i Mołdawię. Nieznany dotąd gracz cyberzagrożeń, nazwany Curly COMrades, został zaobserwowany celujący w instytucje w Gruzji i Mołdawii jako część kampanii szpiegowskiej mającej na celu zapewnienie długoterminowego dostępu do sieci ofiar. "Powtarzali się, próbując wyodrębnić bazę danych NTDS z kontrolerów domen — głównego repozytorium haseł użytkowników i danych uwierzytelniających w sieci Windows,"<br><br> ---
-
-Ostateczna bitwa: Przeglądarki enterprise kontra rozszerzenia bezpiecznych przeglądarek. Większość narzędzi bezpieczeństwa nie widzi, co dzieje się wewnątrz przeglądarki, a to właśnie tam toczy się większość pracy i ryzyka. Liderzy bezpieczeństwa, decydując, jak zamknąć tę lukę, często stoją przed wyborem: wdrożyć dedykowaną Przeglądarkę Enterprise czy dołączyć warstwę kontroli klasy enterprise do przeglądarek, których już używają i którym ufają. Ostateczna bitwa: Przeglądarki enterprise kontra rozszerzenia przeglądarek enterprise.
+Odnotowano znaczny wzrost ataków brute-force na urządzenia Fortinet SSL VPN, z udziałem setek unikalnych adresów IP.
 
 ---
 
-Dutch NCSC potwierdza aktywne wykorzystywanie CVE-2025-6543 w Citrix NetScaler w sektorach krytycznych. Narodowe Centrum Cyberbezpieczeństwa Holandii ostrzega przed cyberatakami wykorzystującymi niedawną krytyczną lukę bezpieczeństwa w produktach Citrix NetScaler ADC, które miały na celu naruszenia organizacji w kraju. NCSC-NL stwierdziło, że odkryto wykorzystanie CVE-2025-6543, skierowane na kilka kluczowych instytucji w Holandii, a śledztwa trwają.
+### ShinyHunters i Scattered Spider łączą siły w atakach ransomware
+
+Nowa fala wymuszeń danych skierowana do klientów Salesforce może wkrótce objąć instytucje finansowe i dostawców usług technologicznych.
 
 ---
 
-Nowe luki w szyfrowaniu komunikacji TETRA ujawniają zagrożenia dla komunikacji policyjnej. Cyberbadacze wykryli świeży zestaw problemów bezpieczeństwa w protokole komunikacyjnym Terrestrial Trunked Radio (TETRA), w tym w jego własnościowym mechanizmie end-to-end encryption (E2EE), które narażają system na ataki powtórkowe (replay) i brute-force, a nawet umożliwiają deszyfrowanie zaszyfrowanego ruchu. Szczegóły luk, nazwanych 2TETRA:2BURST, zostały przedstawione na konferencji Black Hat USA.
+### Nowy APT Curly COMrades atakuje Gruzję i Mołdawię
+
+Nieznana wcześniej grupa cyberzagrożeń wykorzystuje przechwytywanie NGEN COM do długoterminowego dostępu do sieci ofiar.
 
 ---
 
-Naukowcy zauważyli wzrost exploitu RCE w Erlang/OTP SSH, z 70% ataków skierowanych na sieci OT. Złośliwi aktorzy od początku maja 2025 r. wykorzystują zatwierdzoną wcześniej krytyczną lukę bezpieczeństwa w Erlang/Open Telecom Platform (OTP) SSH, CVE-2025-32433 (wskaźnik CVSS: 10.0). Około 70% detekcji pochodzi z zapór sieciowych chroniących sieci operacyjne (OT). Luka pozwala na brak uwierzytelniania, co może być wykorzystane w atakach.
+### Przeglądarki enterprise kontra rozszerzenia bezpieczeństwa
+
+Liderzy bezpieczeństwa muszą wybrać między dedykowaną przeglądarką enterprise a rozszerzeniami klasy enterprise dla już używanych przeglądarek.
 
 ---
 
-Tygodniowe podsumowanie: Badanie ataku BadCam, luka zero-day w WinRAR, zabójca EDR, luki w NVIDIA, ataki ransomware i więcej. W tym tygodniu cyberprzestępcy działają szybko, a firmy muszą być czujne. Znaleźli nowe słabości w popularnym oprogramowaniu i wymyślają sprytne metody omijania zabezpieczeń. Jedna niezałatana luka może umożliwić atakującym wejście do systemu, kradzież danych lub przejęcie kontroli nad systemami. Czas ucieka — jeśli zabezpieczenia nie będą regularnie aktualizowane, może to prowadzić do poważnych szkód.
+### Holenderski NCSC: aktywne ataki na Citrix NetScaler (CVE-2025-6543)
+
+NCSC-NL potwierdza wykorzystanie krytycznej luki w Citrix NetScaler ADC w sektorach krytycznych w Holandii.
 
 ---
 
-6 lekcji: Skupienie się na bezpieczeństwie tam, gdzie wartość biznesowa. Ewolucja zarządzania ekspozycją. Większość zespołów zabezpieczeń dobrze wie, co jest krytyczne w ich środowisku. Trudniej jest zidentyfikować, co jest kluczowe z biznesowego punktu widzenia. To są zasoby wspierające procesy bez których firma nie może funkcjonować. Nie zawsze są najbardziej widoczne czy eksponowane. To te powiązane z przychodami, operacjami i dostawami. Jeśli jedno z nich zniknie, konsekwencje będą poważne.
+### Nowe luki w szyfrowaniu TETRA zagrażają komunikacji policyjnej
+
+Badacze ujawnili problemy w protokole TETRA, umożliwiające ataki replay, brute-force i deszyfrowanie ruchu.
 
 ---
 
-WinRAR podtrzymuje aktywne wykorzystywanie luki zero-day – zaktualizuj natychmiast do najnowszej wersji. Twórcy narzędzia archiwizacyjnego WinRAR wydali aktualizację, aby naprawić aktywnie wykorzystywaną lukę zero-day. Zgłoszona jako CVE-2025-8088 (wskaźnik CVSS: 8.8), dotyczy ona problemu z traversalem ścieżek, co pozwala na wykonanie dowolnego kodu na wersji Windows narzędzia przez utworzenie złośliwych archiwów. "Podczas wyciągania pliku,...<a rel="nofollow" href="https://sekurak.pl/winrar-zero-day-aktualizacja/">Zaktualizuj WinRAR natychmiast</a>.
+### Wzrost exploitu RCE w Erlang/OTP SSH
+
+Krytyczna luka CVE-2025-32433 wykorzystywana głównie przeciwko sieciom OT, pozwala na ataki bez uwierzytelniania.
 
 ---
 
-WinRAR w atakach szpiegowskich na wysokie wartości cele. Według badaczy ESET, luka zero-day w WinRAR była wykorzystywana w kampaniach spearphishing, które skierowane były na firmy z sektora finansowego, produkcyjnego, obronności i logistyki w Europie i Kanadzie.
+### Tygodniowe podsumowanie: BadCam, WinRAR 0-day, luki w NVIDIA, ransomware
+
+Cyberprzestępcy szybko wykorzystują nowe luki — regularne aktualizacje zabezpieczeń są kluczowe.
 
 ---
 
-Zaktualizuj WinRAR: RomCom i inne grupy wykorzystują lukę zero-day. Badacze ESET odkryli, że luka zero-day w WinRAR jest wykorzystywana w naturze, podszywając się pod dokumenty aplikacji o pracę; zaatakowane archiwa wykorzystują lukę traversal, by przejąć kontrolę nad celami.
+### 6 lekcji: bezpieczeństwo tam, gdzie wartość biznesowa
+
+Najważniejsze zasoby to te, które wspierają kluczowe procesy biznesowe — ich utrata może mieć poważne konsekwencje.
 
 ---
 
-Wewnątrz rynku dostępu Dark Web: Jak hackerzy sprzedają klucze do sieci korporacyjnych. Analiza Rapid7 wskazuje, że na forach dark web istnieje prężny rynek, na którym elitarni hackerzy sprzedają dostęp do sieci firmowych, przekształcając cyberprzestępczość w zorganizowany biznes. <a href="https://www.securityweek.com/inside-the-dark-webs-access-economy-how-hackers-sell-the-keys-to-enterprise-networks/">Więcej na SecurityWeek</a>.
+### WinRAR: aktywne wykorzystywanie luki zero-day — aktualizuj natychmiast
+
+CVE-2025-8088 pozwala na wykonanie dowolnego kodu przez złośliwe archiwa.  
+[Zaktualizuj WinRAR](https://sekurak.pl/winrar-zero-day-aktualizacja/)
 
 ---
 
-1Kosmos zdobywa 57 mln dolarów na platformę weryfikacji tożsamości i autoryzacji. Firma osiągnęła łączne fundusze w wysokości 72 mln dolarów w serii B. <a href="https://www.securityweek.com/1kosmos-raises-57-million-for-identity-verification-and-authentication-platform/">Czytaj więcej na SecurityWeek</a>.
+### WinRAR w atakach szpiegowskich na firmy w Europie i Kanadzie
+
+Luka zero-day wykorzystywana w kampaniach spearphishing na firmy z sektora finansowego, produkcyjnego, obronności i logistyki.
 
 ---
 
-Teraz na żywo: CodeSecCon – gdzie rozgrywa się kolejny rozdział bezpieczeństwa oprogramowania. Od 12 do 13 sierpnia, wirtualne wydarzenie skupia deweloperów i specjalistów ds. cyberbezpieczeństwa, aby zrewolucjonizować tworzenie, zabezpieczanie i utrzymanie aplikacji. <a href="https://www.securityweek.com/codeseccon-is-today-where-software-securitys-next-chapter-unfolds-virtual-event/">Zobacz szczegóły na SecurityWeek</a>.
+### RomCom i inne grupy wykorzystują lukę zero-day w WinRAR
+
+Ataki spearphishing z użyciem złośliwych archiwów podszywających się pod dokumenty aplikacyjne.
 
 ---
 
-SAP łata krytyczną lukę w S/4HANA. W ramach sierpniowego Patch Tuesday, SAP wdrożył 15 nowych notatek bezpieczeństwa, w tym dla krytycznych podatności. <a href="https://www.securityweek.com/sap-patches-critical-s-4hana-vulnerability/">Więcej na SecurityWeek</a>.
+### Rynek dostępu Dark Web: jak hackerzy sprzedają klucze do sieci
+
+Elitarni hackerzy sprzedają dostęp do sieci firmowych na forach dark web, przekształcając cyberprzestępczość w zorganizowany biznes.  
+[Więcej na SecurityWeek](https://www.securityweek.com/inside-the-dark-webs-access-economy-how-hackers-sell-the-keys-to-enterprise-networks/)
 
 ---
 
-Sieci OT są szeroko wykorzystywane w exploicie luki w Erlang/OTP. Od początku maja 2025 r. luka CVE-2025-32433 była aktywnie wykorzystywana, tuż po ujawnieniu. <a href="https://www.securityweek.com/ot-networks-targeted-in-widespread-exploitation-of-erlang-otp-vulnerability/">Czytaj więcej</a>.
+### 1Kosmos zdobywa 57 mln dolarów na platformę weryfikacji tożsamości
+
+Firma zebrała łącznie 72 mln dolarów w serii B.  
+[Więcej na SecurityWeek](https://www.securityweek.com/1kosmos-raises-57-million-for-identity-verification-and-authentication-platform/)
 
 ---
 
-Chrome osiąga rekordowe wygrane: naukowiec dostaje 250 000 dolarów za exploit sandboxa. Najwyższa nagroda w programie bug bounty Google trafiła na konto za skuteczne obejście sandboxa w Chrome z zdalnym wykonaniem kodu. <a href="https://www.securityweek.com/chrome-sandbox-escape-earns-researcher-250000/">Więcej szczegółów</a>.
+### Teraz na żywo: CodeSecCon — bezpieczeństwo oprogramowania
+
+Wirtualne wydarzenie skupia deweloperów i specjalistów ds. cyberbezpieczeństwa.  
+[Zobacz szczegóły](https://www.securityweek.com/codeseccon-is-today-where-software-securitys-next-chapter-unfolds-virtual-event/)
 
 ---
 
-Zarządzanie zaufaniem i ryzykiem w AI: przewidywanie halucynacji przed ich wystąpieniem. Nowe badania fizyczne sugerują, że duże modele językowe mogą przewidzieć, kiedy ich odpowiedzi mogą pójść złym tropem — co może zrewolucjonizować zaufanie, ryzyko i bezpieczeństwo systemów AI. <a href="https://www.securityweek.com/managing-the-trust-risk-equation-in-ai-predicting-hallucinations-before-they-strike/">Więcej na SecurityWeek</a>.
+### SAP łata krytyczną lukę w S/4HANA
+
+W sierpniowym Patch Tuesday SAP wdrożył 15 nowych notatek bezpieczeństwa.  
+[Więcej na SecurityWeek](https://www.securityweek.com/sap-patches-critical-s-4hana-vulnerability/)
 
 ---
 
-Wyciek danych z kredytowej spółdzielni Connex. Hakerzy zaatakowali jedno z największych stowarzyszeń kredytowych w Connecticut, prawdopodobnie wykradając pliki zawierające dane osobowe. <a href="https://www.securityweek.com/connex-credit-union-data-breach-impacts-172000-people/">Więcej na SecurityWeek</a>.
+### Sieci OT szeroko wykorzystywane w exploicie Erlang/OTP
+
+Luka CVE-2025-32433 aktywnie wykorzystywana od maja 2025 r.  
+[Czytaj więcej](https://www.securityweek.com/ot-networks-targeted-in-widespread-exploitation-of-erlang-otp-vulnerability/)
 
 ---
 
-Luki w systemachdealerskich dużego producenta samochodów umożliwiły hakowanie samochodów i kradzież danych osobowych. Badacz pokazał, jak platforma używana przez ponad 1000 dealerów w USA mogła zostać użyta do włamań do pojazdów. <a href="https://www.securityweek.com/flaws-in-major-automakers-dealership-systems-allowed-car-hacking-personal-data-theft/">Czytaj więcej</a>.
+### Chrome: rekordowa nagroda 250 000 dolarów za exploit sandboxa
+
+Najwyższa nagroda Google za skuteczne obejście sandboxa w Chrome.  
+[Więcej szczegółów](https://www.securityweek.com/chrome-sandbox-escape-earns-researcher-250000/)
 
 ---
 
-Rosyjscy hackerzy wykorzystali lukę zero-day w WinRAR w atakach na Europę i Kanadę. WinRAR naprawił CVE-2025-8088, lukę wykorzystywaną przez grupę RomCom do ataków na firmy finansowe, obronne, produkcyjne i logistyczne. <a href="https://www.securityweek.com/russian-hackers-exploited-winrar-zero-day-in-attacks-on-europe-canada/">Więcej szczegółów</a>.
+### Zarządzanie zaufaniem i ryzykiem w AI
+
+Nowe badania sugerują, że duże modele językowe mogą przewidzieć własne halucynacje, co może poprawić bezpieczeństwo AI.  
+[Więcej na SecurityWeek](https://www.securityweek.com/managing-the-trust-risk-equation-in-ai-predicting-hallucinations-before-they-strike/)
 
 ---
 
-Dwie grupy przestępcze wykorzystały tę samą lukę w WinRAR. Zidentyfikowano dwie grupy, które nadużyły tę lukę, która już została naprawiona. Kto następny? 
+### Wyciek danych z Connex Credit Union
+
+Hakerzy zaatakowali jedno z największych stowarzyszeń kredytowych w Connecticut, wykradając dane osobowe.  
+[Więcej na SecurityWeek](https://www.securityweek.com/connex-credit-union-data-breach-impacts-172000-people/)
 
 ---
 
-Oszuści podszywający się pod urząd skarbowy wyłudzają od scamerów. Julie-Anne Kearns, która pomaga ofiarom oszustw online, sama padła ofiarą oszustwa podatkowego.
+### Luka w systemach dealerskich umożliwiła hakowanie samochodów
+
+Platforma używana przez ponad 1000 dealerów w USA pozwalała na włamania do pojazdów i kradzież danych.  
+[Czytaj więcej](https://www.securityweek.com/flaws-in-major-automakers-dealership-systems-allowed-car-hacking-personal-data-theft/)
 
 ---
 
-Ten fałszywy e-mail "Rekall Zapasów Amazon" to prawdopodobnie oszustwo. Oszuści wysyłają fałszywe powiadomienia o wycofaniu produktu od Amazon, aby wywołać panikę i skłonić do kliknięcia.
+### Rosyjscy hackerzy wykorzystali zero-day w WinRAR w atakach na Europę i Kanadę
+
+WinRAR naprawił CVE-2025-8088, wykorzystywaną przez grupę RomCom do ataków na firmy.  
+[Więcej szczegółów](https://www.securityweek.com/russian-hackers-exploited-winrar-zero-day-in-attacks-on-europe-canada/)
 
 ---
 
-"Najgorsza rzecz" dla praw online: Szara strefa internetu z ograniczeniem wiekowym (Lock and Code S06E16). W tym tygodniu w podcaście Lock and Code rozmawiamy z dyrektorem ds. aktywności EFF Jasonem Kelleyem o weryfikacji wieku online i "szarej sieci".
+### Dwie grupy przestępcze nadużyły tej samej luki w WinRAR
+
+Zidentyfikowano dwie grupy, które wykorzystały już załataną lukę.
 
 ---
 
-Portal online ujawnił dane pojazdów i użytkowników, umożliwiając zdalne odblokowanie samochodów. Firma motoryzacyjna została uznana za podatną na wyciek danych pojazdów i informacji klientów poprzez ich portal dealerski.
+### Oszuści podszywający się pod urząd skarbowy wyłudzają od scamerów
+
+Julie-Anne Kearns, pomagająca ofiarom oszustw online, sama padła ofiarą oszustwa podatkowego.
 
 ---
 
-Tydzień w bezpieczeństwie (4–10 sierpnia). Lista tematów, które omówiliśmy w tygodniu od 4 do 10 sierpnia 2025.
+### Fałszywy e-mail "Rekall Zapasów Amazon" to oszustwo
+
+Oszuści wysyłają fałszywe powiadomienia o wycofaniu produktu od Amazon, by wywołać panikę i skłonić do kliknięcia.
 
 ---
 
-Ransomware Charon pojawia się z taktyką w stylu APT. Pierwsze udokumentowane użycie nowego złośliwego oprogramowania w kampanii przeciwko sektora publicznego Bliskiego Wschodu i przemysłowi lotniczemu może być powiązane z chińskim państwowym aktorem Earth Baxia.
+### Podcast: Szara strefa internetu z ograniczeniem wiekowym
+
+W podcaście Lock and Code rozmowa o weryfikacji wieku online i "szarej sieci".
 
 ---
 
-Jak wyprzedzić nieoczywiste zagrożenie. Zabezpieczenie logiki biznesowej to nie tylko wymóg techniczny — to konieczność biznesowa.
+### Portal online ujawnił dane pojazdów i użytkowników
+
+Luka w portalu dealerskim umożliwiła zdalne odblokowanie samochodów i wyciek danych klientów.
 
 ---
 
-Taktyki ShinyHunters teraz odzwierciedlają metodę Scattered Spider. Istnieją rosnące dowody na to, że dwie z najbardziej niebezpiecznych grup cyberprzestępczych współpracują przy dużych celach.
+### Tydzień w bezpieczeństwie (4–10 sierpnia)
+
+Lista tematów omówionych w tygodniu od 4 do 10 sierpnia 2025.
 
 ---
 
-BlackSuit ransomware uległ uderzeniu infrastrukturalnemu od służb ścigania. Grupa złożona z amerykańskich agencji i międzynarodowych partnerów zniosła serwery i domeny oraz skonfiskowała ponad 1 milion dolarów powiązanych z operacjami ransomware BlackSuit (Royal), która od lat stanowiła poważne zagrożenie dla kluczowej infrastruktury.
+### Ransomware Charon z nową taktyką APT
+
+Pierwsze udokumentowane użycie nowego ransomware w kampanii przeciwko sektorowi publicznemu Bliskiego Wschodu i przemysłowi lotniczemu.
 
 ---
 
-Przestępca REvil obwinia Rosję o planowanie ataku na Kaseya w 2021 roku. Łotr REvil Yaroslav Vasinskyi, skazany w zeszłym roku za udział w ataku łańcuchowym ransomware Kaseya 2021, twierdzi, że rosyjskie władze miały kluczowe znaczenie dla wykonania ataku.
+### Zabezpieczenie logiki biznesowej — nieoczywiste zagrożenia
+
+Ochrona logiki biznesowej to nie tylko wymóg techniczny, ale i biznesowy.
 
 ---
 
-NOC Black Hat rozszerza wdrożenie AI w działaniach bezpieczeństwa. James Pope z firmy Corelight opisał wewnętrzny obraz tego, jak podczas Black Hat Network Operations Center rośnie zastosowanie AI, co przynosi nowe wyzwania i trendy.
+### ShinyHunters i Scattered Spider współpracują przy dużych celach
+
+Dowody wskazują na współpracę dwóch niebezpiecznych grup cyberprzestępczych.
 
 ---
 
-Specjaliści ostrzegają przed "Ukrytymi ryzykami" w odzyskiwaniu kont bez hasła. Autoryzacja bezhasłowa staje się coraz bardziej popularna, ale odzyskiwanie kont stwarza niebezpieczeństwo przejęcia kont. Jest to szczególnie ryzykowne, bo nawet mniej wykwalifikowani atakujący mogą odnieść sukces.
+### BlackSuit ransomware uderzone przez służby ścigania
+
+Amerykańskie i międzynarodowe agencje zniosły serwery i domeny oraz skonfiskowały ponad 1 mln dolarów powiązanych z operacjami ransomware BlackSuit (Royal).
 
 ---
 
-Echo Chamber i prompt-y używane do jailbreakowania GPT-5 w 24 godziny. Naukowcy połączyli technikę jailbreakowania z opowiadaniem historii, aby poprowadzić model językowy do tworzenia instrukcji na temat tworzenia koktajli Mołotowa, bez użycia niewłaściwego języka.
+### Przestępca REvil: Rosja planowała atak na Kaseya w 2021
+
+Yaroslav Vasinskyi twierdzi, że rosyjskie władze miały kluczowe znaczenie dla ataku ransomware na Kaseya.
 
 ---
 
-Urządzenia przemysłowe i fabryki zagrożone przez luki w szyfrowaniu protokołów przemysłowych. Protokół OPC UA, powszechnie używany w przemysłowym środowisku, mimo złożonej kryptografii wydaje się być podatny na różne rodzaje luk.
+### Black Hat NOC rozszerza wdrożenie AI
+
+James Pope z Corelight opisuje rosnące zastosowanie AI w działaniach bezpieczeństwa podczas Black Hat.
 
 ---
 
-Czy bezpieczne AI będzie najbardziej pożądanym kierunkiem kariery w cyberbezpieczeństwie? Zabezpieczenie systemów AI stanowi nową granicę cyberbezpieczeństwa, tworząc specjalistyczne ścieżki kariery, gdy organizacje stawiają czoła nowym lukom, regulacjom i wyzwaniom międzyfunkcyjnym.
+### Ukryte ryzyka w odzyskiwaniu kont bez hasła
+
+Odzyskiwanie kont bezhasłowych stwarza nowe zagrożenia przejęcia kont przez mniej wykwalifikowanych atakujących.
 
 ---
 
-Docker Hub wciąż hostuje kilkadziesiąt obrazów Linux z backdoorem XZ. Backdoor XZ-Utils, odkryty w marcu 2024, nadal jest obecny w co najmniej 35 obrazach Linux na Docker Hub, co potencjalnie zagraża użytkownikom i organizacjom.
+### Echo Chamber i prompt-y używane do jailbreakowania GPT-5
+
+Naukowcy połączyli technikę jailbreakowania z opowiadaniem historii, by model generował instrukcje do niebezpiecznych działań.
 
 ---
 
-Microsoft poprawia w sierpniu 2025 roku 107 luk, z jednym zero-day. Dziś Microsoft wydał aktualizacje bezpieczeństwa na sierpniowym Patch Tuesday, obejmujące 107 luk, w tym jedną publicznie ujawnioną zero-day w Windows Kerberos.
+### Urządzenia przemysłowe zagrożone przez luki w protokołach OPC UA
+
+Protokół OPC UA, mimo złożonej kryptografii, jest podatny na różne luki.
 
 ---
 
-Aktualizacje Windows 11 KB5063878 i KB5063875. Microsoft opublikował kumulacyjne aktualizacje dla wersji 24H2 i 23H2, aby naprawić podatności i problemy.
+### Bezpieczne AI — nowy kierunek kariery w cyberbezpieczeństwie?
+
+Zabezpieczenie systemów AI tworzy nowe ścieżki kariery i wyzwania dla organizacji.
 
 ---
 
-Aktualizacja Windows 10 KB5063709. Microsoft wydał kumulacyjne poprawki dla Windows 10 22H2 i 21H2, zawierające siedem poprawek, w tym naprawę błędu uniemożliwiającego rejestrację do rozszerzonych aktualizacji zabezpieczeń.
+### Docker Hub wciąż hostuje obrazy Linux z backdoorem XZ
+
+Backdoor XZ-Utils nadal obecny w co najmniej 35 obrazach Linux na Docker Hub.
 
 ---
 
-Rząd USA przejął 1 milion dolarów w kryptowalutach od grupy BlackSuit. Departament Sprawiedliwości skonfiskował kryptowaluty i aktywa cyfrowe o wartości 1 091 453 dolarów w czasie konfiskaty, 9 stycznia 2024 roku, od grupy ransomware BlackSuit.
+### Microsoft łata 107 luk w sierpniu 2025, w tym jedno zero-day
+
+Sierpniowe aktualizacje obejmują 107 luk, w tym publicznie ujawnioną zero-day w Windows Kerberos.
 
 ---
 
-Hypervisor pKVM od Android uzyskał certyfikację SESIP poziomu 5. Google ogłosił, że chroniony kernelowy hypervisor pKVM dla Android osiągnął certyfikację SESIP poziomu 5, najwyższy poziom pewności bezpieczeństwa dla platform IoT i mobilnych.
+### Aktualizacje Windows 11 KB5063878 i KB5063875
+
+Kumulacyjne aktualizacje dla wersji 24H2 i 23H2 naprawiają podatności i błędy.
 
 ---
 
-Cyberspie Curly COMrades atakują organy rządowe niestandardowym malware. Nowa grupa cyberzagrożeń używała nowego backdoora, zapewniającego trwały dostęp poprzez pozornie nieaktywną zaplanowaną operację.
+### Aktualizacja Windows 10 KB5063709
+
+Kumulacyjne poprawki dla Windows 10 22H2 i 21H2, w tym naprawa błędu rejestracji do rozszerzonych aktualizacji zabezpieczeń.
 
 ---
 
-Ponad 3000 urządzeń NetScaler niezałatanych przeciwko lukom CitrixBleed 2. Ponad 3300 urządzeń Citrix NetScaler nadal nie zostało załatanych po wyjściu krytycznej luki, która pozwala atakującym ominąć uwierzytelnianie, przejmując sesje użytkowników, prawie dwa miesiące od wydania łatek.
+### Rząd USA przejął 1 mln dolarów w kryptowalutach od BlackSuit
+
+Departament Sprawiedliwości skonfiskował kryptowaluty i aktywa cyfrowe o wartości ponad 1 mln dolarów od grupy ransomware BlackSuit.
 
 ---
 
-275 milionów rekordów pacjentów wyciekło – jak spełnić wymogi menadżerów haseł HIPAA. W 2024 roku najwięcej wycieków odnotowano w sektorze zdrowotnym — ponad 275 milionów danych pacjentów zostało ujawnione, głównie przez słabe lub skradzione hasła. Sprawdź, jak samodzielny menadżer haseł Passwork pomaga placówkom sprostać wymogom HIPAA, chronić ePHI i zapewnić ciągłość opieki medycznej. Wypróbuj za darmo na miesiąc.
+### Hypervisor pKVM od Android z certyfikacją SESIP poziomu 5
+
+Google ogłosił, że pKVM dla Android osiągnął najwyższy poziom pewności bezpieczeństwa dla IoT i mobilnych.
 
 ---
 
-Windows 11 23H2 Home i Pro kończą wsparcie w listopadzie. Microsoft ogłosił, że systemy z wersją Home i Pro Windows 11 23H2 przestaną otrzymywać aktualizacje za trzy miesiące.
+### Curly COMrades atakują organy rządowe niestandardowym malware
+
+Nowa grupa cyberzagrożeń używa backdoora zapewniającego trwały dostęp przez zaplanowaną operację.
 
 ---
 
-Manpower ujawnia wyciek danych dotyczący prawie 145 000 osób. Jedna z największych firm staffingowych na świecie powiadamia, że niemal 145 000 osób miało swoje dane skradzione w wyniku włamania do systemów w grudniu 2024 roku.
+### Ponad 3000 urządzeń NetScaler niezałatanych przeciwko CitrixBleed 2
+
+Ponad 3300 urządzeń Citrix NetScaler nadal niezałatanych dwa miesiące po wydaniu łatek.
 
 ---
 
-Atak cybernetyczny w Saint Paul powiązany z grupą ransomware Interlock. Burmistrz stolicy Minnesoty, Saint Paul, potwierdził, że grupa Interlock jest odpowiedzialna za cyberatak, który zakłócił działanie wielu systemów i usług miasta w lipcu.
+### 275 mln rekordów pacjentów wyciekło — jak spełnić wymogi HIPAA
+
+W 2024 roku najwięcej wycieków dotyczyło sektora zdrowotnego, głównie przez słabe lub skradzione hasła.
 
 ---
 
-Hakerzy Korei Północnej z grupy Kimsuky ujawnieni po rzekomym wycieku danych. Rządowe grupy cyberzagrożeń związane z Koreą Północną, znane jako Kimsuky, ponoć doznały wycieku danych po tym, jak dwóch hackerów – którzy siebie określają jako przeciwność Kimsukyu – ukradło dane grupy i upubliczniło je online.
+### Windows 11 23H2 Home i Pro kończą wsparcie w listopadzie
+
+Microsoft ogłosił koniec wsparcia dla tych wersji za trzy miesiące.
+
+---
+
+### Manpower ujawnia wyciek danych 145 000 osób
+
+Jedna z największych firm staffingowych informuje o wycieku danych niemal 145 000 osób po włamaniu w grudniu 2024.
+
+---
+
+### Atak cybernetyczny w Saint Paul powiązany z Interlock
+
+Grupa Interlock odpowiedzialna za cyberatak, który zakłócił działanie systemów miasta Saint Paul.
+
+---
+
+### Hakerzy Kimsuky ujawnieni po wycieku danych
+
+Grupa Kimsuky z Korei Północnej doznała wycieku danych po ataku dwóch hackerów, którzy upublicznili skradzione informacje.
+
