@@ -10,106 +10,203 @@ Najnowszy wyciek danych w pracy HR-gianta Workday pokazuje, jak poważne zagroż
 
 <!-- truncate -->
 
-HR gigant Workday twierdzi, że hakerzy ukradli dane osobowe w ostatnim naruszeniu bezpieczeństwa
-Firma specjalizująca się w technologiach HR oznajmiła, że nie ma dowodów na nieautoryzowany dostęp do systemów klientów, ale nie wyklucza naruszenia, które mogło wpłynąć na dane osobowe klientów.
+## Workday: Naruszenie danych osobowych
+
+HR gigant Workday twierdzi, że hakerzy ukradli dane osobowe w ostatnim naruszeniu bezpieczeństwa. Firma specjalizująca się w technologiach HR oznajmiła, że nie ma dowodów na nieautoryzowany dostęp do systemów klientów, ale nie wyklucza naruszenia, które mogło wpłynąć na dane osobowe klientów.
+
 ---
-AI i wycieki danych – nowe unikatowe szkolenie od sekuraka!
-Czy tego chcemy, czy nie, od AI nie da się już uciec. Sztuczna inteligencja zagościła w naszym świecie na dobre, kusząc możliwością szybszego wykonywania zadań służbowych lub wręcz ich automatyzacji. Niestety, często zapominamy o tym że AI, wykorzystywana przez osoby nieświadome zagrożeń, może przyczynić się do wycieku danych osobowych lub…
-Artykuł sekurak.pl/ai-i-wycieki-danych- nowe unikatowe szkolenie od sekuraka! pochodzi z serwisu Sekurak.
+
+## AI i wycieki danych – nowe szkolenie od Sekuraka
+
+Czy tego chcemy, czy nie, od AI nie da się już uciec. Sztuczna inteligencja zagościła w naszym świecie na dobre, kusząc możliwością szybszego wykonywania zadań służbowych lub wręcz ich automatyzacji. Niestety, często zapominamy, że AI wykorzystywana przez osoby nieświadome zagrożeń może przyczynić się do wycieku danych osobowych lub innych incydentów.
+
+Źródło: [AI i wycieki danych – nowe unikatowe szkolenie od sekuraka!](https://sekurak.pl/ai-i-wycieki-danych-nowe-unikatowe-szkolenie-od-sekuraka/)
+
 ---
-Kolejny problem Fortineta – podatne FortiSIEM pod ostrzałem
-Mamy wrażenie, że nie tylko nas zaczynają nużyć problemy produktów bezpieczeństwa, zwłaszcza od kilku firm… . Tym razem legendarny badacz SinSinology prezentuje krytyczną podatność (9.8 w skali CVSS w biuletynie bezpieczeństwa producenta) w produkcie dedykowanym dużym organizacjom – FortiSIEM. TLDR: Sprawa nie jest błaha, ponieważ jak informuje Fortinet luka ta…
-Artykuł sekurak.pl/kolejny-problem-fortineta-podatne-fortisiem-pod-ostrzalem/ pochodzi z serwisu Sekurak.
+
+## Fortinet: Krytyczna podatność w FortiSIEM
+
+Legendarny badacz SinSinology prezentuje krytyczną podatność (9.8 w skali CVSS) w produkcie FortiSIEM dedykowanym dużym organizacjom. Sprawa nie jest błaha – luka ta może być poważnym zagrożeniem dla bezpieczeństwa.
+
+Źródło: [Kolejny problem Fortineta – podatne FortiSIEM pod ostrzałem](https://sekurak.pl/kolejny-problem-fortineta-podatne-fortisiem-pod-ostrzalem/)
+
 ---
-Amerykańskie trackery w przesyłkach z chipami AI. Tak wygląda technologiczna zimna wojna
-Nie tak dawno temu kontrola eksportu technologii sprowadzała się do sprawdzania dokumentów na granicy i mało spektakularnych biurowych audytów firm eksportowych. Cóż, te czasy definitywnie się skończyły. Reuters donosi o praktykach, które bardziej przypominają filmy szpiegowskie niż rutynową pracę urzędników: amerykańskie służby potajemnie umieszczają urządzenia śledzące w przesyłkach chipów AI,---
-Artykuł sekurak.pl/amerykanskie-trackery-w-przesylkach-z-chipami-ai-tak-wyglada-technologiczna-zimna-wojna/ pochodzi z serwisu Sekurak.
+
+## Amerykańskie trackery w przesyłkach z chipami AI
+
+Reuters donosi o praktykach, które bardziej przypominają filmy szpiegowskie niż rutynową pracę urzędników: amerykańskie służby potajemnie umieszczają urządzenia śledzące w przesyłkach chipów AI.
+
+Źródło: [Amerykańskie trackery w przesyłkach z chipami AI](https://sekurak.pl/amerykanskie-trackery-w-przesyłkach-z-chipami-ai-tak-wyglada-technologiczna-zimna-wojna/)
+
 ---
-Noodlophile Malware Campaign Expands Global Reach with Copyright Phishing Lures
-Threat actors behind the Noodlophile malware are leveraging spear-phishing emails and updated delivery mechanisms to deploy the information stealer in attacks aimed at enterprises located in the U.S., Europe, Baltic countries, and the Asia-Pacific (APAC) region.
-The Noodlophile campaign, active for over a year, now leverages advanced spear-phishing emails posing as copyright infringement
+
+## Kampania malware Noodlophile: spear-phishing i fałszywe zgłoszenia copyright
+
+Atakujący stojący za malware Noodlophile wykorzystują spear-phishing oraz zaktualizowane mechanizmy dostarczania, aby infekować firmy na całym świecie, podszywając się pod zgłoszenia naruszenia praw autorskich.
+
 ---
-Microsoft Windows Vulnerability Exploited to Deploy PipeMagic RansomExx Malware
-Cybersecurity researchers have lifted the lid on the threat actors' exploitation of a now-patched security flaw in Microsoft Windows to deploy the PipeMagic malware in RansomExx ransomware attacks.
-The attacks involve the exploitation of CVE-2025-29824, a privilege escalation vulnerability impacting the Windows Common Log File System (CLFS) that was addressed by Microsoft in April 2025,
+
+## Luka w Windows wykorzystana do ataków ransomware PipeMagic
+
+Badacze bezpieczeństwa ujawnili, że luka CVE-2025-29824 w Windows CLFS została wykorzystana do wdrożenia malware PipeMagic w atakach ransomware RansomExx. Microsoft załatał podatność w kwietniu 2025.
+
 ---
-⚡ Weekly Recap: NFC Fraud, Curly COMrades, N-able Exploits, Docker Backdoors & More
-Power doesn’t just disappear in one big breach. It slips away in the small stuff—a patch that’s missed, a setting that’s wrong, a system no one is watching. Security usually doesn’t fail all at once; it breaks slowly, then suddenly. Staying safe isn’t about knowing everything—it’s about acting fast and clear before problems pile up. Clarity keeps control. Hesitation creates risk.
-Here are this
+
+## Tygodniowy przegląd: NFC Fraud, N-able Exploits, Docker Backdoors i więcej
+
+Bezpieczeństwo rzadko zawodzi nagle – zwykle to efekt wielu drobnych zaniedbań. Kluczowe jest szybkie i jasne działanie, zanim problemy się nawarstwią.
+
 ---
-Malicious PyPI and npm Packages Discovered Exploiting Dependencies in Supply Chain Attacks
-Cybersecurity researchers have discovered a malicious package in the Python Package Index (PyPI) repository that introduces malicious behavior through a dependency that allows it to establish persistence and achieve code execution.
-The package, named termncolor, realizes its nefarious functionality through a dependency package called colorinal by means of a multi-stage malware operation, Zscaler
+
+## Złośliwe pakiety PyPI i npm w atakach łańcuchowych
+
+Badacze odkryli złośliwy pakiet `termncolor` w repozytorium PyPI, który poprzez zależność `colorinal` umożliwia trwałość i wykonanie złośliwego kodu.
+
 ---
-Wazuh for Regulatory Compliance
-Organizations handling various forms of sensitive data or personally identifiable information (PII) require adherence to regulatory compliance standards and frameworks. These compliance standards also apply to organizations operating in regulated sectors such as healthcare, finance, government contracting, or education. Some of these standards and frameworks include, but are not limited to:
+
+## Wazuh a zgodność regulacyjna
+
+Organizacje przetwarzające dane wrażliwe muszą spełniać wymagania zgodności z różnymi standardami i ramami prawnymi, szczególnie w sektorach regulowanych.
+
 ---
-Naukowcy opisali nową metodę ataku na 5G, nazwanej Sni5Gect, która pozwala atakującym na podsłuchiwanie ruchu i zakłócanie działania sieci.
-Post na stronie securityweek.com/novel-5g-attack-bypasses-need-for-malicious-base-station/ pojawił się jako pierwszy na SecurityWeek.
+
+## Nowa metoda ataku na 5G: Sni5Gect
+
+Naukowcy opisali nową metodę ataku na sieci 5G, pozwalającą na podsłuchiwanie ruchu i zakłócanie działania sieci bez konieczności użycia złośliwej stacji bazowej.
+
+Źródło: [Novel 5G Attack Bypasses Need for Malicious Base Station](https://securityweek.com/novel-5g-attack-bypasses-need-for-malicious-base-station/)
+
 ---
-Hundreds of N-able N-central Instances Affected by Exploited Vulnerabilities
-Więcej niż 870 instancji N-able N-central nie zostało zaktualizowanych przeciwko CVE-2025-8875 i CVE-2025-8876, dwóm wykorzystywanym lukom.
-Post na stronie securityweek.com/hundreds-of-n-able-n-central-instances-affected-by-exploited-vulnerabilities/ pojawił się jako pierwszy na SecurityWeek.
+
+## Ponad 870 instancji N-able N-central podatnych na ataki
+
+Więcej niż 870 instancji N-able N-central nie zostało zaktualizowanych przeciwko dwóm wykorzystywanym lukom: CVE-2025-8875 i CVE-2025-8876.
+
+Źródło: [Hundreds of N-able N-central Instances Affected by Exploited Vulnerabilities](https://securityweek.com/hundreds-of-n-able-n-central-instances-affected-by-exploited-vulnerabilities/)
+
 ---
-Workday Data Breach Bears Signs of Widespread Salesforce Hack
-Wygląda na to, że Workday dołączył do listy dużych firm, których instancje Salesforce zostały zaatakowane przez hakerów.
-Post na stronie securityweek.com/workday-data-breach-bears-signs-of-widespread-salesforce-hack/ pojawił się jako pierwszy na SecurityWeek.
+
+## Workday: Naruszenie danych powiązane z atakami na Salesforce
+
+Workday dołączył do listy firm, których instancje Salesforce zostały zaatakowane przez hakerów.
+
+Źródło: [Workday Data Breach Bears Signs of Widespread Salesforce Hack](https://securityweek.com/workday-data-breach-bears-signs-of-widespread-salesforce-hack/)
+
 ---
-US Seizes $2.8 Million From Zeppelin Ransomware Operator
-Stany Zjednoczone oskarżyły operatora ransomware Zeppelin, Ianisa Antropenko, i skonfiskowały ponad 2,8 miliona dolarów w kryptowalutach z jego portfela.
-Post na stronie securityweek.com/us-seizes-2-8-million-from-zeppelin-ransomware-operator/ pojawił się jako pierwszy na SecurityWeek.
+
+## USA konfiskują 2,8 mln dolarów od operatora Zeppelin ransomware
+
+Stany Zjednoczone skonfiskowały ponad 2,8 mln dolarów w kryptowalutach od operatora ransomware Zeppelin, Ianisa Antropenko.
+
+Źródło: [US Seizes $2.8 Million From Zeppelin Ransomware Operator](https://securityweek.com/us-seizes-2-8-million-from-zeppelin-ransomware-operator/)
+
 ---
-Web Hosting Firms in Taiwan Attacked by Chinese APT for Access to High-Value Targets
-Chińska grupa APT UAT-7237 od dawna atakuje infrastrukturę internetową na Tajwanie, dążąc do długoterminowego dostępu do wartościowych podmiotów.
-Post na stronie securityweek.com/web-hosting-firms-in-taiwan-attacked-by-chinese-apt-for-access-to-high-value-targets/ pojawił się jako pierwszy na SecurityWeek.
+
+## Ataki chińskiej grupy APT na firmy hostingowe w Tajwanie
+
+Chińska grupa APT UAT-7237 atakuje infrastrukturę internetową na Tajwanie, dążąc do długoterminowego dostępu do wartościowych podmiotów.
+
+Źródło: [Web Hosting Firms in Taiwan Attacked by Chinese APT](https://securityweek.com/web-hosting-firms-in-taiwan-attacked-by-chinese-apt-for-access-to-high-value-targets/)
+
 ---
-Instagram Map: What is it and how do I control it?
-Meta wprowadziła Instagram Map. Jak możesz kontrolować, co inni mogą zobaczyć na temat Twojej lokalizacji? Wyjaśniamy.
+
+## Instagram Map: Jak kontrolować widoczność lokalizacji?
+
+Meta wprowadziła Instagram Map. Wyjaśniamy, jak kontrolować, co inni mogą zobaczyć na temat Twojej lokalizacji.
+
 ---
-Tydzień w bezpieczeństwie (11–17 sierpnia 2025)
-Lista tematów, które poruszaliśmy w tygodniu od 11 do 17 sierpnia 2025.
+
+## Tydzień w bezpieczeństwie (11–17 sierpnia 2025)
+
+Lista tematów poruszanych w tygodniu od 11 do 17 sierpnia 2025.
+
 ---
-Noodlophile Stealer Hides Behind Bogus Copyright Complaints
-Noodlophile kieruje ataki w języku spear-phishing, używając fałszywych zgłoszeń o naruszeniu praw autorskich jako haczyków.
+
+## Noodlophile Stealer: spear-phishing z fałszywymi zgłoszeniami copyright
+
+Noodlophile kieruje ataki spear-phishingowe, używając fałszywych zgłoszeń o naruszeniu praw autorskich jako haczyków.
+
 ---
-Workday Breach Likely Linked to ShinyHunters Salesforce Attacks
-Firma HR podała, że hakerzy przeprowadzili socjotechniczny atak na jej trzeciorzędny system CRM, lecz nie uzyskali dostępu do informacji o klientach; wyciekły jedynie dostępne publicznie dane kontaktowe.
+
+## Workday: Atak powiązany z ShinyHunters i Salesforce
+
+Workday informuje o ataku socjotechnicznym na trzeciorzędny system CRM – wyciekły jedynie publiczne dane kontaktowe.
+
 ---
-How Evolving RATs Are Redefining Enterprise Security Threats
-Coraz bardziej zaawansowane RAT-y (złośliwe oprogramowanie zdalnego dostępu) redefiniują zagrożenia dla bezpieczeństwa przedsiębiorstw. Lepsze i bardziej zrozumiałe metody wykrywania mogą znacznie poprawić skuteczność obrony.
+
+## Ewolucja RAT redefiniuje zagrożenia dla przedsiębiorstw
+
+Zaawansowane RAT-y (Remote Access Trojans) zmieniają krajobraz zagrożeń. Lepsze metody wykrywania mogą poprawić skuteczność obrony.
+
 ---
-Internet-wide Vulnerability Enables Giant DDoS Attacks
-W dużej części dzisiejszych stron internetowych tkwi luka, która umożliwiła największe od 2023 roku ataki DDoS na sieć globalną.
+
+## Luka umożliwiająca gigantyczne ataki DDoS
+
+Wielka luka w wielu stronach internetowych umożliwiła największe od 2023 roku ataki DDoS.
+
 ---
-Defending Against Cloud Threats Across Multicloud Environments
-Większość firm korzysta z wielu chmur, ale mają trudności z monitorowaniem i zabezpieczaniem różnych środowisk, co stwarza okazję dla atakujących.
+
+## Obrona przed zagrożeniami w środowiskach multicloud
+
+Większość firm korzysta z wielu chmur, ale mają trudności z monitorowaniem i zabezpieczaniem różnych środowisk.
+
 ---
-Wycieknie kod źródłowy malware ERMAC na Androida, co ujawnia infrastrukturę bankowego trojana
-Kod źródłowy wersji 3 złośliwego trojana bankowego ERMAC na Androida został wycieknięty online, ujawniając szczegóły funkcjonowania platformy malware-as-a-service i infrastruktury operatora.
+
+## Wycieka kod źródłowy malware ERMAC na Androida
+
+Kod źródłowy trojana bankowego ERMAC na Androida został wycieknięty online, ujawniając szczegóły działania platformy malware-as-a-service.
+
 ---
-UK skazuje „seryjnego hakera” za 3000 stron na 20 miesięcy więzienia
-26-letni mężczyzna w Wielkiej Brytanii, który twierdził, że włamał się do tysięcy stron internetowych, został skazany na 20 miesięcy więzienia po przyznaniu się do winy w tym roku.
+
+## Brytyjski „seryjny haker” skazany na 20 miesięcy więzienia
+
+26-letni mężczyzna w Wielkiej Brytanii, który włamał się do tysięcy stron, został skazany na 20 miesięcy więzienia.
+
 ---
-Ponad 800 serwerów N-able pozostaje niezałatanych przeciwko krytycznym błędom
-Ponad 800 serwerów N-able N-central wciąż nie zostało zaktualizowanych przeciwko dwóm poważnym lukom bezpieczeństwa, które były aktywnie wykorzystywane w ostatnim tygodniu.
+
+## Ponad 800 serwerów N-able nadal podatnych
+
+Ponad 800 serwerów N-able N-central wciąż nie zostało zaktualizowanych przeciwko dwóm poważnym lukom bezpieczeństwa.
+
 ---
-Mozilla ostrzega, że Niemcy mogą wkrótce zakazać blokowania reklam
-Niedawne orzeczenie niemieckiego Federalnego Trybunału (BGH) wznowiło spór prawny o to, czy przeglądarkowe adblockery naruszają prawa autorskie, co może doprowadzić do zakazu narzędzi w kraju.
+
+## Mozilla ostrzega przed możliwym zakazem adblockerów w Niemczech
+
+Orzeczenie niemieckiego Federalnego Trybunału może doprowadzić do zakazu narzędzi blokujących reklamy.
+
 ---
-Microsoft: Ostatnie aktualizacje Windows mogą nie zainstalować się przez WUSA
-Microsoft złagodził znany problem powodujący niepowodzenie instalacji aktualizacji Windows z udziału sieciowego przy użyciu Windows Update Standalone Installer (WUSA).
+
+## Problemy z instalacją aktualizacji Windows przez WUSA
+
+Microsoft złagodził problem powodujący niepowodzenie instalacji aktualizacji Windows przy użyciu Windows Update Standalone Installer (WUSA).
+
 ---
-HR gigant Workday ujawnia naruszenie danych po ataku na Salesforce
-Firmy HR, takie jak Workday, ujawniły wyciek danych po tym, jak cyberprzestępcy włamali się do trzeciorzędnego systemu CRM w ramach socjotechnicznego ataku.
+
+## Workday ujawnia naruszenie danych po ataku na Salesforce
+
+Workday ujawnił wyciek danych po włamaniu do trzeciorzędnego systemu CRM w ramach ataku socjotechnicznego.
+
 ---
-OpenAI wypuszcza cieplejszą osobowość GPT-5, ale tylko dla modelu bez myślenia
-OpenAI potwierdziło, że zaczyna wdrażać nową, cieplejszą osobowość dla GPT-5, ale pamiętaj, że nie będzie ona tak ciepła jak GPT-4o, który nadal jest dostępny jako model dziedzictwa.
+
+## OpenAI: cieplejsza osobowość GPT-5
+
+OpenAI wdraża nową, cieplejszą osobowość dla GPT-5, ale nie będzie ona tak ciepła jak GPT-4o.
+
 ---
-Google dodaje funkcję „Projects” do Gemini w celu prowadzenia zadań badawczych
-Gemini od Google testuje nową funkcję nazwaną „Projects”. Będzie ona podobna do funkcji „Project” od OpenAI dla ChatGPT.
+
+## Google: funkcja „Projects” w Gemini
+
+Google testuje nową funkcję „Projects” w Gemini, podobną do tej znanej z ChatGPT.
+
 ---
-USA konfiskują 2,8 miliona dolarów w kryptowalutach od operatora Zeppelin ransomware
-Departament Sprawiedliwości USA ogłosił konfiskatę ponad 2,8 miliona dolarów w kryptowalutach od rzekomego operatora ransomware Zeppelin, Ianisa Aleksandrovicha Antropenko.
+
+## USA konfiskują 2,8 mln dolarów od operatora Zeppelin ransomware
+
+Departament Sprawiedliwości USA ogłosił konfiskatę ponad 2,8 mln dolarów w kryptowalutach od operatora ransomware Zeppelin.
+
 ---
-Anthropic: Claude może teraz kończyć rozmowy, aby zapobiec szkodliwemu użyciu
-Rywal OpenAI, Anthropic, informuje, że Claude został zaktualizowany o rzadką nową funkcję, pozwalającą AI kończyć rozmowy, gdy uzna, że jej kontynuacja może stanowić zagrożenie lub jest wykorzystywana w złych celach.
+
+## Anthropic: Claude może kończyć rozmowy, by zapobiec nadużyciom
+
+Anthropic wprowadza funkcję pozwalającą AI kończyć rozmowy, gdy uzna, że mogą być wykorzystywane w złych celach.
+
