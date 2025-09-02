@@ -4,10 +4,55 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sun, 24 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Salesforce, Google, Citrix i UNC6395 na celowniku – Fala ataków supply chain, ransomware i ShadowCaptcha uderza w branżę SaaS!]]></title>
+            <link>https://www.majdak.online/blog/news-2025-09-02</link>
+            <guid>https://www.majdak.online/blog/news-2025-09-02</guid>
+            <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ostatni tydzień przyniósł wyjątkową dynamikę w świecie cyberbezpieczeństwa – ataki na łańcuchy dostaw (supply chain), nowatorskie kampanie ransomware i masowe nadużycia tokenów OAuth dotknęły nawet liderów rynku jak Salesforce, Google i Citrix. Pojawiły się też nowe typy zagrożeń, w których cyberprzestępcy wykorzystują automatyzację oraz AI do eskalacji ataków, omijania zabezpieczeń SaaS, kradzieży danych na skalę masową i szantażowania ofiar. Dostrzegalnym trendem jest także szybka eksploitacja krytycznych podatności typu zero-day (np. CVE-2025-7775) oraz szeroko zakrojona automatyzacja fazy ataku.]]></description>
+            <content:encoded><![CDATA[<p>Ostatni tydzień przyniósł wyjątkową dynamikę w świecie cyberbezpieczeństwa – ataki na łańcuchy dostaw (supply chain), nowatorskie kampanie ransomware i masowe nadużycia tokenów OAuth dotknęły nawet liderów rynku jak Salesforce, Google i Citrix. Pojawiły się też nowe typy zagrożeń, w których cyberprzestępcy wykorzystują automatyzację oraz AI do eskalacji ataków, omijania zabezpieczeń SaaS, kradzieży danych na skalę masową i szantażowania ofiar. Dostrzegalnym trendem jest także szybka eksploitacja krytycznych podatności typu zero-day (np. CVE-2025-7775) oraz szeroko zakrojona automatyzacja fazy ataku.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="najważniejsze-cyberwydarzenia-ostatnich-7-dni">Najważniejsze cyberwydarzenia ostatnich 7 dni<a href="https://www.majdak.online/blog/news-2025-09-02#najwa%C5%BCniejsze-cyberwydarzenia-ostatnich-7-dni" class="hash-link" aria-label="Bezpośredni link do Najważniejsze cyberwydarzenia ostatnich 7 dni" title="Bezpośredni link do Najważniejsze cyberwydarzenia ostatnich 7 dni">​</a></h2>
+<ul>
+<li><strong>Salesforce/Google – masowy wyciek danych przez sprzedażowe integracje Drift OAuth</strong>
+<ul>
+<li>Data: 8–18 sierpnia 2025</li>
+<li>Mechanizm: Przejęte tokeny OAuth od integracji Salesloft Drift (kampania UNC6395), wykorzystane do nieautoryzowanego dostępu do wielu korporacyjnych instancji Salesforce</li>
+<li>Skutki: Eksfiltracja danych z rekordów account/contact/case/opportunity, kradzież haseł i kluczy AWS/Snowflake, próby ukrycia śladów poprzez kasowanie logów zapytań</li>
+<li>Trend: Wektor ataku oparty na automatyzacji, rozprzestrzenianie się przez inne SaaS (Google Workspace, Slack, Pardot)</li>
+</ul>
+</li>
+<li><strong>Citrix NetScaler – aktywna exploityacja CVE-2025-7775 (RCE)</strong>
+<ul>
+<li>Data: od 26 sierpnia 2025 r.</li>
+<li>Mechanizm: Krytyczna luka typu memory overflow umożliwiająca zdalne wykonanie kodu oraz ataki DoS na niezałatanych urządzeniach Citrix NetScaler ADC &amp; Gateway</li>
+<li>Skutki: Instalowanie webshelli, ryzyko szybkiego upublicznienia exploita, rekomendacje natychmiastowego patchowania</li>
+<li>Trend: Masowe ataki na infrastrukturę krytyczną, historyczne zainteresowanie grup ransomware sprzętem Citrix</li>
+</ul>
+</li>
+<li><strong>Rosnące kampanie ransomware i spear-phishing</strong>
+<ul>
+<li>Branża: SaaS, usługi krytyczne, firmy globalne</li>
+<li>Mechanizmy: Wykorzystanie zero-day, „live-off-the-land”, zaawansowane phishingi z elementami AI (np. ShadowCaptcha), socjotechniki wobec helpdesków</li>
+<li>Skutki: Kradzież danych, zakłócenia operacji, wycieki do dark web</li>
+</ul>
+</li>
+<li><strong>Ataki supply chain z użyciem AI i automatyzacji</strong>
+<ul>
+<li>Przykład: Automatyzowane przeszukiwanie wykradzionych baz danych, masowa sprzedaż rekordów oraz keyloggery w integracjach</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-09-02#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie">​</a></h2>
+<p>W minionym tygodniu cyberprzestępcy pokazali, że automatyzacja ataków i nadużycia połączeń API (OAuth/SaaS) skutecznie omijają klasyczne zabezpieczenia, a krytyczne luki (np. Citrix CVE-2025-7775) są wykorzystywane w praktyce niemal natychmiast po upublicznieniu. W najbliższych dniach spodziewać się można wzmożonej liczby ataków supply chain, dużej aktywności ransomware oraz dalszego wykorzystania AI w automatyzacji i eskalacji ataków.</p>]]></content:encoded>
+            <category>Cybersecurity</category>
+            <category>Ataki</category>
+            <category>Exploits</category>
+            <category>Privacy</category>
+        </item>
         <item>
             <title><![CDATA[Google ostrzega: Złośliwe moduły Go i botnety IoT atakują, wykradając dane i wykraczając poza tradycyjne cyberzagrożenia]]></title>
             <link>https://www.majdak.online/blog/news-2025-08-24</link>
@@ -1690,52 +1735,6 @@ HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PS
 <p>W międzyczasie, rosnąca obecność AI w aplikacjach SaaS i automatyzacji procesów wymusza nowe standardy zarządzania i nadzoru, szczególnie w kontekście regulacji UE.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="zagrożenia-związane-z-technologiami-i-operacyjnymi-lukami">Zagrożenia związane z technologiami i operacyjnymi lukami<a href="https://www.majdak.online/blog/news-2025-07-11#zagro%C5%BCenia-zwi%C4%85zane-z-technologiami-i-operacyjnymi-lukami" class="hash-link" aria-label="Bezpośredni link do Zagrożenia związane z technologiami i operacyjnymi lukami" title="Bezpośredni link do Zagrożenia związane z technologiami i operacyjnymi lukami">​</a></h3>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="szczególne-wyzwania-w-zakresie-prywatności-i-nowych-technologii">Szczególne wyzwania w zakresie prywatności i nowych technologii<a href="https://www.majdak.online/blog/news-2025-07-11#szczeg%C3%B3lne-wyzwania-w-zakresie-prywatno%C5%9Bci-i-nowych-technologii" class="hash-link" aria-label="Bezpośredni link do Szczególne wyzwania w zakresie prywatności i nowych technologii" title="Bezpośredni link do Szczególne wyzwania w zakresie prywatności i nowych technologii">​</a></h3>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Czy Google i Microsoft ukrywają poważne zagrożenia? Eksperci podnoszą alarm!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-07-09</link>
-            <guid>https://www.majdak.online/blog/news-2025-07-09</guid>
-            <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Cyberzagrożenia nieustannie ewoluują, a najbardziej zaskakujące ataki często dotyczą globalnie rozpoznawalnych firm i instytucji. Czy Google i Microsoft ukrywają poważne zagrożenia? Eksperci podnoszą alarm! Odzwierciedla rosnącą niepokojącą skalę ukrywanych luk i aktywnych exploitów w kluczowych systemach. Niedawne poprawki Microsoftu obejmujące aż 137 podatności, w tym krytyczna lukę w SQL Server, pokazują, że nawet giganci branży nie są wolni od zagrożeń dostępnych dla cyberprzestępców. W tym samym czasie odkrycia związane z wykorzystywaniem AI i deepfake’ami podkreślają, jak nowoczesne technologie stają się zarówno narzędziem ataku, jak i ukrycia dla globalnego cyberzagrożenia.]]></description>
-            <content:encoded><![CDATA[<p>Cyberzagrożenia nieustannie ewoluują, a najbardziej zaskakujące ataki często dotyczą globalnie rozpoznawalnych firm i instytucji. Czy Google i Microsoft ukrywają poważne zagrożenia? Eksperci podnoszą alarm! Odzwierciedla rosnącą niepokojącą skalę ukrywanych luk i aktywnych exploitów w kluczowych systemach. Niedawne poprawki Microsoftu obejmujące aż 137 podatności, w tym krytyczna lukę w SQL Server, pokazują, że nawet giganci branży nie są wolni od zagrożeń dostępnych dla cyberprzestępców. W tym samym czasie odkrycia związane z wykorzystywaniem AI i deepfake’ami podkreślają, jak nowoczesne technologie stają się zarówno narzędziem ataku, jak i ukrycia dla globalnego cyberzagrożenia.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="suspected-chinese-hacker-xu-zewei-detained-in-italy--what-does-it-mean-for-global-cybersecurity">Suspected Chinese hacker Xu Zewei detained in Italy – what does it mean for global cybersecurity?<a href="https://www.majdak.online/blog/news-2025-07-09#suspected-chinese-hacker-xu-zewei-detained-in-italy--what-does-it-mean-for-global-cybersecurity" class="hash-link" aria-label="Bezpośredni link do Suspected Chinese hacker Xu Zewei detained in Italy – what does it mean for global cybersecurity?" title="Bezpośredni link do Suspected Chinese hacker Xu Zewei detained in Italy – what does it mean for global cybersecurity?">​</a></h3>
-<p>Zatrzymanie Xu Zewei w Mediolanie to kolejny dowód na to, że międzynarodowe operacje cybernetyczne wymykają się spod kontroli. Podejrzewany o powiązania z grupami szpiegowskimi i przeprowadzanie ataków na amerykańskie instytucje, teraz staje przed sądem w Europie.</p>
-<p>Takie wydarzenia przypominają, jak bardzo cyberzagrożenie stało się globalnym problemem, wymagającym ścisłej współpracy międzynarodowej i skutecznych działań prewencyjnych.</p>
-<hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="koniec-czasów-na-rezerwację-stoiska-na-techcrunch-disrupt-2025">Koniec czasów na rezerwację stoiska na TechCrunch Disrupt 2025<a href="https://www.majdak.online/blog/news-2025-07-09#koniec-czas%C3%B3w-na-rezerwacj%C4%99-stoiska-na-techcrunch-disrupt-2025" class="hash-link" aria-label="Bezpośredni link do Koniec czasów na rezerwację stoiska na TechCrunch Disrupt 2025" title="Bezpośredni link do Koniec czasów na rezerwację stoiska na TechCrunch Disrupt 2025">​</a></h3>
-<p>Nadchodzi moment, gdy konieczna jest szybka decyzja – rezerwacja stoiska na wydarzeniu, które zgromadzi ponad 10 tysięcy innowatorów, inwestorów i entuzjastów technologii. Brak działania może oznaczać utratę cennej ekspozycji i przewagi konkurencyjnej.</p>
-<p>To unikalna okazja, by wypromować swoją startupową markę i przyciągnąć potencjalnych partnerów oraz klientów. Nie zwlekaj, bo konkurencja jest czujna!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="jak-chronić-numer-telefonu-przed-atakami-sim-swapowym">Jak chronić numer telefonu przed atakami SIM swapowym?<a href="https://www.majdak.online/blog/news-2025-07-09#jak-chroni%C4%87-numer-telefonu-przed-atakami-sim-swapowym" class="hash-link" aria-label="Bezpośredni link do Jak chronić numer telefonu przed atakami SIM swapowym?" title="Bezpośredni link do Jak chronić numer telefonu przed atakami SIM swapowym?">​</a></h3>
-<p>Ustawienia bezpieczeństwa w sieci komórkowej mogą znacząco utrudnić przejęcie kontroli nad numerem telefonu. Warto wprowadzić wielowarstwowe zabezpieczenia, takie jak dwuskładnikowa weryfikacja i blokady kont na poziomie operatora.</p>
-<p>Prewencja to klucz – im szybciej zabezpieczysz swój numer, tym trudniej będzie hackerom przeprowadzić atak.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="arrest-chińskiego-hakera-xu-zewei-w-italii">Arrest chińskiego hakera Xu Zewei w Italii<a href="https://www.majdak.online/blog/news-2025-07-09#arrest-chi%C5%84skiego-hakera-xu-zewei-w-italii" class="hash-link" aria-label="Bezpośredni link do Arrest chińskiego hakera Xu Zewei w Italii" title="Bezpośredni link do Arrest chińskiego hakera Xu Zewei w Italii">​</a></h3>
-<p>Chiński obywatel Xu Zewei został zatrzymany w Mediolanie na wniosek amerykańskich prokuratorów. Podejrzewa się, że był zaangażowany w ataki na organizacje rządowe i prywatne w USA, a także powiązany z grupą Silk Typhoon.</p>
-<p>Zatrzymanie to podkreśla rosnące międzynarodowe napięcia i potrzebę skutecznej współpracy służb wywiadowczych na poziomie globalnym.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wykorzystanie-podatności-citrix-bleed-2">Wykorzystanie podatności Citrix Bleed 2<a href="https://www.majdak.online/blog/news-2025-07-09#wykorzystanie-podatno%C5%9Bci-citrix-bleed-2" class="hash-link" aria-label="Bezpośredni link do Wykorzystanie podatności Citrix Bleed 2" title="Bezpośredni link do Wykorzystanie podatności Citrix Bleed 2">​</a></h3>
-<p>Eksploatacje podatności CitrixBleed 2 trwają od kilku tygodni, pozwalając cyberprzestępcom na omijanie dwuskładnikowego uwierzytelniania i przejmowanie kontroli nad urządzeniami. To poważne zagrożenie dla firm korzystających z tego rozwiązania.</p>
-<p>Zabezpieczenie infrastruktury i monitorowanie jest niezbędne, aby uniknąć poważnych strat i naruszeń danych.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wyciek-danych-z-zero-day-w-nippon-steel">Wyciek danych z zero-day w Nippon Steel<a href="https://www.majdak.online/blog/news-2025-07-09#wyciek-danych-z-zero-day-w-nippon-steel" class="hash-link" aria-label="Bezpośredni link do Wyciek danych z zero-day w Nippon Steel" title="Bezpośredni link do Wyciek danych z zero-day w Nippon Steel">​</a></h3>
-<p>Włamanie do infrastruktury Nippon Steel zostało spowodowane przez wykorzystywanie niezidentyfikowanego wcześniej zero-day w sprzęcie sieciowym. Incydent podkreśla konieczność dynamicznych aktualizacji i nieustannego monitorowania systemów.</p>
-<p>Zarówno organizacje przemysłowe, jak i inne przedsiębiorstwa muszą być przygotowane na nowe wyzwania w obszarze bezpieczeństwa.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aktywność-grupy-donot-apt-wobec-europejskich-ministerstw">Aktywność grupy DoNot APT wobec europejskich ministerstw<a href="https://www.majdak.online/blog/news-2025-07-09#aktywno%C5%9B%C4%87-grupy-donot-apt-wobec-europejskich-ministerstw" class="hash-link" aria-label="Bezpośredni link do Aktywność grupy DoNot APT wobec europejskich ministerstw" title="Bezpośredni link do Aktywność grupy DoNot APT wobec europejskich ministerstw">​</a></h3>
-<p>Hakerzy powiązani z Indią rozszerzyli swoje działania, atakując europejskie ministerstwa spraw zagranicznych z użyciem malware LoptikMod. Zdolność do wykradania poufnych danych czyni ich poważnym zagrożeniem dla bezpieczeństwa międzynarodowego.</p>
-<p>Agencje wywiadowcze i instytucje rządowe powinny zwiększyć czujność i wdrożyć zaawansowane mechanizmy obronne przeciwko tego typu zagrożeniom.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sankcje-usa-dla-członka-grupy-andariel">Sankcje USA dla członka grupy Andariel<a href="https://www.majdak.online/blog/news-2025-07-09#sankcje-usa-dla-cz%C5%82onka-grupy-andariel" class="hash-link" aria-label="Bezpośredni link do Sankcje USA dla członka grupy Andariel" title="Bezpośredni link do Sankcje USA dla członka grupy Andariel">​</a></h3>
-<p>Departament Skarbu USA nałożył sankcje na Korę Północną za działalność hakerską, w tym za udział w oszustwach związanych z pracą zdalną. Osoba ta, Song Kum Hyok, dodaje kolejne przypadki eskalacji wojny cybernetycznej.</p>
-<p>Takie działania pokazują, jak państwa na arenie międzynarodowej próbują ograniczać złośliwe operacje i chronić swoje interesy.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="złośliwe-kampanie-z-użyciem-open-source-i-technik-unikania-wykrycia">Złośliwe kampanie z użyciem Open Source i technik unikania wykrycia<a href="https://www.majdak.online/blog/news-2025-07-09#z%C5%82o%C5%9Bliwe-kampanie-z-u%C5%BCyciem-open-source-i-technik-unikania-wykrycia" class="hash-link" aria-label="Bezpośredni link do Złośliwe kampanie z użyciem Open Source i technik unikania wykrycia" title="Bezpośredni link do Złośliwe kampanie z użyciem Open Source i technik unikania wykrycia">​</a></h3>
-<p>Wzrost liczby złośliwych pakietów open source o 188% rok do roku rzuca nowe światło na zagrożenia kradzieży danych i wycieków sekretów. Hackerzy coraz częściej korzystają z narzędzi, które do tej pory były wykorzystywane w testach penetracyjnych, by maskować działania.</p>
-<p>Dodatkowo, techniki unikania wykrycia, takie jak zmodyfikowane frameworki AV/EDR, pozwalają na skuteczne ukrycie malware przed systemami ochrony.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="nowe-luki-w-usługach-cloud-i-systemach-operacyjnych">Nowe luki w usługach cloud i systemach operacyjnych<a href="https://www.majdak.online/blog/news-2025-07-09#nowe-luki-w-us%C5%82ugach-cloud-i-systemach-operacyjnych" class="hash-link" aria-label="Bezpośredni link do Nowe luki w usługach cloud i systemach operacyjnych" title="Bezpośredni link do Nowe luki w usługach cloud i systemach operacyjnych">​</a></h3>
-<p>Wzrost liczby wykrytych podatności, w tym krytycznych błędów w Microsoft SQL Server, Windows 10 i 11 oraz w ServiceNow, wymaga ciągłej aktualizacji i wdrażania krytycznych łatek. Nowa luka w ServiceNow, nazwana Count(er) Strike, umożliwia niskopoziomowym użytkownikom dostęp do poufnych danych.</p>
-<p>Wdrażanie najnowszych wersji systemów i monitorowanie aktywności to klucz do minimalizacji ryzyka.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-ataki-android-i-rozwiązania-zabezpieczające">Zaawansowane ataki Android i rozwiązania zabezpieczające<a href="https://www.majdak.online/blog/news-2025-07-09#zaawansowane-ataki-android-i-rozwi%C4%85zania-zabezpieczaj%C4%85ce" class="hash-link" aria-label="Bezpośredni link do Zaawansowane ataki Android i rozwiązania zabezpieczające" title="Bezpośredni link do Zaawansowane ataki Android i rozwiązania zabezpieczające">​</a></h3>
-<p>Cyberprzestępcy wciąż infekują Google Play, rozprzestrzeniając trojany, takie jak Anatsa, na ponad 90 000 urządzeń w Ameryce Północnej. Nowe techniki, w tym wyłudzenia przez fałszywe PDF, podkreślają potrzebę szczególnej ostrożności.</p>
-<p>Rozwiązania ochronne, takie jak wykorzystanie funkcji Zero Trust oraz zabezpieczenia portów RDP, pomagają firmom i użytkownikom chronić się przed najnowszymi zagrożeniami.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
