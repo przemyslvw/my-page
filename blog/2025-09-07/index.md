@@ -6,7 +6,7 @@ tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: "2025-09-07"
 ---
 
-Pierwsze dni września 2025 roku przyniosły niepokojącą eskalację cyberzagrożeń na globalnym rynku. W ciągu ostatniego tygodnia odnotowano **gwałtowny wzrost ataków ransomware o 57% w sektorze produkcyjnym**, podczas gdy największe firmy technologiczne znalazły się w centrum zaawansowanych kampanii kradzieży danych. Ataki na **łańcuchy dostaw SaaS**, wykorzystujące zaufane platformy takie jak Salesforce, osiągnęły nowy poziom wyrafinowania, podczas gdy **krytyczne luki zero-day w systemach SAP** i **routerach TP-Link** są aktywnie eksploatowane przez cyberprzestępców.[^1][^2][^3][^4]
+Pierwsze dni września 2025 roku przyniosły niepokojącą eskalację cyberzagrożeń na globalnym rynku. W ciągu ostatniego tygodnia odnotowano **gwałtowny wzrost ataków ransomware o 57% w sektorze produkcyjnym**, podczas gdy największe firmy technologiczne znalazły się w centrum zaawansowanych kampanii kradzieży danych. Ataki na **łańcuchy dostaw SaaS**, wykorzystujące zaufane platformy takie jak Salesforce, osiągnęły nowy poziom wyrafinowania, podczas gdy **krytyczne luki zero-day w systemach SAP** i **routerach TP-Link** są aktywnie eksploatowane przez cyberprzestępców.[^1][^2][^3]
 
 <!-- truncate -->
 
@@ -53,7 +53,7 @@ Szczególną uwagę zwracają **ataki na platformy OAuth** oraz **kampanie spear
 
 - **Data:** 30 sierpnia 2025 (ujawnione 5 września)[^19][^20][^21]
 - **Mechanizm:** Skompromitowany pakiet oprogramowania third-party[^20][^19]
-- **Skutki:** Kradzież SIN, numerów kont, dat urodzenia, IP (<1% z 3 mln klientów)[^21][^19]
+- **Skutki:** Kradzież SIN, numerów kont, dat urodzenia, IP (&lt;1% z 3 mln klientów)[^21][^19]
 - **Ochrona:** 2 lata bezpłatnego monitoringu tożsamości[^20][^21]
 
 **-  Aktywnie eksploatowane luki Android - spyware zagrożenie**
@@ -78,9 +78,8 @@ Pierwszy tydzień września 2025 roku ujawnił **systemową podatność globalne
 **Trendy alarmujące** obejmują 57% wzrost ataków ransomware w produkcji, pierwszy stanowy atak ransomware w historii USA oraz masowe wykorzystanie **skompromitowanych routerów domowych** do ataków na infrastrukturę korporacyjną. **Sztuczna inteligencja** coraz częściej służy zarówno do ataków (automatyzacja exploitów) jak i obrony, tworząc nowy wymiar wyścigu zbrojeń cybernetycznych.
 
 **Kluczowym wnioskiem** jest konieczność **holistycznego podejścia do bezpieczeństwa łańcucha dostaw**, wykraczającego poza tradycyjne perimetry bezpieczeństwa i obejmującego **głęboką weryfikację integracji third-party** oraz **proaktywne monitorowanie tokenów OAuth** w środowiskach SaaS.
-<span style="display:none">[^26][^27][^28][^29][^30][^31][^32][^33][^34][^35][^36][^37][^38][^39][^40][^41][^42][^43][^44][^45][^46][^47][^48][^49][^50][^51][^52][^53][^54][^55][^56][^57][^58][^59][^60]</span>
 
-<div style="text-align: center">⁂</div>
+<div style={{"textAlign": "center"}}>⁂</div>
 
 [^1]: https://securitybridge.com/blog/critical-sap-s-4hana-code-injection-vulnerability-cve-2025-42957/
 
@@ -131,72 +130,6 @@ Pierwszy tydzień września 2025 roku ujawnił **systemową podatność globalne
 [^24]: https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-flaws-in-september-update/
 
 [^25]: https://www.helpnetsecurity.com/2025/09/04/google-fixes-actively-exploited-android-vulnerabilities-cve-2025-48543-cve-2025-38352/
-
-[^26]: https://www.stephens-scown.co.uk/specialist-sectors/technology/salesforce-breach-highlights-cybersecurity-risks-for-businesses/
-
-[^27]: https://nvd.nist.gov/vuln/detail/CVE-2025-42957
-
-[^28]: https://cloudprotection.withsecure.com/blog/salesforce-attacks-in-2025/
-
-[^29]: https://support.sap.com/en/my-support/knowledge-base/security-notes-news/august-2025.html
-
-[^30]: https://www.salesforceben.com/salesforce-data-theft-roundup-everything-you-need-to-know/
-
-[^31]: https://www.darkreading.com/vulnerabilities-threats/sap-4hana-vulnerability-under-attack
-
-[^32]: https://www.darkreading.com/cyberattacks-data-breaches/bridgestone-americas-cyberattack
-
-[^33]: https://www.paloaltonetworks.com/blog/2025/09/salesforce-third-party-application-incident-response/
-
-[^34]: https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/protect-your-sap-s-4hana-from-critical-code-injection-vulnerability-cve/ba-p/14208866
-
-[^35]: https://www.techzine.eu/news/security/134354/zero-day-vulnerability-discovered-in-tp-link-routers/
-
-[^36]: https://thecyberexpress.com/chess-com-data-breach-exposes-information/
-
-[^37]: https://ca.finance.yahoo.com/news/wealthsimple-client-data-including-sins-200717909.html
-
-[^38]: https://www.tp-link.com/us/support/faq/4647/
-
-[^39]: https://therecord.media/chess-platform-data-breach-file-transfer-tool
-
-[^40]: https://www.cbc.ca/news/business/wealthsimple-data-security-breach-1.7626565
-
-[^41]: https://nvd.nist.gov/vuln/detail/CVE-2025-9377
-
-[^42]: https://www.techradar.com/pro/security/thousands-of-chess-com-fans-may-have-had-details-stolen-in-cyberattack
-
-[^43]: https://globalnews.ca/news/11394858/wealthsimple-data-breach/
-
-[^44]: https://www.scworld.com/brief/global-fix-for-tp-link-zero-day-imminent
-
-[^45]: https://cyberpress.org/chess-com-data-breach/
-
-[^46]: https://vulert.com/vuln-db/debian-11-linux-196010
-
-[^47]: https://www.cm-alliance.com/cybersecurity-blog/major-cyber-attacks-ransomware-attacks-and-data-breaches-august-2025
-
-[^48]: https://nvd.nist.gov/vuln/detail/CVE-2025-38352
-
-[^49]: https://www.halcyon.ai/blog/halcyon-threat-insights-020-september-2025-ransomware-report
-
-[^50]: https://source.android.com/docs/security/bulletin/2025-09-01
-
-[^51]: https://javascript.plainenglish.io/cve-2025-38352-android-linux-kernel-race-condition-exploited-in-the-wild-7c030e50acc4
-
-[^52]: https://www.cyfirma.com/news/weekly-intelligence-report-05-september-2025/
-
-[^53]: https://www.bitdefender.com/en-us/blog/hotforsecurity/androids-latest-security-update-fixes-120-flaws-with-two-under-active-attack
-
-[^54]: https://access.redhat.com/security/cve/cve-2025-38352
-
-[^55]: https://www.pdpc.gov.sg/news-and-events/announcements/2025/09/new-undertakings-on-3-september-2025
-
-[^56]: https://socradar.io/september-2025-android-security-bulletin-cve-2025-38352-cve-2025-48543/
-
-[^57]: https://www.hkcert.org/security-bulletin/suse-linux-kernel-multiple-vulnerabilities_20250901
-
-[^58]: https://www.ransomware.live
 
 [^59]: https://nvd.nist.gov/vuln/detail/CVE-2025-48543
 
