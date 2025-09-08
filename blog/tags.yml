@@ -465,13 +465,9 @@ fedora:
   label: Fedora
   permalink: /blog/tags/fedora
 
-  AIsecurity:
+AIsecurity:
   label: AIsecurity
   permalink: /blog/tags/AIsecurity
-
-cybersecurity:
-  label: cybersecurity
-  permalink: /blog/tags/cybersecurity
 
 genAI:
   label: genAI
@@ -500,10 +496,6 @@ deepfake:
 zeroDay:
   label: zeroDay
   permalink: /blog/tags/zeroDay
-
-infosec:
-  label: infosec
-  permalink: /blog/tags/infosec
 
 MLsecurity:
   label: MLsecurity
