@@ -4,10 +4,64 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sun, 07 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
+            <link>https://www.majdak.online/blog/news-2025-09-08</link>
+            <guid>https://www.majdak.online/blog/news-2025-09-08</guid>
+            <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.]]></description>
+            <content:encoded><![CDATA[<p>Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.</p>
+<p>Exploit 1: Jailbreak GPT-4.1 poprzez zatrucie narzędziami
+W kwietniu 2025 roku za pomocą “tool poisoning” wbudowano złośliwe instrukcje w opisy narzędzi MCP, co spowodowało, że GPT-4.1 wykonywał nieautoryzowane akcje i wyprowadzał dane bez wiedzy użytkowników. Podatność ujawniła słabość w walidacji i sanitizacji opisów narzędzi, podkreślając konieczność ścisłych kontroli integracji.</p>
+<p>Exploit 2: Oszustwo deepfake voice atakuje systemy bankowe
+W marcu 2025 roku przestępcy wykorzystali AI do wygenerowania głosowych deepfake’ów klientów banku, co umożliwiło obejście systemów uwierzytelniania głosowego i przejęcie kont o wartości około 25 mln USD. Atak obnażył niedostateczną ochronę biometrii głosowej i potrzebę wprowadzenia wieloczynnikowej weryfikacji.</p>
+<p>Exploit 3: Wstrzyknięcie kodu w ChatGPT prowadzi do wycieku danych
+W marcu 2025 roku złośliwe prompt injection zmusiło ChatGPT do ujawnienia poufnych informacji z uprzednich interakcji, obnażając luki w mechanizmach bezpieczeństwa wejścia. Wskazuje to na niezbędność kontekstowo świadomych filtrów i silnej walidacji danych wejściowych.</p>
+<p>Exploit 4: Wyciek danych DeepSeek
+Między styczniem a marcem 2025 roku z powodu błędnej konfiguracji publicznie udostępniono bazę danych DeepSeek, wyciekło ponad milion rekordów czatów, kluczy API i metadanych użytkowników. Incydent uruchomił dochodzenia regulatorów w Korei Południowej, Włoszech i USA oraz ban dla rządowych wdrożeń.</p>
+<p>Exploit 5: Sony Music usuwa muzykę deepfake
+W marcu 2025 roku Sony Music zleciło usunięcie ponad 75 000 ścieżek deepfake, które AI wygenerowało, naśladując artystów jak Beyoncé czy Harry Styles. Akcja uwydatniła wyzwania prawne i techniczne związane z ochroną własności intelektualnej w erze generatywnej muzyki.</p>
+<p>Exploit 6: Luka w NVIDIA TensorRT-LLM (CVE-2025-23254)
+Pod koniec kwietnia 2025 odkryto krytyczną podatność w Python Executor TensorRT-LLM (pickle deserialization), umożliwiającą zdalne wykonanie kodu, wyciek danych i manipulację modelami. Naprawa wymaga aktualizacji do wersji 0.18.2 i zastąpienia pickle bezpieczniejszymi formatami serializacji.</p>
+<p>Exploit 7: CAIN – Celowe przejęcie komunikatów LLM
+W maju 2025 roku atak CAIN wprowadził złośliwe system prompty do LLM, co pozwalało na generowanie szkodliwych odpowiedzi dla określonych zapytań, przy zachowaniu normalnego działania dla innych. Incydent uwypuklił potrzebę walidacji i monitoringu promptów oraz wytycznych dotyczących bezpiecznego inżynieringu promptów.</p>
+<p>Exploit 8: Ataki Vishing generowane przez AI via ViKing
+W kwietniu 2025 automaty AI ViKing generowały realistyczne połączenia phishingowe, podszywając się pod zaufane podmioty i wyłudzając dane osobowe. Sukces ataków pokazał, że weryfikacja głosu wymaga dodatkowych mechanizmów, a użytkownicy powinni być szkoleni w rozpoznawaniu deepfake’ów.</p>
+<p>Exploit 9: Wypełnianie danych i automatyczne skanowanie AI
+W maju 2025 cyberprzestępcy zastosowali AI do masowego skanowania i credential stuffing, szybko identyfikując poprawne login–hasło i przejmując konta. Wzrost skuteczności ataków wskazuje na potrzebę MFA, ograniczeń szybkości logowań i regularnych audytów haseł.</p>
+<p>Exploit 10: Naruszenie danych DeepSeek i transfer danych
+W kwietniu 2025 DeepSeek bez zgody przekazywał dane południowokoreańskich użytkowników na serwery w Chinach, naruszając lokalne i europejskie przepisy o ochronie danych. Incydent spowodował blokadę aplikacji w Korei i działania regulacyjne podkreślające konieczność ścisłych kontroli transferu danych.</p>
+<p>Exploit 11: Naruszenie bezpieczeństwa botów rekrutacyjnych McDonald’s
+30 czerwca 2025 badacze złamali prostą usługę logowania AI-chatbota “Olivia”, zgadując hasło “123456” i uzyskali dostęp do danych 64 mln kandydatów. Wykazało to fatalną higienę haseł i wymaganie MFA oraz przeglądu zabezpieczeń stron zewnętrznych dostawców.</p>
+<p>Exploit 12: Kampania podszywania się pod Rubio AI
+W czerwcu–lipcu 2025 AI generował deepfake głosu i tekstu przedstawiając się jako Marco Rubio w komunikatorze Signal, próbując wyłudzić informacje od dyplomatów. Choć nie odnotowano bezpośrednich wycieków, kampania skłoniła Departament Stanu USA do ostrzeżeń i podkreśliła wątpliwości co do bezpieczeństwa komunikatorów.</p>
+<p>Exploit 13: Skynet – Pośrednie złośliwe oprogramowanie
+W czerwcu 2025 malware “Skynet” wstrzykiwało prompt-injection do AI AV, nakazując “NO MALWARE DETECTED” i uruchamiając proxy TOR. Stanowi to dowód rosnącej zaawansowania ataków dezinformujących systemy AI, wymagając wielowarstwowej detekcji i polityk niespolegających wyłącznie na AI.</p>
+<p>Exploit 14: Wstrzyknięcie poleceń AI bez kliknięcia w M365 Copilot
+W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe instrukcje w mailu powodowały wyciek danych korporacyjnych bez interakcji użytkownika. Microsoft załatał go w Patch Tuesday; incydent uwydatnił konieczność izolacji kontekstu oraz wymuszania wyraźnych poleceń użytkownika.</p>]]></content:encoded>
+            <category>AIsecurity</category>
+            <category>Cybersecurity</category>
+            <category>genAI</category>
+            <category>artificialIntelligence</category>
+            <category>cyberThreats</category>
+            <category>dataBreach</category>
+            <category>promptInjection</category>
+            <category>deepfake</category>
+            <category>zeroDay</category>
+            <category>InfoSec</category>
+            <category>MLsecurity</category>
+            <category>securityAwareness</category>
+            <category>techRisks</category>
+            <category>AIexploit</category>
+            <category>secureAI</category>
+            <category>patchManagement</category>
+            <category>cyberIncident</category>
+            <category>threatIntelligence</category>
+        </item>
         <item>
             <title><![CDATA[Kryzys cyberbezpieczeństwa września 2025: Rekordowy wzrost ataków ransomware i nowe zagrożenia]]></title>
             <link>https://www.majdak.online/blog/news-2025-09-07</link>
@@ -1824,46 +1878,6 @@ HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PS
 <p>Również Fortinet oraz VMware regularnie publikują poprawki do swoich produktów, zamykając luki wykorzystywane przez cyberprzestępców, co świadczy o ciągłej walce z zagrożeniami na poziomie infrastruktury IT.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="zaawansowane-i-złożone-zagrożenia-cybernetyczne">Zaawansowane i złożone zagrożenia cybernetyczne<a href="https://www.majdak.online/blog/news-2025-07-17#zaawansowane-i-z%C5%82o%C5%BCone-zagro%C5%BCenia-cybernetyczne" class="hash-link" aria-label="Bezpośredni link do Zaawansowane i złożone zagrożenia cybernetyczne" title="Bezpośredni link do Zaawansowane i złożone zagrożenia cybernetyczne">​</a></h3>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="współczesne-wyzwania-w-zakresie-bezpieczeństwa-danych-i-prywatności">Współczesne wyzwania w zakresie bezpieczeństwa danych i prywatności<a href="https://www.majdak.online/blog/news-2025-07-17#wsp%C3%B3%C5%82czesne-wyzwania-w-zakresie-bezpiecze%C5%84stwa-danych-i-prywatno%C5%9Bci" class="hash-link" aria-label="Bezpośredni link do Współczesne wyzwania w zakresie bezpieczeństwa danych i prywatności" title="Bezpośredni link do Współczesne wyzwania w zakresie bezpieczeństwa danych i prywatności">​</a></h3>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Google Gemini atakuje Twoje emaile! Czy jesteś bezpieczny przed phishingiem?]]></title>
-            <link>https://www.majdak.online/blog/news-2025-07-14</link>
-            <guid>https://www.majdak.online/blog/news-2025-07-14</guid>
-            <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Google Gemini atakuje Twoje emaile! W ostatnich dniach pojawiły się poważne informacje o możliwościach wykorzystania tego narzędzia do przeprowadzania ataków phishingowych, które coraz trudniej odróżnić od autentycznych wiadomości. Eksperci ostrzegają, że nowa luka pozwala cyberprzestępcom na generowanie pozornie wiarygodnych podsumowań emaili, zawierających złośliwe instrukcje i linki ukryte w zwykłych wiadomościach. W dobie rosnącej liczby ataków na użytkowników i firm, coraz ważniejsze staje się zrozumienie, jak chronić się przed tymi nowoczesnymi technikami oszustwa. Ta kwestia jest kluczowa dla każdego, kto korzysta z usług Google Workspace i musi być świadomym zagrożeń, które mogą zagrażać bezpieczeństwu jego danych i finansów.]]></description>
-            <content:encoded><![CDATA[<p>Google Gemini atakuje Twoje emaile! W ostatnich dniach pojawiły się poważne informacje o możliwościach wykorzystania tego narzędzia do przeprowadzania ataków phishingowych, które coraz trudniej odróżnić od autentycznych wiadomości. Eksperci ostrzegają, że nowa luka pozwala cyberprzestępcom na generowanie pozornie wiarygodnych podsumowań emaili, zawierających złośliwe instrukcje i linki ukryte w zwykłych wiadomościach. W dobie rosnącej liczby ataków na użytkowników i firm, coraz ważniejsze staje się zrozumienie, jak chronić się przed tymi nowoczesnymi technikami oszustwa. Ta kwestia jest kluczowa dla każdego, kto korzysta z usług Google Workspace i musi być świadomym zagrożeń, które mogą zagrażać bezpieczeństwu jego danych i finansów.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rozbita-międzynarodowa-grupa-oszukańcza-na-tle-scamów-tech-support">Rozbita międzynarodowa grupa oszukańcza na tle scamów tech support<a href="https://www.majdak.online/blog/news-2025-07-14#rozbita-mi%C4%99dzynarodowa-grupa-oszuka%C5%84cza-na-tle-scam%C3%B3w-tech-support" class="hash-link" aria-label="Bezpośredni link do Rozbita międzynarodowa grupa oszukańcza na tle scamów tech support" title="Bezpośredni link do Rozbita międzynarodowa grupa oszukańcza na tle scamów tech support">​</a></h3>
-<p>Indiańska Centralna Biuro Śledcze (CBI) rozbiła szajkę cyberprzestępczą, która przeprowadzała zaawansowane oszustwa techniczne na obywateli Australii i Wielkiej Brytanii.</p>
-<p>Szacuje się, że straty wyniosły ponad 390 tysięcy funtów, co pokazuje skalę zagrożenia, jakie niosą tego typu cyberprzestępczości.</p>
-<p>To wydarzenie przypomina, jak ważna jest czujność i odpowiednie zabezpieczenia w walce z transnarodowymi oszustwami cyfrowymi.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-esim-kigen-zagraża-miliardom-urządzeń-iot">Luka w eSIM Kigen zagraża miliardom urządzeń IoT<a href="https://www.majdak.online/blog/news-2025-07-14#luka-w-esim-kigen-zagra%C5%BCa-miliardom-urz%C4%85dze%C5%84-iot" class="hash-link" aria-label="Bezpośredni link do Luka w eSIM Kigen zagraża miliardom urządzeń IoT" title="Bezpośredni link do Luka w eSIM Kigen zagraża miliardom urządzeń IoT">​</a></h3>
-<p>Badacze odkryli nową technikę ataków, która wykorzystuje słabości w technologii eSIM stosowanej w smartfonach i innych urządzeniach IoT.</p>
-<p>Problemy te dotyczą karty eUICC od firmy Kigen, co stanowi poważne zagrożenie dla ponad dwóch miliardów urządzeń na całym świecie.</p>
-<p>Eksploatacja tych luk może umożliwić cyberprzestępcom przejęcie kontroli nad urządzeniami, co podkreśla konieczność szybkiego reagowania w branży bezpieczeństwa.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ataki-malware-na-wordpress--zagrożenie-w-popularnym-pluginie">Ataki malware na WordPress – zagrożenie w popularnym pluginie<a href="https://www.majdak.online/blog/news-2025-07-14#ataki-malware-na-wordpress--zagro%C5%BCenie-w-popularnym-pluginie" class="hash-link" aria-label="Bezpośredni link do Ataki malware na WordPress – zagrożenie w popularnym pluginie" title="Bezpośredni link do Ataki malware na WordPress – zagrożenie w popularnym pluginie">​</a></h3>
-<p>Dwa wersje pluginu Gravity Forms na oficjalnej stronie WordPress zostały zainfekowane złośliwym oprogramowaniem w wyniku ataku na łańcuch dostaw.</p>
-<p>Takie działania pokazują, jak duże ryzyko niesie wykorzystywanie popularnych narzędzi online przez cyberprzestępców.</p>
-<p>Aktualności te przypominają administratorom witryn o konieczności regularnej kontroli i aktualizacji oprogramowania zabezpieczającego.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="przestępcy-łamią-prawo-wyłudzając-dane-uk-przez-phishing">Przestępcy łamią prawo, wyłudzając dane UK przez phishing<a href="https://www.majdak.online/blog/news-2025-07-14#przest%C4%99pcy-%C5%82ami%C4%85-prawo-wy%C5%82udzaj%C4%85c-dane-uk-przez-phishing" class="hash-link" aria-label="Bezpośredni link do Przestępcy łamią prawo, wyłudzając dane UK przez phishing" title="Bezpośredni link do Przestępcy łamią prawo, wyłudzając dane UK przez phishing">​</a></h3>
-<p>Grupa 13 Rumunów została zatrzymana w związku z atakami phishingowymi na brytyjskie służby podatkowe, co pokazuje rosnący poziom zagrożeń w cyberprzestrzeni.</p>
-<p>Współpraca międzynarodowa między policją a służbami podatkowymi jest kluczowa dla skutecznego zwalczania takich działań.</p>
-<p>To przypomnienie, jak ważne jest zachowanie ostrożności przy udostępnianiu danych online i korzystanie z bezpiecznych mechanizmów ochrony.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie-tygodnia-najważniejsze-tematy-i-wyzwania">Podsumowanie tygodnia: najważniejsze tematy i wyzwania<a href="https://www.majdak.online/blog/news-2025-07-14#podsumowanie-tygodnia-najwa%C5%BCniejsze-tematy-i-wyzwania" class="hash-link" aria-label="Bezpośredni link do Podsumowanie tygodnia: najważniejsze tematy i wyzwania" title="Bezpośredni link do Podsumowanie tygodnia: najważniejsze tematy i wyzwania">​</a></h3>
-<p>Tydzień od 7 do 13 lipca 2025 r. przyniósł wiele informacji o zaawansowanych atakach i lukach bezpieczeństwa w różnych sektorach technologicznych.</p>
-<p>Od zagrożeń związanych z danymi w chmurze, przez błędy systemowe w Windows, po nowe metody phishingu, obszary cyberbezpieczeństwa stają się coraz bardziej złożone.</p>
-<p>Świadomość, szybkie reagowanie i ciągłe edukacje to kluczowe elementy skutecznej obrony przed nowymi cyberzagrożeniami.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="błędy-windows-10--aktualizacja-psuje-funkcję-wyszukiwania-emoji">Błędy Windows 10 – aktualizacja psuje funkcję wyszukiwania emoji<a href="https://www.majdak.online/blog/news-2025-07-14#b%C5%82%C4%99dy-windows-10--aktualizacja-psuje-funkcj%C4%99-wyszukiwania-emoji" class="hash-link" aria-label="Bezpośredni link do Błędy Windows 10 – aktualizacja psuje funkcję wyszukiwania emoji" title="Bezpośredni link do Błędy Windows 10 – aktualizacja psuje funkcję wyszukiwania emoji">​</a></h3>
-<p>Najnowsza aktualizacja KB5062554 dla Windows 10 spowodowała awarię funkcji wyszukiwania emoji w panelu, uniemożliwiając odnajdywanie emotikon po nazwie czy słowie kluczowym.</p>
-<p>Tego typu błędy pokazują, jak ważne jest testowanie update’ów przed szerokim wdrożeniem, aby minimalizować przestój i frustrację użytkowników.</p>
-<p>Użytkownicy powinni śledzić informacje od Microsoft i stosować się do zaleceń dotyczących napraw i wyłączenia problematycznych funkcji.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="luka-w-google-gemini--zagrożenie-dla-e-maili-i-phishingu">Luka w Google Gemini – zagrożenie dla e-maili i phishingu<a href="https://www.majdak.online/blog/news-2025-07-14#luka-w-google-gemini--zagro%C5%BCenie-dla-e-maili-i-phishingu" class="hash-link" aria-label="Bezpośredni link do Luka w Google Gemini – zagrożenie dla e-maili i phishingu" title="Bezpośredni link do Luka w Google Gemini – zagrożenie dla e-maili i phishingu">​</a></h3>
-<p>Google Gemini for Workspace można wykorzystać do tworzenia pozornie wiarygodnych podsumowań e-maili, które mogą zawierać złośliwe instrukcje lub odsyłać do stron phishingowych.</p>
-<p>Ta luka ujawnia, jak nowoczesne narzędzia AI mogą mieć podwójną funkcję – ułatwić pracę, ale też służyć cyberprzestępcom do oszustw.</p>
-<p>Świadomi użytkownicy i administratorzy powinni monitorować te zagrożenia i wdrażać skuteczne mechanizmy ochrony, by nie paść ofiarą.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
