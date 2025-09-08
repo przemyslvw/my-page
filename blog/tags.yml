@@ -464,3 +464,75 @@ falconsescape:
 fedora:
   label: Fedora
   permalink: /blog/tags/fedora
+
+  AIsecurity:
+  label: AIsecurity
+  permalink: /blog/tags/AIsecurity
+
+cybersecurity:
+  label: cybersecurity
+  permalink: /blog/tags/cybersecurity
+
+genAI:
+  label: genAI
+  permalink: /blog/tags/genAI
+
+artificialIntelligence:
+  label: artificialIntelligence
+  permalink: /blog/tags/artificialIntelligence
+
+cyberThreats:
+  label: cyberThreats
+  permalink: /blog/tags/cyberThreats
+
+dataBreach:
+  label: dataBreach
+  permalink: /blog/tags/dataBreach
+
+promptInjection:
+  label: promptInjection
+  permalink: /blog/tags/promptInjection
+
+deepfake:
+  label: deepfake
+  permalink: /blog/tags/deepfake
+
+zeroDay:
+  label: zeroDay
+  permalink: /blog/tags/zeroDay
+
+infosec:
+  label: infosec
+  permalink: /blog/tags/infosec
+
+MLsecurity:
+  label: MLsecurity
+  permalink: /blog/tags/MLsecurity
+
+securityAwareness:
+  label: securityAwareness
+  permalink: /blog/tags/securityAwareness
+
+techRisks:
+  label: techRisks
+  permalink: /blog/tags/techRisks
+
+AIexploit:
+  label: AIexploit
+  permalink: /blog/tags/AIexploit
+
+secureAI:
+  label: secureAI
+  permalink: /blog/tags/secureAI
+
+patchManagement:
+  label: patchManagement
+  permalink: /blog/tags/patchManagement
+
+cyberIncident:
+  label: cyberIncident
+  permalink: /blog/tags/cyberIncident
+
+threatIntelligence:
+  label: threatIntelligence
+  permalink: /blog/tags/threatIntelligence
