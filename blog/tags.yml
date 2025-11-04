@@ -307,6 +307,7 @@ iso27002:
   label: ISO27002
   permalink: /iso27002
   description: Standardy bezpieczeństwa informacji zgodne z ISO27002.
+
 bezpieczeństwo-informacji:
   label: Bezpieczeństwo Informacji
   permalink: /bezpieczenstwo-informacji
