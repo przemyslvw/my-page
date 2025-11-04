@@ -341,7 +341,7 @@ The key to success lies in creating natural, conversational content, focusing on
 Adaptability jest kluczem w ever-evolving landscape of SEO[^73]. Continuous learning, experimentation i staying informed through professional networks i industry publications są fundamentalne dla utrzymania przewagi w erze AI SEO[^73][^60].
 <span style="display:none">[^74][^75][^76][^77][^78][^79][^80][^81][^82][^83][^84][^85][^86][^87][^88][^89][^90][^91][^92][^93][^94][^95]</span>
 
-<div align="center">⁂</div>
+<div style={{textAlign: "center"}}>⁂</div>
 
 [^1]: https://researchfdi.com/future-of-seo-ai/
 
