@@ -2,7 +2,7 @@
 slug: optymalizacja-seo-ai-2025-11-04
 title: "Strategia SEO z wykorzystaniem sztucznej inteligencji: Kompleksowy przewodnik dla 2026"
 authors: [przemyslvw]
-tags: ["AIsecurity", "cybersecurity", "genAI", "artificialIntelligence", "cyberThreats", "dataBreach", "promptInjection", "deepfake", "zeroDay", "infosec", "MLsecurity", "securityAwareness", "techRisks", "AIexploit", "secureAI", "patchManagement", "cyberIncident", "threatIntelligence"]
+tags: ["contentMarketing", "searchAI", "schemaMarkup", "technicalSEO", "eEAT", "featuredSnippets", "voiceSearch", "contentStrategy", "digitalPR", "brandAuthority", "aiTools", "openai", "perplexity", "multimodalSearch", "aiSeo", "geo", "generativeAI", "answerEngineOptimization"]
 date: "2025-11-04"
 ---
 
@@ -78,7 +78,8 @@ Google eksplicytnie rekomenduje **JSON-LD** jako preferowany format schema marku
 
 **Technical SEO dla AI visibility:**
 
-- **Core Web Vitals**: LCP <2.5s, INP <200ms, CLS <0.1 – szybkość i responsywność są coraz ważniejsze dla AI-driven models[^34][^35]
+- **Core Web Vitals**: LCP &lt; 2.5s, INP &lt; 200ms, CLS &lt; 0.1 – szybkość i responsywność są coraz ważniejsze dla AI-driven models[^34][^35]
+
 - **Crawlability i indexability**: Jeśli AI tools nie mogą uzyskać dostępu do Twoich stron, nie pojawisz się w odpowiedziach[^11][^34]
 - **Server-side rendering**: Niektóre AI crawlers wciąż mają problemy z JavaScript, więc SSR zwiększa dostępność[^11]
 - **Mobile-first i HTTPS**: Podstawowe wymogi budujące zaufanie zarówno u użytkowników, jak i systemów AI[^11][^34]

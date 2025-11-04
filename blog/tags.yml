@@ -307,18 +307,17 @@ iso27002:
   label: ISO27002
   permalink: /iso27002
   description: Standardy bezpieczeństwa informacji zgodne z ISO27002.
-
 bezpieczeństwo-informacji:
   label: Bezpieczeństwo Informacji
   permalink: /bezpieczenstwo-informacji
   description: Ochrona i zarządzanie bezpieczeństwem informacji.
 
-standardy-międzynarodowe:
+standardy-miedzynarodowe:
   label: Standardy Międzynarodowe
   permalink: /standardy-miedzynarodowe
   description: Międzynarodowe standardy i normy.
 
-zarządzanie-bezpieczeństwem:
+zarzadzanie-bezpieczenstwem:
   label: Zarządzanie Bezpieczeństwem
   permalink: /zarzadzanie-bezpieczenstwem
   description: Zarządzanie bezpieczeństwem w organizacjach.
@@ -398,156 +397,11 @@ ransomware:
   permalink: /ransomware
   description: Ataki ransomware i metody ochrony.
 
-infosec:
-  label: InfoSec
-  permalink: /infosec
-  description: Bezpieczeństwo informacji i praktyki ochrony.
-
-threat-intelligence:
-  label: Threat Intelligence
-  permalink: /threat-intelligence
-  description: Analiza zagrożeń i wywiad cybernetyczny.
-
-vulnerabilities:
-  label: Vulnerabilities
-  permalink: /vulnerabilities
-  description: Luki i podatności w systemach.
-
-exploits:
-  label: Exploits
-  permalink: /exploits
-  description: Eksploatacja luk i podatności.
-ai:
-  label: AI
-  permalink: /blog/tags/ai
-
-n8n:
-  label: n8n
-  permalink: /blog/tags/n8n
-
-automatyzacja:
-  label: Automatyzacja
-  permalink: /blog/tags/automatyzacja
-
-securityengineer:
-  label: Security Engineer
-  permalink: /blog/tags/securityengineer
-
-przewodnik:
-  label: Przewodnik
-  permalink: /blog/tags/przewodnik
-
-certyfikaty:
-  label: Certyfikaty
-  permalink: /blog/tags/certyfikaty
-
 iso27001:
-  label: ISO 27001
-  permalink: /blog/tags/iso27001
+  label: ISO27001
+  permalink: /iso27001
+  description: Standard ISO/IEC 27001 dotyczący zarządzania bezpieczeństwem informacji.
 
-aiact:
-  label: AI Act
-  permalink: /blog/tags/aiact
-
-kurs:
-  label: kurs
-  permalink: /blog/tags/kurs
-
-game-dev:
-  label: game-dev
-  permalink: /blog/tags/game-dev
-
-falconsescape:
-  label: falconsescape
-  permalink: /blog/tags/falconsescape
-
-fedora:
-  label: Fedora
-  permalink: /blog/tags/fedora
-
-AIsecurity:
-  label: AIsecurity
-  permalink: /blog/tags/AIsecurity
-
-genAI:
-  label: genAI
-  permalink: /blog/tags/genAI
-
-artificialIntelligence:
-  label: artificialIntelligence
-  permalink: /blog/tags/artificialIntelligence
-
-cyberThreats:
-  label: cyberThreats
-  permalink: /blog/tags/cyberThreats
-
-dataBreach:
-  label: dataBreach
-  permalink: /blog/tags/dataBreach
-
-promptInjection:
-  label: promptInjection
-  permalink: /blog/tags/promptInjection
-
-deepfake:
-  label: deepfake
-  permalink: /blog/tags/deepfake
-
-zeroDay:
-  label: zeroDay
-  permalink: /blog/tags/zeroDay
-
-MLsecurity:
-  label: MLsecurity
-  permalink: /blog/tags/MLsecurity
-
-securityAwareness:
-  label: securityAwareness
-  permalink: /blog/tags/securityAwareness
-
-techRisks:
-  label: techRisks
-  permalink: /blog/tags/techRisks
-
-AIexploit:
-  label: AIexploit
-  permalink: /blog/tags/AIexploit
-
-secureAI:
-  label: secureAI
-  permalink: /blog/tags/secureAI
-
-patchManagement:
-  label: patchManagement
-  permalink: /blog/tags/patchManagement
-
-cyberIncident:
-  label: cyberIncident
-  permalink: /blog/tags/cyberIncident
-
-threatIntelligence:
-  label: threatIntelligence
-  permalink: /blog/tags/threatIntelligence
-
-aiSeo:
-  label: AI SEO
-  permalink: /blog/tags/aiSeo
-  description: Optymalizacja SEO z wykorzystaniem sztucznej inteligencji.
-
-geo:
-  label: Geo
-  permalink: /blog/tags/geo
-  description: Geolokalizacja, SEO lokalne i zagadnienia związane z pozycjonowaniem według lokalizacji.
-
-generativeAI:
-  label: Generative AI
-  permalink: /blog/tags/generativeAI
-  description: Modele generatywne (tekst, obraz, audio) i ich zastosowania.
-
-answerEngineOptimization:
-  label: Answer Engine Optimization
-  permalink: /blog/tags/answerEngineOptimization
-  description: Optymalizacja treści pod systemy odpowiadające na pytania i wyszukiwarki odpowiedzi.
 contentMarketing:
   label: Content Marketing
   permalink: /blog/tags/contentMarketing
