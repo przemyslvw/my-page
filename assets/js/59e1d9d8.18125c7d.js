@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_page=self.webpackChunkmy_page||[]).push([[60954],{92263:a=>{a.exports=JSON.parse('{"tag":{"label":"kurs","permalink":"/blog/tags/kurs","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/kurs","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
