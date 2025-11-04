@@ -553,12 +553,11 @@ searchAI:
   label: Search AI
   permalink: /blog/tags/searchAI
   description: Sztuczna inteligencja w systemach wyszukiwawczych i rankingach wyników.
-
+ 
 contentMarketing:
   label: Content Marketing
   permalink: /blog/tags/contentMarketing
   description: Tworzenie i dystrybucja treści mających na celu przyciąganie i angażowanie odbiorców.
-
 schemaMarkup:
   label: Schema Markup
   permalink: /blog/tags/schemaMarkup
