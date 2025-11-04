@@ -528,3 +528,93 @@ cyberIncident:
 threatIntelligence:
   label: threatIntelligence
   permalink: /blog/tags/threatIntelligence
+
+aiSeo:
+  label: AI SEO
+  permalink: /blog/tags/aiSeo
+  description: Optymalizacja SEO z wykorzystaniem sztucznej inteligencji.
+
+geo:
+  label: Geo
+  permalink: /blog/tags/geo
+  description: Geolokalizacja, SEO lokalne i zagadnienia związane z pozycjonowaniem według lokalizacji.
+
+generativeAI:
+  label: Generative AI
+  permalink: /blog/tags/generativeAI
+  description: Modele generatywne (tekst, obraz, audio) i ich zastosowania.
+
+answerEngineOptimization:
+  label: Answer Engine Optimization
+  permalink: /blog/tags/answerEngineOptimization
+  description: Optymalizacja treści pod systemy odpowiadające na pytania i wyszukiwarki odpowiedzi.
+
+searchAI:
+  label: Search AI
+  permalink: /blog/tags/searchAI
+  description: Sztuczna inteligencja w systemach wyszukiwawczych i rankingach wyników.
+
+contentMarketing:
+  label: Content Marketing
+  permalink: /blog/tags/contentMarketing
+  description: Tworzenie i dystrybucja treści mających na celu przyciąganie i angażowanie odbiorców.
+
+schemaMarkup:
+  label: Schema Markup
+  permalink: /blog/tags/schemaMarkup
+  description: Strukturalne dane (schema.org) i ich zastosowanie w SEO.
+
+technicalSEO:
+  label: Technical SEO
+  permalink: /blog/tags/technicalSEO
+  description: Techniczne aspekty optymalizacji: indeksacja, sitemapy, wydajność i crawlability.
+
+eEAT:
+  label: eEAT
+  permalink: /blog/tags/eEAT
+  description: E-E-A-T: doświadczenie, ekspertyza, autorytet i wiarygodność treści.
+
+featuredSnippets:
+  label: Featured Snippets
+  permalink: /blog/tags/featuredSnippets
+  description: Optymalizacja treści pod fragmenty wyróżnione w wynikach wyszukiwania.
+
+voiceSearch:
+  label: Voice Search
+  permalink: /blog/tags/voiceSearch
+  description: Optymalizacja treści pod wyszukiwanie głosowe i interakcje głosowe.
+
+contentStrategy:
+  label: Content Strategy
+  permalink: /blog/tags/contentStrategy
+  description: Planowanie, tworzenie i zarządzanie treścią długoterminowo.
+
+digitalPR:
+  label: Digital PR
+  permalink: /blog/tags/digitalPR
+  description: Public relations w kanałach cyfrowych i budowanie zasięgu online.
+
+brandAuthority:
+  label: Brand Authority
+  permalink: /blog/tags/brandAuthority
+  description: Budowanie autorytetu marki i jej reputacji w sieci.
+
+aiTools:
+  label: AI Tools
+  permalink: /blog/tags/aiTools
+  description: Narzędzia i platformy oparte na sztucznej inteligencji.
+
+openai:
+  label: OpenAI
+  permalink: /blog/tags/openai
+  description: Technologie i projekty związane z OpenAI.
+
+perplexity:
+  label: Perplexity
+  permalink: /blog/tags/perplexity
+  description: Wpisy dotyczące narzędzia Perplexity i podobnych rozwiązań.
+
+multimodalSearch:
+  label: Multimodal Search
+  permalink: /blog/tags/multimodalSearch
+  description: Wyszukiwanie multimodalne (tekst, obraz, dźwięk) i jego praktyczne zastosowania.
