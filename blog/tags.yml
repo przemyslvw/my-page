@@ -548,16 +548,15 @@ answerEngineOptimization:
   label: Answer Engine Optimization
   permalink: /blog/tags/answerEngineOptimization
   description: Optymalizacja treści pod systemy odpowiadające na pytania i wyszukiwarki odpowiedzi.
+contentMarketing:
+  label: Content Marketing
+  permalink: /blog/tags/contentMarketing
+  description: Tworzenie i dystrybucja treści mających na celu przyciąganie i angażowanie odbiorców.
 
 searchAI:
   label: Search AI
   permalink: /blog/tags/searchAI
   description: Sztuczna inteligencja w systemach wyszukiwawczych i rankingach wyników.
-
-contentMarketing:
-  label: Content Marketing
-  permalink: /blog/tags/contentMarketing
-  description: Tworzenie i dystrybucja treści mających na celu przyciąganie i angażowanie odbiorców.
 
 schemaMarkup:
   label: Schema Markup
@@ -567,12 +566,12 @@ schemaMarkup:
 technicalSEO:
   label: Technical SEO
   permalink: /blog/tags/technicalSEO
-  description: Techniczne aspekty optymalizacji: indeksacja, sitemapy, wydajność i crawlability.
+  description: Techniczne aspekty optymalizacji indeksacja, sitemapy, wydajność i crawlability.
 
 eEAT:
   label: eEAT
   permalink: /blog/tags/eEAT
-  description: E-E-A-T: doświadczenie, ekspertyza, autorytet i wiarygodność treści.
+  description: E-E-A-T doświadczenie, ekspertyza, autorytet i wiarygodność treści.
 
 featuredSnippets:
   label: Featured Snippets
