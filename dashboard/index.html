@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Danych w Czasie Rzeczywistym</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header z tytułem -->
+        <header class="header">
+            <h1>Monitor Danych w Czasie Rzeczywistym</h1>
+            <button id="settingsBtn" class="settings-btn" title="Ustawienia URL">⚙️</button>
+        </header>
+
+        <!-- Grid z 5 iframe-ami -->
+        <main class="iframe-grid">
+            <!-- Duży iframe na górze (zajmuje całą szerokość) -->
+            <div class="iframe-wrapper iframe-large">
+                <div class="iframe-header">
+                    <span class="iframe-title">Panel 1</span>
+                    <button class="refresh-btn" data-iframe="1" title="Odśwież">🔄</button>
+                </div>
+                <iframe id="iframe1" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- 4 mniejsze iframe-y w dolnej części -->
+            <div class="iframe-wrapper iframe-small">
+                <div class="iframe-header">
+                    <span class="iframe-title">Panel 2</span>
+                    <button class="refresh-btn" data-iframe="2" title="Odśwież">🔄</button>
+                </div>
+                <iframe id="iframe2" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="iframe-wrapper iframe-small">
+                <div class="iframe-header">
+                    <span class="iframe-title">Panel 3</span>
+                    <button class="refresh-btn" data-iframe="3" title="Odśwież">🔄</button>
+                </div>
+                <iframe id="iframe3" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="iframe-wrapper iframe-small">
+                <div class="iframe-header">
+                    <span class="iframe-title">Panel 4</span>
+                    <button class="refresh-btn" data-iframe="4" title="Odśwież">🔄</button>
+                </div>
+                <iframe id="iframe4" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="iframe-wrapper iframe-small">
+                <div class="iframe-header">
+                    <span class="iframe-title">Panel 5</span>
+                    <button class="refresh-btn" data-iframe="5" title="Odśwież">🔄</button>
+                </div>
+                <iframe id="iframe5" src="https://www.example.com" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal do ustawień URL -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Konfiguracja URL Iframe-ów</h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="url-input-group">
+                    <label for="url1">Panel 1 URL:</label>
+                    <input type="url" id="url1" placeholder="https://example.com">
+                </div>
+                <div class="url-input-group">
+                    <label for="url2">Panel 2 URL:</label>
+                    <input type="url" id="url2" placeholder="https://example.com">
+                </div>
+                <div class="url-input-group">
+                    <label for="url3">Panel 3 URL:</label>
+                    <input type="url" id="url3" placeholder="https://example.com">
+                </div>
+                <div class="url-input-group">
+                    <label for="url4">Panel 4 URL:</label>
+                    <input type="url" id="url4" placeholder="https://example.com">
+                </div>
+                <div class="url-input-group">
+                    <label for="url5">Panel 5 URL:</label>
+                    <input type="url" id="url5" placeholder="https://example.com">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="saveBtn" class="save-btn">Zapisz Ustawienia</button>
+                <button id="resetBtn" class="reset-btn">Resetuj</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
