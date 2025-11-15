@@ -7,13 +7,11 @@ tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulner
 date: "2025-05-23"
 ---
 
-
-## Najgorętsze skandale i ataki tygodnia
-
 Apple i Google w centrum kontrowersji: CEO Tim Cook próbował przekonać gubernatora Teksasu do zmiany lub odrzucenia nowej ustawy o weryfikacji wieku użytkowników urządzeń — czy to początek nowej wojny technologicznej?
 
 Chińscy hakerzy i amerykańskie służby: odkryto, że grupa UAT-6382 wykorzystała lukę w Trimble Cityworks, by infiltrate’ować amerykańskie instytucje rządowe. Czy to początek globalnej manipulacji?
 
+<!-- truncate -->
 
 ## Tajniki cyberpiractwa i wyłudzeń
 

@@ -8,6 +8,8 @@ date: "2025-08-06"
 
 YubiKey to uniwersalne urządzenie bezpieczeństwa, które może znacznie zwiększyć ochronę systemu Linux. Ten przewodnik przedstawia wszystkie aspekty konfiguracji YubiKey na Fedora, od podstawowej instalacji po zaawansowane scenariusze użytkowania.
 
+<!-- truncate -->
+
 ## Wprowadzenie do YubiKey
 
 YubiKey to fizyczny token bezpieczeństwa, który łączy w sobie kilka technologii uwierzytelniania:

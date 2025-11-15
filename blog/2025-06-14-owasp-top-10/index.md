@@ -11,6 +11,8 @@ Chcesz poznać **narzędzia**, **techniki** i **raportowanie zgodne z OWASP Top 
 
 Stworzyliśmy **praktyczny kurs**, który prowadzi Cię krok po kroku przez wszystkie kluczowe podatności z listy OWASP – wraz z przykładami narzędzi, checklistami, i finalnym raportem bezpieczeństwa.
 
+<!-- truncate -->
+
 ## 🔍 Co zawiera kurs?
 
 - Analizę stosu technologicznego aplikacji (frontend, backend, serwer)

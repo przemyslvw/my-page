@@ -15,6 +15,8 @@ Cyberprzestępcy wykorzystują popularność TikToka, aby rozprowadzać malware 
 
 To nowoczesne i ekstremalnie ryzykowne rozwiązanie, które sprawia, że infekcji trudno zapobiec – zabezpieczenia bazujące na tradycyjnych metodach stają się bezsilne.
 
+<!-- truncate -->
+
 
 ## Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń
 

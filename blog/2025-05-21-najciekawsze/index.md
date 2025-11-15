@@ -14,6 +14,7 @@ W 2025 roku media informują o wyciekach danych milionów użytkowników – prz
 
 Oprócz tego, badacze z Imperva odkryli podatność w WordPressie, umożliwiającą poznanie tytułów prywatnych wpisów i szkiców, co może prowadzić do poważnych konsekwencji, zwłaszcza w przypadku wpisów wrażliwych lub poufnych decyzji.
 
+<!-- truncate -->
 
 ## Zaawansowane działania państwowych grup hakerskich
 
