@@ -559,10 +559,10 @@
         <category label="OpenAI" term="OpenAI"/>
         <category label="Perplexity" term="Perplexity"/>
         <category label="Multimodal Search" term="Multimodal Search"/>
-        <category label="aiSeo" term="aiSeo"/>
-        <category label="geo" term="geo"/>
-        <category label="generativeAI" term="generativeAI"/>
-        <category label="answerEngineOptimization" term="answerEngineOptimization"/>
+        <category label="AI SEO" term="AI SEO"/>
+        <category label="Geo" term="Geo"/>
+        <category label="Generative AI" term="Generative AI"/>
+        <category label="Answer Engine Optimization" term="Answer Engine Optimization"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
@@ -603,24 +603,24 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="AIsecurity" term="AIsecurity"/>
+        <category label="AI Security" term="AI Security"/>
         <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="genAI" term="genAI"/>
-        <category label="artificialIntelligence" term="artificialIntelligence"/>
-        <category label="cyberThreats" term="cyberThreats"/>
-        <category label="dataBreach" term="dataBreach"/>
-        <category label="promptInjection" term="promptInjection"/>
-        <category label="deepfake" term="deepfake"/>
-        <category label="zeroDay" term="zeroDay"/>
-        <category label="infosec" term="infosec"/>
-        <category label="MLsecurity" term="MLsecurity"/>
-        <category label="securityAwareness" term="securityAwareness"/>
-        <category label="techRisks" term="techRisks"/>
-        <category label="AIexploit" term="AIexploit"/>
-        <category label="secureAI" term="secureAI"/>
-        <category label="patchManagement" term="patchManagement"/>
-        <category label="cyberIncident" term="cyberIncident"/>
-        <category label="threatIntelligence" term="threatIntelligence"/>
+        <category label="Generative AI" term="Generative AI"/>
+        <category label="Artificial Intelligence" term="Artificial Intelligence"/>
+        <category label="Cyber Threats" term="Cyber Threats"/>
+        <category label="Data Breach" term="Data Breach"/>
+        <category label="Prompt Injection" term="Prompt Injection"/>
+        <category label="Deepfake" term="Deepfake"/>
+        <category label="Zero Day" term="Zero Day"/>
+        <category label="Infosec" term="Infosec"/>
+        <category label="ML Security" term="ML Security"/>
+        <category label="Security Awareness" term="Security Awareness"/>
+        <category label="Tech Risks" term="Tech Risks"/>
+        <category label="AI Exploit" term="AI Exploit"/>
+        <category label="Secure AI" term="Secure AI"/>
+        <category label="Patch Management" term="Patch Management"/>
+        <category label="Cyber Incident" term="Cyber Incident"/>
+        <category label="Threat Intelligence" term="Threat Intelligence"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
@@ -661,24 +661,24 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
         </author>
-        <category label="AIsecurity" term="AIsecurity"/>
+        <category label="AI Security" term="AI Security"/>
         <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="genAI" term="genAI"/>
-        <category label="artificialIntelligence" term="artificialIntelligence"/>
-        <category label="cyberThreats" term="cyberThreats"/>
-        <category label="dataBreach" term="dataBreach"/>
-        <category label="promptInjection" term="promptInjection"/>
-        <category label="deepfake" term="deepfake"/>
-        <category label="zeroDay" term="zeroDay"/>
-        <category label="infosec" term="infosec"/>
-        <category label="MLsecurity" term="MLsecurity"/>
-        <category label="securityAwareness" term="securityAwareness"/>
-        <category label="techRisks" term="techRisks"/>
-        <category label="AIexploit" term="AIexploit"/>
-        <category label="secureAI" term="secureAI"/>
-        <category label="patchManagement" term="patchManagement"/>
-        <category label="cyberIncident" term="cyberIncident"/>
-        <category label="threatIntelligence" term="threatIntelligence"/>
+        <category label="Generative AI" term="Generative AI"/>
+        <category label="Artificial Intelligence" term="Artificial Intelligence"/>
+        <category label="Cyber Threats" term="Cyber Threats"/>
+        <category label="Data Breach" term="Data Breach"/>
+        <category label="Prompt Injection" term="Prompt Injection"/>
+        <category label="Deepfake" term="Deepfake"/>
+        <category label="Zero Day" term="Zero Day"/>
+        <category label="Infosec" term="Infosec"/>
+        <category label="ML Security" term="ML Security"/>
+        <category label="Security Awareness" term="Security Awareness"/>
+        <category label="Tech Risks" term="Tech Risks"/>
+        <category label="AI Exploit" term="AI Exploit"/>
+        <category label="Secure AI" term="Secure AI"/>
+        <category label="Patch Management" term="Patch Management"/>
+        <category label="Cyber Incident" term="Cyber Incident"/>
+        <category label="Threat Intelligence" term="Threat Intelligence"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kryzys cyberbezpieczeństwa września 2025: Rekordowy wzrost ataków ransomware i nowe zagrożenia]]></title>
@@ -836,7 +836,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -885,7 +885,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -910,7 +910,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1026,7 +1026,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1240,7 +1240,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1292,7 +1292,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1435,7 +1435,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
             <uri>https://www.majdak.online</uri>
         </author>
         <category label="YubiKey" term="YubiKey"/>
-        <category label="fedora" term="fedora"/>
+        <category label="Fedora" term="Fedora"/>
         <category label="Linux" term="Linux"/>
         <category label="Security" term="Security"/>
     </entry>
@@ -1589,7 +1589,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1625,7 +1625,7 @@ Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inży
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1676,7 +1676,7 @@ Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inży
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1810,7 +1810,7 @@ Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inży
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -1846,7 +1846,7 @@ Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, kt�
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -2087,7 +2087,7 @@ Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, kt�
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
     <entry>
@@ -2412,7 +2412,7 @@ SonicWall urges customers to patch SMA 100 series appliances against a critical 
         </author>
         <category label="Cybersecurity" term="Cybersecurity"/>
         <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
+        <category label="Exploits" term="Exploits"/>
         <category label="Privacy" term="Privacy"/>
     </entry>
 </feed>

@@ -552,10 +552,10 @@
             <category>OpenAI</category>
             <category>Perplexity</category>
             <category>Multimodal Search</category>
-            <category>aiSeo</category>
-            <category>geo</category>
-            <category>generativeAI</category>
-            <category>answerEngineOptimization</category>
+            <category>AI SEO</category>
+            <category>Geo</category>
+            <category>Generative AI</category>
+            <category>Answer Engine Optimization</category>
         </item>
         <item>
             <title><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
@@ -592,24 +592,24 @@ W czerwcu–lipcu 2025 AI generował deepfake głosu i tekstu przedstawiając si
 W czerwcu 2025 malware “Skynet” wstrzykiwało prompt-injection do AI AV, nakazując “NO MALWARE DETECTED” i uruchamiając proxy TOR. Stanowi to dowód rosnącej zaawansowania ataków dezinformujących systemy AI, wymagając wielowarstwowej detekcji i polityk niespolegających wyłącznie na AI.</p>
 <p>Exploit 14: Wstrzyknięcie poleceń AI bez kliknięcia w M365 Copilot
 W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe instrukcje w mailu powodowały wyciek danych korporacyjnych bez interakcji użytkownika. Microsoft załatał go w Patch Tuesday; incydent uwydatnił konieczność izolacji kontekstu oraz wymuszania wyraźnych poleceń użytkownika.</p>]]></content:encoded>
-            <category>AIsecurity</category>
+            <category>AI Security</category>
             <category>Cybersecurity</category>
-            <category>genAI</category>
-            <category>artificialIntelligence</category>
-            <category>cyberThreats</category>
-            <category>dataBreach</category>
-            <category>promptInjection</category>
-            <category>deepfake</category>
-            <category>zeroDay</category>
-            <category>infosec</category>
-            <category>MLsecurity</category>
-            <category>securityAwareness</category>
-            <category>techRisks</category>
-            <category>AIexploit</category>
-            <category>secureAI</category>
-            <category>patchManagement</category>
-            <category>cyberIncident</category>
-            <category>threatIntelligence</category>
+            <category>Generative AI</category>
+            <category>Artificial Intelligence</category>
+            <category>Cyber Threats</category>
+            <category>Data Breach</category>
+            <category>Prompt Injection</category>
+            <category>Deepfake</category>
+            <category>Zero Day</category>
+            <category>Infosec</category>
+            <category>ML Security</category>
+            <category>Security Awareness</category>
+            <category>Tech Risks</category>
+            <category>AI Exploit</category>
+            <category>Secure AI</category>
+            <category>Patch Management</category>
+            <category>Cyber Incident</category>
+            <category>Threat Intelligence</category>
         </item>
         <item>
             <title><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
@@ -646,24 +646,24 @@ W czerwcu–lipcu 2025 AI generował deepfake głosu i tekstu przedstawiając si
 W czerwcu 2025 malware “Skynet” wstrzykiwało prompt-injection do AI AV, nakazując “NO MALWARE DETECTED” i uruchamiając proxy TOR. Stanowi to dowód rosnącej zaawansowania ataków dezinformujących systemy AI, wymagając wielowarstwowej detekcji i polityk niespolegających wyłącznie na AI.</p>
 <p>Exploit 14: Wstrzyknięcie poleceń AI bez kliknięcia w M365 Copilot
 W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe instrukcje w mailu powodowały wyciek danych korporacyjnych bez interakcji użytkownika. Microsoft załatał go w Patch Tuesday; incydent uwydatnił konieczność izolacji kontekstu oraz wymuszania wyraźnych poleceń użytkownika.</p>]]></content:encoded>
-            <category>AIsecurity</category>
+            <category>AI Security</category>
             <category>Cybersecurity</category>
-            <category>genAI</category>
-            <category>artificialIntelligence</category>
-            <category>cyberThreats</category>
-            <category>dataBreach</category>
-            <category>promptInjection</category>
-            <category>deepfake</category>
-            <category>zeroDay</category>
-            <category>infosec</category>
-            <category>MLsecurity</category>
-            <category>securityAwareness</category>
-            <category>techRisks</category>
-            <category>AIexploit</category>
-            <category>secureAI</category>
-            <category>patchManagement</category>
-            <category>cyberIncident</category>
-            <category>threatIntelligence</category>
+            <category>Generative AI</category>
+            <category>Artificial Intelligence</category>
+            <category>Cyber Threats</category>
+            <category>Data Breach</category>
+            <category>Prompt Injection</category>
+            <category>Deepfake</category>
+            <category>Zero Day</category>
+            <category>Infosec</category>
+            <category>ML Security</category>
+            <category>Security Awareness</category>
+            <category>Tech Risks</category>
+            <category>AI Exploit</category>
+            <category>Secure AI</category>
+            <category>Patch Management</category>
+            <category>Cyber Incident</category>
+            <category>Threat Intelligence</category>
         </item>
         <item>
             <title><![CDATA[Kryzys cyberbezpieczeństwa września 2025: Rekordowy wzrost ataków ransomware i nowe zagrożenia]]></title>
@@ -817,7 +817,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 </section>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -862,7 +862,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <p>W minionym tygodniu cyberprzestępcy pokazali, że automatyzacja ataków i nadużycia połączeń API (OAuth/SaaS) skutecznie omijają klasyczne zabezpieczenia, a krytyczne luki (np. Citrix CVE-2025-7775) są wykorzystywane w praktyce niemal natychmiast po upublicznieniu. W najbliższych dniach spodziewać się można wzmożonej liczby ataków supply chain, dużej aktywności ransomware oraz dalszego wykorzystania AI w automatyzacji i eskalacji ataków.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -883,7 +883,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <p>Pierwszy zestaw ataków obejmuje eksploatację CVE-2024-36401 (wskaźnik CVSS: 9.8).</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -995,7 +995,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <p>Anthropic wprowadza funkcję pozwalającą AI kończyć rozmowy, gdy uzna, że mogą być wykorzystywane w złych celach.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1205,7 +1205,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <p>Grupa Kimsuky z Korei Północnej doznała wycieku danych po ataku dwóch hackerów, którzy upublicznili skradzione informacje.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1253,7 +1253,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 </ul>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1392,7 +1392,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 </ol>
 </section>]]></content:encoded>
             <category>YubiKey</category>
-            <category>fedora</category>
+            <category>Fedora</category>
             <category>Linux</category>
             <category>Security</category>
         </item>
@@ -1542,7 +1542,7 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <p>Mozilla ostrzegła deweloperów rozszerzeń przeglądarki przed aktywną kampanią phishingową wymierzoną w konta na oficjalnym repozytorium AMO (addons.mozilla.org).</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1574,7 +1574,7 @@ OpenAI nie pracuje tylko nad GPT-5. Wygląda na to, że OpenAI również przygot
 Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inżynierowie ChatGPT zostali złapani na używaniu narzędzi kodowania Claude. [...]</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1621,7 +1621,7 @@ Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inży
 </ul>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1751,7 +1751,7 @@ Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inży
 </ul>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -1783,7 +1783,7 @@ Firma ubezpieczeniowa Allianz Life potwierdziła, że dane osobowe „większoś
 Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, która pozwala hakerom na przejęcie konta administratora. [...]</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -2016,7 +2016,7 @@ Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, kt�
 <p>Microsoft usunął blokadę kompatybilności, która uniemożliwiała niektórym użytkownikom Easy Anti-Cheat instalację aktualizacji Windows 11 2024, z powodu znanego problemu wywołującego restart z błędem BSOD.</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
         <item>
@@ -2333,7 +2333,7 @@ Hackers compromised Toptal's GitHub organization account and used their access t
 SonicWall urges customers to patch SMA 100 series appliances against a critical authenticated arbitrary file upload vulnerability that can let attackers gain remote code execution. [...]</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
-            <category>exploits</category>
+            <category>Exploits</category>
             <category>Privacy</category>
         </item>
     </channel>
