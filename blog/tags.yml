@@ -2,16 +2,15 @@ facebook:
   label: Facebook
   permalink: /facebook
   description: Facebook tag description
-
 hello:
   label: Hello
   permalink: /hello
   description: Hello tag description
-
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
+
 
 hola:
   label: Hola
@@ -377,12 +376,6 @@ malware:
   label: Malware
   permalink: /malware
   description: Złośliwe oprogramowanie i techniki obrony.
-
-ataki:
-  label: Ataki
-  permalink: /ataki
-  description: Techniki ataków i metody obrony.
-
 wydarzenia:
   label: Wydarzenia
   permalink: /wydarzenia
@@ -397,6 +390,191 @@ ransomware:
   label: Ransomware
   permalink: /ransomware
   description: Ataki ransomware i metody ochrony.
+
+vulnerabilities:
+  label: Vulnerabilities
+  permalink: /vulnerabilities
+  description: Luki bezpieczeństwa i raporty o podatnościach.
+
+exploits:
+  label: Exploits
+  permalink: /exploits
+  description: Eksploity i techniki wykorzystania podatności.
+
+osint:
+  label: OSINT
+  permalink: /osint
+  description: Open-source intelligence — techniki zbierania informacji z publicznych źródeł.
+
+analiza:
+  label: Analiza
+  permalink: /analiza
+  description: Analiza techniczna, raporty i case studies.
+
+phoneinfoga:
+  label: PhoneInfoga
+  permalink: /phoneinfoga
+  description: Narzędzie PhoneInfoga i techniki analizy numerów telefonów.
+
+intelx:
+  label: IntelX
+  permalink: /intelx
+  description: Platforma IntelX i metody wyszukiwania informacji.
+
+grupy-hakerskie:
+  label: Grupy Hakerskie
+  permalink: /grupy-hakerskie
+  description: Analiza grup hakerskich i ich działań.
+
+ataki:
+  label: Ataki
+  permalink: /ataki
+  description: Techniki ataków i metody obrony.
+
+securityengineer:
+  label: Security Engineer
+  permalink: /securityengineer
+  description: Rola i porady dla inżynierów bezpieczeństwa.
+
+przewodnik:
+  label: Przewodnik
+  permalink: /przewodnik
+  description: Poradniki i przewodniki krok po kroku.
+
+certyfikaty:
+  label: Certyfikaty
+  permalink: /certyfikaty
+  description: Informacje o certyfikatach i procesie certyfikacji.
+
+aiact:
+  label: AI & ACT
+  permalink: /aiact
+  description: Tematy związane z AI w bezpieczeństwie (skrótowa kategoria).
+
+game-dev:
+  label: Game Dev
+  permalink: /game-dev
+  description: Tworzenie gier i aktualizacje dotyczące projektów game-dev.
+
+falconsescape:
+  label: Falcons Escape
+  permalink: /falconsescape
+  description: Tag specyficzny dla gry/projektu Falcons Escape.
+
+n8n:
+  label: n8n
+  permalink: /n8n
+  description: Automatyzacja workflowów przy użyciu n8n.
+
+fedora:
+  label: Fedora
+  permalink: /fedora
+  description: Poradniki i artykuły związane z dystrybucją Fedora.
+
+aiSeo:
+  label: AI SEO
+  permalink: /ai-seo
+  description: Zastosowania AI w SEO i optymalizacji treści.
+
+geo:
+  label: Geo
+  permalink: /geo
+  description: Geolokalizacja i narzędzia geoinformacyjne.
+
+generativeAI:
+  label: Generative AI
+  permalink: /generative-ai
+  description: Generatywne modele AI i ich zastosowania.
+
+answerEngineOptimization:
+  label: Answer Engine Optimization
+  permalink: /answer-engine-optimization
+  description: Optymalizacja treści pod wyszukiwarki odpowiedzi.
+
+AIsecurity:
+  label: AI Security
+  permalink: /ai-security
+  description: Bezpieczeństwo systemów wykorzystujących AI.
+
+genAI:
+  label: Generative AI
+  permalink: /gen-ai
+  description: Generatywna sztuczna inteligencja.
+
+artificialIntelligence:
+  label: Artificial Intelligence
+  permalink: /artificial-intelligence
+  description: Ogólne tematy związane ze sztuczną inteligencją.
+
+cyberThreats:
+  label: Cyber Threats
+  permalink: /cyber-threats
+  description: Zagrożenia i incydenty cybernetyczne.
+
+dataBreach:
+  label: Data Breach
+  permalink: /data-breach
+  description: Incydenty wycieków danych i analiza skutków.
+
+promptInjection:
+  label: Prompt Injection
+  permalink: /prompt-injection
+  description: Ataki na modele językowe i manipulacje promptami.
+
+deepfake:
+  label: Deepfake
+  permalink: /deepfake
+  description: Fałszywe treści multimedialne i ich wykrywanie.
+
+zeroDay:
+  label: Zero Day
+  permalink: /zero-day
+  description: Luki zero-day i raporty o nowych exploitach.
+
+infosec:
+  label: Infosec
+  permalink: /infosec
+  description: Informacje o bezpieczeństwie informacji.
+
+MLsecurity:
+  label: ML Security
+  permalink: /ml-security
+  description: Bezpieczeństwo modeli uczenia maszynowego.
+
+securityAwareness:
+  label: Security Awareness
+  permalink: /security-awareness
+  description: Edukacja i podnoszenie świadomości na temat bezpieczeństwa.
+
+techRisks:
+  label: Tech Risks
+  permalink: /tech-risks
+  description: Ryzyka technologiczne i ich ocena.
+
+AIexploit:
+  label: AI Exploit
+  permalink: /ai-exploit
+  description: Wykorzystania słabości w systemach AI.
+
+secureAI:
+  label: Secure AI
+  permalink: /secure-ai
+  description: Projektowanie bezpiecznych systemów AI.
+
+patchManagement:
+  label: Patch Management
+  permalink: /patch-management
+  description: Zarządzanie poprawkami i aktualizacjami.
+
+cyberIncident:
+  label: Cyber Incident
+  permalink: /cyber-incident
+  description: Reagowanie na incydenty i procesy ich obsługi.
+
+threatIntelligence:
+  label: Threat Intelligence
+  permalink: /threat-intelligence
+  description: Zbieranie i analiza informacji o zagrożeniach.
 
 iso27001:
   label: ISO27001
