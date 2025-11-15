@@ -2,11 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2025-11-04T00:00:00.000Z</updated>
+    <updated>2025-11-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Pegasus: Meta wygrała. Ty wciąż jesteś śledzony]]></title>
+        <id>https://www.majdak.online/blog/pegasus-tracking-2025-11-15</id>
+        <link href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15"/>
+        <updated>2025-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Pegasus to zaawansowany spyware opracowany przez izraelską grupę NSO, która została niedawno przejęta przez inwestorów amerykańskich. Oprogramowanie kosztuje 20 000 USD za telefon i jest uważane za jeden z najbardziej zaawansowanych narzędzi szpiegowskich na świecie.]]></summary>
+        <content type="html"><![CDATA[<p>Pegasus to zaawansowany spyware opracowany przez izraelską grupę NSO, która została niedawno przejęta przez inwestorów amerykańskich. Oprogramowanie kosztuje <strong>20 000 USD za telefon</strong> i jest uważane za jeden z najbardziej zaawansowanych narzędzi szpiegowskich na świecie.<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<p><strong>Wyrok sądu w sprawie Meta kontra NSO</strong></p>
+<p>Sąd amerykański 19 października wydał orzeczenie, w którym zakazał NSO Group dostępu do WhatsApp i innych produktów Meta (Facebook, Instagram). To orzeczenie jest jednak <strong>bardzo zawężone</strong> – zabrania tylko szpiegowania komunikacji na platformach Meta, ale nie zmienia nic w kwestii dostępu do innych aplikacji na telefonie.<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-2" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<p>Sprawa trwała <strong>sześć lat</strong>, co pokazuje, jak powolny jest system prawny. Orzeczenie ma wartość przede wszystkim precedensową – daje ofiarom prawo do pozwania NSO Group, choć w praktyce może to trwać latami.</p>
+<p><strong>Nierealistyczne Oczekiwania Dotyczące Bezpieczeństwa iPhone'a</strong></p>
+<p>Apple twierdzi, że iPhone'y są praktycznie nie do zhakowania, ale ekspert OTW (Occupy The Web) ma zupełnie inną perspektywę na podstawie doświadczeń z analizą zainfekowanych urządzeń. Mimo że konsumenckie złośliwe oprogramowanie rzadko atakuje iPhone'y, zaawansowany spyware mercenarius (taki jak Pegasus) <strong>z łatwością infekuje te urządzenia</strong>.<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-3" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<p>OTW ujawnił szokujący fakt: w ostatnich dziewięciu miesiącach odkrył, że <strong>wiele zwykłych telefonów użytkowników jest zainfekowanego złośliwym oprogramowaniem</strong> z różnych źródeł. Ludzie mają nie tylko zainfekowne telefony, ale także routery, urządzenia smart home, a nawet samochody. Bramy garażowe otwierają się losowo, światła migają – wszystko dlatego, że po uzyskaniu dostępu do sieci Wi-Fi atakujący mogą kontrolować wszystkie urządzenia w sieci.<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-4" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mity-i-rzeczywistość">Mity i Rzeczywistość<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#mity-i-rzeczywisto%C5%9B%C4%87" class="hash-link" aria-label="Bezpośredni link do Mity i Rzeczywistość" title="Bezpośredni link do Mity i Rzeczywistość">​</a></h3>
+<table><thead><tr><th style="text-align:left">Aspekt</th><th style="text-align:left">Mit Apple</th><th style="text-align:left">Rzeczywistość</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Podatność na malware</strong></td><td style="text-align:left">iPhone'y są niehackable</td><td style="text-align:left">Liczne iPhone'y mają zainfekowania, które użytkownicy nie zdają sobie sprawy</td></tr><tr><td style="text-align:left"><strong>Zagrożenie</strong></td><td style="text-align:left">Tylko od rządów (Pegasus)</td><td style="text-align:left">Również od zwykłych hakerów najętych przez konkurentów biznesowych</td></tr><tr><td style="text-align:left"><strong>Metody ataku</strong></td><td style="text-align:left">Wyrafinowane exploity</td><td style="text-align:left">W 80% wypadków wykorzystywany jest social engineering</td></tr><tr><td style="text-align:left"><strong>Czasochłonność</strong></td><td style="text-align:left">Należy do przeszłości</td><td style="text-align:left">Wciąż głównym wektorem ataku</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apple-iphone-17--nowe-zabezpieczenia">Apple iPhone 17 – Nowe Zabezpieczenia<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#apple-iphone-17--nowe-zabezpieczenia" class="hash-link" aria-label="Bezpośredni link do Apple iPhone 17 – Nowe Zabezpieczenia" title="Bezpośredni link do Apple iPhone 17 – Nowe Zabezpieczenia">​</a></h3>
+<p>Apple wprowadził <strong>memory integrity enforcement</strong> (egzekucję integralności pamięci), co jest porównane do istniejących już od ponad dekady technik takich jak ASLR (Address Space Layout Randomization). Nowa ochrona powinna utrudnić ataki, ale:</p>
+<ul>
+<li>Podobne techniki były już łatwe do obejścia przez malware</li>
+<li><strong>Nie czyni to iPhone'a unhackable</strong> – jedynie utrudni ataki</li>
+<li>Technologia może jedynie <strong>spowolnić</strong> dobrze sfinansowanych atakujących<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-5" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
+</ul>
+<p><strong>Program Bug Bounty</strong>: Apple zwiększył nagrody z 1 miliona do <strong>5 milionów USD</strong> za obejście zabezpieczeń w trybie Lockdown Mode. Jednak 5 milionów USD to <strong>niewystarczająca kwota</strong> w porównaniu z cenami, jakie oferują rządy autorytarne – mogą płacić <strong>setki milionów dolarów</strong> za zaawansowany spyware.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="porównanie-systemów-operacyjnych">Porównanie Systemów Operacyjnych<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#por%C3%B3wnanie-system%C3%B3w-operacyjnych" class="hash-link" aria-label="Bezpośredni link do Porównanie Systemów Operacyjnych" title="Bezpośredni link do Porównanie Systemów Operacyjnych">​</a></h3>
+<table><thead><tr><th style="text-align:left">Platform</th><th style="text-align:left">Bezpieczeństwo</th><th style="text-align:left">Uwagi</th></tr></thead><tbody><tr><td style="text-align:left"><strong>iPhone (iOS)</strong></td><td style="text-align:left">Średnie-Wysokie</td><td style="text-align:left">Trudniejszy do zhakowania, ale podatny na ataki zaawansowane; marketing jest mylący</td></tr><tr><td style="text-align:left"><strong>GrapheneOS</strong></td><td style="text-align:left">Najwyższe</td><td style="text-align:left">Najlepszy wybór dla osób zainteresowanych bezpieczeństwem, ale atakujący mogą zmienić cel</td></tr><tr><td style="text-align:left"><strong>Android (stock)</strong></td><td style="text-align:left">Niskie</td><td style="text-align:left">82% rynku, ale wielu użytkowników ma nieaktualizowane telefony – łatwy cel</td></tr><tr><td style="text-align:left"><strong>Telefony flip</strong></td><td style="text-align:left">Bardzo niskie</td><td style="text-align:left">Brak obrony; wymagają innego typu ataku; używanie SMS'ów w czystym tekście</td></tr></tbody></table>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kluczowy-wgląd-zagrożenie-łańcuchowe">Kluczowy Wgląd: Zagrożenie Łańcuchowe<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#kluczowy-wgl%C4%85d-zagro%C5%BCenie-%C5%82a%C5%84cuchowe" class="hash-link" aria-label="Bezpośredni link do Kluczowy Wgląd: Zagrożenie Łańcuchowe" title="Bezpośredni link do Kluczowy Wgląd: Zagrożenie Łańcuchowe">​</a></h3>
+<p>Jeśli jeden telefon w domu/sieci jest zainfekowany, atakujący może przejąć całą sieć Wi-Fi i pozostałe urządzenia. To wyjaśnia obserwacje OTW, że ludzie mający całkowicie "zhakowane" domy – <strong>wszystko jest podatne, jeśli jedno urządzenie nośnikowe jest zainfekowane</strong>.<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-6" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="aspekt-prawny-i-polityczny">Aspekt Prawny i Polityczny<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#aspekt-prawny-i-polityczny" class="hash-link" aria-label="Bezpośredni link do Aspekt Prawny i Polityczny" title="Bezpośredni link do Aspekt Prawny i Polityczny">​</a></h3>
+<ul>
+<li><strong>NSO Group</strong> jest obecnie własnością inwestorów amerykańskich (wcześniej izraelskich)</li>
+<li>Pegasus jest <strong>zakazany w USA</strong>, ale rządy mają dostęp do podobnych narzędzi poprzez kontraktantów</li>
+<li>17 amerykańskich agencji wywiadowczych (nie tylko NSA) prowadzi operacje szpiegowskie</li>
+<li>Legalne jest tworzenie złośliwego oprogramowania <strong>dla rządów</strong> – nielegalne dla każdego innego<sup><a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fn-1-6caec7" id="user-content-fnref-1-6caec7-7" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wnioski">Wnioski<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#wnioski" class="hash-link" aria-label="Bezpośredni link do Wnioski" title="Bezpośredni link do Wnioski">​</a></h3>
+<ol>
+<li><strong>Brak bezpiecznych urządzeń</strong> – Wszystko jest hackable; chodzi tylko o zasoby i czas, jakie atakujący chce poświęcić</li>
+<li><strong>Marketing Apple jest zwodniczy</strong> – Firmy twierdzą, że ich produkty są "unhackable", podczas gdy rzeczywistość pokazuje, że wiele iPhone'ów jest zainfekowanych</li>
+<li><strong>Niski zwrot z bug bounty</strong> – 5 milionów USD nie zniechęca hakerów, którzy mogą zarobić znacznie więcej sprzedając exploity rządom</li>
+<li><strong>Zagrożenie sieciowe</strong> – Jedno zainfekowane urządzenie może zainfekować całą sieć domową, w tym smart home, routery i inne gadżety</li>
+<li><strong>Social engineering pozostaje kluczowy</strong> – 80% haków ma element inżynierii społecznej; po dostępie do sieci atakujący mają relatywnie łatwo</li>
+<li><strong>Orzeczenie sądowe ma ograniczoną wartość</strong> – Choć zabrana NSO dostęp do WhatsApp, Pegasus może nadal szpiegować wszystkie inne aplikacje i komunikację</li>
+<li><strong>Większe zagrożenie niż się wydaje</strong> – Oprócz rządowych zagrożeń (Pegasus), istnieją zwykli hakerzy najęci przez konkurentów biznesowych lub inne osoby</li>
+</ol>
+<p>Dla Ciebie jako profesjonalisty cybersecurity: ten materiał potwierdza, że <strong>żaden system nie jest bezpieczny w pełni</strong>, a marketing producентów czasem znacznie odbiega od rzeczywistości. Inwestycja w edukację, monitorowanie sieci i segmentację urządzeń jest kluczowa.</p>
+<div style="text-align:center">⁂</div>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#footnote-label" class="hash-link" aria-label="Bezpośredni link do Footnotes" title="Bezpośredni link do Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-6caec7">
+<p><a href="https://www.youtube.com/watch?v=e9n3TxzS3sY" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=e9n3TxzS3sY</a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-2" data-footnote-backref="" aria-label="Back to reference 1-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-3" data-footnote-backref="" aria-label="Back to reference 1-3" class="data-footnote-backref">↩<sup>3</sup></a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-4" data-footnote-backref="" aria-label="Back to reference 1-4" class="data-footnote-backref">↩<sup>4</sup></a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-5" data-footnote-backref="" aria-label="Back to reference 1-5" class="data-footnote-backref">↩<sup>5</sup></a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-6" data-footnote-backref="" aria-label="Back to reference 1-6" class="data-footnote-backref">↩<sup>6</sup></a> <a href="https://www.majdak.online/blog/pegasus-tracking-2025-11-15#user-content-fnref-1-6caec7-7" data-footnote-backref="" aria-label="Back to reference 1-7" class="data-footnote-backref">↩<sup>7</sup></a></p>
+</li>
+</ol>
+</section>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Facebook" term="Facebook"/>
+        <category label="Privacy" term="Privacy"/>
+        <category label="Cybersecurity" term="Cybersecurity"/>
+        <category label="Security" term="Security"/>
+        <category label="Malware" term="Malware"/>
+        <category label="Web Security" term="Web Security"/>
+        <category label="Open Source Intel" term="Open Source Intel"/>
+        <category label="GPS" term="GPS"/>
+        <category label="Spoofing" term="Spoofing"/>
+        <category label="Ataki" term="Ataki"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Strategia SEO z wykorzystaniem sztucznej inteligencji: Kompleksowy przewodnik dla 2026]]></title>
         <id>https://www.majdak.online/blog/optymalizacja-seo-ai-2025-11-04</id>
@@ -2337,102 +2406,6 @@ Hackers compromised Toptal's GitHub organization account and used their access t
 <hr>
 <p>SonicWall urges admins to patch critical RCE flaw in SMA 100 devices
 SonicWall urges customers to patch SMA 100 series appliances against a critical authenticated arbitrary file upload vulnerability that can let attackers gain remote code execution. [...]</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="exploits" term="exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google i Microsoft wiodą prym w cyberwojnach, wyciekach danych i wyzwaniu AI – czy jesteśmy gotowi na przyszłość pełną zagrożeń?]]></title>
-        <id>https://www.majdak.online/blog/news-2025-07-24</id>
-        <link href="https://www.majdak.online/blog/news-2025-07-24"/>
-        <updated>2025-07-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Wzrost zagrożeń w cyberprzestrzeni jest ogromny – od masowych ataków na SharePoint i WordPress, przez wycieki danych i złośliwe oprogramowanie, po narastającą akcję chińskich i rosyjskich grup hakerskich. Google, Microsoft i Proton wprowadzają nowe rozwiązania, aby chronić użytkowników przed ransomware, backdoorami czy phishingiem, ale równocześnie rośnie liczba zaawansowanych ataków na infrastrukturę krytyczną. Eksperci ostrzegają, że bez proaktywnego budowania ofensywnych zespołów SOC i globalnych standardów bezpieczeństwa, ryzyko katastrofalnych incydentów będzie tylko rosło. W międzyczasie, AI i narzędzia automatyzacji stają się zarówno sojusznikami, jak i zagrożeniami, oferując nowe możliwości, ale i wyzwania, które mogą zagrozić naszej prywatności i infrastrukturze.]]></summary>
-        <content type="html"><![CDATA[<p>Wzrost zagrożeń w cyberprzestrzeni jest ogromny – od masowych ataków na SharePoint i WordPress, przez wycieki danych i złośliwe oprogramowanie, po narastającą akcję chińskich i rosyjskich grup hakerskich. Google, Microsoft i Proton wprowadzają nowe rozwiązania, aby chronić użytkowników przed ransomware, backdoorami czy phishingiem, ale równocześnie rośnie liczba zaawansowanych ataków na infrastrukturę krytyczną. Eksperci ostrzegają, że bez proaktywnego budowania ofensywnych zespołów SOC i globalnych standardów bezpieczeństwa, ryzyko katastrofalnych incydentów będzie tylko rosło. W międzyczasie, AI i narzędzia automatyzacji stają się zarówno sojusznikami, jak i zagrożeniami, oferując nowe możliwości, ale i wyzwania, które mogą zagrozić naszej prywatności i infrastrukturze.</p>
-<p>Forum cyberprzestępczy Leak Zone publicznie ujawnił adresy IP swoich użytkowników
-Ekskluzywnie: Popularne forum 'leaking and cracking' pozostawiło swoją bazę danych wystawioną na internet bez hasła, ujawniając adresy IP logujących się użytkowników.</p>
-<hr>
-<p>AI generuje wiele fikcyjnych raportów o lukach bezpieczeństwa, co wyczerpuje zasoby zespołów bug bounty
-Założyciel jednej z firm zajmujących się testami bezpieczeństwa mówi, że otrzymują dużo czegoś, co wygląda jak złoto, ale jest w rzeczywistości tylko crap. Generowane przez AI raporty o lukach bezpieczeństwa już wpływają na hunting błędów, na lepsze i gorsze sposoby.</p>
-<hr>
-<p>Europejskie władze aresztowały domniemanego administratora słynnego rosyjskiego forum cyberprzestępczego XSS
-Francuskie służby twierdzą, że podsłuchiwały serwer używany przez administratora do dostępu do ich prywatnych wiadomości, które ujawniły działania związane z cyberprzestępczością i atakami ransomware.</p>
-<hr>
-<p>Setki organizacji naruszone w masowych atakach na SharePoint
-Jedna z zaatakowanych organizacji to rządowa agencja odpowiedzialna za utrzymanie zapasu broni jądrowej w USA. Hakerzy wspierani przez Chiny przeprowadzają ataki na serwery SharePoint.</p>
-<hr>
-<p>Co należy wiedzieć o ToolShell, zagrożeniu na SharePoint poddanym masowej eksploatacji
-Unikalny w dostępnej masie exploitable. Bez uwierzytelnienia. Ogromny zasięg. ToolShell ma to wszystko.</p>
-<hr>
-<p>Po ataku za 380 mln USD, Clorox pozywa 'serwis desk' swojego dostawcę za po prostu wydawanie haseł
-Massive hack w 2023 roku był łatwo zapobiegany, twierdzi Clorox.</p>
-<hr>
-<p>Malware CastleLoader infects 469 devices using fake GitHub repos and ClickFix phishing
-Badacze bezpieczeństwa ujawnili nowy, wszechstronny loader malware pod nazwą CastleLoader, używany w kampaniach dystrybuujących różne programy kradnące dane i RATy. Aktywność ta korzysta z phishingu ClickFix, przypominającego Cloudflare, i fałszywych repozytoriów GitHub pod nazwami legalnych aplikacji – mówi szwajcarska firma PRODAFT.</p>
-<hr>
-<p>Firma Sophos i SonicWall załatały krytyczne luki RCE w firewallach i urządzeniach SMA 100
-Firma Sophos oraz SonicWall ostrzegają użytkowników o krytycznych błędach bezpieczeństwa w Sophos Firewall i Secure Mobile Access (SMA) 100 Series, które mogą być wykorzystane do zdalnego wykonania kodu.
-Przedstawione są dwie luki -</p>
-<p>CVE-2025-6704 (CVSS 9.8) – luka w zapisie plików w funkcji Secure PDF eXchange (SPX)</p>
-<hr>
-<p>Obejrzyj ten webinar, aby odkryć ukryte błędy w logowaniu, AI i zaufaniu cyfrowym — i je naprawić
-Czy zarządzanie logowaniami klientów i danymi sprawia, że masz bóle głowy? Nie jesteś sam!
-Dziś oczekujemy superszybkich, bezpiecznych i spersonalizowanych doświadczeń online. Ale szczerze mówiąc, jesteśmy też bardziej ostrożni w wykorzystaniu naszych danych. Jeśli coś wydaje się nie tak, zaufanie znika w mgnieniu oka. Na dodatek, błyskawiczne zmiany w AI zmieniają wszystko — od logowania po wykrywanie oszustw.</p>
-<hr>
-<p>Ataki pentestów raz w roku? Nie, czas na ofensywny SOC
-Nie prowadzisz blue team raz do roku, więc dlaczego akceptować tak słabe harmonogramy dla zespołów ofensywnych? Twoje zespoły cybersecurity muszą być proaktywne, aby wykryć słabości sieci zanim zrobią to przeciwnicy. Jednak w wielu firmach bezpieczeństwo ofensywne jest nadal traktowane jako jednorazowe wydarzenie: coroczny pentest, kwartalne red team albo sprint audytowy.</p>
-<hr>
-<p>Chiny złośliwe grupy APT deployują fałszywe aplikacje Dalaj-szamana do szpiegowania społeczności tybetańskiej
-Społeczność tybetańska była celem grupy cyber-espionage z Chin w ramach dwóch kampanii przeprowadzonych w ubiegłym miesiącu, tuż przed 90. urodzinami Dalaj-szamana 6 lipca 2025.
-Operacje noszą nazwy GhostChat i PhantomPrayers, a badacze Zscaler ThreatLabz twierdzą, że atakujący przejęli kontrolę nad legalną stroną internetową, przekierowując użytkowników poprzez złośliwy link.</p>
-<hr>
-<p>Eksploatacja luk w SharePoint przez Storm-2603 do wdrożenia ransomware Warlock na aktualnych systemach
-Microsoft ujawnił, że jeden z aktorów za próbami aktywnego wykorzystywania luk w SharePoint angażuje się w wdrażanie ransomware Warlock na celowanych systemach.
-Firma, w aktualizacji z środy, podała, że wyniki opierają się na rozszerzonej analizie i wywiadzie cybernetycznym, monitorującym działalność Storm-2603.
-Aktor zagrożenia został przypisany do działania na rzecz finansowych celów.</p>
-<hr>
-<p>Europol aresztował administratora forum XSS w Kijowie po 12 latach działalności na rynku cyberprzestępczym
-Europol ogłosił w poniedziałek aresztowanie podejrzanego administratora XSS.is (dawniej DaMaGeLaB), słynnej platformy cyberprzestępczej z rosyjskojęzycznym personelem.
-Aresztowanie miało miejsce w Kijowie na Ukrainie 22 lipca 2025 r., kierowane przez francuską policję i prokuratora Paryża we współpracy z ukraińskimi służbami.
-Działanie to jest wynikiem śledztwa wszczętego przez organy ścigania.</p>
-<hr>
-<p>Hakerzy wdrażają ukrytą tylną furtkę w WordPress mu-plugins, aby utrzymać dostęp administratora
-Cybersecurity badacze odkryli nową, ukrytą tylną furtkę w katalogu "mu-plugins" na stronach WordPress, pozwalającą zagrożeniom na stały dostęp i wykonywanie dowolnych działań.
-Must-use plugins (w skrócie mu-plugins) to specjalne wtyczki, które są automatycznie aktywowane na wszystkich stronach WordPress po instalacji. Znajdują się w katalogu "wp-content/mu-plugins".</p>
-<hr>
-<p>Aktor zagrożenia Mimo celuje w Magento i Docker, by wdrażać koparki kryptowalut i proxyware
-Aktor zagrożenia odpowiedzialny za wykorzystywanie podatnych wersji Craft CMS przesunął swoją działalność na Magento CMS i źle skonfigurowane kontenery Docker.
-Działanie to przypisuje się aktorowi trackerowanemu jako Mimo (aka Hezb), który ma długą historię wykorzystywania luk N-day w różnych aplikacjach webowych do wdrażania koparek kryptowalut.</p>
-<hr>
-<p>Nowa odmiana malware Coyote wykorzystuje Windows UI Automation do kradzieży danych bankowych
-Znany trojan bankowy Coyote staje się pierwszym złośliwym oprogramowaniem, które korzysta z dostępnej platformy Windows UI Automation (UIA) do pozyskiwania wrażliwych informacji.
-Nowa odmiana ataku jest skierowana do użytkowników w Brazylii i używa UIA do ekstrakcji danych logowania powiązanych z 75 bankami i giełdami kryptowalut.</p>
-<hr>
-<p>Detekcje Kerberoasting: Nowe podejście do wyzwania sprzed dekady
-Eksperci od bezpieczeństwa od ponad dekady mówią o Kerberoasting, ale ten atak nadal unika zwykłych metod obronnych. Dlaczego?
-Ponieważ istniejące wykrycia opierają się na słabych heurystykach i statycznych regułach, które nie nadają się do wykrywania wzorców ataku w wysoko zmiennym ruchu Kerberos.
-Często generują fałszywe alarmy lub pomijają ataki "low-and-slow".</p>
-<hr>
-<p>Google uruchamia OSS Rebuild, aby wykrywać złośliwy kod w szeroko używanych pakietach open-source
-Google ogłosił nową inicjatywę OSS Rebuild mającą na celu zwiększenie bezpieczeństwa ekosystemu open-source i zapobieganie atakom na łańcuch dostaw oprogramowania.
-"Ponieważ ataki na łańcuch dostaw nadal celują w szeroko używane zależności, OSS Rebuild zapewnia zespołom bezpieczeństwa potężne dane, aby uniknąć naruszeń bez obciążania twórców upstream" – mówi Matthew Suozzo z Google Security.</p>
-<hr>
-<p>CISA nakazuje pilne poprawki po wykorzystaniu luk w SharePoint przez chińskich hakerów
-Amerykańska Agencja ds. Cyberbezpieczeństwa i Infrastruktury (CISA) 22 lipca 2025 r. dodała dwie luki w SharePoint, CVE-2025-49704 i CVE-2025-49706, do katalogu znanych eksploatowanych podatności (KEV), bazując na dowodach aktywnego wykorzystywania.
-Proces remediacji jest obowiązkowy dla agencji federalnych do 23 lipca 2025 r.</p>
-<hr>
-<p>CISA ostrzega: luki w SysAid pod aktywnym atakiem umożliwiają zdalny dostęp do plików i SSRF
-U.S. Cybersecurity and Infrastructure Security Agency (CISA) dodała dwie luki bezpieczeństwa w oprogramowaniu SysAid do katalogu KEV, na podstawie dowodów aktywnego wykorzystania.
-Podane luki to:</p>
-<p>CVE-2025-2775 (CVSS: 9.3) – nieprawidłowe ograniczenie odniesienia XML external entity (XXE)</p>
-<hr>
-<p>HeroDevs pozyskał 125 milionów dolarów na zabezpieczenie przestarzałego oprogramowania open-source
-HeroDevs otrzymał strategiczny wkład w wysokości 125 milionów dolarów od PSG na zabezpieczenie stosów bezpieczeństwa dla przedsiębiorstw.</p>
-<hr>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
