@@ -8,6 +8,7 @@ date: "2025-05-17"
 
 Miesiąc maj 2025 przyniósł szereg istotnych informacji z branży cyberbezpieczeństwa. Od poważnych luk w procesorach Intel, przez kampanie malware, po rosnącą aktywność grup hakerskich — te wydarzenia mają kluczowe znaczenie dla bezpieczeństwa cyfrowego organizacji na całym świecie.
 
+<!-- truncate -->
 
 ## Nowe luki w procesorach Intel i powrót problemów Spectre i Meltdown
 

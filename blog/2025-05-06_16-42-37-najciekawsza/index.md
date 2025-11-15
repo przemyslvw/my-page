@@ -8,6 +8,8 @@ date: "2025-05-06"
 
 W mijającym tygodniu obserwujemy narastającą aktywność cyberprzestępców, którzy wykorzystują luki w popularnych technologiach i usługach w celu przeprowadzania ataków na instytucje rządowe, przedsiębiorstwa i użytkowników indywidualnych. Poniżej prezentujemy najbardziej istotne wydarzenia i trendy.
 
+<!-- truncate -->
+
 ## Naruszenia i wycieki danych
 
 ### Hakerzy zaatakowali TeleMessage używany przez amerykańskich urzędników

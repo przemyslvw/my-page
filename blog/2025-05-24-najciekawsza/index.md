@@ -8,15 +8,13 @@ date: "2025-05-24"
 
 Cyberzagrożenia rosną w zastraszającym tempie. Od wykorzystania TikToka do rozprzestrzeniania malware, po poważne luki w zabezpieczeniach – sprawdzamy, co naprawdę czai się za rogiem. Dowiedz się, jak chronić siebie i swoją firmę w świecie pełnym zagrożeń!
 
+<!-- truncate -->
 
 ## TikTok i ClickFix – jak malware trafia do Twojego urządzenia?
 
 Cyberprzestępcy wykorzystują popularność TikToka, aby rozprowadzać malware Latrodectus za pomocą techniki ClickFix, która umożliwia uruchomienie złośliwego kodu w pamięci przeglądarki, omijając zabezpieczenia.
 
 To nowoczesne i ekstremalnie ryzykowne rozwiązanie, które sprawia, że infekcji trudno zapobiec – zabezpieczenia bazujące na tradycyjnych metodach stają się bezsilne.
-
-<!-- truncate -->
-
 
 ## Poważne luki w routerach Cisco i kompromitacja tysięcy urządzeń
 

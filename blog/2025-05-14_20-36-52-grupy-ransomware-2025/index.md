@@ -9,6 +9,8 @@ image: "/img/blog/grupy-ransomware-2025.webp"
 
 W 2025 roku działalność grup ransomware nie zwalnia tempa – przeciwnie, staje się coraz bardziej zorganizowana i nieprzewidywalna. Za największymi kampaniami wymuszeń, szyfrowań i kradzieży danych stoją konkretne grupy przestępcze, działające według modelu RaaS (Ransomware-as-a-Service).
 
+<!-- truncate -->
+
 W tym wpisie przyjrzymy się najaktywniejszym i najgroźniejszym grupom ransomware, które w ostatnich miesiącach dominują raporty analityków cyberbezpieczeństwa.
 
 ## Najbardziej aktywne grupy ransomware

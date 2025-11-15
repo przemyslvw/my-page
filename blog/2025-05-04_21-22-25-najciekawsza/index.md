@@ -8,6 +8,8 @@ date: "2025-05-04"
 
 W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia ze świata cyberbezpieczeństwa. Od działań firm broniących gry wideo przed oszustami, przez zaawansowane ataki na systemy Linux, aż po zagrożenia dla krytycznej infrastruktury i informacje o nowych narzędziach i malware. Przyjrzyjmy się bliżej najnowszym trendom i zagrożeniom.
 
+<!-- truncate -->
+
 ## Riot Games walczy z oszustami w grach online
 
 Riot’s „anti-cheat artisan” Phillip Koskinas opowiada o strategiach walki z cheaterami w takich tytułach jak Valorant i League of Legends. Firma intensywnie rozwija własne technologie wykrywania i blokowania oszustów, skupiając się na identyfikacji nieuczciwych praktyk i developerskich cheatów. To kluczowy element ochrony integralności rozgrywki i zapewnienia uczciwej rywalizacji.

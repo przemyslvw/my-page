@@ -8,6 +8,8 @@ date: "2025-05-19"
 
 Początek 2025 roku przyniósł szereg poważnych incydentów i nowości w dziedzinie cyberbezpieczeństwa. Od wycieków danych i ataków ransomware po innowacyjne technologie chroniące nas przed zagrożeniami – branża musi się nieustannie adaptować do zmieniającego się środowiska cyberprzestępców.
 
+<!-- truncate -->
+
 ## Incydenty związane z wyciekami danych i atakami na firmy
 
 Wśród najważniejszych wydarzeń jest wyciek danych w brytyjskiej agencji prawnej, gdzie hackersie ukradli poufne informacje, oraz ujawnienie danych 480 tysięcy pacjentów Catholic Health w Stanach Zjednoczonych.

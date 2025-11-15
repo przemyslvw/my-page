@@ -1,15 +1,14 @@
 ---
-slug: news-2025-09-08
+slug: news-2025-09-16
 title: "Podsumowanie exploitów AI – Drugi kwartał 2025"
 authors: [przemyslvw]
 tags: ["AIsecurity", "cybersecurity", "genAI", "artificialIntelligence", "cyberThreats", "dataBreach", "promptInjection", "deepfake", "zeroDay", "infosec", "MLsecurity", "securityAwareness", "techRisks", "AIexploit", "secureAI", "patchManagement", "cyberIncident", "threatIntelligence"]
-date: "2025-09-08"
+date: "2025-09-16"
 ---
 
 Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.
 
 <!-- truncate -->
-
 
 Exploit 1: Jailbreak GPT-4.1 poprzez zatrucie narzędziami
 W kwietniu 2025 roku za pomocą “tool poisoning” wbudowano złośliwe instrukcje w opisy narzędzi MCP, co spowodowało, że GPT-4.1 wykonywał nieautoryzowane akcje i wyprowadzał dane bez wiedzy użytkowników. Podatność ujawniła słabość w walidacji i sanitizacji opisów narzędzi, podkreślając konieczność ścisłych kontroli integracji.

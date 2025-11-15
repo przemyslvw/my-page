@@ -5,6 +5,7 @@ authors: [przemyslvw]
 tags: ["cybersecurity", "ataki", "exploits", "privacy"]
 date: "2025-08-07"
 ---
+
 W ostatnich tygodniach globalne cyberzagrożenia przybierają na sile – ataki na francuskiego giganta **Bouygues Telecom**, które wyciekły dane 6,4 miliona klientów, wpisują się w rosnącą skalę naruszeń bezpieczeństwa. Organizacje takie jak **Google**, **Meta** i **Microsoft** odnotowują poważne luki: od wycieków danych i scamów, po zaawansowane ataki z użyciem sztucznej inteligencji oraz złośliwych pakietów oprogramowania.
 
 <!-- truncate -->

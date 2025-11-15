@@ -9,6 +9,8 @@ image: "/img/blog/osint-numer-telefonu.webp"
 
 Weryfikacja numeru telefonu może dostarczyć wielu istotnych informacji z punktu widzenia działu cyberbezpieczeństwa. W tym wpisie pokażemy konkretne techniki i narzędzia OSINT umożliwiające identyfikację właściciela numeru, analizę reputacji oraz ocenę potencjalnych zagrożeń.
 
+<!-- truncate -->
+
 ## Lista technik OSINT dla numeru telefonu
 
 1. **Reverse Phone Lookup**  

@@ -8,6 +8,7 @@ date: "2025-05-14"
 
 Świat cyberbezpieczeństwa nieustannie się rozwija, przynosząc nowe wyzwania i zagrożenia. Od luk w systemach operacyjnych po skomplikowane kampanie phishingowe – informujemy o najnowszych wydarzeniach, które mają kluczowe znaczenie dla bezpieczeństwa cyfrowego.
 
+<!-- truncate -->
 
 ## Nowe luki zero-day w systemie Windows i ich aktywne wykorzystywanie
 

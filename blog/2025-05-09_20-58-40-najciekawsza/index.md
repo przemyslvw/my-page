@@ -8,6 +8,8 @@ date: "2025-05-09"
 
 W dzisiejszym wpisie prezentujemy najważniejsze wydarzenia i trendy ze świata cyberbezpieczeństwa. Od działań law enforcementu po nowe zagrożenia i innowacje w ochronie danych — wszystko, co warto znać, aby być na bieżąco.
 
+<!-- truncate -->
+
 ## Sukcesy organów ścigania: zamknięcie botnetu routerów i operacje międzynarodowe
 Amerykańskie i holenderskie służby zatrzymały i zlikwidowały dużą sieć botnetów zasilanych przez zainfekowane urządzenia IoT i końcowego EoL. Operacja ta obejmowała przejęcie domen i zatrzymanie rosyjskich i kazachskich cyberprzestępców, którzy wykorzystywali zainfekowane routery jako proxy do ukrywania działań złośliwych.
 

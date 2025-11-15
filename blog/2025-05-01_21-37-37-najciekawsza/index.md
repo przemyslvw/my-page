@@ -8,6 +8,8 @@ date: "2025-05-01"
 
 W dzisiejszym wpisie przybliżamy najważniejsze wydarzenia i zagrożenia ze świata cyberbezpieczeństwa z początku maja 2025 roku. Od nowo odkrytych luk bezpieczeństwa po kampanie phishingowe i aktywne ataki na instytucje publiczne oraz przedsiębiorstwa — sytuacja w cyberprzestrzeni jest coraz bardziej złożona i dynamiczna.
 
+<!-- truncate -->
+
 ## Apple informuje o nowych ofiarach spyware
 
 Apple poinformowało o kolejnych użytkownikach, którzy otrzymali powiadomienie o zainstalowanym spyware. Cyberzagrożenia związane z inwigilacją przez złośliwe oprogramowanie stają się coraz bardziej wyrafinowane, co wymusza konieczność ciągłego monitorowania i aktualizacji środków ochronnych.

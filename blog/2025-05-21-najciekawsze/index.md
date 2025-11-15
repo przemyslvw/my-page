@@ -8,13 +8,13 @@ date: "2025-05-21"
 
 Cyberbezpieczeństwo w 2025 roku stoi przed wieloma wyzwaniami – od wycieków danych i ataków na infrastrukturę krytyczną po rosnącą aktywność państwowych grup hackerów. Ciągłe zmiany w technologiach i taktykach sprawiają, że firmy i instytucje muszą nieustannie wzmacniać swoje zabezpieczenia.
 
+<!-- truncate -->
+
 ## Skandale i wycieki danych na szeroką skalę
 
 W 2025 roku media informują o wyciekach danych milionów użytkowników – przykładami są Coinbase, które ujawniło dane ponad 69 tysięcy klientów, oraz PowerSchool, gdzie uczeń przyznał się do hacku narażającego dane milionów uczniów.
 
 Oprócz tego, badacze z Imperva odkryli podatność w WordPressie, umożliwiającą poznanie tytułów prywatnych wpisów i szkiców, co może prowadzić do poważnych konsekwencji, zwłaszcza w przypadku wpisów wrażliwych lub poufnych decyzji.
-
-<!-- truncate -->
 
 ## Zaawansowane działania państwowych grup hakerskich
 

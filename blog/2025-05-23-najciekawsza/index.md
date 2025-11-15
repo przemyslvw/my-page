@@ -1,5 +1,5 @@
 ---
-slug: news-2025-05-23
+slug: news-2025-05-23-a
 title: "Szokujące kulisy cyberwojny: jak wielkie korporacje, rządy i hakerzy walczą o dominację w sieci"
 intro: "Świat cyberbezpieczeństwa nigdy nie śpi — nowe zagrożenia, skandaliczne ataki i globalne operacje lawinowo zmieniają cyfrową mapę. Oto najbardziej gorące wiadomości, które mogą wpłynąć na Twoje bezpieczeństwo już dziś!"
 authors: [przemyslvw]
