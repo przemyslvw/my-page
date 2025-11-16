@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_page=self.webpackChunkmy_page||[]).push([[68667],{85300:a=>{a.exports=JSON.parse('{"tag":{"label":"Atuin","permalink":"/blog/tags/atuin","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/atuin","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
