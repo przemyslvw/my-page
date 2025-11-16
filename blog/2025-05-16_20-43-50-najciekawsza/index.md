@@ -2,12 +2,13 @@
 slug: news-2025-05-16  
 title: "Deepfake, wycieki danych i nowe luki – czy jesteśmy gotowi na falę zagrożeń?"
 authors: [przemyslvw]  
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-16"  
 ---
 
 W ostatnich dniach świat cyberbezpieczeństwa odnotował szereg poważnych incydentów i odkryć, które pokazują, jak dynamicznie rozwijają się zagrożenia i luki w systemach. Zarówno aktywność cyberprzestępców, jak i nowinki techniczne wymuszają na specjalistach nieustanną czujność i aktualizację strategii obronnych.
 
+<!-- truncate -->
 
 ## Rozwój zagrożeń i wyrok dla hakera z USA
 

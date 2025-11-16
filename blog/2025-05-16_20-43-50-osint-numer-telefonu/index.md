@@ -2,7 +2,7 @@
 slug: osint-numer-telefonu
 title: "🔍 OSINT: Jak prześwietlić numer telefonu pod kątem cyberzagrożeń"
 authors: [przemyslvw]
-tags: ["osint", "cyberbezpieczeństwo", "analiza", "phoneinfoga", "intelx"]
+tags: ["osint", "cyberbezpieczenstwo", "analiza", "phoneinfoga", "intelx"]
 date: "2025-05-16"
 image: "/img/blog/osint-numer-telefonu.webp"
 ---

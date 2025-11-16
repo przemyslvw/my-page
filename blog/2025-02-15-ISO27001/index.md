@@ -2,7 +2,7 @@
 slug: iso27001
 title: "Opracowanie dokumentacji ISO27001"
 authors: [przemyslvw]
-tags: [ISO27001, bezpieczeństwo informacji, standardy międzynarodowe, zarządzanie bezpieczeństwem, IT, dokumentacja]
+tags: [ISO27001, bezpieczenstwo-informacji, standardy-miedzynarodowe, zarządzanie-bezpieczeństwem, IT, dokumentacja]
 date: 2025-03-15
 ---
 

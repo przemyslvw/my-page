@@ -2,7 +2,7 @@
 slug: news-2025-05-01
 title: "📰 Podsumowanie wiadomości z 2025-05-01 – Apple informuje o nowych ofiarach ataków spyware na całym świecie"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-05-01"
 ---
 

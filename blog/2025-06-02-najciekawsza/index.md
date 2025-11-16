@@ -2,7 +2,7 @@
 slug: news-2025-06-02
 title: "Cyberbezpieczeństwo w epicentrum chaosu: 10 najnowszych zagrożeń, które mogą zniszczyć Twoją firmę w 2025 roku"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-06-02"
 ---
 

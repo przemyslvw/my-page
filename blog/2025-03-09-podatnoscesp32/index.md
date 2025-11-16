@@ -6,11 +6,10 @@ tags: [ESP32, ESP-IDF, Arduino, PlatformIO, MicroPython, CircuitPython, ESPHome,
 date: 2025-03-09
 ---
 
-# Tarlogic wykrywa ukrytą funkcję w popularnym chipie ESP32, która może zagrozić milionom urządzeń IoT
-
-## Wprowadzenie
 
 Zespół badawczy z firmy Tarlogic Security odkrył nieudokumentowaną funkcję w mikrokontrolerze ESP32, szeroko stosowanym w urządzeniach IoT. To odkrycie rodzi poważne obawy dotyczące bezpieczeństwa milionów urządzeń na całym świecie. 5
+
+<!-- truncate -->
 
 ## Czym jest ESP32?
 

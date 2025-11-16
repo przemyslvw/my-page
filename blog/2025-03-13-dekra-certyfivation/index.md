@@ -2,13 +2,15 @@
 slug: dekra-iso27001-cert
 title: "Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska!"
 authors: [przemyslvw]
-categories: ["certification", "bezpieczeństwo", "iso27002"]
+categories: ["certification", "bezpieczenstwo", "iso27002"]
 date: "2025-03-13"
 ---
 
 ## Uzyskaliśmy certyfikat audytora wewnętrznego od DEKRA Certification Polska! 🎉
 
 Z radością informujemy, że nasza firma uzyskała **certyfikat audytora wewnętrznego** od **DEKRA Certification Polska**! Jest to kolejny krok w naszym zaangażowaniu na rzecz najwyższych standardów **zarządzania bezpieczeństwem informacji** oraz zgodności z normami **ISO 27001**.
+
+<!-- truncate -->
 
 ### Dlaczego to ważne?
 Certyfikat audytora wewnętrznego ISO 27001 potwierdza nasze kompetencje w zakresie:

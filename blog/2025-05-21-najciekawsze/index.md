@@ -2,7 +2,7 @@
 slug: news-2025-05-21
 title: "Cyberwojna 2025: Największe wycieki, ataki hakerów i przełomowe techniki obrony – co musisz wiedzieć?"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-21"
 ---
 

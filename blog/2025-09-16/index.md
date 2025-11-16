@@ -2,7 +2,7 @@
 slug: news-2025-09-16
 title: "Podsumowanie exploitów AI – Drugi kwartał 2025"
 authors: [przemyslvw]
-tags: ["AIsecurity", "cybersecurity", "genAI", "artificialIntelligence", "cyberThreats", "dataBreach", "promptInjection", "deepfake", "zeroDay", "infosec", "MLsecurity", "securityAwareness", "techRisks", "AIexploit", "secureAI", "patchManagement", "cyberIncident", "threatIntelligence"]
+tags: ["AIsecurity", "cybersecurity", "genAI", "artificialIntelligence", "cyberThreats", "dataBreach", "promptInjection", "deepfake", "zeroDay", "infosec", "MLsecurity", "securityAwareness", "techRisks", "AIexploit", "secureAI", "patchManagement", "cyberIncident", "threat-intelligence"]
 date: "2025-09-16"
 ---
 

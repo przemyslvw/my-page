@@ -2,7 +2,7 @@
 slug: news-2025-06-01
 title: "Jak hakerzy zsynchronizowali globalne ataki i ukryli się pod maską cyberprzestępców? Oto najnowsze tajemnice bezpieczeństwa!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 
 date: "2025-06-01"
 ---

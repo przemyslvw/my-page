@@ -2,7 +2,7 @@
 slug: news-2025-05-17  
 title: "Najważniejsze wydarzenia i zagrożenia w cyberbezpieczeństwie w maju 2025"  
 authors: [przemyslvw]  
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-17"  
 ---
 

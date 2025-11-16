@@ -2,7 +2,7 @@
 slug: news-2025-05-19
 title: "Szokujące cyberataki: wycieki danych, ransomware i przełomowe technologie obrony!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-19"
 ---
 

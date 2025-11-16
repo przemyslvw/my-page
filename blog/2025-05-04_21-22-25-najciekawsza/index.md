@@ -2,7 +2,7 @@
 slug: news-2025-05-04
 title: "📰 Podsumowanie wiadomości z dnia 2025-05-04"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-05-04"
 ---
 

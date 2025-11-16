@@ -2,12 +2,13 @@
 slug: news-2025-05-13  
 title: "Najważniejsze wnioski z procesu WhatsApp kontra NSO Group i nowe zagrożenia cyberbezpieczeństwa"  
 authors: [przemyslvw]  
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-13"  
 ---
 
 Ostatnie miesiące przyniosły wiele istotnych doniesień z obszaru cyberbezpieczeństwa, w tym kontrowersyjne wyroki sądowe i nowe techniki ataków. Przyjrzyjmy się najważniejszym wydarzeniom i trendom, które kształtują dzisiejszą branżę ochrony przed cyberzagrożeniami.
 
+<!-- truncate -->
 
 ## Proces WhatsApp vs. NSO Group i jego znaczenie dla branży
 

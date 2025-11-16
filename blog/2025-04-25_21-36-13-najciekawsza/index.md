@@ -2,11 +2,13 @@
 slug: news-2025-04-25
 title: "📰 News Digest: 2025-04-25 Rosnąca liczba ataków na sektory krytyczne"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-04-25"
 ---
 
 Dziś najważniejsze wiadomości to rosnąca liczba ataków na sektory krytyczne i znaczące postępy w technologii bezpieczeństwa.
+
+<!-- truncate -->
 
 ## Najciekawsza informacja dnia
 FBI zaoferowało 10 milionów dolarów za informacje o członkach grupy Salt Typhoon, aktywnie zaangażowanej w ataki na operatorów telekomunikacyjnych w Chinach i innych krajach.

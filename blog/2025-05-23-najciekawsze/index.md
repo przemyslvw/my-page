@@ -2,7 +2,7 @@
 slug: news-2025-05-23-b
 title: "10 najnowszych cyberzagrożeń, które mogą zniszczyć Twoją firmę już dziś!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-23"
 ---
 

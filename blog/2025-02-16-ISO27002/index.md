@@ -2,7 +2,7 @@
 slug: iso27002
 title: "Opracowanie standardu ISO27002"
 authors: [przemyslvw]
-tags: [ISO27002, bezpieczeństwo informacji, standardy międzynarodowe, zarządzanie bezpieczeństwem, IT, dokumentacja]
+tags: [ISO27002, bezpieczenstwo-informacji, standardy-międzynarodowe, zarządzanie-bezpieczeństwem, IT, dokumentacja]
 date: 2025-02-16
 ---
 

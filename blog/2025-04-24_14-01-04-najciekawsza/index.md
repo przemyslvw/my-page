@@ -2,11 +2,13 @@
 slug: news-2025-04-24
 title: "📰 News Digest: 2025-04-24 Blue Shield of California przez lata udostępniało dane pacjentów"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-04-24"
 ---
 
 Dziś w świecie cyberbezpieczeństwa pojawiły się poważne wycieki danych, rosnące zagrożenia związane z AI, a także nowe luki w popularnych technologiach.
+
+<!-- truncate -->
 
 ## Najciekawsza informacja dnia
 Blue Shield of California wyciekło dane zdrowotne 4,7 miliona pacjentów, udostępniając je Google’u na platformach analitycznych i reklamowych. To kolejny poważny incydent w sektorze opieki zdrowotnej.

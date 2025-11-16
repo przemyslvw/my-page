@@ -2,7 +2,7 @@
 slug: news-2025-05-09
 title: "Największe wycieki, przełomowe akcje i nowe zagrożenia – podsumowanie dnia 2025-05-09!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "ataki", "malware", "web-security", "webapp"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "ataki", "malware", "web-security", "webapp"]
 date: "2025-05-09"
 ---
 

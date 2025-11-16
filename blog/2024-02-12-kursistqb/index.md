@@ -2,7 +2,7 @@
 slug: kurs-istqb
 title: "Kurs ISTQB Poziomu Podstawowego"
 authors: [przemyslvw]
-tags: [testing, ISTQB, certification, software-testing]
+tags: [testing, istqb, certification, software-testing]
 date: 2024-07-12
 ---
 

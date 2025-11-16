@@ -2,11 +2,13 @@
 slug: news-2025-05-12  
 title: "🔥 Cyberatak na Twoje dane? Najnowsze ransomware, luki w ASUS i fałszywe AI"
 authors: [przemyslvw]  
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]  
 date: "2025-05-12"  
 ---
 
 W dzisiejszym wpisie przyjrzymy się najnowszym wydarzeniom w świecie cyberbezpieczeństwa, od analizy złośliwego ransomware MAKOP, po poważne luki bezpieczeństwa w popularnym oprogramowaniu i rosnące zagrożenia związane z AI oraz IoT.
+
+<!-- truncate -->
 
 ## Makop ransomware – lokalne szyfrowanie dysków jako studium przypadku
 

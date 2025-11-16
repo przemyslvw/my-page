@@ -2,7 +2,7 @@
 slug: news-2025-05-31
 title: "7 Szokujących Trendów i Luka w Cyberbezpieczeństwie, które Musisz znać w 2025!"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "malware", "ransomware", "vulnerabilities", "exploits", "privacy"]
 date: "2025-05-31"
 ---
 

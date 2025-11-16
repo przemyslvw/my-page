@@ -2,7 +2,7 @@
 slug: kurs-atuin
 title: "Kurs Atuin – Zarządzanie historią terminala nowej generacji"
 authors: [przemyslvw]
-tags: [terminal, history, management, Atuin, tutorial]
+tags: [terminal, history, management, atuin, tutorial]
 date: 2024-01-02
 ---
 

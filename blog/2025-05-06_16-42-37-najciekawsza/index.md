@@ -2,7 +2,7 @@
 slug: news-2025-05-06
 title: 📰 Najnowsze wydarzenia w dziedzinie cyberbezpieczeństwa – 6 maja 2025
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "ataki", "malware", "web-security", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "ataki", "malware", "web-security", "privacy"]
 date: "2025-05-06"
 ---
 

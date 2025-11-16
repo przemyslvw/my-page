@@ -2,11 +2,13 @@
 slug: news-2025-05-07
 title: "📰 Przegląd wiadomości bezpieczeństwa IT: 2025-05-07"
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 date: "2025-05-07"
 ---
 
 Dziś przeglądamy najważniejsze wydarzenia ze świata bezpieczeństwa IT, które pokazują rosnące wyzwania, nowe zagrożenia i innowacje w ochronie danych. Świat cyberbezpieczeństwa jest dynamiczny i wymaga stałej adaptacji do coraz bardziej wyrafinowanych ataków i technologii obronnych.
+
+<!-- truncate -->
 
 ## Gradacja zwolnień w branży cyberbezpieczeństwa
 

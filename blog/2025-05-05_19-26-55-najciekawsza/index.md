@@ -2,11 +2,13 @@
 slug: news-2025-05-05
 title: 📰 Podsumowanie wiadomości z dnia 2025-05-05
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "ataki", "malware", "web-security", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "ataki", "malware", "web-security", "privacy"]
 date: "2025-05-05"
 ---
 
 W dzisiejszym raporcie przyglądamy się najnowszym wydarzeniom ze świata cyberbezpieczeństwa. Od naruszeń danych, przez rozwój nowych technik ataków, po decyzje instytucji rządowych – oto najważniejsze tematy dnia.
+
+<!-- truncate -->
 
 ## Główne wydarzenia i zagrożenia
 

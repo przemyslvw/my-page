@@ -228,7 +228,7 @@ testing:
   description: Testowanie oprogramowania.
 
 istqb:
-  label: ISTQB
+  label: istqb
   permalink: /istqb
   description: Certyfikacja ISTQB.
 
@@ -307,7 +307,7 @@ iso27002:
   permalink: /iso27002
   description: Standardy bezpieczeństwa informacji zgodne z ISO27002.
 
-bezpieczeństwo-informacji:
+bezpieczenstwo-informacji:
   label: Bezpieczeństwo Informacji
   permalink: /bezpieczenstwo-informacji
   description: Ochrona i zarządzanie bezpieczeństwem informacji.
@@ -317,7 +317,7 @@ standardy-miedzynarodowe:
   permalink: /standardy-miedzynarodowe
   description: Międzynarodowe standardy i normy.
 
-zarzadzanie-bezpieczenstwem:
+zarzadzanie-bezpieczeństwem:
   label: Zarządzanie Bezpieczeństwem
   permalink: /zarzadzanie-bezpieczenstwem
   description: Zarządzanie bezpieczeństwem w organizacjach.
@@ -367,7 +367,7 @@ owasp:
   permalink: /owasp
   description: Open Web Application Security Project i jego wytyczne.
 
-cyberbezpieczeństwo:
+cyberbezpieczenstwo:
   label: Cyberbezpieczeństwo
   permalink: /cyberbezpieczenstwo
   description: Wszystko o cyberbezpieczeństwie.
@@ -571,7 +571,7 @@ cyberIncident:
   permalink: /cyber-incident
   description: Reagowanie na incydenty i procesy ich obsługi.
 
-threatIntelligence:
+threat-intelligence:
   label: Threat Intelligence
   permalink: /threat-intelligence
   description: Zbieranie i analiza informacji o zagrożeniach.

@@ -3,10 +3,12 @@ slug: news-2025-05-02
 title: "📰 Podsumowanie Aktualności: 2025-05-02 - Dlaczego MFA staje się coraz łatwiejsze do obejścia i jak się przed tym bronić"
 date: 2025-05-02
 authors: [przemyslvw]
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 ---
 
 W dzisiejszym przeglądzie przyglądamy się najnowszym trendom i zagrożeniom z dziedziny cyberbezpieczeństwa. Od problemów z uwierzytelnianiem wieloskładnikowym, przez nowe exploity i kampanie dezinformacyjne, po postępy w narzędziach ochrony – sytuacja stale się rozwija, wymuszając na specjalistach coraz bardziej zaawansowane metody obrony.
+
+<!-- truncate -->
 
 ## Dlaczego MFA przestaje być niezawodne?
 

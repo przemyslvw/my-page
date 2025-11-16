@@ -4,11 +4,13 @@ title: "📰 News Digest: 2025-04-29 - Google: Rządy stoją za większością a
 authors: [przemyslvw]
 date: 2025-04-29
 link: https://techcrunch.com/2025/04/29/government-hackers-are-leading-the-use-of-attributed-zero-days-google-says/
-tags: ["cybersecurity", "cyberbezpieczeństwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
+tags: ["cybersecurity", "cyberbezpieczenstwo", "automation", "networking", "wydarzenia", "konferencje", "technologie", "ataki", "malware", "owasp", "web-security", "webapp", "pentesting", "privacy"]
 categories: [Security, Google, China, malware, Spyware, North Korea, cybersecurity, Zero-days]
 ---
 
 W dzisiejszym raporcie przyglądamy się najnowszym trendom w cyberbezpieczeństwie na podstawie analiz i ostatnich odkryć. Okazuje się, że państwowe grupy hackerskie i zaawansowane grupy szpiegowskie coraz chętniej korzystają z wyraźnie przypisywalnych zero-dayów, a jednocześnie techniki i wyzwania związane z ochroną przed nowoczesnymi zagrożeniami rosną.
+
+<!-- truncate -->
 
 ### Państwowe grupy hackerów dominują w wykorzystaniu przypisywalnych zero-dayów
 Według Google, w 2024 roku to rządy, głównie Chiny i Korea Północna, były najbardziej aktywne w wykorzystywaniu zero-dayów, które można powiązać z ich działaniami. Takie ataki, które wyróżniają się możliwością przypisania ich do konkretnego podmiotu, stają się narzędziem geopolitycznej rywalizacji i wywiadu cybernetycznego.
