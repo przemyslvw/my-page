@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import type { ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -6,6 +7,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import BuyMeACoffee from '@site/src/components/BuyMeACoffee';
 import Heading from '@theme/Heading';
+import ParticleBackground from '@site/src/components/ParticleBackground';
 
 import styles from './index.module.css';
 
@@ -47,14 +49,17 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie.">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-        <BuyMeACoffee />
-      </main>
-    </Layout>
+    <>
+      <ParticleBackground />
+      <Layout
+        title={`${siteConfig.title}`}
+        description="Wspieramy firmy w osiąganiu realnych wyników: oszczędności czasu, większych przychodów i spokoju operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji, przez projekt, aż po wdrożenie i utrzymanie.">
+        <HomepageHeader />
+        <main>
+          <HomepageFeatures />
+          <BuyMeACoffee />
+        </main>
+      </Layout>
+    </>
   );
 }
