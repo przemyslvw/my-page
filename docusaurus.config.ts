@@ -65,6 +65,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark', // Ustawia ciemny motyw jako domyślny
+      disableSwitch: false, // Pozwala użytkownikom przełączać motyw
+      respectPrefersColorScheme: false, // Ignoruje ustawienia systemu
+    },
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     metadata: [
