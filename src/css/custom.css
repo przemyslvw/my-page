@@ -6,32 +6,32 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ffa500; /* Orange */
-  --ifm-color-primary-dark: #ff8c00; /* Dark Orange */
-  --ifm-color-primary-darker: #ff7f00; /* Darker Orange */
-  --ifm-color-primary-darkest: #ff4500; /* Darkest Orange */
-  --ifm-color-primary-light: #ffd700; /* Gold */
-  --ifm-color-primary-lighter: #ffff00; /* Yellow */
-  --ifm-color-primary-lightest: #ffffe0; /* Light Yellow */
+  --ifm-color-primary: #144ea3; /* Blue */
+  --ifm-color-primary-dark: #0f3c7f;
+  --ifm-color-primary-darker: #0a2a5c;
+  --ifm-color-primary-darkest: #051839; /* Logo Dark Blue */
+  --ifm-color-primary-light: #2e6cb5;
+  --ifm-color-primary-lighter: #478ac7;
+  --ifm-color-primary-lightest: #61a8d9;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* Black */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #ffd700; /* Gold */
-  --ifm-color-primary-dark: #ffc700; /* Dark Gold */
-  --ifm-color-primary-darker: #ffb700; /* Darker Gold */
-  --ifm-color-primary-darkest: #ffa500; /* Orange */
-  --ifm-color-primary-light: #ffff00; /* Yellow */
-  --ifm-color-primary-lighter: #ffffe0; /* Light Yellow */
-  --ifm-color-primary-lightest: #fffacd; /* Lemon Chiffon */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* Black */
+  --ifm-color-primary: #61a8d9; /* Light Blue */
+  --ifm-color-primary-dark: #478ac7;
+  --ifm-color-primary-darker: #2e6cb5;
+  --ifm-color-primary-darkest: #144ea3;
+  --ifm-color-primary-light: #7bbceb;
+  --ifm-color-primary-lighter: #95d0fc;
+  --ifm-color-primary-lightest: #b0e4ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
 /* Stylizacja przycisku Wesprzyj mnie w nawigacji */
 .navbar__item.wsparcie-button .navbar__link {
-  background: linear-gradient(135deg, #ff813f 0%, #f45c43 100%);
+  background: linear-gradient(135deg, #144ea3 0%, #051839 100%);
   color: white !important;
   border-radius: 50px;
   padding: 8px 20px;

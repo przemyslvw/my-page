@@ -4,17 +4,17 @@
  */
 
 :root {
-  --color-primary: #ffbf00;
-  --color-primary-hover: #ffd740;
-  --color-default: #00cfff;
-  --color-default-hover: #7fdbff;
-  --color-dark-bg: #2a2a2a;
+  --color-primary: #144ea3;
+  --color-primary-hover: #2e6cb5;
+  --color-default: #61a8d9;
+  --color-default-hover: #95d0fc;
+  --color-dark-bg: #051839;
   --color-light-text: #ededed;
 }
 
 /* Primary button */
 .button-primary {
-  background: linear-gradient(90deg, #00cfff 0%, #ffbf00 100%);
+  background: linear-gradient(90deg, #61a8d9 0%, #144ea3 100%);
   color: var(--color-dark-bg);
   border: none;
   padding: 10px 20px;
@@ -26,12 +26,12 @@
 }
 .button-primary:hover {
   filter: brightness(1.1);
-  background: linear-gradient(90deg, #00e5ff 0%, #ffd740 100%);
+  background: linear-gradient(90deg, #95d0fc 0%, #2e6cb5 100%);
 }
 
 /* Default button */
 .button-default {
-  background: linear-gradient(90deg, #ffbf00 0%, #00cfff 100%);
+  background: linear-gradient(90deg, #144ea3 0%, #61a8d9 100%);
   color: var(--color-dark-bg);
   border: none;
   padding: 10px 20px;
@@ -43,19 +43,30 @@
 }
 .button-default:hover {
   filter: brightness(1.1);
-  background: linear-gradient(90deg, #ffd740 0%, #00e5ff 100%);
+  background: linear-gradient(90deg, #2e6cb5 0%, #95d0fc 100%);
 }
 
 .heroBanner {
   padding: 6rem 2rem;
   text-align: center;
-  background: linear-gradient(135deg, rgba(42, 42, 42, 0.93) 0%, rgba(35, 35, 35, 0.88) 100%),
-    url('/img/bg.png') center/cover no-repeat;
+  /* background: linear-gradient(135deg, rgba(42, 42, 42, 0.93) 0%, rgba(35, 35, 35, 0.88) 100%),
+    url('/img/bg.png') center/cover no-repeat; */
   background-attachment: fixed;
   -webkit-background-attachment: fixed;
   color: var(--color-light-text);
   position: relative;
   overflow: hidden;
+}
+
+.hero--primary {
+  background-color: #61a8d900 !important;
+  background: none !important;
+}
+
+.hero {
+  background-color: #61a8d900 !important;
+  background: none !important;
+  --ifm-hero-background-color: #61a8d900 !important;
 }
 
 .text--gradient {
@@ -217,7 +228,7 @@
 /* Przycisk kawy */
 .coffeeButton {
   display: inline-block;
-  background: linear-gradient(135deg, #ff813f 0%, #f45c43 100%);
+  background: linear-gradient(135deg, #144ea3 0%, #051839 100%);
   color: white !important;
   padding: 0.8rem 1.5rem;
   border-radius: 50px;
@@ -233,7 +244,7 @@
 
 .coffeeButton:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(244, 92, 67, 0.4);
+  box-shadow: 0 4px 15px rgba(20, 78, 163, 0.4);
   color: white;
   text-decoration: none;
 }

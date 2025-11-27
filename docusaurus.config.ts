@@ -100,12 +100,6 @@ const config: Config = {
         { to: '/automatyzacja', label: 'Automatyzacja', position: 'left' },
         { to: '/contact', label: 'Kontakt', position: 'left' },
         {
-          to: '/wsparcie',
-          label: 'Doceń naszą pracę',
-          position: 'right',
-          className: 'wsparcie-button',
-        },
-        {
           href: 'https://github.com/przemyslvw',
           label: 'GitHub',
           position: 'right',

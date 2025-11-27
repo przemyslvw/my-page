@@ -2,16 +2,6 @@
 sidebar_position: 0
 ---
 
-**MAJDAK.ONLINE** to przestrzeń dla osób, które chcą nie tylko podążać za technologią — ale ją rozumieć, wykorzystywać i budować z niej przewagę.
-
-Publikujemy **praktyczne poradniki**, **analizy**, **case studies** i **narzędzia**, które pomagają rozwijać się w obszarach cyberbezpieczeństwa, programowania, automatyzacji i tworzenia aplikacji internetowych. Jeśli zależy Ci na sprawdzonych rozwiązaniach, a nie pustych hasłach — jesteś we właściwym miejscu.
-
----
-
-👨‍💻 **Założyciel**: inż. **Przemysław Majdak** — Full-Stack Developer, Automation Engineer & Web Security Specialist.
-
----
-
 ### 🚀 Nasze główne obszary:
 
 #### 🌐 **Tworzenie aplikacji webowych**:
@@ -40,5 +30,4 @@ Publikujemy **praktyczne poradniki**, **analizy**, **case studies** i **narzędz
 
 ---
 
-💡 **Dołącz do społeczności i rozwijaj się razem z nami.**  
 📬 Śledź najnowsze poradniki, projekty open-source i aktualności ze świata technologii, automatyzacji i cyberbezpieczeństwa.

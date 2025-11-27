@@ -6,7 +6,7 @@ docs_dir = os.path.join(base_dir, 'docs')
 
 # Spis treści kursu
 chapters = [
-    ('intro.md', '# 📖 Wstęp\n\n- Czym jest Pi-hole?\n- Dlaczego warto korzystać z Pi-hole?\n- Wymagania sprzętowe i systemowe\n- Przegląd funkcji Pi-hole'),
+    ('MAJDAK.ONLINE.md', '# 📖 Wstęp\n\n- Czym jest Pi-hole?\n- Dlaczego warto korzystać z Pi-hole?\n- Wymagania sprzętowe i systemowe\n- Przegląd funkcji Pi-hole'),
     ('rozdzial-1-przygotowanie.md', '# 🛠️ Rozdział 1: Przygotowanie środowiska\n\n- Wybór sprzętu\n- Przygotowanie karty SD\n- Konfiguracja sieci\n- Ustawienia systemu'),
     ('rozdzial-2-instalacja.md', '# ⚡ Rozdział 2: Instalacja Pi-hole\n\n- Instalacja krok po kroku\n- Konfiguracja podstawowa\n- Ustawienie statycznego IP'),
     ('rozdzial-3-konfiguracja-sieci.md', '# 🌐 Rozdział 3: Konfiguracja sieci\n\n- Ustawienie Pi-hole jako DNS\n- Konfiguracja DHCP\n- Dodawanie wyjątków\n- Blokowanie reklam'),

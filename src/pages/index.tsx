@@ -14,7 +14,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx( styles.heroBanner)}>
       <div className="container">
         <div className="row">
           <div className="col col--6 col--offset-3">
@@ -57,7 +57,6 @@ export default function Home(): ReactNode {
         <HomepageHeader />
         <main>
           <HomepageFeatures />
-          <BuyMeACoffee />
         </main>
       </Layout>
     </>
