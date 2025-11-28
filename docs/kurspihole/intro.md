@@ -1,5 +1,5 @@
 ---
-id: majdak.online
+id: intro
 title: 📖 Wstęp
 sidebar_position: 1
 ---
