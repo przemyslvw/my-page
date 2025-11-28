@@ -168,7 +168,7 @@ const config: Config = {
             },
             {
               label: 'Dokumentacja',
-              to: '/docs/majdakonline',
+              to: '/docs/intro',
             },
             {
               label: 'GitHub',

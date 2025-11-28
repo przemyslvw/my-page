@@ -24,14 +24,14 @@ function HomepageHeader() {
                 <br />
                 <span className="text--gradient">MAJDAK ONLINE</span>
               </Heading>
-              <p className="hero__subtitle">🚀 Więcej klientów 🔧 Mniej pracy 💸 Większy zysk ⚙️</p>
+              <p className="hero__subtitle">Więcej klientów | Mniej pracy | Większy zysk</p>
               <p className="hero__description">
                 Wspieramy firmy w osiąganiu realnych rezultatów: oszczędności czasu, większych przychodów i spokoju
                 operacyjnego. Automatyzujemy, zabezpieczamy i budujemy systemy, które po prostu działają. Od koncepcji,
                 przez projekt, aż po wdrożenie i utrzymanie.
               </p>
               <div className={styles.buttons}>
-                <Link className="button button--primary button--lg" to="/docs/majdakonline">
+                <Link className="button button--primary button--lg" to="/docs/intro">
                   <i className="fas fa-book"></i> Dokumentacja
                 </Link>
                 <Link className="button button--secondary button--lg" to="/blog">

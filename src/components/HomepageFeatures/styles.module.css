@@ -21,7 +21,7 @@
 /* Testimonials Section */
 .testimonials {
   padding: 6rem 0;
-  background-color: #f8fafc33;
+  background-color: #f8fafc80;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -34,7 +34,7 @@
   left: 0;
   right: 0;
   height: 8px;
-  background: linear-gradient(90deg, #00cfff, #2a2a2a, #ffbf00);
+  background: linear-gradient(90deg, var(--color-primary-light), var(--color-primary-dark), var(--color-accent));
 }
 
 .testimonialGrid {
@@ -90,7 +90,7 @@
 
 .testimonialHeader p {
   font-size: 1.125rem;
-  color: #64748b;
+  color: #e0edff;
   line-height: 1.6;
   margin: 0;
 }
