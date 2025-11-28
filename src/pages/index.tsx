@@ -31,7 +31,7 @@ function HomepageHeader() {
                 przez projekt, aż po wdrożenie i utrzymanie.
               </p>
               <div className={styles.buttons}>
-                <Link className="button button--primary button--lg" to="/docs/majdak.online">
+                <Link className="button button--primary button--lg" to="/docs/majdakonline">
                   <i className="fas fa-book"></i> Dokumentacja
                 </Link>
                 <Link className="button button--secondary button--lg" to="/blog">
