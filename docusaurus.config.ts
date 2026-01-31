@@ -15,6 +15,23 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self';",
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'referrer',
+        content: 'strict-origin-when-cross-origin',
+      },
+    },
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'przemyslvw', // Usually your GitHub org/user name.
