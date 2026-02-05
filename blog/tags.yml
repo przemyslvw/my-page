@@ -22,6 +22,36 @@ cybersecurity:
   permalink: /cybersecurity
   description: Wszystko o bezpieczeństwie IT i cyberzagrożeniach.
 
+secops:
+  label: SecOps
+  permalink: /secops
+  description: Operacje bezpieczeństwa, monitorowanie i reagowanie na incydenty.
+
+bash-scripting:
+  label: Bash Scripting
+  permalink: /bash-scripting
+  description: Skrypty, one-linery i automatyzacja z użyciem Basha.
+
+black-hat-bash:
+  label: Black Hat Bash
+  permalink: /black-hat-bash
+  description: Materiały i przykłady związane z książką Black Hat Bash i taktykami Basha.
+
+port-scanning:
+  label: Port Scanning
+  permalink: /port-scanning
+  description: Techniki skanowania portów, narzędzia i analiza wyników.
+
+rustscan:
+  label: RustScan
+  permalink: /rustscan
+  description: Artykuły i przykłady użycia RustScan do szybkiego skanowania.
+
+red-teaming:
+  label: Red Teaming
+  permalink: /red-teaming
+  description: Taktiki, narzędzia i ćwiczenia dla zespołów Red Team.
+
 security:
   label: Security
   permalink: /security
