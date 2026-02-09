@@ -2,15 +2,16 @@ facebook:
   label: Facebook
   permalink: /facebook
   description: Facebook tag description
+
 hello:
   label: Hello
   permalink: /hello
   description: Hello tag description
+  
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
-
 
 hola:
   label: Hola
@@ -51,6 +52,26 @@ red-teaming:
   label: Red Teaming
   permalink: /red-teaming
   description: Taktiki, narzędzia i ćwiczenia dla zespołów Red Team.
+
+book-review:
+  label: Book Review
+  permalink: /book-review
+  description: Recenzje książek technicznych i branżowych.
+
+black-hat-python:
+  label: Black Hat Python
+  permalink: /black-hat-python
+  description: Materiały i recenzje dotyczące Black Hat Python i podobnych pozycji.
+
+python:
+  label: Python
+  permalink: /python
+  description: Artykuły i poradniki dotyczące języka Python.
+
+offensive-security:
+  label: Offensive Security
+  permalink: /offensive-security
+  description: Techniki ofensywne, narzędzia i badania z zakresu bezpieczeństwa ofensywnego.
 
 security:
   label: Security
