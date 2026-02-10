@@ -1,7 +1,11 @@
 .features {
   display: flex;
   align-items: center;
-  background-color: #242526;
+  /* Use Docusaurus theme-aware surface color so the section adapts
+     to light/dark mode instead of a hardcoded dark background. */
+  background-color: var(--ifm-background-surface-color);
+  /* Use theme-aware font color so text is readable in both modes */
+  color: var(--ifm-font-color-base);
   padding: 2rem 0;
   width: 100%;
 }
