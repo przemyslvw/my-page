@@ -16,8 +16,7 @@
             <description><![CDATA[Testy bezpieczeństwa to nie (tylko) bezmyślne wpisywanie \alert(1)\ w każdym polu formularza. Aby znaleźć krytyczne błędy, takie jak IDOR czy przejęcie konta, musisz działać według planu.]]></description>
             <content:encoded><![CDATA[<p>Testy bezpieczeństwa to nie (tylko) bezmyślne wpisywanie &lt;script&gt;alert(1)&lt;/script&gt; w każdym polu formularza. Aby znaleźć krytyczne błędy, takie jak IDOR czy przejęcie konta, musisz działać według planu.</p>
 <p>Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji webowych (Single Page Applications + REST API), którą warto wdrożyć przed każdym wdrożeniem na produkcję.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="---">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 1: Rekonesans i Mapowanie (Recon)</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-1-rekonesans-i-mapowanie-recon">FAZA 1: Rekonesans i Mapowanie (Recon)<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-1-rekonesans-i-mapowanie-recon" class="hash-link" aria-label="Bezpośredni link do FAZA 1: Rekonesans i Mapowanie (Recon)" title="Bezpośredni link do FAZA 1: Rekonesans i Mapowanie (Recon)">​</a></h2>
 <p><em>Zanim zaczniesz atakować, musisz zrozumieć, jak zbudowana jest twierdza.</em></p>
 <ol>
 <li><strong>Mapowanie Aplikacji (Site Map)</strong>
@@ -45,8 +44,7 @@
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----1">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 2: Rejestracja i Uwierzytelnianie (Auth)</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-2-rejestracja-i-uwierzytelnianie-auth">FAZA 2: Rejestracja i Uwierzytelnianie (Auth)<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-2-rejestracja-i-uwierzytelnianie-auth" class="hash-link" aria-label="Bezpośredni link do FAZA 2: Rejestracja i Uwierzytelnianie (Auth)" title="Bezpośredni link do FAZA 2: Rejestracja i Uwierzytelnianie (Auth)">​</a></h2>
 <p><em>Jak dostać się do środka i czy można ominąć bramkę?</em></p>
 <ol start="4">
 <li><strong>Testy Rejestracji (Mass Assignment)</strong>
@@ -68,8 +66,7 @@
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----2">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----2" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-3-autoryzacja-i-kontrola-dostępu-access-control">FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-3-autoryzacja-i-kontrola-dost%C4%99pu-access-control" class="hash-link" aria-label="Bezpośredni link do FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)" title="Bezpośredni link do FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)">​</a></h2>
 <p><em>To tutaj najczęściej leżą "krytyki". Czy mogę zobaczyć dane sąsiada?</em></p>
 <ol start="6">
 <li><strong>IDOR (Insecure Direct Object Reference)</strong>
@@ -92,8 +89,7 @@
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----3">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----3" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 4: Walidacja Danych Wejściowych (Input Validation)</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-4-walidacja-danych-wejściowych-input-validation">FAZA 4: Walidacja Danych Wejściowych (Input Validation)<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-4-walidacja-danych-wej%C5%9Bciowych-input-validation" class="hash-link" aria-label="Bezpośredni link do FAZA 4: Walidacja Danych Wejściowych (Input Validation)" title="Bezpośredni link do FAZA 4: Walidacja Danych Wejściowych (Input Validation)">​</a></h2>
 <p><em>Zepsujmy logikę aplikacji dziwnymi danymi.</em></p>
 <ol start="9">
 <li><strong>XSS i HTML Injection</strong>
@@ -110,8 +106,7 @@
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----4">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----4" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-5-bezpieczeństwo-po-stronie-klienta-client-side">FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-5-bezpiecze%C5%84stwo-po-stronie-klienta-client-side" class="hash-link" aria-label="Bezpośredni link do FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)" title="Bezpośredni link do FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)">​</a></h2>
 <p><em>Nigdy nie ufaj przeglądarce.</em></p>
 <ol start="11">
 <li><strong>Manipulacja Local Storage / Cookies</strong>
@@ -127,8 +122,7 @@
 </ul>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----5">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----5" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
-<p><strong>FAZA 6: Infrastruktura i Konfiguracja</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="faza-6-infrastruktura-i-konfiguracja">FAZA 6: Infrastruktura i Konfiguracja<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#faza-6-infrastruktura-i-konfiguracja" class="hash-link" aria-label="Bezpośredni link do FAZA 6: Infrastruktura i Konfiguracja" title="Bezpośredni link do FAZA 6: Infrastruktura i Konfiguracja">​</a></h2>
 <p><em>Fundamenty twierdzy.</em></p>
 <ol start="13">
 <li><strong>Nagłówki Bezpieczeństwa</strong>
@@ -143,8 +137,7 @@
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="----6">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----6" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h3>
-<p><strong>Podsumowanie</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie">​</a></h2>
 <p>Testowanie bezpieczeństwa to proces, nie jednorazowe wydarzenie. Powyższa lista to absolutne minimum, które pozwala wykryć ~80% najgroźniejszych błędów logicznych, których automatyczne skanery często nie widzą.</p>
 <p><strong>Pamiętaj:</strong> Największe luki (jak IDOR czy Mass Assignment) wynikają zazwyczaj z błędów w logice biznesowej, a nie ze skomplikowanych błędów w kodzie. Myśl jak deweloper, który poszedł na skróty – tam zazwyczaj znajdziesz błąd.</p>]]></content:encoded>
             <category>Web Security</category>
