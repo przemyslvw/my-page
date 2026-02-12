@@ -12,9 +12,8 @@ Testy bezpieczeństwa to nie (tylko) bezmyślne wpisywanie \<script\>alert(1)\</
 
 Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji webowych (Single Page Applications \+ REST API), którą warto wdrożyć przed każdym wdrożeniem na produkcję.
 
-## ---
 
-**FAZA 1: Rekonesans i Mapowanie (Recon)**
+## FAZA 1: Rekonesans i Mapowanie (Recon)
 
 *Zanim zaczniesz atakować, musisz zrozumieć, jak zbudowana jest twierdza.*
 
@@ -31,9 +30,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
    * Sprawdź nagłówki odpowiedzi (Server, X-Powered-By).  
    * Wiedza o tym, że backend to Python, Node.js lub PHP, determinuje późniejsze wektory ataku.
 
-## ---
 
-**FAZA 2: Rejestracja i Uwierzytelnianie (Auth)**
+## FAZA 2: Rejestracja i Uwierzytelnianie (Auth)
 
 *Jak dostać się do środka i czy można ominąć bramkę?*
 
@@ -47,9 +45,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
      * Czy algorytm podpisu to HS256 (symetryczny)? Jeśli tak, czy hasło jest słabe (próba łamania offline)?  
      * Czy serwer przyjmuje token z algorytmem None (podpis pusty)?
 
-## ---
 
-**FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)**
+## FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)
 
 *To tutaj najczęściej leżą "krytyki". Czy mogę zobaczyć dane sąsiada?*
 
@@ -64,9 +61,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
    * Sprawdź, jak API reaguje na pytania o istniejące i nieistniejące zasoby.  
    * Jeśli /users/1 zwraca 403 Forbidden, a /users/99999 zwraca 404 Not Found, to znaczy, że możemy stworzyć listę wszystkich użytkowników systemu.
 
-## ---
 
-**FAZA 4: Walidacja Danych Wejściowych (Input Validation)**
+## FAZA 4: Walidacja Danych Wejściowych (Input Validation)
 
 *Zepsujmy logikę aplikacji dziwnymi danymi.*
 
@@ -78,9 +74,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
     * W polach wyszukiwania i ID wstawiaj znaki specjalne ' " ; \--.  
     * Dla baz NoSQL (MongoDB) próbuj wstrzykiwać obiekty JSON, np. zamiast `id=1` wyślij `id={"$ne": 1}`.
 
-## ---
 
-**FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)**
+## FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)
 
 *Nigdy nie ufaj przeglądarce.*
 
@@ -91,9 +86,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
 12. **CORS (Cross-Origin Resource Sharing)**  
     * Sprawdź, czy API pozwala na zapytania z dowolnej domeny (Access-Control-Allow-Origin: \*) przy jednoczesnym przesyłaniu ciasteczek (Allow-Credentials: true). To otwarta droga do przejęcia konta.
 
-## ---
 
-**FAZA 6: Infrastruktura i Konfiguracja**
+## FAZA 6: Infrastruktura i Konfiguracja
 
 *Fundamenty twierdzy.*
 
@@ -103,9 +97,8 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
 14. **Wyciek Informacji (Information Disclosure)**  
     * Czy serwer w nagłówkach lub stronach błędów zdradza dokładne wersje oprogramowania (np. nginx/1.18.0, Werkzeug/2.0)? To ułatwia atakującym znalezienie gotowych exploitów (CVE).
 
-### ---
 
-**Podsumowanie**
+## Podsumowanie
 
 Testowanie bezpieczeństwa to proces, nie jednorazowe wydarzenie. Powyższa lista to absolutne minimum, które pozwala wykryć \~80% najgroźniejszych błędów logicznych, których automatyczne skanery często nie widzą.
 
