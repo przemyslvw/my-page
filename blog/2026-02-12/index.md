@@ -39,7 +39,7 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
 
 4. **Testy Rejestracji (Mass Assignment)**  
    * Przechwyć żądanie rejestracji i spróbuj "wstrzyknąć" dodatkowe parametry JSON, których nie ma w formularzu.  
-   * **Co testować:** {"is\_admin": true}, {"role": "admin"}, {"active": true}, {"email\_verified": 1}.  
+   * **Co testować:** `{"is_admin": true}`, `{"role": "admin"}`, `{"active": true}`, `{"email_verified": 1}`.  
    * **Cel:** Stworzenie konta z wyższymi uprawnieniami lub ominięcie weryfikacji e-mail.  
 5. **Analiza Tokenów Sesyjnych (JWT)**  
    * Jeśli aplikacja używa JSON Web Tokens, sprawdź:  
@@ -76,7 +76,7 @@ Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji 
    * **Pamiętaj:** Testuj to również w polach niewidocznych w UI, ale przesyłanych w JSON.  
 10. **Injection (SQL/NoSQL)**  
     * W polach wyszukiwania i ID wstawiaj znaki specjalne ' " ; \--.  
-    * Dla baz NoSQL (MongoDB) próbuj wstrzykiwać obiekty JSON, np. zamiast id=1 wyślij id={"$ne": 1}.
+    * Dla baz NoSQL (MongoDB) próbuj wstrzykiwać obiekty JSON, np. zamiast `id=1` wyślij `id={"$ne": 1}`.
 
 ## ---
 
