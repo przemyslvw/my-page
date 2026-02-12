@@ -4,10 +4,157 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Mon, 09 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Jak zhakować własną aplikację? Kompletna checklista bezpieczeństwa dla API i SPA]]></title>
+            <link>https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje</link>
+            <guid>https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje</guid>
+            <pubDate>Thu, 12 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Testy bezpieczeństwa to nie (tylko) bezmyślne wpisywanie \alert(1)\ w każdym polu formularza. Aby znaleźć krytyczne błędy, takie jak IDOR czy przejęcie konta, musisz działać według planu.]]></description>
+            <content:encoded><![CDATA[<p>Testy bezpieczeństwa to nie (tylko) bezmyślne wpisywanie &lt;script&gt;alert(1)&lt;/script&gt; w każdym polu formularza. Aby znaleźć krytyczne błędy, takie jak IDOR czy przejęcie konta, musisz działać według planu.</p>
+<p>Poniżej przedstawiam uniwersalną strategię testowania nowoczesnych aplikacji webowych (Single Page Applications + REST API), którą warto wdrożyć przed każdym wdrożeniem na produkcję.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="---">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 1: Rekonesans i Mapowanie (Recon)</strong></p>
+<p><em>Zanim zaczniesz atakować, musisz zrozumieć, jak zbudowana jest twierdza.</em></p>
+<ol>
+<li><strong>Mapowanie Aplikacji (Site Map)</strong>
+<ul>
+<li>Przejdź przez "szczęśliwą ścieżkę" (Happy Path) użytkownika. Kliknij w każdy przycisk, odwiedź każdą zakładkę.</li>
+<li>Pozwól proxy (np. Burp Suite/ZAP) zbudować mapę wszystkich endpointów API.</li>
+</ul>
+</li>
+<li><strong>Statyczna Analiza Plików JavaScript (.js)</strong>
+<ul>
+<li><strong>To kluczowy punkt dla aplikacji SPA (React/Vue/Angular).</strong></li>
+<li>Szukaj w kodzie źródłowym:<!-- -->
+<ul>
+<li>Ukrytych endpointów API (np. /api/admin, /users).</li>
+<li>Ciekawych zmiennych (np. isAdmin, userRole, debugMode).</li>
+<li>Kluczy API lub hardkodowanych sekretów.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Identyfikacja Technologii (Fingerprinting)</strong>
+<ul>
+<li>Sprawdź nagłówki odpowiedzi (Server, X-Powered-By).</li>
+<li>Wiedza o tym, że backend to Python, Node.js lub PHP, determinuje późniejsze wektory ataku.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----1">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 2: Rejestracja i Uwierzytelnianie (Auth)</strong></p>
+<p><em>Jak dostać się do środka i czy można ominąć bramkę?</em></p>
+<ol start="4">
+<li><strong>Testy Rejestracji (Mass Assignment)</strong>
+<ul>
+<li>Przechwyć żądanie rejestracji i spróbuj "wstrzyknąć" dodatkowe parametry JSON, których nie ma w formularzu.</li>
+<li><strong>Co testować:</strong> <code>{"is_admin": true}</code>, <code>{"role": "admin"}</code>, <code>{"active": true}</code>, <code>{"email_verified": 1}</code>.</li>
+<li><strong>Cel:</strong> Stworzenie konta z wyższymi uprawnieniami lub ominięcie weryfikacji e-mail.</li>
+</ul>
+</li>
+<li><strong>Analiza Tokenów Sesyjnych (JWT)</strong>
+<ul>
+<li>Jeśli aplikacja używa JSON Web Tokens, sprawdź:<!-- -->
+<ul>
+<li>Czy token wygasa po wylogowaniu?</li>
+<li>Czy algorytm podpisu to HS256 (symetryczny)? Jeśli tak, czy hasło jest słabe (próba łamania offline)?</li>
+<li>Czy serwer przyjmuje token z algorytmem None (podpis pusty)?</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----2">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----2" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 3: Autoryzacja i Kontrola Dostępu (Access Control)</strong></p>
+<p><em>To tutaj najczęściej leżą "krytyki". Czy mogę zobaczyć dane sąsiada?</em></p>
+<ol start="6">
+<li><strong>IDOR (Insecure Direct Object Reference)</strong>
+<ul>
+<li>Znajdź w URL-ach lub ciele żądania identyfikatory obiektów (np. /api/orders/1050).</li>
+<li>Zmień ID na inne (np. 1051 lub 1).</li>
+<li>Sprawdź, czy serwer zwróci dane innej osoby. Testuj to na: fakturach, profilach użytkowników, wiadomościach prywatnych.</li>
+</ul>
+</li>
+<li><strong>Eskalacja Uprawnień (Privilege Escalation)</strong>
+<ul>
+<li><strong>Pionowa:</strong> Czy zwykły użytkownik może wywołać endpointy administratora (np. DELETE /api/users/1)?</li>
+<li><strong>Pozioma:</strong> Czy użytkownik A może edytować profil użytkownika B?</li>
+</ul>
+</li>
+<li><strong>User Enumeration (Wyliczanie kont)</strong>
+<ul>
+<li>Sprawdź, jak API reaguje na pytania o istniejące i nieistniejące zasoby.</li>
+<li>Jeśli /users/1 zwraca 403 Forbidden, a /users/99999 zwraca 404 Not Found, to znaczy, że możemy stworzyć listę wszystkich użytkowników systemu.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----3">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----3" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 4: Walidacja Danych Wejściowych (Input Validation)</strong></p>
+<p><em>Zepsujmy logikę aplikacji dziwnymi danymi.</em></p>
+<ol start="9">
+<li><strong>XSS i HTML Injection</strong>
+<ul>
+<li>Wprowadzaj tagi HTML (np. &lt;h1&gt;test&lt;/h1&gt;, &lt;img src=x onerror=alert(1)&gt;) we wszystkich polach tekstowych (tytuł, opis, imię).</li>
+<li>Sprawdź, czy aplikacja "wybucha" (błąd parsowania JSON, popsuty widok strony) lub wykonuje kod JavaScript.</li>
+<li><strong>Pamiętaj:</strong> Testuj to również w polach niewidocznych w UI, ale przesyłanych w JSON.</li>
+</ul>
+</li>
+<li><strong>Injection (SQL/NoSQL)</strong>
+<ul>
+<li>W polach wyszukiwania i ID wstawiaj znaki specjalne ' " ; --.</li>
+<li>Dla baz NoSQL (MongoDB) próbuj wstrzykiwać obiekty JSON, np. zamiast <code>id=1</code> wyślij <code>id={"$ne": 1}</code>.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----4">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----4" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 5: Bezpieczeństwo po stronie klienta (Client-Side)</strong></p>
+<p><em>Nigdy nie ufaj przeglądarce.</em></p>
+<ol start="11">
+<li><strong>Manipulacja Local Storage / Cookies</strong>
+<ul>
+<li>Sprawdź, co aplikacja zapisuje w pamięci przeglądarki.</li>
+<li>Jeśli widzisz tam klucze typu user_role: "user" lub permissions: [...], zmień je ręcznie na admin i odśwież stronę.</li>
+<li><strong>Cel:</strong> Odblokowanie ukrytych menu administracyjnych (nawet jeśli API nadal zablokuje dane, sam wyciek UI jest błędem).</li>
+</ul>
+</li>
+<li><strong>CORS (Cross-Origin Resource Sharing)</strong>
+<ul>
+<li>Sprawdź, czy API pozwala na zapytania z dowolnej domeny (Access-Control-Allow-Origin: *) przy jednoczesnym przesyłaniu ciasteczek (Allow-Credentials: true). To otwarta droga do przejęcia konta.</li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----5">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----5" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>FAZA 6: Infrastruktura i Konfiguracja</strong></p>
+<p><em>Fundamenty twierdzy.</em></p>
+<ol start="13">
+<li><strong>Nagłówki Bezpieczeństwa</strong>
+<ul>
+<li>Czy serwer wysyła nagłówki chroniące przed typowymi atakami?</li>
+<li>Wymagane minimum: Strict-Transport-Security (HSTS), X-Frame-Options (Clickjacking), Content-Security-Policy (XSS).</li>
+</ul>
+</li>
+<li><strong>Wyciek Informacji (Information Disclosure)</strong>
+<ul>
+<li>Czy serwer w nagłówkach lub stronach błędów zdradza dokładne wersje oprogramowania (np. nginx/1.18.0, Werkzeug/2.0)? To ułatwia atakującym znalezienie gotowych exploitów (CVE).</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="----6">---<a href="https://www.majdak.online/blog/jak-zhakowac-wlasna-aplikacje#----6" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h3>
+<p><strong>Podsumowanie</strong></p>
+<p>Testowanie bezpieczeństwa to proces, nie jednorazowe wydarzenie. Powyższa lista to absolutne minimum, które pozwala wykryć ~80% najgroźniejszych błędów logicznych, których automatyczne skanery często nie widzą.</p>
+<p><strong>Pamiętaj:</strong> Największe luki (jak IDOR czy Mass Assignment) wynikają zazwyczaj z błędów w logice biznesowej, a nie ze skomplikowanych błędów w kodzie. Myśl jak deweloper, który poszedł na skróty – tam zazwyczaj znajdziesz błąd.</p>]]></content:encoded>
+            <category>Web Security</category>
+            <category>Penetration Testing</category>
+            <category>Offensive Security</category>
+            <category>Red Teaming</category>
+            <category>Web Application</category>
+            <category>OWASP</category>
+            <category>Vulnerabilities</category>
+        </item>
         <item>
             <title><![CDATA[Dlaczego warto pisać własne narzędzia? Przegląd Black Hat Python (Wydanie II)]]></title>
             <link>https://www.majdak.online/blog/black-hat-python</link>
@@ -1927,123 +2074,6 @@ Ponad 200 000 witryn WordPress korzysta z podatnej wersji wtyczki Post SMTP, kt�
             <category>Ataki</category>
             <category>Exploits</category>
             <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Krytyczna luka bezpieczeństwa w kamerach LG bez możliwości naprawy]]></title>
-            <link>https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg</link>
-            <guid>https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg</guid>
-            <pubDate>Sat, 26 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Setki kamer bezpieczeństwa LG Innotek LNV5110R są narażone na zdalne ataki hakerskie z powodu niepłatanej luki umożliwiającej nieautoryzowane zdalne wykonywanie kodu.]]></description>
-            <content:encoded><![CDATA[<p><strong>Setki kamer bezpieczeństwa LG Innotek LNV5110R są narażone na zdalne ataki hakerskie z powodu niepłatanej luki umożliwiającej nieautoryzowane zdalne wykonywanie kodu.</strong></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="szczegóły-zagrożenia">Szczegóły zagrożenia<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#szczeg%C3%B3%C5%82y-zagro%C5%BCenia" class="hash-link" aria-label="Bezpośredni link do Szczegóły zagrożenia" title="Bezpośredni link do Szczegóły zagrożenia">​</a></h2>
-<p>Amerykańska Agencja Cyberbezpieczeństwa i Bezpieczeństwa Infrastruktury (CISA) ujawniła w czwartek istnienie krytycznej luki bezpieczeństwa w kamerach LG Innotek model LNV5110R<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>. Podatność, oznaczona jako <strong>CVE-2025-7742</strong>, otrzymała ocenę "wysokiej ważności" i pozwala napastnikom na pominięcie uwierzytelniania w celu uzyskania dostępu administracyjnego do urządzenia<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-2" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mechanizm-ataku">Mechanizm ataku<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#mechanizm-ataku" class="hash-link" aria-label="Bezpośredni link do Mechanizm ataku" title="Bezpośredni link do Mechanizm ataku">​</a></h3>
-<p>Luka polega na <strong>obejściu uwierzytelniania przynatywnej ścieżki lub kanału</strong> (CWE-288)<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-2" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>. Napastnik może wykorzystać tę podatność poprzez przesłanie specjalnie spreparowanego żądania HTTP POST do pamięci nieulotnej urządzenia<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-3" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-3" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>. Skutkiem tego działania może być zdalne wykonywanie kodu z podwyższonymi uprawnieniami administratora<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-4" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>.</p>
-<p>Jak wyjaśnia odkrywca luki, badacz bezpieczeństwa <strong>Souvik Kandar</strong> z firmy MicroSec: <em>"To jest pełna, niewymagająca uwierzytelnienia luka zdalnego wykonywania kodu. Napastnik może przesłać reverse shell bez żadnego logowania, uzyskać uprawnienia administratora, wykonać dowolne polecenia Linux i użyć urządzenia jako platformy startowej do infiltracji wewnętrznych sieci"</em><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-5" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="skala-problemu">Skala problemu<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#skala-problemu" class="hash-link" aria-label="Bezpośredni link do Skala problemu" title="Bezpośredni link do Skala problemu">​</a></h2>
-<p>Według badań przeprowadzonych przez Souvik Kandara, <strong>około 1300 kamer jest dostępnych w internecie</strong> i podatnych na zdalne włamania<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-6" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-3-e856ae" id="user-content-fnref-3-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup>. Urządzenia te są wykorzystywane na całym świecie, w tym w sektorze obiektów komercyjnych zaliczanym do infrastruktury krytycznej<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-7" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-4" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="możliwości-napastników">Możliwości napastników<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#mo%C5%BCliwo%C5%9Bci-napastnik%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Możliwości napastników" title="Bezpośredni link do Możliwości napastników">​</a></h3>
-<p>Eksploitacja tej luki umożliwia atakującym:</p>
-<ul>
-<li><strong>Dostęp do transmisji na żywo</strong> z kamer bezpieczeństwa<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-8" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
-<li><strong>Zakłócenie działania</strong> lub całkowite wyłączenie urządzeń<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-9" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
-<li><strong>Wykonywanie dowolnych poleceń</strong> na poziomie administratora systemu<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-10" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
-<li><strong>Wykorzystanie skompromitowanego urządzenia</strong> jako punktu wejścia do szerszych ataków na sieć wewnętrzną<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-11" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ocena-ryzyka">Ocena ryzyka<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#ocena-ryzyka" class="hash-link" aria-label="Bezpośredni link do Ocena ryzyka" title="Bezpośredni link do Ocena ryzyka">​</a></h2>
-<p>Podatność otrzymała następujące oceny w systemach CVSS:</p>
-<ul>
-<li><strong>CVSS v3.1</strong>: 7.0 (Wysokie zagrożenie)<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-5" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></li>
-<li><strong>CVSS v4</strong>: 8.3 (Wysokie zagrożenie)<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-6" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-4-e856ae" id="user-content-fnref-4-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup></li>
-</ul>
-<p>Wektor ataku według CVSS v4: <code>AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:L/VA:L/SC:N/SI:N/SA:N</code><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-7" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>, co oznacza:</p>
-<ul>
-<li>Atak możliwy przez sieć (Network)</li>
-<li>Wysoka złożoność ataku</li>
-<li>Brak wymaganych uprawnień</li>
-<li>Brak wymaganej interakcji użytkownika</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="brak-dostępnej-łatki">Brak dostępnej łatki<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#brak-dost%C4%99pnej-%C5%82atki" class="hash-link" aria-label="Bezpośredni link do Brak dostępnej łatki" title="Bezpośredni link do Brak dostępnej łatki">​</a></h2>
-<p><strong>Najbardziej alarmującym aspektem</strong> tej sytuacji jest fakt, że LG Innotek <strong>nie udostępni poprawki</strong> bezpieczeństwa. Firma została powiadomiona o luce, ale stwierdziła, że produkt osiągnął koniec życia (end-of-life) i nie może być już łatany<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-12" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-8" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>.</p>
-<p>CISA podkreśla w swoim komunikacie: <em>"LG Innotek jest świadome luki, ale zauważa, że jest to produkt wycofany z produkcji, który nie może być już łatany"</em><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-9" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zalecenia-bezpieczeństwa">Zalecenia bezpieczeństwa<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#zalecenia-bezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do Zalecenia bezpieczeństwa" title="Bezpośredni link do Zalecenia bezpieczeństwa">​</a></h2>
-<p>W obliczu braku dostępnej łatki, CISA rekomenduje następujące środki obronne<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-2-e856ae" id="user-content-fnref-2-e856ae-10" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup>:</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="segmentacja-sieci">Segmentacja sieci<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#segmentacja-sieci" class="hash-link" aria-label="Bezpośredni link do Segmentacja sieci" title="Bezpośredni link do Segmentacja sieci">​</a></h3>
-<ul>
-<li><strong>Minimalizacja ekspozycji sieciowej</strong> wszystkich urządzeń sterujących</li>
-<li><strong>Izolacja od internetu</strong> - upewnienie się, że kamery nie są dostępne z sieci publicznej</li>
-<li><strong>Umieszczenie za zaporami ogniowymi</strong> i odizolowanie od sieci biznesowych</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="bezpieczny-dostęp-zdalny">Bezpieczny dostęp zdalny<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#bezpieczny-dost%C4%99p-zdalny" class="hash-link" aria-label="Bezpośredni link do Bezpieczny dostęp zdalny" title="Bezpośredni link do Bezpieczny dostęp zdalny">​</a></h3>
-<ul>
-<li>W przypadku konieczności zdalnego dostępu, używanie <strong>bezpiecznych metod</strong> takich jak VPN</li>
-<li><strong>Aktualizowanie VPN</strong> do najnowszych wersji</li>
-<li>Pamiętanie, że VPN jest tak bezpieczny, jak urządzenia do niego podłączone</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="monitorowanie-i-reakcja">Monitorowanie i reakcja<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#monitorowanie-i-reakcja" class="hash-link" aria-label="Bezpośredni link do Monitorowanie i reakcja" title="Bezpośredni link do Monitorowanie i reakcja">​</a></h3>
-<ul>
-<li><strong>Przeprowadzenie odpowiedniej analizy wpływu</strong> przed wdrożeniem środków obronnych</li>
-<li><strong>Monitoring ruchu sieciowego</strong> w poszukiwaniu podejrzanych aktywności</li>
-<li><strong>Zgłaszanie podejrzanych działań</strong> do CISA zgodnie z ustalonymi procedurami</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="kontekst-branżowy">Kontekst branżowy<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#kontekst-bran%C5%BCowy" class="hash-link" aria-label="Bezpośredni link do Kontekst branżowy" title="Bezpośredni link do Kontekst branżowy">​</a></h2>
-<p>Ta sytuacja jest emblematyczna dla szerszego problemu w branży urządzeń IoT i systemów nadzoru. Jak zauważają badacze bezpieczeństwa, <strong>cykle życia oprogramowania często są krótsze niż żywotność fizyczna</strong> tych produktów, szczególnie w sektorach gdzie cykle modernizacji są rzadkie lub kosztowne<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-5-e856ae" id="user-content-fnref-5-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="poprzednie-problemy-z-urządzeniami-lg">Poprzednie problemy z urządzeniami LG<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#poprzednie-problemy-z-urz%C4%85dzeniami-lg" class="hash-link" aria-label="Bezpośredni link do Poprzednie problemy z urządzeniami LG" title="Bezpośredni link do Poprzednie problemy z urządzeniami LG">​</a></h3>
-<p>To nie pierwszy przypadek wykrycia luk bezpieczeństwa w produktach LG. W przeszłości firma mierzyła się z podobnymi problemami:</p>
-<ul>
-<li>W 2017 roku Check Point odkrył podatność "HomeHack" w aplikacji SmartThinQ, która umożliwiała przejęcie kontroli nad urządzeniami domowymi<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-6-e856ae" id="user-content-fnref-6-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup></li>
-<li>W 2024 roku Bitdefender znalazł luki w telewizorach LG z systemem webOS, które mogły pozwolić na uzyskanie dostępu root<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-7-e856ae" id="user-content-fnref-7-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="działania-badacza-souvik-kandara">Działania badacza Souvik Kandara<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#dzia%C5%82ania-badacza-souvik-kandara" class="hash-link" aria-label="Bezpośredni link do Działania badacza Souvik Kandara" title="Bezpośredni link do Działania badacza Souvik Kandara">​</a></h2>
-<p>Souvik Kandar, badacz bezpieczeństwa z firmy MicroSec, który odkrył tę lukę, jest uznanym ekspertem w dziedzinie bezpieczeństwa IoT i OT. W 2025 roku zgłosił już <strong>50 podatności</strong><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-13" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>, w tym luki w inteligentnych systemach pogodowych, czujnikach sejsmicznych, systemach morskich, routerach i urządzeniach OT<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-14" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>.</p>
-<p>Kandar jest również autorem odkryć w produktach firm AutomationDirect, Instantel i Lantronix przeznaczonych dla środowisk przemysłowych<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-1-e856ae" id="user-content-fnref-1-e856ae-15" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup><sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-8-e856ae" id="user-content-fnref-8-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">8</a></sup>. Jego badania są koordynowane przez Idaho National Laboratory (INL) i CISA, co podkreśla ich znaczenie dla bezpieczeństwa infrastruktury krytycznej<sup><a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fn-9-e856ae" id="user-content-fnref-9-e856ae" data-footnote-ref="true" aria-describedby="footnote-label">9</a></sup>.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="wnioski-i-rekomendacje">Wnioski i rekomendacje<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#wnioski-i-rekomendacje" class="hash-link" aria-label="Bezpośredni link do Wnioski i rekomendacje" title="Bezpośredni link do Wnioski i rekomendacje">​</a></h2>
-<p>Przypadek kamer LG Innotek LNV5110R stanowi <strong>ostrzeżenie dla całej branży</strong> dotyczące zarządzania cyklem życia produktów IoT. Organizacje wykorzystujące takie urządzenia powinny:</p>
-<ol>
-<li><strong>Opracować strategie zarządzania końcem życia produktów</strong> z uwzględnieniem aspektów bezpieczeństwa</li>
-<li><strong>Regularnie przeprowadzać audyty</strong> wszystkich urządzeń sieciowych w swojej infrastrukturze</li>
-<li><strong>Wdrożyć zasady Defense-in-Depth</strong> zgodnie z zaleceniami CISA</li>
-<li><strong>Planować wymianę urządzeń</strong> przed zakończeniem wsparcia przez producenta</li>
-</ol>
-<p>Brak możliwości załatania tej krytycznej luki stanowi <strong>poważne zagrożenie dla bezpieczeństwa</strong> infrastruktury krytycznej na całym świecie. Organizacje używające tych kamer powinny <strong>niezwłocznie</strong> rozważyć ich wymianę lub wdrożenie zdecydowanych środków kompensacyjnych w celu minimalizacji ryzyka cyberataków.</p>
-<div style="text-align:center">⁂</div>
-<!-- -->
-<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#footnote-label" class="hash-link" aria-label="Bezpośredni link do Footnotes" title="Bezpośredni link do Footnotes">​</a></h2>
-<ol>
-<li id="user-content-fn-1-e856ae">
-<p><a href="https://www.securityweek.com/no-patch-for-flaw-exposing-hundreds-of-lg-cameras-to-remote-hacking/" target="_blank" rel="noopener noreferrer">https://www.securityweek.com/no-patch-for-flaw-exposing-hundreds-of-lg-cameras-to-remote-hacking/</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-2" data-footnote-backref="" aria-label="Back to reference 1-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-3" data-footnote-backref="" aria-label="Back to reference 1-3" class="data-footnote-backref">↩<sup>3</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-4" data-footnote-backref="" aria-label="Back to reference 1-4" class="data-footnote-backref">↩<sup>4</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-5" data-footnote-backref="" aria-label="Back to reference 1-5" class="data-footnote-backref">↩<sup>5</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-6" data-footnote-backref="" aria-label="Back to reference 1-6" class="data-footnote-backref">↩<sup>6</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-7" data-footnote-backref="" aria-label="Back to reference 1-7" class="data-footnote-backref">↩<sup>7</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-8" data-footnote-backref="" aria-label="Back to reference 1-8" class="data-footnote-backref">↩<sup>8</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-9" data-footnote-backref="" aria-label="Back to reference 1-9" class="data-footnote-backref">↩<sup>9</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-10" data-footnote-backref="" aria-label="Back to reference 1-10" class="data-footnote-backref">↩<sup>10</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-11" data-footnote-backref="" aria-label="Back to reference 1-11" class="data-footnote-backref">↩<sup>11</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-12" data-footnote-backref="" aria-label="Back to reference 1-12" class="data-footnote-backref">↩<sup>12</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-13" data-footnote-backref="" aria-label="Back to reference 1-13" class="data-footnote-backref">↩<sup>13</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-14" data-footnote-backref="" aria-label="Back to reference 1-14" class="data-footnote-backref">↩<sup>14</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-1-e856ae-15" data-footnote-backref="" aria-label="Back to reference 1-15" class="data-footnote-backref">↩<sup>15</sup></a></p>
-</li>
-<li id="user-content-fn-2-e856ae">
-<p><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-25-205-04" target="_blank" rel="noopener noreferrer">https://www.cisa.gov/news-events/ics-advisories/icsa-25-205-04</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-2" data-footnote-backref="" aria-label="Back to reference 2-2" class="data-footnote-backref">↩<sup>2</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-3" data-footnote-backref="" aria-label="Back to reference 2-3" class="data-footnote-backref">↩<sup>3</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-4" data-footnote-backref="" aria-label="Back to reference 2-4" class="data-footnote-backref">↩<sup>4</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-5" data-footnote-backref="" aria-label="Back to reference 2-5" class="data-footnote-backref">↩<sup>5</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-6" data-footnote-backref="" aria-label="Back to reference 2-6" class="data-footnote-backref">↩<sup>6</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-7" data-footnote-backref="" aria-label="Back to reference 2-7" class="data-footnote-backref">↩<sup>7</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-8" data-footnote-backref="" aria-label="Back to reference 2-8" class="data-footnote-backref">↩<sup>8</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-9" data-footnote-backref="" aria-label="Back to reference 2-9" class="data-footnote-backref">↩<sup>9</sup></a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-2-e856ae-10" data-footnote-backref="" aria-label="Back to reference 2-10" class="data-footnote-backref">↩<sup>10</sup></a></p>
-</li>
-<li id="user-content-fn-3-e856ae">
-<p><a href="https://securityaffairs.com/180368/security/unpatched-flaw-in-eol-lg-lnv5110r-cameras-lets-hackers-gain-admin-access.html" target="_blank" rel="noopener noreferrer">https://securityaffairs.com/180368/security/unpatched-flaw-in-eol-lg-lnv5110r-cameras-lets-hackers-gain-admin-access.html</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-3-e856ae" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-4-e856ae">
-<p><a href="https://www.tenable.com/cve/CVE-2025-7742" target="_blank" rel="noopener noreferrer">https://www.tenable.com/cve/CVE-2025-7742</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-4-e856ae" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-5-e856ae">
-<p><a href="https://windowsforum.com/threads/lg-innotek-lnv5110r-camera-vulnerability-end-of-life-risks-cybersecurity-challenges.374685/latest" target="_blank" rel="noopener noreferrer">https://windowsforum.com/threads/lg-innotek-lnv5110r-camera-vulnerability-end-of-life-risks-cybersecurity-challenges.374685/latest</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-5-e856ae" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-6-e856ae">
-<p><a href="https://blog.checkpoint.com/security/homehack-how-hackers-could-have-taken-control-of-lgs-iot-home-appliances/" target="_blank" rel="noopener noreferrer">https://blog.checkpoint.com/security/homehack-how-hackers-could-have-taken-control-of-lgs-iot-home-appliances/</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-6-e856ae" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-7-e856ae">
-<p><a href="https://arstechnica.com/security/2024/04/patches-released-for-as-many-as-91000-hackable-lg-tvs-exposed-to-the-internet/" target="_blank" rel="noopener noreferrer">https://arstechnica.com/security/2024/04/patches-released-for-as-many-as-91000-hackable-lg-tvs-exposed-to-the-internet/</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-7-e856ae" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-8-e856ae">
-<p><a href="https://www.securityweek.com/lantronix-device-used-in-critical-infrastructure-exposes-systems-to-remote-hacking/" target="_blank" rel="noopener noreferrer">https://www.securityweek.com/lantronix-device-used-in-critical-infrastructure-exposes-systems-to-remote-hacking/</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-8-e856ae" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
-</li>
-<li id="user-content-fn-9-e856ae">
-<p><a href="https://www.linkedin.com/posts/souvik-kandar_cybersecurity-zeroday-inl-activity-7321608281225891840-UBR1" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/posts/souvik-kandar_cybersecurity-zeroday-inl-activity-7321608281225891840-UBR1</a> <a href="https://www.majdak.online/blog/krytyczna-luka-bezpieczenstwa-w-kamerach-lg#user-content-fnref-9-e856ae" data-footnote-backref="" aria-label="Back to reference 9" class="data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Jamming</category>
-            <category>Xiaomi</category>
-            <category>Web Security</category>
-            <category>Ochrona Sieci</category>
         </item>
     </channel>
 </rss>
