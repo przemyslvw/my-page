@@ -88,7 +88,7 @@ const config: Config = {
       respectPrefersColorScheme: false, // Ignoruje ustawienia systemu
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.png',
     metadata: [
       {
         name: 'description',
