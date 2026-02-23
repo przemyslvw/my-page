@@ -711,3 +711,33 @@ samesite:
   label: SameSite
   permalink: /samesite
   description: Mechanizm atrybutu SameSite dla ciasteczek (Lax, Strict, None) i zabezpieczenia.
+
+http:
+  label: HTTP
+  permalink: /http
+  description: Podstawy protokołu HTTP i jego mechanizmy.
+
+http2:
+  label: HTTP/2
+  permalink: /http2
+  description: Wersja 2 protokołu HTTP, ramkowanie binarne i multipleksowanie.
+
+http3:
+  label: HTTP/3
+  permalink: /http3
+  description: Wersja 3 protokołu HTTP oparta na QUIC.
+
+tls:
+  label: TLS
+  permalink: /tls
+  description: Transport Layer Security i szyfrowanie połączeń.
+
+quic:
+  label: QUIC
+  permalink: /quic
+  description: Bezpieczny i wydajny protokół transportowy oparty na UDP.
+
+crlf:
+  label: CRLF
+  permalink: /crlf
+  description: Wstrzykiwanie znaków powrotu karetki i nowej linii.
