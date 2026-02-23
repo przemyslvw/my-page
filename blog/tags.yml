@@ -701,3 +701,13 @@ multimodalSearch:
   label: Multimodal Search
   permalink: /blog/tags/multimodalSearch
   description: Wyszukiwanie multimodalne (tekst, obraz, dźwięk) i jego praktyczne zastosowania.
+
+cors:
+  label: CORS
+  permalink: /cors
+  description: Cross-Origin Resource Sharing i powiązane zagadnienia, weryfikacja Origin.
+
+samesite:
+  label: SameSite
+  permalink: /samesite
+  description: Mechanizm atrybutu SameSite dla ciasteczek (Lax, Strict, None) i zabezpieczenia.
