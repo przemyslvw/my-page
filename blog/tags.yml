@@ -741,3 +741,28 @@ crlf:
   label: CRLF
   permalink: /crlf
   description: Wstrzykiwanie znaków powrotu karetki i nowej linii.
+
+cloudflare:
+  label: Cloudflare
+  permalink: /cloudflare
+  description: Rozwiązania z zakresu CDN, DNS i bezpieczeństwa od Cloudflare.
+
+cloudflare-tunnel:
+  label: Cloudflare Tunnel
+  permalink: /cloudflare-tunnel
+  description: Zabezpieczanie i udostępnianie lokalnych usług bez publicznego IP.
+
+zero-trust:
+  label: Zero Trust
+  permalink: /zero-trust
+  description: Model bezpieczeństwa oparty na braku zaufania – weryfikacja każdego dostępu.
+
+cgnat:
+  label: CGNAT
+  permalink: /cgnat
+  description: Carrier-grade NAT i radzenie sobie z brakiem publicznego adresu IP.
+
+darmowy-ssl:
+  label: Darmowy SSL
+  permalink: /darmowy-ssl
+  description: Uzyskiwanie i konfiguracja darmowych certyfikatów SSL.
