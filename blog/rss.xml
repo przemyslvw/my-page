@@ -4,10 +4,49 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Sat, 14 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Niewidzialna Forteca: Dlaczego Cloudflare Tunnel to absolutny Must-Have dla Twojego serwera]]></title>
+            <link>https://www.majdak.online/blog/cloudflare-tunnel-must-have</link>
+            <guid>https://www.majdak.online/blog/cloudflare-tunnel-must-have</guid>
+            <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Wyobraź sobie, że masz w domu sejf z cennymi danymi. Tradycyjne wystawianie aplikacji do internetu to jak wywieszenie na drzwiach wejściowych wielkiego, neonowego szyldu z napisem: "Sejf jest tutaj, wystarczy złamać zamek". Internet to nie jest przyjazne miejsce. Zanim zdążysz wypić kawę po uruchomieniu nowego serwera VPS, dziesiątki zautomatyzowanych botów z całego świata już skanują jego otwarte porty w poszukiwaniu luk.]]></description>
+            <content:encoded><![CDATA[<p>Wyobraź sobie, że masz w domu sejf z cennymi danymi. Tradycyjne wystawianie aplikacji do internetu to jak wywieszenie na drzwiach wejściowych wielkiego, neonowego szyldu z napisem: "Sejf jest tutaj, wystarczy złamać zamek". Internet to nie jest przyjazne miejsce. Zanim zdążysz wypić kawę po uruchomieniu nowego serwera VPS, dziesiątki zautomatyzowanych botów z całego świata już skanują jego otwarte porty w poszukiwaniu luk.</p>
+<p>Jeśli hostujesz własne aplikacje – czy to n8n, Home Assistant, Nextcloud, czy proste API – prawdopodobnie znasz tradycyjną ścieżkę: kupujesz domenę, ustawiasz rekordy DNS na swoje publiczne IP, otwierasz porty 80 i 443 na routerze lub firewallu (Port Forwarding), a potem walczysz z certyfikatami Let's Encrypt.</p>
+<p>To działało dekadę temu. Dziś to proszenie się o kłopoty. Odpowiedzią na te bolączki jest <strong>Cloudflare Tunnel</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="---">---<a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Czym jest Cloudflare Tunnel?</strong></p>
+<p>Mówiąc najprościej: to technologia odwróconego tunelowania (Reverse Tunnel). Zamiast otwierać drzwi z zewnątrz do Twojego serwera, instalujesz na nim małego demona (cloudflared). Ten program samodzielnie "dzwoni" od wewnątrz do najbliższego węzła brzegowego Cloudflare i zestawia bezpieczne, szyfrowane połączenie.</p>
+<p>Od tego momentu cały ruch do Twojej domeny (np. twoja-aplikacja.pl) trafia najpierw na potężne serwery Cloudflare, a stamtąd "spływa" wydrążonym tunelem prosto do Twojej aplikacji.</p>
+<p>Dlaczego to zmienia reguły gry? Oto 4 kluczowe powody.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-tryb-stealth-żadnych-otwartych-portów"><strong>1. Tryb "Stealth": Żadnych otwartych portów</strong><a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#1-tryb-stealth-%C5%BCadnych-otwartych-port%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 1-tryb-stealth-żadnych-otwartych-portów" title="Bezpośredni link do 1-tryb-stealth-żadnych-otwartych-portów">​</a></h3>
+<p>To największa zaleta tej technologii. Skoro Twój serwer sam nawiązuje połączenie wychodzące (Outbound) do Cloudflare, <strong>nie musisz otwierać ani jednego portu przychodzącego (Inbound) na swoim firewallu</strong>.</p>
+<p>Możesz ustawić regułę DENY ALL INCOMING (blokuj wszystko z zewnątrz) poza portem SSH lub VPN dla siebie, a Twoja aplikacja webowa nadal będzie dostępna dla świata. Skanery takie jak Shodan.io czy skrypty hakerów odbiją się od ściany – Twój serwer z punktu widzenia internetu po prostu nie istnieje. Jesteś "cyfrowym duchem".</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-architektura-zero-trust-bramkarz-przed-drzwiami"><strong>2. Architektura Zero Trust (Bramkarz przed drzwiami)</strong><a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#2-architektura-zero-trust-bramkarz-przed-drzwiami" class="hash-link" aria-label="Bezpośredni link do 2-architektura-zero-trust-bramkarz-przed-drzwiami" title="Bezpośredni link do 2-architektura-zero-trust-bramkarz-przed-drzwiami">​</a></h3>
+<p>Wystawienie panelu logowania jakiejkolwiek aplikacji do sieci wiąże się z ryzykiem luk typu <em>Zero-Day</em> (błędów w kodzie, których nikt jeszcze nie załatał). Jeśli haker znajdzie lukę w omijaniu autoryzacji Twojego n8n czy WordPressa – wchodzi jak do siebie.</p>
+<p>Cloudflare Tunnel integruje się z usługą <strong>Cloudflare Access</strong>. Pozwala to na nałożenie "niewidzialnej tarczy" przed Twoją aplikacją. Zanim ktokolwiek (lub jakikolwiek bot) zobaczy w ogóle kod HTML Twojej strony, musi przejść przez weryfikację na serwerach Cloudflare (np. podać kod PIN wysłany na Twój adres e-mail, autoryzować się przez GitHub, Google czy klucz YubiKey). Aplikacja jest bezpieczna, nawet jeśli jej własny system logowania jest dziurawy.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-rozwiązanie-problemu-cgnat-i-zmiennego-ip"><strong>3. Rozwiązanie problemu CGNAT i zmiennego IP</strong><a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#3-rozwi%C4%85zanie-problemu-cgnat-i-zmiennego-ip" class="hash-link" aria-label="Bezpośredni link do 3-rozwiązanie-problemu-cgnat-i-zmiennego-ip" title="Bezpośredni link do 3-rozwiązanie-problemu-cgnat-i-zmiennego-ip">​</a></h3>
+<p>Masz internet ze Starlinka, od operatora komórkowego (LTE/5G) lub lokalnego dostawcy kablowego, który nie daje publicznego adresu IP (tzw. CGNAT)? W tradycyjnym modelu wystawienie własnego serwera z domu jest w takich warunkach fizycznie niemożliwe.</p>
+<p>Cloudflare Tunnel całkowicie omija ten problem. Ponieważ połączenie jest inicjowane od wewnątrz, nie potrzebujesz publicznego, ani stałego adresu IP. Jeśli Twój router potrafi połączyć się z internetem – Cloudflare Tunnel zadziała perfekcyjnie.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-darmowy-ssl-i-ochrona-klasy-enterprise"><strong>4. Darmowy SSL i Ochrona klasy Enterprise</strong><a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#4-darmowy-ssl-i-ochrona-klasy-enterprise" class="hash-link" aria-label="Bezpośredni link do 4-darmowy-ssl-i-ochrona-klasy-enterprise" title="Bezpośredni link do 4-darmowy-ssl-i-ochrona-klasy-enterprise">​</a></h3>
+<p>Zarządzanie certyfikatami SSL (odnawianie, konfiguracja Nginx/Traefik) bywa uciążliwe. Cloudflare bierze to na siebie. Ruch od przeglądarki do Cloudflare jest szyfrowany ich certyfikatem wystawianym w 3 sekundy, a ruch od Cloudflare do Twojego serwera biegnie szyfrowanym tunelem.</p>
+<p>Dostajesz też w pakiecie zaporę sieciową (WAF) i jedną z najlepszych na świecie ochron przeciwko atakom DDoS – a wszystko to (w podstawowym, w pełni wystarczającym dla hobbystów i małych firm wariancie) <strong>całkowicie za darmo</strong>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----1">---<a href="https://www.majdak.online/blog/cloudflare-tunnel-must-have#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Podsumowanie</strong></p>
+<p>Era przekierowywania portów i wystawiania gołych adresów IP na pastwę internetowych skanerów bezpowrotnie mija. Cloudflare Tunnel to darmowe, potężne i eleganckie rozwiązanie, które przenosi bezpieczeństwo Twojego homelabu lub serwera VPS na poziom zarezerwowany dotychczas dla korporacji.</p>
+<p>Jeśli hostujesz coś na własnym sprzęcie i zależy Ci na spokojnym śnie – wdróż to rozwiązanie już dziś. Twój firewall Ci podziękuje.</p>
+<hr>]]></content:encoded>
+            <category>Web Security</category>
+            <category>Cloudflare</category>
+            <category>Cloudflare Tunnel</category>
+            <category>Zero Trust</category>
+            <category>CGNAT</category>
+            <category>Darmowy SSL</category>
+            <category>OWASP</category>
+        </item>
         <item>
             <title><![CDATA[Ewolucja HTTP (1.1 vs 2.0 vs 3.0) – Od czystego tekstu do zaszyfrowanych dronów]]></title>
             <link>https://www.majdak.online/blog/http-evolution-2026</link>
@@ -368,7 +407,7 @@ Właśnie skończyłem lekturę "Black Hat Bash" (Dolev Farhi &amp; Nick Aleks) 
             <category>Malware</category>
             <category>Web Security</category>
             <category>Open Source Intel</category>
-            <category>zero-trust</category>
+            <category>Zero Trust</category>
             <category>Spoofing</category>
             <category>social-engineering</category>
             <category>phishing</category>
@@ -1937,53 +1976,6 @@ OpenAI nie pracuje tylko nad GPT-5. Wygląda na to, że OpenAI również przygot
 <hr>
 <p>Anthropic twierdzi, że inżynierowie OpenAI korzystają z Claude Code przed premiery GPT-5
 Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inżynierowie ChatGPT zostali złapani na używaniu narzędzi kodowania Claude. [...]</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Meta zagraża bezpieczeństwu użytkowników: nowy atak na WhatsApp z nagrodą miliona dolarów!]]></title>
-            <link>https://www.majdak.online/blog/news-2025-08-02</link>
-            <guid>https://www.majdak.online/blog/news-2025-08-02</guid>
-            <pubDate>Sat, 02 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Najnowsze doniesienia z branży cyberbezpieczeństwa wskazują na rosnące zagrożenia i kontrowersje wokół technologii. Federalne opóźnienia w przyznawaniu licencji Nvidia na chip H20 mogą wpłynąć na międzynarodowe rynki, podczas gdy firma Lovense musi walczyć z wyciekiem danych użytkowników po naprawie luk bezpieczeństwa. W Europie niemieckie służby zlikwidowały serwery grupy ransomware BlackSuit, odpowiedzialnej za ataki na Dworze i inne instytucje. W międzyczasie atakujący coraz częściej korzystają z zaawansowanych metod, od fake OAuth na Microsoft 365, po złośliwe pakiety npm i nowe techniki malware, takie jak 'Shade BIOS'. Rosyjskie służby za pomocą ataków typu AitM celują w dyplomatyczne placówki, a w branży pojawiają się nagrody sięgające nawet miliona dolarów za znalezienie luk w WhatsApp. Coraz bardziej widoczny jest problem nie do końca bezpiecznego kodu generowanego przez AI, którego około połowa jest odporną na ataki, co podkreśla potrzebę jeszcze lepszych narzędzi i metod ochrony.]]></description>
-            <content:encoded><![CDATA[<p>Najnowsze doniesienia z branży cyberbezpieczeństwa wskazują na rosnące zagrożenia i kontrowersje wokół technologii. Federalne opóźnienia w przyznawaniu licencji Nvidia na chip H20 mogą wpłynąć na międzynarodowe rynki, podczas gdy firma Lovense musi walczyć z wyciekiem danych użytkowników po naprawie luk bezpieczeństwa. W Europie niemieckie służby zlikwidowały serwery grupy ransomware BlackSuit, odpowiedzialnej za ataki na Dworze i inne instytucje. W międzyczasie atakujący coraz częściej korzystają z zaawansowanych metod, od fake OAuth na Microsoft 365, po złośliwe pakiety npm i nowe techniki malware, takie jak 'Shade BIOS'. Rosyjskie służby za pomocą ataków typu AitM celują w dyplomatyczne placówki, a w branży pojawiają się nagrody sięgające nawet miliona dolarów za znalezienie luk w WhatsApp. Coraz bardziej widoczny jest problem nie do końca bezpiecznego kodu generowanego przez AI, którego około połowa jest odporną na ataki, co podkreśla potrzebę jeszcze lepszych narzędzi i metod ochrony.</p>
-<ul>
-<li><strong>Backlog w Departamencie Handlu</strong> opóźnia licencje Nvidia na chip H20. Wiadomość pojawiła się niedługo po apelu ekspertów ds. bezpieczeństwa narodowego o odwołanie decyzji zezwalającej Nvidia na eksport chipów H20 do Chin.</li>
-<li><strong>Lovense</strong> grozi podjęciem kroków prawnych po naprawie luk bezpieczeństwa, które ujawniły dane użytkowników. Firma poinformowała, że usunęła podatności, które powodowały ujawnianie prywatnych adresów e-mail i kont.</li>
-<li><strong>Niemieckie służby</strong> skonfiskowały serwery grupy ransomware BlackSuit, odpowiedzialnej za cyberataki w Europie i USA, w tym na miasto Dallas.</li>
-<li><strong>Kariera w ITsec</strong> – odpowiedzi na najczęściej zadawane pytania z webinaru "Zawód: pentester" dostępne na Sekurak.</li>
-<li><strong>ChoiceJacking</strong> – kolejny powód, by nie korzystać z publicznych ładowarek. Podłączenie telefonu do niezaufanej ładowarki może umożliwić transfer danych. Artykuł na Sekurak.</li>
-<li><strong>justCTF</strong> – w ten weekend odbędzie się konkurs CTF, do udziału zachęcane są polskie zespoły.</li>
-<li><strong>Apple</strong> wydało aktualizację naprawiającą podatność CVE-2025-6558 wykorzystywaną jako zero-day w Google Chrome (WebKit/Safari).</li>
-<li><strong>Akira ransomware</strong> wykorzystuje VPN SonicWall w prawdopodobnym ataku zero-day na w pełni zaktualizowane urządzenia. Od końca lipca 2025 obserwowany jest wzrost aktywności.</li>
-<li><strong>Nowa luka w Cursor IDE</strong> (CVE-2025-54135, CVSS 8.6, CurXecute) pozwala na zdalne wykonanie kodu (RCE). Naprawiona w wersji 1.3.</li>
-<li><strong>Fałszywe aplikacje OAuth</strong> dla Microsoft 365 wykorzystywane są do przejęć kont i kradzieży danych. Oszuści podszywają się pod RingCentral, SharePoint, Adobe i Docusign (Proofpoint).</li>
-<li><strong>Złośliwy pakiet npm generowany przez AI</strong> – @kodane/patch-manager ukrywał kradzież kryptowalut. Wgrany 28 lipca 2025 przez użytkownika „Kodane”.</li>
-<li><strong>Skuteczność narzędzi AI w cyberbezpieczeństwie</strong> zależy od jakości danych – eksperci porównują to do odżywiania triathlonisty.</li>
-<li><strong>Storm-2603</strong> wykorzystuje niestandardowy backdoor sterowany DNS-em w atakach ransomware Warlock i LockBit. Framework AK47 C2 obejmuje klientów AK47HTTP i AK47DNS.</li>
-<li><strong>Pokolenie Z</strong> coraz częściej celem cyberprzestępców – młodzi, cyfrowo obeznani pracownicy są atakowani specyficznymi metodami (SecurityWeek).</li>
-<li><strong>Microsoft bada</strong>, czy exploit ToolShell został wycieknięty przez MAPP; pojawiły się raporty o cyberbezpieczeństwie portów i o fizycznym backdoorze w bankomacie z użyciem Raspberry Pi.</li>
-<li><strong>Microsoft podnosi nagrody</strong> za wykrycie luk w .NET do 40 000 USD za kompletny i wiarygodny raport o RCE lub eskalacji uprawnień.</li>
-<li><strong>Rosyjscy cyberszpiedzy</strong> atakują zagraniczne ambasady w Moskwie, stosując AitM na poziomie ISP, by zainfekować urządzenia dyplomatyczne malware (Microsoft).</li>
-<li><strong>Firma Safe</strong> pozyskała 70 mln USD na rozwój AI agentów do oceny zagrożeń; Echo zdobyło 15 mln USD na kontenery wolne od CVE dla korporacyjnej infrastruktury.</li>
-<li><strong>USA</strong> – senatorowie proponują ustawę o krajowej strategii migracji na quantum cybersecurity.</li>
-<li><strong>Meta</strong> oferuje milion dolarów nagrody za wykrycie luk w WhatsApp w konkursie Pwn2Own Ireland 2025 (ZDI).</li>
-<li><strong>Oszuści na TikToku</strong> podszywają się pod Apple ID, prowadząc do strat na 27 000 USD.</li>
-<li><strong>OpenAI</strong> likwiduje eksperyment z dostępem do rozmów ChatGPT przez Google.</li>
-<li><strong>Dark Reading</strong> obchodzi 10-lecie i powraca na Black Hat USA 2025 z wywiadami i badaniami.</li>
-<li><strong>Kod generowany przez LLMs</strong> pozostaje niepewny – tylko połowa programów jest odpowiednio zabezpieczona.</li>
-<li><strong>Kobiety w cyberbezpieczeństwie</strong> – branża otwiera się na kobiety z determinacją i odwagą (Jessica Sica, CISO Weave).</li>
-<li><strong>Tworzenie playbooka po incydencie</strong> wymaga otwartej dyskusji i zaangażowania różnych interesariuszy.</li>
-<li><strong>Nowa technika „Shade BIOS”</strong> pozwala malware działać bez systemu operacyjnego.</li>
-<li><strong>ISC2</strong> uruchomiła nowy certyfikat bezpieczeństwa dla ekspertów AI (6 kursów: podstawy AI, etyka, ryzyko).</li>
-<li><strong>Rynek SIEM</strong> na rozdrożu – XDR i generatywna AI mogą zmienić analitykę bezpieczeństwa.</li>
-<li><strong>OpenAI</strong> pracuje nad tańszym planem subskrypcyjnym ChatGPT „Go” (&lt;20 USD/miesiąc).</li>
-<li><strong>Pi-hole</strong> ujawnia wyciek danych przez lukę w GiveWP na WordPress.</li>
-<li><strong>AI w Cursor IDE</strong> podatny na prompt-injection – luka CurXecute umożliwia RCE z uprawnieniami dewelopera.</li>
-<li><strong>Pwn2Own</strong> wypłaca 1 mln USD za exploit WhatsApp. Organizatorzy ZDI szukają złamań, które pozwolą na zeroklikowy atak, nagradzając najbardziej innowacyjne odkrycia.</li>
-</ul>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
