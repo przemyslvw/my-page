@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'MAJDAK.ONLINE',
-  tagline: 'Innowacje, Bezpieczeństwo IT i Automatyzacja',
+  tagline: 'Systemy Bezpieczeństwa, Automatyzacja, IoT',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -92,12 +92,12 @@ const config: Config = {
     metadata: [
       {
         name: 'description',
-        content: 'MAJDAK.ONLINE — centrum wiedzy o bezpieczeństwie IT, automatyzacji i nowych technologiach.',
+        content: 'Skalowalna architektura systemowa i ofensywne cyberbezpieczeństwo (Red Teaming). Wdrażamy i audytujemy zaawansowane środowiska IT. Dokumentacje techniczne: Kali Linux, standardy transmisji danych (Link 16) oraz systemy wbudowane (esp-idf).',
       },
       {
         name: 'keywords',
         content:
-          'Majdak, Think Tank, bezpieczeństwo IT, automatyzacja, ESP32, Playwright, programowanie, sieci, web security',
+          'cybersecurity, ofensywne bezpieczeństwo, Link 16 standard, środowisko Kali Linux, Dev-Ops, Node.js mikroserwisy, esp-idf development, NIS2, audyty bezpieczeństwa, automatyzacja n8n, Red Teaming',
       },
     ],
     navbar: {
