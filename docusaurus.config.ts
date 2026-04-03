@@ -102,10 +102,6 @@ const config: Config = {
     ],
     navbar: {
       title: 'MAJDAK.ONLINE',
-      logo: {
-        alt: 'MAJDAK.ONLINE Logo',
-        src: 'img/logo_small.png',
-      },
       items: [
         { to: '/blog', label: 'Research / Base', position: 'left' },
         {
@@ -198,7 +194,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://baluarte.pl" target="_blank" rel="noopener noreferrer">baluarte.pl</a>, Inc. Built with Passion.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://baluarte.pl" target="_blank" rel="noopener noreferrer" style="color: var(--ifm-color-primary); font-weight: bold; text-decoration: none;">baluarte.pl</a>, Inc. Built with Passion.`,
     },
     prism: {
       theme: prismThemes.github,

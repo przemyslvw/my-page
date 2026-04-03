@@ -5,82 +5,72 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  img: string;
+  icon: string;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'Software Architecture & Dev-Ops',
-    img: require('@site/static/img/undraw_web_development.png').default,
+    icon: 'fas fa-network-wired',
     description: (
       <>
         <strong>Projektowanie i wdrażanie redundantnych środowisk aplikacyjnych opartych na nowoczesnym stacku technologicznym.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>⚡ Architektura mikroserwisowa oparta o Node.js </li>
-          <li>🛡️ Restrykcyjne polityki CSP i autoryzacja zero-trust</li>
-          <li>🖥️ PWA z obsługą trybu offline i optymalizacją opóźnień</li>
-          <li>📦 Konteneryzacja (Docker), pipeline'y CI/CD we wdrożeniach</li>
-          <li>🧰 Tworzenie dedykowanych API (REST, GraphQL) pod integracje</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Architektura mikroserwisowa oparta o Node.js </li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Restrykcyjne polityki CSP i autoryzacja zero-trust</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> PWA z obsługą trybu offline i optymalizacją opóźnień</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Konteneryzacja (Docker), pipeline'y CI/CD we wdrożeniach</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Tworzenie dedykowanych API (REST, GraphQL) pod integracje</li>
         </ul>
       </>
     ),
   },
   {
     title: 'Process Automation & Interoperability',
-    img: require('@site/static/img/undraw_programming.png').default,
+    icon: 'fas fa-microchip',
     description: (
       <>
         <strong>Integracja zaawansowanych systemów rozproszonych, redukcja długu technologicznego i optymalizacja operacji I/O.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>🤖 Budowa event-driven architecture (n8n, Make)</li>
-          <li>🧪 Pełne testowanie E2E (Continuous Testing - Playwright)</li>
-          <li>📡 Systemy wbudowane: logika ESP32, protokoły M2M</li>
-          <li>🔗 Optymalizacja strumieni danych (ERP/Cloud/Databases)</li>
-          <li>🛠️ Automatyczne deploymenty i monitorowanie logów systemowych</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Budowa event-driven architecture (n8n, Make)</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Pełne testowanie E2E (Continuous Testing - Playwright)</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Systemy wbudowane: logika ESP32, protokoły M2M</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Optymalizacja strumieni danych (ERP/Cloud/Databases)</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Automatyczne deploymenty i monitorowanie logów systemowych</li>
         </ul>
       </>
     ),
   },
   {
     title: 'Offensive Security & Hardening',
-    img: require('@site/static/img/undraw_security.png').default,
+    icon: 'fas fa-shield-alt',
     description: (
       <>
         <strong>Wykrywanie podatności i hardening systemów od warstwy sprzętowej po aplikacyjną, techniki Red Team.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>🔍 Architektura bezpieczeństwa zgodna z OWASP</li>
-          <li>🧩 Testy penetracyjne, audyty web API (Kali Linux)</li>
-          <li>🔒 Hardening sieci oraz analiza transmisji bezprzewodowej</li>
-          <li>📑 Operacjonalizacja dyrektywy NIS2 i ISO 27001</li>
-          <li>🧠 Bezpieczna logika dla standardów teleinformatycznych</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Architektura bezpieczeństwa zgodna z OWASP</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Testy penetracyjne, audyty web API (Kali Linux)</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Hardening sieci oraz analiza transmisji bezprzewodowej</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Operacjonalizacja dyrektywy NIS2 i ISO 27001</li>
+          <li><span style={{ color: 'var(--ifm-color-primary)' }}>&gt;</span> Bezpieczna logika dla standardów teleinformatycznych</li>
         </ul>
       </>
     ),
   },
 ];
 
-function Feature({ title, img, description }: FeatureItem) {
+function Feature({ title, icon, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img
-          src={img}
-          className={styles.featureSvg}
-          alt={title}
-          loading="lazy"
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-            padding: '12px',
-          }}
-        />
+        <i className={clsx(icon)} style={{ fontSize: '4rem', color: 'var(--ifm-color-primary)', textShadow: '0 0 20px rgba(56, 189, 248, 0.2)', marginBottom: '1.5rem', marginTop: '1.5rem' }}></i>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

@@ -21,8 +21,6 @@ function HomepageHeader() {
           <div className="col col--6 col--offset-3">
             <div className={styles.contentWrapper}>
               <Heading as="h1" className="hero__title">
-                <img src="/img/logo.png" alt="MAJDAK.ONLINE Logo" style={{ width: '240px', height: 'auto' }} />
-                <br />
                 <span className="text--gradient">MAJDAK.ONLINE ENGINEERING HUB</span>
               </Heading>
               <p className="hero__subtitle">Zaawansowana Inżynieria IT, Sec-Ops i Automatyzacja.</p>
