@@ -2,11 +2,94 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2026-03-14T00:00:00.000Z</updated>
+    <updated>2026-04-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Koniec ery radiostacji? Witajcie w bojowej chmurze: Jak Link 16 i LEO zmieniają pole walki po 2026 roku.]]></title>
+        <id>https://www.majdak.online/blog/cjadc2-link-16-leo</id>
+        <link href="https://www.majdak.online/blog/cjadc2-link-16-leo"/>
+        <updated>2026-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Współczesne pole walki w 2026 roku to środowisko o bezprecedensowej transparentności i dynamice. Transformacja w kierunku operacji wielodomenowych (Multi-Domain Operations) oraz koncepcja CJADC2 (Combined Joint All-Domain Command and Control) wymusiły radykalną modernizację infrastruktury sieciocentrycznej. Kluczem do uzyskania przewagi decyzji (decision superiority) nie jest już tylko siła ognia, ale zdolność do budowy cyfrowego "kill web", w którym sensory i efektory współpracują w czasie rzeczywistym.]]></summary>
+        <content type="html"><![CDATA[<p>Współczesne pole walki w 2026 roku to środowisko o bezprecedensowej transparentności i dynamice. Transformacja w kierunku operacji wielodomenowych (<strong>Multi-Domain Operations</strong>) oraz koncepcja <strong>CJADC2</strong> (Combined Joint All-Domain Command and Control) wymusiły radykalną modernizację infrastruktury sieciocentrycznej. Kluczem do uzyskania przewagi decyzji (decision superiority) nie jest już tylko siła ognia, ale zdolność do budowy cyfrowego "kill web", w którym sensory i efektory współpracują w czasie rzeczywistym.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="środowisko-bezpieczeństwa-i-paradygmat-cjadc2"><strong>Środowisko bezpieczeństwa i paradygmat CJADC2</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#%C5%9Brodowisko-bezpiecze%C5%84stwa-i-paradygmat-cjadc2" class="hash-link" aria-label="Bezpośredni link do środowisko-bezpieczeństwa-i-paradygmat-cjadc2" title="Bezpośredni link do środowisko-bezpieczeństwa-i-paradygmat-cjadc2">​</a></h2>
+<p>Zmiany geopolityczne zapoczątkowane w 2025 roku oraz eskalacja zagrożeń w obszarze Pacyfiku i Europy Wschodniej zdefiniowały nową erę odstraszania. Odpowiedzią NATO i DoD na systemy antydostępowe (A2/AD) przeciwnika jest pełna integracja domen: lądowej, morskiej, powietrznej, kosmicznej i cybernetycznej.</p>
+<p>Fundamentem tej wizji są <strong>Taktyczne Łącza Danych (TDL)</strong>. Choć standard Link 16 (STANAG 5516) pozostaje filarem łączności, jego ewolucja w stronę standardów BU2 oraz integracja z nowymi technologiami (LEO, Link 22, MADL) stanowią o nowej jakości systemów dowodzenia (C3).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="---">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Architektura Link 16: Modernizacja MIDS i Standard BU2</strong></p>
+<p>Pomimo dekad służby, infrastruktura Link 16 przechodzi renesans dzięki pakietom modernizacyjnym <strong>Block Upgrade 2 (BU2)</strong>. Kluczowe aspekty tej ewolucji obejmują:</p>
+<ul>
+<li><strong>Frequency Remapping (FR):</strong> Dynamiczne zarządzanie widmem w pasmie L, eliminujące interferencje z systemami cywilnymi.</li>
+<li><strong>Enhanced Throughput (ET):</strong> Zwiększenie użytecznej przepustowości dla bogatych danych z nowoczesnych sensorów.</li>
+<li><strong>Cryptographic Modernization (CMI):</strong> Implementacja nowych modułów SDU (np. SDU-1000), pozwalających na przechowywanie do 1000 kluczy TEK (wobec 8 w starszych systemach KGV-8).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="porównanie-generacji-link-16"><strong>Porównanie generacji Link 16</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#por%C3%B3wnanie-generacji-link-16" class="hash-link" aria-label="Bezpośredni link do porównanie-generacji-link-16" title="Bezpośredni link do porównanie-generacji-link-16">​</a></h3>
+<table><thead><tr><th style="text-align:left">Parametr / Cecha</th><th style="text-align:left">Starsza generacja (MIDS-LVT)</th><th style="text-align:left">Nowoczesna generacja (BU2 / JTRS)</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Kryptografia</strong></td><td style="text-align:left">Moduły KGV-8 (8 kluczy)</td><td style="text-align:left">Nowoczesne SDU (1000 kluczy)</td></tr><tr><td style="text-align:left"><strong>Zarządzanie</strong></td><td style="text-align:left">Fizyczne ładowanie kluczy</td><td style="text-align:left"><strong>Remote Rekeying</strong> (zdalne)</td></tr><tr><td style="text-align:left"><strong>Elastyczność</strong></td><td style="text-align:left">Stałe mapowanie pasma</td><td style="text-align:left"><strong>Frequency Remapping</strong></td></tr><tr><td style="text-align:left"><strong>Skalowalność</strong></td><td style="text-align:left">Duże platformy (samoloty, okręty)</td><td style="text-align:left">Od dużych platform po UAV i drony</td></tr></tbody></table>
+<p>Miniaturyzacja terminali (np. <strong>STT KOR-24A</strong> czy <strong>Mojo Mini Next</strong>) pozwoliła na włączenie do sieci małych jednostek i dronów, co drastycznie zwiększa nasycenie pola walki sensorami.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----1">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Przełamanie horyzontu: Konstelacje LEO i łączność kosmiczna</strong></p>
+<p>Ograniczenie Link 16 do linii widzenia (LOS) zostało rozwiązane przez <strong>Proliferated Warfighter Space Architecture (PWSA)</strong>. Satelity na niskiej orbicie (LEO) wyposażone w anteny Link 16 oraz optyczne łącza międzysatelitarne (<strong>OISL</strong>) pełnią rolę globalnych przekaźników.</p>
+<p><strong>PoC 2025:</strong> Testy norweskich F-35 i P-8 wykazały zdolność do bezpośredniej wymiany danych Link 16 z satelitami SDA, co eliminuje potrzebę stosowania podatnych na zniszczenie retransmisyjnych samolotów AWACS w strefie rażenia przeciwnika.</p>
+<p>Wyzwania pozostają jednak w warstwie cyber: raporty NSA z 2026 roku wskazują na konieczność wzmocnienia ochrony segmentu naziemnego i terminali przed infiltracją w środowisku hybrydowym.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----2">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----2" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Link 22: Nowy standard domeny morskiej</strong></p>
+<p>System <strong>Link 22 (NILE)</strong> ostatecznie zastępuje archaiczny Link 11. Oferuje on:</p>
+<ol>
+<li><strong>Zdolność BLOS (Beyond Line-of-Sight):</strong> Wykorzystanie pasma HF do komunikacji dalekiego zasięgu bez satelitów.</li>
+<li><strong>Architekturę Self-healing:</strong> Sieć rozproszona, odporna na zniszczenie pojedynczych węzłów.</li>
+<li><strong>Interoperacyjność:</strong> Pełna zgodność z komunikatami serii J (Link 16).</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----3">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----3" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Wyzwania Stealth: Łącza kierunkowe MADL i IFDL</strong></p>
+<p>Dla myśliwców V generacji (F-35, F-22) klasyczny Link 16 jest zbyt łatwy do wykrycia przez systemy ESM przeciwnika. Rozwiązaniem są łącza kierunkowe o niskim prawdopodobieństwie wykrycia (<strong>LPI/LPD</strong>):</p>
+<ul>
+<li><strong>MADL (Multifunction Advanced Data Link):</strong> Wąska, kierunkowa wiązka umożliwiająca skrytą wymianę danych "fuzji sensorów".</li>
+<li><strong>Daisy Chaining:</strong> Procedura przesyłania danych wewnątrz formacji stealth i ich późniejsza translacja na Link 16 przez "bramy" (Gateways) dla starszych platform (F-16, Eurofighter).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----4">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----4" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Od IBCS do NGC2: Chmura bojowa i AI na krawędzi</strong></p>
+<p>Ewolucja protokołów zasila nowoczesne systemy dowodzenia:</p>
+<ul>
+<li><strong>IBCS (Integrated Air and Missile Defense Battle Command System):</strong> Rewolucyjny model "Any Sensor - Any Shooter", w którym radar dowolnej baterii może naprowadzać pocisk z innej wyrzutni.</li>
+<li><strong>NGC2 (Next Generation Command and Control):</strong> Architektura <em>cloud-native</em> wdrażana po 2025 roku, eliminująca ciężkie serwery polowe na rzecz rozproszonej tkanki danych.</li>
+<li><strong>AXS (Artillery Execution Suite):</strong> Skrócenie czasu od wykrycia do uderzenia (sensor-to-shooter) z minut do sekund przy wsparciu Edge Computing i AI.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----5">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----5" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Polska jako lider wschodniej flanki NATO</strong></p>
+<p>Rzeczpospolita Polska zrealizowała kluczowe kamienie milowe w integracji sieciocentrycznej:</p>
+<ol>
+<li><strong>IBCS-enabled Patriot:</strong> W grudniu 2025 r. 37. Dywizjon Rakietowy osiągnął pełną zdolność operacyjną (<strong>FOC</strong>), czyniąc Polskę pierwszym użytkownikiem IBCS poza USA.</li>
+<li><strong>Program Miecznik:</strong> Fregaty (np. przyszły ORP Wicher) integrują system <strong>TACTICOS</strong> oraz Link 22, stając się kluczowymi węzłami C2 na Bałtyku.</li>
+<li><strong>Cyberbezpieczeństwo:</strong> Wdrożenie systemu <strong>RTDLMS</strong> przez grupę Enamor pozwala na zaawansowane zarządzanie kryptografią Link 16 (<strong>Remote Rekeying</strong>).</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kluczowe-programy-modernizacyjne-sz-rp-2025-2026"><strong>Kluczowe programy modernizacyjne SZ RP (2025-2026)</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#kluczowe-programy-modernizacyjne-sz-rp-2025-2026" class="hash-link" aria-label="Bezpośredni link do kluczowe-programy-modernizacyjne-sz-rp-2025-2026" title="Bezpośredni link do kluczowe-programy-modernizacyjne-sz-rp-2025-2026">​</a></h3>
+<table><thead><tr><th style="text-align:left">Program</th><th style="text-align:left">Data Operacyjna</th><th style="text-align:left">Rola w ekosystemie C2</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Wisła (Faza II)</strong></td><td style="text-align:left">Grudzień 2025</td><td style="text-align:left">Integracja sensorów i efektorów w architekturze IBCS.</td></tr><tr><td style="text-align:left"><strong>Miecznik (Wicher)</strong></td><td style="text-align:left">Sierpień 2026</td><td style="text-align:left">Wodowanie; integracja Link 22 i systemów radarowych AESA.</td></tr><tr><td style="text-align:left"><strong>RTDLMS</strong></td><td style="text-align:left">Początek 2025</td><td style="text-align:left">Centralizacja zarządzania kluczami kryptograficznymi.</td></tr></tbody></table>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="----6">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----6" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---">​</a></h2>
+<p><strong>Prognozy rynkowe do 2034 roku</strong></p>
+<p>Globalny rynek łączy taktycznych w 2026 roku wyceniany jest na <strong>9,18 mld USD</strong>, z przewidywanym wzrostem do ponad <strong>17,23 mld USD</strong> do 2034 r. (CAGR 8,20%). Największa dynamika wzrostu przesuwa się w stronę regionu Azji i Pacyfiku oraz Europy Środkowej, gdzie inwestycje w systemy <strong>Software-Defined Radio (SDR)</strong> i otwarte architektury stają się priorytetem.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="podsumowanie"><strong>Podsumowanie</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#podsumowanie" class="hash-link" aria-label="Bezpośredni link do podsumowanie" title="Bezpośredni link do podsumowanie">​</a></h3>
+<p>Ewolucja systemów dowodzenia po 2026 roku to balansowanie między technologiczną dominacją a "paraliżem informacyjnym". Sukces na nowoczesnym polu walki zależy od zdolności do bezpiecznego, skrytego i błyskawicznego przesyłu danych w zunifikowanym "kill web", gdzie rola człowieka jest wspierana przez algorytmy AI działające na samej krawędzi frontu.</p>
+<hr>
+<p><strong>Słowa kluczowe:</strong> <em>Link 16, Link 22, CJADC2, IBCS, MADL, BU2, MIDS, systemy dowodzenia, modernizacja WP, cyberbezpieczeństwo wojskowe, LEO, PWSA, Miecznik, Multi-Domain Operations.</em></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="CJADC2" term="CJADC2"/>
+        <category label="Link 16" term="Link 16"/>
+        <category label="LEO" term="LEO"/>
+        <category label="MADL" term="MADL"/>
+        <category label="IBCS" term="IBCS"/>
+        <category label="MIDS" term="MIDS"/>
+        <category label="Link 22" term="Link 22"/>
+        <category label="Modernizacja WP" term="Modernizacja WP"/>
+        <category label="Cyberbezpieczeństwo Wojskowe" term="Cyberbezpieczeństwo Wojskowe"/>
+        <category label="PWSA" term="PWSA"/>
+        <category label="Miecznik" term="Miecznik"/>
+        <category label="Multi-Domain Operations" term="Multi-Domain Operations"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Niewidzialna Forteca: Dlaczego Cloudflare Tunnel to absolutny Must-Have dla Twojego serwera]]></title>
         <id>https://www.majdak.online/blog/cloudflare-tunnel-must-have</id>
@@ -2015,42 +2098,6 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 <hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="mozilla-ostrzega-przed-phishingiem-wymierzonym-w-deweloperów-dodatków">Mozilla ostrzega przed phishingiem wymierzonym w deweloperów dodatków<a href="https://www.majdak.online/blog/news-2025-08-05#mozilla-ostrzega-przed-phishingiem-wymierzonym-w-deweloper%C3%B3w-dodatk%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Mozilla ostrzega przed phishingiem wymierzonym w deweloperów dodatków" title="Bezpośredni link do Mozilla ostrzega przed phishingiem wymierzonym w deweloperów dodatków">​</a></h3>
 <p>Mozilla ostrzegła deweloperów rozszerzeń przeglądarki przed aktywną kampanią phishingową wymierzoną w konta na oficjalnym repozytorium AMO (addons.mozilla.org).</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Ataki" term="Ataki"/>
-        <category label="Exploits" term="Exploits"/>
-        <category label="Privacy" term="Privacy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta pod ostrzałem: tajne ataki i zaskakujące zagrożenia w cyberprzestrzeni!]]></title>
-        <id>https://www.majdak.online/blog/news-2025-08-03</id>
-        <link href="https://www.majdak.online/blog/news-2025-08-03"/>
-        <updated>2025-08-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cyberzagrożenia rosną, a ataki zagrażają krytycznej infrastrukturze — od tajnych malware w sieciach telekomunikacyjnych w Azji Południowo-Wschodniej, przez ukrytą tygrysią tylną furtkę 'Plague' na Linuxie, po ransomware Akira atakujące VPN-y SonicWall. Eksperci ostrzegają, że cyberprzestępcy coraz częściej korzystają z zaawansowanych metod, aby uzyskać nieautoryzowany dostęp i poważnie zagrozić bezpieczeństwu globalnych systemów, podczas gdy firmy takie jak OpenAI i Anthropic rywalizują o przewagę w rozwoju najbardziej zaawansowanych modeli AI.]]></summary>
-        <content type="html"><![CDATA[<p>Cyberzagrożenia rosną, a ataki zagrażają krytycznej infrastrukturze — od tajnych malware w sieciach telekomunikacyjnych w Azji Południowo-Wschodniej, przez ukrytą tygrysią tylną furtkę 'Plague' na Linuxie, po ransomware Akira atakujące VPN-y SonicWall. Eksperci ostrzegają, że cyberprzestępcy coraz częściej korzystają z zaawansowanych metod, aby uzyskać nieautoryzowany dostęp i poważnie zagrozić bezpieczeństwu globalnych systemów, podczas gdy firmy takie jak OpenAI i Anthropic rywalizują o przewagę w rozwoju najbardziej zaawansowanych modeli AI.</p>
-<p>CL-STA-0969 Instaluje Ukrytą Złośliwą Oprogramowanie w Sieciach Telekomunikacyjnych w Ciągu 10-miesięcznej Kampanii Szpiegowskiej
-Organizacje telekomunikacyjne w Azji Południowo-Wschodniej zostały zaatakowane przez państwowo sponsorowanego aktywnego zagrożenia znanego jako CL-STA-0969, aby umożliwić zdalne zarządzanie przejętymi sieciami.
-Palo Alto Networks Unit 42 powiedział, że zaobserwował wiele incydentów w regionie, w tym jeden skierowany na krytyczną infrastrukturę telekomunikacyjną w okresie od lutego do listopada 2024.
-Ataki charakteryzują się tym, że</p>
-<hr>
-<p>Nowa tylnia furtka ‘Plague’ PAM Ujawnia Krytyczne Systemy Linux na Ciche Kradzieże Danych Dostępowych
-Cyberbezpieczeństwo naukowcy zgłosili wcześniej nieznaną tylną furtkę Linux o nazwie Plague, która udało się uniknąć wykrycia przez rok.
-„Implant jest zbudowany jako złośliwy PAM (Pluggable Authentication Module), umożliwiający napastnikom ciche obchodzenie się z uwierzytelnianiem systemu i uzyskanie trwałego dostępu SSH,” powiedział badacz Nextron Systems Pierre-Henri Pezier.
-Płaszcz Authentication Modules</p>
-<hr>
-<p>Akira Ransomware Eksploatuje SonicWall VPN w Prawdopodobnym Zero-Day Ataku na W pełni Zainstalowanych Urządzenia
-Urządzenia SonicWall SSL VPN stały się celem ataków ransomware Akira w ramach nowej fali aktywności zaobserwowanej pod koniec lipca 2025.
-„W przeanalizowanych włamaniach zaobserwowano wiele wstępnych włamań przed ransomware w krótkim okresie czasu, z każdego z nich korzystano z dostępu VPN poprzez SonicWall SSL VPN,” powiedział badacz Arctic Wolf Labs Julian Tuin w raporcie.
-Firma cyberbezpieczeństwa</p>
-<hr>
-<p>OpenAI przygotowuje nowe otwarte modele wag wraz z GPT-5
-OpenAI nie pracuje tylko nad GPT-5. Wygląda na to, że OpenAI również przygotowuje się do wypuszczenia nowych otwartych wag źródłowych, spełniając swoją nazwę, OpenAI.' [...]</p>
-<hr>
-<p>Anthropic twierdzi, że inżynierowie OpenAI korzystają z Claude Code przed premiery GPT-5
-Anthropic twierdzi, że cofnęło dostęp OpenAI do API Claude po tym, jak inżynierowie ChatGPT zostali złapani na używaniu narzędzi kodowania Claude. [...]</p>]]></content>
         <author>
             <name>Przemysław Majdak</name>
             <uri>https://www.majdak.online</uri>
