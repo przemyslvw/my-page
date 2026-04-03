@@ -11,62 +11,55 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Tworzenie Aplikacji Internetowych',
+    title: 'Software Architecture & Dev-Ops',
     img: require('@site/static/img/undraw_web_development.png').default,
     description: (
       <>
-        <strong>Szybkie, bezpieczne i nowoczesne aplikacje dopasowane do Twoich potrzeb.</strong>
-        <br />
-        Projektujemy i wdrażamy rozwiązania, które łączą świetny frontend z wydajnym zapleczem technologicznym.
+        <strong>Projektowanie i wdrażanie redundantnych środowisk aplikacyjnych opartych na nowoczesnym stacku technologicznym.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>⚡ Angular + Firebase – szybkie aplikacje</li>
-          <li>🖥️ Responsywne UI, PWA dla każdej platformy</li>
-          <li>🧰 Baza danych, auth, pliki – kompletna aplikacja</li>
-          <li>🔧 MVP i skalowanie – wsparcie dla firm na starcie</li>
-          <li>🧪 Wsparcie, monitoring i rozwój po wdrożeniu</li>
+          <li>⚡ Architektura mikroserwisowa oparta o Node.js </li>
+          <li>🛡️ Restrykcyjne polityki CSP i autoryzacja zero-trust</li>
+          <li>🖥️ PWA z obsługą trybu offline i optymalizacją opóźnień</li>
+          <li>📦 Konteneryzacja (Docker), pipeline'y CI/CD we wdrożeniach</li>
+          <li>🧰 Tworzenie dedykowanych API (REST, GraphQL) pod integracje</li>
         </ul>
       </>
     ),
   },
   {
-    title: 'Automatyzacja',
+    title: 'Process Automation & Interoperability',
     img: require('@site/static/img/undraw_programming.png').default,
     description: (
       <>
-        <strong>Zyskaj czas, wyeliminuj błędy i przyspiesz rozwój swojego biznesu.</strong>
-        <br />
-        Budujemy automatyczne systemy, które wyręczają ludzi w powtarzalnych zadaniach i zwiększają zyski.
+        <strong>Integracja zaawansowanych systemów rozproszonych, redukcja długu technologicznego i optymalizacja operacji I/O.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>🤖 Automatyzacja procesów w Make, n8n, OpenAI</li>
-          <li>🧪 Testy automatyczne Playwright oraz integracje </li>
-          <li>📡 Integracje sprzętowe IoT z ESP32, Raspberry Pi</li>
-          <li>🔗 Łączenie systemów: API, sklepy, CRM, płatności</li>
-          <li>🛠️ Rozwiązania, które rosną razem z Twoją firmą</li>
+          <li>🤖 Budowa event-driven architecture (n8n, Make)</li>
+          <li>🧪 Pełne testowanie E2E (Continuous Testing - Playwright)</li>
+          <li>📡 Systemy wbudowane: logika ESP32, protokoły M2M</li>
+          <li>🔗 Optymalizacja strumieni danych (ERP/Cloud/Databases)</li>
+          <li>🛠️ Automatyczne deploymenty i monitorowanie logów systemowych</li>
         </ul>
       </>
     ),
   },
   {
-    title: 'Cyberbezpieczeństwo',
+    title: 'Offensive Security & Hardening',
     img: require('@site/static/img/undraw_security.png').default,
     description: (
       <>
-        <strong>Bezpieczeństwo to podstawa każdego nowoczesnego i skalującego się biznesu.</strong>
-        <br />
-        Zabezpieczamy Twoją firmę przed wyciekiem danych, atakami hakerskimi, przestojami systemów i kosztownymi
-        konsekwencjami awarii.
+        <strong>Wykrywanie podatności i hardening systemów od warstwy sprzętowej po aplikacyjną, techniki Red Team.</strong>
         <br />
         <br />
         <ul className={styles.noListStyle}>
-          <li>🔍 Audyty i testy bezpieczeństwa web, API i sieci</li>
-          <li>🧩 Wdrażanie ISO 27001, OWASP, NIS2 </li>
-          <li>🔒 Zabezpieczenia aplikacji, IoT oraz sieci </li>
-          <li>📑 Polityki bezpieczeństwa i szkolenia dla firm</li>
-          <li>🧠 Konsultacje z naciskiem na praktykę</li>
+          <li>🔍 Architektura bezpieczeństwa zgodna z OWASP</li>
+          <li>🧩 Testy penetracyjne, audyty web API (Kali Linux)</li>
+          <li>🔒 Hardening sieci oraz analiza transmisji bezprzewodowej</li>
+          <li>📑 Operacjonalizacja dyrektywy NIS2 i ISO 27001</li>
+          <li>🧠 Bezpieczna logika dla standardów teleinformatycznych</li>
         </ul>
       </>
     ),
