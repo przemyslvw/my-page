@@ -766,3 +766,58 @@ darmowy-ssl:
   label: Darmowy SSL
   permalink: /darmowy-ssl
   description: Uzyskiwanie i konfiguracja darmowych certyfikatów SSL.
+
+cjadc2:
+  label: CJADC2
+  permalink: /cjadc2
+  description: Combined Joint All-Domain Command and Control — koncepcja zintegrowanego dowodzenia we wszystkich domenach.
+
+leo:
+  label: LEO
+  permalink: /leo
+  description: Low Earth Orbit — wykorzystanie niskiej orbity okołoziemskiej w łączności i rozpoznaniu wojskowym.
+
+madl:
+  label: MADL
+  permalink: /madl
+  description: Multifunction Advanced Data Link — skryte, kierunkowe łącze danych dla platform stealth (np. F-35).
+
+ibc:
+  label: IBCS
+  permalink: /ibcs
+  description: Integrated Air and Missile Defense Battle Command System — sieciocentryczny system dowodzenia obroną przeciwlotniczą.
+
+mids:
+  label: MIDS
+  permalink: /mids
+  description: Multifunctional Information Distribution System — rodzina terminali obsługujących system Link 16.
+
+link-22:
+  label: Link 22
+  permalink: /link-22
+  description: Nowoczesny standard cyfrowej łączności taktycznej (NILE) dla domeny morskiej i BLOS.
+
+modernizacja-wp:
+  label: Modernizacja WP
+  permalink: /modernizacja-wp
+  description: Artykuły dotyczące programów modernizacji technicznej Sił Zbrojnych Rzeczypospolitej Polskiej.
+
+cyberbezpieczenstwo-wojskowe:
+  label: Cyberbezpieczeństwo Wojskowe
+  permalink: /cyberbezpieczenstwo-wojskowe
+  description: Ochrona systemów dowodzenia, kryptografia wojskowa i wojna w cyberprzestrzeni.
+
+pwsa:
+  label: PWSA
+  permalink: /pwsa
+  description: Proliferated Warfighter Space Architecture — nowa, wielowarstwowa architektura satelitarna Pentagonu.
+
+miecznik:
+  label: Miecznik
+  permalink: /miecznik
+  description: Program budowy nowoczesnych fregat wielozadaniowych dla Marynarki Wojennej RP.
+
+multi-domain-operations:
+  label: Multi-Domain Operations
+  permalink: /multi-domain-operations
+  description: Operacje wielodomenowe (MDO) — integracja działań w sferach lądowej, morskiej, powietrznej, kosmicznej i cyber.
