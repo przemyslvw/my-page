@@ -821,3 +821,28 @@ multi-domain-operations:
   label: Multi-Domain Operations
   permalink: /multi-domain-operations
   description: Operacje wielodomenowe (MDO) — integracja działań w sferach lądowej, morskiej, powietrznej, kosmicznej i cyber.
+
+kali-linux:
+  label: Kali Linux
+  permalink: /kali-linux
+  description: Artykuły i poradniki dotyczące najpopularniejszej dystrybucji do testów penetracyjnych.
+
+android-hacking:
+  label: Android Hacking
+  permalink: /android-hacking
+  description: Testy penetracyjne, bezpieczeństwo aplikacji mobilnych i Kali NetHunter na systemie Android.
+
+ios-hacking:
+  label: iOS Hacking
+  permalink: /ios-hacking
+  description: Analiza bezpieczeństwa, audyty i hacking urządzeń oraz aplikacji w ekosystemie Apple iOS.
+
+backtrack:
+  label: BackTrack
+  permalink: /backtrack
+  description: Historia i dziedzictwo projektu BackTrack Linux, poprzednika dystrybucji Kali.
+
+linux-2026:
+  label: Linux 2026
+  permalink: /linux-2026
+  description: Nowości, aktualizacje i trendy w świecie systemów Linux przewidywane na rok 2026.
