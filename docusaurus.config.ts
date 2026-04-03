@@ -97,7 +97,7 @@ const config: Config = {
       {
         name: 'keywords',
         content:
-          'cybersecurity, ofensywne bezpieczeństwo, Link 16 standard, środowisko Kali Linux, Dev-Ops, Node.js mikroserwisy, esp-idf development, NIS2, audyty bezpieczeństwa, automatyzacja n8n, Red Teaming',
+          'cybersecurity, środowisko Kali Linux, Link 16 standard, MIDS, ofensywne bezpieczeństwo, Dev-Ops, Node.js mikroserwisy, esp-idf development, NIS2, ISO 27001, automatyzacja n8n, Red Teaming',
       },
     ],
     navbar: {
