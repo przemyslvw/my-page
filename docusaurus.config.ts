@@ -107,15 +107,15 @@ const config: Config = {
         src: 'img/logo_small.png',
       },
       items: [
+        { to: '/blog', label: 'Research / Base', position: 'left' },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Dokumentacja',
+          label: 'Docs / Specs',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
-        { to: '/automatyzacja', label: 'Automatyzacja', position: 'left' },
-        { to: '/contact', label: 'Kontakt', position: 'left' },
+        { to: '/automatyzacja', label: 'Capabilities / Ops', position: 'left' },
+        { to: '/contact', label: 'Contact / Secure Comms', position: 'left' },
         {
           href: 'https://github.com/przemyslvw',
           label: 'GitHub',
@@ -172,7 +172,7 @@ const config: Config = {
             },
             {
               label: '📧 Email',
-              href: 'mailto:kontakt@majdak.online',
+              href: 'mailto:kontakt@baluarte.pl',
             },
           ],
         },
