@@ -50,19 +50,6 @@ export default function Home(): ReactNode {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "ProfessionalService",
-        "@id": "https://www.majdak.online/#organization",
-        "name": "MAJDAK.ONLINE - Engineering Hub",
-        "description": "Zaawansowana inżynieria systemowa, automatyzacja procesów oraz cyberbezpieczeństwo (Red Teaming).",
-        "url": "https://www.majdak.online",
-        "email": "kontakt@baluarte.pl",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "18"
-        }
-      },
-      {
         "@type": "ItemList",
         "name": "Core Engineering Capabilities",
         "itemListElement": [
@@ -94,27 +81,6 @@ export default function Home(): ReactNode {
             }
           }
         ]
-      },
-      {
-        "@type": "Review",
-        "itemReviewed": { "@id": "https://www.majdak.online/#organization" },
-        "author": { "@type": "Person", "name": "Piotr R., CISO" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "Audyt infrastruktury sieciowej oraz próby penetracyjne ujawniły niewidoczne wektory. Raport techniczny stał na niesamowicie wysokim poziomie."
-      },
-      {
-        "@type": "Review",
-        "itemReviewed": { "@id": "https://www.majdak.online/#organization" },
-        "author": { "@type": "Person", "name": "Kamil W., Lead DevOps" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-        "reviewBody": "Migracja do logiki event-driven przy wykorzystaniu n8n przebiegła bez spadku performance'u bazy danych."
-      },
-      {
-        "@type": "Review",
-        "itemReviewed": { "@id": "https://www.majdak.online/#organization" },
-        "author": { "@type": "Person", "name": "Tomasz K., Embedded Engineer" },
-        "reviewRating": { "@type": "Rating", "ratingValue": "4.8", "bestRating": "5" },
-        "reviewBody": "Szkolenia techniczne i twarda dokumentacja - zwłaszcza z procedur C2 / protokołów MIDS i Link 16 udowadniają ekspercki narzut wiedzowy. Polecamy usługi na poziomie R&D."
       }
     ]
   };
