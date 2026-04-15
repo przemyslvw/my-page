@@ -6,47 +6,60 @@ tags: ['cyberbezpieczenstwo', 'pentesting', 'insecon']
 date: "2026-04-15"
 ---
 
-Podczas konferencji INSECON Paula Januszkiewicz, CEO CQURE, przedstawiła dogłębną analizę wektorów ataków na infrastrukturę Microsoft Active Directory oraz procedur reagowania na incydenty (Incident Response). Prelekcja, bazująca na realnych przypadkach (m.in. kompromitacji infrastruktury wodociągowej), obnażyła krytyczne luki w zarządzaniu cyklem życia poświadczeń, w tym problem niewygasających certyfikatów i ekstrakcji kluczy za pomocą DPAPI.
+Współczesne ataki na infrastrukturę tożsamości rzadko kończą się na jednorazowym włamaniu. Zgodnie z danymi wywiadowczymi (FBI, IBM), średni czas przebywania grupy APT wewnątrz sieci przed wykryciem (Dwell Time) wynosi około 200 dni. Atakujący wykorzystują ten czas na mapowanie zasobów, eskalację uprawnień i głęboką implementację mechanizmów persystencji. Poniższy materiał stanowi techniczną analizę anatomii ataku na poświadczenia Windows oraz rygorystycznego frameworku reagowania na incydenty (Incident Response) dla środowisk Tier 0, bazując na dekonstrukcji prelekcji Pauli Januszkiewicz (CQURE) z konferencji INSECON.
 
 <!-- truncate -->
 
-Poniższy materiał stanowi techniczną syntezę omawianych zagadnień z naciskiem na mechanizmy ochrony danych w systemach Windows.
+## **Studium przypadku: Dług technologiczny a kompromitacja DPAPI**
 
-## **Problem DPAPI: Architektura ochrony danych w systemach Windows**
+Podczas analizy powłamaniowej (post-breach) infrastruktury krytycznej stacji oczyszczania wody, badacze zidentyfikowali krytyczny wektor kompromitacji wynikający z długu technologicznego. Domenę migrowano na nowsze wersje Windows Server, pozostawiając wygasły w 2012 roku główny certyfikat w konfiguracji usług. Ten pojedynczy błąd architektoniczny otworzył drogę do globalnej kompromitacji sekretów w organizacji poprzez nadużycie mechanizmów Data Protection API (DPAPI).
 
-Kluczowym elementem demonstracji technicznej (PoC) był atak na Data Protection API (DPAPI). Jest to wbudowany w systemy Windows interfejs kryptograficzny, używany przez aplikacje (np. Google Chrome, Microsoft Edge, SAP) do szyfrowania wrażliwych danych użytkownika, takich jak ciasteczka sesyjne, zapisane hasła czy klucze prywatne.
+### **Architektura DPAPI i wektory kradzieży danych**
 
-### **Mechanizm działania DPAPI i punkt krytyczny (Master Key)**
+DPAPI odpowiada za szyfrowanie wrażliwych danych użytkownika na poziomie systemu operacyjnego (hasła w przeglądarkach, tokeny SAP, ciasteczka sesyjne). W procesie tym wykorzystywane są następujące mechanizmy kryptograficzne:
 
-1. **Szyfrowanie asymetryczne na poziomie użytkownika:** Dane są szyfrowane unikalnym kluczem głównym (Master Key), generowanym dla każdego konta użytkownika.  
-2. **Ochrona Master Key:** Klucz ten jest następnie szyfrowany przy użyciu skrótu (hash) hasła logowania użytkownika oraz, w środowiskach domenowych, dodatkowym kluczem odzyskiwania (Domain Backup Key).  
-3. **Wektor ataku (LSA i skróty haseł):** Atakujący posiadający uprawnienia lokalnego administratora (np. poprzez eskalację uprawnień) może wykorzystać narzędzia takie jak Mimikatz do zrzutu zawartości pamięci podsystemu Local Security Authority (LSA). Ekstrakcja wpisów takich jak MSDCC2 (odpowiedzialnych za cache poświadczeń logowania) pozwala na odzyskanie materiału kryptograficznego.  
-4. **Kompromitacja Domain Backup Key:** Jeśli napastnik skompromituje kontroler domeny i wyeksportuje klucz zapasowy domeny (Domain Backup Key), uzyskuje możliwość deszyfrowania wszystkich plików chronionych przez DPAPI (tzw. blobów) dla **każdego użytkownika w całej domenie**, całkowicie offline. Omija to całkowicie mechanizmy MFA, pozwalając na kradzież aktywnych sesji webowych.
+1. **Szyfrowanie Payloadu:** Docelowe dane chronione są algorytmem symetrycznym **3DES** (0x6603), a ich integralność weryfikowana jest funkcją skrótu **SHA1** (0x8004).  
+2. **Generowanie i Ochrona Master Key:** Kluczem deszyfrującym te zasoby jest unikalny dla profilu Master Key. Sam Master Key jest szyfrowany przy użyciu skrótu NT hash hasła użytkownika, który oparty jest na podatnym na ataki algorytmie **MD4**.  
+3. **Ekstrakcja z LSA i MSDCC2:** Atakujący uzyskujący uprawnienia NT AUTHORITY\\SYSTEM (np. poprzez podatności w usługach) wykonuje zrzut pamięci podsystemu Local Security Authority (LSA). Wykorzystując narzędzia takie jak Mimikatz/Kiwi, ekstrahuje dane logowania z lokalnego bufora MSDCC2 (mscash2). Posiadając skrót hasła, atakujący deszyfruje Master Key i uzyskuje dostęp do lokalnych sekretów.  
+4. **Wektor Domain Backup Key:** W domenach Active Directory istnieje funkcja awaryjnego odzyskiwania (Recovery). Master Key każdego użytkownika jest dodatkowo zaszyfrowany asymetrycznym kluczem publicznym domeny. Kompromitacja kontrolera domeny (DC) i eksfiltracja wygasłego, ale wciąż funkcjonalnego w architekturze DPAPI klucza prywatnego (Domain Backup Key), pozwala atakującym na masową deszyfrację wszystkich zabezpieczonych plików dla **każdego użytkownika w całej organizacji**, offline i z pominięciem mechanizmów Multi-Factor Authentication (MFA).
 
-Zarządzanie certyfikatami i kluczami to najczęstszy punkt awarii. Jak wskazano w prezentowanym studium przypadku infrastruktury wodociągowej, wdrożenie domeny polegało na jej migracji na nowsze wersje Windows Server, z pozostawieniem oryginalnego, wygasłego w 2012 roku certyfikatu głównego. Wyciek takiego certyfikatu to definitywny koniec poufności danych w infrastrukturze.
+## **Framework Incident Response: Odbudowa środowiska Tier 0**
 
-## **Czas przebywania napastnika (Dwell Time) a detekcja**
+Wdrożenie nowej ochrony wymaga założenia pełnej kompromitacji domeny. Poniższa procedura Post-Incident definiuje techniczne minimum niezbędne do odzyskania kontroli nad infrastrukturą.
 
-Statystyki przytaczane na podstawie raportów (m.in. FBI) wskazują, że średni czas przebywania grupy APT w infrastrukturze przed wykryciem (Dwell Time) wynosi około 200 dni. Ukrywanie się w środowisku IT jest relatywnie proste, jeśli organizacja nie wdrożyła rygorystycznego monitorowania analityki behawioralnej i telemetrii punktów końcowych. Atakujący wykorzystują ten czas na mapowanie infrastruktury, zdobywanie poświadczeń serwisowych i implementację wielu niezależnych mechanizmów persystencji.
+### **Krok 1: Retencja dowodów i rotacja poświadczeń bazowych**
 
-## **Procedura Post-Incident: Odbudowa zaufania do Active Directory**
+* Zabezpieczenie obrazów kontrolerów domeny (VHD, System State, pełny backup) przed i po incydencie na potrzeby analizy forensycznej.  
+* **Podwójny reset hasła konta KRBTGT:** Działanie krytyczne unieważniające skradzione bilety Kerberos (Golden Tickets). Proces wymaga uwzględnienia opóźnień w replikacji między kontrolerami domeny.  
+* Podwójny reset haseł wszystkich użytkowników w celu zatarcia historii haseł.  
+* Reset haseł dla wszystkich kont administracyjnych, serwisowych (w tym gMSA) oraz wymuszenie zmiany haseł dla kont maszynowych stacji roboczych i serwerów (Invoke DC machine account password changes).
 
-W przypadku potwierdzenia kompromitacji środowiska Tier 0 (Domain Controllers), usunięcie pojedynczego złośliwego oprogramowania jest niewystarczające. Należy założyć, że wszystkie sekrety uległy kompromitacji. Konieczna jest realizacja następującej procedury oczyszczania:
+### **Krok 2: Eliminacja ukrytej persystencji**
 
-* **Zabezpieczenie materiału dowodowego:** Wykonanie kopii zapasowej VHD/System State kontrolerów domeny przed jakimikolwiek modyfikacjami.  
-* **Rotacja poświadczeń bazowych:**  
-  * Podwójny reset haseł dla wszystkich użytkowników, administratorów i kont usług.  
-  * Reset haseł kont maszynowych stacji roboczych i serwerów.  
-  * **Podwójny reset hasła konta KRBTGT:** Działanie krytyczne w celu unieważnienia spreparowanych biletów Kerberos (Golden Tickets). Należy uwzględnić opóźnienia w replikacji AD pomiędzy resetami.  
-* **Weryfikacja wektorów utrzymania dostępu (Persistence):**  
-  * Sprawdzenie deskryptorów bezpieczeństwa (w tym atrybutu AdminSDHolder), aby upewnić się, że napastnik nie delegował sobie ukrytych uprawnień do grup chronionych.  
-  * Audyt Auto-Start Extension Points (ASEP), w tym zaplanowanych zadań, rejestrów usług (SCM), sterowników drukarek oraz modyfikacji typu Utilman na serwerach Tier 0.  
-* **Oczyszczanie środowisk hybrydowych (Entra ID):**  
-  * Wymuszenie odświeżenia biletów Seamless SSO (Update-AzureADSSOForest).  
-  * Rotacja haseł dla kont powiązanych z Microsoft Entra Connect.  
-  * Masowe unieważnienie tokenów sesyjnych użytkowników w chmurze (Invalidate-MgUserRefreshToken).  
-* **Weryfikacja systemów zaufanych:** Pilna rotacja certyfikatów podpisujących tokeny w Active Directory Federation Services (ADFS) oraz weryfikacja logów rozwiązań klasy PAM (Privileged Access Management).
+Weryfikacja środowiska pod kątem modyfikacji strukturalnych pozwalających napastnikowi na szybki powrót:
 
-## **Rekomendacje dla Architektów IT i Security**
+* **Obiekty AD:** Reset atrybutów bezpieczeństwa, w tym kluczowego obiektu AdminSDHolder chroniącego grupy uprzywilejowane. Przegląd delegowanych uprawnień w AD.  
+* **Infrastruktura asymetryczna (ADCS/PKI):** Pełny audyt certyfikatów. Weryfikacja szablonów, unieważnienie i ponowne wydanie wszystkich certyfikatów oraz usunięcie nieautoryzowanych wpisów NTAuth.  
+* **Wektory lokalne (ASEP):** Inspekcja Auto-Start Extension Points na maszynach Tier 0: zaplanowane zadania, filtry zdarzeń WMI, klucze rejestru *Run/RunOnce*, weryfikacja złośliwych deskryptorów w Service Control Manager (SCM) oraz podmian w architekturze Utilman.  
+* **LAPS:** Globalna rotacja haseł w Local Administrator Password Solution.
 
-Utrzymanie bezpiecznej infrastruktury wymaga podejścia "Secure by Design" oraz wdrożenia procedury "Threat Hunting". Obejmuje to regularne analizowanie logów, monitorowanie środowiska narzędziami klasy PingCastle, a także zabezpieczenie warstwy LSA za pomocą **Credential Guard**, co znacząco utrudnia ataki polegające na ekstrakcji skrótów z pamięci. W przypadku środowisk o krytycznym znaczeniu, rozważaną (choć skrajną) praktyką z zakresu polityki bezpieczeństwa jest planowana, cykliczna przebudowa struktury Active Directory od zera (np. co 5 lat), co skutecznie eliminuje niewykrytą persystencję i dług technologiczny w konfiguracjach kryptograficznych.
+### **Krok 3: Reagowanie w środowiskach hybrydowych (Integracja Chmurowa)**
+
+Infrastruktura on-premise ściśle koreluje z tożsamością w chmurze, co wymaga natychmiastowych akcji w Entra ID (Azure AD):
+
+* Rotacja kluczy Kerberos dla Seamless SSO przy użyciu dedykowanego polecenia: Update-AzureADSSOForest.  
+* Wymuszenie wylogowania użytkowników i unieważnienie tokenów odświeżania: Invalidate-MgUserRefreshToken.  
+* Zmiana poświadczeń kont serwisowych Microsoft Entra Connect (posiadających najwyższe uprawnienia do synchronizacji).  
+* Audyt zmian w obszarze Conditional Access, App Registrations oraz nowo utworzonych ról uprzywilejowanych.
+
+### **Krok 4: Weryfikacja infrastruktury wspierającej**
+
+* **ADFS:** Natychmiastowa rotacja certyfikatów podpisujących i deszyfrujących (Urgent token signing cert rollover).  
+* **MECM (SCCM):** Weryfikacja sekwencji zadań i zmodyfikowanych paczek, aby zapobiec dystrybucji złośliwego oprogramowania na stacje końcowe przez legalne kanały administracyjne.  
+* **PAM:** Audyt logów w systemach Privileged Access Management oraz weryfikacja integralności wszystkich zdeponowanych sekretów.
+
+## **Zakończenie: Architektura Secure by Design**
+
+Utrzymanie bezpieczeństwa środowiska tożsamości wymaga ciągłego procesu Threat Huntingu (np. przy użyciu LOKI, THOR w warstwie Tier 0, czy narzędzi PingCastle i BloodHound mapujących ścieżki eskalacji do MITRE ATT&CK).
+
+W perspektywie architektonicznej należy wdrożyć pełną separację uprawnień (Tiering Model) oraz obligatoryjnie uaktywnić **Credential Guard**, co drastycznie ogranicza skuteczność ataków wymierzonych w podsystem LSA i ekstrakcję skrótów haseł. Najwyższy poziom dojrzałości bezpieczeństwa nakazuje traktować środowisko Active Directory jako byt tymczasowy – w najbardziej rygorystycznych organizacjach wdraża się politykę całkowitej przebudowy struktury domeny od podstaw w stałych cyklach (np. co 5 lat), co bezpowrotnie eliminuje martwy dług technologiczny i niewykryte wcześniej wektory persystencji.
