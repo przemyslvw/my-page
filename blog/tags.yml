@@ -846,3 +846,8 @@ linux-2026:
   label: Linux 2026
   permalink: /linux-2026
   description: Nowości, aktualizacje i trendy w świecie systemów Linux przewidywane na rok 2026.
+
+insecon:
+  label: INSECON
+  permalink: /insecon
+  description: Prelekcje, materiały i relacje z konferencji INSECON.
