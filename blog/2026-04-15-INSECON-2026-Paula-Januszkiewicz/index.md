@@ -20,7 +20,7 @@ DPAPI odpowiada za szyfrowanie wrażliwych danych użytkownika na poziomie syste
 
 1. **Szyfrowanie Payloadu:** Docelowe dane chronione są algorytmem symetrycznym **3DES** (0x6603), a ich integralność weryfikowana jest funkcją skrótu **SHA1** (0x8004).  
 2. **Generowanie i Ochrona Master Key:** Kluczem deszyfrującym te zasoby jest unikalny dla profilu Master Key. Sam Master Key jest szyfrowany przy użyciu skrótu NT hash hasła użytkownika, który oparty jest na podatnym na ataki algorytmie **MD4**.  
-3. **Ekstrakcja z LSA i MSDCC2:** Atakujący uzyskujący uprawnienia NT AUTHORITY\\SYSTEM (np. poprzez podatności w usługach) wykonuje zrzut pamięci podsystemu Local Security Authority (LSA). Wykorzystując narzędzia takie jak Mimikatz/Kiwi, ekstrahuje dane logowania z lokalnego bufora MSDCC2 (mscash2). Posiadając skrót hasła, atakujący deszyfruje Master Key i uzyskuje dostęp do lokalnych sekretów.  
+3. **Ekstrakcja z LSA i MSDCC2:** Atakujący uzyskujący uprawnienia NT AUTHORITY\SYSTEM lub lokalnego administratora (np. poprzez eskalację uprawnień bądź podatności w usługach) wykonuje zrzut pamięci podsystemu Local Security Authority (LSA). Wykorzystując narzędzia takie jak Mimikatz/Kiwi, ekstrahuje dane logowania z lokalnego bufora MSDCC2 (mscash2). Posiadając skrót hasła, atakujący deszyfruje Master Key i uzyskuje dostęp do lokalnych sekretów.  
 4. **Wektor Domain Backup Key:** W domenach Active Directory istnieje funkcja awaryjnego odzyskiwania (Recovery). Master Key każdego użytkownika jest dodatkowo zaszyfrowany asymetrycznym kluczem publicznym domeny. Kompromitacja kontrolera domeny (DC) i eksfiltracja wygasłego, ale wciąż funkcjonalnego w architekturze DPAPI klucza prywatnego (Domain Backup Key), pozwala atakującym na masową deszyfrację wszystkich zabezpieczonych plików dla **każdego użytkownika w całej organizacji**, offline i z pominięciem mechanizmów Multi-Factor Authentication (MFA).
 
 ## **Framework Incident Response: Odbudowa środowiska Tier 0**
@@ -31,7 +31,7 @@ Wdrożenie nowej ochrony wymaga założenia pełnej kompromitacji domeny. Poniż
 
 * Zabezpieczenie obrazów kontrolerów domeny (VHD, System State, pełny backup) przed i po incydencie na potrzeby analizy forensycznej.  
 * **Podwójny reset hasła konta KRBTGT:** Działanie krytyczne unieważniające skradzione bilety Kerberos (Golden Tickets). Proces wymaga uwzględnienia opóźnień w replikacji między kontrolerami domeny.  
-* Podwójny reset haseł wszystkich użytkowników w celu zatarcia historii haseł.  
+* Reset haseł wszystkich użytkowników w celu natychmiastowego unieważnienia wszelkich skradzionych skrótów (hashy) i potencjalnych biletów opartych na starych poświadczeniach (często stosuje się wymuszony podwójny reset, aby wypchnąć skompromitowane hasło z bufora Active Directory).  
 * Reset haseł dla wszystkich kont administracyjnych, serwisowych (w tym gMSA) oraz wymuszenie zmiany haseł dla kont maszynowych stacji roboczych i serwerów (Invoke DC machine account password changes).
 
 ### **Krok 2: Eliminacja ukrytej persystencji**
