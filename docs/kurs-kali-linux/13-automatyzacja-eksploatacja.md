@@ -116,11 +116,97 @@ Dzięki temu po restarcie maszyny backdoor nadal będzie aktywny.
 
 ---
 
-## 🔐 Jak zabezpieczyć się przed automatycznymi atakami?
+## 🆕 Nowe narzędzia automatyzacji w Kali 2026.1
+
+### **4️⃣ AdaptixC2 – Framework Command & Control**
+
+AdaptixC2 to nowoczesny framework C2 dedykowany emulacji grup APT, dostępny w Kali 2026.1:
+
+```bash
+# Uruchomienie serwera AdaptixC2
+adaptixc2 server --config /etc/adaptixc2/config.yaml
+
+# Podgląd aktywnych agentów
+adaptixc2 client --connect 127.0.0.1:8080
+```
+
+Zastosowania: symulacja kampanii APT, testowanie mechanizmów detekcji EDR/SIEM.
+
+---
+
+### **5️⃣ Atomic-Operator – Testy zgodne z MITRE ATT&CK**
+
+Atomic-Operator automatyzuje testy jednostkowe oparte na bazie **MITRE ATT\&CK**, co pozwala weryfikować czy systemy detekcji (SIEM, EDR) prawidłowo reagują na znane techniki ataku:
+
+```bash
+# Instalacja
+pip3 install atomic-operator
+
+# Uruchomienie konkretnej techniki ATT&CK
+atomic-operator run --atomics-path /opt/atomic-red-team/atomics \
+  --technique T1059.004
+
+# Lista dostępnych technik
+atomic-operator list
+```
+
+Przykładowe techniki:
+- `T1059.004` – Command and Scripting: Unix Shell
+- `T1003.001` – OS Credential Dumping: LSASS Memory
+- `T1566.001` – Phishing: Spearphishing Attachment
+
+---
+
+## 🤖 AI i LLM w testach penetracyjnych
+
+Kali 2026.1 oficjalnie wchodzi w erę **Private AI** — modele językowe działają lokalnie, bez wysyłania wrażliwych danych klienta do zewnętrznych serwisów.
+
+### **6️⃣ Lokalne LLM z Ollama**
+
+```bash
+# Instalacja Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Pobranie modelu (np. llama3 lub mistral)
+ollama pull llama3
+
+# Generowanie komend pentesterskich
+ollama run llama3 "Wygeneruj komendę nmap do wykrycia otwartych portów i wersji usług na 192.168.1.0/24"
+```
+
+### **6.1 Przykłady zastosowań AI w pentestach**
+
+```bash
+# Analiza kodu pod kątem podatności
+cat webapp.py | ollama run codellama "Znajdź podatności bezpieczeństwa w tym kodzie"
+
+# Generowanie payloadów SQLi dla konkretnego kontekstu
+ollama run mistral "Wygeneruj payloady SQL Injection dla MySQL, kontekst: pole 'username' w formularzu logowania"
+
+# Pomoc w analizie odpowiedzi HTTP
+curl -s https://target.example.com | ollama run llama3 "Przeanalizuj te nagłówki HTTP pod kątem problemów bezpieczeństwa"
+```
+
+### **6.2 5ire – Platforma AI dla pentesterów**
+
+5ire to interfejs do lokalnych modeli AI zintegrowany z Kali:
+
+```bash
+# Uruchomienie 5ire
+5ire --model ollama/llama3 --context pentest
+```
+
+> ⚠️ **Ważne:** Nawet przy lokalnych modelach — nigdy nie wklejaj do LLM prawdziwych danych uwierzytelniających, haseł ani danych osobowych klientów.
+
+---
+
+## 🔐 Jak zabezpieczyć się przed automatycznymi atakami AI?
 ✅ **Monitorowanie ruchu sieciowego i nietypowych skanowań**
 ✅ **Blokowanie narzędzi typu Metasploit w systemach produkcyjnych**
 ✅ **Regularne aktualizacje systemów i patchowanie znanych podatności**
 ✅ **Wykrywanie i blokowanie backdoorów za pomocą EDR (Endpoint Detection & Response)**
+✅ **Wdrożenie systemów detekcji behawioralnej zdolnych do wykrywania technik ATT&CK (MITRE D3FEND)**
+✅ **Monitorowanie nietypowych wzorców poleceń wskazujących na automatyzację AI**
 
 ---
 

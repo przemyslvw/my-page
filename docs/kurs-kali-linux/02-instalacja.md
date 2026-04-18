@@ -82,7 +82,7 @@ sudo systemctl restart apache2
 
 ### **2️⃣ Instalacja OWASP Juice Shop**
 ```bash
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 mkdir ~/juiceshop && cd ~/juiceshop
 git clone https://github.com/juice-shop/juice-shop.git .

@@ -61,6 +61,82 @@ Rozwiązanie: **Ustaw ograniczenia dostępu i wymuś uwierzytelnianie kluczem.**
 
 ---
 
+## 🔵 Testowanie Microsoft Azure
+
+### **3️⃣ Enumeracja zasobów Azure (bez uwierzytelnienia)**
+
+Wyciek subskrypcji lub tenant ID może pozwolić na enumerację zasobów:
+
+```bash
+# Instalacja Azure CLI w Kali
+sudo apt install -y azure-cli
+
+# Logowanie i lista subskrypcji
+az login
+az account list --output table
+```
+
+#### **3.1 Wyszukiwanie publicznych Azure Storage Containers**
+Analogicznie do S3 — Azure Blob Storage bywa konfigurowane jako publiczne:
+
+```bash
+# Sprawdzenie dostępu anonimowego do kontenera
+curl -s "https://<storage-account>.blob.core.windows.net/<container>?restype=container&comp=list"
+```
+
+Jeśli zwróci listę plików — kontener jest publiczny.
+
+Narzędzie do automatycznej enumeracji:
+```bash
+# MicroBurst — toolkit do Azure pentestów
+git clone https://github.com/NetSPI/MicroBurst.git
+cd MicroBurst
+# Wyszukiwanie otwartych storage accounts
+Invoke-EnumerateAzureBlobs -Base company-name
+```
+
+---
+
+#### **3.2 Atak na Azure Entra ID (dawniej Azure AD)**
+
+Enumeracja użytkowników przez publiczny endpoint:
+```bash
+# Sprawdzenie czy domena używa Azure AD
+curl -s "https://login.microsoftonline.com/<domena.com>/.well-known/openid-configuration"
+
+# Enumeracja kont użytkowników (wymaga tokenu)
+az ad user list --query "[].{Name:displayName,UPN:userPrincipalName}" --output table
+```
+
+#### **3.3 Eskalacja uprawnień przez Service Principal**
+Jeśli uzyskasz dostęp do Service Principal z nadmiernymi uprawnieniami:
+```bash
+# Sprawdzenie uprawnień bieżącego SP
+az role assignment list --assignee <client-id> --output table
+
+# Próba dodania roli Owner do zasobu
+az role assignment create --assignee <client-id> --role Owner --scope /subscriptions/<sub-id>
+```
+
+Rozwiązanie: **Stosuj zasadę least privilege dla Service Principals, regularnie audytuj role w Azure RBAC.**
+
+---
+
+#### **3.4 Azure Key Vault — wykrywanie wrażliwych danych**
+Key Vault przechowuje sekrety, certyfikaty i klucze. Błędna konfiguracja pozwala na ich odczyt:
+```bash
+# Lista Key Vaultów w subskrypcji
+az keyvault list --output table
+
+# Próba odczytu sekretów (jeśli mamy uprawnienia)
+az keyvault secret list --vault-name <vault-name>
+az keyvault secret show --vault-name <vault-name> --name <secret-name>
+```
+
+Rozwiązanie: **Ogranicz dostęp do Key Vault przez Azure RBAC, włącz Soft Delete i Purge Protection.**
+
+---
+
 ## 🔥 IAM Privilege Escalation
 IAM (Identity and Access Management) jest kluczowym mechanizmem kontroli dostępu w chmurze, ale niewłaściwe konfiguracje mogą pozwolić atakującym na eskalację uprawnień.
 
@@ -97,6 +173,8 @@ Rozwiązanie: **Używanie zasad `deny policy` i regularny audyt uprawnień IAM.*
 ✅ **Włącz monitoring i alertowanie dla nietypowych działań.**
 ✅ **Używaj narzędzi typu AWS GuardDuty, Google Security Command Center do wykrywania zagrożeń.**
 ✅ **Blokuj dostęp do metadanych instancji (`169.254.169.254`) w ramach ochrony przed SSRF.**
+✅ **Dla Azure: użyj Microsoft Defender for Cloud do wykrywania misconfiguracji.**
+✅ **Regularnie audytuj Azure RBAC — unikaj nadmiarowych ról Owner/Contributor dla Service Principals.**
 
 ---
 

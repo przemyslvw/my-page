@@ -38,4 +38,12 @@ Pentesterzy działają w ramach prawa, pomagając organizacjom w zabezpieczaniu 
 
 ---
 
+---
+
+## 📅 Historia aktualizacji kursu
+
+| Data | Zakres zmian |
+|------|-------------|
+| 18.04.2026 | Aktualizacja do Kali Linux 2026.1: nowe narzędzia (Atomic-Operator, AdaptixC2, XSStrike, SSTImap), sekcja AI/LLM w pentestach, uzupełnienie testów Azure, poprawki deprecated komend |
+
 To tyle we wstępie! Przejdźmy do kolejnego kroku – instalacji i konfiguracji Kali Linux. 🚀

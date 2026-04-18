@@ -81,7 +81,7 @@ Przykładowy skrypt do skanowania sieci:
 #!/bin/bash
 
 read -p "Podaj zakres sieci (np. 192.168.1.0/24): " subnet
-nmap -sP $subnet
+nmap -sn $subnet
 ```
 
 ---
