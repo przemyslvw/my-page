@@ -153,22 +153,21 @@
 <p>Sercem systemu stało się jądro <strong>Linux 6.18.12</strong>. Wybór ten nie jest przypadkowy – zapewnia on natywne wsparcie dla najnowszych architektur (Intel Panther Lake) oraz, co kluczowe, optymalizację dla układów SoC.</p>
 <p><strong>Kluczowe statystyki wydania:</strong></p>
 <table><thead><tr><th style="text-align:left">Komponent</th><th style="text-align:left">Wersja / Wartość</th><th style="text-align:left">Uwagi Techniczne</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Jądro Linux</strong></td><td style="text-align:left">6.18.12-1kali1</td><td style="text-align:left">Pełne wsparcie dla Qualcomm i Intel</td></tr><tr><td style="text-align:left"><strong>Środowisko Xfce</strong></td><td style="text-align:left">4.20.6</td><td style="text-align:left">Optymalizacja zasobów i nowy panel UX</td></tr><tr><td style="text-align:left"><strong>Nowe Pakiety</strong></td><td style="text-align:left">25</td><td style="text-align:left">W tym narzędzia C2 i zaawansowane skanery web</td></tr><tr><td style="text-align:left"><strong>Aktualizacje</strong></td><td style="text-align:left">183</td><td style="text-align:left">Stabilizacja stosu Python 3.12</td></tr></tbody></table>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="---">---<a href="https://www.majdak.online/blog/kali-linux-2026#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Nostalgia spotyka nowoczesność: Tryb BackTrack</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nostalgia-spotyka-nowoczesność-tryb-backtrack">Nostalgia spotyka nowoczesność: Tryb BackTrack<a href="https://www.majdak.online/blog/kali-linux-2026#nostalgia-spotyka-nowoczesno%C5%9B%C4%87-tryb-backtrack" class="hash-link" aria-label="Bezpośredni link do Nostalgia spotyka nowoczesność: Tryb BackTrack" title="Bezpośredni link do Nostalgia spotyka nowoczesność: Tryb BackTrack" translate="no">​</a></h2>
 <p>Z okazji 20-lecia (początki w maju 2006 roku), zespół wprowadził unikalny tryb w narzędziu kali-undercover. Komenda:</p>
-<p>Bash</p>
-<p>kali-undercover --backtrack</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">kali-undercover --backtrack</span><br></span></code></pre></div></div>
 <p>natychmiastowo transformuje pulpit Xfce w wierną kopię legendarnego <strong>BackTrack 5</strong>. To nie tylko estetyka – to hołd dla ewolucji narzędzi, które ukształtowały dzisiejszą branżę cybersecurity.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----1">---<a href="https://www.majdak.online/blog/kali-linux-2026#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Przełom w NetHunterze: Zapomnij o adapterach USB-OTG</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="przełom-w-nethunterze-zapomnij-o-adapterach-usb-otg">Przełom w NetHunterze: Zapomnij o adapterach USB-OTG<a href="https://www.majdak.online/blog/kali-linux-2026#prze%C5%82om-w-nethunterze-zapomnij-o-adapterach-usb-otg" class="hash-link" aria-label="Bezpośredni link do Przełom w NetHunterze: Zapomnij o adapterach USB-OTG" title="Bezpośredni link do Przełom w NetHunterze: Zapomnij o adapterach USB-OTG" translate="no">​</a></h2>
 <p>To prawdopodobnie najważniejsza wiadomość dla testerów mobilnych. Dzięki pracy dewelopera Loukious, Kali NetHunter 2026.1 wprowadza patch dla chipsetów <strong>Qualcomm QCACLD-3.0</strong>.</p>
 <ul>
 <li class=""><strong>Natywny Monitor Mode:</strong> Koniec z wystającymi kartami Wi-Fi typu "Alfa" podłączanymi przez USB-OTG.</li>
 <li class=""><strong>Packet Injection:</strong> Większość nowoczesnych smartfonów ze Snapdragonem obsługuje teraz wstrzykiwanie ramek bezpośrednio z wewnętrznej karty.</li>
 <li class=""><strong>Wsparcie dla klasyków:</strong> Seria Samsung S10 oraz Redmi Note 8 otrzymały dedykowane jądra wspierające najnowsze biblioteki libnexmonkali.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----2">---<a href="https://www.majdak.online/blog/kali-linux-2026#----2" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Nowe narzędzia w arsenale: Od C2 po AI</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nowe-narzędzia-w-arsenale-od-c2-po-ai">Nowe narzędzia w arsenale: Od C2 po AI<a href="https://www.majdak.online/blog/kali-linux-2026#nowe-narz%C4%99dzia-w-arsenale-od-c2-po-ai" class="hash-link" aria-label="Bezpośredni link do Nowe narzędzia w arsenale: Od C2 po AI" title="Bezpośredni link do Nowe narzędzia w arsenale: Od C2 po AI" translate="no">​</a></h2>
 <p>Wydanie 2026.1 dostarcza 8 kluczowych narzędzi, które redefiniują podejście <strong>"Automation First"</strong> w testach penetracyjnych:</p>
 <ol>
 <li class=""><strong>AdaptixC2:</strong> Nowoczesny framework Command &amp; Control do emulacji grup APT.</li>
@@ -183,22 +182,16 @@
 <li class="">Integracja z <strong>Ollama</strong> i platformą <strong>5ire</strong> pozwala na uruchamianie modeli lokalnie.</li>
 <li class="">Bezpieczeństwo danych: Audytorzy mogą korzystać z pomocy AI w generowaniu skomplikowanych komend terminala bez wysyłania wrażliwych danych klienta do chmury (SaaS).</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----3">---<a href="https://www.majdak.online/blog/kali-linux-2026#----3" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Znane problemy i ostrzeżenia</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="znane-problemy-i-ostrzeżenia">Znane problemy i ostrzeżenia<a href="https://www.majdak.online/blog/kali-linux-2026#znane-problemy-i-ostrze%C5%BCenia" class="hash-link" aria-label="Bezpośredni link do Znane problemy i ostrzeżenia" title="Bezpośredni link do Znane problemy i ostrzeżenia" translate="no">​</a></h2>
 <p>Mimo świetnego wydania, specjaliści od <strong>SDR (Software Defined Radio)</strong> powinni zachować czujność. Meta-pakiet kali-tools-sdr wykazuje niestabilność po aktualizacji bibliotek GNU Radio. Narzędzia takie jak gqrx-sdr mogą obecnie nie działać poprawnie – rozwiązanie spodziewane jest w wersji 2026.2.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----4">---<a href="https://www.majdak.online/blog/kali-linux-2026#----4" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Jak zaktualizować system do wersji 2026.1?</strong></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="jak-zaktualizować-system-do-wersji-20261">Jak zaktualizować system do wersji 2026.1?<a href="https://www.majdak.online/blog/kali-linux-2026#jak-zaktualizowa%C4%87-system-do-wersji-20261" class="hash-link" aria-label="Bezpośredni link do Jak zaktualizować system do wersji 2026.1?" title="Bezpośredni link do Jak zaktualizować system do wersji 2026.1?" translate="no">​</a></h2>
 <p>Jeśli korzystasz z wersji rolling, proces jest prosty i zautomatyzowany. Wykonaj poniższe kroki, aby mieć pewność, że Twoje środowisko jest zgodne z podejściem <strong>Secure by Design</strong>:</p>
-<p>Bash</p>
-<p># 1. Konfiguracja repozytoriów<br>
-<!-- -->echo "deb <a href="http://http.kali.org/kali" target="_blank" rel="noopener noreferrer" class="">http://http.kali.org/kali</a> kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list</p>
-<p># 2. Pełna aktualizacja systemu<br>
-<!-- -->sudo apt update &amp;&amp; sudo apt -y full-upgrade</p>
-<p># 3. Synchronizacja plików konfiguracyjnych (opcjonalnie)<br>
-<!-- -->cp -vrbi /etc/skel/. ~/</p>
-<p># 4. Restart w celu załadowania nowego jądra 6.18<br>
-<!-- -->[ -f /var/run/reboot-required ] &amp;&amp; sudo reboot -f</p>
-<p>Weryfikacja wersji: grep VERSION /etc/os-release (powinieneś zobaczyć <strong>2026.1</strong>).</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain"># 1. Konfiguracja repozytoriów  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">echo "deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"># 2. Pełna aktualizacja systemu  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update &amp;&amp; sudo apt -y full-upgrade</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"># 3. Synchronizacja plików konfiguracyjnych (opcjonalnie)  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">cp -vrbi /etc/skel/. ~/</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain"># 4. Restart w celu załadowania nowego jądra 6.18  </span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">[ -f /var/run/reboot-required ] &amp;&amp; sudo reboot -f</span><br></span></code></pre></div></div>
+<p>Weryfikacja wersji:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">grep VERSION /etc/os-release</span><br></span></code></pre></div></div>
+<p>(powinieneś zobaczyć <strong>2026.1</strong>).</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie"><strong>Podsumowanie</strong><a href="https://www.majdak.online/blog/kali-linux-2026#podsumowanie" class="hash-link" aria-label="Bezpośredni link do podsumowanie" title="Bezpośredni link do podsumowanie" translate="no">​</a></h3>
 <p>Kali Linux 2026.1 udowadnia, że dojrzałość projektu idzie w parze z innowacją. Odblokowanie potencjału wbudowanych kart Wi-Fi w smartfonach oraz integracja z lokalnymi modelami AI to kamienie milowe, które czynią tę dystrybucję bezkonkurencyjną w roku 2026.</p>]]></content:encoded>
             <category>Kali Linux</category>
