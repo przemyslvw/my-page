@@ -851,3 +851,28 @@ insecon:
   label: INSECON
   permalink: /insecon
   description: Prelekcje, materiały i relacje z konferencji INSECON.
+
+embedded:
+  label: Embedded
+  permalink: /embedded
+  description: Systemy wbudowane, mikrokontrolery i programowanie niskopoziomowe.
+
+marauder:
+  label: Marauder
+  permalink: /marauder
+  description: Projekty, aktualizacje i narzędzia związane z ESP32 Marauder.
+
+flipperzero:
+  label: Flipper Zero
+  permalink: /flipperzero
+  description: Narzędzia, skrypty i zastosowania urządzenia Flipper Zero w pentestingu.
+
+optimization:
+  label: Optimization
+  permalink: /optimization
+  description: Techniki optymalizacji kodu, wydajności i zarządzania zasobami.
+
+cpp:
+  label: C++
+  permalink: /cpp
+  description: Programowanie w języku C++, techniki i dobre praktyki.
