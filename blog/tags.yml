@@ -28,6 +28,16 @@ secops:
   permalink: /secops
   description: Operacje bezpieczeństwa, monitorowanie i reagowanie na incydenty.
 
+devsecops:
+  label: DevSecOps
+  permalink: /devsecops
+  description: Integracja bezpieczeństwa w procesy DevOps i cykl życia oprogramowania.
+
+ghas:
+  label: GitHub Advanced Security
+  permalink: /ghas
+  description: Zaawansowane narzędzia bezpieczeństwa od GitHub, w tym CodeQL i Secret Scanning.
+
 bash-scripting:
   label: Bash Scripting
   permalink: /bash-scripting
