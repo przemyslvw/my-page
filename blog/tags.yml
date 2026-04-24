@@ -886,3 +886,28 @@ cpp:
   label: C++
   permalink: /cpp
   description: Programowanie w języku C++, techniki i dobre praktyki.
+
+devops:
+  label: DevOps
+  permalink: /devops
+  description: Metodologia łącząca rozwój oprogramowania (Dev) i operacje IT (Ops).
+
+cicd:
+  label: CI/CD
+  permalink: /cicd
+  description: Automatyzacja integracji i wdrażania oprogramowania (Continuous Integration / Continuous Deployment).
+
+git:
+  label: Git
+  permalink: /git
+  description: Rozproszony system kontroli wersji.
+
+github-actions:
+  label: GitHub Actions
+  permalink: /github-actions
+  description: Automatyzacja cyklu życia oprogramowania bezpośrednio w GitHubie.
+
+semantic-release:
+  label: Semantic Release
+  permalink: /semantic-release
+  description: Automatyzacja wersjonowania i publikowania pakietów zgodnie ze specyfikacją Semantic Versioning.

@@ -2,7 +2,7 @@
 slug: devsecops-github-advanced-security
 title: "DevSecOps w praktyce: Jak GitHub Advanced Security (GHAS) redukuje wycieki poświadczeń do zera"
 authors: [przemyslvw]
-tags: [cybersecurity, devsecops, ghas, automation, AIsecurity, vulnerabilities]
+tags: [cybersecurity, devsecops, cicd, ghas, github-actions, automation, AIsecurity, vulnerabilities, git]
 date: "2026-04-24"
 ---
 
