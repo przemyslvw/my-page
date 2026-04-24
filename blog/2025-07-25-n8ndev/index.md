@@ -2,7 +2,7 @@
 slug: n8ndev-2025-07-25
 title: "Rozdzielone środowiska n8n w sieci lokalnej – przewodnik najlepszych praktyk"
 authors: [przemyslvw]
-tags: ["automation", "n8n", "raspberry-pi", "ci-cd"]
+tags: ["automation", "n8n", "raspberry-pi", "cicd"]
 date: "2025-07-25"
 ---
 

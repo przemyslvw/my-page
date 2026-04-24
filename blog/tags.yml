@@ -148,10 +148,6 @@ seo:
   permalink: /seo
   description: Optymalizacja stron internetowych pod kątem wyszukiwarek.
 
-ci-cd:
-  label: CI/CD
-  permalink: /ci-cd
-  description: Automatyzacja procesu buildowania, testowania i wdrażania aplikacji.
 
 linux:
   label: Linux
