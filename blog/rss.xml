@@ -4,10 +4,133 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Fri, 24 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[SonarQube w 2026: dlaczego 'branżowy standard' przestał mieć sens dla większości projektów]]></title>
+            <link>https://www.majdak.online/blog/sonarqube-2026-standard-polemika</link>
+            <guid>https://www.majdak.online/blog/sonarqube-2026-standard-polemika</guid>
+            <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Każda lista "must-have tools for code quality" zaczyna się tak samo. SonarQube. Branżowy standard. Quality Gates. Technical Debt. Cognitive Complexity. Sześć tysięcy wbudowanych reguł.]]></description>
+            <content:encoded><![CDATA[<p>Każda lista "must-have tools for code quality" zaczyna się tak samo. SonarQube. Branżowy standard. Quality Gates. Technical Debt. Cognitive Complexity. Sześć tysięcy wbudowanych reguł.</p>
+<p><em>Polemika z hype'em, oparta na realnym stacku produkcyjnym</em></p>
+<hr>
+<p>Wszystko prawda. I wszystko nieistotne — dla większości projektów, które dziś naprawdę powstają.</p>
+<p>W projekcie <a href="https://github.com/przemyslvw/reads" target="_blank" rel="noopener noreferrer" class=""><strong>reads</strong></a> podjąłem decyzję, żeby nie używać SonarQube. Nie z lenistwa, nie z oszczędności, tylko po świadomej analizie. Ten artykuł to obrona tej decyzji — ale też uczciwa lista rzeczy, które się przy okazji traci. Bo polemika bez przyznania racji drugiej stronie jest tylko marketingiem na opak.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="mit-branżowego-standardu">Mit "branżowego standardu"<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#mit-bran%C5%BCowego-standardu" class="hash-link" aria-label="Bezpośredni link do Mit &quot;branżowego standardu&quot;" title="Bezpośredni link do Mit &quot;branżowego standardu&quot;" translate="no">​</a></h2>
+<p>Zacznijmy od najczęściej powtarzanego argumentu: "SonarQube to branżowy standard, więc trzeba go mieć".</p>
+<p>To zdanie ukrywa kilka rzeczy. Po pierwsze — który SonarQube? Bo Sonar to nie jest jeden produkt. To rodzina:</p>
+<ul>
+<li class=""><strong>Community Build</strong> (dawniej Community Edition) — darmowy, open-source</li>
+<li class=""><strong>Developer Edition</strong> — od około 2500 USD/rok przy najmniejszej puli linii kodu</li>
+<li class=""><strong>Enterprise Edition</strong> — wycena indywidualna, kilka razy więcej</li>
+<li class=""><strong>SonarQube Cloud</strong> — SaaS, od 32 USD/miesiąc za 100k LOC</li>
+</ul>
+<p>Kiedy ktoś mówi "u nas Sonar wykrył", to w 90% przypadków mówi o Developer Edition lub wyżej. Bo Community Build — ten darmowy, "branżowy standard" — w 2026 roku <strong>nie ma branch analysis i nie ma PR decoration</strong>. Nie wchodzi do pull requesta. Nie pokazuje wyników w GitHubie. Developer ma chodzić na osobny dashboard.</p>
+<p>Według analizy z marca 2026 dla zespołów używających workflow opartego na pull requestach (czyli praktycznie każdego współczesnego zespołu) Developer Edition jest minimalną sensowną opcją, bo bez branch analysis i PR decoration findings Sonara po prostu giną — programiści ich nie widzą.</p>
+<p>Innymi słowy: darmowa wersja Sonara w 2026 jest narzędziem do okresowego audytu, nie do code review. A płatna kosztuje minimum 2500 USD rocznie i wymaga własnego serwera albo subskrypcji SaaS.</p>
+<p>To nie jest "darmowy branżowy standard". To jest funnel sprzedażowy.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="co-realnie-pokrywa-sonar--i-czym-to-zastąpić">Co realnie pokrywa Sonar — i czym to zastąpić<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#co-realnie-pokrywa-sonar--i-czym-to-zast%C4%85pi%C4%87" class="hash-link" aria-label="Bezpośredni link do Co realnie pokrywa Sonar — i czym to zastąpić" title="Bezpośredni link do Co realnie pokrywa Sonar — i czym to zastąpić" translate="no">​</a></h2>
+<p>Funkcje, dla których ludzie sięgają po Sonara, dzielą się na pięć kategorii. Sprawdźmy każdą.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-sast--wykrywanie-podatności-bezpieczeństwa">1. SAST — wykrywanie podatności bezpieczeństwa<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#1-sast--wykrywanie-podatno%C5%9Bci-bezpiecze%C5%84stwa" class="hash-link" aria-label="Bezpośredni link do 1. SAST — wykrywanie podatności bezpieczeństwa" title="Bezpośredni link do 1. SAST — wykrywanie podatności bezpieczeństwa" translate="no">​</a></h3>
+<p><strong>Sonar Community Build:</strong> podstawowe security checks, bez taint analysis, bez śledzenia przepływu danych.
+<strong>Sonar Developer+:</strong> zaawansowany SAST z taint analysis (SQL injection, XSS, niebezpieczne dane).</p>
+<p>Tu zaczyna się pierwszy nieprzyjemny fakt: <strong>Community Build w ogóle nie skanuje pod kątem podatności w sposób, który dziś nazwałbyś SAST-em</strong>. Kategoria "Security Hotspots" jest, ale to są podpowiedzi typu "tu jest hasło w stringu, sprawdź sam". Prawdziwy taint flow analysis jest w wersji płatnej.</p>
+<p><strong>Alternatywa GitHub-native:</strong> CodeQL.</p>
+<p>CodeQL należy do GitHuba, jest darmowy dla publicznych repo i tani dla prywatnych (lub w ramach GitHub Advanced Security). Wykrywa SQL injection, XSS, path traversal, deserialization issues, hardcoded secrets — z taint analysis i cross-file flow. Wyniki lądują w zakładce Security w repo i blokują merge przez branch protection rules.</p>
+<p>Specjaliści od bezpieczeństwa aplikacji często stwierdzają, że Sonar jako SAST jest słabszy od dedykowanych narzędzi typu Semgrep, Checkmarx czy Snyk Code, a CodeQL należy w ich opinii do tej drugiej kategorii — bo robi głęboką analizę semantyczną.</p>
+<p><strong>Wniosek:</strong> w obszarze SAST CodeQL bije Sonar Community Build na głowę i jest porównywalny lub lepszy od Sonar Developer Edition. Za zero złotych.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-linting-i-code-smells">2. Linting i code smells<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#2-linting-i-code-smells" class="hash-link" aria-label="Bezpośredni link do 2. Linting i code smells" title="Bezpośredni link do 2. Linting i code smells" translate="no">​</a></h3>
+<p><strong>Sonar:</strong> około 6000 reguł, w tym dla TypeScript/JavaScript.
+<strong>Alternatywa:</strong> Biome (lub ESLint + Prettier, jeśli ktoś jeszcze chce mieć oddzielne narzędzia).</p>
+<p>Biome zastąpił mi ESLinta i Prettiera w jednym, jest napisany w Rust i działa kilkadziesiąt razy szybciej. Reguły są mniej liczne niż w Sonarze (kilkaset vs sześć tysięcy), ale w 2026 to nie jest problem, bo:</p>
+<ul>
+<li class="">większość reguł Sonara dla popularnych języków pokrywa się z tym, co robi linter,</li>
+<li class="">Biome działa w pre-commit hooku, w IDE w czasie rzeczywistym i w CI — feedback loop jest sekundowy, nie minutowy,</li>
+<li class="">co jest naprawdę unikalne (cognitive complexity), zaraz omówię osobno.</li>
+</ul>
+<p><strong>Wniosek:</strong> dla typowego projektu webowego Biome wystarcza. Sonar tu nie wnosi przewagi, którą czułbyś w codziennej pracy.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-code-coverage">3. Code coverage<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#3-code-coverage" class="hash-link" aria-label="Bezpośredni link do 3. Code coverage" title="Bezpośredni link do 3. Code coverage" translate="no">​</a></h3>
+<p><strong>Sonar:</strong> raportuje pokrycie testami, ale samego testowania nie robi — i tak musisz mieć Vitest, Jest czy coś.
+<strong>Alternatywa:</strong> Vitest + Codecov (lub Coveralls).</p>
+<p>Codecov pokazuje pokrycie w PR, ma historyczny dashboard, robi flagi dla różnych części projektu. Robi dokładnie to samo, co Sonar w tej kategorii. Często lepiej.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-skanowanie-sekretów-i-kontenerów">4. Skanowanie sekretów i kontenerów<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#4-skanowanie-sekret%C3%B3w-i-kontener%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 4. Skanowanie sekretów i kontenerów" title="Bezpośredni link do 4. Skanowanie sekretów i kontenerów" translate="no">​</a></h3>
+<p><strong>Sonar Community Build:</strong> brak. Advanced Secrets Detection jest tylko w Developer Edition+.
+<strong>Alternatywa:</strong> Gitleaks (sekrety) + Trivy (kontenery, dependency scanning, IaC).</p>
+<p>Tu Sonar nawet nie wchodzi do gry w darmowej wersji. Gitleaks i Trivy razem dają więcej niż Sonar Developer Edition w tym obszarze.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-quality-gate-i-technical-debt-dashboard">5. Quality Gate i Technical Debt Dashboard<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#5-quality-gate-i-technical-debt-dashboard" class="hash-link" aria-label="Bezpośredni link do 5. Quality Gate i Technical Debt Dashboard" title="Bezpośredni link do 5. Quality Gate i Technical Debt Dashboard" translate="no">​</a></h3>
+<p><strong>Sonar:</strong> centralny dashboard z metryką "dni długu", trendy historyczne, quality gate blokujący merge.
+<strong>Alternatywa GitHub-native:</strong> branch protection rules + status checks + CodeQL severity gates.</p>
+<p>I tutaj — uczciwie — <strong>Sonar wygrywa</strong>. Tej jednej rzeczy nie zastąpisz prosto narzędziami GitHub-native.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="czego-naprawdę-tracisz-bez-sonara">Czego naprawdę tracisz bez Sonara<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#czego-naprawd%C4%99-tracisz-bez-sonara" class="hash-link" aria-label="Bezpośredni link do Czego naprawdę tracisz bez Sonara" title="Bezpośredni link do Czego naprawdę tracisz bez Sonara" translate="no">​</a></h2>
+<p>To jest sekcja, której większość artykułów typu "Sonar vs X" nie pisze. A powinna.</p>
+<p><strong>Cognitive Complexity w wersji Sonara</strong></p>
+<p>Sonar wprowadził (white paper G. Ann Campbell, 2018) metrykę Cognitive Complexity, która zastąpiła starszą Cyclomatic Complexity. Liczy zagnieżdżenia, breaki w logice, ternary expressions w bardziej "ludzki" sposób. Stała się nieformalnym standardem.</p>
+<p>Biome ma <code>noExcessiveCognitiveComplexity</code> z prostym progiem. ESLint ma <code>complexity</code> (cyclomatic). To nie jest to samo. Jeśli twój zespół ma kulturę "CC &gt; 15 nie wchodzi do mastera", Sonar to zrobi precyzyjniej.</p>
+<p><strong>Detekcja duplikacji kodu między modułami</strong></p>
+<p>Sonar skanuje całe repo pod kątem powtarzających się bloków kodu (Sonar nazywa to "duplicated lines"). Biome tego nie robi. ESLint tego nie robi. CodeQL tego nie robi. Możesz dorzucić <code>jscpd</code> jako osobny krok w CI, ale to znowu narzędzie do utrzymania.</p>
+<p>W projektach z wieloma wariantami (np. multi-domain, white-label) duplikacja jest realnym problemem długoterminowym. Bez Sonara musisz to łapać code reviewem.</p>
+<p><strong>Centralny dashboard długu technicznego</strong></p>
+<p>Quality Gate w Sonarze pokazuje: "ten moduł ma 12 dni długu, ten ma 3, trend rośnie". GitHub Security tab pokazuje <em>podatności</em>. Codecov pokazuje <em>coverage</em>. Biome pokazuje <em>bieżące błędy</em>. Żaden z nich nie agreguje tego w jedną liczbę "ile dni pracy musi zostać włożone, żeby spłacić kod".</p>
+<p>Dla solo projektu albo dwuosobowego zespołu — bez znaczenia, bo i tak masz to w głowie. Dla zespołu pięcioosobowego utrzymującego kod trzy lata — to zaczyna mieć znaczenie. Dla regulowanej branży (banki, healthcare), gdzie audytor pyta "pokaż dashboard długu technicznego" — to jest realny powód, żeby Sonara mieć.</p>
+<p><strong>Standaryzacja Quality Gate między projektami</strong></p>
+<p>Jeśli masz pięć repozytoriów i chcesz, żeby wszystkie miały <em>identyczny</em> próg jakości (np. coverage &gt; 80%, CC &lt; 15, brak nowych code smells), Sonar to zrobi z jednego miejsca. GitHub-native wymaga skopiowania konfiguracji do każdego repo i utrzymywania jej w synchronizacji.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tabela-porównawcza">Tabela porównawcza<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#tabela-por%C3%B3wnawcza" class="hash-link" aria-label="Bezpośredni link do Tabela porównawcza" title="Bezpośredni link do Tabela porównawcza" translate="no">​</a></h2>
+<table><thead><tr><th>Funkcja</th><th>Sonar Community Build</th><th>Sonar Developer (~2500 USD/rok)</th><th>GitHub-native stack</th></tr></thead><tbody><tr><td>SAST z taint analysis</td><td>nie</td><td>tak</td><td>tak (CodeQL)</td></tr><tr><td>Branch analysis / PR decoration</td><td>nie</td><td>tak</td><td>tak (natywnie)</td></tr><tr><td>Linting / code smells</td><td>tak (6000 reguł)</td><td>tak</td><td>tak (Biome, węższy zakres)</td></tr><tr><td>Code coverage w PR</td><td>tak</td><td>tak</td><td>tak (Codecov)</td></tr><tr><td>Skanowanie sekretów</td><td>nie</td><td>tak (advanced)</td><td>tak (Gitleaks)</td></tr><tr><td>Skanowanie kontenerów / IaC</td><td>nie</td><td>częściowo</td><td>tak (Trivy)</td></tr><tr><td>Cognitive Complexity (Sonar metric)</td><td>tak</td><td>tak</td><td>przybliżone (Biome)</td></tr><tr><td>Detekcja duplikacji</td><td>tak</td><td>tak</td><td>nie (chyba że dodasz jscpd)</td></tr><tr><td>Dashboard długu technicznego</td><td>tak</td><td>tak</td><td>nie</td></tr><tr><td>Self-hosting</td><td>tak (JVM + Postgres)</td><td>tak</td><td>nie wymagane</td></tr><tr><td>Koszt utrzymania</td><td>serwer + aktualizacje</td><td>serwer + licencja</td><td>zero infrastruktury</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="argument-który-rzadko-pada-koszt-utrzymania-samego-sonara">Argument, który rzadko pada: koszt utrzymania samego Sonara<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#argument-kt%C3%B3ry-rzadko-pada-koszt-utrzymania-samego-sonara" class="hash-link" aria-label="Bezpośredni link do Argument, który rzadko pada: koszt utrzymania samego Sonara" title="Bezpośredni link do Argument, który rzadko pada: koszt utrzymania samego Sonara" translate="no">​</a></h2>
+<p>Self-hosted Sonar to nie jest neutralny dodatek do CI. To:</p>
+<ul>
+<li class="">JVM (minimum 2 GB RAM dla Community Build, więcej w praktyce)</li>
+<li class="">PostgreSQL (oddzielna baza)</li>
+<li class="">regularne aktualizacje (Long-Term Active 2026.1 jest aktualną wersją LTA, najnowszy release to 2026.2 z marca 2026 — czyli upgrade'y są częste)</li>
+<li class="">backup bazy</li>
+<li class="">monitoring uptime</li>
+<li class="">jeden więcej Single Point of Failure w pipelinie</li>
+</ul>
+<p>Na moim VPS-ie mam już n8n, Pihole, WireGuard, GitHub Actions Runner, Cloudflare Tunnel. Dorzucenie Sonara to nie jest decyzja architektoniczna o jakości kodu — to decyzja o dodaniu kolejnego stacka do utrzymania. I to stacka, który padnie pierwszy, jak zabraknie RAM-u.</p>
+<p>Alternatywą jest SonarQube Cloud. Wygodniej, ale wtedy łamiesz zasadę "self-hostable, no extra SaaS" i płacisz subskrypcję od linii kodu.</p>
+<p>Antifragile thinking mówi: usuń komponent, którego wartość krańcowa jest niższa niż koszt utrzymania. W projekcie reads Sonar tę poprzeczkę nie przekraczał.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kiedy-sonar-jednak-ma-sens">Kiedy Sonar jednak ma sens<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#kiedy-sonar-jednak-ma-sens" class="hash-link" aria-label="Bezpośredni link do Kiedy Sonar jednak ma sens" title="Bezpośredni link do Kiedy Sonar jednak ma sens" translate="no">​</a></h2>
+<p>Polemika nie polega na tym, żeby udawać, że narzędzie jest bezużyteczne. Sonar ma sens w trzech przypadkach:</p>
+<p><strong>1. Regulowane branże z audytami zewnętrznymi.</strong>
+Bank, ubezpieczenia, healthcare, krytyczna infrastruktura. Audytor przychodzi i pyta o dashboard długu technicznego, raporty OWASP Top 10 w PDF, historyczne trendy quality gate. GitHub-native nie wygeneruje ci PDF-a dla audytora.</p>
+<p><strong>2. Zespoły 10+ osób z polyglot codebase.</strong>
+Java + .NET + Python + JavaScript + Go w jednym repo. Sonar obsługuje 35+ języków z jednym dashboardem. Dla zespołu, gdzie każdy zespół ma swój język, ujednolicenie metryk w jednym miejscu jest realnym zyskiem.</p>
+<p><strong>3. Migracje legacy z dużym długiem.</strong>
+Przejmujesz codebase z 10 lat, masz 50% pokrycia, nie wiesz od czego zacząć. Sonar wskaże ci najbardziej zadłużone moduły, posortuje po severity, da ci roadmapę. CodeQL + Biome takiej narracji nie zbudują.</p>
+<p>W żadnym z tych trzech scenariuszy nie jestem ja w 2026 roku, więc Sonara nie używam.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stack-który-realnie-zastąpił-sonara-w-projekcie-reads">Stack, który realnie zastąpił Sonara w projekcie reads<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#stack-kt%C3%B3ry-realnie-zast%C4%85pi%C5%82-sonara-w-projekcie-reads" class="hash-link" aria-label="Bezpośredni link do Stack, który realnie zastąpił Sonara w projekcie reads" title="Bezpośredni link do Stack, który realnie zastąpił Sonara w projekcie reads" translate="no">​</a></h2>
+<p>Dla porządku — co jest skonfigurowane w <code>.github/workflows/</code>:</p>
+<ul>
+<li class=""><strong>CodeQL</strong> (<code>codeql.yml</code>) — SAST, taint analysis, security severity gating</li>
+<li class=""><strong>Trivy</strong> — skanowanie kontenerów, dependency vulnerabilities, IaC misconfigurations</li>
+<li class=""><strong>Gitleaks</strong> — wykrywanie sekretów w commitach (pre-commit hook + CI)</li>
+<li class=""><strong>Biome</strong> — linting + formatting, w pre-commit i CI</li>
+<li class=""><strong>Vitest + Codecov</strong> — coverage z dashboardem PR</li>
+<li class=""><strong>Branch protection rules</strong> — wymagane status checks z wszystkich powyższych</li>
+</ul>
+<p>Zero zewnętrznej infrastruktury. Zero subskrypcji SaaS poza darmowymi tierami. Cały feedback loop w GitHubie, gdzie programista i tak pracuje.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wniosek">Wniosek<a href="https://www.majdak.online/blog/sonarqube-2026-standard-polemika#wniosek" class="hash-link" aria-label="Bezpośredni link do Wniosek" title="Bezpośredni link do Wniosek" translate="no">​</a></h2>
+<p>"Branżowy standard" to argument leniwy. SonarQube był standardem, kiedy alternatywą był ESLint w 2014 roku. W 2026 roku, kiedy GitHub kupił Semmle (CodeQL), uruchomił Advanced Security, a narzędzia natywne zintegrowały się z PR-ami — równanie się zmieniło.</p>
+<p>Dla większości współczesnych projektów webowych, prowadzonych przez 1–10 osób, na nowoczesnym stacku z PR-based workflow, GitHub-native stack:</p>
+<ul>
+<li class="">wykrywa więcej podatności niż Sonar Community Build,</li>
+<li class="">daje szybszy feedback,</li>
+<li class="">nie wymaga oddzielnej infrastruktury,</li>
+<li class="">nie wymaga licencji,</li>
+<li class="">nie zmusza do kompromisu między "darmowy ale bezużyteczny w PR" a "płatny ale 2500 USD/rok".</li>
+</ul>
+<p>Tracisz dashboard długu technicznego, dokładną Cognitive Complexity Sonara, wykrywanie duplikacji i centralne quality gates dla wielu repo. Jeśli któreś z tych czterech jest dla ciebie krytyczne — Sonar (Developer Edition, nie Community) jest dobrym wyborem.</p>
+<p>Jeśli nie — SonarQube w 2026 roku jest narzędziem, którego nie potrzebujesz, mimo że internet ci to powtarza.</p>
+<hr>
+<p><em>Tekst oparty na decyzjach architektonicznych projektu reads. ADR 0011 ("GitHub-native tools where possible; no additional SaaS") zachowuje moc.</em></p>]]></content:encoded>
+            <category>Security</category>
+            <category>SecOps</category>
+            <category>DevSecOps</category>
+            <category>DevOps</category>
+        </item>
         <item>
             <title><![CDATA[DevSecOps w praktyce: Jak GitHub Advanced Security (GHAS) redukuje wycieki poświadczeń do zera]]></title>
             <link>https://www.majdak.online/blog/devsecops-github-advanced-security</link>
@@ -1571,27 +1694,6 @@ W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe in
 </ul>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/news-2025-09-02#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie" translate="no">​</a></h2>
 <p>W minionym tygodniu cyberprzestępcy pokazali, że automatyzacja ataków i nadużycia połączeń API (OAuth/SaaS) skutecznie omijają klasyczne zabezpieczenia, a krytyczne luki (np. Citrix CVE-2025-7775) są wykorzystywane w praktyce niemal natychmiast po upublicznieniu. W najbliższych dniach spodziewać się można wzmożonej liczby ataków supply chain, dużej aktywności ransomware oraz dalszego wykorzystania AI w automatyzacji i eskalacji ataków.</p>]]></content:encoded>
-            <category>Cybersecurity</category>
-            <category>Ataki</category>
-            <category>Exploits</category>
-            <category>Privacy</category>
-        </item>
-        <item>
-            <title><![CDATA[Google ostrzega: Złośliwe moduły Go i botnety IoT atakują, wykradając dane i wykraczając poza tradycyjne cyberzagrożenia]]></title>
-            <link>https://www.majdak.online/blog/news-2025-08-24</link>
-            <guid>https://www.majdak.online/blog/news-2025-08-24</guid>
-            <pubDate>Sun, 24 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Najnowsze zagrożenia w cyberprzestrzeni: złośliwy moduł Go ukrywa się pod maską narzędzia do brute-force SSH, wykradając dane użytkowników i przesyłając je przez Telegram. Tymczasem cyberprzestępcy wykorzystują luki bezpieczeństwa w GeoServer i exposed Redis do tworzenia botnetów IoT, proxy i infrastruktury do kopania kryptowalut, przy czym ataki o wysokim współczynniku CVE-2024-36401 osiągnęły aż 9,8 w skali CVSS.]]></description>
-            <content:encoded><![CDATA[<p>Najnowsze zagrożenia w cyberprzestrzeni: złośliwy moduł Go ukrywa się pod maską narzędzia do brute-force SSH, wykradając dane użytkowników i przesyłając je przez Telegram. Tymczasem cyberprzestępcy wykorzystują luki bezpieczeństwa w GeoServer i exposed Redis do tworzenia botnetów IoT, proxy i infrastruktury do kopania kryptowalut, przy czym ataki o wysokim współczynniku CVE-2024-36401 osiągnęły aż 9,8 w skali CVSS.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="złośliwy-moduł-go-podszywający-się-pod-narzędzie-brute-force-ssh">Złośliwy moduł Go podszywający się pod narzędzie brute-force SSH<a href="https://www.majdak.online/blog/news-2025-08-24#z%C5%82o%C5%9Bliwy-modu%C5%82-go-podszywaj%C4%85cy-si%C4%99-pod-narz%C4%99dzie-brute-force-ssh" class="hash-link" aria-label="Bezpośredni link do Złośliwy moduł Go podszywający się pod narzędzie brute-force SSH" title="Bezpośredni link do Złośliwy moduł Go podszywający się pod narzędzie brute-force SSH" translate="no">​</a></h2>
-<p>Złośliwy moduł Go udaje narzędzie do brute-force SSH, ale w rzeczywistości zawiera funkcjonalność do dyskretnego wykradania danych uwierzytelniających i przesyłania ich do swojego twórcy.</p>
-<blockquote>
-<p>"Przy pierwszym udanym logowaniu, pakiet wysyła adres IP celu, nazwę użytkownika i hasło do trudnodostępnego bota Telegram kontrolowanego przez osobę atakującą," powiedział badacz Socket, Kirill Boychenko.</p>
-</blockquote>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="eksploatacje-geoserver-polaredge-i-gayfemboy">Eksploatacje GeoServer, PolarEdge i Gayfemboy<a href="https://www.majdak.online/blog/news-2025-08-24#eksploatacje-geoserver-polaredge-i-gayfemboy" class="hash-link" aria-label="Bezpośredni link do Eksploatacje GeoServer, PolarEdge i Gayfemboy" title="Bezpośredni link do Eksploatacje GeoServer, PolarEdge i Gayfemboy" translate="no">​</a></h2>
-<p>Eksploatacje GeoServer, PolarEdge i Gayfemboy popychają cyberprzestępczość poza tradycyjne botnety.</p>
-<p>Badacze ds. cyberbezpieczeństwa zwracają uwagę na liczne kampanie, które korzystają z znanych luk bezpieczeństwa i odsłoniętych serwerów Redis do różnych złośliwych działań, w tym wykorzystywania zaatakowanych urządzeń jako botnetów IoT, proxy domowych lub infrastruktury do kopania kryptowalut.</p>
-<p>Pierwszy zestaw ataków obejmuje eksploatację CVE-2024-36401 (wskaźnik CVSS: 9.8).</p>]]></content:encoded>
             <category>Cybersecurity</category>
             <category>Ataki</category>
             <category>Exploits</category>
