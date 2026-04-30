@@ -11,7 +11,7 @@ Automatyzacja kontroli jakości kodu to dziś standard, ale co jeśli Twoja infr
 <!-- truncate -->
 
 ## Cel: Wdrożenie Quality Gates
-Zadanie wydawało się proste: podpiąć SonarQube pod projekt monorepo (Next.js + Fastify) i zablokować możliwość mergowania kodu (Pull Requests), jeśli ten nie spełnia standardów (np. pokrycie testami poniżej 80%, krytyczne błędy bezpieczeństwa). 
+Zadanie wydawało się proste: podpiąć SonarQube pod projekt monorepo (Next.js + Fastify) — konkretnie mowa o moim otwartoźródłowym projekcie [reads](https://github.com/przemyslvw/reads) — i zablokować możliwość mergowania kodu (Pull Requests), jeśli ten nie spełnia standardów (np. pokrycie testami poniżej 80%, krytyczne błędy bezpieczeństwa). 
 
 Oto z czym musieliśmy się zmierzyć krok po kroku.
 
@@ -81,5 +81,7 @@ Gdy skanowanie zaczęło przechodzić, wystarczyło wejść w ustawienia branchy
 ### Podsumowanie
 Połączenie "sztywnych" narzędzi enterprise (SonarQube) z nowoczesnymi warstwami zabezpieczeń (Cloudflare Zero Trust) rzadko działa "out of the box". 
 Czasami zamiast walczyć z dokumentacją i instalować w CI/CD potężne narzędzia sieciowe, wystarczy 15 linijek czystego JavaScriptu postawionego pośrodku.
+
+Całość wdrożenia i konfigurację można podejrzeć w moim projekcie open-source: [github.com/przemyslvw/reads](https://github.com/przemyslvw/reads).
 
 *** 
