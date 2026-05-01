@@ -20,6 +20,10 @@ W **reads** automatyzacja to nie dodatek, a wymóg. Każdy Pull Request przechod
 *   **Quality Gates:** Integracja z **SonarQube** oraz testy jednostkowe w **Vitest** blokują regresję długu technicznego.
 *   **Automatyzacja Wydań:** Wykorzystujemy **Semantic Release** i **Conventional Commits**. Każda zmiana jest automatycznie wersjonowana, a changelogi generują się bez udziału człowieka.
 
+![SonarQube dashboard](./sonarqube.png)
+*Tak to powinno wyglądać: pokrycie testami 86.9%, 0 issues, Duplications 0.0%*
+
+
 ### Bezpieczeństwo: Architektura Zero Trust
 Jako projekt typu self-hosted, **reads** musi być odporny na ataki od pierwszego commita. Nasza strategia bezpieczeństwa obejmuje:
 
