@@ -22,6 +22,8 @@
 <li class=""><strong>Quality Gates:</strong> Integracja z <strong>SonarQube</strong> oraz testy jednostkowe w <strong>Vitest</strong> blokują regresję długu technicznego.</li>
 <li class=""><strong>Automatyzacja Wydań:</strong> Wykorzystujemy <strong>Semantic Release</strong> i <strong>Conventional Commits</strong>. Każda zmiana jest automatycznie wersjonowana, a changelogi generują się bez udziału człowieka.</li>
 </ul>
+<p><img decoding="async" loading="lazy" alt="SonarQube dashboard" src="https://www.majdak.online/assets/images/sonar-b48475854ec7722b6874911f042cdcda.png" width="1912" height="817" class="img_ev3q">
+<em>Tak to powinno wyglądać: pokrycie testami 86.9%, 0 issues, Duplications 0.0%</em></p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bezpieczeństwo-architektura-zero-trust">Bezpieczeństwo: Architektura Zero Trust<a href="https://www.majdak.online/blog/reads-open-source#bezpiecze%C5%84stwo-architektura-zero-trust" class="hash-link" aria-label="Bezpośredni link do Bezpieczeństwo: Architektura Zero Trust" title="Bezpośredni link do Bezpieczeństwo: Architektura Zero Trust" translate="no">​</a></h3>
 <p>Jako projekt typu self-hosted, <strong>reads</strong> musi być odporny na ataki od pierwszego commita. Nasza strategia bezpieczeństwa obejmuje:</p>
 <ul>
