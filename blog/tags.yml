@@ -907,3 +907,8 @@ semantic-release:
   label: Semantic Release
   permalink: /semantic-release
   description: Automatyzacja wersjonowania i publikowania pakietów zgodnie ze specyfikacją Semantic Versioning.
+
+opensource:
+  label: Open Source
+  permalink: /opensource
+  description: Projekty o otwartym kodzie źródłowym, współpraca i rozwój społecznościowy.

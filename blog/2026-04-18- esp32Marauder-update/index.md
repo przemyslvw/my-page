@@ -2,7 +2,7 @@
 slug: esp32Marauder-update
 title: "Optymalizacja wydajności w narzędziach Cybersecurity – mój wkład w projekt ESP32Marauder"
 authors: [przemyslvw]
-tags: ['esp32', 'cybersecurity', 'pentesting', 'embedded', 'marauder', 'flipperzero', 'optimization', 'cpp']
+tags: ['esp32', 'cybersecurity', 'pentesting', 'embedded', 'marauder', 'flipperzero', 'optimization', 'cpp', 'opensource']
 date: "2026-04-18"
 ---
 
