@@ -20,7 +20,7 @@ W **reads** automatyzacja to nie dodatek, a wymóg. Każdy Pull Request przechod
 *   **Quality Gates:** Integracja z **SonarQube** oraz testy jednostkowe w **Vitest** blokują regresję długu technicznego.
 *   **Automatyzacja Wydań:** Wykorzystujemy **Semantic Release** i **Conventional Commits**. Każda zmiana jest automatycznie wersjonowana, a changelogi generują się bez udziału człowieka.
 
-![SonarQube dashboard](./sonarqube.png)
+![SonarQube dashboard](./sonar.png)
 *Tak to powinno wyglądać: pokrycie testami 86.9%, 0 issues, Duplications 0.0%*
 
 
