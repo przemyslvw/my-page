@@ -31,17 +31,17 @@ Dzięki tym krokom można znacznie zwiększyć odporność kamer Xiaomi na ataki
 
 ### Testowany model to **Mi Camera 2K (Magnetic Mount)**
 
-Odkryto, że kamera  jest podatna na ataki typu jamming, które mogą powodować zatrzymanie obrazu lub całkowite rozłączenie urządzenia. :contentReference[oaicite:0]{index=0}
+Odkryto, że kamera  jest podatna na ataki typu jamming, które mogą powodować zatrzymanie obrazu lub całkowite rozłączenie urządzenia.
 
 ### Potencjalnie zagrożone modele
 
 Ze względu na podobieństwa w konstrukcji i funkcjonalności, inne modele kamer Xiaomi mogą również być podatne na tego typu ataki. Należą do nich:
 
-- **Mi Home Security Camera 360°**: kamera oferująca panoramiczny widok z funkcją obrotu, często stosowana do monitoringu domowego. :contentReference[oaicite:1]{index=1}
+- **Mi Home Security Camera 360°**: kamera oferująca panoramiczny widok z funkcją obrotu, często stosowana do monitoringu domowego.
 
-- **Mi Home Security Camera 1080p Magnetic Mount**: model z magnetycznym mocowaniem, podobny w konstrukcji do Mi Camera 2K (Magnetic Mount). :contentReference[oaicite:2]{index=2}
+- **Mi Home Security Camera 1080p Magnetic Mount**: model z magnetycznym mocowaniem, podobny w konstrukcji do Mi Camera 2K (Magnetic Mount).
 
-- **Mi 360° Home Security Camera 2K Pro**: zaawansowana wersja kamery 360° z wyższą rozdzielczością, mogąca posiadać podobne podatności. :contentReference[oaicite:3]{index=3}
+- **Mi 360° Home Security Camera 2K Pro**: zaawansowana wersja kamery 360° z wyższą rozdzielczością, mogąca posiadać podobne podatności.
 
 ## Inni producenci, których urządzenia mogą być podatne na jamming
 

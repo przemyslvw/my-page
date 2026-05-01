@@ -36,8 +36,20 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'przemyslvw', // Usually your GitHub org/user name.
   projectName: 'my-page', // Usually your repo name.
+  markdown: {
+    format: 'mdx',
+    mermaid: true,
+    mdx1Compat: {
+      comments: true,
+      admonitions: true,
+      headingIds: true,
+    },
+    // @ts-ignore
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false, // (opcjonalne) usuwa ostrzeżenia o ukośnikach
 
