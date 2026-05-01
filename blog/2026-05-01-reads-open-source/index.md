@@ -8,7 +8,7 @@ date: "2026-05-01"
 
 Projekt **reads** ewoluuje. To już nie tylko proste narzędzie do zakładek, ale poligon doświadczalny dla nowoczesnych standardów dostarczania oprogramowania. Choć demo znajduje się obecnie w fazie koncepcyjnej (zarządzanie zakładkami i moduł logowania są w trakcie wdrażania), już teraz możesz zobaczyć, jak realizujemy podejście **Automation First** i **Secure by Design** w praktyce.
 
-[**Sprawdź demo (Staging) ↗**](https://reads-staging.baluarte.pl/)
+**Sprawdź demo (Staging) ↗**](https://reads-staging.baluarte.pl/)
 
 <!-- truncate -->
 
