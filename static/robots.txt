@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /blog/tags/
+Disallow: /blog/archive
+Disallow: /blog/authors/
+
+Sitemap: https://www.majdak.online/sitemap.xml
