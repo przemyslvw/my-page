@@ -1,4 +1,6 @@
 ---
+title: "Baza danych podatności"
+slug: "bazy-danych-podatnosci"
 sidebar_position: 12
 ---
 

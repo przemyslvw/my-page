@@ -1,3 +1,8 @@
+---
+title: "6 Środki zarządzania personelem"
+slug: "zarzadzanie-personelem"
+---
+
 # 6 Środki zarządzania personelem
 
 | Nr  | Kontrola bezpieczeństwa informacji                                    | Opis                                                                                                                                                                                                                                                                                                          |

@@ -61,7 +61,7 @@ Po ukończeniu kursu możesz kontynuować naukę w ramach bardziej zaawansowanyc
 - **ISTQB Agile Tester** – testowanie w środowiskach zwinnych.
 - **ISTQB Test Automation Engineer** – automatyzacja testów i tworzenie frameworków.
 
-👉 [**Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀**(](/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl)
+👉 [**Nie zwlekaj! Rozpocznij swoją ścieżkę certyfikacji ISTQB już dziś! 🚀**](/docs/category/kurs-istqb---certified-tester-foundation-level-ctfl)
 
 ---
 

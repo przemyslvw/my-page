@@ -1,3 +1,8 @@
+---
+title: "7 Środki fizyczne bezpieczeństwa informacji"
+slug: "srodki-fizyczne"
+---
+
 # 7 Środki fizyczne bezpieczeństwa informacji
 
 | Nr   | Kontrola bezpieczeństwa informacji                      | Opis                                                                                                                                                                                                                      |

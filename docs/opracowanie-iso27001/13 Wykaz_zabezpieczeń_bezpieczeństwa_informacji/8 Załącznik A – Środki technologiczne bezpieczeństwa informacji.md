@@ -1,3 +1,8 @@
+---
+title: "8 Środki technologiczne bezpieczeństwa informacji"
+slug: "srodki-technologiczne"
+---
+
 # 8 Środki technologiczne bezpieczeństwa informacji
 
 | Nr   | Kontrola bezpieczeństwa informacji                              | Opis                                                                                                                                                                                                         |

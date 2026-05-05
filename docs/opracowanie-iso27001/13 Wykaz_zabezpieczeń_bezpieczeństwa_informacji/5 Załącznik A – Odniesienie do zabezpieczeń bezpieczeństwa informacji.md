@@ -1,3 +1,8 @@
+---
+title: "5 Odniesienie do zabezpieczeń bezpieczeństwa informacji"
+slug: "odniesienie-do-zabezpieczen"
+---
+
 # 5 Odniesienie do zabezpieczeń bezpieczeństwa informacji
 
 | Nr   | Kontrola bezpieczeństwa informacji                                      | Opis                                                                                                                                                                                                                                                                                                     |
