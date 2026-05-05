@@ -2,7 +2,7 @@
 slug: system-link-16
 title: "🔗 System Link 16 – Podstawy i Zastosowanie"
 authors: [przemyslvw]
-tags: ["military", "communication", "link-16", "NATO"]
+tags: ["military", "communication", "link-16", "nato"]
 date: 2025-03-14
 ---
 

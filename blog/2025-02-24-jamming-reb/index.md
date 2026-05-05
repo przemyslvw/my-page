@@ -2,7 +2,7 @@
 slug: jamming-reb
 title: "Systemy Walki Radioelektronicznej (REB)"
 authors: [przemyslvw]
-tags: [drony, wojsko, technologie, UAV, BSP]
+tags: [drony, wojsko, technologie, uav, bsp]
 date: 2025-02-24
 ---
 

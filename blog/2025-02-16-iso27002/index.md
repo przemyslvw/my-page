@@ -2,7 +2,7 @@
 slug: iso27002
 title: "Opracowanie standardu ISO27002"
 authors: [przemyslvw]
-tags: [ISO27002, bezpieczenstwo-informacji, standardy-międzynarodowe, zarządzanie-bezpieczeństwem, IT, dokumentacja]
+tags: [iso27002, bezpieczenstwo-informacji, standardy-miedzynarodowe, zarzadzanie-bezpieczeństwem, it, dokumentacja]
 date: 2025-02-16
 ---
 
@@ -23,7 +23,7 @@ Norma ta wspiera organizacje w implementacji skutecznych środków zabezpieczaj�
 ✔️ **Środki technologiczne** (np. zabezpieczenia sieci i systemów IT)  
 
 ## 🔗 Sprawdź dokument tutaj:  
-[/docs/category/dokumentacja---iso27002](/docs/category/dokumentacja---iso27002)
+[/docs/iso27002](/docs/iso27002)
 
 
 

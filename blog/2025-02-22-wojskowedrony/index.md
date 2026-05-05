@@ -2,7 +2,7 @@
 slug: wojskowe-drony
 title: "Współczesne Drony Wojskowe"
 authors: [przemyslvw]
-tags: [drony, wojsko, technologie, UAV, BSP]
+tags: [drony, wojsko, technologie, uav, bsp]
 date: 2025-02-22
 ---
 

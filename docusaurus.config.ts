@@ -151,11 +151,11 @@ const config: Config = {
             },
             {
               label: 'ISO27002',
-              to: '/docs/category/dokumentacja---iso27002',
+              to: '/docs/iso27002',
             },
             {
               label: 'ISO27001',
-              to: '/docs/category/dokumentacja---iso27001',
+              to: '/docs/iso27001',
             },
           ],
         },

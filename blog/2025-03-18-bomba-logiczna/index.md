@@ -2,7 +2,7 @@
 slug: bomba-logiczna
 title: "Bomba logiczna – zagrożenie i metody zabezpieczenia"
 authors: [przemyslvw]
-tags: [cyberbezpieczenstwo, malware, ataki, IT, bezpieczeństwo]
+tags: [cyberbezpieczenstwo, malware, ataki, it, bezpieczeństwo]
 date: 2025-03-18
 ---
 

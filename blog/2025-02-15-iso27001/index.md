@@ -2,7 +2,7 @@
 slug: iso27001
 title: "Opracowanie dokumentacji ISO27001"
 authors: [przemyslvw]
-tags: [ISO27001, bezpieczenstwo-informacji, standardy-miedzynarodowe, zarządzanie-bezpieczeństwem, IT, dokumentacja]
+tags: [iso27001, bezpieczenstwo-informacji, standardy-miedzynarodowe, zarzadzanie-bezpieczeństwem, it, dokumentacja]
 date: 2025-03-15
 ---
 
@@ -27,7 +27,7 @@ Tworzenie dokumentacji zgodnej z ISO 27001 obejmuje kilka kluczowych obszarów, 
 ✔️ **Monitorowanie i audyt** – mechanizmy zapewniające skuteczność wdrożonych zabezpieczeń oraz zgodność z normą.  
 
 ## 🔗 Sprawdź dokumentację tutaj:  
-[/docs/category/dokumentacja---iso27001](/docs/category/dokumentacja---iso27001)  
+[/docs/iso27001](/docs/iso27001)
 
 Dzięki wdrożeniu ISO 27001 organizacje nie tylko zwiększają bezpieczeństwo swoich zasobów, ale także budują zaufanie klientów i partnerów biznesowych.  
 Jeśli masz pytania dotyczące wdrożenia standardu lub chcesz uzyskać dostęp do dokumentacji, skontaktuj się z nami!  

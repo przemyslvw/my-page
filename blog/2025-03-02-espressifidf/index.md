@@ -2,7 +2,7 @@
 slug: espressif-idf
 title: "Espressif IDF (ESP-IDF) i inne platformy do programowania ESP32"
 authors: [przemyslvw]
-tags: [ESP32, ESP-IDF, Arduino, PlatformIO, MicroPython, CircuitPython, ESPHome, Tasmota, Zephyr RTOS, IoT, tutorial]
+tags: [esp32, esp-idf, arduino, platformio, micropython, circuitpython, esphome, tasmota, zephyr-rtos, iot, tutorial]
 date: 2024-03-02
 ---
 

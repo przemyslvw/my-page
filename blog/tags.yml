@@ -798,6 +798,26 @@ mids:
   permalink: /mids
   description: Multifunctional Information Distribution System — rodzina terminali obsługujących system Link 16.
 
+kurs:
+  label: Kurs
+  permalink: /kurs
+  description: Materiały szkoleniowe i kursy techniczne.
+
+atak:
+  label: Atak
+  permalink: /atak
+  description: Analiza technik ataków i metod obrony.
+
+social-engineering:
+  label: Social Engineering
+  permalink: /social-engineering
+  description: Socjotechnika i techniki manipulacji w cyberprzestrzeni.
+
+phishing:
+  label: Phishing
+  permalink: /phishing
+  description: Metody wyłudzania informacji i ochrony przed nimi.
+
 link-22:
   label: Link 22
   permalink: /link-22
