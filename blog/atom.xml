@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2026-05-01T00:00:00.000Z</updated>
+    <updated>2026-05-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Nowoczesne Raportowanie E2E: Implementacja Allure w projekcie reads]]></title>
+        <id>https://www.majdak.online/blog/allure-playwright-reporting</id>
+        <link href="https://www.majdak.online/blog/allure-playwright-reporting"/>
+        <updated>2026-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W zapewnianiu jakości oprogramowania (QA) samo posiadanie testów automatycznych to dopiero połowa sukcesu. Kluczem do efektywnej pracy zespołu jest widoczność (visibility) i szybkość diagnozy błędów. W ramach rozwoju projektu reads – autorskiego menedżera zakładek typu self-hosted – wdrożony został zaawansowany system raportowania oparty na frameworku Allure oraz Playwright.]]></summary>
+        <content type="html"><![CDATA[<p>W zapewnianiu jakości oprogramowania (QA) samo posiadanie testów automatycznych to dopiero połowa sukcesu. Kluczem do efektywnej pracy zespołu jest <strong>widoczność (visibility)</strong> i szybkość diagnozy błędów. W ramach rozwoju projektu <strong>reads</strong> – autorskiego menedżera zakładek typu self-hosted – wdrożony został zaawansowany system raportowania oparty na frameworku <strong>Allure</strong> oraz <strong>Playwright</strong>.</p>
+<p>Oto jak podejście „Automation First” przekłada się na realną użyteczność w procesie CI/CD.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dlaczego-allure-przewaga-nad-standardowymi-raportami">Dlaczego Allure? Przewaga nad standardowymi raportami<a href="https://www.majdak.online/blog/allure-playwright-reporting#dlaczego-allure-przewaga-nad-standardowymi-raportami" class="hash-link" aria-label="Bezpośredni link do Dlaczego Allure? Przewaga nad standardowymi raportami" title="Bezpośredni link do Dlaczego Allure? Przewaga nad standardowymi raportami" translate="no">​</a></h2>
+<p>Standardowe wyjście z konsoli czy proste raporty HTML często nie wystarczają, gdy projekt rośnie. Allure Framework dostarcza czytelną, interaktywną wizualizację wyników, która pozwala na:</p>
+<ul>
+<li class=""><strong>Szybką analizę przyczyn błędów (Root Cause Analysis):</strong> Dzięki automatycznemu załączaniu zrzutów ekranu, nagrań wideo oraz logów (trace) bezpośrednio w raporcie.</li>
+<li class=""><strong>Śledzenie trendów:</strong> Monitorowanie historycznych danych testowych, co pozwala wyłapać tzw. <em>flaky tests</em> (testy niestabilne).</li>
+<li class=""><strong>Segmentację wyników:</strong> Przejrzysty podział na funkcjonalności (Features), co ułatwia ocenę, która część aplikacji wymaga uwagi.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architektura-wdrożenia-w-potoku-cicd">Architektura wdrożenia w potoku CI/CD<a href="https://www.majdak.online/blog/allure-playwright-reporting#architektura-wdro%C5%BCenia-w-potoku-cicd" class="hash-link" aria-label="Bezpośredni link do Architektura wdrożenia w potoku CI/CD" title="Bezpośredni link do Architektura wdrożenia w potoku CI/CD" translate="no">​</a></h2>
+<p>Wdrożenie w projekcie <strong>reads</strong> zostało zaprojektowane w sposób optymalny dla zasobów, zgodnie z zasadą <strong>Secure by Design</strong>. Proces został podzielony na dwa kluczowe etapy w GitHub Actions:</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-walidacja-pre-merge">1. Walidacja "Pre-merge"<a href="https://www.majdak.online/blog/allure-playwright-reporting#1-walidacja-pre-merge" class="hash-link" aria-label="Bezpośredni link do 1. Walidacja &quot;Pre-merge&quot;" title="Bezpośredni link do 1. Walidacja &quot;Pre-merge&quot;" translate="no">​</a></h3>
+<p>Każdy Pull Request przechodzi automatyczną weryfikację jakościową (<code>quality.yml</code>). Na tym etapie Playwright uruchamia testy w izolowanym środowisku lokalnym. Jeśli jakakolwiek zmiana psuje kluczowe funkcjonalności (np. ekstrakcję treści do trybu reader), proces CI zatrzymuje merge, chroniąc główną gałąź kodu.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-pełna-regresja-na-stagingu">2. Pełna Regresja na Stagingu<a href="https://www.majdak.online/blog/allure-playwright-reporting#2-pe%C5%82na-regresja-na-stagingu" class="hash-link" aria-label="Bezpośredni link do 2. Pełna Regresja na Stagingu" title="Bezpośredni link do 2. Pełna Regresja na Stagingu" translate="no">​</a></h3>
+<p>Po wdrożeniu aplikacji na środowisko stagingowe (<code>[https://reads-staging.baluarte.pl](https://reads-staging.baluarte.pl)</code>), automatycznie wyzwalany jest pełny zestaw testów regresyjnych. To tutaj Allure pokazuje swoją pełną moc:</p>
+<ul>
+<li class=""><strong>Multi-reporter:</strong> System jednocześnie generuje raporty w formatach <code>list</code>, <code>html</code> oraz dane dla <code>allure-playwright</code>.</li>
+<li class=""><strong>Automatyczna publikacja:</strong> Wyniki są generowane jako statyczna strona i publikowane na <strong>GitHub Pages</strong>. Dzięki temu zespół ma stały dostęp do najświeższego statusu aplikacji pod dedykowanym adresem.</li>
+</ul>
+<table><thead><tr><th style="text-align:left">Cecha</th><th style="text-align:left">Konfiguracja w reads</th><th style="text-align:left">Korzyść</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Retencja danych</strong></td><td style="text-align:left">14-30 dni</td><td style="text-align:left">Oszczędność miejsca w chmurze GitHub</td></tr><tr><td style="text-align:left"><strong>Zasoby wideo/trace</strong></td><td style="text-align:left"><code>retain-on-failure</code></td><td style="text-align:left">Szybki debug bez obciążania CI zbędnymi plikami</td></tr><tr><td style="text-align:left"><strong>Historyczność</strong></td><td style="text-align:left">Ciągłość między workflowami</td><td style="text-align:left">Możliwość analizy trendów stabilności aplikacji</td></tr></tbody></table>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reads-poligon-doświadczalny-i-narzędzie-codziennego-użytku">reads: Poligon doświadczalny i narzędzie codziennego użytku<a href="https://www.majdak.online/blog/allure-playwright-reporting#reads-poligon-do%C5%9Bwiadczalny-i-narz%C4%99dzie-codziennego-u%C5%BCytku" class="hash-link" aria-label="Bezpośredni link do reads: Poligon doświadczalny i narzędzie codziennego użytku" title="Bezpośredni link do reads: Poligon doświadczalny i narzędzie codziennego użytku" translate="no">​</a></h2>
+<p>Projekt <strong>reads</strong> (dostępny na <a href="https://github.com/przemyslvw/reads" target="_blank" rel="noopener noreferrer" class="">GitHub</a>) to nie tylko manager zakładek. To publiczny <strong>showcase warsztatu technologicznego</strong>, gdzie rozwiązania takie jak integracja Playwright z Allure służą jako wzorzec (PoC) dla komercyjnych wdrożeń.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kluczowe-funkcjonalności-reads">Kluczowe funkcjonalności reads:<a href="https://www.majdak.online/blog/allure-playwright-reporting#kluczowe-funkcjonalno%C5%9Bci-reads" class="hash-link" aria-label="Bezpośredni link do Kluczowe funkcjonalności reads:" title="Bezpośredni link do Kluczowe funkcjonalności reads:" translate="no">​</a></h3>
+<ul>
+<li class="">Pobieranie metadanych (tytuł, opis, favicon, og<!-- -->:image<!-- -->).</li>
+<li class="">Ekstrakcja treści do czystego trybu czytania (Reader Mode).</li>
+<li class="">Tagowanie i zaawansowane wyszukiwanie.</li>
+<li class="">Architektura gotowa do pracy w modelu self-hosted.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/allure-playwright-reporting#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie" translate="no">​</a></h2>
+<p>Wprowadzenie raportowania Allure do stacku technologicznego projektu znacząco skraca <strong>Time-to-Fix</strong>. Zamiast analizować surowe logi w poszukiwaniu błędów, zespół otrzymuje gotowy materiał wizualny z dokładnym wskazaniem miejsca awarii. To standard, który powinien towarzyszyć każdemu nowoczesnemu projektowi IT dbającemu o jakość i bezpieczeństwo.</p>
+<hr>
+<p><em>Interesuje Cię kod źródłowy tej integracji? Sprawdź pliki konfiguracyjne w <a href="https://github.com/przemyslvw/reads" target="_blank" rel="noopener noreferrer" class="">repozytorium reads</a>.</em></p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Open Source" term="Open Source"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="DevSecOps" term="DevSecOps"/>
+        <category label="SecOps" term="SecOps"/>
+        <category label="Playwright" term="Playwright"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Testing" term="Testing"/>
+        <category label="CI/CD" term="CI/CD"/>
+        <category label="GitHub Pages" term="GitHub Pages"/>
+        <category label="GitHub Actions" term="GitHub Actions"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reads: Open Source zbudowany na fundamencie Quality Engineering]]></title>
         <id>https://www.majdak.online/blog/reads-open-source</id>
@@ -1554,64 +1610,6 @@ Właśnie skończyłem lekturę "Black Hat Bash" (Dolev Farhi &amp; Nick Aleks) 
         <id>https://www.majdak.online/blog/news-2025-09-16</id>
         <link href="https://www.majdak.online/blog/news-2025-09-16"/>
         <updated>2025-09-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.]]></summary>
-        <content type="html"><![CDATA[<p>Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.</p>
-<p>Exploit 1: Jailbreak GPT-4.1 poprzez zatrucie narzędziami
-W kwietniu 2025 roku za pomocą “tool poisoning” wbudowano złośliwe instrukcje w opisy narzędzi MCP, co spowodowało, że GPT-4.1 wykonywał nieautoryzowane akcje i wyprowadzał dane bez wiedzy użytkowników. Podatność ujawniła słabość w walidacji i sanitizacji opisów narzędzi, podkreślając konieczność ścisłych kontroli integracji.</p>
-<p>Exploit 2: Oszustwo deepfake voice atakuje systemy bankowe
-W marcu 2025 roku przestępcy wykorzystali AI do wygenerowania głosowych deepfake’ów klientów banku, co umożliwiło obejście systemów uwierzytelniania głosowego i przejęcie kont o wartości około 25 mln USD. Atak obnażył niedostateczną ochronę biometrii głosowej i potrzebę wprowadzenia wieloczynnikowej weryfikacji.</p>
-<p>Exploit 3: Wstrzyknięcie kodu w ChatGPT prowadzi do wycieku danych
-W marcu 2025 roku złośliwe prompt injection zmusiło ChatGPT do ujawnienia poufnych informacji z uprzednich interakcji, obnażając luki w mechanizmach bezpieczeństwa wejścia. Wskazuje to na niezbędność kontekstowo świadomych filtrów i silnej walidacji danych wejściowych.</p>
-<p>Exploit 4: Wyciek danych DeepSeek
-Między styczniem a marcem 2025 roku z powodu błędnej konfiguracji publicznie udostępniono bazę danych DeepSeek, wyciekło ponad milion rekordów czatów, kluczy API i metadanych użytkowników. Incydent uruchomił dochodzenia regulatorów w Korei Południowej, Włoszech i USA oraz ban dla rządowych wdrożeń.</p>
-<p>Exploit 5: Sony Music usuwa muzykę deepfake
-W marcu 2025 roku Sony Music zleciło usunięcie ponad 75 000 ścieżek deepfake, które AI wygenerowało, naśladując artystów jak Beyoncé czy Harry Styles. Akcja uwydatniła wyzwania prawne i techniczne związane z ochroną własności intelektualnej w erze generatywnej muzyki.</p>
-<p>Exploit 6: Luka w NVIDIA TensorRT-LLM (CVE-2025-23254)
-Pod koniec kwietnia 2025 odkryto krytyczną podatność w Python Executor TensorRT-LLM (pickle deserialization), umożliwiającą zdalne wykonanie kodu, wyciek danych i manipulację modelami. Naprawa wymaga aktualizacji do wersji 0.18.2 i zastąpienia pickle bezpieczniejszymi formatami serializacji.</p>
-<p>Exploit 7: CAIN – Celowe przejęcie komunikatów LLM
-W maju 2025 roku atak CAIN wprowadził złośliwe system prompty do LLM, co pozwalało na generowanie szkodliwych odpowiedzi dla określonych zapytań, przy zachowaniu normalnego działania dla innych. Incydent uwypuklił potrzebę walidacji i monitoringu promptów oraz wytycznych dotyczących bezpiecznego inżynieringu promptów.</p>
-<p>Exploit 8: Ataki Vishing generowane przez AI via ViKing
-W kwietniu 2025 automaty AI ViKing generowały realistyczne połączenia phishingowe, podszywając się pod zaufane podmioty i wyłudzając dane osobowe. Sukces ataków pokazał, że weryfikacja głosu wymaga dodatkowych mechanizmów, a użytkownicy powinni być szkoleni w rozpoznawaniu deepfake’ów.</p>
-<p>Exploit 9: Wypełnianie danych i automatyczne skanowanie AI
-W maju 2025 cyberprzestępcy zastosowali AI do masowego skanowania i credential stuffing, szybko identyfikując poprawne login–hasło i przejmując konta. Wzrost skuteczności ataków wskazuje na potrzebę MFA, ograniczeń szybkości logowań i regularnych audytów haseł.</p>
-<p>Exploit 10: Naruszenie danych DeepSeek i transfer danych
-W kwietniu 2025 DeepSeek bez zgody przekazywał dane południowokoreańskich użytkowników na serwery w Chinach, naruszając lokalne i europejskie przepisy o ochronie danych. Incydent spowodował blokadę aplikacji w Korei i działania regulacyjne podkreślające konieczność ścisłych kontroli transferu danych.</p>
-<p>Exploit 11: Naruszenie bezpieczeństwa botów rekrutacyjnych McDonald’s
-30 czerwca 2025 badacze złamali prostą usługę logowania AI-chatbota “Olivia”, zgadując hasło “123456” i uzyskali dostęp do danych 64 mln kandydatów. Wykazało to fatalną higienę haseł i wymaganie MFA oraz przeglądu zabezpieczeń stron zewnętrznych dostawców.</p>
-<p>Exploit 12: Kampania podszywania się pod Rubio AI
-W czerwcu–lipcu 2025 AI generował deepfake głosu i tekstu przedstawiając się jako Marco Rubio w komunikatorze Signal, próbując wyłudzić informacje od dyplomatów. Choć nie odnotowano bezpośrednich wycieków, kampania skłoniła Departament Stanu USA do ostrzeżeń i podkreśliła wątpliwości co do bezpieczeństwa komunikatorów.</p>
-<p>Exploit 13: Skynet – Pośrednie złośliwe oprogramowanie
-W czerwcu 2025 malware “Skynet” wstrzykiwało prompt-injection do AI AV, nakazując “NO MALWARE DETECTED” i uruchamiając proxy TOR. Stanowi to dowód rosnącej zaawansowania ataków dezinformujących systemy AI, wymagając wielowarstwowej detekcji i polityk niespolegających wyłącznie na AI.</p>
-<p>Exploit 14: Wstrzyknięcie poleceń AI bez kliknięcia w M365 Copilot
-W czerwcu 2025 znaleziono zero-click exploit w M365 Copilot, gdzie złośliwe instrukcje w mailu powodowały wyciek danych korporacyjnych bez interakcji użytkownika. Microsoft załatał go w Patch Tuesday; incydent uwydatnił konieczność izolacji kontekstu oraz wymuszania wyraźnych poleceń użytkownika.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="AI Security" term="AI Security"/>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Generative AI" term="Generative AI"/>
-        <category label="Artificial Intelligence" term="Artificial Intelligence"/>
-        <category label="Cyber Threats" term="Cyber Threats"/>
-        <category label="Data Breach" term="Data Breach"/>
-        <category label="Prompt Injection" term="Prompt Injection"/>
-        <category label="Deepfake" term="Deepfake"/>
-        <category label="Zero Day" term="Zero Day"/>
-        <category label="Infosec" term="Infosec"/>
-        <category label="ML Security" term="ML Security"/>
-        <category label="Security Awareness" term="Security Awareness"/>
-        <category label="Tech Risks" term="Tech Risks"/>
-        <category label="AI Exploit" term="AI Exploit"/>
-        <category label="Secure AI" term="Secure AI"/>
-        <category label="Patch Management" term="Patch Management"/>
-        <category label="Cyber Incident" term="Cyber Incident"/>
-        <category label="Threat Intelligence" term="Threat Intelligence"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Podsumowanie exploitów AI – Drugi kwartał 2025]]></title>
-        <id>https://www.majdak.online/blog/news-2025-09-08</id>
-        <link href="https://www.majdak.online/blog/news-2025-09-08"/>
-        <updated>2025-09-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.]]></summary>
         <content type="html"><![CDATA[<p>Eksploity AI z drugiego kwartału 2025 roku ukazują rosnące zagrożenia związane z wykorzystaniem sztucznej inteligencji w celach przestępczych, takich jak jailbreaki modeli, głosowe deepfake’i czy wstrzyknięcia złośliwego kodu. Te incydenty podkreślają konieczność ciągłego monitoringu, zaawansowanych mechanizmów ochrony oraz edukacji użytkowników, aby minimalizować ryzyka w erze dynamicznego rozwoju generatywnej AI. Wzrost ataków wymusza też ścisłe regulacje i współpracę między firmami, ekspertami i regulatorami.</p>
 <p>Exploit 1: Jailbreak GPT-4.1 poprzez zatrucie narzędziami
