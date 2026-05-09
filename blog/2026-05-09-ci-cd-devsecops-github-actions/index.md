@@ -3,7 +3,7 @@ slug: ci-cd-devsecops-github-actions
 title: "Jak Przyspieszyć i Zabezpieczyć CI/CD – Praktyczne Wdrożenie DevSecOps w GitHub Actions"
 authors: [przemyslvw]
 tags: [devsecops, devops, automation, testing, cicd, github-actions]
-date: "2026-05-07"
+date: "2026-05-09"
 ---
 
 Jako programiści często wpadamy w pułapkę dokładania kolejnych narzędzi i skanerów do naszych pipeline'ów w CI/CD, nie zważając na to, jak mocno wydłuża to czas trwania całego procesu. Chcemy mieć zrobiony linting, przetestowany kod (zarówno jednostkowo, jak i E2E), jakość potwierdzoną przez SonarQube i wreszcie bezpieczeństwo obrazów Dockerowych za pomocą Trivy.
