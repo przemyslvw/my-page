@@ -1,6 +1,6 @@
 ---
 slug: prometheus-grafana-vps
-title: "Jak wdrożyłem Prometheus + Grafana na VPS — i co poszło nie tak"
+title: "Prometheus + Grafana na VPS: Jak zbudować solidny monitoring i uniknąć typowych pułapek"
 authors: [przemyslvw]
 tags: [devsecops, devops, automation, testing, cicd, github-actions, vps]
 date: "2026-05-12"
@@ -8,7 +8,7 @@ date: "2026-05-12"
 
 Mam VPS z kilkoma usługami dockerowymi: WireGuard, Pi-hole, n8n, SonarQube, środowisko staging dla mojego projektu. Przez długi czas jedynym "monitoringiem" było SSH i `docker ps`. Postanowiłem to zmienić.
 
-Ten wpis jest zapisem rzeczywistego wdrożenia — z problemami, które napotkałem, i tym jak je rozwiązałem. Nie jest to tutorial "skopiuj i działa". Jest to opis tego, co się naprawdę dzieje gdy wdrażasz obserwability na nie-standardowym środowisku.
+Ten wpis to kopalnia wiedzy z mojego wdrożenia — dowiesz się z niego, jak poprawnie skonfigurować cały stack i jak poradzić sobie z wyzwaniami, które mogą pojawić się w nowoczesnych środowiskach Docker (jak Ubuntu 24.04). To nie jest zwykły tutorial "kopiuj-wklej", ale praktyczny przewodnik po tym, jak sprawić, by monitoring na VPS naprawdę działał.
 
 <!-- truncate --> 
 
@@ -185,13 +185,13 @@ CF_GRAFANA_TOKEN=token_z_panelu_cloudflare
 
 ---
 
-## Problemy, które napotkałem
+## Wyzwania techniczne i sprawdzone rozwiązania
 
-To jest właściwa część tego wpisu. Żaden z nich nie jest oczywisty, dopóki w to nie wpadniesz.
+To jest kluczowa część tego wpisu. Poniższe kwestie nie są oczywiste, dopóki nie zaczniesz wdrażać monitoringu w specyficznym środowisku produkcyjnym.
 
 ---
 
-### Problem 1: Duplikat IP w docker-compose
+### Wyzwanie 1: Zarządzanie adresacją IP w Docker network
 
 Podczas iterowania nad konfiguracją, w pewnym momencie zarówno kontener `docker-exporter` jak i `grafana-tunnel` miały przypisany adres `10.6.0.114`. Docker uruchomił oba kontenery bez błędu, ale jeden z nich nie mógł uzyskać adresu — tunel Grafany nie startował, logi były puste.
 
@@ -199,9 +199,9 @@ Podczas iterowania nad konfiguracją, w pewnym momencie zarówno kontener `docke
 
 ---
 
-### Problem 2: cAdvisor nie zbiera metryk per-kontener
+### Wyzwanie 2: Obsługa nowoczesnych Storage Driverów (containerd)
 
-To był główny problem i zabrał najwięcej czasu.
+To wyzwanie wymagało najgłębszej analizy i pozwoliło mi lepiej zrozumieć ewolucję architektury Dockera.
 
 Objaw: `container_memory_usage_bytes{name!=""}` w Prometheusie zwraca pusty wynik. Jedyna metryka to `id="/"` — root cgroup, bez kontenerów.
 
@@ -245,7 +245,7 @@ W v0.55.1 naprawiono obsługę Docker + containerd snapshotter. Logi po uruchomi
 
 ---
 
-### Problem 3: Nazwy kontenerów pokazują hasze zamiast nazw
+### Wyzwanie 3: Czytelność danych — Mapowanie nazw kontenerów
 
 Po naprawieniu zbierania metryk, dashboard w Grafanie wyświetlał w legendzie ciągi jak `06e7f1e49514f1d7770c21828c8278382eeb...` zamiast `monitoring-grafana`, `n8n_app`, `pihole`.
 
@@ -310,8 +310,8 @@ Docker 24+ z containerd snapshotter to inna architektura niż "klasyczny" Docker
 **2. cAdvisor nie potrzebuje dostępu sieciowego do kontenerów.**  
 Czyta metryki przez cgroupv2 i Docker socket — izolacja sieciowa kontenerów nie ma znaczenia dla monitoringu.
 
-**3. Duplikaty metryk to cisza w logach.**  
-Prometheus zbierał metryki, Prometheus zgłaszał targety jako `up` — ale dane były albo puste, albo zduplikowane. Bez świadomego debugowania (zapytanie `container_memory_usage_bytes{name!=""}`) można by tego nie zauważyć przez tygodnie.
+**3. Dokładna weryfikacja zbieranych danych.**  
+Prometheus może zgłaszać targety jako `up`, nawet jeśli dane są zduplikowane lub niepełne. Warto poświęcić chwilę na ręczne sprawdzenie kluczowych metryk (np. `container_memory_usage_bytes`), aby upewnić się, że dashboardy będą rzetelne.
 
 **4. `metric_relabel_configs` to właściwe miejsce na filtrowanie.**  
 Nie próbuj filtrować przez flagi cAdvisora tego, co można wyczyścić w Prometheusie na etapie ingestion. Relabeling w Prometheusie daje pełną kontrolę nad tym, co trafia do TSDB.
