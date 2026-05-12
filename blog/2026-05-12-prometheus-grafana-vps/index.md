@@ -10,6 +10,8 @@ Mam VPS z kilkoma usługami dockerowymi: WireGuard, Pi-hole, n8n, SonarQube, śr
 
 Ten wpis jest zapisem rzeczywistego wdrożenia — z problemami, które napotkałem, i tym jak je rozwiązałem. Nie jest to tutorial "skopiuj i działa". Jest to opis tego, co się naprawdę dzieje gdy wdrażasz obserwability na nie-standardowym środowisku.
 
+<!-- truncate --> 
+
 ---
 
 ![Prometheus + Grafana](./image.png)
