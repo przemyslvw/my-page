@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_page=self.webpackChunkmy_page||[]).push([[81172],{40525:a=>{a.exports=JSON.parse('{"tag":{"label":"vps","permalink":"/blog/tags/vps","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/vps","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
