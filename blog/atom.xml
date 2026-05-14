@@ -2,11 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2026-05-13T00:00:00.000Z</updated>
+    <updated>2026-05-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Od Zera do CI/CD: Jak ujarzmiliśmy testy E2E z Playwright w projekcie Reads]]></title>
+        <id>https://www.majdak.online/blog/playwright-e2e-cicd-reads</id>
+        <link href="https://www.majdak.online/blog/playwright-e2e-cicd-reads"/>
+        <updated>2026-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[W dzisiejszym świecie tworzenia oprogramowania (szczególnie aplikacji Fullstack), testowanie to nie tylko "dodatek", ale absolutny fundament utrzymania zdrowego cyklu życia projektu. W projekcie reads od początku postawiliśmy na wysoką jakość i zautomatyzowane procesy. Chciałbym podzielić się z Wami, dlaczego wybraliśmy Playwrighta do testów End-to-End (E2E), jak to narzędzie sprawdza się w praktyce oraz w jaki sposób wpięliśmy je w naszą "piramidę testów" na CI/CD.]]></summary>
+        <content type="html"><![CDATA[<p>W dzisiejszym świecie tworzenia oprogramowania (szczególnie aplikacji Fullstack), testowanie to nie tylko "dodatek", ale absolutny fundament utrzymania zdrowego cyklu życia projektu. W projekcie reads od początku postawiliśmy na wysoką jakość i zautomatyzowane procesy. Chciałbym podzielić się z Wami, dlaczego wybraliśmy Playwrighta do testów End-to-End (E2E), jak to narzędzie sprawdza się w praktyce oraz w jaki sposób wpięliśmy je w naszą "piramidę testów" na CI/CD.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dlaczego-playwright">Dlaczego Playwright?<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#dlaczego-playwright" class="hash-link" aria-label="Bezpośredni link do Dlaczego Playwright?" title="Bezpośredni link do Dlaczego Playwright?" translate="no">​</a></h2>
+<p>Wybór frameworka do testów E2E często sprowadza się do wyścigu między Cypress, Selenium i Playwright. W naszym projekcie wygrał ten ostatni. Oto dlaczego:</p>
+<ol>
+<li class=""><strong>Wbudowane "Auto-waiting"</strong>: Zapomnij o ręcznym dodawaniu <code>sleep()</code> czy <code>waitForTimeout()</code>. Playwright sam wie, kiedy element na stronie staje się klikalny, widoczny lub gotowy do interakcji. Znacząco redukuje to zjawisko tzw. "flaky tests" (testów, które przechodzą lub padają losowo).</li>
+<li class=""><strong>Pełna izolacja</strong>: Każdy test w Playwright uruchamia się we własnym, odizolowanym kontekście przeglądarki (Browser Context). Dzięki temu testy nie wpływają na siebie nawzajem i mogą działać równolegle z pełną prędkością.</li>
+<li class=""><strong>TypeScript jako First-Class Citizen</strong>: Cały nasz projekt <strong>reads</strong> (zarówno API w Fastify, jak i frontend w Next.js) jest napisany w TypeScript. Playwright natywnie go wspiera, co pozwala nam na współdzielenie typów i korzystanie ze świetnego podpowiadania składni.</li>
+<li class=""><strong>Narzędzia developerskie</strong>: Tryb UI (<code>playwright test --ui</code>) czy wbudowany <em>Trace Viewer</em> to absolutne mistrzostwo podczas debugowania, zwłaszcza gdy test ulegnie awarii na serwerze CI.</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="architektura-testów-e2e-czysty-kod-z-pom">Architektura testów E2E: Czysty kod z POM<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#architektura-test%C3%B3w-e2e-czysty-kod-z-pom" class="hash-link" aria-label="Bezpośredni link do Architektura testów E2E: Czysty kod z POM" title="Bezpośredni link do Architektura testów E2E: Czysty kod z POM" translate="no">​</a></h2>
+<p>Zamiast pisać spaghetti kod bezpośrednio w plikach z testami, wykorzystujemy wzorzec <strong>Page Object Model (POM)</strong>. Dzięki temu logika interakcji ze stroną (np. wypełnianie formularzy, nawigacja) jest odseparowana od logiki asercji w teście.</p>
+<p>W plikach takich jak <code>happy-path-pom.spec.ts</code> testy czyta się niemal jak scenariusz biznesowy:</p>
+<div class="language-typescript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-typescript codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token function" style="color:rgb(80, 250, 123)">test</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">"Happy Path - rejestracja, dodanie zakładki, odczyt i wylogowanie"</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"> </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">async</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"> page </span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token operator">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">const</span><span class="token plain"> loginPage </span><span class="token operator">=</span><span class="token plain"> </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">new</span><span class="token plain"> </span><span class="token class-name">LoginPage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">page</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">const</span><span class="token plain"> homePage </span><span class="token operator">=</span><span class="token plain"> </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">new</span><span class="token plain"> </span><span class="token class-name">HomePage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">page</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">await</span><span class="token plain"> loginPage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token function" style="color:rgb(80, 250, 123)">goto</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">await</span><span class="token plain"> loginPage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token function" style="color:rgb(80, 250, 123)">login</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token plain">userCredentials</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">await</span><span class="token plain"> homePage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token function" style="color:rgb(80, 250, 123)">addBookmark</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">"https://example.com/playwright"</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">  </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">await</span><span class="token plain"> homePage</span><span class="token punctuation" style="color:rgb(248, 248, 242)">.</span><span class="token function" style="color:rgb(80, 250, 123)">expectBookmarkToExist</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">"Playwright Tutorial"</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain"></span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token punctuation" style="color:rgb(248, 248, 242)">;</span><br></div></code></pre></div></div>
+<p>Korzystamy też intensywnie z tzw. <strong>Fixtures</strong> (wzorzec Factory), które dynamicznie generują stan bazy danych niezbędny do konkretnego testu, dzięki czemu nasze testy są maksymalnie niezależne.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cicd-nasza-piramida-testów-w-github-actions">CI/CD: Nasza Piramida Testów w GitHub Actions<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#cicd-nasza-piramida-test%C3%B3w-w-github-actions" class="hash-link" aria-label="Bezpośredni link do CI/CD: Nasza Piramida Testów w GitHub Actions" title="Bezpośredni link do CI/CD: Nasza Piramida Testów w GitHub Actions" translate="no">​</a></h2>
+<p>Posiadanie świetnych testów lokalnie to jedno, ale prawdziwa magia dzieje się dopiero w CI/CD. Nasz pipeline został zaprojektowany z myślą o szybkości dostarczania feedbacku i bezpieczeństwie wdrażania.</p>
+<p>Nie uruchamiamy wszystkich testów za każdym razem, gdy ktoś zrobi nową gałąź. Wprowadziliśmy jasny podział testów Playwrighta za pomocą tagów.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-bramka-jakości-quality-gate-i-smoke-tests">1. Bramka jakości (Quality Gate) i Smoke Tests<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#1-bramka-jako%C5%9Bci-quality-gate-i-smoke-tests" class="hash-link" aria-label="Bezpośredni link do 1. Bramka jakości (Quality Gate) i Smoke Tests" title="Bezpośredni link do 1. Bramka jakości (Quality Gate) i Smoke Tests" translate="no">​</a></h3>
+<p>Każdy nowy Pull Request (PR) uruchamia na naszym self-hosted runnerze workflow <code>quality.yml</code>. Aby developer nie czekał godzinami na wyniki (oraz aby nie obciążać infrastruktury), odpalamy tutaj tylko tzw. <strong>Smoke Tests</strong>.</p>
+<p>Testy oznaczone są w kodzie specjalnym tagiem:</p>
+<div class="language-typescript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-typescript codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token function" style="color:rgb(80, 250, 123)">test</span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token string" style="color:rgb(255, 121, 198)">"Logowanie powinno działać @smoke"</span><span class="token punctuation" style="color:rgb(248, 248, 242)">,</span><span class="token plain"> </span><span class="token keyword" style="color:rgb(189, 147, 249);font-style:italic">async</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">(</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><span class="token plain"> </span><span class="token operator">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">{</span><span class="token plain"> </span><span class="token operator">...</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(248, 248, 242)">}</span><span class="token punctuation" style="color:rgb(248, 248, 242)">)</span><br></div></code></pre></div></div>
+<p>Workflow GitHub Actions używa komendy <code>pnpm -F web test:e2e --grep @smoke</code>. W locie:</p>
+<ul>
+<li class="">Podnoszona jest baza Postgres (<code>service container</code> w Actions).</li>
+<li class="">Uruchamiane są migracje bazy z użyciem zmiennych testowych.</li>
+<li class="">Odpalane są API oraz Webapp.</li>
+<li class="">Playwright wykonuje krytyczne ścieżki w aplikacji.</li>
+</ul>
+<p>Jeśli jakikolwiek "Smoke test" (lub linters / unit testy z Vitest) upadnie, PR zostaje zablokowany i nie może trafić do gałęzi <code>develop</code>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-full-regression-na-środowisku-staging">2. Full Regression na środowisku Staging<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#2-full-regression-na-%C5%9Brodowisku-staging" class="hash-link" aria-label="Bezpośredni link do 2. Full Regression na środowisku Staging" title="Bezpośredni link do 2. Full Regression na środowisku Staging" translate="no">​</a></h3>
+<p>Kiedy PR pomyślnie przejdzie weryfikację i trafi do gałęzi <code>develop</code>, uruchamia się <code>deploy-staging.yml</code>. W tym momencie aplikacja fizycznie trafia na nasz VPS (na określone porty: 3101 dla API i 3100 dla Web).</p>
+<p>Dopiero wtedy na realnym środowisku testowym uruchamiamy pełen pakiet regresji E2E w Playwright. Daje nam to pewność, że wdrożony kod radzi sobie z najdrobniejszymi przypadkami brzegowymi na infrastrukturze bardzo zbliżonej do produkcyjnej. Awaria na tym etapie alarmuje nas od razu, ale nie wpływa już bezpośrednio na główną linię kodu.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie">Podsumowanie<a href="https://www.majdak.online/blog/playwright-e2e-cicd-reads#podsumowanie" class="hash-link" aria-label="Bezpośredni link do Podsumowanie" title="Bezpośredni link do Podsumowanie" translate="no">​</a></h2>
+<p>Wdrożenie Playwrighta wraz ze zorganizowanym podejściem do środowisk testowych w GitHub Actions dało nam niesamowitą pewność podczas wdrażania nowych zmian. Koncepcja podziału na <strong>Smoke Tests</strong> przy PR-ach i <strong>Pełną Regresję</strong> po deployu pozwala utrzymać wysoką dynamikę pracy, jednocześnie zabezpieczając nas przed wdrożeniem zepsutego kodu.</p>
+<p>Jeśli szukasz stabilnego, nowoczesnego frameworka do automatyzacji E2E, który świetnie dogaduje się z Typescriptem i współczesnym CI/CD, zdecydowanie polecam dać Playwrightowi szansę!</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Testing" term="Testing"/>
+        <category label="Playwright" term="Playwright"/>
+        <category label="CI/CD" term="CI/CD"/>
+        <category label="DevOps" term="DevOps"/>
+        <category label="GitHub Actions" term="GitHub Actions"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wielka ewolucja włamań 2005–2026: Od SQL Injection do AI]]></title>
         <id>https://www.majdak.online/blog/historia-cyberbezpieczenstwa-od-2005-do-2026</id>
@@ -1221,56 +1272,5 @@ Właśnie skończyłem lekturę "Black Hat Bash" (Dolev Farhi &amp; Nick Aleks) 
         <category label="RustScan" term="RustScan"/>
         <category label="Automation" term="Automation"/>
         <category label="Red Teaming" term="Red Teaming"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cyberbezpieczeństwo to inżynieria, a nie moralizatorstwo]]></title>
-        <id>https://www.majdak.online/blog/cybersecurity-is-engineering-not-moralizing</id>
-        <link href="https://www.majdak.online/blog/cybersecurity-is-engineering-not-moralizing"/>
-        <updated>2026-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Wielu CISO wciąż tkwi w pętli: Phishing test -> Pracownik klika -> Szkolenie -> Reprymenda. To strategia typu Legacy, która w dobie GenAI i Deepfake’ów jest nie tylko nieskuteczna, ale wręcz niebezpieczna.]]></summary>
-        <content type="html"><![CDATA[<p>Wielu CISO wciąż tkwi w pętli: Phishing test -&gt; Pracownik klika -&gt; Szkolenie -&gt; Reprymenda. To strategia typu Legacy, która w dobie GenAI i Deepfake’ów jest nie tylko nieskuteczna, ale wręcz niebezpieczna.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dlaczego-kultura-obwiniania-musi-odejść-do-lamusa">🚩 Dlaczego "Kultura Obwiniania" musi odejść do lamusa?<a href="https://www.majdak.online/blog/cybersecurity-is-engineering-not-moralizing#-dlaczego-kultura-obwiniania-musi-odej%C5%9B%C4%87-do-lamusa" class="hash-link" aria-label="Bezpośredni link do 🚩 Dlaczego &quot;Kultura Obwiniania&quot; musi odejść do lamusa?" title="Bezpośredni link do 🚩 Dlaczego &quot;Kultura Obwiniania&quot; musi odejść do lamusa?" translate="no">​</a></h2>
-<ul>
-<li class="">
-<p><strong>AI wygrywa z percepcją</strong>: Tradycyjne szkolenia uczą szukania literówek i dziwnych adresów URL. Nowoczesne ataki APT wykorzystują LLM-y do perfekcyjnego spoofingu i socjotechniki. Oczekiwanie, że pracownik będzie skuteczniejszy niż filtr antyspamowy, to błąd w architekturze procesu.</p>
-</li>
-<li class="">
-<p><strong>Shadow IT i ukrywanie incydentów</strong>: Jeśli pracownik boi się kary, nie zgłosi kliknięcia w podejrzany link. Efekt? Dwell Time intruza rośnie, a my tracimy szansę na szybką izolację hosta.</p>
-</li>
-<li class="">
-<p><strong>Wrogość na linii Blue Team – Biznes</strong>: Bezpieczeństwo powinno być enablerem, a nie wewnętrzną policją.</p>
-</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-co-w-zamian-strategia-fail-safe">🛠️ Co w zamian? Strategia "Fail-Safe"<a href="https://www.majdak.online/blog/cybersecurity-is-engineering-not-moralizing#%EF%B8%8F-co-w-zamian-strategia-fail-safe" class="hash-link" aria-label="Bezpośredni link do 🛠️ Co w zamian? Strategia &quot;Fail-Safe&quot;" title="Bezpośredni link do 🛠️ Co w zamian? Strategia &quot;Fail-Safe&quot;" translate="no">​</a></h2>
-<p>Zamiast edukować ludzi, by byli nieomylni (co jest biologicznie niemożliwe), projektujmy systemy, które wybaczają błędy.</p>
-<ul>
-<li class="">
-<p><strong>FIDO2 / YubiKeys</strong>: Jedyny skuteczny sposób na wyeliminowanie przejęcia poświadczeń (Adversary-in-the-Middle). Jeśli klucz sprzętowy nie autoryzuje domeny, nawet najzdolniejszy phisher nie dostanie się do środka.</p>
-</li>
-<li class="">
-<p><strong>Behavioral Analysis (UEBA)</strong>: Zamiast liczyć kliknięcia w phishingu, monitorujmy anomalie w sesjach i nietypowe próby Lateral Movement.</p>
-</li>
-<li class="">
-<p><strong>Zero Trust Architecture</strong>: Zakładamy, że tożsamość zostanie przejęta. Pytanie brzmi: jak szybko odetniemy dostęp do segmentu sieci?</p>
-</li>
-</ul>
-<p>Wniosek: Przerzućmy budżet z nudnych prezentacji o "bezpiecznych hasłach" na twarde wdrożenia MFA i segmentację. Budujmy kulturę zgłaszania, a nie strachu.</p>
-<blockquote>
-<p>Ludzki błąd to fakt. System, który na niego pozwala, to wybór.</p>
-</blockquote>
-<p>#CyberSecurity #CISO #RedTeam #ZeroTrust #InfoSec #CyberSentinel #Phishing #FIDO2</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Cybersecurity" term="Cybersecurity"/>
-        <category label="Security" term="Security"/>
-        <category label="Malware" term="Malware"/>
-        <category label="Web Security" term="Web Security"/>
-        <category label="Open Source Intel" term="Open Source Intel"/>
-        <category label="Zero Trust" term="Zero Trust"/>
-        <category label="Spoofing" term="Spoofing"/>
-        <category label="Social Engineering" term="Social Engineering"/>
-        <category label="Phishing" term="Phishing"/>
     </entry>
 </feed>
