@@ -7,7 +7,7 @@ hello:
   label: Hello
   permalink: /hello
   description: Hello tag description
-  
+
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
@@ -147,7 +147,6 @@ seo:
   label: SEO
   permalink: /seo
   description: Optymalizacja stron internetowych pod kątem wyszukiwarek.
-
 
 linux:
   label: Linux
@@ -932,3 +931,8 @@ opensource:
   label: Open Source
   permalink: /opensource
   description: Projekty o otwartym kodzie źródłowym, współpraca i rozwój społecznościowy.
+
+wordpress:
+  label: WordPress
+  permalink: /wordpress
+  description: Platforma CMS, tematy, wtyczki i bezpieczeństwo.

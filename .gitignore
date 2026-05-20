@@ -18,3 +18,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Blog / szkice
+blog_part1_fundamenty.md
+blog_part2_srodowisko.md
+blog_part3_interfejs.md
+blog_part4_bezpieczenstwo.md
+blog_part5_infrastruktura.md
