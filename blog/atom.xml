@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.majdak.online/blog</id>
     <title>MAJDAK.ONLINE Blog</title>
-    <updated>2026-05-19T00:00:00.000Z</updated>
+    <updated>2026-05-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.majdak.online/blog"/>
     <subtitle>MAJDAK.ONLINE Blog</subtitle>
     <icon>https://www.majdak.online/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Jak zablokować masowy spam w komentarzach WordPress za pomocą Cloudflare]]></title>
+        <id>https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare</id>
+        <link href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare"/>
+        <updated>2026-05-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dzisiaj rano mój blog stał się celem zautomatyzowanego ataku typu Comment Spam / Black Hat SEO. Botnet próbował masowo wstrzykiwać do bazy danych wpisy promujące finansowe wyłudzenia (scam) oraz linki mające sztucznie budować profil PageRank docelowych domen.]]></summary>
+        <content type="html"><![CDATA[<p>Dzisiaj rano mój blog stał się celem zautomatyzowanego ataku typu <strong>Comment Spam / Black Hat SEO</strong>. Botnet próbował masowo wstrzykiwać do bazy danych wpisy promujące finansowe wyłudzenia (scam) oraz linki mające sztucznie budować profil PageRank docelowych domen.</p>
+<p>Wdrożenie skutecznej ochrony zajęło dokładnie minutę. Wychodzę z założenia, że dobre zabezpieczenia opierają się na poprawnej architekturze, a nie na ukrywaniu konfiguracji (<em>security through obscurity</em>). Bezpieczne rozwiązania można, a nawet warto podawać publicznie do wiadomości – profesjonalna konfiguracja obroni się sama, w przeciwieństwie do rozwiązań prowizorycznych.</p>
+<p>Poniżej przedstawiam instrukcję, jak krok po kroku wdrożyć taką ochronę u siebie, odcinając boty na brzegu sieci, zanim w ogóle obciążą serwer.</p>
+<hr>
+<p><img decoding="async" loading="lazy" alt="Spam boty" src="https://www.majdak.online/assets/images/image-2a414c75fadc4a7a0ce89c6f687a7b4c.png" width="1212" height="800" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dlaczego-tradycyjne-wtyczki-to-za-mało">Dlaczego tradycyjne wtyczki to za mało?<a href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare#dlaczego-tradycyjne-wtyczki-to-za-ma%C5%82o" class="hash-link" aria-label="Bezpośredni link do Dlaczego tradycyjne wtyczki to za mało?" title="Bezpośredni link do Dlaczego tradycyjne wtyczki to za mało?" translate="no">​</a></h2>
+<p>Większość botów spamujących uderza bezpośrednio w plik obsługujący komentarze, generując zapytania HTTP POST bezpośrednio do endpointu. Przetwarzanie tych żądań przez WordPressa (uruchamianie silnika PHP, odpytywanie bazy danych i działanie wtyczek filtrujących) niepotrzebnie zużywa zasoby serwera.</p>
+<p>Podejście <strong>Secure by Design</strong> wymaga, aby ruch odfiltrować na poziomie proxy (CDN), zanim pakiet dotrze do serwera origin.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="instrukcja-wdrożenia-blokada-w-cloudflare-waf">Instrukcja wdrożenia: Blokada w Cloudflare WAF<a href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare#instrukcja-wdro%C5%BCenia-blokada-w-cloudflare-waf" class="hash-link" aria-label="Bezpośredni link do Instrukcja wdrożenia: Blokada w Cloudflare WAF" title="Bezpośredni link do Instrukcja wdrożenia: Blokada w Cloudflare WAF" translate="no">​</a></h2>
+<p>Jeśli Twoja domena jest podpięta pod Cloudflare, możesz utworzyć precyzyjną regułę firewall (WAF), która zabezpiecza formularz, nie wpływajac jednocześnie na działanie zewnętrznych integracji czy API (np. n8n działającego na <code>/wp-json/</code>).</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="krok-po-kroku">Krok po kroku:<a href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare#krok-po-kroku" class="hash-link" aria-label="Bezpośredni link do Krok po kroku:" title="Bezpośredni link do Krok po kroku:" translate="no">​</a></h3>
+<ol>
+<li class="">Zaloguj się do panelu Cloudflare i wybierz swoją domenę.</li>
+<li class="">W lewym menu przejdź do sekcji <strong>Security</strong> -&gt; <strong>Security rules</strong> (lub <em>WAF</em> w zależności od wersji interfejsu).</li>
+<li class="">W zakładce <em>Custom rules</em> kliknij przycisk <strong>Create rule</strong>.</li>
+<li class="">Skonfiguruj warunki w sekcji <em>When incoming requests match</em>:</li>
+</ol>
+<ul>
+<li class=""><strong>Field:</strong> <code>URI Path</code></li>
+<li class=""><strong>Operator:</strong> <code>equals</code></li>
+<li class=""><strong>Value:</strong> <code>/wp-comments-post.php</code></li>
+</ul>
+<ol start="5">
+<li class="">W sekcji <em>Then take action</em> (<strong>Choose action</strong>) wybierz: <strong>Managed Challenge</strong>.</li>
+<li class="">Kliknij <strong>Deploy</strong> w prawym dolnym rogu.</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="jak-to-działa-w-praktyce">Jak to działa w praktyce?<a href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare#jak-to-dzia%C5%82a-w-praktyce" class="hash-link" aria-label="Bezpośredni link do Jak to działa w praktyce?" title="Bezpośredni link do Jak to działa w praktyce?" translate="no">​</a></h3>
+<p>Cloudflare uruchamia w tle szybką, bezwiedną dla człowieka weryfikację JavaScript. Prawdziwy użytkownik, który chce zostawić komentarz na blogu, przechodzi walidację automatycznie. Zautomatyzowany skrypt (bot) nie jest w stanie wykonać testu JS i zostaje natychmiast zablokowany na serwerze proxy.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="druga-linia-obrony-czarna-lista-wewnątrz-wordpressa">Druga linia obrony: Czarna lista wewnątrz WordPressa<a href="https://www.majdak.online/blog/blokada-masowego-spamu-wordpress-cloudflare#druga-linia-obrony-czarna-lista-wewn%C4%85trz-wordpressa" class="hash-link" aria-label="Bezpośredni link do Druga linia obrony: Czarna lista wewnątrz WordPressa" title="Bezpośredni link do Druga linia obrony: Czarna lista wewnątrz WordPressa" translate="no">​</a></h2>
+<p>Jako uzupełnienie ochrony warto skonfigurować wbudowany mechanizm filtrowania treści w samym WordPressie. Pozwoli to wyłapać zapytania, które próbowano by przesłać inną drogą.</p>
+<ol>
+<li class="">Przejdź do kokpitu WP: <strong>Ustawienia</strong> -&gt; <strong>Dyskusja</strong>.</li>
+<li class="">Znajdź sekcję <strong>Klucze czarnych list komentarzy</strong> (Comment Blacklist).</li>
+<li class="">Wklej powtarzające się frazy lub domeny, które pojawiają się w logach spamu (np. <code>graph.org</code>).</li>
+</ol>
+<p>Każdy komentarz zawierający te słowa w treści, nazwie autora czy adresie e-mail zostanie automatycznie i trwale usunięty, zamiast trafiać do kolejki moderacji. Wykorzystując synergię Cloudflare oraz lokalnych reguł systemu, problem masowego spamu zostaje całkowicie rozwiązany bez spadku wydajności witryny.</p>]]></content>
+        <author>
+            <name>Przemysław Majdak</name>
+            <uri>https://www.majdak.online</uri>
+        </author>
+        <category label="Cloudflare" term="Cloudflare"/>
+        <category label="WordPress" term="WordPress"/>
+        <category label="Security" term="Security"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Jak zbudować nowoczesną automatyzację testów: Od piramidy po czysty kod (Część 1)]]></title>
         <id>https://www.majdak.online/blog/automatyzacja-testow-fundamenty</id>
@@ -1221,52 +1273,5 @@ W wielu projektach produkcyjnych gałąź <code>master</code> jest objęta <stro
         <category label="Web Application" term="Web Application"/>
         <category label="OWASP" term="OWASP"/>
         <category label="Vulnerabilities" term="Vulnerabilities"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dlaczego warto pisać własne narzędzia? Przegląd Black Hat Python (Wydanie II)]]></title>
-        <id>https://www.majdak.online/blog/black-hat-python</id>
-        <link href="https://www.majdak.online/blog/black-hat-python"/>
-        <updated>2026-02-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Od Script Kiddie do Profesjonalisty. W przedmowie do drugiego wydania "Black Hat Python", Charlie Miller (znany z głośnego ataku na Jeepa Cherokee) stawia sprawę jasno: różnica między "script kiddies" a profesjonalnymi hakerami polega na tym, że ci pierwsi używają cudzych narzędzi, a ci drudzy potrafią napisać własne.]]></summary>
-        <content type="html"><![CDATA[<p>Od Script Kiddie do Profesjonalisty. W przedmowie do drugiego wydania "Black Hat Python", Charlie Miller (znany z głośnego ataku na Jeepa Cherokee) stawia sprawę jasno: różnica między "script kiddies" a profesjonalnymi hakerami polega na tym, że ci pierwsi używają cudzych narzędzi, a ci drudzy potrafią napisać własne.</p>
-<p>Książka Justina Seitza i Tima Arnolda to przewodnik właśnie dla tych, którzy chcą przejść na wyższy poziom i tworzyć własne oprogramowanie ofensywne. Python pozostaje "koniem roboczym" branży bezpieczeństwa, używanym do wszystkiego – od exploitów po frameworki takie jak CANVAS czy fuggery.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="co-nowego-w-drugim-wydaniu">Co nowego w drugim wydaniu?<a href="https://www.majdak.online/blog/black-hat-python#co-nowego-w-drugim-wydaniu" class="hash-link" aria-label="Bezpośredni link do Co nowego w drugim wydaniu?" title="Bezpośredni link do Co nowego w drugim wydaniu?" translate="no">​</a></h2>
-<p>Pierwsze wydanie było klasykiem, ale świat poszedł do przodu. Druga edycja została w pełni zaktualizowana do Pythona 3, ponieważ Python 2 osiągnął koniec swojego cyklu życia w 2020 roku. Autorzy nie tylko przepisali kod, ale także uwzględnili nowsze biblioteki i praktyki, takie jak używanie wirtualnych środowisk (venv) czy menedżerów kontekstu. Kod w książce podąża za wytycznymi PEP 8, z naciskiem na czytelność – mantra współautora, Tima Arnolda, brzmi: "niech działa, niech będzie zrozumiałe, niech będzie szybkie – w tej kolejności".</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="przegląd-najciekawszych-projektów-z-książki">Przegląd najciekawszych projektów z książki<a href="https://www.majdak.online/blog/black-hat-python#przegl%C4%85d-najciekawszych-projekt%C3%B3w-z-ksi%C4%85%C5%BCki" class="hash-link" aria-label="Bezpośredni link do Przegląd najciekawszych projektów z książki" title="Bezpośredni link do Przegląd najciekawszych projektów z książki" translate="no">​</a></h2>
-<p>Książka to zbiór praktycznych projektów ("przepisów") na ofensywne narzędzia. Oto co można w niej znaleźć:</p>
-<ol>
-<li class="">
-<p><strong>Własny Netcat i Proxy TCP</strong> — Autorzy wychodzą z założenia, że w sieci korporacyjnej często nie mamy dostępu do narzędzi takich jak Wireshark czy Netcat. Pierwsze rozdziały uczą więc, jak napisać własny zamiennik Netcata w Pythonie (z możliwością przesyłania plików i wykonywania komend) oraz jak zbudować Proxy TCP do modyfikowania ruchu sieciowego w locie.</p>
-</li>
-<li class="">
-<p><strong>Sniffing i Manipulacja Pakietami (Scapy)</strong> — Książka pokazuje, jak wykorzystać bibliotekę Scapy do zadań wywiadowczych. Znajdziesz tu instrukcje, jak napisać sniffer wykradający poświadczenia pocztowe (POP3, IMAP, SMTP) oraz jak przeprowadzić atak ARP Cache Poisoning, aby stać się "man-in-the-middle" i przechwytywać ruch ofiary. Ciekawostką jest rozdział o przetwarzaniu plików PCAP, gdzie autorzy uczą, jak wyciągać obrazy z ruchu HTTP, a następnie używać biblioteki OpenCV do wykrywania na nich ludzkich twarzy.</p>
-</li>
-<li class="">
-<p><strong>Web Hacking i Rozszerzanie Burp Suite</strong> — Dla fanów websecu przygotowano materiał o mapowaniu aplikacji open source (np. WordPress) i brute-forcowaniu paneli logowania przy użyciu biblioteki requests i lxml. Co ważniejsze, książka uczy, jak pisać własne rozszerzenia do Burp Suite przy użyciu Jython (Python działający na JVM). Przykłady obejmują stworzenie fuzera (BHP Fuzzer) oraz integrację z API Binga do rekonesansu.</p>
-</li>
-<li class="">
-<p><strong>Trojan sterowany przez GitHub (C2)</strong> — To jeden z najciekawszych projektów w książce. Zamiast używać standardowych kanałów Command &amp; Control (C2), autorzy budują modułowego trojana, który pobiera konfigurację i kod do wykonania bezpośrednio z prywatnego repozytorium na GitHubie. Dzięki temu ruch sieciowy wygląda na legalny (szyfrowany SSL do znanej domeny), a trojan może dynamicznie importować nowe biblioteki bez konieczności rekompilacji.</p>
-</li>
-<li class="">
-<p><strong>Ofensywa na Windows i Eskalacja Uprawnień</strong> — Dla atakujących środowiska Windows przygotowano skrypty wykorzystujące WMI (Windows Management Instrumentation) do monitorowania procesów i tworzenia keyloggerów z użyciem pyWinhook. Autorzy pokazują też techniki "wygrywania wyścigu" (race conditions) przy nadpisywaniu plików tymczasowych oraz wstrzykiwanie kodu (Code Injection) do procesów, aby uzyskać uprawnienia SYSTEM.</p>
-</li>
-<li class="">
-<p><strong>Ofensywna Informatyka Śledcza (Volatility)</strong> — Ostatni rozdział odwraca rolę narzędzia defensywnego – frameworka Volatility. Zamiast szukać dowodów włamania, czytelnik uczy się analizować zrzuty pamięci RAM, aby wyciągnąć hasła użytkowników (hashdump), historię komend i połączyć się z otwartymi sesjami na maszynach wirtualnych ofiary.</p>
-</li>
-</ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="dla-kogo-jest-ta-książka">Dla kogo jest ta książka?<a href="https://www.majdak.online/blog/black-hat-python#dla-kogo-jest-ta-ksi%C4%85%C5%BCka" class="hash-link" aria-label="Bezpośredni link do Dla kogo jest ta książka?" title="Bezpośredni link do Dla kogo jest ta książka?" translate="no">​</a></h2>
-<p>"Black Hat Python" nie uczy podstaw programowania. Jest skierowana do osób, które znają już podstawy Pythona (średniozaawansowani) i chcą zrozumieć, jak tworzyć własne narzędzia bezpieczeństwa, zamiast polegać wyłącznie na gotowych rozwiązaniach. To pozycja obowiązkowa dla pentesterów, którzy chcą dostosowywać swoje ataki do specyficznych środowisk, gdzie standardowe skrypty mogą zawieść.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wnioski">Wnioski<a href="https://www.majdak.online/blog/black-hat-python#wnioski" class="hash-link" aria-label="Bezpośredni link do Wnioski" title="Bezpośredni link do Wnioski" translate="no">​</a></h2>
-<p>Jak piszą autorzy: "Hakowanie to nasz ostateczny cel". Ta książka to zestaw klocków Lego dla hakerów – daje solidne fundamenty (networking, surowe gniazda, obsługa Web API), z których można budować wyrafinowane narzędzia ataku.</p>]]></content>
-        <author>
-            <name>Przemysław Majdak</name>
-            <uri>https://www.majdak.online</uri>
-        </author>
-        <category label="Book Review" term="Book Review"/>
-        <category label="Black Hat Python" term="Black Hat Python"/>
-        <category label="Python" term="Python"/>
-        <category label="Offensive Security" term="Offensive Security"/>
-        <category label="Red Teaming" term="Red Teaming"/>
-        <category label="Networking" term="Networking"/>
     </entry>
 </feed>
