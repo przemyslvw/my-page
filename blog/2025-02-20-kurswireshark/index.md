@@ -3,7 +3,7 @@ title: "Kurs Wireshark – Profesjonalne Wprowadzenie"
 description: "Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!"
 authors: [przemyslvw]
 tags: [cybersecurity, web-security, społeczność]
-date: 2024-02-24
+date: 2025-02-20
 ---
 
 # 📡 **Kurs Wireshark – Profesjonalne Wprowadzenie**
