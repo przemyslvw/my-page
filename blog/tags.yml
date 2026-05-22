@@ -936,3 +936,38 @@ wordpress:
   label: WordPress
   permalink: /wordpress
   description: Platforma CMS, tematy, wtyczki i bezpieczeństwo.
+
+mcp:
+  label: MCP
+  permalink: /mcp
+  description: Model Context Protocol — standard łączenia modeli LLM z zewnętrznymi usługami.
+
+bezpieczenstwo:
+  label: Bezpieczeństwo
+  permalink: /bezpieczenstwo-it
+  description: Poradniki i artykuły dotyczące bezpieczeństwa IT.
+
+ai:
+  label: AI
+  permalink: /ai
+  description: Sztuczna inteligencja i jej zastosowania.
+
+llm:
+  label: LLM
+  permalink: /llm
+  description: Duże modele językowe (Large Language Models) i ich zastosowania.
+
+toolpoisoning:
+  label: Tool Poisoning
+  permalink: /tool-poisoning
+  description: Atak polegający na podmiance lub zatruciu opisów narzędzi w systemach agentowych AI.
+
+rce:
+  label: RCE
+  permalink: /rce
+  description: Remote Code Execution — zdalne wykonanie kodu jako klasa podatności.
+
+zerotrust:
+  label: Zero Trust
+  permalink: /zerotrust
+  description: Model bezpieczeństwa oparty na zasadzie braku domyślnego zaufania.
