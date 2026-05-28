@@ -971,3 +971,18 @@ zerotrust:
   label: Zero Trust
   permalink: /zerotrust
   description: Model bezpieczeństwa oparty na zasadzie braku domyślnego zaufania.
+
+a11y:
+  label: a11y
+  permalink: /a11y
+  description: Dostępność (a11y) stron internetowych i aplikacji.
+
+accessibility:
+  label: Accessibility
+  permalink: /accessibility
+  description: Projektowanie i tworzenie produktów cyfrowych dostępnych dla wszystkich użytkowników.
+
+adversarial:
+  label: Adversarial
+  permalink: /adversarial
+  description: Bezpieczeństwo i podatność sztucznej inteligencji na ataki typu adversarial.
