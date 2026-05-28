@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -22,15 +22,15 @@
 <ol>
 <li class=""><strong>Zaloguj się do Raspberry Pi przez SSH</strong> <em>(jeśli jeszcze nie jesteś zalogowany):</em></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">ssh pi@raspberrypi.local</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">ssh pi@raspberrypi.local</span><br></div></code></pre></div></div>
 <ol start="2">
 <li class=""><strong>Zaktualizuj listę pakietów i upewnij się, że system jest aktualny:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br></div></code></pre></div></div>
 <ol start="3">
 <li class=""><strong>Pobierz i uruchom skrypt instalacyjny Pi-hole:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl -sSL https://install.pi-hole.net | bash</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">curl -sSL https://install.pi-hole.net | bash</span><br></div></code></pre></div></div>
 <ol start="4">
 <li class=""><strong>Podczas instalacji wybierz następujące opcje:</strong>
 <ul>
@@ -50,7 +50,7 @@
 <ul>
 <li class="">Otwórz przeglądarkę i przejdź do adresu:</li>
 </ul>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://&lt;IP_Raspberry_Pi&gt;/admin</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://&lt;IP_Raspberry_Pi&gt;/admin</span><br></div></code></pre></div></div>
 <p><em>(Zamień <code>&lt;IP_Raspberry_Pi&gt;</code> na adres IP Twojego Raspberry Pi, np. <code>192.168.0.12</code>)</em></p>
 </li>
 <li class="">
@@ -60,7 +60,7 @@
 </ul>
 </li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">pihole -a -p</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">pihole -a -p</span><br></div></code></pre></div></div>
 <ol start="3">
 <li class=""><strong>Dodaj nowe listy blokujące lub usuń istniejące w zakładce &quot;Group Management&quot; &gt; &quot;Adlists&quot;.</strong></li>
 </ol>
@@ -69,15 +69,15 @@
 <ol>
 <li class=""><strong>Edytuj plik konfiguracyjny:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo nano /etc/dhcpcd.conf</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo nano /etc/dhcpcd.conf</span><br></div></code></pre></div></div>
 <ol start="2">
 <li class=""><strong>Dodaj lub edytuj sekcję dla interfejsu sieciowego:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">interface eth0</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">static ip_address=192.168.0.12/24</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">static routers=192.168.0.1</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">static domain_name_servers=8.8.8.8 8.8.4.4</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">interface eth0</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">static ip_address=192.168.0.12/24</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">static routers=192.168.0.1</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">static domain_name_servers=8.8.8.8 8.8.4.4</span><br></div></code></pre></div></div>
 <ol start="3">
 <li class=""><strong>Zapisz zmiany i uruchom ponownie Raspberry Pi:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo reboot</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo reboot</span><br></div></code></pre></div></div>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-podsumowanie">🟢 Podsumowanie<a href="#-podsumowanie" class="hash-link" aria-label="Bezpośredni link do 🟢 Podsumowanie" title="Bezpośredni link do 🟢 Podsumowanie" translate="no">​</a></h2>
 <p>✅ Zainstalowano Pi-hole.<br>

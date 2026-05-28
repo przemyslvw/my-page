@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -26,7 +26,7 @@
 <ul>
 <li class="">Zmień ID użytkownika, rekordu lub zasobu w URL, body lub parametrze.</li>
 <li class="">Przykład:<!-- -->
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /invoice/1024</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">➡️ zmień na /invoice/1025</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /invoice/1024</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">➡️ zmień na /invoice/1025</span><br></div></code></pre></div></div>
 </li>
 </ul>
 <p>📌 Jeśli widzisz dane innego użytkownika – masz podatność.</p>
@@ -40,7 +40,7 @@
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3--fuzzing-metod-http">3. 🧪 Fuzzing metod HTTP<a href="#3--fuzzing-metod-http" class="hash-link" aria-label="Bezpośredni link do 3. 🧪 Fuzzing metod HTTP" title="Bezpośredni link do 3. 🧪 Fuzzing metod HTTP" translate="no">​</a></h3>
 <p>Niektóre zasoby są dostępne tylko dla wybranych metod (np. <code>GET</code>, <code>POST</code>), ale aplikacja nie weryfikuje poprawnie:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl -X PUT https://example.com/profile/123</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">curl -X DELETE https://example.com/profile/123</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">curl -X PUT https://example.com/profile/123</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">curl -X DELETE https://example.com/profile/123</span><br></div></code></pre></div></div>
 <p>📌 Sprawdź, czy da się usunąć lub edytować zasób metodą, która nie powinna być dostępna.</p>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4--testowanie-ukrytych-endpointów-i-funkcji">4. 🚫 Testowanie ukrytych endpointów i funkcji<a href="#4--testowanie-ukrytych-endpointów-i-funkcji" class="hash-link" aria-label="Bezpośredni link do 4. 🚫 Testowanie ukrytych endpointów i funkcji" title="Bezpośredni link do 4. 🚫 Testowanie ukrytych endpointów i funkcji" translate="no">​</a></h3>
@@ -61,7 +61,7 @@
 </li>
 </ul>
 <p>Sprawdź operacje typu:</p>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">PATCH /order/222/status</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Body: { &quot;status&quot;: &quot;approved&quot; }</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">PATCH /order/222/status</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">Body: { &quot;status&quot;: &quot;approved&quot; }</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6--przechodzenie-między-sesjami">6. 🔄 Przechodzenie między sesjami<a href="#6--przechodzenie-między-sesjami" class="hash-link" aria-label="Bezpośredni link do 6. 🔄 Przechodzenie między sesjami" title="Bezpośredni link do 6. 🔄 Przechodzenie między sesjami" translate="no">​</a></h3>
 <ul>

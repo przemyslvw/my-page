@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -57,7 +57,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-eskalacja--atak-na-metadata-service">3. Eskalacja – atak na metadata service<a href="#3-eskalacja--atak-na-metadata-service" class="hash-link" aria-label="Bezpośredni link do 3. Eskalacja – atak na metadata service" title="Bezpośredni link do 3. Eskalacja – atak na metadata service" translate="no">​</a></h3>
 <ul>
 <li class="">W środowiskach chmurowych (np. AWS) sprawdź:<!-- -->
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://169.254.169.254/latest/meta-data/iam/security-credentials/</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://169.254.169.254/latest/meta-data/iam/security-credentials/</span><br></div></code></pre></div></div>
 </li>
 <li class="">Jeśli odpowiedź zawiera dane uwierzytelniające – podatność jest krytyczna.</li>
 </ul>
@@ -115,7 +115,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-podstawowy-test-ssrf">2. Podstawowy test SSRF<a href="#2-podstawowy-test-ssrf" class="hash-link" aria-label="Bezpośredni link do 2. Podstawowy test SSRF" title="Bezpośredni link do 2. Podstawowy test SSRF" translate="no">​</a></h3>
 <ul>
 <li class="">Wprowadź do aplikacji wartość:<!-- -->
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">/proxy.php?url=http://abcd1234.oast.site/</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">/proxy.php?url=http://abcd1234.oast.site/</span><br></div></code></pre></div></div>
 </li>
 <li class="">Obserwuj, czy serwer Interactsh zarejestruje połączenie – jeśli tak, aplikacja jest podatna.</li>
 </ul>
@@ -135,7 +135,7 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-test-za-pomocą-narzędzia-ssrfmap">4. Test za pomocą narzędzia SSRFmap<a href="#4-test-za-pomocą-narzędzia-ssrfmap" class="hash-link" aria-label="Bezpośredni link do 4. Test za pomocą narzędzia SSRFmap" title="Bezpośredni link do 4. Test za pomocą narzędzia SSRFmap" translate="no">​</a></h3>
 <ul>
 <li class="">Uruchom narzędzie:<!-- -->
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">python3 ssrfmap.py -u &quot;http://localhost/proxy.php?url=INJECT_HERE&quot; -l payloads.txt</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">python3 ssrfmap.py -u &quot;http://localhost/proxy.php?url=INJECT_HERE&quot; -l payloads.txt</span><br></div></code></pre></div></div>
 </li>
 <li class="">Obserwuj, które payloady generują odpowiedzi, timeouty lub błędy.</li>
 </ul>

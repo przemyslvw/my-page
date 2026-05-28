@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -37,7 +37,7 @@
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2--testuj-podstawowe-payloady">2. 💉 Testuj podstawowe payloady<a href="#2--testuj-podstawowe-payloady" class="hash-link" aria-label="Bezpośredni link do 2. 💉 Testuj podstawowe payloady" title="Bezpośredni link do 2. 💉 Testuj podstawowe payloady" translate="no">​</a></h3>
 <p>Wypróbuj typowe adresy URL:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://localhost/</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://127.0.0.1:80/</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://169.254.169.254/       # metadane AWS</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://[::1]/                 # IPv6 localhost</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://localhost/</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://127.0.0.1:80/</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://169.254.169.254/       # metadane AWS</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://[::1]/                 # IPv6 localhost</span><br></div></code></pre></div></div>
 <p>➡️ Obserwuj odpowiedź aplikacji:</p>
 <ul>
 <li class="">Czy pobrano zawartość?</li>
@@ -47,10 +47,10 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3--payloady-zaawansowane">3. 🧪 Payloady zaawansowane<a href="#3--payloady-zaawansowane" class="hash-link" aria-label="Bezpośredni link do 3. 🧪 Payloady zaawansowane" title="Bezpośredni link do 3. 🧪 Payloady zaawansowane" translate="no">​</a></h3>
 <ul>
 <li class="">SSRF przez DNS rebind:<!-- -->
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">http://your-custom-domain.burpcollaborator.net/</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">http://your-custom-domain.burpcollaborator.net/</span><br></div></code></pre></div></div>
 </li>
 <li class="">Schematy inne niż HTTP:<!-- -->
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">file://</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">gopher://</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ftp://</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">file://</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">gopher://</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">ftp://</span><br></div></code></pre></div></div>
 </li>
 </ul>
 <p>➡️ Użyj narzędzi takich jak <a href="https://portswigger.net/burp/documentation/collaborator" target="_blank" rel="noopener noreferrer" class="">Burp Collaborator</a> do detekcji żądań wychodzących.</p>

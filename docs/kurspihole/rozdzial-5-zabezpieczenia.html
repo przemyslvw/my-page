@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -23,7 +23,7 @@
 <ol>
 <li class="">Otwórz terminal i wpisz polecenie:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">pihole -a -p</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">pihole -a -p</span><br></div></code></pre></div></div>
 <ol start="2">
 <li class="">
 <p>Podaj nowe hasło i zatwierdź.</p>
@@ -32,7 +32,7 @@
 <p>Jeśli chcesz usunąć hasło (np. w środowisku testowym), użyj:</p>
 </li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">pihole -a -p &quot;&quot;</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">pihole -a -p &quot;&quot;</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-52-blokowanie-złośliwych-domen">🦠 5.2 Blokowanie złośliwych domen<a href="#-52-blokowanie-złośliwych-domen" class="hash-link" aria-label="Bezpośredni link do 🦠 5.2 Blokowanie złośliwych domen" title="Bezpośredni link do 🦠 5.2 Blokowanie złośliwych domen" translate="no">​</a></h3>
 <p>Pi-hole może blokować znane domeny phishingowe, malware i adware poprzez dodanie dedykowanych list blokujących.</p>
@@ -51,37 +51,37 @@
 <p>Zaktualizuj listy poleceniem:</p>
 </li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">pihole -g</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">pihole -g</span><br></div></code></pre></div></div>
 <ol start="4">
 <li class="">Sprawdź logi, aby upewnić się, że złośliwe domeny są blokowane:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">tail -f /var/log/pihole.log</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">tail -f /var/log/pihole.log</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-53-konfiguracja-firewall">🔥 5.3 Konfiguracja Firewall<a href="#-53-konfiguracja-firewall" class="hash-link" aria-label="Bezpośredni link do 🔥 5.3 Konfiguracja Firewall" title="Bezpośredni link do 🔥 5.3 Konfiguracja Firewall" translate="no">​</a></h3>
 <p>Aby dodatkowo zabezpieczyć Pi-hole przed nieautoryzowanym dostępem, skonfiguruj firewall.</p>
 <ol>
 <li class="">Zainstaluj <strong>UFW</strong> (Uncomplicated Firewall), jeśli jeszcze go nie masz:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt install ufw</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo apt install ufw</span><br></div></code></pre></div></div>
 <ol start="2">
 <li class="">Skonfiguruj podstawowe reguły zapory:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow ssh</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow 53/tcp</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow 53/udp</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow 80/tcp</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw enable</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw allow ssh</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw allow 53/tcp</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw allow 53/udp</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw allow 80/tcp</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw enable</span><br></div></code></pre></div></div>
 <ol start="3">
 <li class="">Sprawdź status zapory:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw status</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo ufw status</span><br></div></code></pre></div></div>
 <hr>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-54-aktualizacje-pi-hole">♻️ 5.4 Aktualizacje Pi-hole<a href="#️-54-aktualizacje-pi-hole" class="hash-link" aria-label="Bezpośredni link do ♻️ 5.4 Aktualizacje Pi-hole" title="Bezpośredni link do ♻️ 5.4 Aktualizacje Pi-hole" translate="no">​</a></h3>
 <p>Regularne aktualizowanie Pi-hole zapewnia najnowsze funkcje i poprawki bezpieczeństwa.</p>
 <ol>
 <li class=""><strong>Zaktualizuj Pi-hole do najnowszej wersji:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">pihole -up</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">pihole -up</span><br></div></code></pre></div></div>
 <ol start="2">
 <li class=""><strong>Zaktualizuj system operacyjny Raspberry Pi:</strong></li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">sudo apt update &amp;&amp; sudo apt upgrade -y</span><br></div></code></pre></div></div>
 <ol start="3">
 <li class=""><strong>Automatyczne aktualizacje (opcjonalnie):</strong>
 <ul>
@@ -89,7 +89,7 @@
 </ul>
 </li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">echo &quot;0 3 * * * root pihole -g&quot; | sudo tee -a /etc/crontab</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">echo &quot;0 3 * * * root pihole -g&quot; | sudo tee -a /etc/crontab</span><br></div></code></pre></div></div>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-podsumowanie">🟢 Podsumowanie<a href="#-podsumowanie" class="hash-link" aria-label="Bezpośredni link do 🟢 Podsumowanie" title="Bezpośredni link do 🟢 Podsumowanie" translate="no">​</a></h2>
 <p>✅ Ustawiono hasło do panelu administracyjnego.<br>

@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -31,7 +31,7 @@
 </ul>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-przykład-brak-walidacji-właściciela-zasobu">💡 Przykład: brak walidacji właściciela zasobu<a href="#-przykład-brak-walidacji-właściciela-zasobu" class="hash-link" aria-label="Bezpośredni link do 💡 Przykład: brak walidacji właściciela zasobu" title="Bezpośredni link do 💡 Przykład: brak walidacji właściciela zasobu" translate="no">​</a></h2>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /orders/874</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">Authorization: Bearer userA-token</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /orders/874</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">Authorization: Bearer userA-token</span><br></div></code></pre></div></div>
 <p>➡️ Aplikacja zwraca dane zamówienia bez sprawdzenia, czy <code>userA</code> rzeczywiście jest właścicielem <code>orderId=874</code>.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-różnica-między-insecure-design-a-broken-access-control">🔐 Różnica między Insecure Design a Broken Access Control<a href="#-różnica-między-insecure-design-a-broken-access-control" class="hash-link" aria-label="Bezpośredni link do 🔐 Różnica między Insecure Design a Broken Access Control" title="Bezpośredni link do 🔐 Różnica między Insecure Design a Broken Access Control" translate="no">​</a></h2>

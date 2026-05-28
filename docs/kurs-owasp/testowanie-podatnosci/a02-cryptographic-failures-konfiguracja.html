@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -41,7 +41,7 @@
 <!-- -->✅ Czy serwer odrzuca słabe cyphery (sprawdzić <code>ssl_ciphers</code> w Nginx/Apache)?</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-przykład-sprawdzenia-tls-na-serwerze-z-linii-poleceń">🧪 Przykład sprawdzenia TLS na serwerze (z linii poleceń)<a href="#-przykład-sprawdzenia-tls-na-serwerze-z-linii-poleceń" class="hash-link" aria-label="Bezpośredni link do 🧪 Przykład sprawdzenia TLS na serwerze (z linii poleceń)" title="Bezpośredni link do 🧪 Przykład sprawdzenia TLS na serwerze (z linii poleceń)" translate="no">​</a></h2>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">openssl s_client -connect example.com:443</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">openssl s_client -connect example.com:443</span><br></div></code></pre></div></div>
 <p>Zwróć uwagę na:</p>
 <ul>
 <li class="">wersję TLS,</li>
@@ -50,7 +50,7 @@
 </ul>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-przykład-z-nginxconf">🧪 Przykład z nginx.conf<a href="#-przykład-z-nginxconf" class="hash-link" aria-label="Bezpośredni link do 🧪 Przykład z nginx.conf" title="Bezpośredni link do 🧪 Przykład z nginx.conf" translate="no">​</a></h2>
-<div class="language-nginx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-nginx codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">ssl_protocols TLSv1.2 TLSv1.3;</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ssl_ciphers &#x27;HIGH:!aNULL:!MD5&#x27;;</span><br></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">add_header Strict-Transport-Security &quot;max-age=31536000&quot; always;</span><br></div></code></pre></div></div>
+<div class="language-nginx codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-nginx codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">ssl_protocols TLSv1.2 TLSv1.3;</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">ssl_ciphers &#x27;HIGH:!aNULL:!MD5&#x27;;</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">add_header Strict-Transport-Security &quot;max-age=31536000&quot; always;</span><br></div></code></pre></div></div>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-zła-konfiguracja--podatność">🔒 Zła konfiguracja = podatność<a href="#-zła-konfiguracja--podatność" class="hash-link" aria-label="Bezpośredni link do 🔒 Zła konfiguracja = podatność" title="Bezpośredni link do 🔒 Zła konfiguracja = podatność" translate="no">​</a></h2>
 <p>Jeśli aplikacja:</p>

@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -25,9 +25,9 @@
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1️⃣-na-czym-polega-idor"><strong>1️⃣ Na czym polega IDOR?</strong><a href="#1️⃣-na-czym-polega-idor" class="hash-link" aria-label="Bezpośredni link do 1️⃣-na-czym-polega-idor" title="Bezpośredni link do 1️⃣-na-czym-polega-idor" translate="no">​</a></h3>
 <p>IDOR występuje, gdy aplikacja udostępnia zasoby na podstawie identyfikatora (np. <code>user_id</code>), ale nie sprawdza, czy użytkownik ma do nich uprawnienia.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="przykładowy-podatny-endpoint"><strong>Przykładowy podatny endpoint</strong><a href="#przykładowy-podatny-endpoint" class="hash-link" aria-label="Bezpośredni link do przykładowy-podatny-endpoint" title="Bezpośredni link do przykładowy-podatny-endpoint" translate="no">​</a></h4>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /api/user/profile?user_id=123</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /api/user/profile?user_id=123</span><br></div></code></pre></div></div>
 <p>Atakujący zmienia wartość <code>user_id</code> na inną:</p>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /api/user/profile?user_id=456</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /api/user/profile?user_id=456</span><br></div></code></pre></div></div>
 <p>Jeśli serwer zwraca profil innego użytkownika, to aplikacja jest podatna na IDOR.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2️⃣-manipulacja-parametrami-id-w-burp-suite"><strong>2️⃣ Manipulacja parametrami ID w Burp Suite</strong><a href="#2️⃣-manipulacja-parametrami-id-w-burp-suite" class="hash-link" aria-label="Bezpośredni link do 2️⃣-manipulacja-parametrami-id-w-burp-suite" title="Bezpośredni link do 2️⃣-manipulacja-parametrami-id-w-burp-suite" translate="no">​</a></h3>
 <ol>
@@ -37,7 +37,7 @@
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-idor-w-operacjach-zapisu"><strong>3️⃣ IDOR w operacjach zapisu</strong><a href="#3️⃣-idor-w-operacjach-zapisu" class="hash-link" aria-label="Bezpośredni link do 3️⃣-idor-w-operacjach-zapisu" title="Bezpośredni link do 3️⃣-idor-w-operacjach-zapisu" translate="no">​</a></h3>
 <p>Niektóre aplikacje pozwalają na edycję lub usuwanie cudzych danych:</p>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">POST /api/user/update?user_id=123&amp;email=hacker@example.com</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">POST /api/user/update?user_id=123&amp;email=hacker@example.com</span><br></div></code></pre></div></div>
 <p>Jeśli można zmienić dane innego użytkownika, aplikacja jest podatna.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-narzędzia-do-wykrywania-idor-burp-suite-autorize">🛠️ Narzędzia do wykrywania IDOR (Burp Suite, Autorize)<a href="#️-narzędzia-do-wykrywania-idor-burp-suite-autorize" class="hash-link" aria-label="Bezpośredni link do 🛠️ Narzędzia do wykrywania IDOR (Burp Suite, Autorize)" title="Bezpośredni link do 🛠️ Narzędzia do wykrywania IDOR (Burp Suite, Autorize)" translate="no">​</a></h2>
@@ -61,7 +61,7 @@
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3️⃣-ffuf--automatyczne-fuzzowanie-idor"><strong>3️⃣ Ffuf – automatyczne fuzzowanie IDOR</strong><a href="#3️⃣-ffuf--automatyczne-fuzzowanie-idor" class="hash-link" aria-label="Bezpośredni link do 3️⃣-ffuf--automatyczne-fuzzowanie-idor" title="Bezpośredni link do 3️⃣-ffuf--automatyczne-fuzzowanie-idor" translate="no">​</a></h3>
 <p>Jeśli aplikacja używa sekwencyjnych ID:</p>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">ffuf -u &quot;http://example.com/api/user/profile?user_id=FUZZ&quot; -w id_list.txt</span><br></div></code></pre></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">ffuf -u &quot;http://example.com/api/user/profile?user_id=FUZZ&quot; -w id_list.txt</span><br></div></code></pre></div></div>
 <p>Sprawdza, które ID zwracają odpowiedzi.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-jak-zabezpieczyć-aplikację-przed-idor">🔐 Jak zabezpieczyć aplikację przed IDOR?<a href="#-jak-zabezpieczyć-aplikację-przed-idor" class="hash-link" aria-label="Bezpośredni link do 🔐 Jak zabezpieczyć aplikację przed IDOR?" title="Bezpośredni link do 🔐 Jak zabezpieczyć aplikację przed IDOR?" translate="no">​</a></h2>

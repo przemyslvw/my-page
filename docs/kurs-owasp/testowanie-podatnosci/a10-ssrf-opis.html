@@ -10,9 +10,9 @@
 
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
-<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.7c92575c.css">
+<meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.1c09e9e5.css">
 <script src="/assets/js/runtime~main.50bfcd32.js" defer="defer"></script>
-<script src="/assets/js/main.ed0903bd.js" defer="defer"></script>
+<script src="/assets/js/main.af5008ce.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -30,9 +30,9 @@
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-przykład-działania">🧠 Przykład działania<a href="#-przykład-działania" class="hash-link" aria-label="Bezpośredni link do 🧠 Przykład działania" title="Bezpośredni link do 🧠 Przykład działania" translate="no">​</a></h2>
 <p>Aplikacja pozwala na pobieranie miniatur obrazków z zewnętrznych adresów URL:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /fetch-image?url=http://example.com/image.jpg</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /fetch-image?url=http://example.com/image.jpg</span><br></div></code></pre></div></div>
 <p>Atakujący podmienia adres na wewnętrzny:</p>
-<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#F8F8F2"><span class="token plain">GET /fetch-image?url=http://127.0.0.1:8080/admin</span><br></div></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /fetch-image?url=http://127.0.0.1:8080/admin</span><br></div></code></pre></div></div>
 <p>➡️ Aplikacja wykonuje żądanie do własnego backendu lub ukrytej usługi, ujawniając dane lub umożliwiając zdalne wykonanie poleceń.</p>
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-potencjalne-konsekwencje">🚨 Potencjalne konsekwencje<a href="#-potencjalne-konsekwencje" class="hash-link" aria-label="Bezpośredni link do 🚨 Potencjalne konsekwencje" title="Bezpośredni link do 🚨 Potencjalne konsekwencje" translate="no">​</a></h2>
