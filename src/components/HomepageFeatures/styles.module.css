@@ -25,10 +25,11 @@
 /* Testimonials Section */
 .testimonials {
   padding: 6rem 0;
-  background-color: #f8fafc80;
+  background-color: var(--ifm-background-color);
   width: 100%;
   position: relative;
   overflow: hidden;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .testimonials::before {
@@ -38,7 +39,7 @@
   left: 0;
   right: 0;
   height: 8px;
-  background: linear-gradient(90deg, var(--color-primary-light), var(--color-primary-dark), var(--color-accent));
+  background: linear-gradient(90deg, #c586c0, #569cd6, #4ec9b0); /* VSC Syntax gradient */
 }
 
 .testimonialGrid {
@@ -59,13 +60,13 @@
 }
 
 .testimonialCard {
-  background: white;
+  background: var(--ifm-background-surface-color);
   border-radius: 0.75rem;
   padding: 2rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.025);
   transition: all 0.3s ease;
   height: 100%;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--ifm-color-emphasis-200);
   position: relative;
   overflow: hidden;
 }
@@ -73,6 +74,7 @@
 .testimonialCard:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-color: var(--ifm-color-primary);
 }
 
 .testimonialHeader {
@@ -87,21 +89,21 @@
 .testimonialHeader h2 {
   font-size: 2.25rem;
   font-weight: 800;
-  color: #1e293b;
+  color: var(--ifm-heading-color);
   margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 .testimonialHeader p {
   font-size: 1.125rem;
-  color: #e0edff;
+  color: var(--ifm-font-color-base);
   line-height: 1.6;
   margin: 0;
 }
 
 .testimonialContent {
   font-style: normal;
-  color: #475569;
+  color: var(--ifm-font-color-base);
   line-height: 1.7;
   margin: 0 0 1.5rem 0;
   font-size: 0.95rem;
@@ -115,10 +117,11 @@
   top: 1.5rem;
   right: 2rem;
   font-size: 6rem;
-  color: #f1f5f9;
+  color: var(--ifm-color-emphasis-100);
   font-family: serif;
   line-height: 1;
   z-index: 1;
+  opacity: 0.3;
 }
 
 .testimonialAuthor {
@@ -150,13 +153,13 @@
 
 .testimonialAuthorName {
   font-weight: 600;
-  color: #1e293b;
+  color: var(--ifm-heading-color);
   margin: 0 0 0.1rem 0;
   font-size: 1.05rem;
 }
 
 .testimonialRole {
-  color: #64748b;
+  color: var(--ifm-font-color-base);
   font-size: 0.85rem;
   line-height: 1.4;
   margin: 0;

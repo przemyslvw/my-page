@@ -209,8 +209,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} <a href="https://baluarte.pl" target="_blank" rel="noopener noreferrer" style="color: var(--ifm-color-primary); font-weight: bold; text-decoration: none;">baluarte.pl</a>, Inc. Built with Passion.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };

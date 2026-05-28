@@ -5,55 +5,55 @@
  */
 
 :root {
-  /* Engineering Hub - Light Mode */
+  /* Engineering Hub - VSC Light Mode */
   --ifm-color-scheme: light;
   
-  --color-primary-dark: #1E3A8A;    /* Blue 900 */
-  --color-primary-medium: #2563EB;  
-  --color-accent: #38BDF8;          
+  --color-primary-dark: #005a96;
+  --color-primary-medium: #007acc;  
+  --color-accent: #4fc1ff;          
   
-  --color-text: #0F172A;            /* Slate 900 */
-  --color-background: #F8FAFC;      /* Slate 50 */
-  --color-surface: #FFFFFF;         
+  --color-text: #333333;            /* VSC Light Editor Foreground */
+  --color-background: #ffffff;      /* VSC Light Editor Background */
+  --color-surface: #f3f3f3;         /* VSC Light Sidebar Background */
 
-  --ifm-color-primary: var(--color-primary-dark);
-  --ifm-color-primary-dark: #1e40af;
-  --ifm-color-primary-darker: #1d4ed8;
-  --ifm-color-primary-darkest: #1e3a8a;
-  --ifm-color-primary-light: #3b82f6; 
-  --ifm-color-primary-lighter: #60a5fa;
-  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-color-primary: var(--color-primary-medium);
+  --ifm-color-primary-dark: #006eb8;
+  --ifm-color-primary-darker: #0062a3;
+  --ifm-color-primary-darkest: #005187;
+  --ifm-color-primary-light: #1a87e0; 
+  --ifm-color-primary-lighter: #3394e3;
+  --ifm-color-primary-lightest: #66adea;
   
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-heading-color: #0F172A;
-  --ifm-font-color-base: #334155;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 122, 204, 0.1);
+  --ifm-heading-color: #000000;
+  --ifm-font-color-base: #333333;
   --ifm-background-color: var(--color-background);
   --ifm-background-surface-color: var(--color-surface);
 }
 
 [data-theme='dark'] {
-  /* Engineering Hub - Dark Mode */
+  /* Engineering Hub - VSC Dark Mode */
   --ifm-color-scheme: dark;
   
-  --color-background: #020617; /* Slate 950 */
-  --color-surface: #0F172A;    /* Slate 900 */
-  --color-text: #F8FAFC;       /* Slate 50 */
+  --color-background: #1e1e1e; /* VSC Dark+ Editor Background */
+  --color-surface: #252526;    /* VSC Dark+ Sidebar Background */
+  --color-text: #d4d4d4;       /* VSC Dark+ Foreground */
 
-  --ifm-color-primary: #38BDF8; /* Sky 400 */
-  --ifm-color-primary-dark: #0284C7;
-  --ifm-color-primary-darker: #0369A1;
-  --ifm-color-primary-darkest: #075985;
-  --ifm-color-primary-light: #7DD3FC;
-  --ifm-color-primary-lighter: #BAE6FD;
-  --ifm-color-primary-lightest: #E0F2FE;
+  --ifm-color-primary: #007acc; /* VSC Active/Accent Blue */
+  --ifm-color-primary-dark: #006eb8;
+  --ifm-color-primary-darker: #0062a3;
+  --ifm-color-primary-darkest: #005187;
+  --ifm-color-primary-light: #1a87e0;
+  --ifm-color-primary-lighter: #3394e3;
+  --ifm-color-primary-lightest: #66adea;
 
-  --ifm-heading-color: #F8FAFC;
-  --ifm-font-color-base: #CBD5E1;
+  --ifm-heading-color: #ffffff;
+  --ifm-font-color-base: #d4d4d4;
   --ifm-background-color: var(--color-background);
   --ifm-background-surface-color: var(--color-surface);
 
-  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 122, 204, 0.15);
 }
 
 /* Stylizacja przycisku w nawigacji lub przyciskow z gradientem - zmieniamy na flat technical UI */
@@ -78,3 +78,8 @@
 code {
   border-radius: 3px;
 }
+
+.title_f1Hy {
+  font-size: 2rem;
+}
+

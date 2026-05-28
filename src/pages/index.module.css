@@ -4,46 +4,46 @@
  */
 
 :root {
-  --color-primary: #144ea3;
-  --color-primary-hover: #2e6cb5;
-  --color-default: #61a8d9;
-  --color-default-hover: #95d0fc;
-  --color-dark-bg: #051839;
-  --color-light-text: #ededed;
+  --color-primary: #007acc;         /* VSC Active Blue */
+  --color-primary-hover: #0098ff;   /* VSC Lighter Active Blue */
+  --color-default: #4ec9b0;         /* VSC Teal/Cyan tag/component color */
+  --color-default-hover: #80cbc4;
+  --color-dark-bg: #1e1e1e;         /* VSC Dark+ Editor Background */
+  --color-light-text: #d4d4d4;      /* VSC Dark+ Editor Foreground */
 }
 
 /* Primary button */
 .button-primary {
-  background: linear-gradient(90deg, #61a8d9 0%, #144ea3 100%);
-  color: var(--color-dark-bg);
-  border: none;
+  background: var(--color-primary);
+  color: #ffffff;
+  border: 1px solid var(--color-primary-hover);
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
-  transition: filter 0.2s, background 0.2s;
+  transition: all 0.2s ease;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
 }
 .button-primary:hover {
-  filter: brightness(1.1);
-  background: linear-gradient(90deg, #95d0fc 0%, #2e6cb5 100%);
+  background: var(--color-primary-hover);
+  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
 }
 
 /* Default button */
 .button-default {
-  background: linear-gradient(90deg, #144ea3 0%, #61a8d9 100%);
-  color: var(--color-dark-bg);
-  border: none;
+  background: transparent;
+  color: var(--color-default);
+  border: 1px solid var(--color-default);
   padding: 10px 20px;
-  border-radius: 6px;
+  border-radius: 4px;
   font-weight: bold;
   cursor: pointer;
-  transition: filter 0.2s, background 0.2s;
+  transition: all 0.2s ease;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
 }
 .button-default:hover {
-  filter: brightness(1.1);
-  background: linear-gradient(90deg, #2e6cb5 0%, #95d0fc 100%);
+  background: rgba(78, 201, 176, 0.1);
+  box-shadow: 0 4px 12px rgba(78, 201, 176, 0.2);
 }
 
 .heroBanner {
@@ -70,10 +70,10 @@
 }
 
 .text--gradient {
-  background: linear-gradient(45deg, var(--color-primary), var(--color-default));
+  background: linear-gradient(45deg, #c586c0 0%, #569cd6 50%, #4ec9b0 100%); /* VSC Syntax: Pink -> Blue -> Teal */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: -1px;
 }
@@ -94,39 +94,42 @@
 .hero__subtitle {
   margin: 1rem 0;
   font-size: 1.8rem;
-  color: var(--color-primary);
+  color: var(--color-default);
   font-weight: 600;
 }
 
 .button--primary {
-  background: linear-gradient(45deg, #00ff88, #0088ff);
-  border: none;
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary-hover);
+  color: #ffffff !important;
   transition: all 0.3s ease;
   padding: 1rem 2rem;
   font-size: 1.1rem;
-  border-radius: 8px;
+  border-radius: 4px;
   margin-right: 1rem;
 }
 
 .button--primary:hover {
+  background: var(--color-primary-hover);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 122, 204, 0.3);
 }
 
 .button--secondary {
   background: transparent;
-  border: 2px solid #00ff88;
-  color: #00ff88;
+  border: 1px solid var(--color-default);
+  color: var(--color-default) !important;
   transition: all 0.3s ease;
   padding: 1rem 2rem;
   font-size: 1.1rem;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 .button--secondary:hover {
-  background: #00ff88;
-  color: white;
+  background: rgba(78, 201, 176, 0.1);
+  color: var(--color-default) !important;
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 201, 176, 0.2);
 }
 
 /* Style dla strony wsparcia */
