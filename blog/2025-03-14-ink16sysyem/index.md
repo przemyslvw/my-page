@@ -14,6 +14,8 @@ date: 2026-06-08
 
 <!-- truncate -->
 
+![Link 16 – schemat systemu](./link-16-4mh_.png)
+
 ## 🗓️ Aktualności 2025–2026
 
 **Ukraina w ekosystemie cyfrowego pola walki NATO.** W 2025 roku Ukraina oficjalnie zintegrowała swoje systemy dowodzenia z siecią Link 16 NATO, co umożliwia jej siłom koordynację misji z platformami sojuszniczymi w czasie rzeczywistym. To przełomowy krok — wcześniej ukraińskie jednostki działały na osobnych sieciach wymagających ręcznej translacji danych.
