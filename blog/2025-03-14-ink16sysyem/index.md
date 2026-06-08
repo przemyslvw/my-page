@@ -1,9 +1,9 @@
 ---
 slug: system-link-16
-title: "🔗 System Link 16 – Podstawy i Zastosowanie"
+title: "Link 16 – NATO Military Data Link: Jak działa i gdzie jest używany [2026]"
 authors: [przemyslvw]
 tags: ["military", "communication", "link-16", "nato"]
-date: 2025-03-14
+date: 2026-06-08
 ---
 
 # System Link 16 – Podstawy i Zastosowanie
@@ -13,6 +13,12 @@ date: 2025-03-14
 **Link 16** to wojskowy system wymiany danych, który umożliwia bezpieczną i odporną na zakłócenia komunikację pomiędzy jednostkami sił zbrojnych. Jest szeroko wykorzystywany przez NATO oraz siły sojusznicze w celu synchronizacji działań bojowych, poprawy świadomości sytuacyjnej oraz zapewnienia skuteczniejszego dowodzenia i kontroli (C2).
 
 <!-- truncate -->
+
+## 🗓️ Aktualności 2025–2026
+
+**Ukraina w ekosystemie cyfrowego pola walki NATO.** W 2025 roku Ukraina oficjalnie zintegrowała swoje systemy dowodzenia z siecią Link 16 NATO, co umożliwia jej siłom koordynację misji z platformami sojuszniczymi w czasie rzeczywistym. To przełomowy krok — wcześniej ukraińskie jednostki działały na osobnych sieciach wymagających ręcznej translacji danych.
+
+**Satelitarne rozszerzenie zasięgu.** Trwają testy przekazywania sygnału Link 16 przez konstelację satelitarną SDA (Space Development Agency). Norwegia jako pierwsza przeprowadziła próby z pełnym łańcuchem kryptograficznym NATO, co potencjalnie eliminuje największe ograniczenie systemu — zasięg LOS ~500 km.
 
 ## 🔍 Kluczowe cechy Link 16
 
@@ -43,7 +49,7 @@ System Link 16 jest wykorzystywany przez różne platformy wojskowe, w tym:
 ## 📡 Wyzwania i ograniczenia
 
 Pomimo swoich zalet, Link 16 ma również pewne ograniczenia:
-- **Ograniczony zasięg** – system działa na zasadzie LOS (Line of Sight), co oznacza konieczność posiadania widoczności między nadajnikiem a odbiorcą.
+- **Ograniczony zasięg LOS** – standardowa łączność naziemna sięga ok. 300–500 mil morskich i wymaga bezpośredniej widoczności między nadajnikiem a odbiorcą. Protokół **JREAP-C** częściowo rozwiązuje ten problem, tunelując sygnał przez sieci IP i łącza satelitarne — ale kosztem dodatkowej latencji i złożoności zarządzania siecią.
 - **Wysokie wymagania energetyczne** – system wymaga dużej mocy do skutecznego działania.
 - **Złożoność integracji** – wymagane jest odpowiednie dostosowanie platform i zgodność z protokołami NATO.
 
@@ -58,3 +64,7 @@ Oprócz Link 16 istnieją inne wojskowe systemy wymiany danych, m.in.:
 - **IBCS (Integrated Battle Command System)** – system zarządzania walką integrujący wiele systemów dowodzenia i kontroli.
 
 Systemy te, w połączeniu z Link 16, tworzą kompleksową infrastrukturę komunikacyjną, umożliwiającą efektywne prowadzenie działań militarnych w środowisku wielodomenowym.
+
+## 🔗 Powiązane artykuły
+
+- [Koniec ery radiostacji? Jak Link 16 i LEO zmieniają pole walki po 2026 roku](/blog/cjadc2-link-16-leo) — CJADC2, IBCS, MADL, modernizacja WP i chmura bojowa
