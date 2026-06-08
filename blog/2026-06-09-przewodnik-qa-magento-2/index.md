@@ -29,6 +29,31 @@ await page.waitForFunction(() =>
 ```
 Warto również stosować oczekiwanie na zakończenie asynchronicznych żądań sieciowych (Network Interception) zamiast polegać wyłącznie na stanie UI.
 
+**Przykład użycia Network Interception w Playwright:**
+
+```typescript
+test('Powinien dodać produkt do koszyka i doczekać się odpowiedzi GraphQL', async ({ page }) => {
+  // Promise.all gwarantuje, że nasłuchiwanie rozpocznie się przed kliknięciem
+  const [response] = await Promise.all([
+    page.waitForResponse(res => 
+      res.url().includes('/graphql') && 
+      res.request().postDataJSON()?.operationName === 'AddToCart' &&
+      res.status() === 200
+    ),
+    page.locator('button[title="Add to Cart"]').click()
+  ]);
+
+  const responseBody = await response.json();
+  
+  // Weryfikacja czy GraphQL nie zwrócił błędu biznesowego
+  expect(responseBody.errors).toBeUndefined();
+  expect(responseBody.data.addProductsToCart.cart.items).toHaveLength(1);
+  
+  // Web-first assertion dla pewności, że stan UI zaktualizował się po odpowiedzi
+  await expect(page.locator('.counter-number')).toHaveText('1');
+});
+```
+
 ## 2. Piekło selektorów i "ukrytych" elementów UI
 
 Złożona struktura szablonów Magento (i specyfika Knockout.js) powoduje, że ten sam tekst może być renderowany w wielu miejscach jednocześnie (np. w menu desktopowym, mobilnym, w bocznym koszyku). 
@@ -65,7 +90,37 @@ Magento wykorzystuje model bazy danych EAV (Entity-Attribute-Value). Oznacza to,
 **Wyzwanie:** Pisanie zapytań SQL w celu weryfikacji stanu po teście (np. czy zamówienie zapisało się poprawnie z odpowiednimi atrybutami) jest niezwykle skomplikowane i trudne w utrzymaniu. Zmiany w silniku Magento lub dodanie nowych atrybutów łatwo psują takie testy.
 
 **Rozwiązanie:**
-Całkowicie unikaj bezpośrednich asercji na bazie danych w testach wyższych poziomów. Jako jedynego "Punktu Prawdy" (Source of Truth) należy używać **Admin REST API** lub zapytań **GraphQL**. Walidacja przez API gwarantuje poprawną ewaluację logiki biznesowej i uodparnia testy na refaktoring bazy danych. Pamiętaj jednak, aby przy GraphQL zawsze parsować błędy w payloadzie – nigdy nie ufaj samemu nagłówkowi HTTP 200.
+Całkowicie unikaj bezpośrednich asercji na bazie danych w testach wyższych poziomów. Jako jedynego "Punktu Prawdy" (Source of Truth) należy używać **Admin REST API** lub zapytań **GraphQL**. Walidacja przez API gwarantuje poprawną ewaluację logiki biznesowej i uodparnia testy na refaktoring bazy danych. Pamiętaj jednak, aby przy GraphQL zawsze parsować błędy w payloadzie – nigdy nie ufamy samemu nagłówkowi HTTP 200.
+
+**Przykład walidacji odpowiedzi GraphQL w Playwright:**
+
+```typescript
+test('Walidacja struktury odpowiedzi dla zapytania o stan magazynowy', async ({ request }) => {
+  const query = `
+    query getProductStock($sku: String!) {
+      products(filter: { sku: { eq: $sku } }) {
+        items {
+          stock_status
+        }
+      }
+    }
+  `;
+
+  const response = await request.post('/graphql', {
+    data: {
+      query,
+      variables: { sku: '24-MB01' }
+    }
+  });
+
+  expect(response.ok()).toBeTruthy();
+  const body = await response.json();
+
+  // Zawsze sprawdzaj istnienie tablicy errors
+  expect(body.errors, `GraphQL zwrócił błędy: ${JSON.stringify(body.errors)}`).toBeUndefined();
+  expect(body.data.products.items[0].stock_status).toBe('IN_STOCK');
+});
+```
 
 ## 5. Izolacja danych testowych i problemy ze stanem magazynowym (Inventory)
 
@@ -74,7 +129,74 @@ Całkowicie unikaj bezpośrednich asercji na bazie danych w testach wyższych po
 **Rozwiązanie:** 
 Dane testowe w Magento muszą być całkowicie izolowane. Najlepszą praktyką jest "seeding" przed każdym zestawem testów – używając endpointu `POST /V1/products` tworzymy unikalny produkt (SKU) wyłącznie na potrzeby danego testu. Po wykonaniu testu używamy API do usunięcia produktu (Cleanup). Do płatności używamy wbudowanej metody `checkmo` (Check / Money Order), która nie wymaga integracji z zewnętrznymi bramkami płatności i eliminuje zewnętrzny punkt awarii.
 
-## 6. Złożoność wielosklepowości (Multistore / Scope)
+Do izolacji bardziej złożonego stanu (np. koszyka zakupowego dla każdego testu) warto wykorzystać mechanizm Custom Fixtures w Playwright. Pozwala to na automatyczne przygotowanie unikalnego koszyka przez API przed uruchomieniem testu i przekazanie go jako parametru.
+
+**Przykład użycia Custom Fixtures do izolacji koszyka:**
+
+```typescript
+// fixtures.ts
+import { test as base, expect } from '@playwright/test';
+
+type E2EFixtures = {
+  guestCartId: string;
+};
+
+export const test = base.extend<E2EFixtures>({
+  guestCartId: async ({ request }, use) => {
+    // Setup: Utworzenie koszyka przez GraphQL API
+    const response = await request.post('/graphql', {
+      data: { query: `mutation { createEmptyCart }` }
+    });
+    const body = await response.json();
+    const cartId = body.data.createEmptyCart;
+
+    // Przekazanie koszyka do testu
+    await use(cartId);
+
+    // Teardown: Ewentualne sprzątanie po teście (w e-commerce koszyki gości zazwyczaj czyści cron)
+  },
+});
+
+// cart.spec.ts
+import { test } from './fixtures';
+
+test('Dodanie produktu do unikalnego koszyka', async ({ page, guestCartId }) => {
+  // Test może bezpiecznie używać guestCartId bez kolizji z równoległymi procesami
+  await page.goto(`/checkout/cart?cart_id=${guestCartId}`);
+  // ... dalsze kroki UI
+});
+```
+
+## 6. Mockowanie usług zewnętrznych (Bramka Płatności)
+
+Odcięcie środowiska testowego od limitów i opóźnień zewnętrznych providerów (np. PayU, Przelewy24). W ten sposób testy są niezależne od awarii zewnętrznych systemów i nie generują sztucznego ruchu na bramkach testowych.
+
+**Przykład mockowania bramki płatności za pomocą `page.route`:**
+
+```typescript
+test('Symulacja pozytywnego przejścia płatności bez uderzania do rzeczywistego API', async ({ page }) => {
+  // Przechwycenie ruchu i zwrócenie sztucznego payloadu (HTTP 200 i mockowany JSON)
+  await page.route('**/api/v2/transactions/charge', async route => {
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({
+        status: 'SUCCESS',
+        transactionId: 'MOCK_TX_999123',
+        amount: 199.99
+      })
+    });
+  });
+
+  await page.locator('button:has-text("Place Order")').click();
+
+  // Test weryfikuje tylko reakcję systemu Magento na otrzymany pozytywny status z bramki
+  await expect(page.locator('.checkout-success')).toBeVisible();
+  await expect(page.locator('.order-number')).toContainText('000');
+});
+```
+
+## 7. Złożoność wielosklepowości (Multistore / Scope)
 
 Konfiguracja w Magento 2 opiera się na hierarchii: *Global -> Website -> Store -> Store View*. 
 
