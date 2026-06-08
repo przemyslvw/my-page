@@ -9,6 +9,68 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
         <item>
+            <title><![CDATA[Link 16 – NATO Military Data Link: Jak działa i gdzie jest używany [2026]]]></title>
+            <link>https://www.majdak.online/blog/system-link-16</link>
+            <guid>https://www.majdak.online/blog/system-link-16</guid>
+            <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[📌 Wprowadzenie]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wprowadzenie">📌 Wprowadzenie<a href="https://www.majdak.online/blog/system-link-16#-wprowadzenie" class="hash-link" aria-label="Bezpośredni link do 📌 Wprowadzenie" title="Bezpośredni link do 📌 Wprowadzenie" translate="no">​</a></h2>
+<p><strong>Link 16</strong> to wojskowy system wymiany danych, który umożliwia bezpieczną i odporną na zakłócenia komunikację pomiędzy jednostkami sił zbrojnych. Jest szeroko wykorzystywany przez NATO oraz siły sojusznicze w celu synchronizacji działań bojowych, poprawy świadomości sytuacyjnej oraz zapewnienia skuteczniejszego dowodzenia i kontroli (C2).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aktualności-20252026">🗓️ Aktualności 2025–2026<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-aktualno%C5%9Bci-20252026" class="hash-link" aria-label="Bezpośredni link do 🗓️ Aktualności 2025–2026" title="Bezpośredni link do 🗓️ Aktualności 2025–2026" translate="no">​</a></h2>
+<p><strong>Ukraina w ekosystemie cyfrowego pola walki NATO.</strong> W 2025 roku Ukraina oficjalnie zintegrowała swoje systemy dowodzenia z siecią Link 16 NATO, co umożliwia jej siłom koordynację misji z platformami sojuszniczymi w czasie rzeczywistym. To przełomowy krok — wcześniej ukraińskie jednostki działały na osobnych sieciach wymagających ręcznej translacji danych.</p>
+<p><strong>Satelitarne rozszerzenie zasięgu.</strong> Trwają testy przekazywania sygnału Link 16 przez konstelację satelitarną SDA (Space Development Agency). Norwegia jako pierwsza przeprowadziła próby z pełnym łańcuchem kryptograficznym NATO, co potencjalnie eliminuje największe ograniczenie systemu — zasięg LOS ~500 km.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-kluczowe-cechy-link-16">🔍 Kluczowe cechy Link 16<a href="https://www.majdak.online/blog/system-link-16#-kluczowe-cechy-link-16" class="hash-link" aria-label="Bezpośredni link do 🔍 Kluczowe cechy Link 16" title="Bezpośredni link do 🔍 Kluczowe cechy Link 16" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Szyfrowana i odporna na zakłócenia transmisja</strong> – wykorzystuje metody rozpraszania widma (FHSS – Frequency-Hopping Spread Spectrum) i szyfrowania danych.</li>
+<li class=""><strong>Niska latencja</strong> – umożliwia niemal natychmiastowe przekazywanie informacji taktycznych.</li>
+<li class=""><strong>Wielopunktowa łączność</strong> – pozwala na jednoczesne połączenie wielu jednostek w jednej sieci.</li>
+<li class=""><strong>Kompatybilność z NATO</strong> – wykorzystywany przez państwa członkowskie do wspólnej operacji.</li>
+<li class=""><strong>Automatyczna synchronizacja czasu</strong> – bazuje na GPS i technologii JTIDS (Joint Tactical Information Distribution System), co zapewnia precyzyjne działanie.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-jak-działa-link-16">🛰️ Jak działa Link 16?<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-jak-dzia%C5%82a-link-16" class="hash-link" aria-label="Bezpośredni link do 🛰️ Jak działa Link 16?" title="Bezpośredni link do 🛰️ Jak działa Link 16?" translate="no">​</a></h2>
+<p>System operuje w paśmie UHF (960–1215 MHz) i wykorzystuje technologię <strong>TDMA (Time Division Multiple Access)</strong>, która przydziela jednostkom wojskowym określone przedziały czasowe do transmisji danych.</p>
+<p>Komunikacja odbywa się poprzez:</p>
+<ul>
+<li class=""><strong>Wiadomości J-series</strong> – standardowe formaty przesyłania danych w NATO,</li>
+<li class=""><strong>Śledzenie jednostek w czasie rzeczywistym</strong> – transmisja pozycji, statusu misji, danych radarowych,</li>
+<li class=""><strong>Zintegrowane przesyłanie głosu i danych</strong> – możliwość komunikacji głosowej wraz z danymi sytuacyjnymi.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-zastosowanie-w-praktyce">✈️ Zastosowanie w praktyce<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-zastosowanie-w-praktyce" class="hash-link" aria-label="Bezpośredni link do ✈️ Zastosowanie w praktyce" title="Bezpośredni link do ✈️ Zastosowanie w praktyce" translate="no">​</a></h2>
+<p>System Link 16 jest wykorzystywany przez różne platformy wojskowe, w tym:</p>
+<ul>
+<li class=""><strong>Samoloty bojowe</strong> (np. F-16, F-35, Eurofighter Typhoon),</li>
+<li class=""><strong>Okręty wojenne</strong> (niszczyciele, fregaty),</li>
+<li class=""><strong>Systemy obrony powietrznej</strong> (Patriot, AEGIS),</li>
+<li class=""><strong>Wozy bojowe i centra dowodzenia</strong>,</li>
+<li class=""><strong>Drony i bezzałogowe statki powietrzne</strong>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wyzwania-i-ograniczenia">📡 Wyzwania i ograniczenia<a href="https://www.majdak.online/blog/system-link-16#-wyzwania-i-ograniczenia" class="hash-link" aria-label="Bezpośredni link do 📡 Wyzwania i ograniczenia" title="Bezpośredni link do 📡 Wyzwania i ograniczenia" translate="no">​</a></h2>
+<p>Pomimo swoich zalet, Link 16 ma również pewne ograniczenia:</p>
+<ul>
+<li class=""><strong>Ograniczony zasięg LOS</strong> – standardowa łączność naziemna sięga ok. 300–500 mil morskich i wymaga bezpośredniej widoczności między nadajnikiem a odbiorcą. Protokół <strong>JREAP-C</strong> częściowo rozwiązuje ten problem, tunelując sygnał przez sieci IP i łącza satelitarne — ale kosztem dodatkowej latencji i złożoności zarządzania siecią.</li>
+<li class=""><strong>Wysokie wymagania energetyczne</strong> – system wymaga dużej mocy do skutecznego działania.</li>
+<li class=""><strong>Złożoność integracji</strong> – wymagane jest odpowiednie dostosowanie platform i zgodność z protokołami NATO.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-podobne-systemy">🔄 Podobne systemy<a href="https://www.majdak.online/blog/system-link-16#-podobne-systemy" class="hash-link" aria-label="Bezpośredni link do 🔄 Podobne systemy" title="Bezpośredni link do 🔄 Podobne systemy" translate="no">​</a></h2>
+<p>Oprócz Link 16 istnieją inne wojskowe systemy wymiany danych, m.in.:</p>
+<ul>
+<li class=""><strong>Link 11</strong> – starszy system komunikacji taktycznej, stosowany głównie przez marynarkę wojenną.</li>
+<li class=""><strong>Link 22</strong> – nowocześniejszy system, zaprojektowany jako następca Link 11, o zwiększonej odporności na zakłócenia.</li>
+<li class=""><strong>TADIL-J</strong> – standardowy format wiadomości Link 16 stosowany w NATO.</li>
+<li class=""><strong>JREAP (Joint Range Extension Application Protocol)</strong> – umożliwia rozszerzenie zasięgu Link 16 poprzez sieci IP i satelitarne.</li>
+<li class=""><strong>IBCS (Integrated Battle Command System)</strong> – system zarządzania walką integrujący wiele systemów dowodzenia i kontroli.</li>
+</ul>
+<p>Systemy te, w połączeniu z Link 16, tworzą kompleksową infrastrukturę komunikacyjną, umożliwiającą efektywne prowadzenie działań militarnych w środowisku wielodomenowym.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-powiązane-artykuły">🔗 Powiązane artykuły<a href="https://www.majdak.online/blog/system-link-16#-powi%C4%85zane-artyku%C5%82y" class="hash-link" aria-label="Bezpośredni link do 🔗 Powiązane artykuły" title="Bezpośredni link do 🔗 Powiązane artykuły" translate="no">​</a></h2>
+<ul>
+<li class=""><a class="" href="https://www.majdak.online/blog/cjadc2-link-16-leo">Koniec ery radiostacji? Jak Link 16 i LEO zmieniają pole walki po 2026 roku</a> — CJADC2, IBCS, MADL, modernizacja WP i chmura bojowa</li>
+</ul>]]></content:encoded>
+            <category>Military</category>
+            <category>Communication</category>
+            <category>Link 16</category>
+            <category>NATO</category>
+        </item>
+        <item>
             <title><![CDATA[Jak zbudować nowoczesną automatyzację testów: Zwieńczenie – Infrastruktura i CI/CD (Część 5)]]></title>
             <link>https://www.majdak.online/blog/automatyzacja-testow-infrastruktura</link>
             <guid>https://www.majdak.online/blog/automatyzacja-testow-infrastruktura</guid>
@@ -989,85 +1051,6 @@ W wielu projektach produkcyjnych gałąź <code>master</code> jest objęta <stro
             <category>Cyberbezpieczeństwo</category>
             <category>Penetration Testing</category>
             <category>INSECON</category>
-        </item>
-        <item>
-            <title><![CDATA[Koniec ery radiostacji? Witajcie w bojowej chmurze: Jak Link 16 i LEO zmieniają pole walki po 2026 roku.]]></title>
-            <link>https://www.majdak.online/blog/cjadc2-link-16-leo</link>
-            <guid>https://www.majdak.online/blog/cjadc2-link-16-leo</guid>
-            <pubDate>Fri, 03 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[Współczesne pole walki w 2026 roku to środowisko o bezprecedensowej transparentności i dynamice. Transformacja w kierunku operacji wielodomenowych (Multi-Domain Operations) oraz koncepcja CJADC2 (Combined Joint All-Domain Command and Control) wymusiły radykalną modernizację infrastruktury sieciocentrycznej. Kluczem do uzyskania przewagi decyzji (decision superiority) nie jest już tylko siła ognia, ale zdolność do budowy cyfrowego "kill web", w którym sensory i efektory współpracują w czasie rzeczywistym.]]></description>
-            <content:encoded><![CDATA[<p>Współczesne pole walki w 2026 roku to środowisko o bezprecedensowej transparentności i dynamice. Transformacja w kierunku operacji wielodomenowych (<strong>Multi-Domain Operations</strong>) oraz koncepcja <strong>CJADC2</strong> (Combined Joint All-Domain Command and Control) wymusiły radykalną modernizację infrastruktury sieciocentrycznej. Kluczem do uzyskania przewagi decyzji (decision superiority) nie jest już tylko siła ognia, ale zdolność do budowy cyfrowego "kill web", w którym sensory i efektory współpracują w czasie rzeczywistym.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="środowisko-bezpieczeństwa-i-paradygmat-cjadc2"><strong>Środowisko bezpieczeństwa i paradygmat CJADC2</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#%C5%9Brodowisko-bezpiecze%C5%84stwa-i-paradygmat-cjadc2" class="hash-link" aria-label="Bezpośredni link do środowisko-bezpieczeństwa-i-paradygmat-cjadc2" title="Bezpośredni link do środowisko-bezpieczeństwa-i-paradygmat-cjadc2" translate="no">​</a></h2>
-<p>Zmiany geopolityczne zapoczątkowane w 2025 roku oraz eskalacja zagrożeń w obszarze Pacyfiku i Europy Wschodniej zdefiniowały nową erę odstraszania. Odpowiedzią NATO i DoD na systemy antydostępowe (A2/AD) przeciwnika jest pełna integracja domen: lądowej, morskiej, powietrznej, kosmicznej i cybernetycznej.</p>
-<p>Fundamentem tej wizji są <strong>Taktyczne Łącza Danych (TDL)</strong>. Choć standard Link 16 (STANAG 5516) pozostaje filarem łączności, jego ewolucja w stronę standardów BU2 oraz integracja z nowymi technologiami (LEO, Link 22, MADL) stanowią o nowej jakości systemów dowodzenia (C3).</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="---">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#---" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Architektura Link 16: Modernizacja MIDS i Standard BU2</strong></p>
-<p>Pomimo dekad służby, infrastruktura Link 16 przechodzi renesans dzięki pakietom modernizacyjnym <strong>Block Upgrade 2 (BU2)</strong>. Kluczowe aspekty tej ewolucji obejmują:</p>
-<ul>
-<li class=""><strong>Frequency Remapping (FR):</strong> Dynamiczne zarządzanie widmem w pasmie L, eliminujące interferencje z systemami cywilnymi.</li>
-<li class=""><strong>Enhanced Throughput (ET):</strong> Zwiększenie użytecznej przepustowości dla bogatych danych z nowoczesnych sensorów.</li>
-<li class=""><strong>Cryptographic Modernization (CMI):</strong> Implementacja nowych modułów SDU (np. SDU-1000), pozwalających na przechowywanie do 1000 kluczy TEK (wobec 8 w starszych systemach KGV-8).</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="porównanie-generacji-link-16"><strong>Porównanie generacji Link 16</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#por%C3%B3wnanie-generacji-link-16" class="hash-link" aria-label="Bezpośredni link do porównanie-generacji-link-16" title="Bezpośredni link do porównanie-generacji-link-16" translate="no">​</a></h3>
-<table><thead><tr><th style="text-align:left">Parametr / Cecha</th><th style="text-align:left">Starsza generacja (MIDS-LVT)</th><th style="text-align:left">Nowoczesna generacja (BU2 / JTRS)</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Kryptografia</strong></td><td style="text-align:left">Moduły KGV-8 (8 kluczy)</td><td style="text-align:left">Nowoczesne SDU (1000 kluczy)</td></tr><tr><td style="text-align:left"><strong>Zarządzanie</strong></td><td style="text-align:left">Fizyczne ładowanie kluczy</td><td style="text-align:left"><strong>Remote Rekeying</strong> (zdalne)</td></tr><tr><td style="text-align:left"><strong>Elastyczność</strong></td><td style="text-align:left">Stałe mapowanie pasma</td><td style="text-align:left"><strong>Frequency Remapping</strong></td></tr><tr><td style="text-align:left"><strong>Skalowalność</strong></td><td style="text-align:left">Duże platformy (samoloty, okręty)</td><td style="text-align:left">Od dużych platform po UAV i drony</td></tr></tbody></table>
-<p>Miniaturyzacja terminali (np. <strong>STT KOR-24A</strong> czy <strong>Mojo Mini Next</strong>) pozwoliła na włączenie do sieci małych jednostek i dronów, co drastycznie zwiększa nasycenie pola walki sensorami.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----1">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----1" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Przełamanie horyzontu: Konstelacje LEO i łączność kosmiczna</strong></p>
-<p>Ograniczenie Link 16 do linii widzenia (LOS) zostało rozwiązane przez <strong>Proliferated Warfighter Space Architecture (PWSA)</strong>. Satelity na niskiej orbicie (LEO) wyposażone w anteny Link 16 oraz optyczne łącza międzysatelitarne (<strong>OISL</strong>) pełnią rolę globalnych przekaźników.</p>
-<p><strong>PoC 2025:</strong> Testy norweskich F-35 i P-8 wykazały zdolność do bezpośredniej wymiany danych Link 16 z satelitami SDA, co eliminuje potrzebę stosowania podatnych na zniszczenie retransmisyjnych samolotów AWACS w strefie rażenia przeciwnika.</p>
-<p>Wyzwania pozostają jednak w warstwie cyber: raporty NSA z 2026 roku wskazują na konieczność wzmocnienia ochrony segmentu naziemnego i terminali przed infiltracją w środowisku hybrydowym.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----2">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----2" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Link 22: Nowy standard domeny morskiej</strong></p>
-<p>System <strong>Link 22 (NILE)</strong> ostatecznie zastępuje archaiczny Link 11. Oferuje on:</p>
-<ol>
-<li class=""><strong>Zdolność BLOS (Beyond Line-of-Sight):</strong> Wykorzystanie pasma HF do komunikacji dalekiego zasięgu bez satelitów.</li>
-<li class=""><strong>Architekturę Self-healing:</strong> Sieć rozproszona, odporna na zniszczenie pojedynczych węzłów.</li>
-<li class=""><strong>Interoperacyjność:</strong> Pełna zgodność z komunikatami serii J (Link 16).</li>
-</ol>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----3">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----3" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Wyzwania Stealth: Łącza kierunkowe MADL i IFDL</strong></p>
-<p>Dla myśliwców V generacji (F-35, F-22) klasyczny Link 16 jest zbyt łatwy do wykrycia przez systemy ESM przeciwnika. Rozwiązaniem są łącza kierunkowe o niskim prawdopodobieństwie wykrycia (<strong>LPI/LPD</strong>):</p>
-<ul>
-<li class=""><strong>MADL (Multifunction Advanced Data Link):</strong> Wąska, kierunkowa wiązka umożliwiająca skrytą wymianę danych "fuzji sensorów".</li>
-<li class=""><strong>Daisy Chaining:</strong> Procedura przesyłania danych wewnątrz formacji stealth i ich późniejsza translacja na Link 16 przez "bramy" (Gateways) dla starszych platform (F-16, Eurofighter).</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----4">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----4" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Od IBCS do NGC2: Chmura bojowa i AI na krawędzi</strong></p>
-<p>Ewolucja protokołów zasila nowoczesne systemy dowodzenia:</p>
-<ul>
-<li class=""><strong>IBCS (Integrated Air and Missile Defense Battle Command System):</strong> Rewolucyjny model "Any Sensor - Any Shooter", w którym radar dowolnej baterii może naprowadzać pocisk z innej wyrzutni.</li>
-<li class=""><strong>NGC2 (Next Generation Command and Control):</strong> Architektura <em>cloud-native</em> wdrażana po 2025 roku, eliminująca ciężkie serwery polowe na rzecz rozproszonej tkanki danych.</li>
-<li class=""><strong>AXS (Artillery Execution Suite):</strong> Skrócenie czasu od wykrycia do uderzenia (sensor-to-shooter) z minut do sekund przy wsparciu Edge Computing i AI.</li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----5">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----5" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Polska jako lider wschodniej flanki NATO</strong></p>
-<p>Rzeczpospolita Polska zrealizowała kluczowe kamienie milowe w integracji sieciocentrycznej:</p>
-<ol>
-<li class=""><strong>IBCS-enabled Patriot:</strong> W grudniu 2025 r. 37. Dywizjon Rakietowy osiągnął pełną zdolność operacyjną (<strong>FOC</strong>), czyniąc Polskę pierwszym użytkownikiem IBCS poza USA.</li>
-<li class=""><strong>Program Miecznik:</strong> Fregaty (np. przyszły ORP Wicher) integrują system <strong>TACTICOS</strong> oraz Link 22, stając się kluczowymi węzłami C2 na Bałtyku.</li>
-<li class=""><strong>Cyberbezpieczeństwo:</strong> Wdrożenie systemu <strong>RTDLMS</strong> przez grupę Enamor pozwala na zaawansowane zarządzanie kryptografią Link 16 (<strong>Remote Rekeying</strong>).</li>
-</ol>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kluczowe-programy-modernizacyjne-sz-rp-2025-2026"><strong>Kluczowe programy modernizacyjne SZ RP (2025-2026)</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#kluczowe-programy-modernizacyjne-sz-rp-2025-2026" class="hash-link" aria-label="Bezpośredni link do kluczowe-programy-modernizacyjne-sz-rp-2025-2026" title="Bezpośredni link do kluczowe-programy-modernizacyjne-sz-rp-2025-2026" translate="no">​</a></h3>
-<table><thead><tr><th style="text-align:left">Program</th><th style="text-align:left">Data Operacyjna</th><th style="text-align:left">Rola w ekosystemie C2</th></tr></thead><tbody><tr><td style="text-align:left"><strong>Wisła (Faza II)</strong></td><td style="text-align:left">Grudzień 2025</td><td style="text-align:left">Integracja sensorów i efektorów w architekturze IBCS.</td></tr><tr><td style="text-align:left"><strong>Miecznik (Wicher)</strong></td><td style="text-align:left">Sierpień 2026</td><td style="text-align:left">Wodowanie; integracja Link 22 i systemów radarowych AESA.</td></tr><tr><td style="text-align:left"><strong>RTDLMS</strong></td><td style="text-align:left">Początek 2025</td><td style="text-align:left">Centralizacja zarządzania kluczami kryptograficznymi.</td></tr></tbody></table>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="----6">---<a href="https://www.majdak.online/blog/cjadc2-link-16-leo#----6" class="hash-link" aria-label="Bezpośredni link do ---" title="Bezpośredni link do ---" translate="no">​</a></h2>
-<p><strong>Prognozy rynkowe do 2034 roku</strong></p>
-<p>Globalny rynek łączy taktycznych w 2026 roku wyceniany jest na <strong>9,18 mld USD</strong>, z przewidywanym wzrostem do ponad <strong>17,23 mld USD</strong> do 2034 r. (CAGR 8,20%). Największa dynamika wzrostu przesuwa się w stronę regionu Azji i Pacyfiku oraz Europy Środkowej, gdzie inwestycje w systemy <strong>Software-Defined Radio (SDR)</strong> i otwarte architektury stają się priorytetem.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="podsumowanie"><strong>Podsumowanie</strong><a href="https://www.majdak.online/blog/cjadc2-link-16-leo#podsumowanie" class="hash-link" aria-label="Bezpośredni link do podsumowanie" title="Bezpośredni link do podsumowanie" translate="no">​</a></h3>
-<p>Ewolucja systemów dowodzenia po 2026 roku to balansowanie między technologiczną dominacją a "paraliżem informacyjnym". Sukces na nowoczesnym polu walki zależy od zdolności do bezpiecznego, skrytego i błyskawicznego przesyłu danych w zunifikowanym "kill web", gdzie rola człowieka jest wspierana przez algorytmy AI działające na samej krawędzi frontu.</p>
-<hr>
-<p><strong>Słowa kluczowe:</strong> <em>Link 16, Link 22, CJADC2, IBCS, MADL, BU2, MIDS, systemy dowodzenia, modernizacja WP, cyberbezpieczeństwo wojskowe, LEO, PWSA, Miecznik, Multi-Domain Operations.</em></p>]]></content:encoded>
-            <category>CJADC2</category>
-            <category>Link 16</category>
-            <category>LEO</category>
-            <category>MADL</category>
-            <category>IBCS</category>
-            <category>MIDS</category>
-            <category>Link 22</category>
-            <category>Modernizacja WP</category>
-            <category>Cyberbezpieczeństwo Wojskowe</category>
-            <category>PWSA</category>
-            <category>Miecznik</category>
-            <category>Multi-Domain Operations</category>
         </item>
     </channel>
 </rss>
