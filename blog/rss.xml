@@ -4,10 +4,44 @@
         <title>MAJDAK.ONLINE Blog</title>
         <link>https://www.majdak.online/blog</link>
         <description>MAJDAK.ONLINE Blog</description>
-        <lastBuildDate>Tue, 09 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Czysty Kod – Robert C. Martin: notatki z lektury]]></title>
+            <link>https://www.majdak.online/blog/czysty-kod-robert-martin-notatki</link>
+            <guid>https://www.majdak.online/blog/czysty-kod-robert-martin-notatki</guid>
+            <pubDate>Wed, 10 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[„Czysty Kod. Podręcznik dobrego programisty" Roberta C. Martina (Uncle Boba) to jedna z tych książek, które programista powinien przeczytać przynajmniej raz — a potem wracać do nich za każdym razem, gdy trafi na kod, który budzi wątpliwości.]]></description>
+            <content:encoded><![CDATA[<p>„Czysty Kod. Podręcznik dobrego programisty" Roberta C. Martina (Uncle Boba) to jedna z tych książek, które programista powinien przeczytać przynajmniej raz — a potem wracać do nich za każdym razem, gdy trafi na kod, który budzi wątpliwości.</p>
+<p>Zebrałem z niej szczegółowe notatki z każdego rozdziału: kluczowe zasady, przykłady kodu przed i po refaktoryzacji oraz praktyczne wnioski gotowe do zastosowania od zaraz.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="o-książce">O książce<a href="https://www.majdak.online/blog/czysty-kod-robert-martin-notatki#o-ksi%C4%85%C5%BCce" class="hash-link" aria-label="Bezpośredni link do O książce" title="Bezpośredni link do O książce" translate="no">​</a></h2>
+<p>Oryginał nosi tytuł <em>Clean Code: A Handbook of Agile Software Craftsmanship</em> (2009). Książka składa się z trzech części:</p>
+<ul>
+<li class=""><strong>Część I (rozdziały 1–13)</strong> — zasady i wzorce pisania czystego kodu: nazewnictwo, funkcje, komentarze, formatowanie, obsługa błędów, testy jednostkowe, klasy, systemy</li>
+<li class=""><strong>Część II (rozdziały 14–16)</strong> — analizy przypadków: Uncle Bob bierze realny kod i czyści go krok po kroku na oczach czytelnika</li>
+<li class=""><strong>Część III (rozdział 17)</strong> — katalog heurystyk i zapachów kodu, czyli lista rzeczy, na które warto zwracać uwagę przy code review</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notatki-z-rozdziałów">Notatki z rozdziałów<a href="https://www.majdak.online/blog/czysty-kod-robert-martin-notatki#notatki-z-rozdzia%C5%82%C3%B3w" class="hash-link" aria-label="Bezpośredni link do Notatki z rozdziałów" title="Bezpośredni link do Notatki z rozdziałów" translate="no">​</a></h2>
+<p>Każdy rozdział ma osobną stronę z praktycznym streszczeniem, przykładami kodu i wnioskami:</p>
+<table><thead><tr><th>#</th><th>Rozdział</th></tr></thead><tbody><tr><td>1</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/czysty-kod">Czysty kod</a></td></tr><tr><td>2</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/znaczace-nazwy">Znaczące nazwy</a></td></tr><tr><td>3</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/funkcje">Funkcje</a></td></tr><tr><td>4</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/komentarze">Komentarze</a></td></tr><tr><td>5</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/formatowanie">Formatowanie</a></td></tr><tr><td>6</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/obiekty-i-struktury">Obiekty i struktury danych</a></td></tr><tr><td>7</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/obsluga-bledow">Obsługa błędów</a></td></tr><tr><td>8</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/granice">Granice</a></td></tr><tr><td>9</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/testy-jednostkowe">Testy jednostkowe</a></td></tr><tr><td>10</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/klasy">Klasy</a></td></tr><tr><td>11</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/systemy">Systemy</a></td></tr><tr><td>12</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/powstawanie-projektu">Powstawanie projektu</a></td></tr><tr><td>13</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/wspolbieznosc">Współbieżność</a></td></tr><tr><td>14</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/udane-oczyszczanie">Udane oczyszczanie kodu</a></td></tr><tr><td>15</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/struktura-junit">Struktura biblioteki JUnit</a></td></tr><tr><td>16</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/przebudowa-serialdate">Przebudowa klasy SerialDate</a></td></tr><tr><td>17</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/zapachy-i-heurystyki">Zapachy kodu i heurystyki</a></td></tr><tr><td>A</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/dodatek-a-wspolbieznosc">Dodatek A: Współbieżność II</a></td></tr><tr><td>B</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/dodatek-b-serialdate">Dodatek B: org.jfree.date.SerialDate</a></td></tr><tr><td>—</td><td><a class="" href="https://www.majdak.online/docs/czysty-kod/epilog">Epilog</a></td></tr></tbody></table>
+<p>Albo przejdź od razu do <a class="" href="https://www.majdak.online/docs/category/czysty-kod">przeglądu wszystkich notatek</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="czego-się-spodziewać">Czego się spodziewać<a href="https://www.majdak.online/blog/czysty-kod-robert-martin-notatki#czego-si%C4%99-spodziewa%C4%87" class="hash-link" aria-label="Bezpośredni link do Czego się spodziewać" title="Bezpośredni link do Czego się spodziewać" translate="no">​</a></h2>
+<p>Notatki nie są recenzją — są skrótem do zastosowania. Każda strona zawiera:</p>
+<ul>
+<li class=""><strong>O co chodzi</strong> — tezę rozdziału w kilku zdaniach</li>
+<li class=""><strong>Kluczowe zasady</strong> — wypunktowane, bez lania wody</li>
+<li class=""><strong>Przykłady kodu</strong> — pary „przed i po" refaktoryzacji cytowane wprost z książki</li>
+<li class=""><strong>Praktyczne wnioski</strong> — co zmienić w swoim kodzie po przeczytaniu</li>
+</ul>
+<p>Przykłady są w Javie (język oryginalnej książki), ale zasady są uniwersalne — działają tak samo w TypeScript, Pythonie, PHP czy Go.</p>]]></content:encoded>
+            <category>Book Review</category>
+            <category>Tutorial</category>
+            <category>Kurs</category>
+            <category>Optimization</category>
+            <category>Dokumentacja</category>
+        </item>
         <item>
             <title><![CDATA[Specyfika Magento 2 i największe wyzwania testowe: Przewodnik dla QA]]></title>
             <link>https://www.majdak.online/blog/przewodnik-qa-magento-2</link>
@@ -1023,53 +1057,6 @@ W wielu projektach produkcyjnych gałąź <code>master</code> jest objęta <stro
             <category>Git</category>
             <category>GitHub Actions</category>
             <category>Semantic Release</category>
-        </item>
-        <item>
-            <title><![CDATA[Optymalizacja wydajności w narzędziach Cybersecurity – mój wkład w projekt ESP32Marauder]]></title>
-            <link>https://www.majdak.online/blog/esp32Marauder-update</link>
-            <guid>https://www.majdak.online/blog/esp32Marauder-update</guid>
-            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[W ramach wsparcia projektu open-source ESP32Marauder zająłem się analizą i przebudową mechanizmu zarządzania ustawieniami urządzenia. Choć z pozoru był to prosty element systemu, jego dotychczasowa implementacja skrywała poważny dług technologiczny, który negatywnie wpływał na działanie całego narzędzia. Postanowiłem to zmienić.]]></description>
-            <content:encoded><![CDATA[<p>W ramach wsparcia projektu open-source ESP32Marauder zająłem się analizą i przebudową mechanizmu zarządzania ustawieniami urządzenia. Choć z pozoru był to prosty element systemu, jego dotychczasowa implementacja skrywała poważny dług technologiczny, który negatywnie wpływał na działanie całego narzędzia. Postanowiłem to zmienić.</p>
-<p>Poniżej przedstawiam, na czym dokładnie polegała zmiana architektury kodu i dlaczego w systemach wbudowanych (ang. <em>embedded</em>) takich jak ESP32, unikanie niepotrzebnych operacji na pamięci ma kluczowe znaczenie.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="stara-architektura-wzorzec-read-and-deserialize">Stara architektura: Wzorzec "Read-and-Deserialize"<a href="https://www.majdak.online/blog/esp32Marauder-update#stara-architektura-wzorzec-read-and-deserialize" class="hash-link" aria-label="Bezpośredni link do Stara architektura: Wzorzec &quot;Read-and-Deserialize&quot;" title="Bezpośredni link do Stara architektura: Wzorzec &quot;Read-and-Deserialize&quot;" translate="no">​</a></h3>
-<p>Przed moimi zmianami system opierał się na architekturze bezpośredniego odczytu z parsowaniem w locie. Każde wywołanie funkcji pobierającej konfigurację, np. <code>loadSetting()</code>, powodowało utworzenie obiektu <code>DynamicJsonDocument</code> oraz pełną deserializację pliku konfiguracyjnego JSON.</p>
-<p>Ten model sprawdza się w aplikacjach o niskiej częstotliwości odczytu, jednak w ESP32Marauder był wysoce nieefektywny. W trybach aktywnych (takich jak pętle ataków czy sniffing) ustawienia odczytywane były <strong>nawet 20 razy na sekundę</strong>. Konsekwencje takiego podejścia były dotkliwe dla układu o ograniczonych zasobach:</p>
-<ul>
-<li class=""><strong>Wysoki "Heap Churn":</strong> Stała, powtarzalna alokacja i dealokacja bloków wielkości około 2 KB generowała ruch w pamięci sterty rzędu ~40-60 KB/s.</li>
-<li class=""><strong>Ryzyko "Out of Memory":</strong> Wspomniany <em>heap churn</em> prowadził do silnej fragmentacji sterty (heap fragmentation), co groziło nagłymi crashami układu podczas długotrwałych sesji pentestingowych.</li>
-<li class=""><strong>Opóźnienia CPU i wejścia/wyjścia (I/O):</strong> Ciągły narzut na system plików SPIFFS oraz procesor, który w pętli parsował ten sam tekst, spowalniał responsywność interfejsu. Również operacje przełączania flag (np. funkcja <code>toggleSetting()</code>) marnowały cykle procesora na zbędne parsowanie dokumentu JSON tylko po to, by sprawdzić aktualny stan przełącznika.</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="nowa-architektura-scentralizowany-ram-cache-o1">Nowa architektura: Scentralizowany RAM Cache ($O(1)$)<a href="https://www.majdak.online/blog/esp32Marauder-update#nowa-architektura-scentralizowany-ram-cache-o1" class="hash-link" aria-label="Bezpośredni link do Nowa architektura: Scentralizowany RAM Cache ($O(1)$)" title="Bezpośredni link do Nowa architektura: Scentralizowany RAM Cache ($O(1)$)" translate="no">​</a></h3>
-<p>Aby wyeliminować te wąskie gardła, przebudowałem mechanizm tak, aby uniezależnić bieżącą logikę programu od operacji dyskowych. Zamiast ciągłego parsowania plików wprowadziłem nową architekturę – <strong>scentralizowaną pamięć podręczną w RAM</strong>.</p>
-<p><strong>Na czym polega różnica w architekturze?</strong></p>
-<ol>
-<li class=""><strong>Płaska struktura danych w RAM:</strong> Wewnątrz klasy <code>Settings</code> (w pliku <code>settings.h</code>) zaimplementowałem strukturę <code>SettingsCache</code> przechowującą aktualne flagi konfiguracyjne, takie jak <code>SavePCAP</code>, <code>ForceProbe</code> czy ustawienia sieciowe <code>ClientSSID</code> i <code>ClientPW</code>.</li>
-<li class=""><strong>Jednorazowe parsowanie (Inicjalizacja):</strong> Plik JSON z ustawieniami jest pobierany i deserializowany wyłącznie <strong>jeden raz</strong> – w metodzie <code>begin()</code>, przy uruchomieniu urządzenia. Odpowiada za to nowa, wewnętrzna metoda <code>_buildCache()</code>, która przenosi dane z pliku tekstowego bezpośrednio do struktury w pamięci operacyjnej.</li>
-<li class=""><strong>Odczyt O(1):</strong> Najważniejsza zmiana nastąpiła w metodach dostępowych (<code>loadSetting()</code>). Obecnie, po zażądaniu zmiennej typu <code>bool</code> (np. <code>ForcePMKID</code>), metoda po prostu zwraca wartość ze struktury <code>_cache</code>. Przełożyło się to na <strong>zerową alokację na stercie</strong> w trakcie odczytu (zero heap allocation) oraz zniwelowanie czasu dostępu do złożoności $O(1)$.</li>
-<li class=""><strong>Zarządzanie stanem i spójność:</strong> Aby zapobiec sytuacji, w której pamięć RAM zawiera inne dane niż plik w pamięci Flash, zintegrowałem mechanizm odświeżania bufora z metodą <code>saveSetting()</code>. Zapis aktualizuje plik i natychmiast synchronizuje <em>cache</em>, utrzymując pełną spójność systemu. Funkcja <code>toggleSetting()</code> również działa teraz wydajniej – najpierw natychmiastowo weryfikuje aktualny stan w buforze RAM, po czym zleca zmianę.</li>
-</ol>
-<p><img decoding="async" loading="lazy" alt="Implementacja RAM cache w ESP32Marauder" src="https://www.majdak.online/assets/images/update-c1b4353586117451aba674e5fb5e9004.png" width="1401" height="905" class="img_ev3q"></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wpływ-na-stabilność-i-wydajność">Wpływ na stabilność i wydajność<a href="https://www.majdak.online/blog/esp32Marauder-update#wp%C5%82yw-na-stabilno%C5%9B%C4%87-i-wydajno%C5%9B%C4%87" class="hash-link" aria-label="Bezpośredni link do Wpływ na stabilność i wydajność" title="Bezpośredni link do Wpływ na stabilność i wydajność" translate="no">​</a></h3>
-<p>Odejście od naiwnego odczytu na rzecz zarządzania cachem w RAM dało wymierne efekty w działaniu narzędzia:</p>
-<ul>
-<li class=""><strong>Całkowita eliminacja zbędnych alokacji sterty (~40-60 KB/s)</strong> i odciążenie procesora, ponieważ logika ataków oraz UI odczytują teraz konfigurację bezpośrednio z pamięci RAM.</li>
-<li class=""><strong>Wydłużenie bezawaryjnego czasu pracy.</strong> Usunięcie fragmentacji pamięci drastycznie obniżyło ryzyko błędów typu <em>Out of Memory</em>.</li>
-<li class=""><strong>Znaczne przyspieszenie działania.</strong> Skrócenie czasu odczytu sprawiło, że zarówno sam interfejs, jak i pętle ataków reagują błyskawicznie.</li>
-<li class="">Układy takie jak ESP32-S2/S3 bez problemu potrafią teraz przetrwać długotrwałe, intensywne sesje skanowania i wysyłania pakietów.</li>
-</ul>
-<p>Z perspektywy oprogramowania systemów wbudowanych, jest to klasyczny przykład tego, jak przemyślany kompromis (zajęcie ułamka wolnej pamięci RAM przez płaską strukturę w zamian za zwolnienie CPU/IO i ochronę sterty) może fundamentalnie poprawić stabilność projektu.</p>
-<p>Zapraszam do zapoznania się ze szczegółami zmian w zgłoszeniu na GitHub: <a href="https://github.com/justcallmekoko/ESP32Marauder/pull/1205#issuecomment-4225971653" target="_blank" rel="noopener noreferrer" class="">Pull Request #1205</a>.</p>
-<p>#Cybersecurity #OpenSource #ESP32 #Pentesting #Embedded #Cpp #Optimization #FlipperZero</p>]]></content:encoded>
-            <category>ESP32</category>
-            <category>Cybersecurity</category>
-            <category>Penetration Testing</category>
-            <category>Embedded</category>
-            <category>Marauder</category>
-            <category>Flipper Zero</category>
-            <category>Optimization</category>
-            <category>C++</category>
-            <category>Open Source</category>
         </item>
     </channel>
 </rss>
