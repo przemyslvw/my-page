@@ -1,7 +1,7 @@
 ---
 id: "ssrf-rce"
 title: "🚨 Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)"
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 # 🚨 Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)

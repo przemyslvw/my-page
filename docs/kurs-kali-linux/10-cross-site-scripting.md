@@ -1,7 +1,7 @@
 ---
 id: "cross-site-scripting"
 title: "🎯 Cross-Site Scripting (XSS)"
-sidebar_position: 9
+sidebar_position: 10
 ---
 
 # 🎯 Cross-Site Scripting (XSS)

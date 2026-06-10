@@ -1,7 +1,7 @@
 ---
 id: "business-logic-race-conditions"
 title: "🧩 Logika biznesowa i Race Conditions"
-sidebar_position: 18
+sidebar_position: 19
 ---
 
 # 🧩 Logika biznesowa i Race Conditions

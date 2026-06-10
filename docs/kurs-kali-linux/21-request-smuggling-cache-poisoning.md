@@ -1,7 +1,7 @@
 ---
 id: "request-smuggling-cache-poisoning"
 title: "🚇 [Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning"
-sidebar_position: 20
+sidebar_position: 21
 ---
 
 # 🚇 [Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning

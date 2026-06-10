@@ -1,7 +1,7 @@
 ---
 id: "insecure-deserialization"
 title: "🧬 Insecure Deserialization"
-sidebar_position: 16
+sidebar_position: 17
 ---
 
 # 🧬 Insecure Deserialization

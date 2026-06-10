@@ -1,7 +1,7 @@
 ---
 id: "llm-app-security"
 title: "🤖 Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)"
-sidebar_position: 26
+sidebar_position: 28
 ---
 
 # 🤖 Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)
@@ -113,4 +113,4 @@ garak --model_type openai --model_name gpt-4 --probes promptinject
 
 ---
 
-Aplikacje LLM to nowa, dynamiczna powierzchnia ataku łącząca klasyczne podatności webowe z ryzykami specyficznymi dla AI. Kolejnym krokiem będą **Case Studies i ćwiczenia praktyczne**! 🚀
+Aplikacje LLM to nowa, dynamiczna powierzchnia ataku łącząca klasyczne podatności webowe z ryzykami specyficznymi dla AI. Kolejnym krokiem będą **Podatne zależności, SCA i DevSecOps**! 🚀

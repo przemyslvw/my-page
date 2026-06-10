@@ -1,7 +1,7 @@
 ---
 id: "security-misconfigurations"
 title: "⚠️ Security Misconfigurations i ataki na pliki"
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # ⚠️ Security Misconfigurations i ataki na pliki

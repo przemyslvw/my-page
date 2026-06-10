@@ -1,7 +1,7 @@
 ---
 id: "case-studies-practice"
 title: "🛠️ Case Studies i ćwiczenia praktyczne"
-sidebar_position: 27
+sidebar_position: 30
 ---
 
 # 🛠️ Case Studies i ćwiczenia praktyczne

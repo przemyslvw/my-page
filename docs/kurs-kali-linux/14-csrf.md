@@ -1,7 +1,7 @@
 ---
 id: "csrf"
 title: "🎣 Cross-Site Request Forgery (CSRF)"
-sidebar_position: 13
+sidebar_position: 14
 ---
 
 # 🎣 Cross-Site Request Forgery (CSRF)

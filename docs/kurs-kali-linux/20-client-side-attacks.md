@@ -1,7 +1,7 @@
 ---
 id: "client-side-attacks"
 title: "🖱️ Ataki po stronie klienta (CORS, Clickjacking, Prototype Pollution, postMessage)"
-sidebar_position: 19
+sidebar_position: 20
 ---
 
 # 🖱️ Ataki po stronie klienta (Client-Side)

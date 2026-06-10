@@ -1,7 +1,7 @@
 ---
 id: "xxe"
 title: "📄 XML External Entity (XXE)"
-sidebar_position: 14
+sidebar_position: 15
 ---
 
 # 📄 XML External Entity (XXE)

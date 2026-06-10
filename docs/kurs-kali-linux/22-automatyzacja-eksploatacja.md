@@ -1,7 +1,7 @@
 ---
 id: "automatyzacja-eksploatacja"
 title: "🤖 Automatyzacja i eksploatacja"
-sidebar_position: 21
+sidebar_position: 22
 ---
 
 # 🤖 Automatyzacja i eksploatacja

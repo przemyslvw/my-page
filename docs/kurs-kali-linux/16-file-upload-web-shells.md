@@ -1,7 +1,7 @@
 ---
 id: "file-upload-web-shells"
 title: "📤 File Upload Vulnerabilities i Web Shells"
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 # 📤 File Upload Vulnerabilities i Web Shells

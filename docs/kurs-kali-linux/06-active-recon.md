@@ -99,4 +99,4 @@ Wykrywa CMS-y, serwery, frameworki i biblioteki JS.
 
 ---
 
-Active Recon dostarcza krytycznych informacji o infrastrukturze celu. Kolejnym krokiem będzie analiza i eksploatacja podatności! 🚀
+Active Recon dostarcza krytycznych informacji o infrastrukturze celu. Kolejnym krokiem będzie **Enumeracja subdomen i Subdomain Takeover**! 🚀
