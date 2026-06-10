@@ -115,4 +115,65 @@ Zabezpieczenia:
 
 ---
 
+## 🌊 Password Spraying
+
+Klasyczny brute-force (wiele haseł dla jednego konta) łatwo wykryć i zablokować account lockoutem. **Password spraying** odwraca logikę: jedno popularne hasło testowane przeciw wielu kontom — poniżej progu blokady per konto.
+
+```bash
+# Hydra – spray jednego hasła na listę loginów
+hydra -L users.txt -p 'Winter2024!' example.com http-post-form \
+  "/login.php:user=^USER^&pass=^PASS^:F=incorrect" -t 1 -w 30
+```
+
+Flagi `-t 1 -w 30` (1 wątek, 30 s przerwa) spowalniają ruch, żeby nie wyzwolić alertów. Dobre hasła do sprayingu: `Season+rok`, `Firma123!`, `Welcome1`.
+
+---
+
+## 🔧 Medusa – brute-force z kontrolą hałasu
+
+Medusa to alternatywa dla Hydry z przydatnymi flagami do ograniczania hałasu:
+
+```bash
+# -e ns: testuj też puste hasło (n) i login=hasło (s)
+# -F: zatrzymaj się po pierwszym trafieniu
+medusa -h 192.168.1.10 -U users.txt -P passwords.txt -M http \
+  -m DIR:/login -e ns -F
+```
+
+Parametry:
+- `-e ns` — dodatkowo sprawdza login bez hasła i login jako hasło
+- `-F` — stop po pierwszym sukcesie (cichy, szybki atak)
+- `-M ssh` / `-M ftp` — moduły dla innych protokołów
+
+---
+
+## 📋 Generowanie słowników (crunch)
+
+Gdy znasz politykę haseł (długość, zestaw znaków), crunch generuje precyzyjny słownik zamiast pobierania generycznych list:
+
+```bash
+# hasła 8 znaków z liter i cyfr
+crunch 8 8 abcdefghijklmnopqrstuvwxyz0123456789 -o wordlist.txt
+
+# wzorzec: wielka, 5 małych, 2 cyfry (np. Klient01)
+crunch 8 8 -t @@@@@@@@ -p ABCDEFGHIJKLMNOPQRSTUVWXYZ \
+  abcdefghijklmnopqrstuvwxyz 0123456789
+```
+
+Przydatne gdy cel ma niestandardową politykę — rockyou.txt będzie zbyt duże i zbyt przypadkowe.
+
+---
+
+## ⚠️ Online vs offline — kiedy uważać
+
+| Atak | Gdzie | Ryzyko detekcji | Limit szybkości |
+|------|-------|-----------------|-----------------|
+| Brute-force HTTP | sieć / aplikacja | **Wysoki** — logi, WAF, lockout | rate limit, captcha |
+| Password spraying | sieć / aplikacja | **Średni** (wolny) | lockout per konto |
+| Hashcat/John | lokalnie | **Brak** — offline | tylko sprzęt |
+
+Zawsze ustal z klientem limit prób przed testem online — agresywny brute może zablokować konta produkcyjne. Po przekroczeniu progu lockoutu atak staje się incydentem DoS.
+
+---
+
 Podatności w uwierzytelnianiu są jednym z najpoważniejszych zagrożeń dla aplikacji webowych. Kolejnym krokiem będzie analiza podatności **Cross-Site Scripting (XSS)**! 🎯

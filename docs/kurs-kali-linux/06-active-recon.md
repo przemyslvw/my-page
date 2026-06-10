@@ -51,6 +51,41 @@ Używane w sytuacji, gdy host nie odpowiada na ping.
 
 Więcej technik Nmap: [https://nmap.org/book/man.html](https://nmap.org/book/man.html)
 
+### **7️⃣ Nmap Scripting Engine (NSE)**
+NSE to wbudowany silnik skryptowy Nmapa — pozwala automatycznie wykrywać podatności podczas skanowania, bez osobnych narzędzi.
+
+Kategorie skryptów:
+```bash
+# Skrypty wykrywające podatności (wolniejsze, bardziej agresywne)
+nmap --script vuln example.com
+
+# Skrypty domyślne – bezpieczne, szerokie informacje
+nmap -sV --script default example.com
+
+# Skrypty „bezpieczne" – nie powodują skutków ubocznych
+nmap --script safe example.com
+```
+
+Przykłady konkretnych skryptów:
+```bash
+# Wykrycie podatności Heartbleed w SSL
+nmap -p 443 --script ssl-heartbleed example.com
+
+# Enumeracja metod HTTP
+nmap -p 80,443 --script http-methods example.com
+
+# Wykrycie domyślnych danych logowania
+nmap -p 80 --script http-default-accounts example.com
+
+# Sprawdzenie nagłówków bezpieczeństwa HTTP
+nmap -p 80,443 --script http-security-headers example.com
+```
+
+Połączone skanowanie z NSE i wykrywaniem wersji:
+```bash
+nmap -sV --script "vuln and not exploit" -p 80,443,8080 example.com
+```
+
 ---
 
 ## 🔎 Fuzzing adresów URL (ffuf, gobuster)

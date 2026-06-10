@@ -105,6 +105,43 @@ john --incremental hashes.txt                    # bruteforce inkrementalny
 
 ---
 
+## 🌐 Wordlisty celowane (CeWL i crunch)
+
+Gdy rockyou.txt jest zbyt ogólny, warto wygenerować słownik dostosowany do konkretnego celu.
+
+### **CeWL – słownik ze strony atakowanego**
+CeWL crawluje stronę internetową i buduje słownik z unikalnych słów — ludzie często używają nazw firmowych, produktów lub terminologii swojej branży w hasłach:
+
+```bash
+# Głębokość 3, minimalna długość słowa 6 znaków
+cewl -d 3 -m 6 http://example.com -w cewl_wordlist.txt
+
+# Dołącz też e-maile znalezione na stronie
+cewl -d 2 -m 6 --email http://example.com -w cewl_wordlist.txt
+```
+
+Użycie z Hashcatem:
+```bash
+hashcat -m 0 -a 0 hashes.txt cewl_wordlist.txt -r best64.rule
+```
+
+### **crunch – słownik według polityki haseł**
+Gdy znasz dokładną politykę (długość, zestaw znaków), crunch generuje precyzyjny brute-force zamiast losowych list:
+
+```bash
+# 8 znaków: małe litery + cyfry
+crunch 8 8 abcdefghijklmnopqrstuvwxyz0123456789 -o crunch8.txt
+
+# Wzorzec: wielka, 5 małych, 2 cyfry (np. Klient01)
+crunch 8 8 -t @@@@@%^^ \
+  -o wzorzec.txt
+# @ = mała litera, % = cyfra, ^ = znak specjalny, , = wielka litera
+```
+
+Połączenie CeWL + reguły Hashcat to często skuteczniejsze podejście niż samo crunch dla typowych haseł.
+
+---
+
 ## 🔗 Powiązanie z post-exploitation
 
 Typowy łańcuch:

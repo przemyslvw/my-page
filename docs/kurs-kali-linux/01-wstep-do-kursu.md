@@ -26,6 +26,25 @@ Kurs jest przeznaczony dla:
 
 Nie musisz być ekspertem – wystarczy podstawowa znajomość systemu Linux i sieci komputerowych.
 
+## 🗂️ Typy audytów bezpieczeństwa
+
+Nie każde zaangażowanie wygląda tak samo. Przed zleceniem klient i pentester muszą ustalić, jaki typ audytu jest potrzebny:
+
+| Typ | Co obejmuje | Kiedy stosować |
+|-----|-------------|----------------|
+| **Vulnerability Assessment** | Automatyczne skanowanie, raport podatności bez exploitacji | Szybki przegląd stanu, audyt zgodności |
+| **Compliance Assessment** | Weryfikacja zgodności z normą (ISO 27001, PCI DSS, HIPAA) | Certyfikacja, wymogi prawne |
+| **Traditional Pentest** | Pełna exploitacja, eskalacja, post-exploitation | Weryfikacja realnego ryzyka |
+| **Application Assessment** | Skupiony na jednej aplikacji webowej/mobilnej/API | OWASP Top 10, code review + test |
+
+### Perspektywa atakującego (zakres wiedzy)
+
+- **Black Box** — pentester nie ma żadnej wiedzy wstępnej, symuluje zewnętrznego atakującego
+- **Grey Box** — częściowa wiedza (np. konto testowe, schemat API), realistyczny scenariusz
+- **White Box** — pełny dostęp (kod źródłowy, dokumentacja, dane dostępowe), maksymalna głębokość analizy
+
+---
+
 ## ⚖️ Etyka i legalność testów penetracyjnych
 Testy penetracyjne muszą być przeprowadzane zgodnie z prawem i etyką. Pamiętaj o następujących zasadach:
 

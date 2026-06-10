@@ -22,6 +22,28 @@ Najprostszym i najbezpieczniejszym sposobem na pracę z Kali Linux jest instalac
 1. Przejdź na oficjalną stronę Kali Linux: [https://www.kali.org/downloads/](https://www.kali.org/downloads/)
 2. Pobierz wersję **Kali Linux Installer** (ISO) lub gotowy obraz do **VirtualBox/VMware**.
 
+#### **Weryfikacja sumy kontrolnej SHA256**
+Przed instalacją zweryfikuj integralność pobranego obrazu — skompromitowany lub uszkodzony ISO może zawierać malware lub nie zainstalować się poprawnie.
+
+Na stronie pobierania Kali znajdziesz plik z sumami SHA256. Weryfikacja na Linux/macOS:
+```bash
+# Pobierz plik z sumami (przykładowa nazwa)
+sha256sum -c SHA256SUMS --ignore-missing
+```
+
+Lub ręcznie porównaj:
+```bash
+sha256sum kali-linux-2024.1-installer-amd64.iso
+# Porównaj wynik z wartością opublikowaną na stronie kali.org
+```
+
+Na Windows (PowerShell):
+```powershell
+Get-FileHash kali-linux-2024.1-installer-amd64.iso -Algorithm SHA256
+```
+
+Jeśli suma się nie zgadza — pobierz ISO ponownie, nie instaluj.
+
 ### **2️⃣ Instalacja w VirtualBox**
 1. Otwórz **VirtualBox** i kliknij `Nowa`.
 2. Wprowadź nazwę maszyny, wybierz `Typ: Linux` oraz `Wersja: Debian (64-bit)`.
