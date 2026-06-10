@@ -127,7 +127,7 @@ Dane testowe w Magento muszą być całkowicie izolowane. Najlepszą praktyką j
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aktualności-20252026">🗓️ Aktualności 2025–2026<a href="https://www.majdak.online/blog/system-link-16#%EF%B8%8F-aktualno%C5%9Bci-20252026" class="hash-link" aria-label="Bezpośredni link do 🗓️ Aktualności 2025–2026" title="Bezpośredni link do 🗓️ Aktualności 2025–2026" translate="no">​</a></h2>
 <p><strong>Ukraina w ekosystemie cyfrowego pola walki NATO.</strong> W 2025 roku Ukraina oficjalnie zintegrowała swoje systemy dowodzenia z siecią Link 16 NATO, co umożliwia jej siłom koordynację misji z platformami sojuszniczymi w czasie rzeczywistym. To przełomowy krok — wcześniej ukraińskie jednostki działały na osobnych sieciach wymagających ręcznej translacji danych.</p>
 <p><strong>Satelitarne rozszerzenie zasięgu.</strong> Trwają testy przekazywania sygnału Link 16 przez konstelację satelitarną SDA (Space Development Agency). Norwegia jako pierwsza przeprowadziła próby z pełnym łańcuchem kryptograficznym NATO, co potencjalnie eliminuje największe ograniczenie systemu — zasięg LOS ~500 km.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-kluczowe-cechy-link-16">🔍 Kluczowe cechy Link 16<a href="https://www.majdak.online/blog/system-link-16#-kluczowe-cechy-link-16" class="hash-link" aria-label="Bezpośredni link do 🔍 Kluczowe cechy Link 16" title="Bezpośredni link do 🔍 Kluczowe cechy Link 16" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="kluczowe-cechy-link-16">Kluczowe cechy Link 16<a href="https://www.majdak.online/blog/system-link-16#kluczowe-cechy-link-16" class="hash-link" aria-label="Bezpośredni link do Kluczowe cechy Link 16" title="Bezpośredni link do Kluczowe cechy Link 16" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>Szyfrowana i odporna na zakłócenia transmisja</strong> – wykorzystuje metody rozpraszania widma (FHSS – Frequency-Hopping Spread Spectrum) i szyfrowania danych.</li>
 <li class=""><strong>Niska latencja</strong> – umożliwia niemal natychmiastowe przekazywanie informacji taktycznych.</li>
@@ -152,14 +152,14 @@ Dane testowe w Magento muszą być całkowicie izolowane. Najlepszą praktyką j
 <li class=""><strong>Wozy bojowe i centra dowodzenia</strong>,</li>
 <li class=""><strong>Drony i bezzałogowe statki powietrzne</strong>.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wyzwania-i-ograniczenia">📡 Wyzwania i ograniczenia<a href="https://www.majdak.online/blog/system-link-16#-wyzwania-i-ograniczenia" class="hash-link" aria-label="Bezpośredni link do 📡 Wyzwania i ograniczenia" title="Bezpośredni link do 📡 Wyzwania i ograniczenia" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="wyzwania-i-ograniczenia">Wyzwania i ograniczenia<a href="https://www.majdak.online/blog/system-link-16#wyzwania-i-ograniczenia" class="hash-link" aria-label="Bezpośredni link do Wyzwania i ograniczenia" title="Bezpośredni link do Wyzwania i ograniczenia" translate="no">​</a></h2>
 <p>Pomimo swoich zalet, Link 16 ma również pewne ograniczenia:</p>
 <ul>
 <li class=""><strong>Ograniczony zasięg LOS</strong> – standardowa łączność naziemna sięga ok. 300–500 mil morskich i wymaga bezpośredniej widoczności między nadajnikiem a odbiorcą. Protokół <strong>JREAP-C</strong> częściowo rozwiązuje ten problem, tunelując sygnał przez sieci IP i łącza satelitarne — ale kosztem dodatkowej latencji i złożoności zarządzania siecią.</li>
 <li class=""><strong>Wysokie wymagania energetyczne</strong> – system wymaga dużej mocy do skutecznego działania.</li>
 <li class=""><strong>Złożoność integracji</strong> – wymagane jest odpowiednie dostosowanie platform i zgodność z protokołami NATO.</li>
 </ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-podobne-systemy">🔄 Podobne systemy<a href="https://www.majdak.online/blog/system-link-16#-podobne-systemy" class="hash-link" aria-label="Bezpośredni link do 🔄 Podobne systemy" title="Bezpośredni link do 🔄 Podobne systemy" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="podobne-systemy">Podobne systemy<a href="https://www.majdak.online/blog/system-link-16#podobne-systemy" class="hash-link" aria-label="Bezpośredni link do Podobne systemy" title="Bezpośredni link do Podobne systemy" translate="no">​</a></h2>
 <p>Oprócz Link 16 istnieją inne wojskowe systemy wymiany danych, m.in.:</p>
 <ul>
 <li class=""><strong>Link 11</strong> – starszy system komunikacji taktycznej, stosowany głównie przez marynarkę wojenną.</li>
@@ -718,7 +718,7 @@ Ponieważ wyeliminowaliśmy proste błędy syntaktyczne (jak SQLi), a na ich mie
 <li class=""><strong>Job 2 (Ciężkie działo)</strong>: Zależności bazy danych, ściągnięcie i zcache'owanie binarek dla przeglądarek (z użyciem <code>actions/cache</code>) i pełne testy E2E (Playwright). Dodatkowo zablokowaliśmy uruchamianie powolnych testów dla czystych merge'y do mastera za pomocą warunku: <code>if: github.event_name == 'pull_request'</code>.</li>
 </ul>
 <p>Teraz całkowity czas Pipeline'u nie równa się <code>Czas(Lint) + Czas(Unit) + Czas(E2E)</code>, lecz po prostu <code>Max(Czas Szybkich Zadań, Czas E2E)</code>. Przyspieszenie zauważysz natychmiastowo.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-krok-2-prawdziwe-devsecops--trivy-jako-strażnik-bramy">🔐 Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy<a href="https://www.majdak.online/blog/ci-cd-devsecops-github-actions#-krok-2-prawdziwe-devsecops--trivy-jako-stra%C5%BCnik-bramy" class="hash-link" aria-label="Bezpośredni link do 🔐 Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy" title="Bezpośredni link do 🔐 Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="krok-2-prawdziwe-devsecops--trivy-jako-strażnik-bramy">Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy<a href="https://www.majdak.online/blog/ci-cd-devsecops-github-actions#krok-2-prawdziwe-devsecops--trivy-jako-stra%C5%BCnik-bramy" class="hash-link" aria-label="Bezpośredni link do Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy" title="Bezpośredni link do Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy" translate="no">​</a></h2>
 <p>Zamiast marnować minuty wirtualnych maszyn w GitHub Actions na osobne budowanie kontenerów specjalnie do audytu bezpieczeństwa, połączyliśmy oba procesy w jeden płynny mechanizm deploymentu. Zbudowaliśmy bramkę zabezpieczającą.</p>
 <p>Użyliśmy wtyczki <code>docker/build-push-action</code>, ale ze zmienioną kluczową flagą: usunęliśmy domyślne oznaczanie z <code>push: true</code> i wstawiliśmy parametr <code>load: true</code>.</p>
 <p>Sprawia to, że Docker buduje nasz docelowy kontener do pamięci maszyny CI, ale wstrzymuje jego wypchnięcie do publicznego rejestru (GHCR/DockerHub).</p>

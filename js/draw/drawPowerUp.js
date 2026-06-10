@@ -41,7 +41,7 @@ export function drawPowerUp(powerup) {
     ctx.font = 'bold 12px Arial';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText('⚡', 0, 2);
+    ctx.fillText('', 0, 2);
   } else {
     // Default health powerup (blue)
     ctx.fillStyle = '#0088ff';
