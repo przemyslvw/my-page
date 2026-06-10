@@ -7,27 +7,27 @@ description: "Streszczenie: Rozdział 5: Formatowanie — Czysty Kod, Robert C. 
 ## Rozdział 5: Formatowanie – Profesjonalna Komunikacja w Kodzie
 
 ### O co chodzi w tej sekcji
-Główną tezą Roberta C. Martina jest stwierdzenie, że **formatowanie kodu służy komunikacji**, a sprawna komunikacja jest najważniejszym obowiązkiem profesjonalnego programisty [1]. Czytelność kodu ma bezpośredni wpływ na łatwość jego utrzymania i rozszerzania w przyszłości, ponieważ styl i dyscyplina zapisu przetrwają w projekcie znacznie dłużej niż konkretne fragmenty logiki biznesowej [1].
+Główną tezą Roberta C. Martina jest stwierdzenie, że **formatowanie kodu służy komunikacji**, a sprawna komunikacja jest najważniejszym obowiązkiem profesjonalnego programisty. Czytelność kodu ma bezpośredni wpływ na łatwość jego utrzymania i rozszerzania w przyszłości, ponieważ styl i dyscyplina zapisu przetrwają w projekcie znacznie dłużej niż konkretne fragmenty logiki biznesowej.
 
 ---
 
 ### Kluczowe zasady i reguły
 
 #### Formatowanie pionowe
-*   **Metafora gazety:** Plik źródłowy powinien przypominać artykuł prasowy – na samej górze znajduje się nagłówek (nazwa klasy) informujący o temacie, następnie algorytmy wysokiego poziomu, a im niżej schodzimy, tym więcej pojawia się szczegółów implementacyjnych [2].
-*   **Odstępy pionowe:** Myśli i koncepcje powinny być oddzielone pustymi wierszami [3]. Każdy pusty wiersz to sygnał wzrokowy dla czytelnika, że zaczyna się nowa, odrębna koncepcja (np. nowa metoda lub grupa zmiennych) [3].
-*   **Gęstość pionowa:** Wiersze kodu, które są ze sobą ściśle powiązane (np. zmienne instancyjne klasy), powinny znajdować się blisko siebie, bez zbędnych komentarzy czy pustych linii pomiędzy nimi [4].
+*   **Metafora gazety:** Plik źródłowy powinien przypominać artykuł prasowy – na samej górze znajduje się nagłówek (nazwa klasy) informujący o temacie, następnie algorytmy wysokiego poziomu, a im niżej schodzimy, tym więcej pojawia się szczegółów implementacyjnych.
+*   **Odstępy pionowe:** Myśli i koncepcje powinny być oddzielone pustymi wierszami. Każdy pusty wiersz to sygnał wzrokowy dla czytelnika, że zaczyna się nowa, odrębna koncepcja (np. nowa metoda lub grupa zmiennych).
+*   **Gęstość pionowa:** Wiersze kodu, które są ze sobą ściśle powiązane (np. zmienne instancyjne klasy), powinny znajdować się blisko siebie, bez zbędnych komentarzy czy pustych linii pomiędzy nimi.
 *   **Zasada bliskości (Odległość pionowa):**
-    *   **Deklaracje zmiennych:** Powinny znajdować się jak najbliżej miejsca ich użycia [5].
-    *   **Zmienne instancyjne:** W języku Java powinny być zgrupowane na początku klasy [6].
-    *   **Funkcje zależne:** Jeśli jedna funkcja wywołuje inną, powinny znajdować się blisko siebie w pionie, przy czym funkcja wywołująca powinna być nad wywoływaną [7].
-*   **Rozmiar pliku:** Optymalna wielkość pliku to około 200 wierszy, przy czym absolutna górna granica powinna wynosić 500 wierszy [8].
+    *   **Deklaracje zmiennych:** Powinny znajdować się jak najbliżej miejsca ich użycia.
+    *   **Zmienne instancyjne:** W języku Java powinny być zgrupowane na początku klasy.
+    *   **Funkcje zależne:** Jeśli jedna funkcja wywołuje inną, powinny znajdować się blisko siebie w pionie, przy czym funkcja wywołująca powinna być nad wywoływaną.
+*   **Rozmiar pliku:** Optymalna wielkość pliku to około 200 wierszy, przy czym absolutna górna granica powinna wynosić 500 wierszy.
 
 #### Formatowanie poziome
-*   **Długość wiersza:** Należy unikać konieczności przewijania ekranu w prawo [9]. Autor sugeruje limit **120 znaków** na wiersz [9].
-*   **Odstępy poziome:** Używamy spacji do oddzielenia operatorów przypisania od operandów (w celu ich wyróżnienia) oraz po przecinkach w listach argumentów [10]. Nie dodajemy spacji między nazwą funkcji a nawiasem otwierającym, ponieważ są one ze sobą ściśle związane [10].
-*   **Wcięcia (Indentation):** Są kluczowe dla wizualizacji hierarchii kodu [11]. Pozwalają programiście szybko przeskakiwać fragmenty zakresów (np. instrukcje `if` lub `while`), które go w danej chwili nie interesują [12].
-*   **Brak wyrównywania w kolumnach:** Nie należy wyrównywać nazw zmiennych ani wartości przypisań w kolumnach. Taki zabieg odciąga wzrok od istotnych informacji i jest zazwyczaj usuwany przez automatyczne formattery kodu [13].
+*   **Długość wiersza:** Należy unikać konieczności przewijania ekranu w prawo. Autor sugeruje limit **120 znaków** na wiersz.
+*   **Odstępy poziome:** Używamy spacji do oddzielenia operatorów przypisania od operandów (w celu ich wyróżnienia) oraz po przecinkach w listach argumentów. Nie dodajemy spacji między nazwą funkcji a nawiasem otwierającym, ponieważ są one ze sobą ściśle związane.
+*   **Wcięcia (Indentation):** Są kluczowe dla wizualizacji hierarchii kodu. Pozwalają programiście szybko przeskakiwać fragmenty zakresów (np. instrukcje `if` lub `while`), które go w danej chwili nie interesują.
+*   **Brak wyrównywania w kolumnach:** Nie należy wyrównywać nazw zmiennych ani wartości przypisań w kolumnach. Taki zabieg odciąga wzrok od istotnych informacji i jest zazwyczaj usuwany przez automatyczne formattery kodu.
 
 ---
 
@@ -61,7 +61,7 @@ public class ReporterConfig {
   }
 }
 ```
-Dzięki takiemu formatowaniu klasę można objąć wzrokiem bez przemieszczania go po kodzie w poszukiwaniu sensu [14].
+Dzięki takiemu formatowaniu klasę można objąć wzrokiem bez przemieszczania go po kodzie w poszukiwaniu sensu.
 
 #### Zależności funkcji w pionie
 Funkcja wywołująca powinna znajdować się nad wywoływaną (dobrze):
@@ -82,7 +82,7 @@ private String getPageNameOrDefault(Request request, String defaultPageName) {
   return pageName;
 }
 ```
-Taki układ tworzy naturalny przepływ programu od ogółu do szczegółu [7, 15].
+Taki układ tworzy naturalny przepływ programu od ogółu do szczegółu.
 
 #### Wyrównywanie poziome (czego nie robić)
 Wyrównywanie w kolumnach jest nieużyteczne i maskuje problemy projektowe (źle):
@@ -107,7 +107,7 @@ public class FitNesseExpediter implements ResponseSender {
   private FitNesseContext context;
 }
 ```
-Jeśli lista zmiennych jest tak długa, że kusi jej wyrównanie, to problemem jest zbyt duża klasa, a nie brak wyrównania [13].
+Jeśli lista zmiennych jest tak długa, że kusi jej wyrównanie, to problemem jest zbyt duża klasa, a nie brak wyrównania.
 
 #### Łamanie wcięć
 Nawet w krótkich instrukcjach nie należy „upychać” kodu w jednym wierszu (źle):
@@ -134,9 +134,9 @@ public class CommentWidget extends TextWidget {
 
 ### Praktyczne wnioski
 
-1.  **Przestań traktować formatowanie jako sprawę drugorzędną.** Kod, który „tylko działa”, ale jest nieczytelny, jest nieprofesjonalny i generuje dług techniczny [1].
-2.  **Ustal z zespołem jeden wspólny standard.** Nie ma znaczenia, gdzie stawiacie klamry, dopóki wszyscy robią to identycznie. Spójność stylu w projekcie buduje zaufanie czytelnika [16].
-3.  **Skonfiguruj formatter w IDE.** Wykorzystaj narzędzia automatyczne, aby wymuszały ustalone zasady zespołowe przy każdym zapisie pliku [16].
-4.  **Stosuj zasadę bliskości.** Deklaruj zmienne tam, gdzie ich używasz, a nie na początku każdej funkcji „na zapas” [5].
-5.  **Dbaj o hierarchię pionową.** Pisz kod tak, aby czytało się go od góry do dołu. Jeśli musisz skakać między początkiem a końcem pliku, by zrozumieć prosty algorytm, to formatowanie pionowe jest do poprawy [17].
-6.  **Usuwaj martwy kod i zbędny szum.** Puste konstruktory, nieużywane zmienne i komentarze typu „zwiększenie i” zaciemniają obraz i utrudniają komunikację [18, 19].
+1.  **Przestań traktować formatowanie jako sprawę drugorzędną.** Kod, który „tylko działa”, ale jest nieczytelny, jest nieprofesjonalny i generuje dług techniczny.
+2.  **Ustal z zespołem jeden wspólny standard.** Nie ma znaczenia, gdzie stawiacie klamry, dopóki wszyscy robią to identycznie. Spójność stylu w projekcie buduje zaufanie czytelnika.
+3.  **Skonfiguruj formatter w IDE.** Wykorzystaj narzędzia automatyczne, aby wymuszały ustalone zasady zespołowe przy każdym zapisie pliku.
+4.  **Stosuj zasadę bliskości.** Deklaruj zmienne tam, gdzie ich używasz, a nie na początku każdej funkcji „na zapas”.
+5.  **Dbaj o hierarchię pionową.** Pisz kod tak, aby czytało się go od góry do dołu. Jeśli musisz skakać między początkiem a końcem pliku, by zrozumieć prosty algorytm, to formatowanie pionowe jest do poprawy.
+6.  **Usuwaj martwy kod i zbędny szum.** Puste konstruktory, nieużywane zmienne i komentarze typu „zwiększenie i” zaciemniają obraz i utrudniają komunikację.

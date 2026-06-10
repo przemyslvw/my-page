@@ -7,21 +7,21 @@ description: "Streszczenie: Dodatek A: Współbieżność II — Czysty Kod, Rob
 ## Dodatek A: Współbieżność II – Praktyczne Podsumowanie
 
 ### 1. O co chodzi w tej sekcji
-Główną tezą autora jest to, że **współbieżność jest zbyt złożona, aby mieszać ją z logiką biznesową**, dlatego zarządzanie wątkami musi być odseparowane i zamknięte w dedykowanych klasach zgodnie z Zasadą Pojedynczej Odpowiedzialności (SRP) [1, 2]. Sekcja ta udowadnia, że nawet proste operacje w Javie nie są atomowe na poziomie kodu bajtowego, co przy braku odpowiedniej struktury i testowania prowadzi do błędów niemożliwych do powtórzenia w kontrolowanych warunkach [3, 4].
+Główną tezą autora jest to, że **współbieżność jest zbyt złożona, aby mieszać ją z logiką biznesową**, dlatego zarządzanie wątkami musi być odseparowane i zamknięte w dedykowanych klasach zgodnie z Zasadą Pojedynczej Odpowiedzialności (SRP). Sekcja ta udowadnia, że nawet proste operacje w Javie nie są atomowe na poziomie kodu bajtowego, co przy braku odpowiedniej struktury i testowania prowadzi do błędów niemożliwych do powtórzenia w kontrolowanych warunkach.
 
 ### 2. Kluczowe zasady i reguły
-*   **Separacja odpowiedzialności (SRP):** Kod zarządzający współbieżnością powinien zajmować się wyłącznie wątkami i być oddzielony od logiki aplikacji [1, 5].
-*   **Wybieraj blokowanie na serwerze zamiast na kliencie:** Blokowanie po stronie klienta jest kruche, narusza zasadę DRY i zmusza każdego użytkownika do pamiętania o synchronizacji; lepiej udostępnić jedną, bezpieczną metodę na serwerze [6, 7].
-*   **Znajomość bibliotek to podstawa:** Zamiast prymitywnych blokad `synchronized`, używaj `java.util.concurrent`, klasy `Executor` oraz atomowych zmiennych z `java.util.concurrent.atomic` [8-10].
-*   **Rozwiązania nieblokujące są wydajniejsze:** Mechanizmy typu *Compare and Swap* (CAS) stosowane w klasach atomowych są zazwyczaj szybsze niż pesymistyczne blokowanie, ponieważ unikają narzutu związanego z nakładaniem blokady [11, 12].
-*   **Zależności między metodami niszczą bezpieczeństwo wątkowe:** Nawet jeśli pojedyncze metody są zsynchronizowane, ich sekwencyjne wywołanie (np. `if(list.hasNext()) list.next()`) może prowadzić do błędów, jeśli inny wątek wtrąci się między nie [13, 14].
-*   **Minimalizuj sekcje krytyczne:** Blokady `synchronized` powinny być jak najmniejsze, aby nie ograniczać niepotrzebnie przepustowości systemu [15].
-*   **Zrozum cztery warunki zakleszczenia:** Aby uniknąć martwego ciągu (deadlock), musisz złamać jeden z warunków: wzajemne wykluczanie, blokowanie i oczekiwanie, brak wywłaszczania lub cykliczne oczekiwanie [16, 17].
+*   **Separacja odpowiedzialności (SRP):** Kod zarządzający współbieżnością powinien zajmować się wyłącznie wątkami i być oddzielony od logiki aplikacji.
+*   **Wybieraj blokowanie na serwerze zamiast na kliencie:** Blokowanie po stronie klienta jest kruche, narusza zasadę DRY i zmusza każdego użytkownika do pamiętania o synchronizacji; lepiej udostępnić jedną, bezpieczną metodę na serwerze.
+*   **Znajomość bibliotek to podstawa:** Zamiast prymitywnych blokad `synchronized`, używaj `java.util.concurrent`, klasy `Executor` oraz atomowych zmiennych z `java.util.concurrent.atomic`.
+*   **Rozwiązania nieblokujące są wydajniejsze:** Mechanizmy typu *Compare and Swap* (CAS) stosowane w klasach atomowych są zazwyczaj szybsze niż pesymistyczne blokowanie, ponieważ unikają narzutu związanego z nakładaniem blokady.
+*   **Zależności między metodami niszczą bezpieczeństwo wątkowe:** Nawet jeśli pojedyncze metody są zsynchronizowane, ich sekwencyjne wywołanie (np. `if(list.hasNext()) list.next()`) może prowadzić do błędów, jeśli inny wątek wtrąci się między nie.
+*   **Minimalizuj sekcje krytyczne:** Blokady `synchronized` powinny być jak najmniejsze, aby nie ograniczać niepotrzebnie przepustowości systemu.
+*   **Zrozum cztery warunki zakleszczenia:** Aby uniknąć martwego ciągu (deadlock), musisz złamać jeden z warunków: wzajemne wykluczanie, blokowanie i oczekiwanie, brak wywłaszczania lub cykliczne oczekiwanie.
 
 ### 3. Przykłady kodu
 
 #### SRP: Wydzielenie zarządzania wątkami
-Poniżej przykład naiwnej implementacji serwera, gdzie zarządzanie wątkami jest wymieszane z logiką obsługi gniazda (przed refaktoryzacją) [18, 19]:
+Poniżej przykład naiwnej implementacji serwera, gdzie zarządzanie wątkami jest wymieszane z logiką obsługi gniazda (przed refaktoryzacją):
 
 ```java
 // Przed refaktoryzacją - naruszenie SRP
@@ -43,7 +43,7 @@ void process(final Socket socket) {
 }
 ```
 
-Po refaktoryzacji wprowadzamy interfejs `ClientScheduler`, który pozwala na zmianę strategii wątkowania bez dotykania logiki serwera [20, 21]:
+Po refaktoryzacji wprowadzamy interfejs `ClientScheduler`, który pozwala na zmianę strategii wątkowania bez dotykania logiki serwera:
 
 ```java
 // Po refaktoryzacji - czyste SRP
@@ -62,7 +62,7 @@ public void run() {
 ```
 
 #### Zależności między metodami (Blokowanie na serwerze)
-Problem z zewnątrz bezpiecznymi metodami, które razem tworzą niebezpieczną sekwencję [13, 22]:
+Problem z zewnątrz bezpiecznymi metodami, które razem tworzą niebezpieczną sekwencję:
 
 ```java
 // PROBLEM: Kod klienta korzystający z bezpiecznych metod w sposób niebezpieczny
@@ -72,7 +72,7 @@ while(iterator.hasNext()) { // Inny wątek może zmienić stan tu...
 }
 ```
 
-Rozwiązanie poprzez zmianę API serwera, co eliminuje potrzebę blokowania na kliencie [7, 23]:
+Rozwiązanie poprzez zmianę API serwera, co eliminuje potrzebę blokowania na kliencie:
 
 ```java
 // ROZWIĄZANIE: Blokowanie na serwerze (zmiana API)
@@ -88,7 +88,7 @@ public class IntegerIteratorServerLocked {
 ```
 
 #### Wykorzystanie zmiennych atomowych
-Zastąpienie ciężkiej synchronizacji wydajniejszym rozwiązaniem nieblokującym [11, 24]:
+Zastąpienie ciężkiej synchronizacji wydajniejszym rozwiązaniem nieblokującym:
 
 ```java
 // Przed: Blokowanie pesymistyczne
@@ -112,9 +112,9 @@ public class ObjectWithValue {
 
 ### 4. Praktyczne wnioski – co zmienić w swoim kodzie?
 
-1.  **Przestań używać `synchronized` na poziomie całych metod biznesowych.** Sprawdź, czy nie możesz ograniczyć blokady tylko do kilku linii modyfikujących wspólny stan lub zastąpić jej klasami z pakietu `atomic` [11, 15].
-2.  **Przejrzyj pętle z iteratorami i operacjami „jeśli istnieje, to zrób”.** Jeśli iterator jest współdzielony, przenieś tę logikę do jednej zsynchronizowanej metody na serwerze (np. `putIfAbsent` zamiast `if(!contains) put`) [7, 25].
-3.  **Wyrzuć ręczne tworzenie obiektów `new Thread()`.** Zacznij korzystać z `ExecutorService` i pul wątków. Pozwala to na lepszą kontrolę nad zasobami i oddziela „co” ma być zrobione od tego „jak” (w ilu wątkach) [10, 26].
-4.  **Wprowadź instrumentację do testów.** Jeśli masz błąd, którego nie możesz powtórzyć, dodaj do kodu testowego losowe wywołania `Thread.yield()` lub `Thread.sleep()`. To „wstrząsanie” (jiggling) zwiększa prawdopodobieństwo wykrycia wyścigów (race conditions) poprzez zmianę kolejności przełączania kontekstu [27, 28].
-5.  **Uczyń kod wątków „konfigurowalnym”.** Pozwól na łatwą zmianę liczby wątków w testach, aby móc uruchomić system w konfiguracji z większą liczbą wątków niż procesorów, co wymusza częstsze przełączanie zadań i ujawnia błędy sekcji krytycznych [29, 30].
-6.  **Zawsze dostarczaj kontekst w wyjątkach współbieżnych.** Standardowy ślad stosu często nie wystarcza do zdiagnozowania problemu w środowisku wielowątkowym; dodawaj informacje o tym, jaka operacja zawiodła i jaki był stan obiektu [31].
+1.  **Przestań używać `synchronized` na poziomie całych metod biznesowych.** Sprawdź, czy nie możesz ograniczyć blokady tylko do kilku linii modyfikujących wspólny stan lub zastąpić jej klasami z pakietu `atomic`.
+2.  **Przejrzyj pętle z iteratorami i operacjami „jeśli istnieje, to zrób”.** Jeśli iterator jest współdzielony, przenieś tę logikę do jednej zsynchronizowanej metody na serwerze (np. `putIfAbsent` zamiast `if(!contains) put`).
+3.  **Wyrzuć ręczne tworzenie obiektów `new Thread()`.** Zacznij korzystać z `ExecutorService` i pul wątków. Pozwala to na lepszą kontrolę nad zasobami i oddziela „co” ma być zrobione od tego „jak” (w ilu wątkach).
+4.  **Wprowadź instrumentację do testów.** Jeśli masz błąd, którego nie możesz powtórzyć, dodaj do kodu testowego losowe wywołania `Thread.yield()` lub `Thread.sleep()`. To „wstrząsanie” (jiggling) zwiększa prawdopodobieństwo wykrycia wyścigów (race conditions) poprzez zmianę kolejności przełączania kontekstu.
+5.  **Uczyń kod wątków „konfigurowalnym”.** Pozwól na łatwą zmianę liczby wątków w testach, aby móc uruchomić system w konfiguracji z większą liczbą wątków niż procesorów, co wymusza częstsze przełączanie zadań i ujawnia błędy sekcji krytycznych.
+6.  **Zawsze dostarczaj kontekst w wyjątkach współbieżnych.** Standardowy ślad stosu często nie wystarcza do zdiagnozowania problemu w środowisku wielowątkowym; dodawaj informacje o tym, jaka operacja zawiodła i jaki był stan obiektu.

@@ -9,18 +9,18 @@ Oto praktyczne streszczenie rozdziału 6. książki „Czysty Kod” Roberta C. 
 ## Rozdział 6: Obiekty i struktury danych – esencja architektury kodu
 
 ### 1. O co chodzi w tej sekcji
-Główną tezą autora jest to, że **obiekty i struktury danych to byty komplementarne, ale przeciwstawne**, a ich mylenie jest jednym z najczęstszych błędów projektowych [1, 2]. Obiekty ukrywają dane za abstrakcją i udostępniają funkcje (zachowania), natomiast struktury danych eksponują dane i nie posiadają znaczących funkcji [1]. Zrozumienie tej różnicy pozwala świadomie wybierać między podejściem obiektowym a proceduralnym w zależności od tego, czy planujemy częściej dodawać nowe typy danych, czy nowe operacje [3].
+Główną tezą autora jest to, że **obiekty i struktury danych to byty komplementarne, ale przeciwstawne**, a ich mylenie jest jednym z najczęstszych błędów projektowych. Obiekty ukrywają dane za abstrakcją i udostępniają funkcje (zachowania), natomiast struktury danych eksponują dane i nie posiadają znaczących funkcji. Zrozumienie tej różnicy pozwala świadomie wybierać między podejściem obiektowym a proceduralnym w zależności od tego, czy planujemy częściej dodawać nowe typy danych, czy nowe operacje.
 
 ### 2. Kluczowe zasady i reguły
 
-*   **Abstrakcja danych to nie tylko gettery i settery:** Samo dodanie warstwy funkcji nad zmiennymi prywatnymi nie tworzy abstrakcji [4]. Prawdziwe ukrywanie implementacji polega na udostępnianiu interfejsu, który pozwala manipulować *istotą* danych, bez znajomości ich formy [4, 5].
+*   **Abstrakcja danych to nie tylko gettery i settery:** Samo dodanie warstwy funkcji nad zmiennymi prywatnymi nie tworzy abstrakcji. Prawdziwe ukrywanie implementacji polega na udostępnianiu interfejsu, który pozwala manipulować *istotą* danych, bez znajomości ich formy.
 *   **Antysymetria obiektów i struktur:**
-    *   **Kod proceduralny** (oparty na strukturach danych) ułatwia dodawanie nowych funkcji bez zmiany istniejących struktur, ale utrudnia dodawanie nowych struktur danych (wymaga zmiany wszystkich funkcji) [2, 3].
-    *   **Kod obiektowy** ułatwia dodawanie nowych klas (typów) bez zmiany istniejących funkcji, ale utrudnia dodawanie nowych funkcji (wymaga zmiany wszystkich klas) [2, 3].
-*   **Prawo Demeter (Zasada „rozmawiaj z przyjaciółmi, nie z obcymi”):** Moduł nie powinien znać wnętrza obiektów, na których operuje [6]. Metoda `f` klasy `C` powinna wywoływać tylko metody: samej klasy `C`, obiektów utworzonych przez `f`, argumentów `f` oraz obiektów w zmiennych instancyjnych klasy `C` [6, 7].
-*   **Unikaj „wraków pociągów”:** Długie łańcuchy wywołań (np. `a.getB().getC().doSomething()`) są sygnałem naruszenia Prawa Demeter, o ile obiekty te nie są prostymi strukturami danych [8].
-*   **Wystrzegaj się hybryd:** Tworzenie struktur, które są w połowie obiektami (mają logikę biznesową), a w połowie strukturami danych (eksponują zmienne prywatne przez gettery/settery), to błąd [9]. Hybrydy mają wady obu podejść i są trudne w utrzymaniu [9].
-*   **DTO i Active Record to struktury danych:** Obiekty transferu danych (DTO) powinny być traktowane jako czyste struktury danych bez metod biznesowych [10, 11]. Dodawanie logiki do klas typu Active Record (które mapują tabele bazodanowe) tworzy niebezpieczne hybrydy [11, 12].
+    *   **Kod proceduralny** (oparty na strukturach danych) ułatwia dodawanie nowych funkcji bez zmiany istniejących struktur, ale utrudnia dodawanie nowych struktur danych (wymaga zmiany wszystkich funkcji).
+    *   **Kod obiektowy** ułatwia dodawanie nowych klas (typów) bez zmiany istniejących funkcji, ale utrudnia dodawanie nowych funkcji (wymaga zmiany wszystkich klas).
+*   **Prawo Demeter (Zasada „rozmawiaj z przyjaciółmi, nie z obcymi”):** Moduł nie powinien znać wnętrza obiektów, na których operuje. Metoda `f` klasy `C` powinna wywoływać tylko metody: samej klasy `C`, obiektów utworzonych przez `f`, argumentów `f` oraz obiektów w zmiennych instancyjnych klasy `C`.
+*   **Unikaj „wraków pociągów”:** Długie łańcuchy wywołań (np. `a.getB().getC().doSomething()`) są sygnałem naruszenia Prawa Demeter, o ile obiekty te nie są prostymi strukturami danych.
+*   **Wystrzegaj się hybryd:** Tworzenie struktur, które są w połowie obiektami (mają logikę biznesową), a w połowie strukturami danych (eksponują zmienne prywatne przez gettery/settery), to błąd. Hybrydy mają wady obu podejść i są trudne w utrzymaniu.
+*   **DTO i Active Record to struktury danych:** Obiekty transferu danych (DTO) powinny być traktowane jako czyste struktury danych bez metod biznesowych. Dodawanie logiki do klas typu Active Record (które mapują tabele bazodanowe) tworzy niebezpieczne hybrydy.
 
 ### 3. Przykłady kodu
 
@@ -44,7 +44,7 @@ public interface Point {
   void setPolar(double r, double theta);
 }
 ```
-W drugim przypadku użytkownik nie wie, czy dane są przechowywane w układzie kartezjańskim, czy biegunowym, co daje programiście swobodę zmiany implementacji [13].
+W drugim przypadku użytkownik nie wie, czy dane są przechowywane w układzie kartezjańskim, czy biegunowym, co daje programiście swobodę zmiany implementacji.
 
 #### Antysymetria: Podejście proceduralne vs. obiektowe
 W podejściu proceduralnym geometria operuje na strukturach:
@@ -65,7 +65,7 @@ public class Geometry {
   }
 }
 ```
-Dodanie nowej funkcji (np. `perimeter()`) w klasie `Geometry` nie wymaga zmian w kształtach [14].
+Dodanie nowej funkcji (np. `perimeter()`) w klasie `Geometry` nie wymaga zmian w kształtach.
 
 W podejściu obiektowym kształty same obliczają pole:
 
@@ -83,7 +83,7 @@ public class Circle implements Shape {
   public double area() { return Math.PI * radius * radius; }
 }
 ```
-Dodanie nowego kształtu nie wymaga zmiany istniejących funkcji, ale dodanie nowej metody do interfejsu `Shape` wymusza edycję wszystkich klas pochodnych [2, 14].
+Dodanie nowego kształtu nie wymaga zmiany istniejących funkcji, ale dodanie nowej metody do interfejsu `Shape` wymusza edycję wszystkich klas pochodnych.
 
 #### Refaktoryzacja „wraku pociągu”
 Zamiast wyciągać dane z głębi struktury obiektu, należy poprosić obiekt o wykonanie zadania.
@@ -97,12 +97,12 @@ final String outputDir = ctxt.getOptions().getScratchDir().getAbsolutePath();
 // zamiast pytać go o opcje i katalogi.
 BufferedOutputStream bos = ctxt.createScratchFileStream(classFileName);
 ```
-Dzięki temu obiekt `ctxt` ukrywa swoją strukturę wewnętrzną [10].
+Dzięki temu obiekt `ctxt` ukrywa swoją strukturę wewnętrzną.
 
 ### 4. Praktyczne wnioski – co zmienić w swoim kodzie?
 
-1.  **Przestań automatycznie generować gettery i settery:** Zanim dodasz te metody do każdej zmiennej prywatnej, zastanów się, czy klasa powinna być obiektem (ukrywającym dane), czy strukturą danych (DTO) [5, 15]. Jeśli to obiekt, skup się na tym, co ma *robić*, a nie jakie dane posiada [4].
-2.  **Rozpoznaj typ zmiany w projekcie:** Jeśli Twój system często wzbogaca się o nowe funkcjonalności przy stałym zestawie typów danych, rozważ podejście proceduralne (struktury danych + klasy operacyjne) [3]. Jeśli jednak częściej dodajesz nowe rodzaje obiektów do istniejącej logiki, trzymaj się ścisłego programowania obiektowego [3].
-3.  **Analizuj łańcuchy wywołań:** Jeśli widzisz kod typu `a.getB().getC()...`, sprawdź, czy `B` i `C` to obiekty, czy struktury danych [8]. Jeśli to obiekty, przenieś logikę „głębiej”, aby uniknąć ujawniania struktury wewnętrznej [10, 16].
-4.  **Oczyść Active Records:** Jeśli korzystasz z wzorca Active Record (często w frameworkach ORM), nie dopisuj tam metod logiki biznesowej [11]. Active Record to struktura danych – logika powinna znaleźć się w osobnych obiektach, które korzystają z tych struktur jako swojego zaplecza [11, 12].
-5.  **Dąż do precyzji w terminologii:** Wyraźnie oznaczaj klasy będące DTO (Data Transfer Objects). Nie wstydź się używać publicznych pól w strukturach, które służą wyłącznie do przenoszenia danych – to czyni ich naturę jawną i odróżnia je od pełnoprawnych obiektów [9, 10].
+1.  **Przestań automatycznie generować gettery i settery:** Zanim dodasz te metody do każdej zmiennej prywatnej, zastanów się, czy klasa powinna być obiektem (ukrywającym dane), czy strukturą danych (DTO). Jeśli to obiekt, skup się na tym, co ma *robić*, a nie jakie dane posiada.
+2.  **Rozpoznaj typ zmiany w projekcie:** Jeśli Twój system często wzbogaca się o nowe funkcjonalności przy stałym zestawie typów danych, rozważ podejście proceduralne (struktury danych + klasy operacyjne). Jeśli jednak częściej dodajesz nowe rodzaje obiektów do istniejącej logiki, trzymaj się ścisłego programowania obiektowego.
+3.  **Analizuj łańcuchy wywołań:** Jeśli widzisz kod typu `a.getB().getC()...`, sprawdź, czy `B` i `C` to obiekty, czy struktury danych. Jeśli to obiekty, przenieś logikę „głębiej”, aby uniknąć ujawniania struktury wewnętrznej.
+4.  **Oczyść Active Records:** Jeśli korzystasz z wzorca Active Record (często w frameworkach ORM), nie dopisuj tam metod logiki biznesowej. Active Record to struktura danych – logika powinna znaleźć się w osobnych obiektach, które korzystają z tych struktur jako swojego zaplecza.
+5.  **Dąż do precyzji w terminologii:** Wyraźnie oznaczaj klasy będące DTO (Data Transfer Objects). Nie wstydź się używać publicznych pól w strukturach, które służą wyłącznie do przenoszenia danych – to czyni ich naturę jawną i odróżnia je od pełnoprawnych obiektów.

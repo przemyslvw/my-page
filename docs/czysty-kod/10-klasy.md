@@ -7,25 +7,25 @@ description: "Streszczenie: Rozdział 10: Klasy — Czysty Kod, Robert C. Martin
 ## Rozdział 10: Klasy – Praktyczne streszczenie
 
 ### O co chodzi w tej sekcji
-Główną tezą Roberta C. Martina jest to, że **klasy muszą być małe i posiadać tylko jedną, jasno zdefiniowaną odpowiedzialność** [1, 2]. Czystość kodu na poziomie klas osiąga się nie przez zliczanie wierszy, ale przez minimalizację powodów do zmiany danego modułu oraz utrzymywanie wysokiej spójności metod i zmiennych [2, 3].
+Główną tezą Roberta C. Martina jest to, że **klasy muszą być małe i posiadać tylko jedną, jasno zdefiniowaną odpowiedzialność**. Czystość kodu na poziomie klas osiąga się nie przez zliczanie wierszy, ale przez minimalizację powodów do zmiany danego modułu oraz utrzymywanie wysokiej spójności metod i zmiennych.
 
 ---
 
 ### Kluczowe zasady i reguły
 
-*   **Prawidłowa organizacja (Standard Java):** Klasa powinna zachowywać określoną kolejność: publiczne stałe statyczne -> prywatne zmienne statyczne -> prywatne zmienne instancyjne -> funkcje publiczne -> prywatne funkcje pomocnicze [4].
-*   **Zasada Pojedynczej Odpowiedzialności (SRP):** Klasa lub moduł powinny mieć jeden i tylko jeden powód do zmiany [2]. Jeśli opisując klasę, używasz słów „oraz”, „lub” lub „ale”, prawdopodobnie ma ona zbyt wiele odpowiedzialności [2].
-*   **Nazewnictwo jako metryka rozmiaru:** Nazwa klasy powinna precyzyjnie opisywać jej rolę. Unikaj ogólnikowych terminów takich jak *Processor*, *Manager* czy *Super* [5]. Jeśli nie możesz nadać klasie zwięzłej nazwy, jest ona za duża [5].
-*   **Wysoka spójność (Cohesion):** Metody klasy powinny manipulować jej zmiennymi instancyjnymi. Klasa jest maksymalnie spójna, gdy każda zmienna jest używana przez każdą metodę [3]. Gdy spójność spada (tylko część metod używa części zmiennych), należy wydzielić nową klasę [6].
-*   **Zasada Otwarty-Zamknięty (OCP):** Projektuj klasy tak, aby były otwarte na rozszerzanie, ale zamknięte na modyfikacje [7]. Nowe funkcjonalności powinny być dodawane poprzez tworzenie nowych klas, a nie edytowanie istniejącego, przetestowanego kodu [7].
-*   **Zasada Odwrócenia Zależności (DIP):** Klasy powinny zależeć od abstrakcji (interfejsów), a nie od konkretnych implementacji [8]. Pozwala to odizolować system od zmian w zewnętrznych komponentach (np. API giełdy czy bazy danych) [8, 9].
+*   **Prawidłowa organizacja (Standard Java):** Klasa powinna zachowywać określoną kolejność: publiczne stałe statyczne -> prywatne zmienne statyczne -> prywatne zmienne instancyjne -> funkcje publiczne -> prywatne funkcje pomocnicze.
+*   **Zasada Pojedynczej Odpowiedzialności (SRP):** Klasa lub moduł powinny mieć jeden i tylko jeden powód do zmiany. Jeśli opisując klasę, używasz słów „oraz”, „lub” lub „ale”, prawdopodobnie ma ona zbyt wiele odpowiedzialności.
+*   **Nazewnictwo jako metryka rozmiaru:** Nazwa klasy powinna precyzyjnie opisywać jej rolę. Unikaj ogólnikowych terminów takich jak *Processor*, *Manager* czy *Super*. Jeśli nie możesz nadać klasie zwięzłej nazwy, jest ona za duża.
+*   **Wysoka spójność (Cohesion):** Metody klasy powinny manipulować jej zmiennymi instancyjnymi. Klasa jest maksymalnie spójna, gdy każda zmienna jest używana przez każdą metodę. Gdy spójność spada (tylko część metod używa części zmiennych), należy wydzielić nową klasę.
+*   **Zasada Otwarty-Zamknięty (OCP):** Projektuj klasy tak, aby były otwarte na rozszerzanie, ale zamknięte na modyfikacje. Nowe funkcjonalności powinny być dodawane poprzez tworzenie nowych klas, a nie edytowanie istniejącego, przetestowanego kodu.
+*   **Zasada Odwrócenia Zależności (DIP):** Klasy powinny zależeć od abstrakcji (interfejsów), a nie od konkretnych implementacji. Pozwala to odizolować system od zmian w zewnętrznych komponentach (np. API giełdy czy bazy danych).
 
 ---
 
 ### Przykłady kodu
 
 #### 1. SRP: Od „klasy boskiej” do separacji odpowiedzialności
-Poniższy szkielet klasy `SuperDashboard` pokazuje zbyt dużą liczbę metod i odpowiedzialności (zarządzanie GUI oraz numerami wersji) [10-13].
+Poniższy szkielet klasy `SuperDashboard` pokazuje zbyt dużą liczbę metod i odpowiedzialności (zarządzanie GUI oraz numerami wersji).
 
 ```java
 // PRZED: Klasa o zbyt wielu odpowiedzialnościach
@@ -39,7 +39,7 @@ public class SuperDashboard extends JFrame implements MetaDataUser {
 }
 ```
 
-Po refaktoryzacji odpowiedzialność za wersjonowanie zostaje wydzielona do osobnej klasy, którą można łatwo testować i użyć ponownie [14].
+Po refaktoryzacji odpowiedzialność za wersjonowanie zostaje wydzielona do osobnej klasy, którą można łatwo testować i użyć ponownie.
 
 ```java
 // PO: Wydzielona klasa o jednej odpowiedzialności
@@ -51,7 +51,7 @@ public class Version {
 ```
 
 #### 2. OCP: Organizowanie zmian w SQL
-Zamiast jednej klasy `Sql`, która musi być edytowana przy każdym nowym typie zapytania (łamie SRP i OCP), autor proponuje strukturę hierarchiczną [15, 16].
+Zamiast jednej klasy `Sql`, która musi być edytowana przy każdym nowym typie zapytania (łamie SRP i OCP), autor proponuje strukturę hierarchiczną.
 
 ```java
 // PRZED: Klasa, którą trzeba otwierać przy każdej zmianie
@@ -65,7 +65,7 @@ public class Sql {
 }
 ```
 
-Po zmianie na system klas pochodnych, dodanie zapytania `update` wymaga jedynie stworzenia nowej klasy `UpdateSql` bez dotykania istniejącego kodu [16-18].
+Po zmianie na system klas pochodnych, dodanie zapytania `update` wymaga jedynie stworzenia nowej klasy `UpdateSql` bez dotykania istniejącego kodu.
 
 ```java
 // PO: Zbiór zamkniętych klas zgodnych z OCP
@@ -91,7 +91,7 @@ public class InsertSql extends Sql {
 ```
 
 #### 3. DIP: Izolowanie od zmian zewnętrznych
-Przykład klasy `Portfolio`, która zamiast zależeć od konkretnego API giełdy, zależy od interfejsu [19].
+Przykład klasy `Portfolio`, która zamiast zależeć od konkretnego API giełdy, zależy od interfejsu.
 
 ```java
 // PO: Wykorzystanie interfejsu do odizolowania od konkretnej implementacji
@@ -112,9 +112,9 @@ public class Portfolio {
 
 ### Praktyczne wnioski – co zmienić w swoim kodzie?
 
-1.  **Rozbijaj „klasy-tasiemce”:** Jeśli Twoja klasa ma setki linii i dziesiątki metod, to na 100% łamie SRP [1]. Podziel ją na mniejsze jednostki, z których każda robi jedną rzecz [20].
-2.  **Analizuj zmienne instancyjne:** Jeśli widzisz, że pewna grupa metod używa tylko wybranego podzbioru zmiennych klasy, to znak, że te metody i zmienne powinny trafić do nowej, osobnej klasy [6].
-3.  **Używaj interfejsów do zewnętrznych systemów:** Nie pozwalaj, aby Twój kod zależał bezpośrednio od konkretnej bazy danych czy zewnętrznego API [8, 9]. Stwórz interfejs-pośrednik, co umożliwi Ci łatwe testowanie (przez mockowanie) i bezproblemową wymianę dostawcy usługi w przyszłości [8, 21].
-4.  **Zamykaj klasy na modyfikacje:** Zamiast dodawać kolejnego `if-a` lub `case-a` do wielkiej metody wewnątrz klasy, zastanów się, czy nie lepiej stworzyć nowej klasy dziedziczącej po abstrakcyjnym rodzicu [7, 18].
-5.  **Dąż do „artykułu w gazecie”:** Organizuj kod tak, by czytający go programista widział najważniejsze funkcje na górze, a detale implementacyjne ukryte w prywatnych metodach na dole [4].
-6.  **Nie bój się wielu małych plików:** Wielu programistów obawia się, że system z setkami małych klas jest trudniejszy do ogarnięcia. Martin twierdzi odwrotnie: łatwiej utrzymać porządek w skrzynce z małymi, opisanymi szufladkami niż w jednej wielkiej szufladzie, do której wrzucono wszystko naraz [14, 20].
+1.  **Rozbijaj „klasy-tasiemce”:** Jeśli Twoja klasa ma setki linii i dziesiątki metod, to na 100% łamie SRP. Podziel ją na mniejsze jednostki, z których każda robi jedną rzecz.
+2.  **Analizuj zmienne instancyjne:** Jeśli widzisz, że pewna grupa metod używa tylko wybranego podzbioru zmiennych klasy, to znak, że te metody i zmienne powinny trafić do nowej, osobnej klasy.
+3.  **Używaj interfejsów do zewnętrznych systemów:** Nie pozwalaj, aby Twój kod zależał bezpośrednio od konkretnej bazy danych czy zewnętrznego API. Stwórz interfejs-pośrednik, co umożliwi Ci łatwe testowanie (przez mockowanie) i bezproblemową wymianę dostawcy usługi w przyszłości.
+4.  **Zamykaj klasy na modyfikacje:** Zamiast dodawać kolejnego `if-a` lub `case-a` do wielkiej metody wewnątrz klasy, zastanów się, czy nie lepiej stworzyć nowej klasy dziedziczącej po abstrakcyjnym rodzicu.
+5.  **Dąż do „artykułu w gazecie”:** Organizuj kod tak, by czytający go programista widział najważniejsze funkcje na górze, a detale implementacyjne ukryte w prywatnych metodach na dole.
+6.  **Nie bój się wielu małych plików:** Wielu programistów obawia się, że system z setkami małych klas jest trudniejszy do ogarnięcia. Martin twierdzi odwrotnie: łatwiej utrzymać porządek w skrzynce z małymi, opisanymi szufladkami niż w jednej wielkiej szufladzie, do której wrzucono wszystko naraz.
