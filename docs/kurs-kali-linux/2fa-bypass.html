@@ -11,8 +11,8 @@
 
 <meta http-equiv="Content-Security-Policy" content="default-src &#39;self&#39;; img-src &#39;self&#39; data: https:; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https:; style-src &#39;self&#39; &#39;unsafe-inline&#39; https:; object-src &#39;none&#39;; base-uri &#39;self&#39;; form-action &#39;self&#39;; frame-ancestors &#39;self&#39;;">
 <meta name="referrer" content="strict-origin-when-cross-origin"><link rel="stylesheet" href="/assets/css/styles.59d2c44a.css">
-<script src="/assets/js/runtime~main.6bcdbfc4.js" defer="defer"></script>
-<script src="/assets/js/main.46019b06.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.6b06fef9.js" defer="defer"></script>
+<script src="/assets/js/main.39f35a30.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -32,7 +32,7 @@
 </ul>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-odczytanie-klucza-totp-z-api"><strong>1.1 Odczytanie klucza TOTP z API</strong><a href="#11-odczytanie-klucza-totp-z-api" class="hash-link" aria-label="Bezpośredni link do 11-odczytanie-klucza-totp-z-api" title="Bezpośredni link do 11-odczytanie-klucza-totp-z-api" translate="no">​</a></h4>
 <p>Jeśli aplikacja zwraca tajny klucz przez API, można go przechwycić w Burp Suite:</p>
-<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /api/2fa/setup</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain">Response: {&quot;secret&quot;: &quot;JBSWY3DPEHPK3PXP&quot;}</span><br></div></code></pre></div></div>
+<div class="language-http codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#9CDCFE;--prism-background-color:#1E1E1E"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-http codeBlock_bY9V thin-scrollbar" style="color:#9CDCFE;background-color:#1E1E1E"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#9CDCFE"><span class="token plain">GET /api/2fa/setup</span><br></div><div class="token-line" style="color:#9CDCFE"><span class="token plain"></span><span class="token header header-name keyword" style="color:rgb(86, 156, 214)">Response</span><span class="token header punctuation" style="color:rgb(212, 212, 212)">:</span><span class="token header"> </span><span class="token header header-value">{&quot;secret&quot;: &quot;JBSWY3DPEHPK3PXP&quot;}</span><br></div></code></pre></div></div>
 <p>Następnie klucz można wprowadzić do aplikacji Google Authenticator, aby generować poprawne kody.</p>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-atak-bruteforce-na-totp"><strong>1.2 Atak bruteforce na TOTP</strong><a href="#12-atak-bruteforce-na-totp" class="hash-link" aria-label="Bezpośredni link do 12-atak-bruteforce-na-totp" title="Bezpośredni link do 12-atak-bruteforce-na-totp" translate="no">​</a></h4>
 <p>TOTP generuje kody co 30 sekund, co daje atakującemu ograniczoną liczbę możliwych wartości (np. 1 000 000 kodów dla 6 cyfr). Niektóre aplikacje nie blokują zbyt wielu prób.</p>
