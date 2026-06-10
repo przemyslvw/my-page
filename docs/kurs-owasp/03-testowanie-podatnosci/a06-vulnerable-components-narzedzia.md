@@ -1,16 +1,16 @@
 ---
 id: "a06-vulnerable-components-narzedzia"
-title: "🧰 3.6.4 – Narzędzia do testowania"
+title: " 3.6.4 – Narzędzia do testowania"
 sidebar_position: 29
 ---
 
-## 🧰 Narzędzia do testowania: Vulnerable and Outdated Components
+##  Narzędzia do testowania: Vulnerable and Outdated Components
 
 Poniżej lista popularnych narzędzi (bezpłatnych i komercyjnych) do identyfikacji podatnych lub przestarzałych komponentów.
 
 ---
 
-### 🛠️ Bezpłatne narzędzia
+###  Bezpłatne narzędzia
 
 | Narzędzie | Opis | Języki/Technologie |
 |----------|------|--------------------|
@@ -27,7 +27,7 @@ Poniżej lista popularnych narzędzi (bezpłatnych i komercyjnych) do identyfika
 
 ---
 
-### 💼 Komercyjne narzędzia
+### Komercyjne narzędzia
 
 | Narzędzie | Opis | Uwagi |
 |----------|------|-------|

@@ -13,7 +13,7 @@ Podatność ta dotyczy używania:
 
 ---
 
-## ⚠️ Przykłady zagrożeń
+## Przykłady zagrożeń
 
 - Użycie jQuery 1.x lub AngularJS z luką XSS.
 - Log4j 2.x < 2.15 – podatność `Log4Shell`.

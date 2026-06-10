@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Security Engineer nie działa w próżni – skuteczność jego działań zależy w dużej mierze od umiejętności współpracy z innymi zespołami technicznymi i nietechnicznymi w organizacji. Odpowiednia komunikacja i zrozumienie celów innych działów to klucz do budowania bezpiecznego środowiska.
 
-## 🤝 Zespół DevOps
+## Zespół DevOps
 
 - Wspólne budowanie bezpiecznych procesów CI/CD  
 - Definiowanie polityk dostępu do infrastruktury  

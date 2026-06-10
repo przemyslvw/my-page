@@ -46,7 +46,7 @@ Niektóre aplikacje nie sprawdzają, czy użytkownik ma dostęp do adresu e-mail
 
 ---
 
-## 🛠️ Wykorzystanie błędnych ustawień serwerów
+##  Wykorzystanie błędnych ustawień serwerów
 
 ### **2️⃣ Odczytywanie plików konfiguracyjnych**
 Niepoprawnie skonfigurowane serwery mogą umożliwiać dostęp do plików konfiguracyjnych zawierających hasła, klucze API i inne poufne dane.

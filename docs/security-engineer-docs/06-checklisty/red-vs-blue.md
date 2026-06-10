@@ -46,7 +46,7 @@ Checklisty „Red vs Blue” pomagają zrozumieć i porównać działania ofensy
 - [ ] Wdrożone reguły detekcji MITRE ATT&CK?
 - [ ] Alerty są priorytetyzowane i testowane (purple team)?
 
-### 🚨 Reakcja
+### Reakcja
 
 - [ ] Istnieją procedury reagowania na incydenty?
 - [ ] Czy playbooki SOAR są automatyzowane i testowane?

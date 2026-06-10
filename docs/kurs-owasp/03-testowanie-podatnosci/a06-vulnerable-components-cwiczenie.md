@@ -73,7 +73,7 @@ grype docker:myapp:latest
 
 ---
 
-## 🛠️ Mitigacja
+##  Mitigacja
 
 Zaktualizowany `package.json`:
 

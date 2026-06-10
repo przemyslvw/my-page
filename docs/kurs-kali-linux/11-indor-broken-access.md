@@ -39,7 +39,7 @@ Jeśli można zmienić dane innego użytkownika, aplikacja jest podatna.
 
 ---
 
-## 🛠️ Narzędzia do wykrywania IDOR (Burp Suite, Autorize)
+##  Narzędzia do wykrywania IDOR (Burp Suite, Autorize)
 
 ### **1️⃣ Burp Suite – manualne testowanie IDOR**
 Burp Suite umożliwia przechwytywanie i edytowanie żądań HTTP.

@@ -17,7 +17,7 @@ Ten kurs jest praktycznym przewodnikiem po testach penetracyjnych aplikacji webo
 - Opanujesz techniki Reverse Shell i Post-Exploitation.
 - Przećwiczysz wszystko na realnych case study z platformy HTB (Hack The Box).
 
-## 👥 Dla kogo jest ten kurs?
+##  Dla kogo jest ten kurs?
 Kurs jest przeznaczony dla:
 - Początkujących i średnio zaawansowanych pentesterów.
 - Administratorów systemów i specjalistów ds. bezpieczeństwa.
@@ -45,7 +45,7 @@ Nie każde zaangażowanie wygląda tak samo. Przed zleceniem klient i pentester 
 
 ---
 
-## ⚖️ Etyka i legalność testów penetracyjnych
+## Etyka i legalność testów penetracyjnych
 Testy penetracyjne muszą być przeprowadzane zgodnie z prawem i etyką. Pamiętaj o następujących zasadach:
 
 - **Zawsze uzyskuj zgodę** przed testowaniem systemów, które do Ciebie nie należą.

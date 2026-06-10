@@ -79,7 +79,7 @@ username[$ne]=1&password[$ne]=1
 
 ---
 
-## 🧰 Narzędzia pomocnicze
+##  Narzędzia pomocnicze
 
 - Burp Suite (Repeater, Intruder, Logger++),
 - OWASP ZAP,

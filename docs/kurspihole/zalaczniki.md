@@ -32,7 +32,7 @@ Aby zwiększyć skuteczność Pi-hole w blokowaniu niechcianych treści, warto d
 
 - **DHCP (Dynamic Host Configuration Protocol)**: Protokół sieciowy automatycznie przydzielający urządzeniom w sieci lokalnej adresy IP i inne parametry sieciowe.
 
-## 🛠️ Narzędzia do analizy sieci
+##  Narzędzia do analizy sieci
 
 Aby monitorować i analizować ruch w sieci oraz skuteczność Pi-hole, warto skorzystać z następujących narzędzi:
 

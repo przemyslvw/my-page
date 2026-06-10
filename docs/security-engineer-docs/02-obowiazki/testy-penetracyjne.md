@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Testy penetracyjne (pentesty) to kontrolowane ataki symulujące działania prawdziwego napastnika w celu identyfikacji słabości i luk w zabezpieczeniach systemów, aplikacji i infrastruktury.
 
-## 🛠️ Cel testów penetracyjnych
+##  Cel testów penetracyjnych
 
 - Sprawdzenie realnych możliwości obejścia zabezpieczeń  
 - Weryfikacja skuteczności wdrożonych środków ochronnych  
@@ -20,7 +20,7 @@ Testy penetracyjne (pentesty) to kontrolowane ataki symulujące działania prawd
 - **Gray-box** – częściowa wiedza, np. dane testowe lub dostęp użytkownika  
 - **Red teaming** – długofalowe testy scenariuszowe z wykorzystaniem technik socjotechnicznych i fizycznych
 
-## 🧰 Narzędzia
+##  Narzędzia
 
 - **Burp Suite, OWASP ZAP** – aplikacje webowe  
 - **nmap, Nikto, Metasploit, sqlmap** – systemy i usługi sieciowe  

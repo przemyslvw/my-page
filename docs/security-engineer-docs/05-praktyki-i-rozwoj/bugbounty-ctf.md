@@ -34,7 +34,7 @@ Programy **Bug Bounty** oraz udział w zawodach **CTF (Capture The Flag)** to je
 - Możliwość pracy zespołowej i rozwijania specjalizacji (np. reverse, OSINT)
 - Wspierają myślenie kreatywne i eksploracyjne
 
-## 🛠️ Rola Security Engineera
+##  Rola Security Engineera
 
 - Udział w CTF-ach i programach Bug Bounty rozwija zmysł analityczny i umiejętność rozpoznawania luk
 - W firmie: można wdrożyć wewnętrzne programy Bug Bounty lub symulacje CTF dla edukacji zespołu

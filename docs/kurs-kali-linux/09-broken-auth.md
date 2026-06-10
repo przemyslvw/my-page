@@ -72,7 +72,7 @@ Zabezpieczenia:
 
 ---
 
-## 🔑 Bruteforce i ataki na hasła (Hydra, Burp Intruder)
+##  Bruteforce i ataki na hasła (Hydra, Burp Intruder)
 
 ### **1️⃣ Atak bruteforce na logowanie (Hydra)**
 Hydra umożliwia atakowanie formularzy logowania metodą siłową.
@@ -164,7 +164,7 @@ Przydatne gdy cel ma niestandardową politykę — rockyou.txt będzie zbyt duż
 
 ---
 
-## ⚠️ Online vs offline — kiedy uważać
+## Online vs offline — kiedy uważać
 
 | Atak | Gdzie | Ryzyko detekcji | Limit szybkości |
 |------|-------|-----------------|-----------------|

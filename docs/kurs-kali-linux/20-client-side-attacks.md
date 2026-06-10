@@ -36,7 +36,7 @@ fetch('https://example.com/api/account', {credentials:'include'})
 - Dopasowanie po prefiksie/sufiksie: `example.com.attacker.com` lub `attacker-example.com`.
 - Zaufanie do wszystkich subdomen przy podatnej subdomenie (XSS na jednej → odczyt z głównej).
 
-> ⚠️ `Access-Control-Allow-Origin: *` **nie** zwraca z `Allow-Credentials: true` — najgroźniejszy jest dynamiczny odbity Origin z poświadczeniami.
+> `Access-Control-Allow-Origin: *` **nie** zwraca z `Allow-Credentials: true` — najgroźniejszy jest dynamiczny odbity Origin z poświadczeniami.
 
 ---
 

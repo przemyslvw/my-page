@@ -14,10 +14,10 @@ ISSA Polska to wiodąca organizacja zrzeszająca ekspertów ds. bezpieczeństwa 
 
 ##  **Dlaczego ISSA Polska?**
 
--  **Dostęp do wiedzy i najlepszych praktyk z zakresu cyberbezpieczeństwa.**
-- 🤝 **Możliwość współpracy z ekspertami branży IT i uczestnictwa w wydarzeniach networkingowych.**
--  **Udział w badaniach, warsztatach i projektach związanych z bezpieczeństwem IT.**
--  **Szansa na rozwój w dziedzinie bezpieczeństwa sieciowego, aplikacji webowych oraz audytów.**
+- **Dostęp do wiedzy i najlepszych praktyk z zakresu cyberbezpieczeństwa.**
+- **Możliwość współpracy z ekspertami branży IT i uczestnictwa w wydarzeniach networkingowych.**
+- **Udział w badaniach, warsztatach i projektach związanych z bezpieczeństwem IT.**
+- **Szansa na rozwój w dziedzinie bezpieczeństwa sieciowego, aplikacji webowych oraz audytów.**
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 id: "atuin-kurs-problemy-debugowanie"
-title: "🛠️ Problemy i debugowanie"
+title: " Problemy i debugowanie"
 sidebar_position: 6
 ---
 
-# 🛠️ Problemy i debugowanie
+#  Problemy i debugowanie
 
 Podczas korzystania z Atuin mogą pojawić się drobne problemy lub błędy związane z konfiguracją, synchronizacją czy kompatybilnością z powłoką terminala. W tym rozdziale znajdziesz najczęstsze problemy oraz sprawdzone metody ich rozwiązania.
 

@@ -19,7 +19,7 @@ Ta kategoria obejmuje błędy w ochronie **integralności kodu i danych** – sz
 
 ---
 
-### 🚨 Przykłady ataków
+### Przykłady ataków
 
 - Modyfikacja skryptu JS CDN w czasie rzeczywistym ➜ XSS lub kradzież danych.
 - Zainfekowany pakiet z PyPI / NPM (np. `event-stream`, `ctx`) ➜ backdoory.

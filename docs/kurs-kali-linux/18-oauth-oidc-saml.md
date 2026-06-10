@@ -20,7 +20,7 @@ Kluczowe pojęcia OAuth: `client_id`, `redirect_uri`, `state`, `scope`, `code`, 
 
 ---
 
-## 💥 Ataki na OAuth 2.0 / OIDC
+## Ataki na OAuth 2.0 / OIDC
 
 ### **1️⃣ Manipulacja `redirect_uri` (kradzież kodu/tokenu)**
 Jeśli serwer autoryzacji nie waliduje ściśle `redirect_uri`, atakujący przekieruje kod autoryzacyjny na swój serwer:
@@ -53,7 +53,7 @@ Klasyczny błąd: aplikacja kojarzy konto OAuth z lokalnym **po adresie e-mail b
 
 ---
 
-## 🛠️ SSRF przez OpenID Connect
+##  SSRF przez OpenID Connect
 
 Niektóre serwery pobierają konfigurację dostawcy z `.well-known/openid-configuration` lub klucze z `jwks_uri`. Jeśli te adresy są kontrolowane przez wejście użytkownika (np. dynamiczny `issuer`), powstaje **SSRF** — powiązanie z modułem SSRF/RCE.
 

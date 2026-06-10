@@ -50,7 +50,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🧰 6. Monitoruj i loguj działania
+###  6. Monitoruj i loguj działania
 
 - Wdrażaj logowanie działań użytkowników oraz błędów systemowych.
 - Analizuj logi pod kątem anomalii i prób ataku.
@@ -74,7 +74,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 👥 9. Szkol zespół
+###  9. Szkol zespół
 
 - Szkolenia z bezpiecznego kodowania (np. OWASP Top 10, Cheat Sheets).
 - Przeglądy kodu z uwzględnieniem aspektów bezpieczeństwa.

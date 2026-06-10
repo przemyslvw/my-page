@@ -23,7 +23,7 @@ Checklisty to praktyczne narzędzie, które pomaga zachować spójność, dokła
 - [ ] Czy formularze mają poprawnie ustawione atrybuty `autocomplete="off"`?
 - [ ] Czy cookies mają flagi `HttpOnly`, `Secure`, `SameSite`?
 
-### ⚠️ Testy podatności
+### Testy podatności
 
 - [ ] Czy wejścia użytkownika są walidowane po stronie klienta i serwera?
 - [ ] Czy da się wstrzyknąć kod HTML/JS (test na **XSS**)?

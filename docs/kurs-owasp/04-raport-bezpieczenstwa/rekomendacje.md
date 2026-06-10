@@ -4,7 +4,7 @@ title: "Rekomendacje dotyczące poprawy bezpieczeństwa"
 sidebar_position: 3
 ---
 
-## 🛠️ Rekomendacje dotyczące poprawy bezpieczeństwa
+##  Rekomendacje dotyczące poprawy bezpieczeństwa
 
 Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasnych i wykonalnych rekomendacji. Powinny one być zrozumiałe zarówno dla zespołów technicznych, jak i osób decyzyjnych w organizacji.
 

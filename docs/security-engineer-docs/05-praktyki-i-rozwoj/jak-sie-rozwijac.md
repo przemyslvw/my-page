@@ -34,14 +34,14 @@ Rozwój jako Security Engineer to nieustanna droga – technologie się zmieniaj
 - **Newslettery**: TL;DR Sec, The Hacker News, SANS NewsBites
 - **Twitter/X**: infosec społeczność to kopalnia wiedzy – używaj hashtagów #infosec #appsec #bugbounty
 
-## 🛠️ Projekty do portfolio
+##  Projekty do portfolio
 
 - Zbuduj własne laby (np. Docker + vulnerable apps: DVWA, Juice Shop)
 - Opisz swoje analizy na blogu lub GitHubie
 - Stwórz automatyzację (np. playbook SOAR, skrypty do analizy logów)
 - Przeanalizuj rzeczywiste podatności (CVE) i ich działanie
 
-## 🤝 Społeczność
+## Społeczność
 
 - Dołącz do grup: ISSA Polska, OWASP, DEFCON Groups
 - Weź udział w konferencjach (BSides, CONFidence, SECURE, Infoshare)

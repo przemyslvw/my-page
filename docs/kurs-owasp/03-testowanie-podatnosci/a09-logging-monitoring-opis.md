@@ -17,7 +17,7 @@ sidebar_position: 41
 
 ---
 
-## 🚨 Przykłady typowych błędów
+## Przykłady typowych błędów
 
 - Brak logowania prób dostępu do konta administracyjnego.
 - Niewykrywanie nietypowej aktywności (np. 1000 zapytań w sekundę).

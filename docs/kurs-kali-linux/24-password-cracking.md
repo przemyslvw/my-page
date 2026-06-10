@@ -8,7 +8,7 @@ sidebar_position: 24
 
 W module *Broken Authentication* atakowaliśmy logowanie online (Hydra, Burp Intruder). Tutaj zajmujemy się **łamaniem offline** — gdy po post-exploitation (np. `hashdump`, dump bazy, plik `/etc/shadow`) mamy **hashe** i chcemy odzyskać hasła bez kontaktu z systemem ofiary. Brak rate-limitu i blokad sprawia, że to znacznie potężniejsza technika.
 
-> ⚖️ Łam wyłącznie hashe pozyskane legalnie w ramach autoryzowanego testu lub własne/labowe. Złamane hasła to dane wrażliwe — chroń je i usuń po zakończeniu zlecenia.
+> Łam wyłącznie hashe pozyskane legalnie w ramach autoryzowanego testu lub własne/labowe. Złamane hasła to dane wrażliwe — chroń je i usuń po zakończeniu zlecenia.
 
 ---
 

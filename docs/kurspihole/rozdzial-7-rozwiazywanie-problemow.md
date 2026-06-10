@@ -4,7 +4,7 @@ title: " Rozdział 7: Rozwiązywanie problemów"
 sidebar_position: 8
 ---
 
-### 🛠️ 7.1 Najczęstsze problemy i ich rozwiązania
+###  7.1 Najczęstsze problemy i ich rozwiązania
 
 #### ❓ **Pi-hole nie blokuje reklam**
 1. Sprawdź, czy urządzenie korzysta z Pi-hole jako DNS:

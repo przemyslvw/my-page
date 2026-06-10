@@ -46,7 +46,7 @@ Usuń podpis i wyślij żądanie z takim tokenem.
 
 ---
 
-## 🛠️ Mitigacja (Node.js example)
+##  Mitigacja (Node.js example)
 
 ```javascript
 jwt.verify(token, secret, { algorithms: ['HS256'] });
@@ -64,7 +64,7 @@ Jeśli zawartość to np. `admin123`, a nie hash (np. `$2b$12$...`) – hasła s
 
 ---
 
-## 🛠️ Mitigacja – Hashowanie haseł
+##  Mitigacja – Hashowanie haseł
 
 ```javascript
 const bcrypt = require('bcrypt');
@@ -87,7 +87,7 @@ Jeśli przesyłane są dane logowania – aplikacja narażona na MITM.
 
 ---
 
-## 🛠️ Mitigacja
+##  Mitigacja
 
 - Wymusić HTTPS w aplikacji i serwerze.
 - Dodać `HSTS` w nagłówkach:

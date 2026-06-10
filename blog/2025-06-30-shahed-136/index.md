@@ -6,7 +6,7 @@ tags: ['military', 'drony', 'communication', 'technologie']
 date: 2025-06-30
 ---
 
-⚠️ Świat właśnie zrobił kolejny niepokojący krok w wyścigu zbrojeń technologicznych. Na froncie pojawiły się **zmodernizowane drony Shahed-136**, które wprowadzają zupełnie nowy poziom precyzji i autonomii. Sprawdź, co zmienia obecność AI i zaawansowanych systemów zakłóceniowych na pokładzie tanich dronów-kamikadze.
+Świat właśnie zrobił kolejny niepokojący krok w wyścigu zbrojeń technologicznych. Na froncie pojawiły się **zmodernizowane drony Shahed-136**, które wprowadzają zupełnie nowy poziom precyzji i autonomii. Sprawdź, co zmienia obecność AI i zaawansowanych systemów zakłóceniowych na pokładzie tanich dronów-kamikadze.
 
 <!-- truncate -->
 

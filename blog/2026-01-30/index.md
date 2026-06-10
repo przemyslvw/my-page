@@ -18,7 +18,7 @@ Wielu CISO wciąż tkwi w pętli: Phishing test -> Pracownik klika -> Szkolenie 
 
 - **Wrogość na linii Blue Team – Biznes**: Bezpieczeństwo powinno być enablerem, a nie wewnętrzną policją.
 
-## 🛠️ Co w zamian? Strategia "Fail-Safe"
+##  Co w zamian? Strategia "Fail-Safe"
 
 Zamiast edukować ludzi, by byli nieomylni (co jest biologicznie niemożliwe), projektujmy systemy, które wybaczają błędy.
 

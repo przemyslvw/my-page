@@ -1,6 +1,6 @@
 ---
 id: "a03-injection-narzedzia"
-title: "🧰 3.3.4 – Narzędzia do testowania"
+title: " 3.3.4 – Narzędzia do testowania"
 sidebar_position: 14
 ---
 
@@ -10,7 +10,7 @@ Poznać narzędzia – darmowe i komercyjne – wykorzystywane do wykrywania i a
 
 ---
 
-## 🧰 Narzędzia bezpłatne
+##  Narzędzia bezpłatne
 
 ###  1. **sqlmap**
 Automatyczne wykrywanie i eksploatacja podatności SQL Injection.
@@ -66,7 +66,7 @@ python nosqlmap.py -u "http://example.com/api/login"
 
 ---
 
-## 💼 Narzędzia płatne
+## Narzędzia płatne
 
 ### 💎 1. **Burp Suite Professional**
 

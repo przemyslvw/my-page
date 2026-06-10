@@ -99,7 +99,7 @@ atuin theme list
 
 ---
 
-## 🛠️ Tworzenie własnych filtrów i aliasów
+##  Tworzenie własnych filtrów i aliasów
 
 Atuin pozwala tworzyć własne skróty i filtry, które ułatwią codzienną pracę.
 
@@ -167,4 +167,4 @@ atuin history import < moja_historia.json
 
 Dzięki możliwościom personalizacji i analizy statystyk Atuin staje się nie tylko narzędziem do zarządzania historią terminala, ale także potężnym narzędziem do optymalizacji pracy. W kolejnym rozdziale dowiesz się, jak rozwiązywać najczęstsze problemy i jak dbać o bezpieczeństwo swojej historii komend.
 
-➡️ **Przejdź do kolejnego rozdziału:** [🛠️ Problemy i debugowanie](/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie)
+➡️ **Przejdź do kolejnego rozdziału:** [ Problemy i debugowanie](/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie)

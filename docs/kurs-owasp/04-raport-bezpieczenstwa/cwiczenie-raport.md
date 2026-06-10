@@ -21,7 +21,7 @@ Na podstawie wcześniej przeprowadzonych testów, uczestnik:
 
 ---
 
-### 🛠️ Wymagania
+###  Wymagania
 
 1. Dostęp do wyników testów (np. raporty ZAP, Burp, notatki z testów manualnych)
 2. Edytor Markdown lub narzędzie raportujące (np. DefectDojo, Dradis, Pandoc, GitHub Pages)
@@ -150,7 +150,7 @@ Raport ten będzie stanowił punkt wyjścia do poprawy bezpieczeństwa systemu o
 
 ---
 
-## 🧰 5. Użyte narzędzia
+##  5. Użyte narzędzia
 
 **Bezpłatne:**
 

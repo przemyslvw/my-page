@@ -29,7 +29,7 @@ Analiza obecności, poprawności i wartości tych nagłówków to jeden z pierws
 - **IDOR** – zmieniając parametry w URL (np. `/user/12345` na `/user/1`) i obserwując odpowiedzi serwera można wykryć brak autoryzacji
 - **Zakładka Network** pozwala podejrzeć dokładnie, jak wyglądają payloady i odpowiedzi serwera, co ułatwia analizę
 
-### 🔑 Testowanie autoryzacji i uprawnień
+###  Testowanie autoryzacji i uprawnień
 
 - Wyloguj się z aplikacji, ale spróbuj wykonać żądanie API z poziomu zakładki Network (brak tokenu)
 - Zaloguj się jako inny użytkownik i wykonaj zapytania zmieniając identyfikatory zasobów (np. `id=5`)

@@ -4,7 +4,7 @@ title: "Narzędzia do generowania raportów"
 sidebar_position: 4
 ---
 
-## 🧰 Narzędzia do generowania raportów
+##  Narzędzia do generowania raportów
 
 Efektywne raportowanie wyników testów bezpieczeństwa wymaga nie tylko rzetelnej analizy, ale także odpowiednich narzędzi, które ułatwiają prezentację danych w sposób przejrzysty, profesjonalny i nadający się do dalszego przetwarzania.
 
@@ -39,7 +39,7 @@ Poniżej zestawienie polecanych narzędzi – zarówno bezpłatnych, jak i komer
 
 ---
 
-### 💼 Narzędzia komercyjne
+### Narzędzia komercyjne
 
 ####  **Burp Suite Professional**
 
@@ -57,7 +57,7 @@ Poniżej zestawienie polecanych narzędzi – zarówno bezpłatnych, jak i komer
 - **Opis**: Narzędzie online do tworzenia raportów z testów penetracyjnych.
 - **Zalety**: Szablony, obsługa wielu klientów, generowanie wykresów i podsumowań.
 
-#### 🛠️ **Outpost24 / ImmuniWeb / Acunetix**
+####  **Outpost24 / ImmuniWeb / Acunetix**
 
 - **Opis**: Platformy komercyjne oferujące automatyczne generowanie profesjonalnych raportów.
 - **Zalety**: Raporty zgodne z OWASP, PCI-DSS, ISO 27001.

@@ -1,10 +1,10 @@
 ---
 id: "a07-authentication-failures-narzedzia"
-title: "🛠️ 3.7.4 – Narzędzia do testowania"
+title: " 3.7.4 – Narzędzia do testowania"
 sidebar_position: 34
 ---
 
-## 🛠️ Narzędzia do testowania: Identification and Authentication Failures
+##  Narzędzia do testowania: Identification and Authentication Failures
 
 Lista darmowych i komercyjnych narzędzi pomocnych przy testowaniu podatności związanych z uwierzytelnianiem.
 

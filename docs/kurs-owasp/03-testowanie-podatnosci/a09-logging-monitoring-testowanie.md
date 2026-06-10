@@ -12,7 +12,7 @@ Celem testowania tej podatności jest sprawdzenie, czy aplikacja i jej infrastru
 
 ---
 
-## 🛠️ Krok po kroku: jak testować?
+##  Krok po kroku: jak testować?
 
 ### 1. **Sprawdzenie logowania kluczowych zdarzeń**
 - Wykonaj nieudane logowanie (błędne hasło).

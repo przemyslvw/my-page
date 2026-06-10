@@ -1,6 +1,6 @@
 ---
 id: "a02-cryptographic-failures-narzedzia"
-title: "🧰 3.2.4 – Narzędzia do testowania: Cryptographic Failures"
+title: " 3.2.4 – Narzędzia do testowania: Cryptographic Failures"
 sidebar_position: 9
 ---
 
@@ -10,7 +10,7 @@ Poznać narzędzia (płatne i bezpłatne), które umożliwiają wykrywanie błę
 
 ---
 
-## 🧰 Bezpłatne narzędzia
+##  Bezpłatne narzędzia
 
 ### 🔎 1. [TestSSL.sh](https://github.com/drwetter/testssl.sh)
 
@@ -31,7 +31,7 @@ Poznać narzędzia (płatne i bezpłatne), które umożliwiają wykrywanie błę
 
 ---
 
-### 🔑 3. [TruffleHog](https://github.com/trufflesecurity/trufflehog)
+###  3. [TruffleHog](https://github.com/trufflesecurity/trufflehog)
 
 - Wyszukiwanie sekretów (kluczy API, tokenów, haseł) w kodzie źródłowym i repozytoriach Git.
 
@@ -64,7 +64,7 @@ openssl s_client -connect example.com:443
 
 ---
 
-## 💼 Płatne narzędzia
+## Płatne narzędzia
 
 ###  1. Burp Suite Professional
 

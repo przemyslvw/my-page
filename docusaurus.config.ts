@@ -211,6 +211,19 @@ const config: Config = {
     prism: {
       theme: prismThemes.vsLight,
       darkTheme: prismThemes.vsDark,
+      additionalLanguages: [
+        'java',
+        'http',
+        'csharp',
+        'php',
+        'toml',
+        'powershell',
+        'nginx',
+        'apacheconf',
+        'batch',
+        'graphql',
+        'promql',
+      ],
     },
   } satisfies Preset.ThemeConfig,
 };

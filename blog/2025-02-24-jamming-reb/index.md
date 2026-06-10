@@ -6,7 +6,7 @@ tags: [drony, wojsko, technologie, uav, bsp]
 date: 2025-02-24
 ---
 
-## ✈️ Wprowadzenie
+## Wprowadzenie
 Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu zakłócania, przechwytywania i manipulowania sygnałami elektromagnetycznymi przeciwnika. Ich głównym celem jest zakłócanie komunikacji, systemów radarowych, sygnałów GPS oraz sterowania dronami.
 
 <!-- truncate -->
@@ -15,7 +15,7 @@ Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu
 - 📶 **Zakłócanie komunikacji** (GSM, LTE, satelity).
 -  **Zakłócanie systemów nawigacyjnych** (GPS, GLONASS, Galileo).
 -  **Dezaktywacja systemów radarowych**.
-- 🛰️ **Przechwytywanie sygnałów wywiadowczych**.
+- **Przechwytywanie sygnałów wywiadowczych**.
 - 🚁 **Neutralizacja dronów** poprzez zakłócanie sygnałów sterujących.
 
 ---
@@ -86,11 +86,11 @@ Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu
 
 ---
 
-## ⚔️ Wyzwania i Przyszłość Systemów REB
+## Wyzwania i Przyszłość Systemów REB
 
 -  **Integracja AI** do automatycznego wykrywania i zakłócania sygnałów.
 -  **Zwiększona odporność na zakłócenia** dla dronów i systemów satelitarnych.
-- 💥 **Rozwój technologii EMP** (impulsów elektromagnetycznych) zdolnych do dezaktywacji urządzeń elektronicznych przeciwnika.
+- **Rozwój technologii EMP** (impulsów elektromagnetycznych) zdolnych do dezaktywacji urządzeń elektronicznych przeciwnika.
 
 ---
 

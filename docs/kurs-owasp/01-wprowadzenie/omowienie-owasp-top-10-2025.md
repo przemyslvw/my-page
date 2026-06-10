@@ -30,7 +30,7 @@ Lista **OWASP Top 10** to ranking dziesięciu najważniejszych typów podatnośc
 | A09:2025 | Security Logging and Monitoring Failures |
 | A10:2025 | Server-Side Request Forgery (SSRF) |
 
-> ⚠️ UWAGA: OWASP Top 10 **to nie tylko lista**, ale też punkt odniesienia do **testowania, raportowania, audytów i edukacji**.
+> UWAGA: OWASP Top 10 **to nie tylko lista**, ale też punkt odniesienia do **testowania, raportowania, audytów i edukacji**.
 
 ---
 
@@ -43,7 +43,7 @@ W porównaniu do poprzednich edycji:
 
 ---
 
-## 🧰 Jak korzystać z OWASP Top 10?
+##  Jak korzystać z OWASP Top 10?
 
 1. **Testy bezpieczeństwa** – praktyczny plan testów dla pentesterów.
 2. **Audyt bezpieczeństwa aplikacji** – checklisty zgodności z OWASP.
@@ -52,7 +52,7 @@ W porównaniu do poprzednich edycji:
 
 ---
 
-## 🛠️ Wsparcie narzędziowe
+##  Wsparcie narzędziowe
 
 Większość narzędzi bezpieczeństwa – jak Burp Suite, OWASP ZAP, SonarQube – ma wbudowane profile do skanowania pod kątem OWASP Top 10.
 

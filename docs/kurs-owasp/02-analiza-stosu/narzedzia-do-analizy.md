@@ -13,7 +13,7 @@ Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną iden
 
 ---
 
-## 🧰 Kategorie narzędzi
+##  Kategorie narzędzi
 
 ### 🔎 1. Analiza klienta (frontend)
 
@@ -46,7 +46,7 @@ Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną iden
 
 ---
 
-### 💼 4. Narzędzia komercyjne (SaaS/API)
+### 4. Narzędzia komercyjne (SaaS/API)
 
 | Narzędzie | Opis |
 |----------|------|

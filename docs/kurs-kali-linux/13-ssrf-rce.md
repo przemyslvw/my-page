@@ -54,7 +54,7 @@ http://example.com?url=http://localhost:9200/_search?q=*
 
 ---
 
-## 💥 Remote Code Execution (RCE)
+## Remote Code Execution (RCE)
 RCE to krytyczna podatność, która pozwala atakującemu na wykonywanie dowolnych komend systemowych na serwerze.
 
 ### **1️⃣ Wykrywanie podatności RCE**

@@ -36,7 +36,7 @@ AI Act to europejskie rozporządzenie mające na celu uregulowanie rozwoju i sto
 - Zgłaszanie incydentów i niezgodności do organów nadzorczych
 - Współpraca z Data Protection Officer i zespołem ds. zgodności
 
-## 🛠️ Rola Security Engineera
+##  Rola Security Engineera
 
 - Identyfikacja systemów AI w organizacji i klasyfikacja ryzyka
 - Współpraca z zespołem ds. AI/ML przy audytach bezpieczeństwa modeli

@@ -35,7 +35,7 @@ GET /fetch-image?url=http://127.0.0.1:8080/admin
 
 ---
 
-## 🚨 Potencjalne konsekwencje
+## Potencjalne konsekwencje
 
 - **Dostęp do wewnętrznych API** – np. `http://localhost:5000/internal/status`.
 - **Odczyt metadanych instancji chmurowej** – np. AWS EC2: `http://169.254.169.254/latest/meta-data/`.

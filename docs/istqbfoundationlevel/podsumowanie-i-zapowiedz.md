@@ -28,7 +28,7 @@ Po zdobyciu certyfikatu ISTQB poziomu podstawowego możesz kontynuować rozwój 
 - **Technical Test Analyst** – testowanie niefunkcjonalne, analiza kodu i automatyzacja testów.
 - **Test Manager** – zarządzanie projektami testowymi, planowanie strategii testów i optymalizacja kosztów.
 
-### 🤖 ISTQB – Automatyzacja testów
+### ISTQB – Automatyzacja testów
 - **Certified Tester – Advanced Level: Test Automation Engineer** – tworzenie frameworków automatyzujących, zarządzanie środowiskami testowymi i integracja z procesami CI/CD.
 - **Narzędzia automatyzujące testy funkcjonalne i niefunkcjonalne** – praktyczne wykorzystanie Selenium, Cypress, JMeter, itp.
 

@@ -24,13 +24,13 @@ W zespole zajmującym się bezpieczeństwem IT można wyróżnić różne role, 
 - Wybiera technologie, tworzy standardy i wzorce bezpieczeństwa.  
 - Działa na poziomie strategicznym i infrastrukturalnym.
 
-## 🎩 CISO (Chief Information Security Officer)
+##  CISO (Chief Information Security Officer)
 
 - Odpowiada za strategię bezpieczeństwa w organizacji.  
 - Komunikuje zagrożenia i potrzeby zarządowi.  
 - Zarządza politykami, zgodnością i budżetem bezpieczeństwa.
 
-## 👥 Współpraca między rolami
+##  Współpraca między rolami
 
 - **Engineer + Analyst**: współpraca przy analizie i reagowaniu na incydenty.  
 - **Engineer + Architect**: wspólne projektowanie rozwiązań zgodnych z architekturą.  

@@ -13,7 +13,7 @@ Skanowanie podatności oraz skuteczne zarządzanie incydentami to dwa kluczowe f
 - Weryfikacja zależności (np. podatne biblioteki, komponenty third-party)  
 - Automatyczne raportowanie i kategoryzacja ryzyk (CVSS, CWE)
 
-## 🚨 Zarządzanie incydentami (Incident Response)
+## Zarządzanie incydentami (Incident Response)
 
 - Tworzenie planów reakcji na incydenty (IRP – Incident Response Plan)  
 - Identyfikacja, analiza, ograniczenie i usuwanie skutków incydentu  

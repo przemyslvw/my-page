@@ -133,7 +133,7 @@ class GitImporter:
 
 Agent co 30 sekund odpytuje repozytorium o nowe komendy (pliki `cmd_*.txt`) i wrzuca wyniki jako commity. Logika komunikacji jest w pełni asynchroniczna i nie utrzymuje otwartego połączenia.
 
-> ⚠️ Powyższe techniki są materiałem edukacyjnym z książki Black Hat Python — stosuj wyłącznie w autoryzowanych środowiskach testowych.
+> Powyższe techniki są materiałem edukacyjnym z książki Black Hat Python — stosuj wyłącznie w autoryzowanych środowiskach testowych.
 
 ---
 
@@ -239,7 +239,7 @@ Przykładowe techniki:
 
 ---
 
-## 🤖 AI i LLM w testach penetracyjnych
+## AI i LLM w testach penetracyjnych
 
 Kali 2026.1 oficjalnie wchodzi w erę **Private AI** — modele językowe działają lokalnie, bez wysyłania wrażliwych danych klienta do zewnętrznych serwisów.
 
@@ -273,7 +273,7 @@ curl -s https://target.example.com | ollama run llama3 "Przeanalizuj te nagłów
 
 5ire to **desktopowy klient AI** (aplikacja GUI z obsługą MCP), nie narzędzie CLI. Łączy się z lokalnymi modelami przez Ollama oraz z zewnętrznymi API. Po instalacji w ustawieniach wskazujesz endpoint Ollama (`http://localhost:11434`) i wybierasz model (np. `llama3`). Dzięki obsłudze **MCP (Model Context Protocol)** można podłączać narzędzia i konteksty pentesterskie do modelu.
 
-> ⚠️ **Ważne:** Nawet przy lokalnych modelach — nigdy nie wklejaj do LLM prawdziwych danych uwierzytelniających, haseł ani danych osobowych klientów.
+> **Ważne:** Nawet przy lokalnych modelach — nigdy nie wklejaj do LLM prawdziwych danych uwierzytelniających, haseł ani danych osobowych klientów.
 
 ---
 

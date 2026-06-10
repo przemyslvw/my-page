@@ -12,7 +12,7 @@ Celem ćwiczenia jest zidentyfikowanie i wykorzystanie podatności typu SSRF w a
 
 ---
 
-## 🛠️ Scenariusz testowy
+##  Scenariusz testowy
 
 ### Aplikacja:
 - Backend Node.js z funkcją `/fetch?url=...` pozwalającą użytkownikowi na pobranie zawartości z zewnętrznego URL.

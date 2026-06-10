@@ -15,7 +15,7 @@ Automatyzacja to jeden z najważniejszych elementów nowoczesnego podejścia do 
 - Skraca czas średniego wykrycia i odpowiedzi (MTTD/MTTR)
 - Redukuje zależność od dostępności konkretnych specjalistów
 
-## 🧰 Obszary automatyzacji w bezpieczeństwie
+##  Obszary automatyzacji w bezpieczeństwie
 
 ###  CI/CD – bezpieczeństwo jako kod
 
@@ -24,7 +24,7 @@ Automatyzacja to jeden z najważniejszych elementów nowoczesnego podejścia do 
 - Generowanie raportów i zatrzymywanie pipeline'ów przy wykryciu krytycznych luk
 - Automatyczne dodawanie wyjątków i zarządzanie zgodnością z polityką bezpieczeństwa
 
-### 🔔 Monitoring i alerty
+### Monitoring i alerty
 
 - Tworzenie reguł detekcji w SIEM-ach opartych na danych telemetrycznych
 - Automatyczne tagowanie i priorytetyzacja alertów na podstawie ryzyka

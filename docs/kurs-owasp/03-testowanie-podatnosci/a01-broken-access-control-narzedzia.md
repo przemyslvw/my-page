@@ -10,7 +10,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 🛠️ Narzędzia darmowe (open source)
+##  Narzędzia darmowe (open source)
 
 | Narzędzie | Opis |
 |----------|------|
@@ -24,7 +24,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 💼 Narzędzia komercyjne
+## Narzędzia komercyjne
 
 | Narzędzie | Funkcje |
 |----------|---------|
@@ -35,7 +35,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 🔌 Przydatne rozszerzenia do Burp Suite
+## Przydatne rozszerzenia do Burp Suite
 
 - `Autorize` – testowanie kontroli dostępu między użytkownikami.
 - `AuthMatrix` – zaawansowane macierze ról i uprawnień.

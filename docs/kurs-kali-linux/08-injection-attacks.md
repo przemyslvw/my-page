@@ -10,7 +10,7 @@ Ataki typu Injection polegają na wstrzyknięciu złośliwego kodu do aplikacji 
 
 ---
 
-## 🛠️ SQL Injection
+##  SQL Injection
 SQL Injection (SQLi) polega na manipulacji zapytaniami SQL w celu uzyskania nieautoryzowanego dostępu do bazy danych.
 
 ---

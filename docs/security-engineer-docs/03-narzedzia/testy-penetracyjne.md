@@ -26,7 +26,7 @@ Testy penetracyjne (pentesty) to kontrolowane, symulowane ataki na system inform
 - **Social engineering** – phishing, vishing, próby fizycznego dostępu (tylko przy wcześniejszym uzgodnieniu)
 - **Red Teaming** – długoterminowa, realistyczna kampania ataku obejmująca fizyczne, techniczne i socjotechniczne wektory
 
-## 🛠️ Narzędzia do testów
+##  Narzędzia do testów
 
 - **Recon i scanning**: nmap, amass, Shodan, recon-ng
 - **Exploitation**: Metasploit, sqlmap, Burp Suite Pro, OWASP ZAP

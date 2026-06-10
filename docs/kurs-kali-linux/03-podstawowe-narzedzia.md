@@ -150,7 +150,7 @@ Flaga `--force-overwrite` bywa potrzebna przy aktualizacji Kali gdy nowszy pakie
 
 ---
 
-## 🔌 Netcat – szwajcarski nóż sieci
+## Netcat – szwajcarski nóż sieci
 
 Netcat (`nc`) to fundamentalne narzędzie do testowania połączeń sieciowych, transferu plików i tworzenia reverse shellu.
 

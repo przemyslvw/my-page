@@ -1,6 +1,6 @@
 ---
 slug: zaklocenia-gps-spoofing-jamming-2025
-title: '🛰️ Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?'
+title: 'Zakłócenia GPS nad północną Polską – co się dzieje z naszymi dronami?'
 authors: [przemyslvw]
 tags: ['cybersecurity', 'gps', 'spoofing', 'jamming', 'drony', 'nawigacja', 'open-source-intel']
 date: 2025-06-16
@@ -10,7 +10,7 @@ W ostatnich tygodniach północna Polska – szczególnie rejon Trójmiasta i P�
 
 <!-- truncate -->
 
-## 🚨 Co dokładnie się dzieje?
+## Co dokładnie się dzieje?
 
 Od końca maja 2025 roku piloci dronów oraz użytkownicy systemów opartych o GNSS (Global Navigation Satellite Systems) raportują:
 
@@ -21,7 +21,7 @@ Od końca maja 2025 roku piloci dronów oraz użytkownicy systemów opartych o G
 
 Nie jest to przypadek. Zjawisko jest **rozległe, długotrwałe i powtarzalne**.
 
-## 🛠️ Spoofing i jamming – co to znaczy?
+##  Spoofing i jamming – co to znaczy?
 
 Zakłócenia sygnału GNSS można podzielić na dwie główne techniki:
 
@@ -48,7 +48,7 @@ Nie ma oficjalnych komunikatów ze strony rządu, ale wiele wskazuje na **dział
 
 Na serwisach typu [GPSJam.org](https://gpsjam.org) widać **anomalie sygnału** nad Polską, Litwą i Bałtykiem – szczególnie wokół obwodu kaliningradzkiego.
 
-## ✈️ Jak się chronić jako operator drona?
+## Jak się chronić jako operator drona?
 
 Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:
 
@@ -89,7 +89,7 @@ Zakłócenia GPS to nie science-fiction. To realna, rosnąca w siłę technika w
 
 ---
 
-🛰️ **To nie był test – to był sygnał. A będzie ich więcej.** Przygotujmy się, zanim nasze systemy zostaną realnie oślepione.
+**To nie był test – to był sygnał. A będzie ich więcej.** Przygotujmy się, zanim nasze systemy zostaną realnie oślepione.
 
 ---
 

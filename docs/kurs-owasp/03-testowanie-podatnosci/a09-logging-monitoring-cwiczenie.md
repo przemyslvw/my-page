@@ -12,7 +12,7 @@ Zadaniem uczestnika jest przetestowanie aplikacji webowej pod kątem rejestrowan
 
 ---
 
-## 🛠️ Scenariusz testowy
+##  Scenariusz testowy
 
 ### Środowisko:
 - Aplikacja Node.js z backendem Express.
@@ -51,7 +51,7 @@ Zadaniem uczestnika jest przetestowanie aplikacji webowej pod kątem rejestrowan
 
 ---
 
-## 🧰 Narzędzia, które możesz wykorzystać
+##  Narzędzia, które możesz wykorzystać
 
 - `winston`, `pino` – loggery dla Node.js.
 - `fail2ban` – blokowanie IP po serii nieudanych logowań.

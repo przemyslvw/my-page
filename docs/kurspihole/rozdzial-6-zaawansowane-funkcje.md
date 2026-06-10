@@ -87,7 +87,7 @@ sudo wg-quick up wg0
 
 ---
 
-### ⚖️ 6.3 Czarne i białe listy
+### 6.3 Czarne i białe listy
 
 #### ➕ **Dodanie domeny do czarnej listy:**
 1. Otwórz panel administracyjny Pi-hole.

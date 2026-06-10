@@ -101,7 +101,7 @@ atuin key set <twój_klucz>
 
 ---
 
-## 🔑 Uwierzytelnianie za pomocą kluczy API
+##  Uwierzytelnianie za pomocą kluczy API
 
 Możesz wygenerować klucz API, aby autoryzować urządzenia bez podawania hasła.
 

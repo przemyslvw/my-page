@@ -21,7 +21,7 @@ sidebar_position: 6
 
 ---
 
-## 💥 Potencjalne skutki
+## Potencjalne skutki
 
 - Utrata poufności danych (np. kradzież danych osobowych).
 - Ataki typu **credential stuffing** (gdy hasła są przechowywane jawnie).
@@ -44,8 +44,8 @@ sidebar_position: 6
 |------------|------|----------------|
 | Przechowywanie haseł w `plaintext` | Atakujący uzyskuje pełny dostęp do kont | 🔥 Wysokie |
 | Brak HTTPS | Możliwość MITM i kradzieży danych | 🔥 Wysokie |
-| Użycie SHA1 do podpisu JWT | Możliwość sfałszowania tokenu | ⚠️ Średnie |
-| Brak saltingu przy haszowaniu | Zwiększona podatność na rainbow tables | ⚠️ Średnie |
+| Użycie SHA1 do podpisu JWT | Możliwość sfałszowania tokenu | Średnie |
+| Brak saltingu przy haszowaniu | Zwiększona podatność na rainbow tables | Średnie |
 
 ---
 

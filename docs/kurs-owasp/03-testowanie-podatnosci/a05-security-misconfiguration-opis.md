@@ -12,7 +12,7 @@ Nie zawsze wynika z kodu – najczęściej to **brak odpowiedniego zabezpieczeni
 
 ---
 
-## ⚠️ Przykłady błędnej konfiguracji
+## Przykłady błędnej konfiguracji
 
 - Włączony tryb debugowania (`debug=true`).
 - Dostępne panele administracyjne bez autoryzacji (np. `/admin`, `/phpmyadmin`).
@@ -23,7 +23,7 @@ Nie zawsze wynika z kodu – najczęściej to **brak odpowiedniego zabezpieczeni
 
 ---
 
-## 💥 Wpływ podatności
+## Wpływ podatności
 
 - Eskalacja uprawnień.
 - Ujawnienie danych technicznych (ścieżki, logi, tokeny).

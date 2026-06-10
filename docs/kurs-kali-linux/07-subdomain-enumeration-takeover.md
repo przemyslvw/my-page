@@ -47,7 +47,7 @@ cat subs.txt | httpx -silent -status-code -title -tech-detect
 
 ---
 
-## 💥 Subdomain Takeover
+## Subdomain Takeover
 
 ### **1️⃣ Na czym polega?**
 Mechanizm „wiszącego" (dangling) rekordu DNS:
@@ -81,7 +81,7 @@ aws s3 mb s3://app-assets --region us-east-1   # rejestracja tej samej nazwy
 ```
 Po wgraniu pliku `index.html` z nieszkodliwym znacznikiem (np. swój nick + identyfikator zgłoszenia) potwierdzasz przejęcie — **bez** publikowania szkodliwej treści.
 
-> ⚖️ W bug bounty/pentestach jako PoC umieszczaj wyłącznie nieagresywny dowód kontroli (np. plik tekstowy z identyfikatorem zgłoszenia). Nie hostuj phishingu ani złośliwego kodu.
+> W bug bounty/pentestach jako PoC umieszczaj wyłącznie nieagresywny dowód kontroli (np. plik tekstowy z identyfikatorem zgłoszenia). Nie hostuj phishingu ani złośliwego kodu.
 
 ---
 

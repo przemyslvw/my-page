@@ -21,7 +21,7 @@ Systemy SIEM (Security Information and Event Management) są kluczowym elementem
 - **Wazuh** – SIEM oparty o OSSEC, dobry do środowisk open-source
 - **IBM QRadar, ArcSight, Sumo Logic, Graylog** – inne komercyjne alternatywy
 
-## 🛠️ Kluczowe komponenty
+##  Kluczowe komponenty
 
 - **Collector** – zbiera logi z różnych źródeł (syslog, API, agent)
 - **Parser** – zamienia logi na jednolity format (np. JSON)

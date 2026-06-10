@@ -60,7 +60,7 @@ Zweryfikowanie, czy konfiguracja aplikacji i środowiska serwerowego zapewnia sk
 
 ---
 
-## 🚨 Typowe błędy konfiguracyjne
+## Typowe błędy konfiguracyjne
 
 - Logi zapisywane tylko lokalnie bez backupu.
 - Brak logowania prób logowania i sesji.

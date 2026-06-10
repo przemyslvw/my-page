@@ -4,7 +4,7 @@ title: "Narzędzia do testowania"
 sidebar_position: 49
 ---
 
-# 🛠️ Narzędzia do testowania – Server-Side Request Forgery (SSRF) (A10:2025)
+#  Narzędzia do testowania – Server-Side Request Forgery (SSRF) (A10:2025)
 
 Testowanie SSRF polega na identyfikacji punktów w aplikacji, które umożliwiają wykonanie zdalnego żądania HTTP na podstawie danych dostarczonych przez użytkownika. Poniżej przedstawiono narzędzia (zarówno darmowe, jak i komercyjne) przydatne do identyfikacji i eksploatacji SSRF.
 
@@ -23,7 +23,7 @@ Testowanie SSRF polega na identyfikacji punktów w aplikacji, które umożliwiaj
 
 ---
 
-## 💼 Narzędzia płatne / komercyjne
+## Narzędzia płatne / komercyjne
 
 | Narzędzie | Opis |
 |----------|------|

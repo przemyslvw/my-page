@@ -43,7 +43,7 @@ Podział na dwie główne warstwy:
 
 ---
 
-## 🛠️ Przykładowe narzędzia
+##  Przykładowe narzędzia
 
 ### 🔓 Darmowe:
 
@@ -53,7 +53,7 @@ Podział na dwie główne warstwy:
 - curl / httpx / ffuf (CLI do badania nagłówków i zasobów)
 - Nikto (podstawowy skaner serwera HTTP)
 
-### 💼 Komercyjne:
+### Komercyjne:
 
 - Burp Suite Professional (identyfikacja backendów, fingerprinting)
 - Detectify (kompletny profil aplikacji)

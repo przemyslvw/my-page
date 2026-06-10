@@ -1,6 +1,6 @@
 ---
 id: "a04-insecure-design-narzedzia"
-title: "🧰 3.4.4 – Narzędzia do testowania"
+title: " 3.4.4 – Narzędzia do testowania"
 sidebar_position: 19
 ---
 
@@ -20,7 +20,7 @@ Podatności typu **Insecure Design** najczęściej **nie są wykrywane przez aut
 
 ---
 
-## 🧰 Narzędzia bezpłatne
+##  Narzędzia bezpłatne
 
 ###  1. **Threat Dragon (OWASP)**
 
@@ -50,7 +50,7 @@ Podatności typu **Insecure Design** najczęściej **nie są wykrywane przez aut
 
 ---
 
-## 💼 Narzędzia komercyjne
+## Narzędzia komercyjne
 
 ###  1. **IriusRisk**
 

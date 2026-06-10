@@ -28,7 +28,7 @@ Weryfikacja powinna obejmować **pełen stack aplikacji**: backend, frontend, se
 
 ---
 
-### 3. 🔑 Dostęp do paneli administracyjnych
+### 3.  Dostęp do paneli administracyjnych
 
 - Czy `/admin`, `/manage`, `/dashboard` są zabezpieczone hasłem i autoryzacją?
 - Czy wymagają 2FA, jeśli dostępne z Internetu?

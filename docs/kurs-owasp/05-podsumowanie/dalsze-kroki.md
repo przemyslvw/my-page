@@ -20,7 +20,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 🛠️ 2. Praktyka poprzez CTF i platformy hands-on
+###  2. Praktyka poprzez CTF i platformy hands-on
 
 - **TryHackMe** – kursy i laby z zakresu AppSec, Web, pentestów.
 - **Hack The Box** – realistyczne środowiska ataków.

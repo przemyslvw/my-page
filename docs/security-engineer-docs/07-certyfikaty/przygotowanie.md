@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Przygotowanie do certyfikatów z zakresu cyberbezpieczeństwa wymaga dobrej strategii, dyscypliny i dostosowania metod nauki do konkretnego egzaminu. Niezależnie od tego, czy przygotowujesz się do OSCP, ISO 27001, PNPT, czy Security+, warto stosować się do uniwersalnych zasad.
 
-## 🗺️ Zdefiniuj swój plan
+## Zdefiniuj swój plan
 
 - [ ] Wybierz konkretny certyfikat i poznaj jego **zakres tematyczny**
 - [ ] Pobierz **oficjalny sylabus lub exam objectives**
@@ -36,7 +36,7 @@ Przygotowanie do certyfikatów z zakresu cyberbezpieczeństwa wymaga dobrej stra
 - [ ] Przećwicz czas – np. test na 90 minut = 90 pytań = 1 minuta/1 pytanie
 - [ ] Oswój się z formatem: czy egzamin to test wielokrotnego wyboru, praktyczny, esej?
 
-## ‍♂️ Dzień przed egzaminem
+## Dzień przed egzaminem
 
 - [ ] Nie ucz się na siłę – przeglądnij notatki i checklisty
 - [ ] Wyśpij się dobrze (min. 7–8 godzin)

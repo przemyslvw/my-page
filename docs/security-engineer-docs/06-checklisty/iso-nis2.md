@@ -32,7 +32,7 @@ Checklisty zgodności pomagają upewnić się, że Twoja organizacja spełnia wy
 - [ ] Czy odbywają się przeglądy zarządzania?
 - [ ] Czy podejmowane są działania korygujące po incydentach?
 
-## ⚖️ NIS2 – checklista
+## NIS2 – checklista
 
 ### 🏛 Zakres organizacyjny
 

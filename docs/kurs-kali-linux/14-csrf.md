@@ -33,7 +33,7 @@ Jeśli to wszystko, czego wymaga serwer — żądanie da się sfałszować z dow
 
 ---
 
-## 💥 Eksploatacja CSRF
+## Eksploatacja CSRF
 
 ### **1️⃣ CSRF przez formularz HTML (POST)**
 Atakujący umieszcza na swojej stronie ukryty formularz, który wysyła się automatycznie:

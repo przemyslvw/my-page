@@ -19,7 +19,7 @@ Poniżej przedstawiamy najważniejsze wnioski:
 
 ---
 
-### 🛠️ 2. OWASP Top 10 to fundament
+###  2. OWASP Top 10 to fundament
 
 - Lista OWASP Top 10 2025 pomaga priorytetyzować działania zabezpieczające.
 - Każda kategoria zawiera inne wektory ataku, metody testowania i sposoby ochrony – ich zrozumienie jest niezbędne.

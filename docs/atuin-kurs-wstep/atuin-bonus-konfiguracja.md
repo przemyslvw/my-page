@@ -10,7 +10,7 @@ W tym rozdziale poznasz szczegółowe ustawienia **Atuin**, które pozwolą Ci d
 
 ---
 
-## 🛠️ **Optymalna konfiguracja Atuin**
+##  **Optymalna konfiguracja Atuin**
 
 Jeśli chcesz mieć w pełni zoptymalizowaną wersję Atuin, oto rekomendowana konfiguracja pliku:
 

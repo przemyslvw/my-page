@@ -6,12 +6,12 @@ tags: [drony, wojsko, technologie, uav, bsp]
 date: 2025-02-22
 ---
 
-## ✈️ Wprowadzenie
+## Wprowadzenie
 Współczesne drony wojskowe odgrywają kluczową rolę w działaniach zbrojnych na całym świecie. Wykorzystywane są zarówno do rozpoznania, nadzoru, jak i prowadzenia precyzyjnych uderzeń. Dzięki zaawansowanym technologiom bezzałogowe statki powietrzne (BSP) oferują szeroki zakres możliwości operacyjnych.
 
 <!-- truncate -->
 
-## 💥 Klasyfikacja Dronów Wojskowych
+## Klasyfikacja Dronów Wojskowych
 
 ### 1. **Drony Rozpoznawcze**
 Służą do zbierania informacji wywiadowczych, monitorowania pola walki i korygowania ognia artyleryjskiego.
@@ -43,10 +43,10 @@ Stosowane do zwalczania wrogich BSP.
 Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które umożliwiają operatorowi obserwację z perspektywy pierwszej osoby za pomocą kamery umieszczonej na dronie. W wersji bojowej są one często modyfikowane do przenoszenia ładunków wybuchowych lub do misji samobójczych (*kamikaze*).
  Kluczowe Cechy Bojowych Dronów FPV:
 -  **Precyzyjne sterowanie** – operator widzi obraz w czasie rzeczywistym, co pozwala na precyzyjne trafienie w cel.
-- 💥 **Ładunek wybuchowy** – możliwość przenoszenia granatów, ładunków C4 lub innych materiałów wybuchowych.
-- 🛠️ **Łatwość modyfikacji** – często oparte na komercyjnych dronach wyścigowych, co obniża koszty produkcji.
-- 💰 **Niski koszt produkcji** – w porównaniu do tradycyjnych dronów bojowych.
-- 🎛️ **Odporność na zakłócenia** – możliwość wykorzystania alternatywnych pasm transmisji i silnych nadajników.
+- **Ładunek wybuchowy** – możliwość przenoszenia granatów, ładunków C4 lub innych materiałów wybuchowych.
+-  **Łatwość modyfikacji** – często oparte na komercyjnych dronach wyścigowych, co obniża koszty produkcji.
+- **Niski koszt produkcji** – w porównaniu do tradycyjnych dronów bojowych.
+- **Odporność na zakłócenia** – możliwość wykorzystania alternatywnych pasm transmisji i silnych nadajników.
 
 ---
 
@@ -86,7 +86,7 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 - Wykorzystanie sztucznej inteligencji (AI) do autonomicznych misji.
 - Zaawansowane systemy wizji komputerowej do orientacji w terenie.
 
-### 🛰️ Przykład:
+### Przykład:
 **Skynode S** – opracowany przez szwajcarską firmę **Auterion**:
 - Wyposażony w AI umożliwiającą loty bez GPS.
 - Odporność na zakłócenia potwierdzona w warunkach bojowych na Ukrainie.
@@ -96,18 +96,18 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ---
 
-## 🔌 Drony Sterowane Światłowodem
+## Drony Sterowane Światłowodem
 
 ###  Zalety:
 - Brak emisji sygnału radiowego – trudne do wykrycia.
 - Wysoka odporność na zakłócenia elektromagnetyczne.
 - Stabilna transmisja danych na duże odległości.
 
-### ⚠️ Wady:
+### Wady:
 - Ograniczony zasięg (do 10 km) ze względu na długość światłowodu.
 - Zmniejszona manewrowość i ryzyko zerwania kabla.
 
-### 🛰️ Przykład:
+### Przykład:
 **Rosyjskie drony światłowodowe** zaobserwowane w obwodzie kurskim:
 - Używane do zadań rozpoznawczych i precyzyjnych ataków.
 - Umożliwiają operacje w środowiskach o wysokim poziomie zakłóceń.
@@ -116,7 +116,7 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ---
 
-## ⚔️ Wyzwania i Przyszłość
+## Wyzwania i Przyszłość
 
 - **Zwiększenie zasięgu i wytrzymałości kabli światłowodowych**.
 - **Integracja AI z systemami autonomicznymi** dla pełnej niezależności od łączności.

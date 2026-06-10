@@ -61,7 +61,7 @@ jwt_tool eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-### 🛠️ Mitigacja – przykładowe działania
+###  Mitigacja – przykładowe działania
 
 - Wprowadzenie limitu prób logowania i mechanizmu CAPTCHA.
 - Przechowywanie JWT w `httpOnly` cookie.

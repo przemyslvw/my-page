@@ -62,7 +62,7 @@ Artykuł Sekurak "Chatbot od Meta AI pozwalał na dostęp do prywatnych wiadomo�
 
 ## Szukamy admina do Securitum (Kraków!)
 
-💼 **tl;dr** – szukamy Administratora IT z solidną znajomością sieci, bardzo dobrą znajomością Linuksa, w tym perfekcyjnie Debiana. Podejście i doświadczenie pracy w modelu security-first będzie krytyczne, zaś o znajomości sieci TCP/IP nawet nie wspominamy :)
+**tl;dr** – szukamy Administratora IT z solidną znajomością sieci, bardzo dobrą znajomością Linuksa, w tym perfekcyjnie Debiana. Podejście i doświadczenie pracy w modelu security-first będzie krytyczne, zaś o znajomości sieci TCP/IP nawet nie wspominamy :)
 
 Praca tylko stacjonarnie w Krakowie. Start: sierpień lub wrzesień 2025. CV (PDF) wyślij na:...
 

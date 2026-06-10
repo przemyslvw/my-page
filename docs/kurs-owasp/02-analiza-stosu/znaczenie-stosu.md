@@ -10,7 +10,7 @@ Zrozumienie, jak **wybór technologii frontendowych i backendowych** wpływa na 
 
 ---
 
-## ⚠️ Dlaczego stack ma znaczenie?
+## Dlaczego stack ma znaczenie?
 
 1. **Każda technologia ma historię luk bezpieczeństwa (CVE)**.
 2. Niektóre technologie wymagają **ręcznej konfiguracji zabezpieczeń**.
@@ -47,7 +47,7 @@ Zrozumienie, jak **wybór technologii frontendowych i backendowych** wpływa na 
 
 ---
 
-## 🛠️ Jak analizować ryzyko stacku?
+##  Jak analizować ryzyko stacku?
 
 1. Sprawdź wersje komponentów (`/package.json`, `composer.json`, nagłówki).
 2. Przeskanuj zależności (`npm audit`, `pip-audit`, `OWASP Dependency-Check`).

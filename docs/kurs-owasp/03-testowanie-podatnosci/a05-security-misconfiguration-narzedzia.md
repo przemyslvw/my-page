@@ -1,10 +1,10 @@
 ---
 id: "a05-security-misconfiguration-narzedzia"
-title: "🧰 3.5.4 – Narzędzia do testowania"
+title: " 3.5.4 – Narzędzia do testowania"
 sidebar_position: 24
 ---
 
-## 🧰 Narzędzia do testowania Security Misconfiguration
+##  Narzędzia do testowania Security Misconfiguration
 
 Poniżej znajduje się lista narzędzi – darmowych i komercyjnych – pomocnych w wykrywaniu błędów konfiguracji w aplikacjach webowych, serwerach, kontenerach i chmurze.
 
@@ -26,7 +26,7 @@ Poniżej znajduje się lista narzędzi – darmowych i komercyjnych – pomocnyc
 
 ---
 
-### 💼 Narzędzia komercyjne
+### Narzędzia komercyjne
 
 | Narzędzie | Opis |
 |----------|------|

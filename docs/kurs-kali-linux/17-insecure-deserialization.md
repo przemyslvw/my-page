@@ -22,7 +22,7 @@ Podejrzane miejsca to dane, które wyglądają na zserializowany obiekt i wracaj
 
 ---
 
-## 💥 Eksploatacja
+## Eksploatacja
 
 ### **1️⃣ PHP Object Injection**
 Jeśli aplikacja robi `unserialize($_COOKIE['data'])`, a klasa zawiera „magiczną" metodę (`__wakeup`, `__destruct`), atakujący buduje obiekt uruchamiający niezamierzony kod. Przykładowa podatna klasa:

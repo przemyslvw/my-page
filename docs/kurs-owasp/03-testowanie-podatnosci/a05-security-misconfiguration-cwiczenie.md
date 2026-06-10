@@ -1,6 +1,6 @@
 ---
 id: "a05-security-misconfiguration-cwiczenie"
-title: "🛠️ 3.5.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
+title: " 3.5.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 25
 ---
 
@@ -60,7 +60,7 @@ Dodaj brakujące nagłówki, przeładuj serwer i powtórz test.
 
 ---
 
-## 🛠️ Scenariusz 2: Publiczny dostęp do środowiska dev
+##  Scenariusz 2: Publiczny dostęp do środowiska dev
 
 Odwiedź:
 ```

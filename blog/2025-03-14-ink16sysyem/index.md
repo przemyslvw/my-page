@@ -30,7 +30,7 @@ date: 2026-06-08
 - **Kompatybilność z NATO** – wykorzystywany przez państwa członkowskie do wspólnej operacji.
 - **Automatyczna synchronizacja czasu** – bazuje na GPS i technologii JTIDS (Joint Tactical Information Distribution System), co zapewnia precyzyjne działanie.
 
-## 🛰️ Jak działa Link 16?
+## Jak działa Link 16?
 
 System operuje w paśmie UHF (960–1215 MHz) i wykorzystuje technologię **TDMA (Time Division Multiple Access)**, która przydziela jednostkom wojskowym określone przedziały czasowe do transmisji danych. 
 
@@ -39,7 +39,7 @@ Komunikacja odbywa się poprzez:
 - **Śledzenie jednostek w czasie rzeczywistym** – transmisja pozycji, statusu misji, danych radarowych,
 - **Zintegrowane przesyłanie głosu i danych** – możliwość komunikacji głosowej wraz z danymi sytuacyjnymi.
 
-## ✈️ Zastosowanie w praktyce
+## Zastosowanie w praktyce
 
 System Link 16 jest wykorzystywany przez różne platformy wojskowe, w tym:
 - **Samoloty bojowe** (np. F-16, F-35, Eurofighter Typhoon),

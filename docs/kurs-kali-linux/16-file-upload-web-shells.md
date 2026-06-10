@@ -19,7 +19,7 @@ By upload prowadził do RCE, muszą zajść trzy warunki:
 
 ---
 
-## 💥 Tworzenie web shella
+## Tworzenie web shella
 
 ### **1️⃣ Minimalny web shell PHP**
 ```php
@@ -81,7 +81,7 @@ Plik przechodzi jako GIF, a interpreter PHP wykona kod po znaczniku `<?php`.
 
 ### **4️⃣ Obejście przez `.htaccess`**
 Jeśli możesz wgrać `.htaccess`, zmuś Apache do traktowania nieszkodliwego rozszerzenia jak PHP:
-```apache
+```apacheconf
 AddType application/x-httpd-php .jpg
 ```
 Następnie wgraj `shell.jpg` z kodem PHP.
@@ -104,7 +104,7 @@ shell.php%00.jpg
 
 ---
 
-## 🛠️ Narzędzia
+##  Narzędzia
 - **Burp Suite** – manipulacja żądaniem multipart, fuzzing rozszerzeń (Intruder).
 - **weevely** – generowanie i obsługa ukrytych web shelli PHP:
 ```bash

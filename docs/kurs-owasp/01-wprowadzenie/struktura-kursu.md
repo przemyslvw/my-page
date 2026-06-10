@@ -18,7 +18,7 @@ Ten kurs został zaprojektowany tak, aby **krok po kroku przeprowadzić Cię prz
 
 ---
 
-## 🛠️ Metodyka
+##  Metodyka
 
 - **Każda podatność OWASP** omawiana jest osobno.
 - Dla każdej wykonasz:

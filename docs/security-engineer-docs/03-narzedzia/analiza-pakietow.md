@@ -12,7 +12,7 @@ Analiza pakietów sieciowych to technika pozwalająca na dogłębne zrozumienie 
 - Każdy pakiet zawiera nagłówki (np. IP, TCP) oraz dane właściwe  
 - Analiza pozwala śledzić, kto i z kim się komunikuje, co przesyła, kiedy i jak
 
-## 🧰 Narzędzia do analizy pakietów
+##  Narzędzia do analizy pakietów
 
 - **Wireshark** – graficzny sniffer, lider w analizie warstwy 2-7  
 - **tcpdump** – narzędzie konsolowe do szybkiej analizy  

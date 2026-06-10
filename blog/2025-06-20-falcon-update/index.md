@@ -6,7 +6,7 @@ tags: ['game-dev', 'falconsescape']
 date: 2025-06-20
 ---
 
-## 🛠️ Aktualizacja Falcons Escape – tryb berserk, boss rush i nowe statki!
+##  Aktualizacja Falcons Escape – tryb berserk, boss rush i nowe statki!
 
 Hej Piloci! 🚀  
 Czas na solidny update – poprawiamy tempo, podkręcamy wyzwanie i dorzucamy szczyptę chaosu! _Falcons Escape_ właśnie dostało zestaw zmian, które odświeżają rozgrywkę i dodają sporo nowej dynamiki. Poniżej pełna lista nowości 👇
@@ -18,7 +18,7 @@ Czas na solidny update – poprawiamy tempo, podkręcamy wyzwanie i dorzucamy sz
 ###  Co nowego?
 
 - 🦅 **Spowolnienie Falcona** – mniej turbo, więcej strategii!
-- 💥 **Kolizje są brutalniejsze** – każde zderzenie zabiera teraz **50% maksymalnego HP**.
+- **Kolizje są brutalniejsze** – każde zderzenie zabiera teraz **50% maksymalnego HP**.
 - 🛸 **Nowe grafiki wrogich statków** – świeży wygląd, ta sama groźna zawartość.
 -  **Zbalansowani przeciwnicy** – zmieniono HP i prędkość różnych typów.
 -  **Różnorodność poziomów** – w każdej fazie możesz trafić na inne rodzaje wrogich statków.

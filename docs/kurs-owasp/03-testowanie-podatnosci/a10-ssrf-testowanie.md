@@ -12,7 +12,7 @@ Celem testowania SSRF jest wykrycie sytuacji, w której aplikacja wykonuje nieau
 
 ---
 
-## 🛠️ Krok po kroku: testowanie SSRF
+##  Krok po kroku: testowanie SSRF
 
 ### 1. 🔎 Zidentyfikuj punkty podatne na SSRF
 - Wyszukaj funkcje typu:
@@ -64,7 +64,7 @@ http://[::1]/                 # IPv6 localhost
 
 ---
 
-## 🧰 Przykładowe narzędzia do testowania SSRF
+##  Przykładowe narzędzia do testowania SSRF
 
 | Narzędzie | Typ | Opis |
 |----------|------|------|

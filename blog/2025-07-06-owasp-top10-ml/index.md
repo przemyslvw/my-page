@@ -1,6 +1,6 @@
 ---
 slug: news-2025-07-07-owasp-top10-ml
-title: '🚨 Czy Twoje AI jest bezpieczne? 10 śmiertelnych zagrożeń dla modeli ML, które mogą zniszczyć Twój biznes w 2025!'
+title: 'Czy Twoje AI jest bezpieczne? 10 śmiertelnych zagrożeń dla modeli ML, które mogą zniszczyć Twój biznes w 2025!'
 authors: [przemyslvw]
 tags: ['cybersecurity', 'ataki', 'exploits', 'privacy']
 date: 2025-07-07

@@ -13,7 +13,7 @@ Monitorowanie systemów oraz analiza logów to fundament skutecznej detekcji zag
 - Działanie systemów i usług (restarty, błędy aplikacji, wykorzystanie zasobów)  
 - Dostępy do danych (kto, kiedy, z jakiego adresu IP)
 
-## 🧰 Narzędzia i rozwiązania
+##  Narzędzia i rozwiązania
 
 - **SIEM** (np. Splunk, Elastic Security, Wazuh) – centralizacja i korelacja logów  
 - **EDR/XDR** – zaawansowana detekcja na endpointach  

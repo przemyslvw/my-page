@@ -54,7 +54,7 @@ curl -X DELETE https://example.com/profile/123
 
 ---
 
-### 5. ⚠️ Testowanie „przywilejów poziomu dostępu”
+### 5. Testowanie „przywilejów poziomu dostępu”
 
 - Przykład: użytkownik może **zobaczyć** dane tylko swoje, ale czy może:
   - edytować cudze?
@@ -86,7 +86,7 @@ Body: { "status": "approved" }
 
 ---
 
-## 🧰 Narzędzia pomocne podczas testowania (lista będzie rozwinięta w osobnym podrozdziale)
+##  Narzędzia pomocne podczas testowania (lista będzie rozwinięta w osobnym podrozdziale)
 
 - Burp Suite (manualne testy, Repeater, Intruder)
 - OWASP ZAP (Manual Explore + Fuzzer)

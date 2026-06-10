@@ -8,7 +8,7 @@ Testowanie bezpieczeństwa API to jeden z najważniejszych elementów zabezpiecz
 
 ## ✅ Checklista testów API
 
-### 🔑 Uwierzytelnianie i autoryzacja
+###  Uwierzytelnianie i autoryzacja
 
 - [ ] Czy API wymaga uwierzytelnienia (token JWT, OAuth)?
 - [ ] Czy istnieje ochrona przed brute-force (rate limiting, CAPTCHA)?

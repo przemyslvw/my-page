@@ -76,7 +76,7 @@ Jeśli użytkownik `user1` nie ma dostępu do `orderId=1002`.
 
 ---
 
-## 🛠️ Mitigacja – backend (Node.js przykład)
+##  Mitigacja – backend (Node.js przykład)
 
 ```javascript
 app.get('/api/orders/:id', authenticateToken, async (req, res) => {
@@ -101,7 +101,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 
 
-## 🛠️ Środowisko
+##  Środowisko
 
 - **Aplikacja testowa:** [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
 - **System operacyjny:** Kali Linux / Parrot OS / inna dystrybucja z narzędziami pentestowymi

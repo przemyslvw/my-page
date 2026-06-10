@@ -37,7 +37,7 @@ W świecie cyberbezpieczeństwa istnieje wiele możliwych ścieżek kariery oraz
 
 ---
 
-## ⚖️ GRC – Governance, Risk, Compliance
+## GRC – Governance, Risk, Compliance
 
 - [ ] **ISO 27001 Lead Implementer/Auditor** – wdrażanie i audyt SZBI
 - [ ] **CISM / CISA (ISACA)** – zarządzanie bezpieczeństwem, audyt, governance

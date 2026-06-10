@@ -8,7 +8,7 @@ sidebar_position: 28
 
 W module *Automatyzacja i eksploatacja* używaliśmy AI **jako narzędzia pentestera**. Tutaj odwracamy perspektywę: testujemy **same aplikacje oparte o LLM** — chatboty, asystentów, agentów i pipeline'y RAG. To szybko rosnąca powierzchnia ataku z własną listą **OWASP Top 10 for LLM Applications**.
 
-> ⚖️ **Zakres i zgoda:** testuj wyłącznie aplikacje, na które masz pisemną zgodę. Jailbreaki i prompt injection mogą generować szkodliwe treści — pracuj w kontrolowanym środowisku.
+> **Zakres i zgoda:** testuj wyłącznie aplikacje, na które masz pisemną zgodę. Jailbreaki i prompt injection mogą generować szkodliwe treści — pracuj w kontrolowanym środowisku.
 
 ---
 
@@ -20,7 +20,7 @@ W module *Automatyzacja i eksploatacja* używaliśmy AI **jako narzędzia pentes
 
 ---
 
-## 💥 LLM01 – Prompt Injection
+## LLM01 – Prompt Injection
 
 Najważniejsza klasa podatności. Atakujący nadpisuje intencję twórcy aplikacji własnymi instrukcjami.
 
@@ -89,7 +89,7 @@ Bardzo długie lub rekurencyjne prompty, brak limitu tokenów/rate-limit → wyc
 
 ---
 
-## 🛠️ Narzędzia
+##  Narzędzia
 
 - **garak** – skaner podatności LLM (probing jailbreak, leakage, toxicity):
 ```bash

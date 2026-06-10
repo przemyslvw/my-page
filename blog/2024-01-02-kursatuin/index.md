@@ -33,7 +33,7 @@ date: 2024-01-02
 3. [🚀 Podstawowe funkcje Atuin](/docs/atuin-kurs-wstep/atuin-kurs-podstawowe-funkcje)
 4. [ Synchronizacja i bezpieczeństwo](/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo)
 5. [ Statystyki i personalizacja](/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja)
-6. [🛠️ Problemy i debugowanie](/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie)
+6. [ Problemy i debugowanie](/docs/atuin-kurs-wstep/atuin-kurs-problemy-debugowanie)
 7. [ Podsumowanie kursu](/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie)
 
 ---
@@ -41,7 +41,7 @@ date: 2024-01-02
 ##  Dla kogo jest ten kurs?
 
 - 👶 **Początkujący** – nauczysz się efektywnie korzystać z historii terminala.
-- 🛠️ **Programiści i administratorzy systemów** – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.
+-  **Programiści i administratorzy systemów** – zwiększysz produktywność dzięki zaawansowanym funkcjom wyszukiwania i synchronizacji.
 -  **Entuzjaści prywatności** – dowiesz się, jak szyfrować dane i korzystać z własnych serwerów do synchronizacji historii.
 -  **Użytkownicy wieloplatformowi** – poznasz metody synchronizacji historii między różnymi urządzeniami.
 

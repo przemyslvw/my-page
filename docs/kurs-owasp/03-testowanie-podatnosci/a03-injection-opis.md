@@ -17,7 +17,7 @@ sidebar_position: 11
 
 ---
 
-## 💥 Przykłady skutków ataku Injection
+## Przykłady skutków ataku Injection
 
 | Typ ataku        | Możliwe skutki                                      |
 |------------------|------------------------------------------------------|

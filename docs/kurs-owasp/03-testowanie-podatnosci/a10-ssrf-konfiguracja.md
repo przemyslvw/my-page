@@ -38,7 +38,7 @@ Zweryfikowanie, czy konfiguracja aplikacji i serwera chroni przed możliwością
 
 ---
 
-## 🚨 Typowe błędy konfiguracyjne
+## Typowe błędy konfiguracyjne
 
 - Brak filtrowania parametrów URL.
 - Domyślnie dozwolony outbound traffic do wszystkich IP.

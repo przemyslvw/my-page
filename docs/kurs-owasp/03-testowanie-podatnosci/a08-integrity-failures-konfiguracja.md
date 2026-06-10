@@ -1,10 +1,10 @@
 ---
 id: "a08-integrity-failures-konfiguracja"
-title: "🛠️ 3.8.3 – Weryfikacja konfiguracji aplikacji i serwera"
+title: " 3.8.3 – Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 38
 ---
 
-## 🛠️ Weryfikacja konfiguracji aplikacji i serwera
+##  Weryfikacja konfiguracji aplikacji i serwera
 
 Weryfikacja zabezpieczeń integralności danych i kodu wymaga przeanalizowania pipeline'ów, zależności oraz konfiguracji środowisk produkcyjnych i developerskich.
 

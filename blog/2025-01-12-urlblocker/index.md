@@ -10,7 +10,7 @@ date: 2025-01-12
 
 Z przyjemnością ogłaszam premierę pierwszej wersji mojej wtyczki do przeglądarek **UrlBlocker**! 🎉
 
-### 🛠️ Co to jest UrlBlocker?
+###  Co to jest UrlBlocker?
 UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych adresów URL oraz reklam podczas przeglądania internetu. Dzięki niej możesz:
 
 -  Zablokować konkretne domeny i podstrony.

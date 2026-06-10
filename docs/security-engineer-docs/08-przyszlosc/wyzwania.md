@@ -6,9 +6,9 @@ sidebar_position: 1
 
 Cyberbezpieczeństwo stoi przed coraz większą liczbą wyzwań – zarówno technicznych, jak i organizacyjnych. Security Engineer musi nie tylko znać najnowsze technologie, ale także umieć poruszać się w świecie nieustannych zmian regulacyjnych, braków kadrowych i rosnących oczekiwań biznesu.
 
-## ⚠️ Główne wyzwania dla Security Engineera
+## Główne wyzwania dla Security Engineera
 
-### 👥 Brak specjalistów i rotacja kadr
+###  Brak specjalistów i rotacja kadr
 
 - Globalny niedobór ekspertów – luka rzędu milionów wakatów
 - Wysokie tempo wypalenia zawodowego (burnout)
@@ -32,7 +32,7 @@ Cyberbezpieczeństwo stoi przed coraz większą liczbą wyzwań – zarówno tec
 - Trudność w pogodzeniu zgodności z elastycznością technologiczną
 - Koszty dokumentowania, raportowania i utrzymywania polityk
 
-### 🤝 Zrozumienie biznesu i komunikacja
+### Zrozumienie biznesu i komunikacja
 
 - Brak wspólnego języka między IT a zarządem
 - Trudność w przekładaniu ryzyk technicznych na ryzyka biznesowe

@@ -1,6 +1,6 @@
 ---
 id: "rozdzial-1-przygotowanie"
-title: "🛠️ Rozdział 1: Przygotowanie środowiska"
+title: " Rozdział 1: Przygotowanie środowiska"
 sidebar_position: 2
 ---
 

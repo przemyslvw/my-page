@@ -41,7 +41,7 @@ Authorization: Bearer userA-token
 
 ---
 
-## 💥 Skutki podatności
+## Skutki podatności
 
 - Ujawnienie lub zmiana danych innych użytkowników.
 - Zmiana stanu systemu niezgodnie z logiką biznesową.

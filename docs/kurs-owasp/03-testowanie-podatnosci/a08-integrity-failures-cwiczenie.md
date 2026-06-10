@@ -12,7 +12,7 @@ Nauczyć się wykrywać i skutecznie przeciwdziałać podatnościom typu *Softwa
 
 ---
 
-## 🛠️ Scenariusz testowy
+##  Scenariusz testowy
 
 ### Aplikacja:
 System CI/CD oparty na GitHub Actions z automatycznym deploymentem aplikacji Node.js na serwerze produkcyjnym.
@@ -45,7 +45,7 @@ System CI/CD oparty na GitHub Actions z automatycznym deploymentem aplikacji Nod
 
 ---
 
-## 🧰 Narzędzia pomocnicze
+##  Narzędzia pomocnicze
 
 - [Snyk CLI](https://snyk.io) – analiza podatności w zależnościach.
 - [Gitleaks](https://github.com/gitleaks/gitleaks) – wyszukiwanie sekretów w historii Git.

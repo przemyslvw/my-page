@@ -38,7 +38,7 @@ Codzienna praca Security Engineera to połączenie reagowania na bieżące incyd
 - Testowanie nowego narzędzia w labie (np. Wireshark, BloodHound, Trivy)
 - CTF / Bug Bounty / blogowanie / mentoring juniorów
 
-## 🧰 Narzędzia używane codziennie
+##  Narzędzia używane codziennie
 
 - **SIEM/SOAR**: Splunk, Wazuh, Elastic, Cortex XSOAR
 - **Skany i testy**: nmap, Burp Suite, Nikto, OpenVAS

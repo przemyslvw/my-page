@@ -64,7 +64,7 @@ Atuin jest narzędziem **wieloplatformowym** i działa na najpopularniejszych sy
 ## 🔹 Dla kogo jest ten kurs?
 
 - 👶 **Dla początkujących**, którzy chcą usprawnić pracę z terminalem.
-- 🛠️ **Dla programistów i administratorów**, którzy często korzystają z terminala i chcą lepszej kontroli nad historią komend.
+-  **Dla programistów i administratorów**, którzy często korzystają z terminala i chcą lepszej kontroli nad historią komend.
 -  **Dla entuzjastów prywatności**, którzy chcą mieć pełną kontrolę nad swoimi danymi.
 -  **Dla użytkowników wieloplatformowych**, którzy pracują na różnych urządzeniach i chcą zsynchronizowanej historii.
 

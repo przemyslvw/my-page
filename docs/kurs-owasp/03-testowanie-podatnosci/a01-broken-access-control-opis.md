@@ -12,7 +12,7 @@ To najczęstsza i najgroźniejsza klasa błędów w aplikacjach webowych – wyn
 
 ---
 
-## 💥 Skutki naruszenia kontroli dostępu
+## Skutki naruszenia kontroli dostępu
 
 - Odczyt, modyfikacja lub usunięcie cudzych danych.
 - Przejęcie konta innego użytkownika.

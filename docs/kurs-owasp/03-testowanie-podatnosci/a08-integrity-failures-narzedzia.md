@@ -4,7 +4,7 @@ title: "Narzędzia do testowania"
 sidebar_position: 39
 ---
 
-# 🛠️ Narzędzia do testowania – Software and Data Integrity Failures (A08:2025)
+#  Narzędzia do testowania – Software and Data Integrity Failures (A08:2025)
 
 Podatność typu **Software and Data Integrity Failures** polega na braku mechanizmów zapewniających integralność kodu, komponentów, konfiguracji lub danych przesyłanych i wdrażanych w aplikacji. Testowanie tej podatności skupia się głównie na analizie łańcucha dostarczania oprogramowania (*supply chain*), konfiguracji systemów CI/CD oraz bezpieczeństwie zależności.
 

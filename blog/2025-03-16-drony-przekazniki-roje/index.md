@@ -6,7 +6,7 @@ tags: ["military", "drony", "communication", "technologie"]
 date: 2025-03-16
 ---
 
-# 🛰️ Drony Przekaźnikowe – Roje Odporne na Zakłócenia w Nowoczesnej Wojnie
+# Drony Przekaźnikowe – Roje Odporne na Zakłócenia w Nowoczesnej Wojnie
 
 ##  Wprowadzenie
 Współczesne operacje wojskowe wymagają niezawodnej i stabilnej komunikacji, zwłaszcza w trudnych warunkach terenowych i przy zakłóceniach elektromagnetycznych. W odpowiedzi na te wyzwania wojsko zaczęło wykorzystywać **drony jako mobilne przekaźniki sygnału**, co pozwala na rozszerzenie zasięgu komunikacji i zwiększenie skuteczności operacji bojowych.
@@ -23,7 +23,7 @@ Drony przekaźnikowe pełnią funkcję **mobilnych węzłów komunikacyjnych**, 
 
 ---
 
-## 🛠️ Przykłady Wojskowych Systemów z Dronami Przekaźnikowymi
+##  Przykłady Wojskowych Systemów z Dronami Przekaźnikowymi
 
 ### 🇺🇸 **BAE Systems – Drony w systemach rojowych**
 - W ramach rozwoju **rojów dronów** (ang. *swarming drones*), niektóre jednostki pełnią funkcję **stacji przekaźnikowych**.
@@ -50,21 +50,21 @@ Drony przekaźnikowe pełnią funkcję **mobilnych węzłów komunikacyjnych**, 
 - Dzięki zastosowaniu **szyfrowania i zmiennych częstotliwości transmisji**, drony przekaźnikowe mogą działać nawet w obecności systemów REB przeciwnika.
 - Mobilność dronów pozwala na **dynamiczną adaptację** do zmieniających się warunków na polu walki.
 
-### 💰 **Kosztowa efektywność**
+### **Kosztowa efektywność**
 - Drony przekaźnikowe mogą zastąpić **stacjonarne wieże komunikacyjne**, które są łatwym celem dla przeciwnika.
 - Koszt ich wdrożenia jest znacznie niższy niż utrzymywanie **dodatkowych satelitów komunikacyjnych**.
 
 ---
 
-## 🔮 Przyszłość Wojskowych Dronów Przekaźnikowych
+##  Przyszłość Wojskowych Dronów Przekaźnikowych
 
 ### 🚀 **Integracja z AI**
 - W przyszłości drony przekaźnikowe będą autonomiczne i będą mogły dynamicznie dostosowywać się do sytuacji na polu walki.
 
-### 🛰️ **Łączenie z siecią satelitarną**
+### **Łączenie z siecią satelitarną**
 - Możliwość integracji dronów przekaźnikowych z systemami satelitarnymi, takimi jak Starlink, zapewni jeszcze większą niezawodność komunikacji.
 
-### 🤖 **Drony sterowane kwantowo**
+### **Drony sterowane kwantowo**
 - Prace nad **szyfrowaniem kwantowym** mogą sprawić, że komunikacja między dronami przekaźnikowymi stanie się praktycznie niemożliwa do przechwycenia.
 
 ---

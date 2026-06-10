@@ -54,7 +54,7 @@ Manualne testy są ryzykowne (mogą wpłynąć na innych użytkowników). Bezpie
 - **Burp Suite** – rozszerzenie **HTTP Request Smuggler** (Active Scan, „smuggle probe").
 - **Burp Repeater** – tryb HTTP/1.1 z wyłączonym automatycznym `Content-Length`.
 
-> ⚠️ Request smuggling wpływa na ruch **innych** użytkowników. Testuj wyłącznie w autoryzowanym zakresie i preferuj nieszkodliwe sondy (np. opóźnienia), nie destrukcyjne payloady.
+> Request smuggling wpływa na ruch **innych** użytkowników. Testuj wyłącznie w autoryzowanym zakresie i preferuj nieszkodliwe sondy (np. opóźnienia), nie destrukcyjne payloady.
 
 ---
 

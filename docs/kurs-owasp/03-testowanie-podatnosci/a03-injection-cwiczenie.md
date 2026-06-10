@@ -73,7 +73,7 @@ lub
 
 ---
 
-## 🛠️ Zadanie: testuj formularz z back-endem C#
+##  Zadanie: testuj formularz z back-endem C#
 
 ### Krok 1: Spróbuj wywołać:
 

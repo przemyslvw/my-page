@@ -89,7 +89,7 @@ const iv = "0000000000000000"; // 🔥
 
 ---
 
-## 🛠️ Testy automatyczne
+##  Testy automatyczne
 
 ### Narzędzia:
 - [TestSSL.sh](https://testssl.sh/)

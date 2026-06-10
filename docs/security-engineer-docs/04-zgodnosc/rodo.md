@@ -32,7 +32,7 @@ RODO (Rozporządzenie o Ochronie Danych Osobowych), znane także jako GDPR (Gene
 - Współpraca z Inspektorem Ochrony Danych (IOD/DPO) w zakresie bezpieczeństwa technicznego
 - Reakcja na incydenty związane z naruszeniem danych – zgodnie z art. 33 i 34 RODO
 
-## ⚠️ Najczęstsze ryzyka i błędy
+## Najczęstsze ryzyka i błędy
 
 - Przesyłanie danych osobowych bez szyfrowania (np. mailem lub w URL)
 - Niezabezpieczone formularze kontaktowe

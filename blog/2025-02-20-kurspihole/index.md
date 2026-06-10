@@ -19,7 +19,7 @@ Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 -  **Blokowanie reklam i trackerów** – koniec z nachalnymi banerami na wszystkich urządzeniach.
 -  **Skalowalność** – sprawdza się zarówno w domowej sieci, jak i w małych firmach.
 -  **Analiza i monitorowanie sieci** – sprawdź, kto generuje najwięcej ruchu i jakie strony są najczęściej odwiedzane.
-- 🧰 **Zaawansowane funkcje** – VPN z WireGuard, własne listy blokujące czy lokalny resolver DNS z Unbound.
+-  **Zaawansowane funkcje** – VPN z WireGuard, własne listy blokujące czy lokalny resolver DNS z Unbound.
 
 ---
 
@@ -29,7 +29,7 @@ Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 - Czym jest Pi-hole i dlaczego warto go używać?
 - Wymagania sprzętowe i podstawy działania.
 
-### 🛠️ Przygotowanie środowiska
+###  Przygotowanie środowiska
 - Konfiguracja Raspberry Pi lub innego serwera.
 - Przygotowanie systemu i ustawienia sieciowe.
 
@@ -72,7 +72,7 @@ Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 
 ---
 
-## 💥 **Gotowy, aby przejąć kontrolę nad swoją siecią?**
+## **Gotowy, aby przejąć kontrolę nad swoją siecią?**
 
 Kliknij poniżej, aby rozpocząć kurs i dowiedzieć się, jak **Pi-hole** może zmienić sposób, w jaki korzystasz z Internetu! 🚀
 

@@ -23,7 +23,7 @@ Bomba logiczna pozostaje **uśpiona**, dopóki nie zostaną spełnione konkretne
 
 Po spełnieniu warunku kod złośliwy **uruchamia się**, powodując destrukcyjne skutki.
 
-## ⚠️ Przykłady ataków z użyciem bomby logicznej  
+## Przykłady ataków z użyciem bomby logicznej  
 🔹 **Atak na banki w USA (2002)** – Były administrator IT umieścił bombę logiczną w systemie, aby po jego zwolnieniu usunęła kluczowe dane.  
 🔹 **Bomba w korporacji (2008)** – Inżynier IT przygotował złośliwy kod, który miał dezaktywować serwery, jeśli jego login zostanie usunięty.  
 🔹 **Time bomb w oprogramowaniu licencyjnym** – Niektóre programy wyłączają się po upływie czasu testowego – to legalne wykorzystanie tego mechanizmu.

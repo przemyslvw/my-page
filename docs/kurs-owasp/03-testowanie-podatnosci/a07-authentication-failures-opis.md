@@ -23,7 +23,7 @@ Aplikacje często błędnie implementują:
 
 ---
 
-### 🚨 Przykłady ataków
+### Przykłady ataków
 
 - Brak limitu logowań ➜ ataki słownikowe / brute-force.
 - Przechowywanie haseł w postaci czystego tekstu.
