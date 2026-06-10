@@ -83,3 +83,8 @@ code {
   font-size: 2rem;
 }
 
+table {
+  display: table;
+  width: 100%;
+}
+
