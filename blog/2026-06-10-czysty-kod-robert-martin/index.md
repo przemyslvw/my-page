@@ -26,23 +26,23 @@ Każdy rozdział ma osobną stronę z praktycznym streszczeniem, przykładami ko
 
 | # | Rozdział |
 |---|---------|
-| 1 | [Czysty kod](/docs/czysty-kod/01-czysty-kod) |
-| 2 | [Znaczące nazwy](/docs/czysty-kod/02-znaczace-nazwy) |
-| 3 | [Funkcje](/docs/czysty-kod/03-funkcje) |
-| 4 | [Komentarze](/docs/czysty-kod/04-komentarze) |
-| 5 | [Formatowanie](/docs/czysty-kod/05-formatowanie) |
-| 6 | [Obiekty i struktury danych](/docs/czysty-kod/06-obiekty-i-struktury) |
-| 7 | [Obsługa błędów](/docs/czysty-kod/07-obsluga-bledow) |
-| 8 | [Granice](/docs/czysty-kod/08-granice) |
-| 9 | [Testy jednostkowe](/docs/czysty-kod/09-testy-jednostkowe) |
-| 10 | [Klasy](/docs/czysty-kod/10-klasy) |
-| 11 | [Systemy](/docs/czysty-kod/11-systemy) |
-| 12 | [Powstawanie projektu](/docs/czysty-kod/12-powstawanie-projektu) |
-| 13 | [Współbieżność](/docs/czysty-kod/13-wspolbieznosc) |
-| 14 | [Udane oczyszczanie kodu](/docs/czysty-kod/14-udane-oczyszczanie) |
-| 15 | [Struktura biblioteki JUnit](/docs/czysty-kod/15-struktura-junit) |
-| 16 | [Przebudowa klasy SerialDate](/docs/czysty-kod/16-przebudowa-serialdate) |
-| 17 | [Zapachy kodu i heurystyki](/docs/czysty-kod/17-zapachy-i-heurystyki) |
+| 1 | [Czysty kod](/docs/czysty-kod/czysty-kod) |
+| 2 | [Znaczące nazwy](/docs/czysty-kod/znaczace-nazwy) |
+| 3 | [Funkcje](/docs/czysty-kod/funkcje) |
+| 4 | [Komentarze](/docs/czysty-kod/komentarze) |
+| 5 | [Formatowanie](/docs/czysty-kod/formatowanie) |
+| 6 | [Obiekty i struktury danych](/docs/czysty-kod/obiekty-i-struktury) |
+| 7 | [Obsługa błędów](/docs/czysty-kod/obsluga-bledow) |
+| 8 | [Granice](/docs/czysty-kod/granice) |
+| 9 | [Testy jednostkowe](/docs/czysty-kod/testy-jednostkowe) |
+| 10 | [Klasy](/docs/czysty-kod/klasy) |
+| 11 | [Systemy](/docs/czysty-kod/systemy) |
+| 12 | [Powstawanie projektu](/docs/czysty-kod/powstawanie-projektu) |
+| 13 | [Współbieżność](/docs/czysty-kod/wspolbieznosc) |
+| 14 | [Udane oczyszczanie kodu](/docs/czysty-kod/udane-oczyszczanie) |
+| 15 | [Struktura biblioteki JUnit](/docs/czysty-kod/struktura-junit) |
+| 16 | [Przebudowa klasy SerialDate](/docs/czysty-kod/przebudowa-serialdate) |
+| 17 | [Zapachy kodu i heurystyki](/docs/czysty-kod/zapachy-i-heurystyki) |
 | A | [Dodatek A: Współbieżność II](/docs/czysty-kod/dodatek-a-wspolbieznosc) |
 | B | [Dodatek B: org.jfree.date.SerialDate](/docs/czysty-kod/dodatek-b-serialdate) |
 | — | [Epilog](/docs/czysty-kod/epilog) |
