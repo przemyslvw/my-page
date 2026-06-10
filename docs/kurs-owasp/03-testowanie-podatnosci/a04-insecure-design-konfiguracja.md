@@ -1,18 +1,18 @@
 ---
 id: "a04-insecure-design-konfiguracja"
-title: "⚙️ 3.4.3 – Weryfikacja konfiguracji aplikacji i serwera"
+title: " 3.4.3 – Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 18
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Zweryfikować, czy konfiguracja aplikacji i serwera wspiera bezpieczne projektowanie systemu oraz czy zabezpiecza przed skutkami **Insecure Design**.
 
 ---
 
-## 🔍 Obszary do analizy
+##  Obszary do analizy
 
-### 1. 🔐 Wymuszanie kontroli dostępu
+### 1.  Wymuszanie kontroli dostępu
 
 - Czy aplikacja stosuje globalny middleware do autoryzacji?
 - Czy każdy endpoint ma przypisany poziom uprawnień?
@@ -20,7 +20,7 @@ Zweryfikować, czy konfiguracja aplikacji i serwera wspiera bezpieczne projektow
 
 ---
 
-### 2. 🔁 Rate limiting i throttle
+### 2.  Rate limiting i throttle
 
 - Czy endpointy typu reset hasła, logowanie, aktywacja konta mają ograniczenia liczby prób?
 - Czy w aplikacji są zasady typu „cooldown” lub „lockout”?
@@ -48,7 +48,7 @@ services.AddRateLimiter(options =>
 
 ---
 
-### 4. 🔍 Ograniczenia logiki w konfiguracji API
+### 4.  Ograniczenia logiki w konfiguracji API
 
 - Czy Swagger/REST API opisuje autoryzację?
 - Czy metody `DELETE`, `PUT`, `PATCH` są zablokowane tam, gdzie niepotrzebne?
@@ -56,7 +56,7 @@ services.AddRateLimiter(options =>
 
 ---
 
-### 5. 🛡️ Ochrona przed przewidywalnością identyfikatorów
+### 5.  Ochrona przed przewidywalnością identyfikatorów
 
 - Czy system korzysta z GUID/UUID zamiast prostych ID (np. `123`)?
 - Czy w URL występują dane wrażliwe (email, login, ID klienta)?
@@ -64,7 +64,7 @@ services.AddRateLimiter(options =>
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Dobrze zaprojektowane API nie powinno pozwalać użytkownikowi "zgadywać" danych.
 - Architektura aplikacji powinna wymuszać walidację i autoryzację na każdym etapie.

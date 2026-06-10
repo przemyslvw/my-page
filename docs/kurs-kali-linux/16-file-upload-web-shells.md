@@ -1,17 +1,16 @@
 ---
 id: "file-upload-web-shells"
 title: "File Upload Vulnerabilities i Web Shells"
-sidebar_label: "📤 File Upload Vulnerabilities i Web Shells"
 sidebar_position: 16
 ---
 
-# 📤 File Upload Vulnerabilities i Web Shells
+# File Upload Vulnerabilities i Web Shells
 
 Niewłaściwa walidacja przesyłanych plików to jedna z najszybszych dróg do **Remote Code Execution**. Jeśli atakujący umieści na serwerze plik wykonywalny (np. skrypt PHP) i zdoła go uruchomić, uzyskuje **web shell** — interaktywny dostęp do systemu przez przeglądarkę.
 
 ---
 
-## 🧠 Łańcuch ataku
+##  Łańcuch ataku
 
 By upload prowadził do RCE, muszą zajść trzy warunki:
 1. Aplikacja **przyjmuje plik** kontrolowany przez atakującego.
@@ -54,7 +53,7 @@ Na maszynie atakującego nasłuch: `nc -lvnp 4444`.
 
 ---
 
-## 🛡️ Obejście walidacji uploadu
+##  Obejście walidacji uploadu
 
 ### **1️⃣ Obejście filtra rozszerzeń**
 Gdy blokowane jest `.php`, spróbuj alternatywnych rozszerzeń interpretowanych przez serwer:
@@ -116,7 +115,7 @@ weevely http://example.com/uploads/shell.php haslo123
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed atakami na upload?
+##  Jak zabezpieczyć aplikację przed atakami na upload?
 ✅ **Whitelist rozszerzeń i typów MIME** – zezwalaj tylko na konkretne, bezpieczne formaty.
 ✅ **Generuj losowe nazwy plików** i odrzucaj ścieżki względne.
 ✅ **Przechowuj uploady poza webrootem** lub w katalogu bez prawa wykonywania (`php_admin_flag engine off`).

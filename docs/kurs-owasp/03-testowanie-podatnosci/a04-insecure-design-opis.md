@@ -1,16 +1,16 @@
 ---
 id: "a04-insecure-design-opis"
-title: "🧱 3.4.1 – Opis podatności i jej wpływ"
+title: " 3.4.1 – Opis podatności i jej wpływ"
 sidebar_position: 16
 ---
 
-## 🧱 Czym jest Insecure Design?
+##  Czym jest Insecure Design?
 
 **Insecure Design** odnosi się do błędów projektowych, które prowadzą do podatności **już na etapie architektury systemu**, a nie tylko implementacji. Nawet dobrze zaimplementowany kod może być podatny, jeśli sama logika biznesowa, kontrola dostępu lub przepływ danych są źle zaprojektowane.
 
 ---
 
-## 🔍 Przykłady błędów projektowych
+##  Przykłady błędów projektowych
 
 - Brak uwzględnienia ról i uprawnień w projektowaniu funkcji.
 - Zbyt ogólne API bez walidacji dostępu do konkretnych danych.
@@ -20,7 +20,7 @@ sidebar_position: 16
 
 ---
 
-## 💡 Przykład: brak walidacji właściciela zasobu
+##  Przykład: brak walidacji właściciela zasobu
 
 ```http
 GET /orders/874
@@ -31,7 +31,7 @@ Authorization: Bearer userA-token
 
 ---
 
-## 🔐 Różnica między Insecure Design a Broken Access Control
+##  Różnica między Insecure Design a Broken Access Control
 
 | Cecha | Insecure Design | Broken Access Control |
 |-------|------------------|------------------------|
@@ -50,7 +50,7 @@ Authorization: Bearer userA-token
 
 ---
 
-## 🧠 Podsumowanie
+##  Podsumowanie
 
 Podatności typu **Insecure Design** są trudniejsze do wykrycia automatycznie – wymagają analizy architektury, logiki i wymagań bezpieczeństwa już na etapie projektowania. W kolejnym kroku przejdziemy do metod ich testowania.
 

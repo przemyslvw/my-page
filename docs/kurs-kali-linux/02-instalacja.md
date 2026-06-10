@@ -1,13 +1,12 @@
 ---
 id: "instalacja-kali-linux"
 title: "Instalacja i konfiguracja Kali Linux"
-sidebar_label: "🛠️ Instalacja i konfiguracja Kali Linux"
 sidebar_position: 2
 ---
 
-# 🛠️ Instalacja i konfiguracja Kali Linux
+# Instalacja i konfiguracja Kali Linux
 
-## 💾 Wymagania systemowe
+##  Wymagania systemowe
 Aby zainstalować Kali Linux, Twój system powinien spełniać następujące minimalne wymagania:
 
 - **Procesor**: 64-bitowy (Intel/AMD)
@@ -57,7 +56,7 @@ Jeśli suma się nie zgadza — pobierz ISO ponownie, nie instaluj.
 6. Wybierz pobrany obraz ISO i rozpocznij instalację.
 7. Postępuj zgodnie z instrukcjami instalatora Kali Linux.
 
-## ⚙️ Konfiguracja środowiska testowego (VirtualBox/VMware)
+##  Konfiguracja środowiska testowego (VirtualBox/VMware)
 Po instalacji zaleca się wykonanie kilku kroków:
 
 1. **Zainstalowanie dodatków dla gościa (Guest Additions)**:
@@ -74,7 +73,7 @@ Po instalacji zaleca się wykonanie kilku kroków:
    sudo usermod -aG sudo <nazwa_użytkownika>
    ```
 
-## 🔄 Aktualizacja i personalizacja Kali Linux
+##  Aktualizacja i personalizacja Kali Linux
 Po instalacji warto od razu zaktualizować system i dodać przydatne pakiety:
 
 ```bash
@@ -133,4 +132,4 @@ Po tych krokach Twoje środowisko Kali Linux jest gotowe do pracy! 🚀
 
 ---
 
-Kolejnym krokiem będzie omówienie podstawowych narzędzi Kali Linux. 🔍
+Kolejnym krokiem będzie omówienie podstawowych narzędzi Kali Linux. 

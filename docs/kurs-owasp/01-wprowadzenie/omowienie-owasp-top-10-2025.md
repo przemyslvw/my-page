@@ -4,7 +4,7 @@ title: "Omówienie OWASP Top 10 2025"
 sidebar_position: 2
 ---
 
-## 📘 Czym jest OWASP Top 10?
+##  Czym jest OWASP Top 10?
 
 **OWASP (Open Worldwide Application Security Project)** to globalna inicjatywa non-profit zajmująca się poprawą bezpieczeństwa oprogramowania.
 
@@ -34,7 +34,7 @@ Lista **OWASP Top 10** to ranking dziesięciu najważniejszych typów podatnośc
 
 ---
 
-## 🎯 Co się zmienia w 2025?
+##  Co się zmienia w 2025?
 
 W porównaniu do poprzednich edycji:
 - Rosnąca rola **Insecure Design** – złe decyzje architektoniczne i brak threat modeling.

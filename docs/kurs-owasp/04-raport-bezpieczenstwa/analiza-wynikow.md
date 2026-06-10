@@ -4,13 +4,13 @@ title: "Zbieranie i analiza wyników testów"
 sidebar_position: 2
 ---
 
-## 📊 Zbieranie i analiza wyników testów
+##  Zbieranie i analiza wyników testów
 
 Etap analizy wyników jest kluczowy, aby nadać sens surowym danym z narzędzi oraz testów manualnych. Poniżej opisano, jak efektywnie zbierać, kategoryzować i analizować dane po zakończeniu testów bezpieczeństwa aplikacji.
 
 ---
 
-### 🧩 1. Konsolidacja danych z różnych źródeł
+###  1. Konsolidacja danych z różnych źródeł
 
 Zbierz wyniki z:
 
@@ -54,7 +54,7 @@ Warto stworzyć tabele podsumowujące:
 
 ---
 
-### 🔁 5. Potwierdzenie wyników (retrospekcja)
+###  5. Potwierdzenie wyników (retrospekcja)
 
 - Przegląd przez innego testera / analityka (zasada 4 oczu)
 - Retest wybranych podatności, szczególnie **krytycznych**

@@ -1,17 +1,16 @@
 ---
 id: "insecure-deserialization"
 title: "Insecure Deserialization"
-sidebar_label: "🧬 Insecure Deserialization"
 sidebar_position: 17
 ---
 
-# 🧬 Insecure Deserialization
+# Insecure Deserialization
 
 Serializacja zamienia obiekt na ciąg bajtów (do zapisu lub transmisji), a deserializacja odtwarza obiekt z tych danych. **Niebezpieczna deserializacja** występuje, gdy aplikacja deserializuje dane kontrolowane przez użytkownika bez weryfikacji — co może prowadzić do manipulacji logiką, eskalacji uprawnień, a najczęściej do **Remote Code Execution**. To kategoria **A08** w OWASP Top 10.
 
 ---
 
-## 🧠 Gdzie szukać?
+##  Gdzie szukać?
 
 Podejrzane miejsca to dane, które wyglądają na zserializowany obiekt i wracają od klienta:
 - **PHP** – ciągi typu `O:4:"User":2:{...}` (np. w ciasteczkach, polach formularzy).
@@ -86,7 +85,7 @@ ysoserial.exe -p ViewState -g TextFormattingRunProperties \
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację?
+##  Jak zabezpieczyć aplikację?
 ✅ **Nie deserializuj danych z niezaufanych źródeł.** To najważniejsza zasada.
 ✅ **Używaj formatów danych bez wykonywania kodu** – JSON/Protobuf z prostym mapowaniem na typy.
 ✅ **Podpisuj i weryfikuj integralność** zserializowanych danych (HMAC), jeśli muszą krążyć przez klienta.

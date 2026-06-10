@@ -22,9 +22,9 @@ To najczęstsza i najgroźniejsza klasa błędów w aplikacjach webowych – wyn
 
 ---
 
-## 📈 Przykłady ataków
+##  Przykłady ataków
 
-### 🔁 IDOR (Insecure Direct Object Reference)
+###  IDOR (Insecure Direct Object Reference)
 ```http
 GET /api/users/12345/profile
 ```
@@ -36,7 +36,7 @@ GET /api/users/12346/profile
 
 ---
 
-### 🧩 Brak filtrowania danych wg ról
+###  Brak filtrowania danych wg ról
 
 Użytkownik zwykły może wysłać żądanie:
 ```http
@@ -54,7 +54,7 @@ POST /admin/delete-user?id=123
 
 ---
 
-## 🛡️ Dlaczego to krytyczne?
+##  Dlaczego to krytyczne?
 
 - Dotyczy **fundamentu bezpieczeństwa aplikacji**.
 - Jest trudne do wykrycia przez skanery automatyczne.

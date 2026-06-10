@@ -6,14 +6,14 @@ sidebar_position: 1
 
 Rozwój jako Security Engineer to nieustanna droga – technologie się zmieniają, pojawiają się nowe ataki, zmieniają się wymagania regulacyjne. Kluczem do sukcesu jest połączenie nauki, praktyki oraz kontaktu z innymi profesjonalistami z branży.
 
-## 🧭 Od czego zacząć?
+##  Od czego zacząć?
 
 - **Zrozum podstawy IT**: systemy operacyjne, sieci, bazy danych, HTTP, DNS
 - **Poznaj typowe podatności**: OWASP Top 10, CWE, MITRE ATT&CK
 - **Zdobądź doświadczenie praktyczne**: CTF-y, Bug Bounty, laby, własne projekty
 - **Wybierz specjalizację** (pentesting, cloud security, GRC, DevSecOps)
 
-## 🎓 Kursy i certyfikaty
+##  Kursy i certyfikaty
 
 - **Dla początkujących**: TryHackMe, HackTheBox Academy, Cybrary, Udemy
 - **Certyfikaty techniczne**:
@@ -27,7 +27,7 @@ Rozwój jako Security Engineer to nieustanna droga – technologie się zmieniaj
   - CISSP, CISM
   - CRISC (dla ryzyk)
 
-## 📚 Codzienne źródła wiedzy
+##  Codzienne źródła wiedzy
 
 - **Blogi**: Daniel Miessler, Troy Hunt, Bishop Fox, PortSwigger
 - **YouTube**: John Hammond, STÖK, LiveOverflow, InsiderPhD
@@ -47,7 +47,7 @@ Rozwój jako Security Engineer to nieustanna droga – technologie się zmieniaj
 - Weź udział w konferencjach (BSides, CONFidence, SECURE, Infoshare)
 - Wspieraj juniorów, dziel się wiedzą – mentoring uczy też mentora
 
-## 🧠 Dobre nawyki
+##  Dobre nawyki
 
 - Codziennie ucz się czegoś nowego
 - Testuj – teoria bez praktyki to połowa sukcesu

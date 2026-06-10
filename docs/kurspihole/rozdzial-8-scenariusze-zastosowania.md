@@ -1,6 +1,6 @@
 ---
 id: "rozdzial-8-scenariusze-zastosowania"
-title: "💡 Rozdział 8: Scenariusze zastosowania"
+title: " Rozdział 8: Scenariusze zastosowania"
 sidebar_position: 9
 ---
 
@@ -13,7 +13,7 @@ Pi-hole to idealne rozwiązanie do zabezpieczenia sieci domowej i zablokowania r
 - Ochrona dzieci przed niepożądanymi treściami poprzez czarne listy.
 - Redukcja zużycia danych mobilnych.
 
-#### 📋 **Rekomendowane ustawienia:**
+####  **Rekomendowane ustawienia:**
 - Ustaw Pi-hole jako główny DNS w routerze.
 - Aktywuj filtry rodzicielskie za pomocą dedykowanych list blokujących.
 
@@ -28,7 +28,7 @@ Pi-hole sprawdzi się także w środowisku biznesowym, pomagając chronić sieć
 - Szybsze ładowanie stron dzięki eliminacji reklam.
 - Ograniczenie marnowania pasma na niechciane treści.
 
-#### 📋 **Rekomendowane ustawienia:**
+####  **Rekomendowane ustawienia:**
 - Włącz logowanie zapytań DNS w celu analizy ruchu.
 - Dodaj listy blokujące malware i phishing.
 - Skonfiguruj zaporę sieciową dla zwiększenia bezpieczeństwa.
@@ -43,7 +43,7 @@ Z Pi-hole mogą korzystać również smartfony i tablety – nawet poza domową 
 - Skonfiguruj **WireGuard VPN** na Pi-hole i urządzeniach mobilnych.
 - Dzięki temu Twój telefon zawsze korzysta z Pi-hole jako DNS, nawet w sieci LTE/5G.
 
-#### 📋 **Korzyści:**
+####  **Korzyści:**
 - Blokowanie reklam w aplikacjach.
 - Zwiększona prywatność w sieciach publicznych.
 
@@ -58,7 +58,7 @@ Reklamy w Smart TV czy konsolach potrafią być uciążliwe – Pi-hole pozwala 
 2. Dodaj listy blokujące dedykowane dla Smart TV (np. blokujące reklamy w YouTube na TV).
 3. Testuj działanie – niektóre usługi mogą wymagać wyjątków.
 
-#### 📋 **Korzyści:**
+####  **Korzyści:**
 - Czysty interfejs bez reklam.
 - Zmniejszenie zużycia danych i przyspieszenie ładowania treści.
 

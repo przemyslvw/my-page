@@ -8,7 +8,7 @@ date: 2025-03-16
 
 # 🛰️ Drony Przekaźnikowe – Roje Odporne na Zakłócenia w Nowoczesnej Wojnie
 
-## 📡 Wprowadzenie
+##  Wprowadzenie
 Współczesne operacje wojskowe wymagają niezawodnej i stabilnej komunikacji, zwłaszcza w trudnych warunkach terenowych i przy zakłóceniach elektromagnetycznych. W odpowiedzi na te wyzwania wojsko zaczęło wykorzystywać **drony jako mobilne przekaźniki sygnału**, co pozwala na rozszerzenie zasięgu komunikacji i zwiększenie skuteczności operacji bojowych.
 
 <!-- truncate -->
@@ -40,13 +40,13 @@ Drony przekaźnikowe pełnią funkcję **mobilnych węzłów komunikacyjnych**, 
 
 ---
 
-## 🏆 Kluczowe Zalety Dronów Przekaźnikowych
+##  Kluczowe Zalety Dronów Przekaźnikowych
 
-### 📡 **Zwiększenie zasięgu łączności**
+###  **Zwiększenie zasięgu łączności**
 - Możliwość operowania na dużych dystansach, bez potrzeby używania drogich satelitów.
 - Wspomaganie jednostek w trudno dostępnych terenach (góry, dżungle, miasta).
 
-### 🛡️ **Bezpieczna i odporna na zakłócenia komunikacja**
+###  **Bezpieczna i odporna na zakłócenia komunikacja**
 - Dzięki zastosowaniu **szyfrowania i zmiennych częstotliwości transmisji**, drony przekaźnikowe mogą działać nawet w obecności systemów REB przeciwnika.
 - Mobilność dronów pozwala na **dynamiczną adaptację** do zmieniających się warunków na polu walki.
 
@@ -69,7 +69,7 @@ Drony przekaźnikowe pełnią funkcję **mobilnych węzłów komunikacyjnych**, 
 
 ---
 
-## 🎯 Podsumowanie
+##  Podsumowanie
 Drony pełniące funkcję przekaźników sygnału to **kluczowa technologia przyszłościowych konfliktów zbrojnych**. Umożliwiają niezawodną komunikację, zwiększają elastyczność operacyjną i pozwalają na efektywne działanie w warunkach silnych zakłóceń radioelektronicznych. 
 
 Ich rola będzie rosła wraz z rozwojem technologii AI, systemów satelitarnych i odporności na zakłócenia, co uczyni je **niezastąpionym elementem współczesnej wojny elektronicznej**.

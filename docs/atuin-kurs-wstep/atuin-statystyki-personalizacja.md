@@ -1,16 +1,16 @@
 ---
 id: "atuin-kurs-statystyki-personalizacja"
-title: "📊 Statystyki i personalizacja"
+title: " Statystyki i personalizacja"
 sidebar_position: 5
 ---
 
-# 📊 Statystyki i personalizacja
+#  Statystyki i personalizacja
 
 Atuin nie tylko rejestruje historię komend, ale także umożliwia analizowanie ich statystyk oraz pełną personalizację interfejsu i działania narzędzia. Dzięki temu możesz zoptymalizować swoją pracę i dostosować środowisko terminala do własnych preferencji.
 
 ---
 
-## 📈 Statystyki użycia komend
+##  Statystyki użycia komend
 
 ### ✅ **Podstawowe statystyki**
 
@@ -33,7 +33,7 @@ Najczęściej używane komendy:
 
 ---
 
-### 📊 **Zaawansowane analizy**
+###  **Zaawansowane analizy**
 
 Aby wygenerować statystyki dla konkretnego okresu:
 
@@ -139,9 +139,9 @@ atuin history import < moja_historia.json
 
 ---
 
-## 💡 Porady i triki
+##  Porady i triki
 
-- 🔄 **Automatyczna synchronizacja co godzinę:**
+-  **Automatyczna synchronizacja co godzinę:**
 
   W pliku `config.toml`:
 
@@ -155,7 +155,7 @@ atuin history import < moja_historia.json
   max_history_size = 10000
   ```
 
-- 🛡️ **Ukrywanie prywatnych komend przed synchronizacją:**
+-  **Ukrywanie prywatnych komend przed synchronizacją:**
 
   ```toml
   sync_filter = ["ssh", "scp"]

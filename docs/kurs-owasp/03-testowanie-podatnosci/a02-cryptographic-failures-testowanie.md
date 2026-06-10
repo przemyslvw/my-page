@@ -1,16 +1,16 @@
 ---
 id: "a02-cryptographic-failures-testowanie"
-title: "🧪 3.2.2 – Metody testowania podatności: Cryptographic Failures"
+title: " 3.2.2 – Metody testowania podatności: Cryptographic Failures"
 sidebar_position: 7
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Poznać skuteczne techniki testowania podatności związanych z błędami kryptograficznymi – zarówno ręczne, jak i zautomatyzowane.
 
 ---
 
-## 🧪 Test 1: Brak HTTPS / nieprawidłowe certyfikaty
+##  Test 1: Brak HTTPS / nieprawidłowe certyfikaty
 
 ### Narzędzia:
 - przeglądarka z DevTools
@@ -32,7 +32,7 @@ openssl s_client -connect example.com:443
 
 ---
 
-## 🧪 Test 2: JWT – analiza algorytmu i podpisu
+##  Test 2: JWT – analiza algorytmu i podpisu
 
 ### Narzędzia:
 - jwt.io
@@ -55,7 +55,7 @@ openssl s_client -connect example.com:443
 
 ---
 
-## 🧪 Test 3: Przechowywanie haseł – analiza bazy
+##  Test 3: Przechowywanie haseł – analiza bazy
 
 ### Narzędzia:
 - dostęp do bazy (dump / SQLi / audit)
@@ -69,7 +69,7 @@ openssl s_client -connect example.com:443
 
 ---
 
-## 🧪 Test 4: Szyfrowanie lokalne (klient) – inspekcja kodu JS
+##  Test 4: Szyfrowanie lokalne (klient) – inspekcja kodu JS
 
 ### Narzędzia:
 - DevTools / lokalne pliki JS
@@ -106,7 +106,7 @@ const iv = "0000000000000000"; // 🔥
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Weryfikuj, czy hasła są haszowane silnym algorytmem (BCrypt, Argon2).
 - Sprawdzaj długość kluczy szyfrowania – minimum 128 bitów (symetryczne), 2048 bitów (RSA).

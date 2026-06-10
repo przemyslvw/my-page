@@ -1,6 +1,6 @@
 ---
 id: "zarzadzanie-testowaniem"
-title: "📘 Zarządzanie testowaniem"
+title: " Zarządzanie testowaniem"
 sidebar_position: 9
 ---
 

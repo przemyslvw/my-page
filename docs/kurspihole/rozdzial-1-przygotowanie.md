@@ -4,7 +4,7 @@ title: "🛠️ Rozdział 1: Przygotowanie środowiska"
 sidebar_position: 2
 ---
 
-## 💡 W tym rozdziale dowiesz się:
+##  W tym rozdziale dowiesz się:
 - Jak wybrać odpowiedni sprzęt dla Pi-hole.
 - Jak przygotować kartę SD z systemem operacyjnym.
 - Jak skonfigurować sieć dla Raspberry Pi.
@@ -12,43 +12,43 @@ sidebar_position: 2
 
 ---
 
-## 🥧 1.1 Wybór sprzętu
+##  1.1 Wybór sprzętu
 
 ### ✅ **Najlepsza opcja: Raspberry Pi**
 Pi-hole został zaprojektowany z myślą o pracy na **Raspberry Pi** – lekkim, energooszczędnym minikomputerze, który idealnie nadaje się jako serwer DNS.
 
-#### 💾 **Zalecane modele:**
+####  **Zalecane modele:**
 - **Raspberry Pi 3B+** lub **Raspberry Pi 4** (najlepsza wydajność)
 - **Raspberry Pi Zero 2 W** (dla małych sieci domowych)
 - **Raspberry Pi 2** (wystarczający dla podstawowych zastosowań)
 
-#### ⚙️ **Alternatywy:**
+####  **Alternatywy:**
 - Komputery z systemem **Linux** (Debian/Ubuntu)
 - **Docker** (dla bardziej zaawansowanych użytkowników)
 - **Windows** (poprzez WSL2)
 
 ---
 
-## 💾 1.2 Przygotowanie karty SD
+##  1.2 Przygotowanie karty SD
 
 ### 📥 **Krok 1: Pobierz system operacyjny**
 Pobierz **Raspberry Pi OS (Lite)** z oficjalnej strony:
 👉 [Pobierz Raspberry Pi OS](https://www.raspberrypi.com/software/)
 
-### 🖥️ **Krok 2: Wgraj system na kartę SD**
+###  **Krok 2: Wgraj system na kartę SD**
 1. Pobierz i zainstaluj **Raspberry Pi Imager**.
 2. Wybierz:
    - System: **Raspberry Pi OS (Lite)** *(bez środowiska graficznego)*.
    - Dysk: Twoja karta SD *(minimum 8 GB, zalecane 16 GB)*.
 3. Kliknij **"Write"** i poczekaj na zakończenie procesu.
 
-### 💡 **Tip:** Po wgraniu systemu, dodaj pusty plik o nazwie `ssh` do katalogu głównego karty SD, aby włączyć zdalny dostęp SSH.
+###  **Tip:** Po wgraniu systemu, dodaj pusty plik o nazwie `ssh` do katalogu głównego karty SD, aby włączyć zdalny dostęp SSH.
 
 ---
 
-## 🌐 1.3 Konfiguracja sieci
+##  1.3 Konfiguracja sieci
 
-### 🧑‍💻 **Podłącz Raspberry Pi do sieci:**
+###  **Podłącz Raspberry Pi do sieci:**
 - **Ethernet** (zalecane) — stabilniejsze połączenie.
 - **Wi-Fi** — dla bardziej elastycznego ustawienia.
 
@@ -69,7 +69,7 @@ network={
 
 3. Zapisz plik i włóż kartę SD do Raspberry Pi.
 
-## ⚡ 1.4 Podstawowe ustawienia systemu
+##  1.4 Podstawowe ustawienia systemu
 
 1. **Uruchom Raspberry Pi** z przygotowanej karty SD.
 
@@ -138,4 +138,4 @@ sudo reboot
 - Przykłady konfiguracji sieci.
 - Najlepsze praktyki (np. ustawienie statycznego IP i zabezpieczenie systemu).
 
-Czy chcesz teraz przejść do **Rozdziału 2: Instalacja Pi-hole**? ⚡
+Czy chcesz teraz przejść do **Rozdziału 2: Instalacja Pi-hole**? 

@@ -22,7 +22,7 @@ date: 2026-06-08
 
 **Satelitarne rozszerzenie zasięgu.** Trwają testy przekazywania sygnału Link 16 przez konstelację satelitarną SDA (Space Development Agency). Norwegia jako pierwsza przeprowadziła próby z pełnym łańcuchem kryptograficznym NATO, co potencjalnie eliminuje największe ograniczenie systemu — zasięg LOS ~500 km.
 
-## 🔍 Kluczowe cechy Link 16
+##  Kluczowe cechy Link 16
 
 - **Szyfrowana i odporna na zakłócenia transmisja** – wykorzystuje metody rozpraszania widma (FHSS – Frequency-Hopping Spread Spectrum) i szyfrowania danych.
 - **Niska latencja** – umożliwia niemal natychmiastowe przekazywanie informacji taktycznych.
@@ -48,14 +48,14 @@ System Link 16 jest wykorzystywany przez różne platformy wojskowe, w tym:
 - **Wozy bojowe i centra dowodzenia**,
 - **Drony i bezzałogowe statki powietrzne**.
 
-## 📡 Wyzwania i ograniczenia
+##  Wyzwania i ograniczenia
 
 Pomimo swoich zalet, Link 16 ma również pewne ograniczenia:
 - **Ograniczony zasięg LOS** – standardowa łączność naziemna sięga ok. 300–500 mil morskich i wymaga bezpośredniej widoczności między nadajnikiem a odbiorcą. Protokół **JREAP-C** częściowo rozwiązuje ten problem, tunelując sygnał przez sieci IP i łącza satelitarne — ale kosztem dodatkowej latencji i złożoności zarządzania siecią.
 - **Wysokie wymagania energetyczne** – system wymaga dużej mocy do skutecznego działania.
 - **Złożoność integracji** – wymagane jest odpowiednie dostosowanie platform i zgodność z protokołami NATO.
 
-## 🔄 Podobne systemy
+##  Podobne systemy
 
 Oprócz Link 16 istnieją inne wojskowe systemy wymiany danych, m.in.:
 

@@ -1,11 +1,10 @@
 ---
 id: "request-smuggling-cache-poisoning"
 title: "[Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning"
-sidebar_label: "🚇 [Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning"
 sidebar_position: 21
 ---
 
-# 🚇 [Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning
+# [Zaawansowane] HTTP Request Smuggling i Web Cache Poisoning
 
 To moduł dla zaawansowanych. Obie techniki wykorzystują **rozbieżności w interpretacji żądań** między warstwami infrastruktury (front-end/proxy/CDN a serwer back-end). Pozwalają zatruwać kolejkę żądań innych użytkowników, omijać kontrole bezpieczeństwa i masowo serwować złośliwą treść.
 
@@ -59,7 +58,7 @@ Manualne testy są ryzykowne (mogą wpłynąć na innych użytkowników). Bezpie
 
 ---
 
-## 🧪 Web Cache Poisoning
+##  Web Cache Poisoning
 
 Atak polega na zmuszeniu pamięci podręcznej (CDN, reverse proxy) do **zapisania złośliwej odpowiedzi**, która następnie jest serwowana wielu użytkownikom.
 
@@ -92,7 +91,7 @@ Jeśli serwer zwróci profil ofiary, a cache zapisze go jako statyczny `.css` (p
 
 ---
 
-## 🔐 Jak się bronić?
+##  Jak się bronić?
 ✅ **Ujednolić parsowanie żądań** w całym łańcuchu; preferować **HTTP/2 end-to-end** bez downgrade'u.
 ✅ **Odrzucać niejednoznaczne żądania** (jednoczesne CL i TE, zduplikowane nagłówki).
 ✅ **Cache:** włączać do **klucza** wszystkie wejścia wpływające na odpowiedź; nie odbijać nieuwierzytelnionych nagłówków.

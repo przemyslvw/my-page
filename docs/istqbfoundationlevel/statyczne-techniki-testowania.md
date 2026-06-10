@@ -1,6 +1,6 @@
 ---
 id: "statyczne-techniki-testowania"
-title: "📘 Statyczne techniki testowania"
+title: " Statyczne techniki testowania"
 sidebar_position: 7
 ---
 

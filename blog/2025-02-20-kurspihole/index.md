@@ -8,7 +8,7 @@ date: 2024-10-10
 
 # 🚀 Kompletny kurs Pi-hole – Zadbaj o czystą i bezpieczną sieć!
 
-Chcesz pozbyć się reklam z całej sieci, zwiększyć prywatność i zabezpieczyć domową lub firmową infrastrukturę? 💡  
+Chcesz pozbyć się reklam z całej sieci, zwiększyć prywatność i zabezpieczyć domową lub firmową infrastrukturę?   
 Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 
 <!-- truncate -->
@@ -16,16 +16,16 @@ Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 ## ✅ **Dlaczego warto skorzystać z kursu?**
 
 - 🔥 **Proste instrukcje krok po kroku** – nawet jeśli jesteś początkujący, poradzisz sobie bez problemu.
-- 🛡️ **Blokowanie reklam i trackerów** – koniec z nachalnymi banerami na wszystkich urządzeniach.
-- 🌐 **Skalowalność** – sprawdza się zarówno w domowej sieci, jak i w małych firmach.
-- 📊 **Analiza i monitorowanie sieci** – sprawdź, kto generuje najwięcej ruchu i jakie strony są najczęściej odwiedzane.
+-  **Blokowanie reklam i trackerów** – koniec z nachalnymi banerami na wszystkich urządzeniach.
+-  **Skalowalność** – sprawdza się zarówno w domowej sieci, jak i w małych firmach.
+-  **Analiza i monitorowanie sieci** – sprawdź, kto generuje najwięcej ruchu i jakie strony są najczęściej odwiedzane.
 - 🧰 **Zaawansowane funkcje** – VPN z WireGuard, własne listy blokujące czy lokalny resolver DNS z Unbound.
 
 ---
 
-## 📖 **Co znajdziesz w kursie?**
+##  **Co znajdziesz w kursie?**
 
-### 📘 Wprowadzenie
+###  Wprowadzenie
 - Czym jest Pi-hole i dlaczego warto go używać?
 - Wymagania sprzętowe i podstawy działania.
 
@@ -33,39 +33,39 @@ Nasz **kompleksowy kurs Pi-hole** jest właśnie dla Ciebie! 🎉
 - Konfiguracja Raspberry Pi lub innego serwera.
 - Przygotowanie systemu i ustawienia sieciowe.
 
-### ⚡ Instalacja Pi-hole
+###  Instalacja Pi-hole
 - Pełna instrukcja krok po kroku.
 - Konfiguracja interfejsu webowego i ustawienie statycznego IP.
 
-### 🌐 Konfiguracja sieci
+###  Konfiguracja sieci
 - Ustawienie Pi-hole jako głównego DNS.
 - Konfiguracja DHCP i zarządzanie urządzeniami w sieci.
 
-### 🔍 Zarządzanie i monitorowanie
+###  Zarządzanie i monitorowanie
 - Przegląd interfejsu.
 - Analiza statystyk i logów DNS.
 - Optymalizacja list blokujących.
 
-### 🔒 Zabezpieczenia i optymalizacja
+###  Zabezpieczenia i optymalizacja
 - Konfiguracja zapory sieciowej.
 - Blokowanie złośliwych domen.
 - Ustawienia prywatności.
 
-### 📊 Zaawansowane funkcje
+###  Zaawansowane funkcje
 - Integracja z Unbound.
 - VPN z WireGuard.
 - Własne czarne i białe listy domen.
 
-### 🧑‍💻 Rozwiązywanie problemów
+###  Rozwiązywanie problemów
 - Najczęstsze błędy i sposoby ich naprawy.
 - Analiza logów i przywracanie ustawień.
 
-### 💡 Scenariusze zastosowania
+###  Scenariusze zastosowania
 - Pi-hole w sieci domowej.
 - Wykorzystanie w małych firmach.
 - Zabezpieczenie urządzeń mobilnych i Smart TV.
 
-### 📁 Załączniki
+###  Załączniki
 - Przydatne listy blokujące z [Firebog](https://firebog.net/).
 - Słownik pojęć.
 - Narzędzia do analizy sieci.
@@ -80,7 +80,7 @@ Kliknij poniżej, aby rozpocząć kurs i dowiedzieć się, jak **Pi-hole** może
 
 ---
 
-📢 **Podziel się swoją opinią!** Jeśli masz pytania lub chcesz podzielić się swoją konfiguracją, zostaw komentarz pod postem. 💬
+ **Podziel się swoją opinią!** Jeśli masz pytania lub chcesz podzielić się swoją konfiguracją, zostaw komentarz pod postem. 
 
 #PiHole #Bezpieczeństwo #BlokowanieReklam #DNS #Sieć #OpenSource #Poradnik
 

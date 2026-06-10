@@ -1,17 +1,16 @@
 ---
 id: "passive-recon"
 title: "Passive Recon – zbieranie informacji bez pozostawiania śladów"
-sidebar_label: "🕵️ Passive Recon – zbieranie informacji bez pozostawiania śladów"
 sidebar_position: 5
 ---
 
-# 🕵️ Passive Recon – zbieranie informacji bez pozostawiania śladów
+# Passive Recon – zbieranie informacji bez pozostawiania śladów
 
 Passive Recon (pasywne rozpoznanie) to etap testów penetracyjnych, w którym zbieramy informacje o celu bez bezpośredniego kontaktu z jego infrastrukturą. Dzięki temu pozostajemy niewidoczni dla systemów monitorujących ruch sieciowy.
 
 ---
 
-## 🔍 Google Dorking
+##  Google Dorking
 **Google Dorking** to technika wyszukiwania wrażliwych informacji w Google przy użyciu specjalnych operatorów.
 
 Przykładowe dorki:
@@ -30,7 +29,7 @@ Aby uniknąć blokady Google, można używać proxy lub TOR.
 
 ---
 
-## 🌐 WHOIS, Shodan, theHarvester
+##  WHOIS, Shodan, theHarvester
 
 ### **1️⃣ WHOIS – informacje o domenie**
 WHOIS pozwala uzyskać dane rejestracyjne domeny i jej właściciela.
@@ -72,7 +71,7 @@ Opcje:
 
 ---
 
-## 🕵️‍♂️ OSINT i analiza footprintu
+##  OSINT i analiza footprintu
 **OSINT (Open-Source Intelligence)** to gromadzenie informacji z publicznych źródeł:
 - **Media społecznościowe**: Facebook, LinkedIn, Twitter
 - **Repozytoria kodu**: GitHub, GitLab

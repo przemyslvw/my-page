@@ -1,10 +1,10 @@
 ---
 id: "a07-authentication-failures-testowanie"
-title: "🔍 3.7.2 – Metody testowania podatności"
+title: " 3.7.2 – Metody testowania podatności"
 sidebar_position: 32
 ---
 
-## 🔍 Metody testowania: Identification and Authentication Failures
+##  Metody testowania: Identification and Authentication Failures
 
 W tej części skupimy się na manualnych i automatycznych technikach wykrywania błędów w procesach identyfikacji i uwierzytelniania.
 

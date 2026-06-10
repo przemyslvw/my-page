@@ -23,14 +23,14 @@ Testowanie bezpieczeństwa API to jeden z najważniejszych elementów zabezpiecz
 - [ ] Czy API akceptuje tylko oczekiwane metody (GET, POST, PUT, DELETE)?
 - [ ] Czy endpointy są zabezpieczone przed nadużyciem metod `OPTIONS`, `TRACE`?
 
-### 🔍 Filtrowanie danych i ujawnienia
+###  Filtrowanie danych i ujawnienia
 
 - [ ] Czy można pobrać dane innych użytkowników modyfikując identyfikator?
 - [ ] Czy odpowiedzi nie zawierają wrażliwych informacji (e-maile, tokeny, stacktrace)?
 - [ ] Czy błędy są obsługiwane bez wycieku informacji (np. kod 500 bez detali)?
 - [ ] Czy GraphQL introspection jest wyłączone w środowisku produkcyjnym?
 
-### 🛡️ Bezpieczeństwo transportu
+###  Bezpieczeństwo transportu
 
 - [ ] Czy komunikacja odbywa się wyłącznie po HTTPS?
 - [ ] Czy certyfikat SSL jest ważny i poprawnie skonfigurowany?
@@ -42,7 +42,7 @@ Testowanie bezpieczeństwa API to jeden z najważniejszych elementów zabezpiecz
 - [ ] Czy odpowiedź zawiera nagłówki `Retry-After`, `X-RateLimit-Limit`?
 - [ ] Czy istnieją mechanizmy ochrony przed automatyzacją (np. ReCAPTCHA dla wrażliwych akcji)?
 
-### 🧪 Narzędzia do testowania API
+###  Narzędzia do testowania API
 
 - **Postman** – manualne testy, kolekcje testowe, testy autoryzacji
 - **Burp Suite / ZAP** – proxy + analiza żądań API
@@ -50,7 +50,7 @@ Testowanie bezpieczeństwa API to jeden z najważniejszych elementów zabezpiecz
 - **nmap / nuclei / ffuf** – testy endpointów i fuzzing
 - **GraphQL Voyager / InQL** – do testów API GraphQL
 
-### 📁 Dodatkowe punkty
+###  Dodatkowe punkty
 
 - [ ] Czy endpointy wewnętrzne są oddzielone od publicznych?
 - [ ] Czy API ma wersjonowanie (np. /api/v1/)?

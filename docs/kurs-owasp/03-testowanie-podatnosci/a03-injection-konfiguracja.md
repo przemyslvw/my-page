@@ -1,16 +1,16 @@
 ---
 id: "a03-injection-konfiguracja"
-title: "⚙️ 3.3.3 – Weryfikacja konfiguracji aplikacji i serwera"
+title: " 3.3.3 – Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 13
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Zidentyfikować słabe punkty w konfiguracji aplikacji i serwera, które umożliwiają lub zwiększają ryzyko wystąpienia podatności typu **Injection**.
 
 ---
 
-## 🔍 Obszary do weryfikacji
+##  Obszary do weryfikacji
 
 ### 🔸 1. Obsługa danych wejściowych
 
@@ -106,7 +106,7 @@ if (allowedCommands.ContainsKey(input))
 
 ---
 
-## 🧠 Dodatkowe środki bezpieczeństwa
+##  Dodatkowe środki bezpieczeństwa
 
 - Używaj `UseAuthorization()` i `UseAuthentication()` we właściwej kolejności.
 - Filtruj wejście nawet jeśli middleware uprzednio je przetworzył (defense in depth).
@@ -114,7 +114,7 @@ if (allowedCommands.ContainsKey(input))
 
 ---
 
-## 💻 Przykłady dla aplikacji .NET (C# / ASP.NET Core)
+##  Przykłady dla aplikacji .NET (C# / ASP.NET Core)
 
 ### ✅ Poprawne podejście: parametryzowane zapytania
 
@@ -165,7 +165,7 @@ var users = dbContext.Users
 
 ---
 
-## ⚙️ Przykład konfiguracji ASP.NET Core
+##  Przykład konfiguracji ASP.NET Core
 
 ```csharp
 app.UseExceptionHandler("/Error"); // Ukrywanie stack trace'ów
@@ -176,7 +176,7 @@ services.AddControllersWithViews()
 
 ---
 
-## 📋 Przykład poprawnej konfiguracji – Node.js + PostgreSQL
+##  Przykład poprawnej konfiguracji – Node.js + PostgreSQL
 
 ```javascript
 const result = await db.query("SELECT * FROM users WHERE id = $1", [req.params.id]);
@@ -196,7 +196,7 @@ const result = await db.query("SELECT * FROM users WHERE id = " + req.params.id)
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Przejrzyj kod aplikacji pod kątem dynamicznych zapytań.
 - Sprawdź konfigurację bazy i serwera dla każdego środowiska (dev/test/prod).

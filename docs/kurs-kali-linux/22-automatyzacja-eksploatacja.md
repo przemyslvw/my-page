@@ -1,17 +1,16 @@
 ---
 id: "automatyzacja-eksploatacja"
 title: "Automatyzacja i eksploatacja"
-sidebar_label: "🤖 Automatyzacja i eksploatacja"
 sidebar_position: 22
 ---
 
-# 🤖 Automatyzacja i eksploatacja
+# Automatyzacja i eksploatacja
 
 Automatyzacja testów penetracyjnych pozwala zwiększyć efektywność pracy pentestera, eliminując powtarzalne zadania i przyspieszając proces wykrywania podatności. W tej sekcji omówimy, jak pisać własne skrypty do pentestów oraz jak skutecznie korzystać z **Metasploit Framework**.
 
 ---
 
-## ⚙️ Automatyzacja testów penetracyjnych
+##  Automatyzacja testów penetracyjnych
 
 ### **1️⃣ Jak pisać własne skrypty do pentestów?**
 Automatyzacja testów może obejmować:
@@ -278,7 +277,7 @@ curl -s https://target.example.com | ollama run llama3 "Przeanalizuj te nagłów
 
 ---
 
-## 🔐 Jak zabezpieczyć się przed automatycznymi atakami AI?
+##  Jak zabezpieczyć się przed automatycznymi atakami AI?
 ✅ **Monitorowanie ruchu sieciowego i nietypowych skanowań**
 ✅ **Blokowanie narzędzi typu Metasploit w systemach produkcyjnych**
 ✅ **Regularne aktualizacje systemów i patchowanie znanych podatności**

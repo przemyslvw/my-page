@@ -30,11 +30,11 @@ Efekt? W trakcie kursu zbudujesz swój pierwszy działający projekt — np. gr�
 
 ## Tematyka — przykłady, co możesz wybrać:
 
-💻 Podstawy programowania — JavaScript, TypeScript, Python, C, HTML, CSS  
-⚡ Automatyzacje i integracje — Playwright, API, n8n, OpenAI  
-🌐 Tworzenie aplikacji webowych — Angular, Firebase, nowoczesny frontend  
-🔧 Projekty techniczne — ESP32, Raspberry Pi, Internet Rzeczy  
-🔒 Cyberbezpieczeństwo — aplikacje i sieci  
+ Podstawy programowania — JavaScript, TypeScript, Python, C, HTML, CSS  
+ Automatyzacje i integracje — Playwright, API, n8n, OpenAI  
+ Tworzenie aplikacji webowych — Angular, Firebase, nowoczesny frontend  
+ Projekty techniczne — ESP32, Raspberry Pi, Internet Rzeczy  
+ Cyberbezpieczeństwo — aplikacje i sieci  
 
 Nie wiesz jeszcze, co dokładnie Cię interesuje? Ustalimy to razem na pierwszym spotkaniu.
 
@@ -50,6 +50,6 @@ W cenie masz:
 
 ---
 
-💡 Masz pytania? Napisz — ustalimy zakres idealnie dopasowany do Ciebie. Wystawiam fakturę.
+ Masz pytania? Napisz — ustalimy zakres idealnie dopasowany do Ciebie. Wystawiam fakturę.
 
 **Ucz się programowania tak, jak robią to osoby, które chcą szybko zobaczyć efekty — bez ściemy, bez tracenia miesięcy na przypadkowe tutoriale.**

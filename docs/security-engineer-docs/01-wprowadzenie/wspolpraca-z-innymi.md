@@ -12,25 +12,25 @@ Security Engineer nie działa w próżni – skuteczność jego działań zależ
 - Definiowanie polityk dostępu do infrastruktury  
 - Wdrażanie Infrastructure as Code z uwzględnieniem kontroli bezpieczeństwa
 
-## 🧪 Zespół QA / Testerzy
+##  Zespół QA / Testerzy
 
 - Pomoc w identyfikacji podatności w testach automatycznych  
 - Uwzględnianie testów bezpieczeństwa w planie testów regresyjnych  
 - Edukacja testerów w zakresie OWASP Top 10
 
-## 🧑‍💻 Deweloperzy
+##  Deweloperzy
 
 - Przeglądy kodu pod kątem bezpieczeństwa  
 - Edukacja w zakresie bezpiecznego programowania  
 - Tworzenie wspólnych bibliotek bezpieczeństwa (np. do walidacji danych)
 
-## 🧾 Zespół Compliance / Legal / RODO
+##  Zespół Compliance / Legal / RODO
 
 - Konsultacje w zakresie zgodności z przepisami (RODO, NIS2, AI Act)  
 - Pomoc w audytach i tworzeniu dokumentacji  
 - Analiza ryzyk prawnych związanych z incydentami
 
-## 🧠 Zespół Zarządzający / Biznes
+##  Zespół Zarządzający / Biznes
 
 - Przekładanie ryzyk technicznych na język biznesu  
 - Uzasadnianie inwestycji w bezpieczeństwo  

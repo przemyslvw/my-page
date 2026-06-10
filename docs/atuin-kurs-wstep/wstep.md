@@ -1,21 +1,21 @@
 ---
 id: "atuin-kurs-wstep"
-title: "📘 Wstęp do Atuin – Nowoczesne zarządzanie historią terminala"
+title: " Wstęp do Atuin – Nowoczesne zarządzanie historią terminala"
 sidebar_position: 1
 ---
 
-# 📘 Wstęp do Atuin – Nowoczesne zarządzanie historią terminala
+#  Wstęp do Atuin – Nowoczesne zarządzanie historią terminala
 
 ## 🔹 Czym jest Atuin?
 
 **Atuin** to zaawansowane narzędzie do zarządzania historią terminala, które zastępuje klasyczne mechanizmy historii powłoki, oferując bardziej rozbudowane funkcje wyszukiwania, filtrowania oraz synchronizacji komend pomiędzy urządzeniami. Dzięki Atuin możesz w łatwy sposób przeszukiwać swoją historię poleceń za pomocą technologii fuzzy search, analizować najczęściej używane komendy, a także synchronizować dane między komputerami.
 
 **Główne cechy Atuin:**
-- 📁 **Wyszukiwanie kontekstowe** – możliwość przeszukiwania historii komend z uwzględnieniem katalogu roboczego.
+-  **Wyszukiwanie kontekstowe** – możliwość przeszukiwania historii komend z uwzględnieniem katalogu roboczego.
 - 🕑 **Historia z kontekstem czasowym** – łatwe wyszukiwanie komend z określonych dni lub przedziałów czasowych.
-- ☁️ **Synchronizacja historii** – przechowywanie historii komend w chmurze lub na własnym serwerze.
-- 🛡️ **Szyfrowanie historii** – prywatność i bezpieczeństwo danych.
-- ⚡ **Szybkie wyszukiwanie fuzzy** – błyskawiczne przeszukiwanie historii za pomocą prostych skrótów klawiszowych.
+-  **Synchronizacja historii** – przechowywanie historii komend w chmurze lub na własnym serwerze.
+-  **Szyfrowanie historii** – prywatność i bezpieczeństwo danych.
+-  **Szybkie wyszukiwanie fuzzy** – błyskawiczne przeszukiwanie historii za pomocą prostych skrótów klawiszowych.
 
 ---
 
@@ -65,8 +65,8 @@ Atuin jest narzędziem **wieloplatformowym** i działa na najpopularniejszych sy
 
 - 👶 **Dla początkujących**, którzy chcą usprawnić pracę z terminalem.
 - 🛠️ **Dla programistów i administratorów**, którzy często korzystają z terminala i chcą lepszej kontroli nad historią komend.
-- 🔒 **Dla entuzjastów prywatności**, którzy chcą mieć pełną kontrolę nad swoimi danymi.
-- 🌐 **Dla użytkowników wieloplatformowych**, którzy pracują na różnych urządzeniach i chcą zsynchronizowanej historii.
+-  **Dla entuzjastów prywatności**, którzy chcą mieć pełną kontrolę nad swoimi danymi.
+-  **Dla użytkowników wieloplatformowych**, którzy pracują na różnych urządzeniach i chcą zsynchronizowanej historii.
 
 ---
 
@@ -74,4 +74,4 @@ Atuin jest narzędziem **wieloplatformowym** i działa na najpopularniejszych sy
 
 W kolejnych rozdziałach dowiesz się, jak zainstalować Atuin na swoim systemie, jak skonfigurować synchronizację oraz jak wykorzystać pełnię jego możliwości do zwiększenia produktywności w terminalu.
 
-➡️ **Przejdź do kolejnego rozdziału:** [⚙️ Instalacja Atuin](/docs/atuin-kurs-wstep/atuin-kurs-instalacja)
+➡️ **Przejdź do kolejnego rozdziału:** [ Instalacja Atuin](/docs/atuin-kurs-wstep/atuin-kurs-instalacja)

@@ -1,11 +1,10 @@
 ---
 id: "password-cracking"
 title: "Łamanie haseł offline (Hashcat i John the Ripper)"
-sidebar_label: "🔓 Łamanie haseł offline (Hashcat i John the Ripper)"
 sidebar_position: 24
 ---
 
-# 🔓 Łamanie haseł offline (Hashcat i John the Ripper)
+# Łamanie haseł offline (Hashcat i John the Ripper)
 
 W module *Broken Authentication* atakowaliśmy logowanie online (Hydra, Burp Intruder). Tutaj zajmujemy się **łamaniem offline** — gdy po post-exploitation (np. `hashdump`, dump bazy, plik `/etc/shadow`) mamy **hashe** i chcemy odzyskać hasła bez kontaktu z systemem ofiary. Brak rate-limitu i blokad sprawia, że to znacznie potężniejsza technika.
 
@@ -13,7 +12,7 @@ W module *Broken Authentication* atakowaliśmy logowanie online (Hydra, Burp Int
 
 ---
 
-## 🧠 Najpierw: identyfikacja typu hasha
+##  Najpierw: identyfikacja typu hasha
 
 Zanim zaczniesz łamać, ustal algorytm:
 ```bash
@@ -58,7 +57,7 @@ hashcat -m 0 -a 0 hashes.txt rockyou.txt -r /usr/share/hashcat/rules/best64.rule
 ### **3️⃣ Atak maskowy (Brute-force ukierunkowany)**
 Gdy znasz wzorzec hasła (np. 8 znaków, pierwsza wielka, na końcu cyfry):
 ```bash
-# ?u wielka, ?l mała, ?d cyfra, ?s znak specjalny
+# u wielka, ?l mała, ?d cyfra, ?s znak specjalny
 hashcat -m 0 -a 3 hashes.txt '?u?l?l?l?l?l?d?d'
 ```
 
@@ -106,7 +105,7 @@ john --incremental hashes.txt                    # bruteforce inkrementalny
 
 ---
 
-## 🌐 Wordlisty celowane (CeWL i crunch)
+##  Wordlisty celowane (CeWL i crunch)
 
 Gdy rockyou.txt jest zbyt ogólny, warto wygenerować słownik dostosowany do konkretnego celu.
 
@@ -136,7 +135,7 @@ crunch 8 8 abcdefghijklmnopqrstuvwxyz0123456789 -o crunch8.txt
 # Wzorzec: wielka, 5 małych, 2 cyfry (np. Klient01)
 crunch 8 8 -t @@@@@%^^ \
   -o wzorzec.txt
-# @ = mała litera, % = cyfra, ^ = znak specjalny, , = wielka litera
+# = mała litera, % = cyfra, ^ = znak specjalny, , = wielka litera
 ```
 
 Połączenie CeWL + reguły Hashcat to często skuteczniejsze podejście niż samo crunch dla typowych haseł.
@@ -153,7 +152,7 @@ Typowy łańcuch:
 
 ---
 
-## 🔐 Jak utrudnić łamanie haseł?
+##  Jak utrudnić łamanie haseł?
 ✅ **Używaj wolnych, solonych algorytmów** – bcrypt, scrypt, Argon2 (nie MD5/SHA1).
 ✅ **Wymuszaj długie hasła/passphrasy** – długość bije złożoność przy bruteforce.
 ✅ **Unikalna sól per użytkownik** – niweczy tęczowe tablice i atak na wiele kont naraz.

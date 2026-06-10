@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Security Engineer (inżynier bezpieczeństwa) to osoba odpowiedzialna za projektowanie, wdrażanie i nadzorowanie mechanizmów bezpieczeństwa w infrastrukturze informatycznej organizacji. Jego głównym celem jest zapewnienie, że systemy i dane są chronione przed nieautoryzowanym dostępem, atakami i innymi zagrożeniami.
 
-## 🔍 Główne aspekty roli:
+##  Główne aspekty roli:
 
 - **Proaktywna ochrona**  
   Zapobieganie incydentom bezpieczeństwa poprzez wdrażanie odpowiednich zabezpieczeń, monitorowanie i analizę zagrożeń.
@@ -26,7 +26,7 @@ Security Engineer (inżynier bezpieczeństwa) to osoba odpowiedzialna za projekt
 - To **nie wyłącznie administrator** – choć musi dobrze rozumieć systemy i sieci.
 - To **nie audytor** – ale wie, jak przeprowadzać kontrolę stanu bezpieczeństwa.
 
-## 🏆 Wartości, które wnosi do organizacji:
+##  Wartości, które wnosi do organizacji:
 
 - Redukcja ryzyka incydentów
 - Zwiększenie zaufania klientów i partnerów

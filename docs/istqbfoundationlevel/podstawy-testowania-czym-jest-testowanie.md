@@ -1,6 +1,6 @@
 ---
 id: "podstawy-testowania-czym-jest-testowanie"
-title: "📘 Czym jest testowanie"
+title: " Czym jest testowanie"
 sidebar_position: 1
 ---
 

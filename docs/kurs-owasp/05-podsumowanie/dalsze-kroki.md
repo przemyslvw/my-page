@@ -12,7 +12,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 📚 1. Regularne śledzenie OWASP
+###  1. Regularne śledzenie OWASP
 
 - Zaglądaj na [https://owasp.org](https://owasp.org) — aktualności, dokumentacje, projekty.
 - Śledź aktualizacje OWASP Top 10, ASVS, Cheat Sheets.
@@ -28,15 +28,15 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 🎓 3. Zdobywanie certyfikatów
+###  3. Zdobywanie certyfikatów
 
-- 🏅 **eJPT** – junior pentester (Intro do pentestów)
-- 🧪 **OSWE / OSCP** – zaawansowane certyfikaty od Offensive Security
-- 🔐 **Certified AppSec Practitioner** – nacisk na testowanie aplikacji
+-  **eJPT** – junior pentester (Intro do pentestów)
+-  **OSWE / OSCP** – zaawansowane certyfikaty od Offensive Security
+-  **Certified AppSec Practitioner** – nacisk na testowanie aplikacji
 
 ---
 
-### 🧠 4. Czytaj książki i blogi specjalistów
+###  4. Czytaj książki i blogi specjalistów
 
 - _"The Web Application Hacker’s Handbook"_ – klasyka dla testerów aplikacji webowych.
 - _"Real-World Bug Hunting"_ – przykłady prawdziwych błędów.
@@ -44,7 +44,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 👨‍💻 5. Dołącz do społeczności
+###  5. Dołącz do społeczności
 
 - Reddit: `r/netsec`, `r/cybersecurity`, `r/websecurity`
 - Discord/Slack: grupy AppSec, DevSecOps, Bug Bounty
@@ -52,7 +52,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 🧪 6. Twórz własne środowiska testowe
+###  6. Twórz własne środowiska testowe
 
 - Wykorzystaj Docker i aplikacje typu:
   - **DVWA**
@@ -62,7 +62,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 🔁 7. Bądź na bieżąco z zagrożeniami
+###  7. Bądź na bieżąco z zagrożeniami
 
 - Subskrybuj CVE feeds (np. NVD, GitHub)
 - Monitoruj nowe techniki ataków XSS, SSRF, IDOR itp.
@@ -70,7 +70,7 @@ Poniżej znajdziesz zalecane kierunki rozwoju po ukończeniu tego kursu.
 
 ---
 
-### 🧩 8. Połącz wiedzę z DevOps i automatyzacją
+###  8. Połącz wiedzę z DevOps i automatyzacją
 
 - Naucz się integrować testy bezpieczeństwa z CI/CD (DevSecOps).
 - Automatyzuj skanowanie, raportowanie, retesty.

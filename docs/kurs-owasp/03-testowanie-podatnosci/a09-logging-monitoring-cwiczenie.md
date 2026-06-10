@@ -4,9 +4,9 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 45
 ---
 
-# 🧪 Praktyczne ćwiczenie: Testowanie i mitigacja – Security Logging and Monitoring Failures (A09:2025)
+#  Praktyczne ćwiczenie: Testowanie i mitigacja – Security Logging and Monitoring Failures (A09:2025)
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Zadaniem uczestnika jest przetestowanie aplikacji webowej pod kątem rejestrowania zdarzeń bezpieczeństwa oraz skonfigurowanie mechanizmów monitorowania i alertowania na poziomie aplikacji i infrastruktury.
 
@@ -22,7 +22,7 @@ Zadaniem uczestnika jest przetestowanie aplikacji webowej pod kątem rejestrowan
 
 ---
 
-## 🔍 Krok po kroku: testowanie
+##  Krok po kroku: testowanie
 
 ### 1. **Sprawdzenie logowania zdarzeń**
 - Wykonaj:
@@ -82,7 +82,7 @@ Zadaniem uczestnika jest przetestowanie aplikacji webowej pod kątem rejestrowan
 
 ---
 
-## 🧪 Wynik ćwiczenia
+##  Wynik ćwiczenia
 
 Po wykonaniu ćwiczenia uczestnik będzie w stanie:
 

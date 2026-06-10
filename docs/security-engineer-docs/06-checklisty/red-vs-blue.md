@@ -8,25 +8,25 @@ Checklisty „Red vs Blue” pomagają zrozumieć i porównać działania ofensy
 
 ## 🔴 Red Team – checklista ofensywna (atakujący)
 
-### 🔍 Rekonesans i enumeracja
+###  Rekonesans i enumeracja
 
 - [ ] Zidentyfikowano wszystkie publiczne zasoby (subdomeny, porty, aplikacje)?
 - [ ] Sprawdzono metadane w dokumentach publicznych?
 - [ ] Przeanalizowano publiczne repozytoria i błędy konfiguracji (np. GitHub, S3)?
 
-### ⚙️ Eksploatacja podatności
+###  Eksploatacja podatności
 
 - [ ] Wykorzystano znane CVE i błędne konfiguracje?
 - [ ] Testowano XSS, SQLi, CSRF, SSRF, RCE, IDOR?
 - [ ] Przeprowadzono fuzzing API i endpointów?
 
-### 🔐 Eskalacja uprawnień
+###  Eskalacja uprawnień
 
 - [ ] Próby obejścia autoryzacji lub zdobycia tokenów JWT?
 - [ ] Lokalne eskalacje przez błędne uprawnienia, binarki SUID?
 - [ ] Wykorzystanie błędnych ról w IAM/AD?
 
-### 🕵️‍♂️ Unikanie detekcji
+###  Unikanie detekcji
 
 - [ ] Użycie narzędzi C2 z obfuskacją (Covenant, Sliver)?
 - [ ] Testowanie EDR i AV z custom payloadami?
@@ -34,13 +34,13 @@ Checklisty „Red vs Blue” pomagają zrozumieć i porównać działania ofensy
 
 ## 🔵 Blue Team – checklista defensywna (obrońcy)
 
-### 🛡️ Prewencja
+###  Prewencja
 
 - [ ] Aktualne systemy i łatki?
 - [ ] MFA dla wszystkich kont uprzywilejowanych?
 - [ ] Segmentacja sieci i minimalizacja dostępu?
 
-### 📈 Detekcja
+###  Detekcja
 
 - [ ] SIEM monitoruje zdarzenia z kluczowych źródeł?
 - [ ] Wdrożone reguły detekcji MITRE ATT&CK?
@@ -52,13 +52,13 @@ Checklisty „Red vs Blue” pomagają zrozumieć i porównać działania ofensy
 - [ ] Czy playbooki SOAR są automatyzowane i testowane?
 - [ ] Czy zespół przeprowadza symulacje ataków?
 
-### 🔁 Odzyskiwanie i raportowanie
+###  Odzyskiwanie i raportowanie
 
 - [ ] Backupy są szyfrowane i testowane?
 - [ ] Incydenty są dokumentowane i raportowane?
 - [ ] Prowadzona jest retrospekcja i aktualizacja polityk?
 
-## 🧩 Narzędzia Red & Blue
+##  Narzędzia Red & Blue
 
 | Cel                | Red Team                           | Blue Team                          |
 |--------------------|------------------------------------|------------------------------------|

@@ -14,19 +14,19 @@ Cyberbezpieczeństwo stoi przed coraz większą liczbą wyzwań – zarówno tec
 - Wysokie tempo wypalenia zawodowego (burnout)
 - Trudność w zatrzymaniu talentów, szczególnie w sektorze publicznym
 
-### 📈 Rosnąca złożoność środowisk
+###  Rosnąca złożoność środowisk
 
 - Hybrydowe architektury (on-prem + cloud + edge)
 - Trudność w monitorowaniu i zarządzaniu różnorodnymi systemami
 - Wiele interfejsów API i wektorów ataku
 
-### 🕵️‍♂️ Zaawansowane zagrożenia
+###  Zaawansowane zagrożenia
 
 - APT (Advanced Persistent Threats) wspierane przez państwa
 - Nowe formy socjotechniki: deepfake, voice phishing, LLM-enhanced attacks
 - Ataki na łańcuch dostaw (supply chain), integracje CI/CD
 
-### 🧾 Presja zgodności z regulacjami
+###  Presja zgodności z regulacjami
 
 - Dynamiczne zmiany: NIS2, AI Act, DORA, CRA, ISO
 - Trudność w pogodzeniu zgodności z elastycznością technologiczną
@@ -38,7 +38,7 @@ Cyberbezpieczeństwo stoi przed coraz większą liczbą wyzwań – zarówno tec
 - Trudność w przekładaniu ryzyk technicznych na ryzyka biznesowe
 - Potrzeba budowania „cyberkultury” na wszystkich poziomach firmy
 
-### ⚙️ Braki w automatyzacji i integracji
+###  Braki w automatyzacji i integracji
 
 - Ręczne procesy w zarządzaniu incydentami i konfiguracją
 - Niewystarczające integracje między narzędziami bezpieczeństwa

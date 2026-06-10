@@ -1,10 +1,10 @@
 ---
 id: "podstawy-testowania-pytania"
-title: "📘 Podstawy testowania - Pytania egzaminacyjne"
+title: " Podstawy testowania - Pytania egzaminacyjne"
 sidebar_position: 12
 ---
 
-# 📘 Podstawy testowania - Pytania egzaminacyjne
+#  Podstawy testowania - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

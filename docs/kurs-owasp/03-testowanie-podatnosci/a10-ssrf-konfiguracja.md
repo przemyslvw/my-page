@@ -4,15 +4,15 @@ title: "Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 48
 ---
 
-# ⚙️ Weryfikacja konfiguracji aplikacji i serwera – Server-Side Request Forgery (SSRF) (A10:2025)
+#  Weryfikacja konfiguracji aplikacji i serwera – Server-Side Request Forgery (SSRF) (A10:2025)
 
-## 🎯 Cel
+##  Cel
 
 Zweryfikowanie, czy konfiguracja aplikacji i serwera chroni przed możliwością wykonywania nieautoryzowanych żądań HTTP do wewnętrznych zasobów lub usług zaufanych.
 
 ---
 
-## 🔐 Obszary do sprawdzenia
+##  Obszary do sprawdzenia
 
 ### 1. 🔗 Aplikacja (kod i biblioteki)
 - Czy aplikacja umożliwia użytkownikowi podanie URL jako wejścia?
@@ -20,14 +20,14 @@ Zweryfikowanie, czy konfiguracja aplikacji i serwera chroni przed możliwością
 - Czy aplikacja korzysta z funkcji wykonujących żądania (`fetch`, `axios`, `requests`, `curl`)?
 - Czy istnieje whitelist/blacklist domen dozwolonych?
 
-### 2. 🧱 Serwer i zapora sieciowa (firewall)
+### 2.  Serwer i zapora sieciowa (firewall)
 - Czy serwer ma dostęp do usług wewnętrznych (np. metadata service w chmurze)?
 - Czy outbound traffic jest filtrowany?
 - Czy stosowane są reguły `iptables` lub `ufw`, ograniczające połączenia wychodzące?
 
 ---
 
-## 📋 Przykłady zabezpieczeń w konfiguracji
+##  Przykłady zabezpieczeń w konfiguracji
 
 | Komponent | Przykład konfiguracji | Cel |
 |----------|------------------------|-----|
@@ -57,7 +57,7 @@ Zweryfikowanie, czy konfiguracja aplikacji i serwera chroni przed możliwością
 
 ---
 
-## 🔍 Weryfikacja
+##  Weryfikacja
 
 - Sprawdź kod źródłowy aplikacji – czy dane wejściowe są walidowane.
 - Przeanalizuj konfigurację serwera sieciowego i firewalli.

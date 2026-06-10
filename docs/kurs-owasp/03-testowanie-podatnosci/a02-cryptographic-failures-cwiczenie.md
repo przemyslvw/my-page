@@ -4,7 +4,7 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 10
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Przetestować aplikację pod kątem błędów kryptograficznych:
 - przechowywania haseł w plaintext,
@@ -14,7 +14,7 @@ Przetestować aplikację pod kątem błędów kryptograficznych:
 
 ---
 
-## 🧪 Scenariusz testowy 1: JWT bez podpisu (`alg: none`)
+##  Scenariusz testowy 1: JWT bez podpisu (`alg: none`)
 
 **Aplikacja:** REST API z JWT (symulowane lub Juice Shop + Burp Suite)
 
@@ -54,7 +54,7 @@ jwt.verify(token, secret, { algorithms: ['HS256'] });
 
 ---
 
-## 🧪 Scenariusz testowy 2: Hasła w plaintext
+##  Scenariusz testowy 2: Hasła w plaintext
 
 **Aplikacja:** Dump bazy danych z tabelą `users`
 
@@ -73,7 +73,7 @@ const hash = await bcrypt.hash('admin123', 12);
 
 ---
 
-## 🧪 Scenariusz testowy 3: Brak HTTPS
+##  Scenariusz testowy 3: Brak HTTPS
 
 ### Krok 1: Otwórz aplikację bez HTTPS
 
@@ -97,7 +97,7 @@ Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 ---
 
-## 🧪 Scenariusz testowy 4: Twardo zakodowany klucz szyfrujący
+##  Scenariusz testowy 4: Twardo zakodowany klucz szyfrujący
 
 **Aplikacja:** JavaScript w frontendzie
 
@@ -120,9 +120,9 @@ const key = "my-secret-key"; // ❌ zły przykład
 
 ---
 
-## 🧠 Dodatkowe ćwiczenia
+##  Dodatkowe ćwiczenia
 
-### 🔍 1. Przeanalizuj JWT z aplikacji mobilnej
+###  1. Przeanalizuj JWT z aplikacji mobilnej
 
 1. Zainstaluj emulator (np. Android Studio / Genymotion).
 2. Uruchom aplikację mobilną i przechwyć ruch sieciowy za pomocą Burp Suite lub mitmproxy.
@@ -135,7 +135,7 @@ const key = "my-secret-key"; // ❌ zły przykład
 
 ---
 
-### 🔐 2. Sprawdź konfigurację TLS/SSL aplikacji
+###  2. Sprawdź konfigurację TLS/SSL aplikacji
 
 1. Zainstaluj [testssl.sh](https://github.com/drwetter/testssl.sh).
 2. Uruchom test dla aplikacji:

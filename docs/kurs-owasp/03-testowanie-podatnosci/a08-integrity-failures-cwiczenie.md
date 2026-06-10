@@ -4,9 +4,9 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 40
 ---
 
-# 🧪 Praktyczne ćwiczenie: Testowanie i mitigacja – Software and Data Integrity Failures (A08:2025)
+#  Praktyczne ćwiczenie: Testowanie i mitigacja – Software and Data Integrity Failures (A08:2025)
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Nauczyć się wykrywać i skutecznie przeciwdziałać podatnościom typu *Software and Data Integrity Failures* w środowisku aplikacji webowej poprzez analizę łańcucha dostarczania kodu, użycie podpisów cyfrowych oraz testowanie plików konfiguracyjnych i zależności.
 
@@ -25,7 +25,7 @@ System CI/CD oparty na GitHub Actions z automatycznym deploymentem aplikacji Nod
 
 ---
 
-## 🔍 Krok po kroku: testowanie integralności
+##  Krok po kroku: testowanie integralności
 
 ### 1. Wstrzyknięcie złośliwego pakietu (symulacja)
 - Utwórz forka projektu.
@@ -71,7 +71,7 @@ System CI/CD oparty na GitHub Actions z automatycznym deploymentem aplikacji Nod
 
 ---
 
-## 🧪 Rezultat końcowy
+##  Rezultat końcowy
 
 Po ukończeniu ćwiczenia uczestnik:
 

@@ -1,6 +1,6 @@
 ---
 id: "rozdzial-2-instalacja"
-title: "⚡ Rozdział 2: Instalacja Pi-hole"
+title: " Rozdział 2: Instalacja Pi-hole"
 sidebar_position: 3
 ---
 
@@ -30,7 +30,7 @@ curl -sSL https://install.pi-hole.net | bash
 
 ---
 
-### ⚙️ 2.2 Konfiguracja podstawowa
+###  2.2 Konfiguracja podstawowa
 
 1. **Dostęp do panelu administracyjnego:**
    - Otwórz przeglądarkę i przejdź do adresu:
@@ -49,7 +49,7 @@ pihole -a -p
 
 ---
 
-### 🌐 2.3 Ustawienie statycznego IP (jeśli nie zostało ustawione wcześniej)
+###  2.3 Ustawienie statycznego IP (jeśli nie zostało ustawione wcześniej)
 
 1. **Edytuj plik konfiguracyjny:**
 ``````bash

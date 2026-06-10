@@ -8,7 +8,7 @@ date: 2024-03-02
 
 # 📌 Espressif IDF (ESP-IDF) i inne platformy do programowania ESP32
 
-## 🔍 Wprowadzenie
+##  Wprowadzenie
 
 ESP32 to jedna z najpopularniejszych platform IoT, oferująca wsparcie dla Wi-Fi i Bluetooth. Espressif dostarcza własne środowisko do programowania - **ESP-IDF (Espressif IoT Development Framework)**. Oprócz niego istnieje wiele innych platform, które pozwalają na wygodne tworzenie oprogramowania dla ESP32.
 
@@ -32,7 +32,7 @@ W tym artykule omówimy **ESP-IDF** oraz inne popularne platformy do programowan
 - Konfiguracja może być skomplikowana dla początkujących
 - Dłuższy czas kompilacji niż w niektórych alternatywnych środowiskach
 
-## 🔄 Alternatywne platformy do programowania ESP32
+##  Alternatywne platformy do programowania ESP32
 
 | **Platforma**       | **Język programowania** | **Zalety** | **Wady** |
 |---------------------|-----------------------|------------|----------|
@@ -44,7 +44,7 @@ W tym artykule omówimy **ESP-IDF** oraz inne popularne platformy do programowan
 | **Tasmota**        | Brak (konfiguracja przez GUI/YAML) | Gotowe oprogramowanie dla IoT, łatwa konfiguracja | Brak elastyczności, ograniczone możliwości personalizacji |
 | **Zephyr RTOS**    | C                      | Niskopoziomowa kontrola, wsparcie dla wielu platform | Bardziej skomplikowane niż ESP-IDF, mniejsze wsparcie dla ESP32 |
 
-## 🎯 Którą platformę wybrać?
+##  Którą platformę wybrać?
 
 - **Dla początkujących**: Arduino IDE lub MicroPython
 - **Dla zaawansowanych**: ESP-IDF lub Zephyr RTOS

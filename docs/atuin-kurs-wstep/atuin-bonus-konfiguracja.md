@@ -1,10 +1,10 @@
 ---
 id: "atuin-kurs-konfiguracja"
-title: "⚙️ Zaawansowana konfiguracja Atuin"
+title: " Zaawansowana konfiguracja Atuin"
 sidebar_position: 8
 ---
 
-# ⚙️ Zaawansowana konfiguracja Atuin
+#  Zaawansowana konfiguracja Atuin
 
 W tym rozdziale poznasz szczegółowe ustawienia **Atuin**, które pozwolą Ci dostosować narzędzie do Twojego stylu pracy. Skonfigurujemy **synchronizację**, **filtry historii**, **tryby wyszukiwania** oraz **motywy**.
 
@@ -21,25 +21,25 @@ nano ~/.config/atuin/config.toml
 🔹 **Wklej poniższą konfigurację:**
 
 ```toml
-# 📂 Zapisywanie katalogów w historii
+#  Zapisywanie katalogów w historii
 record_cwd = true
 
-# 🔄 Automatyczna synchronizacja historii
+#  Automatyczna synchronizacja historii
 auto_sync = true
 sync_frequency = "0" # Synchronizacja po każdej komendzie
 
-# 🖥️ Domyślny tryb filtrowania (historia tylko z danego katalogu)
+#  Domyślny tryb filtrowania (historia tylko z danego katalogu)
 filter_mode = "directory"
 filters = [ "directory", "session", "host", "global", "workspace" ]
 
-# 🔁 Uruchamianie demona Atuin (szybsza synchronizacja)
+#  Uruchamianie demona Atuin (szybsza synchronizacja)
 enabled = true
 sync_frequency = 300 # Demon synchronizuje co 5 minut
 
 # 🎨 Motyw kolorystyczny
 name = "autumn"
 
-# 🔍 Tryb wyszukiwania (lepsze dopasowanie)
+#  Tryb wyszukiwania (lepsze dopasowanie)
 search_mode = "fuzzy"
 show_preview = true
 
@@ -78,7 +78,7 @@ atuin search #angular
 atuin search #powershell
 ```
 
-Teraz Atuin pokaże tylko komendy z danej kategorii! 🎯
+Teraz Atuin pokaże tylko komendy z danej kategorii! 
 
 ---
 

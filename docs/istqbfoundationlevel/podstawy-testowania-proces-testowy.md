@@ -1,6 +1,6 @@
 ---
 id: "podstawy-testowania-proces-testowy"
-title: "📘 Proces testowy"
+title: " Proces testowy"
 sidebar_position: 4
 ---
 

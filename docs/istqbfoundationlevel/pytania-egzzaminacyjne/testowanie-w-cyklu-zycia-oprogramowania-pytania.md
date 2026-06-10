@@ -1,10 +1,10 @@
 ---
 id: "testowanie-w-cyklu-zycia-oprogramowania-pytania"
-title: "📘 Testowanie w cyklu życia oprogramowania - Pytania egzaminacyjne"
+title: " Testowanie w cyklu życia oprogramowania - Pytania egzaminacyjne"
 sidebar_position: 13
 ---
 
-# 📘 Testowanie w cyklu życia oprogramowania - Pytania egzaminacyjne
+#  Testowanie w cyklu życia oprogramowania - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

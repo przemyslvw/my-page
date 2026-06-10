@@ -10,14 +10,14 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### 🔐 1. Wdrożenie zasad „Security by Design”
+###  1. Wdrożenie zasad „Security by Design”
 
 - Projektuj aplikacje z myślą o bezpieczeństwie już od pierwszych etapów (np. kontrola dostępu, walidacja danych).
 - Używaj wzorców projektowych sprzyjających separacji odpowiedzialności i minimalizacji ryzyka.
 
 ---
 
-### 🔁 2. Automatyzacja testów bezpieczeństwa w CI/CD
+###  2. Automatyzacja testów bezpieczeństwa w CI/CD
 
 - Zintegrowanie narzędzi typu **OWASP ZAP CLI**, **Snyk**, **Trivy** z pipeline'em.
 - Regularne testy po każdej zmianie w kodzie lub zależnościach.
@@ -25,7 +25,7 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### 🔒 3. Wzmocnienie kontroli dostępu
+###  3. Wzmocnienie kontroli dostępu
 
 - Wdrożenie RBAC/ABAC (Role/Attribute-Based Access Control).
 - Ograniczenie funkcji administracyjnych tylko do uprawnionych ról.
@@ -33,7 +33,7 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### ⚙️ 4. Twarda konfiguracja aplikacji i serwera
+###  4. Twarda konfiguracja aplikacji i serwera
 
 - Wymuszanie HTTPS z certyfikatem zaufanego CA.
 - Ustawienie odpowiednich nagłówków bezpieczeństwa (CSP, X-Content-Type-Options, HSTS).
@@ -49,7 +49,7 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### 🧑‍💻 6. Szkolenia dla zespołów deweloperskich
+###  6. Szkolenia dla zespołów deweloperskich
 
 - Regularne warsztaty z zakresu **bezpiecznego kodowania**.
 - Przeglądy kodu pod kątem błędów bezpieczeństwa.
@@ -57,7 +57,7 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### 📜 7. Dokumentacja i polityki bezpieczeństwa
+###  7. Dokumentacja i polityki bezpieczeństwa
 
 - Tworzenie i aktualizacja polityk bezpieczeństwa aplikacji.
 - Ustalenie jasnych procedur reagowania na incydenty.
@@ -65,7 +65,7 @@ Po przeprowadzeniu testów i analizie wyników kluczowe jest przedstawienie jasn
 
 ---
 
-### 🧪 8. Testy retestowe i cykliczne
+###  8. Testy retestowe i cykliczne
 
 - Zaplanowanie **re-testów** po wdrożeniu poprawek.
 - Wprowadzenie **cyklicznych testów penetracyjnych** i skanów automatycznych.

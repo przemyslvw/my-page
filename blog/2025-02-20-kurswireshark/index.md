@@ -6,7 +6,7 @@ tags: [cybersecurity, web-security, społeczność]
 date: 2025-02-20
 ---
 
-# 📡 **Kurs Wireshark – Profesjonalne Wprowadzenie**
+#  **Kurs Wireshark – Profesjonalne Wprowadzenie**
 
 Czy kiedykolwiek zastanawiałeś się, jak administratorzy sieci wykrywają cyberataki? Albo jak działają narzędzia do analizy ruchu sieciowego? Jeśli tak, to **ten kurs jest dla Ciebie!** 🚀
 
@@ -22,20 +22,20 @@ Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy 
 - Filtrowania i przetwarzania przechwyconych pakietów
 - Tworzenia własnych filtrów i automatyzacji z użyciem **Tshark**
 
-## 🛡️ **Dla kogo jest ten kurs?**
+##  **Dla kogo jest ten kurs?**
 - **Początkujących** zainteresowanych cyberbezpieczeństwem
 - **Administratorów sieci**, którzy chcą rozwinąć swoje umiejętności
 - **Testerów bezpieczeństwa** i **pentesterów**
 - Studentów kierunków technicznych i osób przygotowujących się do certyfikacji
 
-## 📖 **Co znajdziesz w kursie?**
+##  **Co znajdziesz w kursie?**
 - ✅ Praktyczne ćwiczenia i scenariusze
 - ✅ Teorię sieci potrzebną do analizy pakietów
 - ✅ Przykłady ataków i sposoby ich wykrycia
 - ✅ Poradniki krok po kroku
-- ✅ Zapowiedź kursu **zaawansowanego** dla profesjonalistów 💡
+- ✅ Zapowiedź kursu **zaawansowanego** dla profesjonalistów 
 
-## 🎯 **Dlaczego warto?**
+##  **Dlaczego warto?**
 - Kurs napisany przez praktyka z doświadczeniem w analizie bezpieczeństwa sieci
 - Oparty na realnych przypadkach użycia
 - Kompletna wiedza od podstaw aż po zaawansowane techniki
@@ -45,7 +45,7 @@ Wireshark to jedno z najpotężniejszych narzędzi do przechwytywania i analizy 
 👉 **[Dołącz do kursu już teraz!](https://www.majdak.online/docs/category/kurs-wireshark)**
 
 📩 Masz pytania? Skontaktuj się: **[kontakt@majdak.online](mailto:kontakt@majdak.online)**  
-💡 Śledź nas po więcej wiedzy: **[www.majdak.online](https://www.majdak.online)**  
+ Śledź nas po więcej wiedzy: **[www.majdak.online](https://www.majdak.online)**  
 
 **Autor:** *Przemysław Majdak*  
 **Data publikacji:** 20 lutego 2024

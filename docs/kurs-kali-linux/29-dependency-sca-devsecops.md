@@ -1,17 +1,16 @@
 ---
 id: "dependency-sca-devsecops"
 title: "Podatne zależności, SCA i DevSecOps"
-sidebar_label: "🔗 Podatne zależności, SCA i DevSecOps"
 sidebar_position: 29
 ---
 
-# 🔗 Podatne zależności, SCA i DevSecOps
+# Podatne zależności, SCA i DevSecOps
 
 Większość kodu nowoczesnej aplikacji to **cudze biblioteki**. Jedna podatna zależność (jak Log4Shell) potrafi skompromitować całą aplikację, mimo że własny kod jest bezpieczny. To kategoria **A06 – Vulnerable and Outdated Components** w OWASP Top 10. Ten moduł pokazuje, jak wykrywać podatne komponenty i jak wpleść bezpieczeństwo w pipeline CI/CD (**DevSecOps / shift-left**).
 
 ---
 
-## 🧠 Dlaczego to ważne dla pentestera?
+##  Dlaczego to ważne dla pentestera?
 
 - Podatność w zależności jest **łatwa do potwierdzenia** (znane CVE + PoC), a wpływ bywa krytyczny (RCE).
 - Aplikacje rzadko inwentaryzują, co naprawdę uruchamiają — stąd „zapomniane" stare wersje.
@@ -19,7 +18,7 @@ Większość kodu nowoczesnej aplikacji to **cudze biblioteki**. Jedna podatna z
 
 ---
 
-## 🔍 Software Composition Analysis (SCA)
+##  Software Composition Analysis (SCA)
 
 SCA to wykrywanie znanych podatności w zależnościach. Buduje się je na podstawie **SBOM** (Software Bill of Materials — spis wszystkich komponentów).
 
@@ -64,7 +63,7 @@ gitleaks detect --source . --report-format json --report-path gitleaks.json
 # trufflehog — weryfikuje, czy znalezione sekrety są aktywne
 trufflehog git file://./projekt --only-verified
 ```
-> 💡 Sekret usunięty w nowym commicie **nadal jest w historii Git** — skanuj całą historię, nie tylko `HEAD`.
+>  Sekret usunięty w nowym commicie **nadal jest w historii Git** — skanuj całą historię, nie tylko `HEAD`.
 
 ---
 
@@ -116,7 +115,7 @@ grype nginx:1.18
 
 ---
 
-## 🔐 Jak zarządzać ryzykiem zależności?
+##  Jak zarządzać ryzykiem zależności?
 ✅ **Utrzymuj SBOM** – musisz wiedzieć, co uruchamiasz, by wiedzieć, co łatać.
 ✅ **Automatyzuj aktualizacje** – Dependabot/Renovate dla łatek bezpieczeństwa.
 ✅ **Bramki w CI/CD** – blokuj merge przy krytycznych podatnościach.

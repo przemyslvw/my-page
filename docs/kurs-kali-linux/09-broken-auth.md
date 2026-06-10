@@ -1,11 +1,10 @@
 ---
 id: "broken-authentication"
 title: "Broken Authentication & Session Management"
-sidebar_label: "🔐 Broken Authentication & Session Management"
 sidebar_position: 9
 ---
 
-# 🔐 Broken Authentication & Session Management
+# Broken Authentication & Session Management
 
 Luki w uwierzytelnianiu i zarządzaniu sesjami umożliwiają atakującym przejęcie kont użytkowników, odczytanie sesji, a nawet eskalację uprawnień. W tej sekcji omówimy najczęstsze ataki oraz sposoby ich przeprowadzania.
 
@@ -130,7 +129,7 @@ Flagi `-t 1 -w 30` (1 wątek, 30 s przerwa) spowalniają ruch, żeby nie wyzwoli
 
 ---
 
-## 🔧 Medusa – brute-force z kontrolą hałasu
+##  Medusa – brute-force z kontrolą hałasu
 
 Medusa to alternatywa dla Hydry z przydatnymi flagami do ograniczania hałasu:
 
@@ -148,7 +147,7 @@ Parametry:
 
 ---
 
-## 📋 Generowanie słowników (crunch)
+##  Generowanie słowników (crunch)
 
 Gdy znasz politykę haseł (długość, zestaw znaków), crunch generuje precyzyjny słownik zamiast pobierania generycznych list:
 
@@ -177,4 +176,4 @@ Zawsze ustal z klientem limit prób przed testem online — agresywny brute moż
 
 ---
 
-Podatności w uwierzytelnianiu są jednym z najpoważniejszych zagrożeń dla aplikacji webowych. Kolejnym krokiem będzie analiza podatności **Cross-Site Scripting (XSS)**! 🎯
+Podatności w uwierzytelnianiu są jednym z najpoważniejszych zagrożeń dla aplikacji webowych. Kolejnym krokiem będzie analiza podatności **Cross-Site Scripting (XSS)**! 

@@ -1,6 +1,6 @@
 ---
 id: "podstawy-testowania-dlaczego-jest-konieczne"
-title: "📘 Dlaczego testowanie jest konieczne"
+title: " Dlaczego testowanie jest konieczne"
 sidebar_position: 2
 ---
 

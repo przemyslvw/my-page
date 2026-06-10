@@ -31,7 +31,7 @@ Pierwszą optymalizacją było wyrzucenie podejścia sekwencyjnego na rzecz rów
 
 Teraz całkowity czas Pipeline'u nie równa się `Czas(Lint) + Czas(Unit) + Czas(E2E)`, lecz po prostu `Max(Czas Szybkich Zadań, Czas E2E)`. Przyspieszenie zauważysz natychmiastowo.
 
-## 🔐 Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy
+##  Krok 2: Prawdziwe DevSecOps – Trivy jako strażnik bramy
 
 Zamiast marnować minuty wirtualnych maszyn w GitHub Actions na osobne budowanie kontenerów specjalnie do audytu bezpieczeństwa, połączyliśmy oba procesy w jeden płynny mechanizm deploymentu. Zbudowaliśmy bramkę zabezpieczającą.
 

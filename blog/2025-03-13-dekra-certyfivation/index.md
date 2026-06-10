@@ -28,9 +28,9 @@ Uzyskanie tego certyfikatu to dowód, że nasze procesy i procedury są zgodne z
 ### Nasza misja: bezpieczeństwo i jakość
 Uzyskanie certyfikatu audytora wewnętrznego to dla nas nie tylko wyróżnienie, ale także zobowiązanie do dalszego podnoszenia standardów bezpieczeństwa. Nadal będziemy rozwijać nasze systemy i procesy, aby zapewnić naszym klientom i partnerom najwyższą jakość usług oraz pełne bezpieczeństwo informacji.
 
-Dziękujemy **DEKRA Certification Polska** za profesjonalne podejście i wsparcie w procesie certyfikacji! 💡🔒
+Dziękujemy **DEKRA Certification Polska** za profesjonalne podejście i wsparcie w procesie certyfikacji! 
 
 ---
 
-🛡️ **Masz pytania dotyczące audytów wewnętrznych lub ISO 27001? Skontaktuj się z nami – chętnie podzielimy się wiedzą i doświadczeniem!**
+ **Masz pytania dotyczące audytów wewnętrznych lub ISO 27001? Skontaktuj się z nami – chętnie podzielimy się wiedzą i doświadczeniem!**
 

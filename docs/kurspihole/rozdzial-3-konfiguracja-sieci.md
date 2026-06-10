@@ -1,10 +1,10 @@
 ---
 id: "rozdzial-3-konfiguracja-sieci"
-title: "🌐 Rozdział 3: Konfiguracja sieci"
+title: " Rozdział 3: Konfiguracja sieci"
 sidebar_position: 4
 ---
 
-### 🧭 3.1 Ustawienie Pi-hole jako DNS
+###  3.1 Ustawienie Pi-hole jako DNS
 
 Aby Pi-hole mógł blokować reklamy dla całej sieci, musisz ustawić go jako **główny serwer DNS** na routerze lub na urządzeniach końcowych.
 
@@ -20,7 +20,7 @@ Aby Pi-hole mógł blokować reklamy dla całej sieci, musisz ustawić go jako *
 
 ---
 
-### 📡 3.2 Konfiguracja DHCP (opcjonalnie)
+###  3.2 Konfiguracja DHCP (opcjonalnie)
 
 Pi-hole może pełnić rolę serwera DHCP, jeśli Twój router tego nie obsługuje lub chcesz mieć pełną kontrolę nad przydzielaniem adresów IP.
 

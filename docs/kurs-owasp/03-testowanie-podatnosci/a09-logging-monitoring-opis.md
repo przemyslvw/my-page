@@ -6,7 +6,7 @@ sidebar_position: 41
 
 # 📝 Opis podatności i jej wpływ – Security Logging and Monitoring Failures (A09:2025)
 
-## 🔍 Czym jest ta podatność?
+##  Czym jest ta podatność?
 
 **Security Logging and Monitoring Failures** to kategoria zagrożeń wynikających z braku odpowiedniego rejestrowania zdarzeń bezpieczeństwa, ich analizy i szybkiego reagowania. Obejmuje to:
 
@@ -27,7 +27,7 @@ sidebar_position: 41
 
 ---
 
-## 🎯 Potencjalny wpływ na aplikację i organizację
+##  Potencjalny wpływ na aplikację i organizację
 
 - **Opóźnione wykrycie ataku** – brak sygnałów ostrzegawczych skutkuje długim czasem detekcji (np. ransomware wykryty po 3 dniach).
 - **Utrudnione dochodzenie po incydencie** – brak logów uniemożliwia analizę wektorów ataku.
@@ -44,7 +44,7 @@ sidebar_position: 41
 
 ---
 
-## 🛡️ Dlaczego warto to naprawić?
+##  Dlaczego warto to naprawić?
 
 Skuteczny system logowania i monitoringu to nie tylko element dobrej praktyki, ale jeden z filarów detekcji i reakcji na incydenty. Działa jako:
 

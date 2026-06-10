@@ -1,16 +1,16 @@
 ---
 id: "a05-security-misconfiguration-testowanie"
-title: "🧪 3.5.2 – Metody testowania podatności"
+title: " 3.5.2 – Metody testowania podatności"
 sidebar_position: 22
 ---
 
-## 🧪 Jak testować Security Misconfiguration?
+##  Jak testować Security Misconfiguration?
 
 Testowanie błędów konfiguracji polega na identyfikowaniu **nieprawidłowych ustawień środowiska**, które mogą prowadzić do podatności – od backendu po frontend i sieć.
 
 ---
 
-## 🔍 Przykładowe obszary testowe
+##  Przykładowe obszary testowe
 
 ### 1. 🔓 Sprawdzenie dostępności endpointów administracyjnych
 
@@ -22,12 +22,12 @@ Testowanie błędów konfiguracji polega na identyfikowaniu **nieprawidłowych u
 - `X-Frame-Options`, `X-Content-Type-Options`, `Strict-Transport-Security`, `Content-Security-Policy`
 - Czy są obecne i poprawnie skonfigurowane?
 
-### 3. 🧪 Sprawdzenie dostępu do katalogów i plików serwera
+### 3.  Sprawdzenie dostępu do katalogów i plików serwera
 
 - Czy katalogi są indeksowane (`Index Of`)?
 - Czy pliki `.env`, `config.yaml`, `appsettings.json` są dostępne?
 
-### 4. 🔁 Publiczne endpointy i błędy CORS
+### 4.  Publiczne endpointy i błędy CORS
 
 - Czy API pozwala na żądania z dowolnej domeny (`Access-Control-Allow-Origin: *`)?
 - Czy można wykonywać zapytania metodą `PUT`, `DELETE`, `OPTIONS` bez autoryzacji?

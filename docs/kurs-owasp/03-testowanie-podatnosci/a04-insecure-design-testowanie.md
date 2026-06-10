@@ -1,16 +1,16 @@
 ---
 id: "a04-insecure-design-testowanie"
-title: "🧪 3.4.2 – Metody testowania podatności"
+title: " 3.4.2 – Metody testowania podatności"
 sidebar_position: 17
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Zrozumienie, jak identyfikować podatności typu **Insecure Design** poprzez analizę logiki, architektury i przepływów w aplikacji, a nie tylko kodu źródłowego.
 
 ---
 
-## 🔍 Testowanie podatności Insecure Design
+##  Testowanie podatności Insecure Design
 
 ### 1. 🔎 Analiza przepływu danych i logiki biznesowej
 
@@ -25,7 +25,7 @@ Zrozumienie, jak identyfikować podatności typu **Insecure Design** poprzez ana
 
 ---
 
-### 2. 🔍 Modelowanie zagrożeń (Threat Modeling)
+### 2.  Modelowanie zagrożeń (Threat Modeling)
 
 Stwórz diagram przepływu aplikacji i odpowiedz na pytania:
 
@@ -37,7 +37,7 @@ Stwórz diagram przepływu aplikacji i odpowiedz na pytania:
 
 ---
 
-### 3. 🧪 Testowanie końcówek API pod kątem logiki
+### 3.  Testowanie końcówek API pod kątem logiki
 
 - Czy API `GET /user/{id}` sprawdza właściciela zasobu?
 - Czy `POST /discount` wymaga odpowiednich uprawnień?
@@ -47,7 +47,7 @@ Stwórz diagram przepływu aplikacji i odpowiedz na pytania:
 
 ---
 
-### 4. 🧪 Testy sekwencji kroków (misuse cases)
+### 4.  Testy sekwencji kroków (misuse cases)
 
 Spróbuj wykonać akcje poza planowanym scenariuszem, np.:
 
@@ -57,7 +57,7 @@ Spróbuj wykonać akcje poza planowanym scenariuszem, np.:
 
 ---
 
-### 5. 🧠 Analiza dokumentacji i przypadków użycia
+### 5.  Analiza dokumentacji i przypadków użycia
 
 - Czy logika biznesowa została opisana?
 - Czy przewidziano wyjątki lub nadużycia (abuse cases)?
@@ -65,7 +65,7 @@ Spróbuj wykonać akcje poza planowanym scenariuszem, np.:
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Myśl jak atakujący: co możesz pominąć, powtórzyć, zmanipulować?
 - Testuj nieliniowo – zmieniaj kolejność i dane.

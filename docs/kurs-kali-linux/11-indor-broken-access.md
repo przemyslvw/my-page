@@ -1,17 +1,16 @@
 ---
 id: "idor-broken-access"
 title: "Insecure Direct Object References (IDOR) & Broken Access Control"
-sidebar_label: "🔐 Insecure Direct Object References (IDOR) & Broken Access Control"
 sidebar_position: 11
 ---
 
-# 🔐 Insecure Direct Object References (IDOR) & Broken Access Control
+# Insecure Direct Object References (IDOR) & Broken Access Control
 
 IDOR (Insecure Direct Object References) i Broken Access Control to jedne z najpoważniejszych podatności w aplikacjach webowych, umożliwiające nieautoryzowany dostęp do danych innych użytkowników poprzez manipulację parametrami.
 
 ---
 
-## 🎯 Ataki na IDOR i manipulacja parametrami
+##  Ataki na IDOR i manipulacja parametrami
 
 ### **1️⃣ Na czym polega IDOR?**
 IDOR występuje, gdy aplikacja udostępnia zasoby na podstawie identyfikatora (np. `user_id`), ale nie sprawdza, czy użytkownik ma do nich uprawnienia.
@@ -69,7 +68,7 @@ Sprawdza, które ID zwracają odpowiedzi.
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed IDOR?
+##  Jak zabezpieczyć aplikację przed IDOR?
 ✅ **Weryfikacja uprawnień użytkownika na serwerze** – nigdy nie ufaj parametrom z żądania.
 ✅ **Używanie UUID zamiast sekwencyjnych ID** – trudniejsze do odgadnięcia.
 ✅ **Ograniczenie dostępu do API na poziomie backendu** – kontrola autoryzacji.

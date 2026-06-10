@@ -4,13 +4,13 @@ title: "Broken Access Control: Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 3
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Sprawdzimy, **jakie błędy konfiguracyjne** aplikacji i środowiska uruchomieniowego mogą prowadzić do naruszeń kontroli dostępu. Często luki nie wynikają z błędów w kodzie, ale z **domyślnych, niezabezpieczonych ustawień**.
 
 ---
 
-## ⚙️ Co warto sprawdzić?
+##  Co warto sprawdzić?
 
 ### ✅ Backend / aplikacja
 
@@ -22,7 +22,7 @@ Sprawdzimy, **jakie błędy konfiguracyjne** aplikacji i środowiska uruchomieni
 
 ---
 
-### 🛡️ API i sesje
+###  API i sesje
 
 - [ ] Czy tokeny JWT są **sprawdzane i weryfikowane** w każdym żądaniu?
 - [ ] Czy dane użytkownika w sesji są **serwerowo walidowane**, a nie tylko na froncie?
@@ -31,7 +31,7 @@ Sprawdzimy, **jakie błędy konfiguracyjne** aplikacji i środowiska uruchomieni
 
 ---
 
-### 🌐 Konfiguracja serwera i reverse proxy
+###  Konfiguracja serwera i reverse proxy
 
 - [ ] Czy reverse proxy **nie pozwala na dostęp do endpointów administracyjnych**?
 - [ ] Czy nie ma wystawionych endpointów typu `/admin`, `/api-docs`, `/swagger`, `/actuator`?
@@ -39,7 +39,7 @@ Sprawdzimy, **jakie błędy konfiguracyjne** aplikacji i środowiska uruchomieni
 
 ---
 
-### 🧪 Diagnostyka: co powinieneś sprawdzić ręcznie
+###  Diagnostyka: co powinieneś sprawdzić ręcznie
 
 | Element | Jak testować? |
 |--------|----------------|
@@ -50,7 +50,7 @@ Sprawdzimy, **jakie błędy konfiguracyjne** aplikacji i środowiska uruchomieni
 
 ---
 
-## 📘 Przykład złej konfiguracji
+##  Przykład złej konfiguracji
 
 ```http
 POST /user/delete?id=123

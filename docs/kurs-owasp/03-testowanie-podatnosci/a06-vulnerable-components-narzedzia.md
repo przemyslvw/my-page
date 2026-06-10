@@ -39,7 +39,7 @@ Poniżej lista popularnych narzędzi (bezpłatnych i komercyjnych) do identyfika
 
 ---
 
-### 🌐 Usługi API i CI/CD
+###  Usługi API i CI/CD
 
 - GitHub Dependabot – automatyczne PR z aktualizacjami.
 - GitLab Dependency Scanning – skaner zależności w pipeline.

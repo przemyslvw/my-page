@@ -1,10 +1,10 @@
 ---
 id: "statyczne-techniki-testowania-pytania"
-title: "📘 Statyczne techniki testowania - Pytania egzaminacyjne"
+title: " Statyczne techniki testowania - Pytania egzaminacyjne"
 sidebar_position: 14
 ---
 
-# 📘 Statyczne techniki testowania - Pytania egzaminacyjne
+#  Statyczne techniki testowania - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

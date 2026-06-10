@@ -1,16 +1,16 @@
 ---
 id: "a08-integrity-failures-opis"
-title: "🧩 3.8.1 – Opis podatności i jej wpływ"
+title: " 3.8.1 – Opis podatności i jej wpływ"
 sidebar_position: 36
 ---
 
-## 🧩 A08:2025 – Software and Data Integrity Failures
+##  A08:2025 – Software and Data Integrity Failures
 
 Ta kategoria obejmuje błędy w ochronie **integralności kodu i danych** – szczególnie podczas aktualizacji oprogramowania, pobierania bibliotek lub uruchamiania dynamicznych komponentów.
 
 ---
 
-### 🧠 Na czym polega problem?
+###  Na czym polega problem?
 
 - Brak weryfikacji podpisów cyfrowych aktualizacji (np. aplikacje desktop, IoT).
 - Pobieranie skryptów/bibliotek z zewnętrznych źródeł bez kontroli wersji i hashy.
@@ -28,7 +28,7 @@ Ta kategoria obejmuje błędy w ochronie **integralności kodu i danych** – sz
 
 ---
 
-### 🎯 Skutki podatności
+###  Skutki podatności
 
 - Wstrzyknięcie złośliwego kodu.
 - Zdalne przejęcie systemu (np. RCE).
@@ -37,7 +37,7 @@ Ta kategoria obejmuje błędy w ochronie **integralności kodu i danych** – sz
 
 ---
 
-### 📊 Występowanie
+###  Występowanie
 
 - Często spotykane w systemach z automatycznymi aktualizacjami, CI/CD, oraz aplikacjach korzystających z bibliotek open source.
 - Szczególnie niebezpieczne w środowiskach DevOps, gdzie zmiany wchodzą automatycznie na produkcję.

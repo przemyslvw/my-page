@@ -1,10 +1,10 @@
 ---
 id: "rozdzial-5-zabezpieczenia"
-title: "🔒 Rozdział 5: Zabezpieczenia i optymalizacja"
+title: " Rozdział 5: Zabezpieczenia i optymalizacja"
 sidebar_position: 6
 ---
 
-### 🛡️ 5.1 Ustawienie hasła do panelu administracyjnego
+###  5.1 Ustawienie hasła do panelu administracyjnego
 
 Aby zabezpieczyć dostęp do panelu administracyjnego Pi-hole, ustaw silne hasło.
 
@@ -100,4 +100,4 @@ echo "0 3 * * * root pihole -g" | sudo tee -a /etc/crontab
 
 ---
 
-**➡️ Przejdź do [Rozdziału 6: Zaawansowane funkcje](./rozdzial-6-zaawansowane-funkcje.md), aby odkryć dodatkowe możliwości Pi-hole.** 📊
+**➡️ Przejdź do [Rozdziału 6: Zaawansowane funkcje](./rozdzial-6-zaawansowane-funkcje.md), aby odkryć dodatkowe możliwości Pi-hole.** 

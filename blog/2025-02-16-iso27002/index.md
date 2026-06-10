@@ -6,7 +6,7 @@ tags: [iso27002, bezpieczenstwo-informacji, standardy-miedzynarodowe, zarzadzani
 date: 2025-02-16
 ---
 
-# 🛡️ Opracowanie standardu ISO27002  
+#  Opracowanie standardu ISO27002  
 
 Z przyjemnością informujemy, że zakończyliśmy prace nad opracowaniem standardu **ISO/IEC 27002**!  
 Jest to kluczowy krok w kierunku podniesienia poziomu bezpieczeństwa informacji oraz zgodności z międzynarodowymi standardami.  

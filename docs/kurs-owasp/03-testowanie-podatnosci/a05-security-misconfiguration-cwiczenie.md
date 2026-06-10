@@ -4,7 +4,7 @@ title: "🛠️ 3.5.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 25
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Celem ćwiczenia jest:
 - wykrycie błędów konfiguracyjnych,
@@ -13,7 +13,7 @@ Celem ćwiczenia jest:
 
 ---
 
-## 🧪 Scenariusz testowy: Brak nagłówków bezpieczeństwa
+##  Scenariusz testowy: Brak nagłówków bezpieczeństwa
 
 ### Aplikacja:
 Publiczny serwis API hostowany na serwerze nginx.
@@ -73,7 +73,7 @@ https://dev.example.com
 
 ---
 
-## 🧠 Dodatkowe scenariusze
+##  Dodatkowe scenariusze
 
 - Sprawdź dostęp do katalogów (`/config`, `/logs`, `/backup`)
 - Zidentyfikuj niezabezpieczone usługi na porcie (Redis, Jenkins)
@@ -124,7 +124,7 @@ Content-Type: text/html
 
 ### ☑️ Propozycje poprawek
 
-#### 🔧 Konfiguracja serwera nginx
+####  Konfiguracja serwera nginx
 
 Dodano brakujące nagłówki w `nginx.conf`:
 
@@ -135,7 +135,7 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
 add_header Content-Security-Policy "default-src 'self'";
 ```
 
-#### 🔒 Ochrona środowiska dev
+####  Ochrona środowiska dev
 
 - Wymuszono uwierzytelnienie HTTP Basic Auth.
 - Dodano reguły dostępu tylko z sieci firmowej (VPN).

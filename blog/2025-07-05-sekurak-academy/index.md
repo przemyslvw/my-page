@@ -24,7 +24,7 @@ W drugim semestrze takie tematy jak:
 - OSINT i dezinformacja cyberwojenna
 - Kulisy bezpieczeństwa banku
 
-Nie mogę się doczekać kolejnych spotkań i jeszcze większej dawki cyberwiedzy! 💡
+Nie mogę się doczekać kolejnych spotkań i jeszcze większej dawki cyberwiedzy! 
 
 Będzie się działo!
 

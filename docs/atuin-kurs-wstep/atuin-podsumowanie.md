@@ -1,10 +1,10 @@
 ---
 id: "atuin-kurs-podsumowanie"
-title: "📖 Podsumowanie kursu"
+title: " Podsumowanie kursu"
 sidebar_position: 7
 ---
 
-# 📖 Podsumowanie kursu
+#  Podsumowanie kursu
 
 Gratulacje! 🎉 Ukończyłeś kurs **Atuin** i zdobyłeś umiejętności pozwalające na efektywne zarządzanie historią terminala, synchronizację danych między urządzeniami oraz personalizację środowiska pracy. 
 
@@ -37,7 +37,7 @@ W tym rozdziale podsumujemy kluczowe informacje oraz przedstawimy najlepsze prak
 
 ---
 
-## 💡 Najlepsze praktyki pracy z Atuin
+##  Najlepsze praktyki pracy z Atuin
 
 - **Bezpieczne przechowywanie kluczy API i haseł.**
 - **Regularna synchronizacja danych** między urządzeniami.
@@ -47,7 +47,7 @@ W tym rozdziale podsumujemy kluczowe informacje oraz przedstawimy najlepsze prak
 
 ---
 
-## 🧭 Co dalej?
+##  Co dalej?
 
 Chcesz jeszcze bardziej rozwinąć swoje umiejętności? Oto kilka propozycji:
 
@@ -57,11 +57,11 @@ Chcesz jeszcze bardziej rozwinąć swoje umiejętności? Oto kilka propozycji:
 
 ---
 
-## 📚 Przydatne linki
+##  Przydatne linki
 
-- 🌐 [Oficjalna dokumentacja Atuin](https://atuin.sh/docs)
-- 💾 [Repozytorium GitHub Atuin](https://github.com/ellie/atuin)
-- 💬 [Społeczność użytkowników Atuin](https://discord.gg/atuin)
+-  [Oficjalna dokumentacja Atuin](https://atuin.sh/docs)
+-  [Repozytorium GitHub Atuin](https://github.com/ellie/atuin)
+-  [Społeczność użytkowników Atuin](https://discord.gg/atuin)
 
 ---
 

@@ -15,7 +15,7 @@ Cyberprzestępcy i aktorzy państwowi powiązani z Chinami (Linen Typhoon, Vio
 
 Microsoft wydał pilne poprawki 19–20 lipca 2025 dla SharePoint Server Subscription Edition oraz 2019; patch dla wersji 2016 jest w drodze ([techradar.com](https://www.techradar.com/pro/security/microsoft-releases-urgent-sharepoint-security-flaw-patches-heres-what-you-need-to-know-and-how-to-update?utm_source=chatgpt.com)). CISA, FBI oraz inne agencje ostrzegają: nawet po patchu należy zakładać, że serwery mogły zostać skompromitowane — atakujący mogą mieć backdoory lub web shelle ([wsj.com](https://www.wsj.com/tech/cybersecurity/microsoft-alerts-firms-to-server-software-attack-99f9b036?utm_source=chatgpt.com)).
 
-#### 🔧 Co robić?  
+####  Co robić?  
 1. **Niezwłocznie zastosować poprawki** dla wersji 2019 / Subscription Edition, a gdy dostępny – również dla 2016 ([techradar.com](https://www.techradar.com/pro/security/microsoft-releases-urgent-sharepoint-security-flaw-patches-heres-what-you-need-to-know-and-how-to-update?utm_source=chatgpt.com)).  
 2. **Podać się założyć, że doszło do włamania** — rozpocząć poszukiwanie IOC: web shelle („spinstall0.aspx”), skradzione MachineKeys ([microsoft.com](https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities/?utm_source=chatgpt.com)).  
 3. **Wdrażać dodatkowe zabezpieczenia**: AMSI + Defender, rotację ASP.NET MachineKeys, monitorowanie aktywności, odłączenie serwerów od Internetu aż do patchowania ([msrc.microsoft.com](https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/?utm_source=chatgpt.com)).  

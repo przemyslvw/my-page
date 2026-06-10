@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Automatyzacja to jeden z najważniejszych elementów nowoczesnego podejścia do cyberbezpieczeństwa. Pozwala na zwiększenie efektywności, ograniczenie błędów ludzkich oraz szybsze reagowanie na zagrożenia. Coraz częściej jest nie tylko zalecana, ale wręcz wymagana w środowiskach zorientowanych na szybkość i skalowalność.
 
-## ⚙️ Dlaczego automatyzacja ma znaczenie?
+##  Dlaczego automatyzacja ma znaczenie?
 
 - Zmniejsza obciążenie ręcznymi, powtarzalnymi zadaniami
 - Przyspiesza detekcję, analizę i reakcję na incydenty
@@ -17,7 +17,7 @@ Automatyzacja to jeden z najważniejszych elementów nowoczesnego podejścia do 
 
 ## 🧰 Obszary automatyzacji w bezpieczeństwie
 
-### 🔄 CI/CD – bezpieczeństwo jako kod
+###  CI/CD – bezpieczeństwo jako kod
 
 - Automatyczne uruchamianie skanów podatności przy każdym commicie lub merge'u
 - Integracja z narzędziami SAST (np. SonarQube), DAST (np. OWASP ZAP), SCA (np. Dependency-Check)
@@ -31,20 +31,20 @@ Automatyzacja to jeden z najważniejszych elementów nowoczesnego podejścia do 
 - Powiadamianie odpowiednich zespołów przez Slack, Teams, e-mail lub integrację z ticketingiem (np. Jira, ServiceNow)
 - Redukcja liczby false positives przez logikę korelacyjną
 
-### 🛡️ Reakcja na incydenty (SOAR)
+###  Reakcja na incydenty (SOAR)
 
 - Tworzenie i uruchamianie playbooków do automatycznego blokowania adresów IP, usuwania kont, wyłączania maszyn
 - Integracja z EDR/XDR do natychmiastowej izolacji stacji
 - Automatyczne pobieranie i archiwizacja artefaktów do dalszej analizy
 - Raportowanie incydentu do SIEM, ticketingu oraz zespołów zgodności (compliance)
 
-### 🧱 Zarządzanie konfiguracją i środowiskiem
+###  Zarządzanie konfiguracją i środowiskiem
 
 - Infrastructure as Code (IaC): Ansible, Terraform, Puppet – konfigurowanie środowisk z wbudowanymi kontrolami bezpieczeństwa
 - Audyt i zgodność konfiguracji z benchmarkami (np. CIS Benchmarks, NIST)
 - Automatyczne rollbacki lub enforcement ustawień zabezpieczeń przy zmianach
 
-## 🔧 Narzędzia wspierające automatyzację
+##  Narzędzia wspierające automatyzację
 
 - **SIEM + SOAR**: Splunk Phantom, Cortex XSOAR, IBM Resilient
 - **Skrypty i API**: Python (np. PySiem, requests), Bash, PowerShell, Postman CLI

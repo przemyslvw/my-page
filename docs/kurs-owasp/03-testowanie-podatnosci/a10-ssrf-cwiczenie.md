@@ -4,9 +4,9 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 50
 ---
 
-# 🧪 Praktyczne ćwiczenie: Testowanie i mitigacja – Server-Side Request Forgery (SSRF) (A10:2025)
+#  Praktyczne ćwiczenie: Testowanie i mitigacja – Server-Side Request Forgery (SSRF) (A10:2025)
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Celem ćwiczenia jest zidentyfikowanie i wykorzystanie podatności typu SSRF w aplikacji webowej, a następnie wdrożenie skutecznych mechanizmów mitigacji w kodzie i konfiguracji serwera.
 
@@ -21,7 +21,7 @@ Celem ćwiczenia jest zidentyfikowanie i wykorzystanie podatności typu SSRF w a
 
 ---
 
-## 🔍 Krok po kroku: testowanie SSRF
+##  Krok po kroku: testowanie SSRF
 
 ### 1. Wstępna analiza
 - Przetestuj endpoint `/fetch?url=` z adresami:
@@ -68,7 +68,7 @@ Celem ćwiczenia jest zidentyfikowanie i wykorzystanie podatności typu SSRF w a
 
 ---
 
-## 🔐 Wnioski
+##  Wnioski
 
 Po wykonaniu ćwiczenia uczestnik będzie potrafił:
 
@@ -77,15 +77,15 @@ Po wykonaniu ćwiczenia uczestnik będzie potrafił:
 - wdrożyć skuteczne zabezpieczenia na poziomie kodu i infrastruktury.
 
 
-# 🧪 Dodatkowe ćwiczenie: Wykrywanie SSRF w środowisku testowym
+#  Dodatkowe ćwiczenie: Wykrywanie SSRF w środowisku testowym
 
-## 🎯 Cel
+##  Cel
 
 Zidentyfikować i potwierdzić istnienie podatności SSRF w środowisku testowym z wykorzystaniem dedykowanego narzędzia (np. SSRFmap) oraz usługi rejestrującej żądania (np. Interactsh).
 
 ---
 
-## 🧪 Scenariusz
+##  Scenariusz
 
 ### Środowisko testowe:
 - Aplikacja PHP udostępnia funkcję `/proxy.php?url=`.
@@ -93,7 +93,7 @@ Zidentyfikować i potwierdzić istnienie podatności SSRF w środowisku testowym
 
 ---
 
-## 🔍 Krok po kroku
+##  Krok po kroku
 
 ### 1. Uruchom serwer rejestrujący (Interactsh)
 - Wejdź na https://github.com/projectdiscovery/interactsh lub skorzystaj z darmowego endpointu Interactsh.
@@ -136,7 +136,7 @@ Zidentyfikować i potwierdzić istnienie podatności SSRF w środowisku testowym
 
 ---
 
-## 🛡️ Rekomendacja końcowa
+##  Rekomendacja końcowa
 
 Po potwierdzeniu podatności należy:
 

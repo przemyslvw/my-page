@@ -4,7 +4,7 @@ title: "Struktura kursu i oczekiwane rezultaty"
 sidebar_position: 3
 ---
 
-## 🧭 Struktura kursu
+##  Struktura kursu
 
 Ten kurs został zaprojektowany tak, aby **krok po kroku przeprowadzić Cię przez proces testowania bezpieczeństwa aplikacji webowej**, zgodnie z OWASP Top 10 2025.
 
@@ -34,11 +34,11 @@ Ten kurs został zaprojektowany tak, aby **krok po kroku przeprowadzić Cię prz
 
 Każdy rozdział zawiera:
 
-- 🎯 **Opis zagrożenia** – co to jest i jakie ma skutki.
-- 🔍 **Metody testowania** – jak rozpoznać, że dana podatność występuje.
-- ⚙️ **Weryfikację konfiguracji** – na poziomie serwera, frameworka, aplikacji.
-- 🧪 **Przykłady narzędzi** – zarówno darmowych (np. OWASP ZAP), jak i komercyjnych (np. Burp Suite Pro).
-- 🛡️ **Ćwiczenie praktyczne** – testowanie na rzeczywistej (lub ćwiczebnej) aplikacji.
+-  **Opis zagrożenia** – co to jest i jakie ma skutki.
+-  **Metody testowania** – jak rozpoznać, że dana podatność występuje.
+-  **Weryfikację konfiguracji** – na poziomie serwera, frameworka, aplikacji.
+-  **Przykłady narzędzi** – zarówno darmowych (np. OWASP ZAP), jak i komercyjnych (np. Burp Suite Pro).
+-  **Ćwiczenie praktyczne** – testowanie na rzeczywistej (lub ćwiczebnej) aplikacji.
 
 ---
 

@@ -1,13 +1,12 @@
 ---
 id: "wstep-do-kursu"
 title: "Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych"
-sidebar_label: "📖 Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych"
 sidebar_position: 1
 ---
 
-# 📖 Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych
+# Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych
 
-## 🎯 Cele kursu i czego się nauczysz
+##  Cele kursu i czego się nauczysz
 Ten kurs jest praktycznym przewodnikiem po testach penetracyjnych aplikacji webowych z wykorzystaniem Kali Linux. Po ukończeniu kursu:
 
 - Opanujesz Kali Linux i kluczowe narzędzia pentesterskie.

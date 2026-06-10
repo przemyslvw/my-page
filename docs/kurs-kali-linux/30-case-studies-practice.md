@@ -1,17 +1,16 @@
 ---
 id: "case-studies-practice"
 title: "Case Studies i ćwiczenia praktyczne"
-sidebar_label: "🛠️ Case Studies i ćwiczenia praktyczne"
 sidebar_position: 30
 ---
 
-# 🛠️ Case Studies i ćwiczenia praktyczne
+# Case Studies i ćwiczenia praktyczne
 
 Testowanie aplikacji w kontrolowanym środowisku to najlepszy sposób na naukę testów penetracyjnych. W tej sekcji omówimy platformy do ćwiczeń, laby pentesterskie oraz przykłady rzeczywistych scenariuszy ataków.
 
 ---
 
-## 🎯 Platformy do ćwiczeń i laby pentesterskie
+##  Platformy do ćwiczeń i laby pentesterskie
 
 ### **1️⃣ Hack The Box (HTB)**
 Hack The Box to jedna z najpopularniejszych platform dla pentesterów. Oferuje realistyczne maszyny w różnych kategoriach:
@@ -95,7 +94,7 @@ chmod +x linpeas.sh
 
 ---
 
-## 🛡️ Jak maksymalnie wykorzystać platformy pentesterskie?
+##  Jak maksymalnie wykorzystać platformy pentesterskie?
 ✅ **Dokumentuj każdy test** – zapisuj użyte narzędzia i payloady.
 ✅ **Analizuj logi i odpowiedzi serwera** – ucz się na błędach.
 ✅ **Próbuj różnych metod ataku** – nie ograniczaj się do jednego narzędzia.

@@ -1,6 +1,6 @@
 ---
 id: "rozdzial-7-rozwiazywanie-problemow"
-title: "🧑‍💻 Rozdział 7: Rozwiązywanie problemów"
+title: " Rozdział 7: Rozwiązywanie problemów"
 sidebar_position: 8
 ---
 
@@ -48,7 +48,7 @@ sudo ufw allow 80/tcp
 
 ---
 
-### 📋 7.2 Analiza logów i identyfikacja błędów
+###  7.2 Analiza logów i identyfikacja błędów
 
 1. **Bieżące logi zapytań DNS:**
 ``````bash
@@ -67,7 +67,7 @@ pihole -c
 
 ---
 
-### 🔄 7.3 Pi-hole nie działa jako DNS – co zrobić?
+###  7.3 Pi-hole nie działa jako DNS – co zrobić?
 
 1. Sprawdź, czy serwis **FTL** działa:
 ``````bash
@@ -115,4 +115,4 @@ pihole -g
 
 ---
 
-**➡️ Przejdź do [Rozdziału 8: Scenariusze zastosowania](./rozdzial-8-scenariusze-zastosowania.md), aby poznać różne sposoby wykorzystania Pi-hole.** 💡
+**➡️ Przejdź do [Rozdziału 8: Scenariusze zastosowania](./rozdzial-8-scenariusze-zastosowania.md), aby poznać różne sposoby wykorzystania Pi-hole.** 

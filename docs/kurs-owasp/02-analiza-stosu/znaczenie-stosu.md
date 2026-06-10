@@ -4,7 +4,7 @@ title: "Znaczenie stosu technologicznego dla bezpieczeństwa"
 sidebar_position: 3
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Zrozumienie, jak **wybór technologii frontendowych i backendowych** wpływa na bezpieczeństwo aplikacji. Każdy komponent stacku niesie za sobą potencjalne ryzyka, znane podatności i specyficzne mechanizmy ataku.
 
@@ -23,7 +23,7 @@ Zrozumienie, jak **wybór technologii frontendowych i backendowych** wpływa na 
 
 ---
 
-## 🧱 Typowe profile ryzyka – przykłady
+##  Typowe profile ryzyka – przykłady
 
 | Technologia | Potencjalne zagrożenia |
 |-------------|-------------------------|
@@ -35,7 +35,7 @@ Zrozumienie, jak **wybór technologii frontendowych i backendowych** wpływa na 
 
 ---
 
-## 🧠 Stack vs typy ataków
+##  Stack vs typy ataków
 
 | Typ ataku | Gdzie występuje najczęściej |
 |-----------|------------------------------|

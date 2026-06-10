@@ -11,10 +11,10 @@ Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu
 
 <!-- truncate -->
 
-## ⚡ Główne Cele Systemów REB
+##  Główne Cele Systemów REB
 - 📶 **Zakłócanie komunikacji** (GSM, LTE, satelity).
-- 🎯 **Zakłócanie systemów nawigacyjnych** (GPS, GLONASS, Galileo).
-- 📡 **Dezaktywacja systemów radarowych**.
+-  **Zakłócanie systemów nawigacyjnych** (GPS, GLONASS, Galileo).
+-  **Dezaktywacja systemów radarowych**.
 - 🛰️ **Przechwytywanie sygnałów wywiadowczych**.
 - 🚁 **Neutralizacja dronów** poprzez zakłócanie sygnałów sterujących.
 
@@ -70,7 +70,7 @@ Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu
 
 ---
 
-## 🌍 Inne Systemy REB
+##  Inne Systemy REB
 
 ### 🇹🇷 **KORAL** *(Turcja)*
 - Mobilny system zakłóceń przeznaczony do zakłócania radarów wroga.
@@ -88,12 +88,12 @@ Systemy Walki Radioelektronicznej (REB) to zestaw technologii stosowanych w celu
 
 ## ⚔️ Wyzwania i Przyszłość Systemów REB
 
-- 🧠 **Integracja AI** do automatycznego wykrywania i zakłócania sygnałów.
-- 🌐 **Zwiększona odporność na zakłócenia** dla dronów i systemów satelitarnych.
+-  **Integracja AI** do automatycznego wykrywania i zakłócania sygnałów.
+-  **Zwiększona odporność na zakłócenia** dla dronów i systemów satelitarnych.
 - 💥 **Rozwój technologii EMP** (impulsów elektromagnetycznych) zdolnych do dezaktywacji urządzeń elektronicznych przeciwnika.
 
 ---
 
-## 📖 Podsumowanie
+##  Podsumowanie
 Systemy Walki Radioelektronicznej odgrywają kluczową rolę na współczesnym polu walki, umożliwiając zakłócanie systemów przeciwnika bez konieczności stosowania tradycyjnej siły ognia. Ich rozwój stanowi istotny element strategii wojskowych na całym świecie.
 """

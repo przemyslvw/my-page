@@ -4,13 +4,13 @@ title: "Praktyczne ćwiczenie: Tworzenie finalnego raportu"
 sidebar_position: 5
 ---
 
-## 🧪 Praktyczne ćwiczenie: Tworzenie finalnego raportu
+##  Praktyczne ćwiczenie: Tworzenie finalnego raportu
 
 Celem tego ćwiczenia jest przejście przez cały proces tworzenia **kompletnego raportu bezpieczeństwa** aplikacji webowej zgodnego z OWASP Top 10 2025.
 
 ---
 
-### 🎯 Cel ćwiczenia
+###  Cel ćwiczenia
 
 Na podstawie wcześniej przeprowadzonych testów, uczestnik:
 
@@ -29,7 +29,7 @@ Na podstawie wcześniej przeprowadzonych testów, uczestnik:
 
 ---
 
-### 📋 Etapy ćwiczenia
+###  Etapy ćwiczenia
 
 #### 1. Przygotowanie danych wejściowych
 
@@ -59,7 +59,7 @@ Uzupełnij sekcje raportu:
 
 ---
 
-### 🧾 Efekt końcowy
+###  Efekt końcowy
 
 Uczestnik powinien posiadać **kompletny, profesjonalny raport bezpieczeństwa** aplikacji webowej, gotowy do przekazania zespołowi dev/secops lub zarządowi.
 
@@ -67,13 +67,13 @@ Raport ten będzie stanowił punkt wyjścia do poprawy bezpieczeństwa systemu o
 
 ---
 
-### 📁 Przykład
+###  Przykład
 
 > W repozytorium kursu znajdziesz przykładowy raport w formacie `.md` oraz `.pdf`, opracowany na podstawie testu aplikacji demonstracyjnej.
 
 ---
 
-# 🛡️ Raport bezpieczeństwa aplikacji webowej  
+#  Raport bezpieczeństwa aplikacji webowej  
 **Zgodny z OWASP Top 10 – 2025**
 
 ---
@@ -92,7 +92,7 @@ Raport ten będzie stanowił punkt wyjścia do poprawy bezpieczeństwa systemu o
 
 ---
 
-## 📊 2. Podsumowanie testów
+##  2. Podsumowanie testów
 
 | Metryka | Wartość |
 |--------|---------|
@@ -110,7 +110,7 @@ Raport ten będzie stanowił punkt wyjścia do poprawy bezpieczeństwa systemu o
 
 ---
 
-## 🔍 3. Szczegółowa analiza podatności
+##  3. Szczegółowa analiza podatności
 
 ### 🟥 A01:2025 – Broken Access Control
 
@@ -139,7 +139,7 @@ Raport ten będzie stanowił punkt wyjścia do poprawy bezpieczeństwa systemu o
 
 ---
 
-## ⚙️ 4. Weryfikacja konfiguracji
+##  4. Weryfikacja konfiguracji
 
 | Obszar | Wynik | Opis |
 |-------|------|------|

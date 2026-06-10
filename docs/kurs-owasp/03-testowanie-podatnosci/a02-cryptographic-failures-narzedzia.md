@@ -4,7 +4,7 @@ title: "🧰 3.2.4 – Narzędzia do testowania: Cryptographic Failures"
 sidebar_position: 9
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Poznać narzędzia (płatne i bezpłatne), które umożliwiają wykrywanie błędów związanych z **Cryptographic Failures** – w konfiguracji serwera, API, aplikacji frontendowej i backendowej.
 
@@ -23,7 +23,7 @@ Poznać narzędzia (płatne i bezpłatne), które umożliwiają wykrywanie błę
 
 ---
 
-### 🔍 2. [SSL Labs Server Test](https://www.ssllabs.com/ssltest/)
+###  2. [SSL Labs Server Test](https://www.ssllabs.com/ssltest/)
 
 - Analiza HTTPS, certyfikatów i bezpieczeństwa TLS.
 - Wystawia ocenę A+...F.
@@ -41,20 +41,20 @@ trufflehog github --repo=https://github.com/example/repo.git
 
 ---
 
-### 📜 4. [Gitleaks](https://github.com/gitleaks/gitleaks)
+###  4. [Gitleaks](https://github.com/gitleaks/gitleaks)
 
 - Lekkie narzędzie do skanowania repozytoriów pod kątem ujawnionych sekretów.
 
 ---
 
-### 🧾 5. [jwt.io](https://jwt.io)
+###  5. [jwt.io](https://jwt.io)
 
 - Narzędzie online do dekodowania i weryfikacji tokenów JWT.
 - Pomocne w analizie algorytmu i podpisu JWT.
 
 ---
 
-### 🧪 6. `openssl`
+###  6. `openssl`
 
 - Analiza połączeń TLS/SSL i certyfikatów:
 
@@ -66,7 +66,7 @@ openssl s_client -connect example.com:443
 
 ## 💼 Płatne narzędzia
 
-### 🧪 1. Burp Suite Professional
+###  1. Burp Suite Professional
 
 - Moduły do testowania JWT, ciasteczek, HTTPS.
 - Wtyczki typu **JWT Editor**, **Autorize**, **CryptoTester**.
@@ -74,21 +74,21 @@ openssl s_client -connect example.com:443
 
 ---
 
-### 📊 2. Qualys SSL Labs API (Enterprise)
+###  2. Qualys SSL Labs API (Enterprise)
 
 - Automatyzacja testów TLS/SSL dla wielu domen.
 - Integracja z pipeline CI/CD.
 
 ---
 
-### 🔐 3. Detectify / Intruder.io
+###  3. Detectify / Intruder.io
 
 - Testy TLS, JWT, headerów bezpieczeństwa.
 - Sprawdzenie implementacji CSP, HSTS, certyfikatów, ciasteczek `Secure`/`HttpOnly`.
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Łącz testy automatyczne (CI/CD) z analizą manualną.
 - Testuj zarówno **serwer**, **frontend** (JS/tokeny), jak i **API backendowe**.

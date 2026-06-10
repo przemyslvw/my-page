@@ -1,10 +1,10 @@
 ---
 id: "techniki-projektowania-testow-pytania"
-title: "📘 Techniki projektowania testów - Pytania egzaminacyjne"
+title: " Techniki projektowania testów - Pytania egzaminacyjne"
 sidebar_position: 15
 ---
 
-# 📘 Techniki projektowania testów - Pytania egzaminacyjne
+#  Techniki projektowania testów - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

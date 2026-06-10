@@ -10,7 +10,7 @@ Testowanie SSRF polega na identyfikacji punktów w aplikacji, które umożliwiaj
 
 ---
 
-## 🔧 Narzędzia bezpłatne
+##  Narzędzia bezpłatne
 
 | Narzędzie | Opis |
 |----------|------|
@@ -34,7 +34,7 @@ Testowanie SSRF polega na identyfikacji punktów w aplikacji, które umożliwiaj
 
 ---
 
-## 🧩 Infrastruktura do testów
+##  Infrastruktura do testów
 
 | Narzędzie / Serwis | Opis |
 |--------------------|------|

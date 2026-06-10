@@ -1,13 +1,12 @@
 ---
 id: "podstawowe-narzedzia-kali"
 title: "Podstawowe narzędzia w Kali Linux"
-sidebar_label: "🛠️ Podstawowe narzędzia w Kali Linux"
 sidebar_position: 3
 ---
 
-# 🛠️ Podstawowe narzędzia w Kali Linux
+# Podstawowe narzędzia w Kali Linux
 
-## 💻 Terminal i zarządzanie systemem
+##  Terminal i zarządzanie systemem
 Kali Linux to system oparty na Debianie, w którym terminal jest kluczowym narzędziem do zarządzania systemem i przeprowadzania testów penetracyjnych. Oto podstawowe komendy:
 
 ### **1️⃣ Nawigacja w systemie plików**
@@ -38,7 +37,7 @@ Kali Linux to system oparty na Debianie, w którym terminal jest kluczowym narz�
 
 ---
 
-## 🖥️ Praca z Bash i podstawowe skrypty
+##  Praca z Bash i podstawowe skrypty
 Bash (Bourne Again Shell) to domyślna powłoka w Kali Linux. Warto znać podstawy skryptowania, aby automatyzować zadania pentesterskie.
 
 ### **1️⃣ Tworzenie i uruchamianie skryptów Bash**
@@ -87,7 +86,7 @@ nmap -sn $subnet
 
 ---
 
-## 📂 Struktura katalogów w Kali Linux
+##  Struktura katalogów w Kali Linux
 Warto znać podstawowe katalogi w Kali Linux:
 
 | Katalog      | Opis |
@@ -186,7 +185,7 @@ Netcat jako listener jest punktem startowym dla każdego reverse shella — payl
 
 ---
 
-## 🌐 curl – testowanie żądań HTTP
+##  curl – testowanie żądań HTTP
 
 curl pozwala ręcznie wysyłać żądania HTTP z terminala — niezbędne do testowania API, nagłówków i parametrów bez przeglądarki.
 

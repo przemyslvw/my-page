@@ -1,6 +1,6 @@
 ---
 slug: security-engineer-przewodnik-2025
-title: "🛡️ Kompletny przewodnik po roli Security Engineera – od narzędzi po przyszłość branży"
+title: " Kompletny przewodnik po roli Security Engineera – od narzędzi po przyszłość branży"
 authors: [przemyslvw]
 tags: ["cybersecurity", "securityengineer", "przewodnik", "ataki", "certyfikaty", "iso27001", "aiact"]
 date: 2025-06-09
@@ -12,7 +12,7 @@ Stworzyliśmy **kompletny przewodnik**, który krok po kroku pokazuje wszystkie 
 
 <!-- truncate -->
 
-## 📚 Co znajdziesz w przewodniku?
+##  Co znajdziesz w przewodniku?
 
 - Czym zajmuje się Security Engineer na co dzień
 - Jak wygląda analiza logów, testy penetracyjne i zarządzanie incydentami
@@ -23,7 +23,7 @@ Stworzyliśmy **kompletny przewodnik**, który krok po kroku pokazuje wszystkie 
 - Checklisty i gotowe scenariusze do codziennej pracy
 - Trendy i wyzwania stojące przed branżą w nadchodzących latach
 
-## 🎯 Dla kogo?
+##  Dla kogo?
 
 - Dla początkujących – jako punkt startu
 - Dla zaawansowanych – jako uporządkowany kompendium

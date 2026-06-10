@@ -10,7 +10,7 @@ Poniżej znajduje się lista narzędzi – darmowych i komercyjnych – pomocnyc
 
 ---
 
-### 🧪 Narzędzia darmowe (open source)
+###  Narzędzia darmowe (open source)
 
 | Narzędzie | Opis |
 |----------|------|

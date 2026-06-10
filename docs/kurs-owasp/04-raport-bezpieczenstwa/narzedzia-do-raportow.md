@@ -20,7 +20,7 @@ Poniżej zestawienie polecanych narzędzi – zarówno bezpłatnych, jak i komer
 - **Zalety**: Lekkość, wersjonowanie w Git, integracja z CI/CD.
 - **Przydatne w kursie**: Możliwość generowania statycznych raportów zgodnych z OWASP Top 10.
 
-#### 📊 **OWASP DefectDojo**
+####  **OWASP DefectDojo**
 
 - **Opis**: Platforma do zarządzania podatnościami z funkcją raportowania.
 - **Funkcje**: Import z Burp, ZAP, Nessus; eksport PDF/JSON; integracje z JIRA.
@@ -41,12 +41,12 @@ Poniżej zestawienie polecanych narzędzi – zarówno bezpłatnych, jak i komer
 
 ### 💼 Narzędzia komercyjne
 
-#### 💡 **Burp Suite Professional**
+####  **Burp Suite Professional**
 
 - **Funkcje**: Generowanie półautomatycznych raportów HTML i PDF.
 - **Zalety**: Segmentacja podatności wg OWASP, możliwość eksportu dowodów.
 
-#### 🧠 **Nessus Professional**
+####  **Nessus Professional**
 
 - **Opis**: Skaner z wbudowanymi szablonami raportów.
 - **Formaty wyjściowe**: PDF, HTML, CSV.
@@ -64,7 +64,7 @@ Poniżej zestawienie polecanych narzędzi – zarówno bezpłatnych, jak i komer
 
 ---
 
-### 🔄 Integracja z CI/CD i Git
+###  Integracja z CI/CD i Git
 
 Raporty mogą być automatycznie generowane po zakończeniu testów z wykorzystaniem:
 

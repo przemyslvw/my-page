@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Porównanie popularnych certyfikatów z zakresu cyberbezpieczeństwa może pomóc w wyborze odpowiedniej ścieżki – dopasowanej do celów zawodowych, poziomu zaawansowania i dostępnych środków. Poniżej znajduje się zestawienie wybranych certyfikatów według kilku kluczowych kryteriów.
 
-## 🧾 Tabela porównawcza certyfikatów
+##  Tabela porównawcza certyfikatów
 
 | Certyfikat     | Poziom     | Zakres                           | Typ egzaminu       | Czas trwania       | Koszt (USD) | Praktyczny |
 |----------------|------------|----------------------------------|--------------------|--------------------|-------------|------------|
@@ -28,7 +28,7 @@ Porównanie popularnych certyfikatów z zakresu cyberbezpieczeństwa może pomó
 - **Koszt** – przybliżony koszt samego egzaminu (bez szkolenia)
 - **Praktyczny** – czy wymaga praktycznego rozwiązania zadań, nie tylko teorii
 
-## 🔍 Wnioski
+##  Wnioski
 
 - Jeśli celujesz w **ofensywę (Red Team)** – wybierz OSCP lub PNPT
 - Jeśli chcesz wejść do świata bezpieczeństwa – zacznij od **Security+** lub **eJPT**

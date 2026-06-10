@@ -1,17 +1,16 @@
 ---
 id: "client-side-attacks"
 title: "Ataki po stronie klienta (CORS, Clickjacking, Prototype Pollution, postMessage)"
-sidebar_label: "🖱️ Ataki po stronie klienta (CORS, Clickjacking, Prototype Pollution, postMessage)"
 sidebar_position: 20
 ---
 
-# 🖱️ Ataki po stronie klienta (Client-Side)
+# Ataki po stronie klienta (Client-Side)
 
 Poza XSS istnieje cała rodzina podatności działających w przeglądarce ofiary. Wynikają z błędnej konfiguracji mechanizmów bezpieczeństwa przeglądarki lub z niebezpiecznego kodu JavaScript po stronie klienta. Mogą prowadzić do kradzieży danych, przejęcia akcji użytkownika, a nawet do XSS i RCE w aplikacjach Node.
 
 ---
 
-## 🌐 CORS Misconfiguration
+##  CORS Misconfiguration
 
 CORS (Cross-Origin Resource Sharing) kontroluje, które domeny mogą odczytywać odpowiedzi z innego pochodzenia. Błędna konfiguracja pozwala obcej domenie czytać wrażliwe dane.
 
@@ -114,7 +113,7 @@ iframe.contentWindow.postMessage('<img src=x onerror=alert(document.domain)>', '
 
 ---
 
-## 🔐 Jak zabezpieczyć warstwę kliencką?
+##  Jak zabezpieczyć warstwę kliencką?
 ✅ **CORS** – allowlist konkretnych originów, nigdy odbicie dowolnego Origin z `Allow-Credentials: true`.
 ✅ **Clickjacking** – `CSP: frame-ancestors 'none'` (lub allowlist) oraz `X-Frame-Options`.
 ✅ **Prototype Pollution** – używaj `Map` zamiast obiektów na dane użytkownika, blokuj klucze `__proto__`/`constructor`, `Object.freeze(Object.prototype)`.

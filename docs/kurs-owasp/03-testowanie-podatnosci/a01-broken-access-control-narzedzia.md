@@ -4,7 +4,7 @@ title: "Narzędzia do testowania"
 sidebar_position: 4
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i testowaniu podatności z kategorii **Broken Access Control**, zarówno w aplikacjach webowych, jak i API.
 
@@ -44,7 +44,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 🔁 Automatyzacja testów
+##  Automatyzacja testów
 
 - **Wappalyzer API** – rozpoznanie stacku aplikacji przed testem.
 - **ZAP CLI + zaproxy** – automatyczne testy endpointów REST.
@@ -53,7 +53,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 📘 Przykład: test z użyciem Autorize (Burp Plugin)
+##  Przykład: test z użyciem Autorize (Burp Plugin)
 
 1. Zaloguj się jako użytkownik zwykły.
 2. Skonfiguruj **token admina** w Autorize jako alternatywną sesję.
@@ -62,7 +62,7 @@ Poznasz narzędzia – darmowe i płatne – które pomogą Ci w wykrywaniu i te
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Testy Broken Access Control **nie kończą się na jednym skanerze** – wymagają korelacji zachowań aplikacji.
 - Używaj **kombinacji narzędzi GUI i CLI** – ułatwia to dokładne porównania i automatyzację.

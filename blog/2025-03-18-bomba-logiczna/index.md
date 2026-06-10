@@ -12,7 +12,7 @@ Bomba logiczna to **złośliwy fragment kodu**, który jest ukryty w oprogramowa
 
 <!-- truncate -->
 
-## 🎯 Jak działa bomba logiczna?  
+##  Jak działa bomba logiczna?  
 Bomba logiczna pozostaje **uśpiona**, dopóki nie zostaną spełnione konkretne warunki, np.:
 
 ✔️ Upływ określonego czasu (np. konkretna data – tzw. "time bomb")  
@@ -28,7 +28,7 @@ Po spełnieniu warunku kod złośliwy **uruchamia się**, powodując destrukcyjn
 🔹 **Bomba w korporacji (2008)** – Inżynier IT przygotował złośliwy kod, który miał dezaktywować serwery, jeśli jego login zostanie usunięty.  
 🔹 **Time bomb w oprogramowaniu licencyjnym** – Niektóre programy wyłączają się po upływie czasu testowego – to legalne wykorzystanie tego mechanizmu.
 
-## 🛡️ Jak zabezpieczyć się przed bombą logiczną?  
+##  Jak zabezpieczyć się przed bombą logiczną?  
 Aby skutecznie chronić systemy IT przed bombą logiczną, należy wdrożyć **wielopoziomowe zabezpieczenia**:
 
 🔹 **Monitorowanie zmian w kodzie źródłowym i skryptach** – szczególnie w systemach o wysokim poziomie automatyzacji.  

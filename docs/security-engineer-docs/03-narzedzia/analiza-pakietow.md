@@ -19,7 +19,7 @@ Analiza pakietów sieciowych to technika pozwalająca na dogłębne zrozumienie 
 - **tshark** – wersja CLI Wiresharka do automatyzacji i skryptów  
 - **Netcat, socat** – ręczne tworzenie/odbieranie pakietów
 
-## 🧠 Zastosowania w cyberbezpieczeństwie
+##  Zastosowania w cyberbezpieczeństwie
 
 - Diagnostyka ataków typu DDoS, spoofing, ARP poisoning  
 - Weryfikacja działania reguł zapory, ruchu proxy, komunikacji tunelowanej  

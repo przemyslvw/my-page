@@ -1,11 +1,10 @@
 ---
 id: "injection-attacks"
 title: "Injection Attacks (SQL Injection, Command Injection, LDAP Injection)"
-sidebar_label: "💉 Injection Attacks (SQL Injection, Command Injection, LDAP Injection)"
 sidebar_position: 8
 ---
 
-# 💉 Injection Attacks (SQL Injection, Command Injection, LDAP Injection)
+# Injection Attacks (SQL Injection, Command Injection, LDAP Injection)
 
 Ataki typu Injection polegają na wstrzyknięciu złośliwego kodu do aplikacji webowej w celu manipulacji danymi lub wykonania nieautoryzowanych poleceń. W tej sekcji omówimy najczęściej spotykane rodzaje ataków: **SQL Injection, Command Injection oraz LDAP Injection**.
 
@@ -174,7 +173,7 @@ sqlmap -u "http://example.com/index.php?id=1" --technique=T
 
 ---
 
-## 🖥️ Command Injection
+##  Command Injection
 Command Injection pozwala na wykonanie poleceń systemowych poprzez podatną aplikację.
 
 ### **1️⃣ Wykrywanie podatności**
@@ -192,7 +191,7 @@ Przykładowe wykorzystanie:
 
 ---
 
-## 📂 LDAP Injection
+##  LDAP Injection
 LDAP Injection jest atakiem na systemy uwierzytelniania oparte na LDAP.
 
 ### **1️⃣ Przykład podatnego zapytania**
@@ -210,4 +209,4 @@ admin)(&))(
 
 ---
 
-Ataki Injection są jednymi z najczęściej wykorzystywanych podatności w aplikacjach webowych. Kolejnym krokiem będzie analiza podatności związanych z **Broken Authentication & Session Management**. 🔐
+Ataki Injection są jednymi z najczęściej wykorzystywanych podatności w aplikacjach webowych. Kolejnym krokiem będzie analiza podatności związanych z **Broken Authentication & Session Management**. 

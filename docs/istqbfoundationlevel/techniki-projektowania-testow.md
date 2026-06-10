@@ -1,6 +1,6 @@
 ---
 id: "techniki-projektowania-testow"
-title: "📘 Techniki projektowania testów"
+title: " Techniki projektowania testów"
 sidebar_position: 8
 ---
 

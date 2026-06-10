@@ -10,7 +10,7 @@ Podatność typu **Software and Data Integrity Failures** polega na braku mechan
 
 ---
 
-## 🔍 Kategorie narzędzi
+##  Kategorie narzędzi
 
 ### 1. **Skanery podatności zależności**
 
@@ -53,7 +53,7 @@ Podatność typu **Software and Data Integrity Failures** polega na braku mechan
 
 ---
 
-## 🧩 Wskazówki praktyczne
+##  Wskazówki praktyczne
 
 - Regularnie aktualizuj zależności przy użyciu `npm audit fix` lub `snyk wizard`.
 - Wymuszaj podpisy GPG w systemach kontroli wersji.

@@ -8,13 +8,13 @@ date: 2024-07-12
 
 ## Kurs ISTQB Poziomu Podstawowego
 
-### 🎯 Cel kursu
+###  Cel kursu
 
 Celem kursu **ISTQB Poziomu Podstawowego** jest przygotowanie uczestników do zdania egzaminu certyfikacyjnego ISTQB Foundation Level. Kurs obejmuje wszystkie kluczowe zagadnienia wymagane na egzaminie, zgodnie z najnowszym sylabusem ISTQB.
 
 <!-- truncate -->
 
-### 📋 Czego się nauczysz?
+###  Czego się nauczysz?
 
 - **Podstaw testowania oprogramowania** – znaczenie testowania, cele i podstawowe pojęcia.
 - **Ról testowania w cyklu życia oprogramowania** – od modeli cyklu życia po poziomy testów.
@@ -23,14 +23,14 @@ Celem kursu **ISTQB Poziomu Podstawowego** jest przygotowanie uczestników do zd
 - **Zarządzania testowaniem** – planowania, szacowania, monitorowania oraz zarządzania ryzykiem.
 - **Narzędzi wspierających testowanie** – automatyzacja, zarządzanie testami i analiza jakości kodu.
 
-### 🧠 Dla kogo jest ten kurs?
+###  Dla kogo jest ten kurs?
 
 - Początkujących testerów oprogramowania.
 - Osób przygotowujących się do egzaminu ISTQB Foundation Level.
 - Programistów, którzy chcą zrozumieć procesy testowania.
 - Analityków biznesowych i kierowników projektów współpracujących z zespołami testerskimi.
 
-### 🧾 Struktura kursu
+###  Struktura kursu
 
 Kurs składa się z 6 głównych rozdziałów:
 

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Testy penetracyjne (pentesty) to kontrolowane, symulowane ataki na system informatyczny, aplikację lub infrastrukturę organizacji, wykonywane w celu zidentyfikowania podatności oraz oceny odporności na realne zagrożenia.
 
-## 🎯 Cele testów penetracyjnych
+##  Cele testów penetracyjnych
 
 - Sprawdzenie, czy da się obejść mechanizmy bezpieczeństwa
 - Identyfikacja błędów konfiguracyjnych, niezałatanych podatności i słabych punktów logiki aplikacji
@@ -14,7 +14,7 @@ Testy penetracyjne (pentesty) to kontrolowane, symulowane ataki na system inform
 - Ocena ryzyka i możliwych skutków udanego ataku
 - Weryfikacja skuteczności mechanizmów detekcji i reakcji (SIEM, EDR)
 
-## 🔍 Rodzaje testów penetracyjnych
+##  Rodzaje testów penetracyjnych
 
 - **Black-box** – brak wiedzy o systemie, symuluje atak spoza organizacji
 - **White-box** – pełen dostęp do kodu źródłowego, dokumentacji, uprawnień
@@ -34,7 +34,7 @@ Testy penetracyjne (pentesty) to kontrolowane, symulowane ataki na system inform
 - **Wireless**: aircrack-ng, hcxdumptool, Bettercap
 - **Custom scripts**: Python/Bash do automatyzacji powtarzalnych kroków
 
-## 🧪 Etapy testów penetracyjnych
+##  Etapy testów penetracyjnych
 
 1. **Reconnaissance** – zbieranie informacji (passive/active)
 2. **Enumeration** – identyfikacja zasobów, kont, wersji usług

@@ -1,12 +1,12 @@
 ---
 id: "podsumowanie-i-zapowiedz"
-title: "📘 Podsumowanie i zapowiedź kolejnych kursów ISTQB"
+title: " Podsumowanie i zapowiedź kolejnych kursów ISTQB"
 sidebar_position: 18
 ---
 
 # Podsumowanie kursu ISTQB poziomu podstawowego
 
-## 📊 Podsumowanie
+##  Podsumowanie
 
 Gratulacje! Ukończyłeś kurs przygotowujący do egzaminu ISTQB poziomu podstawowego. Poznałeś najważniejsze zagadnienia związane z testowaniem oprogramowania, w tym:
 
@@ -19,7 +19,7 @@ Gratulacje! Ukończyłeś kurs przygotowujący do egzaminu ISTQB poziomu podstaw
 
 Pamiętaj, że egzamin ISTQB wymaga nie tylko wiedzy teoretycznej, ale także zrozumienia praktycznych zastosowań opisanych koncepcji. Regularne rozwiązywanie przykładowych pytań oraz analiza przypadków testowych pomogą Ci lepiej przygotować się do egzaminu.
 
-## 🧭 Co dalej?
+##  Co dalej?
 
 Po zdobyciu certyfikatu ISTQB poziomu podstawowego możesz kontynuować rozwój swojej kariery testerskiej, eksplorując bardziej zaawansowane tematy. W kolejnych kursach z serii ISTQB skupimy się na następujących obszarach:
 
@@ -32,10 +32,10 @@ Po zdobyciu certyfikatu ISTQB poziomu podstawowego możesz kontynuować rozwój 
 - **Certified Tester – Advanced Level: Test Automation Engineer** – tworzenie frameworków automatyzujących, zarządzanie środowiskami testowymi i integracja z procesami CI/CD.
 - **Narzędzia automatyzujące testy funkcjonalne i niefunkcjonalne** – praktyczne wykorzystanie Selenium, Cypress, JMeter, itp.
 
-### 🛡️ ISTQB – Testowanie bezpieczeństwa
+###  ISTQB – Testowanie bezpieczeństwa
 - **Certified Tester – Advanced Level: Security Tester** – identyfikowanie podatności, analiza zagrożeń i techniki testowania bezpieczeństwa.
 
-### 🌐 ISTQB – Testowanie zwinne (Agile Testing)
+###  ISTQB – Testowanie zwinne (Agile Testing)
 - **Agile Tester Extension** – techniki testowania w środowiskach Agile, metodyki Scrum i Kanban.
 
 ## 🎉 Dziękujemy za udział w kursie!

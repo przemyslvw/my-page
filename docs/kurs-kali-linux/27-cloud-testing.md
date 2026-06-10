@@ -1,17 +1,16 @@
 ---
 id: "cloud-testing"
 title: "Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
-sidebar_label: "☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
 sidebar_position: 27
 ---
 
-# ☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)
+# Testowanie aplikacji w chmurze (AWS, Azure, GCP)
 
 Aplikacje wdrażane w chmurze często cierpią na błędne konfiguracje oraz niewłaściwie skonfigurowane uprawnienia, co może prowadzić do przejęcia zasobów, wycieku danych oraz eskalacji uprawnień w środowisku chmurowym.
 
 ---
 
-## 🔍 Błędne konfiguracje chmury
+##  Błędne konfiguracje chmury
 
 ### **1️⃣ Publiczne zasoby S3 w AWS**
 Amazon S3 to popularna usługa przechowywania danych, ale często zdarza się, że zasoby są udostępnione publicznie.
@@ -168,7 +167,7 @@ Rozwiązanie: **Używanie zasad `deny policy` i regularny audyt uprawnień IAM.*
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikacje w chmurze?
+##  Jak zabezpieczyć aplikacje w chmurze?
 ✅ **Regularnie audytuj konfiguracje S3, baz danych i usług sieciowych.**
 ✅ **Ogranicz uprawnienia IAM do absolutnego minimum.**
 ✅ **Włącz monitoring i alertowanie dla nietypowych działań.**

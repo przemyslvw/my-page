@@ -4,7 +4,7 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja podatności Broken Access 
 sidebar_position: 5
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 W tym ćwiczeniu:
 - przetestujesz aplikację podatną na Broken Access Control (IDOR),
@@ -13,7 +13,7 @@ W tym ćwiczeniu:
 
 ---
 
-## 🧪 Scenariusz testowy
+##  Scenariusz testowy
 
 **Aplikacja**: System zarządzania zamówieniami użytkowników (REST API).
 
@@ -24,7 +24,7 @@ Użytkownik `user1` ma przypisane zamówienie o ID `1001`.
 
 ---
 
-## 🧪 Krok 1: Zaloguj się jako `user1`
+##  Krok 1: Zaloguj się jako `user1`
 
 Uzyskaj token JWT (np. w Postmanie):
 
@@ -36,7 +36,7 @@ Uzyskaj token JWT (np. w Postmanie):
 
 ---
 
-## 🧪 Krok 2: Prześlij zapytanie do swojego zamówienia
+##  Krok 2: Prześlij zapytanie do swojego zamówienia
 
 ```http
 GET /api/orders/1001
@@ -47,7 +47,7 @@ Authorization: Bearer <token_user1>
 
 ---
 
-## 🧪 Krok 3: Spróbuj uzyskać dane orderId=1002 (które należy do `user2`)
+##  Krok 3: Spróbuj uzyskać dane orderId=1002 (które należy do `user2`)
 
 ```http
 GET /api/orders/1002
@@ -90,7 +90,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ---
 
-## 🧠 Dodatkowe scenariusze do przetestowania
+##  Dodatkowe scenariusze do przetestowania
 
 - Modyfikacja `userId` w żądaniu `POST` / `PUT`
 - Zmiana ról w formularzu (ukryte pola `role=admin`)
@@ -114,7 +114,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ## BONUS
 
-## 🔍 Scenariusz 1: Bezpośredni dostęp do zasobów (IDOR)
+##  Scenariusz 1: Bezpośredni dostęp do zasobów (IDOR)
 
 1. Zaloguj się jako zwykły użytkownik.
 2. Przejdź do historii zamówień lub danych konta.
@@ -135,7 +135,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ---
 
-## 🧪 Testy przy użyciu Burp Suite
+##  Testy przy użyciu Burp Suite
 
 1. Użyj **Proxy** do przechwytywania żądań.
 2. Zidentyfikuj endpointy zależne od uprawnień użytkownika.
@@ -144,7 +144,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ---
 
-## 🔐 Mitigacja
+##  Mitigacja
 
 - **Zasada minimalnych uprawnień** – użytkownicy powinni mieć dostęp tylko do tego, co jest im potrzebne.
 - **Weryfikacja po stronie serwera** – nie ufaj danym z klienta.
@@ -154,7 +154,7 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ---
 
-## 📚 Zadania do wykonania
+##  Zadania do wykonania
 
 ✅ Zidentyfikuj co najmniej jedną funkcję podatną na Broken Access Control.  
 ✅ Przeprowadź atak (np. IDOR lub dostęp do ukrytego endpointa).  
@@ -171,10 +171,10 @@ app.get('/api/orders/:id', authenticateToken, async (req, res) => {
 
 ---
 
-## 🧠 Pro tip
+##  Pro tip
 
-🔁 Automatyzuj testy uprawnień za pomocą **ZAP scripts** lub **Postman tests**.  
-🧪 Używaj **JWT debuggerów** do analizy tokenów i testów zmiany uprawnień.
+ Automatyzuj testy uprawnień za pomocą **ZAP scripts** lub **Postman tests**.  
+ Używaj **JWT debuggerów** do analizy tokenów i testów zmiany uprawnień.
 
 
 ## 📌 Podsumowanie

@@ -27,7 +27,7 @@ Programy **Bug Bounty** oraz udział w zawodach **CTF (Capture The Flag)** to je
 - Tryby: **Jeopardy** (zadania tematyczne), **Attack/Defense** (zespół atakuje i broni usług)
 - Popularne platformy: Hack The Box, TryHackMe, CTFtime, Root Me
 
-### 🎯 Co dają CTF-y?
+###  Co dają CTF-y?
 
 - Praktykę technik ofensywnych i defensywnych
 - Kontakt z rzeczywistymi problemami bezpieczeństwa
@@ -41,7 +41,7 @@ Programy **Bug Bounty** oraz udział w zawodach **CTF (Capture The Flag)** to je
 - Analiza raportów z Bug Bounty pomaga przewidywać wektory ataku i doskonalić polityki bezpieczeństwa
 - Zbieranie metryk: jakie typy błędów pojawiają się najczęściej, gdzie są powtarzalne luki
 
-## 🌐 Dobre praktyki
+##  Dobre praktyki
 
 - Zacznij od platform edukacyjnych (TryHackMe, PortSwigger Labs)
 - Dokumentuj zdobyte luki i sposoby ich wykrycia

@@ -1,10 +1,10 @@
 ---
 id: "a07-authentication-failures-konfiguracja"
-title: "🔧 3.7.3 – Weryfikacja konfiguracji aplikacji i serwera"
+title: " 3.7.3 – Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 33
 ---
 
-## 🔧 Weryfikacja konfiguracji aplikacji i serwera
+##  Weryfikacja konfiguracji aplikacji i serwera
 
 Sprawdzenie konfiguracji aplikacji pod kątem zabezpieczeń to kluczowy krok w zapobieganiu podatnościom związanym z uwierzytelnianiem i identyfikacją.
 

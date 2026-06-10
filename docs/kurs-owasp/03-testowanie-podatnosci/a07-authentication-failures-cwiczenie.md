@@ -4,7 +4,7 @@ title: "Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 35
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 W tym ćwiczeniu:
 
@@ -14,7 +14,7 @@ W tym ćwiczeniu:
 
 ---
 
-## 🧪 Scenariusz testowy
+##  Scenariusz testowy
 
 **Aplikacja**: Panel logowania użytkownika (REST API)
 
@@ -24,7 +24,7 @@ GET `/api/profile`
 
 ---
 
-### 🧪 Krok 1: Próba brute-force logowania
+###  Krok 1: Próba brute-force logowania
 
 Użyj Burp Intruder lub Hydra:
 
@@ -36,7 +36,7 @@ hydra -L users.txt -P passwords.txt myapp.com http-post-form "/api/login:usernam
 
 ---
 
-### 🧪 Krok 2: Analiza JWT
+###  Krok 2: Analiza JWT
 
 1. Zaloguj się i przechwyć token JWT.
 2. Przeanalizuj go na https://jwt.io lub za pomocą `jwt_tool`.
@@ -52,7 +52,7 @@ jwt_tool eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-### 🧪 Krok 3: Sesja po wylogowaniu
+###  Krok 3: Sesja po wylogowaniu
 
 1. Wyloguj się z aplikacji (np. `POST /api/logout`).
 2. Spróbuj ponownie użyć tokenu do żądania `GET /api/profile`.
@@ -70,7 +70,7 @@ jwt_tool eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
 
 ---
 
-## 🧠 Dodatkowe scenariusze
+##  Dodatkowe scenariusze
 
 - Test konta `admin` z domyślnym hasłem.
 - Próba logowania na konto z nieaktywowanym e-mailem.

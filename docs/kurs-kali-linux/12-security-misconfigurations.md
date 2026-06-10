@@ -1,11 +1,10 @@
 ---
 id: "security-misconfigurations"
 title: "Security Misconfigurations i ataki na pliki"
-sidebar_label: "⚠️ Security Misconfigurations i ataki na pliki"
 sidebar_position: 12
 ---
 
-# ⚠️ Security Misconfigurations i ataki na pliki
+# Security Misconfigurations i ataki na pliki
 
 Błędne konfiguracje systemów i serwerów mogą prowadzić do przejęcia dostępu do aplikacji, eskalacji uprawnień oraz wycieku wrażliwych danych. W tej sekcji omówimy, jak wykorzystać tego typu podatności oraz jak się przed nimi zabezpieczyć.
 
@@ -144,7 +143,7 @@ exploit
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed błędnymi konfiguracjami?
+##  Jak zabezpieczyć aplikację przed błędnymi konfiguracjami?
 ✅ **Zmień domyślne dane logowania** – nigdy nie używaj `admin:admin`.
 ✅ **Ogranicz dostęp do paneli admina** – stosuj IP Whitelisting i MFA.
 ✅ **Zablokuj dostęp do wrażliwych plików** – np. `.env`, `config.php`.

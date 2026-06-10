@@ -1,17 +1,16 @@
 ---
 id: "business-logic-race-conditions"
 title: "Logika biznesowa i Race Conditions"
-sidebar_label: "🧩 Logika biznesowa i Race Conditions"
 sidebar_position: 19
 ---
 
-# 🧩 Logika biznesowa i Race Conditions
+# Logika biznesowa i Race Conditions
 
 Nie każda podatność to wstrzyknięcie kodu. **Błędy logiki biznesowej** wynikają z błędnych założeń projektowych — aplikacja działa „zgodnie z kodem", ale niezgodnie z intencją. Tych luk nie wykryje skaner: wymagają zrozumienia procesu biznesowego. **Race conditions** to ich szczególny, czasowy wariant. To obszar OWASP **A04 – Insecure Design**.
 
 ---
 
-## 🧠 Czym jest błąd logiki biznesowej?
+##  Czym jest błąd logiki biznesowej?
 
 To luka pozwalająca obejść zamierzony przepływ aplikacji poprzez:
 - pominięcie lub zmianę kolejności kroków,
@@ -95,7 +94,7 @@ Po wysłaniu serii sprawdź skutek: czy kupon zadziałał wielokrotnie, czy sald
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację?
+##  Jak zabezpieczyć aplikację?
 ✅ **Egzekwuj logikę po stronie serwera** – nigdy nie ufaj cenie, roli czy krokom z klienta.
 ✅ **Waliduj zakresy i niezmienniki** (ilość > 0, saldo ≥ 0, krok N tylko po N-1).
 ✅ **Używaj transakcji i blokad** (DB locks, atomic operations, idempotency keys) przeciw race conditions.

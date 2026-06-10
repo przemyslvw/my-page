@@ -1,11 +1,10 @@
 ---
 id: "cross-site-scripting"
 title: "Cross-Site Scripting (XSS)"
-sidebar_label: "🎯 Cross-Site Scripting (XSS)"
 sidebar_position: 10
 ---
 
-# 🎯 Cross-Site Scripting (XSS)
+# Cross-Site Scripting (XSS)
 
 Cross-Site Scripting (XSS) to jeden z najczęściej wykorzystywanych wektorów ataku na aplikacje webowe. Polega na wstrzyknięciu złośliwego kodu JavaScript do aplikacji, co może prowadzić do przejęcia sesji użytkownika, wykradania danych lub wykonywania nieautoryzowanych operacji.
 
@@ -137,7 +136,7 @@ Przykład: jeśli filtr blokuje `alert`, spróbuj:
 
 ---
 
-## 🔐 Zabezpieczenia przed XSS
+##  Zabezpieczenia przed XSS
 - **Filtrowanie wejścia** – użycie `htmlspecialchars()` w PHP lub `encodeURIComponent()` w JS.
 - **CSP (Content Security Policy)** – blokowanie wykonywania inline JavaScript.
 - **HttpOnly dla cookies** – zabezpiecza przed odczytem JavaScript.

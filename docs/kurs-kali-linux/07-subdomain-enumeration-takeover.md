@@ -1,11 +1,10 @@
 ---
 id: "subdomain-enumeration-takeover"
 title: "Enumeracja subdomen i Subdomain Takeover"
-sidebar_label: "🌐 Enumeracja subdomen i Subdomain Takeover"
 sidebar_position: 7
 ---
 
-# 🌐 Enumeracja subdomen i Subdomain Takeover
+# Enumeracja subdomen i Subdomain Takeover
 
 Powierzchnia ataku organizacji to nie jedna domena, lecz dziesiątki, czasem tysiące subdomen — często zapomnianych. **Subdomain Takeover** to przejęcie subdomeny wskazującej (przez rekord DNS) na nieistniejący już zasób zewnętrzny. Atakujący rejestruje ten zasób i zaczyna serwować własną treść pod zaufaną domeną ofiary.
 
@@ -86,7 +85,7 @@ Po wgraniu pliku `index.html` z nieszkodliwym znacznikiem (np. swój nick + iden
 
 ---
 
-## 🎯 Dlaczego to groźne?
+##  Dlaczego to groźne?
 
 - **Phishing pod zaufaną domeną** – ofiary ufają `secure.example.com`.
 - **Kradzież ciasteczek** – ciasteczka ustawione na `.example.com` (domena nadrzędna) trafią do przejętej subdomeny.
@@ -95,7 +94,7 @@ Po wgraniu pliku `index.html` z nieszkodliwym znacznikiem (np. swój nick + iden
 
 ---
 
-## 🔐 Jak się bronić?
+##  Jak się bronić?
 ✅ **Porządkuj DNS** – usuwaj rekord CNAME/A natychmiast po likwidacji zasobu (decommissioning).
 ✅ **Regularnie audytuj rekordy DNS** pod kątem wiszących wpisów (automatyczny monitoring).
 ✅ **Twórz zasób przed dodaniem rekordu DNS**, a usuwaj rekord przed zasobem.

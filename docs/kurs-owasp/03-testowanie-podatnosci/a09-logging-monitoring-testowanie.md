@@ -6,7 +6,7 @@ sidebar_position: 42
 
 # 🔬 Metody testowania podatności – Security Logging and Monitoring Failures (A09:2025)
 
-## 🎯 Cel testowania
+##  Cel testowania
 
 Celem testowania tej podatności jest sprawdzenie, czy aplikacja i jej infrastruktura odpowiednio rejestrują zdarzenia bezpieczeństwa, a także czy te dane są monitorowane i wykorzystywane do reakcji na incydenty.
 
@@ -51,7 +51,7 @@ Celem testowania tej podatności jest sprawdzenie, czy aplikacja i jej infrastru
 
 ---
 
-## 🧪 Przykładowe przypadki testowe
+##  Przykładowe przypadki testowe
 
 | Scenariusz | Oczekiwany log |
 |------------|----------------|
@@ -62,7 +62,7 @@ Celem testowania tej podatności jest sprawdzenie, czy aplikacja i jej infrastru
 
 ---
 
-## 🧩 Testowanie w kontekście DevSecOps
+##  Testowanie w kontekście DevSecOps
 
 - Czy CI/CD rejestruje błędy buildów i deploymentów?
 - Czy pipeline zawiera testy logowania bezpieczeństwa?

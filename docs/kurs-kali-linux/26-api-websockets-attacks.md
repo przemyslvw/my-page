@@ -1,11 +1,10 @@
 ---
 id: "api-websockets-attacks"
 title: "Ataki na API i WebSockets"
-sidebar_label: "🌐 Ataki na API i WebSockets"
 sidebar_position: 26
 ---
 
-# 🌐 Ataki na API i WebSockets
+# Ataki na API i WebSockets
 
 API i WebSockets są powszechnie stosowane w nowoczesnych aplikacjach webowych. Ich podatności mogą prowadzić do wycieku danych, eskalacji uprawnień i przejęcia sesji użytkowników.
 
@@ -132,7 +131,7 @@ Rozwiązanie: **Każda wiadomość WebSocket powinna być podpisana tokenem JWT.
 
 ---
 
-## 🔐 Jak zabezpieczyć API i WebSockets?
+##  Jak zabezpieczyć API i WebSockets?
 ✅ **Ogranicz uprawnienia użytkowników i stosuj weryfikację ID w API.**
 ✅ **Waliduj dane wejściowe i nie dopuszczaj do manipulacji tokenami JWT.**
 ✅ **Monitoruj ruch API pod kątem nietypowych żądań i prób brute-force.**

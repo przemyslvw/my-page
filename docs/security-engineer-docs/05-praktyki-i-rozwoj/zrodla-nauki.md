@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Dobre źródła wiedzy to fundament rozwoju każdego Security Engineera. Internet oferuje ogrom materiałów – ważne, by wiedzieć, gdzie szukać wartościowych, aktualnych i praktycznych informacji.
 
-## 📚 Platformy edukacyjne
+##  Platformy edukacyjne
 
 - **TryHackMe** – praktyczne laby od podstaw do zaawansowanych scenariuszy
 - **Hack The Box** – maszyny do eksploitacji, ścieżki certyfikacyjne (HTB Academy)
@@ -14,7 +14,7 @@ Dobre źródła wiedzy to fundament rozwoju każdego Security Engineera. Interne
 - **Cybrary** – kursy z zakresu bezpieczeństwa, compliance i zarządzania
 - **TCM Security** – bardzo dobre kursy pentestowe (PNPT)
 
-## 🎓 Kursy i szkolenia online
+##  Kursy i szkolenia online
 
 - **Udemy** – niedrogie kursy wideo np. „Learn Ethical Hacking From Scratch”
 - **INE Security** – solidna platforma do nauki pentestów, forensics, blue team
@@ -43,7 +43,7 @@ Dobre źródła wiedzy to fundament rozwoju każdego Security Engineera. Interne
 - **Dark Reading** – newsy, analizy, opinie
 - **SANS NewsBites** – krótko, konkretnie i aktualnie
 
-## 📖 Książki warte przeczytania
+##  Książki warte przeczytania
 
 - "The Web Application Hacker’s Handbook" – Stuttard & Pinto
 - "Practical Malware Analysis" – Sikorski & Honig
@@ -51,13 +51,13 @@ Dobre źródła wiedzy to fundament rozwoju każdego Security Engineera. Interne
 - "Hacking: The Art of Exploitation"
 - "Cybersecurity for Beginners" – Raef Meeuwisse
 
-## 🌐 Fora i społeczności
+##  Fora i społeczności
 
 - **Reddit**: r/netsec, r/cybersecurity, r/ReverseEngineering
 - **Stack Exchange**: Information Security Stack
 - **Discordy/Slacki**: HTB, TryHackMe, DEFCON, OWASP Chapters
 
-## 💡 Tipy
+##  Tipy
 
 - Dodaj źródła do RSS lub newslettera – ucz się w rytmie tygodnia
 - Dokumentuj znalezione rozwiązania – np. w osobistym repozytorium

@@ -4,13 +4,13 @@ title: "Identyfikacja technologii frontendowych i backendowych"
 sidebar_position: 1
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Rozpoznanie stosowanych technologii frontendowych i backendowych w aplikacji webowej to **pierwszy krok do efektywnego testu bezpieczeństwa**. Każda technologia ma swój profil ryzyka, znane luki oraz specyficzne wektory ataku.
 
 ---
 
-## 🧱 Co to jest stos technologiczny?
+##  Co to jest stos technologiczny?
 
 **Stos technologiczny** (ang. *tech stack*) to zestaw narzędzi i frameworków użytych do budowy aplikacji.
 
@@ -23,7 +23,7 @@ Podział na dwie główne warstwy:
 
 ## 🕵️ Jak identyfikować technologie?
 
-### 🔍 1. Analiza frontendu (z poziomu przeglądarki)
+###  1. Analiza frontendu (z poziomu przeglądarki)
 
 | Metoda | Opis |
 |--------|------|
@@ -32,7 +32,7 @@ Podział na dwie główne warstwy:
 | **Pliki `manifest.json`, `robots.txt`, itp.** | Często zawierają metadane o technologii. |
 | **Struktura plików i klas CSS/JS** | Np. `ng-`, `react-`, `v-` mogą zdradzać framework. |
 
-### 🔧 2. Analiza backendu (z zewnątrz)
+###  2. Analiza backendu (z zewnątrz)
 
 | Metoda | Opis |
 |--------|------|
@@ -61,7 +61,7 @@ Podział na dwie główne warstwy:
 
 ---
 
-## 📘 Przykład
+##  Przykład
 
 ```bash
 curl -I https://example.com
@@ -77,7 +77,7 @@ X-Powered-By: PHP/7.4.3
 
 ---
 
-## 🧠 Dlaczego to ważne?
+##  Dlaczego to ważne?
 
 - Pomaga dobrać odpowiednie narzędzia i payloady.
 - Umożliwia identyfikację **znanych podatności** dla danego stacku.

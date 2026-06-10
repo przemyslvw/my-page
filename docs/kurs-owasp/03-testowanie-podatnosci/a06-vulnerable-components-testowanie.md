@@ -1,10 +1,10 @@
 ---
 id: "a06-vulnerable-components-testowanie"
-title: "🧪 3.6.2 – Metody testowania podatności"
+title: " 3.6.2 – Metody testowania podatności"
 sidebar_position: 27
 ---
 
-## 🧪 Metody testowania podatności: Vulnerable and Outdated Components
+##  Metody testowania podatności: Vulnerable and Outdated Components
 
 ---
 
@@ -20,7 +20,7 @@ sidebar_position: 27
 
 ---
 
-### 2. 🔍 Wykorzystanie narzędzi SCA (Software Composition Analysis)
+### 2.  Wykorzystanie narzędzi SCA (Software Composition Analysis)
 
 Narzędzia te identyfikują znane podatności CVE w zależnościach aplikacji.
 
@@ -42,7 +42,7 @@ Narzędzia te identyfikują znane podatności CVE w zależnościach aplikacji.
 
 ---
 
-### 4. 🐳 Weryfikacja obrazów kontenerowych
+### 4.  Weryfikacja obrazów kontenerowych
 
 - Testuj bazowe obrazy Docker:
   - `FROM node:12` (EOL)
@@ -51,7 +51,7 @@ Narzędzia te identyfikują znane podatności CVE w zależnościach aplikacji.
 
 ---
 
-### 5. 🧪 Ręczna inspekcja bibliotek frontendowych
+### 5.  Ręczna inspekcja bibliotek frontendowych
 
 - Otwórz `devtools → sources/scripts` i sprawdź wersje bibliotek np. `jQuery`, `Bootstrap`, `Angular`.
 - Sprawdź publicznie dostępne paczki CDN i ich wersje.

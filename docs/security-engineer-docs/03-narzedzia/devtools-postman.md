@@ -6,11 +6,11 @@ sidebar_position: 1
 
 DevTools i Postman to podstawowe narzędzia pracy specjalisty ds. bezpieczeństwa aplikacji webowych i API. Umożliwiają one nie tylko analizę działania aplikacji, ale również testowanie pod kątem najczęstszych podatności.
 
-## 🌐 DevTools (narzędzia deweloperskie przeglądarki)
+##  DevTools (narzędzia deweloperskie przeglądarki)
 
 DevTools w Chrome, Firefox czy Edge to nie tylko debuger JavaScriptu – to potężne narzędzie do analizy bezpieczeństwa frontendu, komunikacji HTTP oraz zachowania aplikacji w czasie rzeczywistym.
 
-### 🛡️ Weryfikacja nagłówków bezpieczeństwa
+###  Weryfikacja nagłówków bezpieczeństwa
 
 W zakładce **Network**, po kliknięciu dowolnego żądania można zobaczyć odpowiedź HTTP wraz z nagłówkami. Kluczowe do weryfikacji:
 
@@ -22,7 +22,7 @@ W zakładce **Network**, po kliknięciu dowolnego żądania można zobaczyć odp
 
 Analiza obecności, poprawności i wartości tych nagłówków to jeden z pierwszych kroków w pentestach webowych.
 
-### 🧪 Symulowanie ataków XSS, CSRF, IDOR
+###  Symulowanie ataków XSS, CSRF, IDOR
 
 - **XSS** – w zakładce Elements lub Console można testować payloady np. `<script>alert(1)</script>` w polach formularzy, komentarzach itp.
 - **CSRF** – można próbować odtworzyć żądanie (np. POST z formularza) bez tokena CSRF lub z nieautoryzowanego źródła

@@ -25,12 +25,12 @@ Nie jest to przypadek. Zjawisko jest **rozległe, długotrwałe i powtarzalne**.
 
 Zakłócenia sygnału GNSS można podzielić na dwie główne techniki:
 
-### 📡 **Jamming (zagłuszanie sygnału)**
+###  **Jamming (zagłuszanie sygnału)**
 
 - Emitowanie fal radiowych w paśmie GPS (L1), aby zablokować odbiór legalnego sygnału
 - Efekt: całkowity brak sygnału GPS lub niestabilna lokalizacja
 
-### 🧠 **Spoofing (fałszowanie pozycji)**
+###  **Spoofing (fałszowanie pozycji)**
 
 - Emitowanie **podrobionego sygnału GPS**, który podszywa się pod prawdziwy
 - Efekt: urządzenie odbiera pozornie poprawny sygnał, ale z błędnymi współrzędnymi
@@ -38,7 +38,7 @@ Zakłócenia sygnału GNSS można podzielić na dwie główne techniki:
 
 🔎 Według informacji z [Niebezpiecznika](https://niebezpiecznik.pl/post/uwaga-piloci-dronow-na-polnocy-polski/), odnotowano **przemieszczanie „pozycji domowej” o kilkadziesiąt kilometrów**, a drony raportowały "utracony sygnał" nawet na otwartym terenie.
 
-## 🧭 Kto za tym stoi?
+##  Kto za tym stoi?
 
 Nie ma oficjalnych komunikatów ze strony rządu, ale wiele wskazuje na **działania wojskowe**:
 
@@ -48,7 +48,7 @@ Nie ma oficjalnych komunikatów ze strony rządu, ale wiele wskazuje na **dział
 
 Na serwisach typu [GPSJam.org](https://gpsjam.org) widać **anomalie sygnału** nad Polską, Litwą i Bałtykiem – szczególnie wokół obwodu kaliningradzkiego.
 
-## 🧑‍✈️ Jak się chronić jako operator drona?
+## ✈️ Jak się chronić jako operator drona?
 
 Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:
 
@@ -66,7 +66,7 @@ Jeśli latasz dronem na północy Polski, zachowaj szczególną ostrożność:
 - Latania nad wodą lub poza zasięgiem wzroku
 - Używania sprzętu bez wsparcia `failsafe manual override`
 
-## 🌍 Co to oznacza szerzej?
+##  Co to oznacza szerzej?
 
 To zjawisko to nie tylko problem dla droniarzy:
 
@@ -76,11 +76,11 @@ To zjawisko to nie tylko problem dla droniarzy:
 
 Nie jesteśmy odporni na tego typu działania. I to powinien być sygnał ostrzegawczy dla firm, operatorów i instytucji.
 
-## 🔐 Podsumowanie i rekomendacje
+##  Podsumowanie i rekomendacje
 
 Zakłócenia GPS to nie science-fiction. To realna, rosnąca w siłę technika walki elektronicznej, która **testuje odporność naszej infrastruktury**.
 
-🎯 **Co warto zrobić już teraz?**
+ **Co warto zrobić już teraz?**
 
 - Uświadom użytkowników – **drony, rolnicy, transportowcy**
 - Weryfikuj dane z GPS z innymi źródłami (mapy offline, czujniki)

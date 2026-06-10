@@ -27,7 +27,7 @@ Atuin umożliwia błyskawiczne przeszukiwanie historii komend za pomocą wyszuki
 
 4. Naciśnij `Enter`, aby zatwierdzić wybraną komendę.
 
-### 💡 **Przykład:**
+###  **Przykład:**
 
 Jeśli wpiszesz `git ch`, Atuin może zasugerować:
 
@@ -60,7 +60,7 @@ Atuin pozwala na przeszukiwanie historii z uwzględnieniem czasu wykonania komen
 
 ---
 
-## 📁 Filtrowanie po katalogu roboczym
+##  Filtrowanie po katalogu roboczym
 
 Często pracujesz nad wieloma projektami jednocześnie? Atuin pozwala filtrować historię komend na podstawie katalogu roboczego.
 
@@ -100,7 +100,7 @@ Po zapisaniu zmian uruchom ponownie terminal.
 
 ---
 
-## 📊 Statystyki użycia komend
+##  Statystyki użycia komend
 
 Atuin umożliwia analizę najczęściej używanych komend:
 
@@ -138,10 +138,10 @@ atuin history clear
 
 ## 🚀 Pro Tipy
 
-- 🔁 **Szybkie powtarzanie ostatnich komend:**  
+-  **Szybkie powtarzanie ostatnich komend:**  
   Wciśnij `Ctrl+R` i naciśnij `Enter` bez wpisywania frazy — uruchomi ostatnią komendę.
 
-- 📂 **Wyszukiwanie w określonym katalogu:**  
+-  **Wyszukiwanie w określonym katalogu:**  
   ```bash
   atuin search --cwd /ścieżka/do/katalogu
   ```
@@ -157,4 +157,4 @@ atuin history clear
 
 W tym rozdziale poznałeś najważniejsze funkcje Atuin — od wyszukiwania fuzzy po filtrowanie po katalogach i czasie. Dzięki nim praca z terminalem staje się szybsza, wygodniejsza i bardziej efektywna.
 
-➡️ **Przejdź do kolejnego rozdziału:** [☁️ Synchronizacja i bezpieczeństwo](/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo)
+➡️ **Przejdź do kolejnego rozdziału:** [ Synchronizacja i bezpieczeństwo](/docs/atuin-kurs-wstep/atuin-kurs-synchronizacja-bezpieczenstwo)

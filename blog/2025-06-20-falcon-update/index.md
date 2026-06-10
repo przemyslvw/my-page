@@ -15,24 +15,24 @@ Czas na solidny update – poprawiamy tempo, podkręcamy wyzwanie i dorzucamy sz
 
 ![Podgląd gry Falcons Escape](/gameFiles/podgladgry.jpeg)
 
-### 🔄 Co nowego?
+###  Co nowego?
 
 - 🦅 **Spowolnienie Falcona** – mniej turbo, więcej strategii!
 - 💥 **Kolizje są brutalniejsze** – każde zderzenie zabiera teraz **50% maksymalnego HP**.
 - 🛸 **Nowe grafiki wrogich statków** – świeży wygląd, ta sama groźna zawartość.
-- ⚙️ **Zbalansowani przeciwnicy** – zmieniono HP i prędkość różnych typów.
-- 🎯 **Różnorodność poziomów** – w każdej fazie możesz trafić na inne rodzaje wrogich statków.
-- 🔁 **Respawn przeciwników** – jeśli odlecisz za daleko, wracają... i nie są zadowoleni.
+-  **Zbalansowani przeciwnicy** – zmieniono HP i prędkość różnych typów.
+-  **Różnorodność poziomów** – w każdej fazie możesz trafić na inne rodzaje wrogich statków.
+-  **Respawn przeciwników** – jeśli odlecisz za daleko, wracają... i nie są zadowoleni.
 - 👹 **Boss przyspiesza**, gdy spróbujesz ucieczki – nie ma litości.
 - 🔥 **Berserk Mode** – jeśli Twoje HP spadnie poniżej 50%, zaczynasz **strzelać 2x szybciej**!
 - 🎬 **Nowe wideo demonstracyjne** – zobacz grę w akcji!
 - 🎵 **Dodano muzykę w tle** + opcja **wyciszenia** dźwięków, jeśli wolisz ciszę.
 - ⏸️ **Stop-klatka po pokonaniu bossa** – zasłużona chwila triumfu.
-- 🎯 **Auto-aim został wyłączony** dla myszki i klawiatury – działa teraz wyłącznie podczas gry na joysticku.
+-  **Auto-aim został wyłączony** dla myszki i klawiatury – działa teraz wyłącznie podczas gry na joysticku.
 
 ---
 
-### 🧠 Co dalej?
+###  Co dalej?
 
 Pracuję już nad kolejnymi funkcjami! W planach:
 
@@ -43,7 +43,7 @@ Pracuję już nad kolejnymi funkcjami! W planach:
 
 https://www.majdak.online/FalconsEscape.html
 
-Dzięki za granie i feedback! Jeśli masz pomysł, jak ulepszyć _Falcons Escape_ – daj znać 💬  
+Dzięki za granie i feedback! Jeśli masz pomysł, jak ulepszyć _Falcons Escape_ – daj znać   
 **Stay sharp, Pilot!** 🛸
 
 `#FalconsEscape #IndieDev #GameUpdate #PixelArt #BulletHell`

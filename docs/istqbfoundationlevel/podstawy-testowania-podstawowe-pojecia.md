@@ -1,6 +1,6 @@
 ---
 id: "podstawy-testowania-podstawowe-pojecia"
-title: "📘 Podstawowe pojęcia w testowaniu"
+title: " Podstawowe pojęcia w testowaniu"
 sidebar_position: 5
 ---
 

@@ -1,10 +1,10 @@
 ---
 id: "a05-security-misconfiguration-opis"
-title: "🔧 3.5.1 – Opis podatności i jej wpływ"
+title: " 3.5.1 – Opis podatności i jej wpływ"
 sidebar_position: 21
 ---
 
-## 🔧 Czym jest Security Misconfiguration?
+##  Czym jest Security Misconfiguration?
 
 **Security Misconfiguration** to jedna z najczęstszych podatności w aplikacjach webowych. Oznacza błędy w konfiguracji aplikacji, serwera, kontenerów, nagłówków HTTP, uprawnień czy ustawień domyślnych.
 
@@ -33,7 +33,7 @@ Nie zawsze wynika z kodu – najczęściej to **brak odpowiedniego zabezpieczeni
 
 ---
 
-## 🧠 Przykład realny
+##  Przykład realny
 
 Serwer nginx wystawiony publicznie z dostępem do katalogu `/config/`:
 ```
@@ -44,7 +44,7 @@ https://example.com/config/appsettings.json
 
 ---
 
-## 🧪 Różne poziomy błędów konfiguracji
+##  Różne poziomy błędów konfiguracji
 
 | Poziom | Przykład | Skutki |
 |--------|----------|--------|

@@ -6,14 +6,14 @@ sidebar_position: 1
 
 Dyrektywa NIS2 (Network and Information Systems Directive 2) to nowelizacja przepisów UE w zakresie cyberbezpieczeństwa. Ma na celu zwiększenie odporności cyfrowej organizacji kluczowych dla funkcjonowania państwa i gospodarki. Security Engineer odgrywa kluczową rolę w spełnieniu technicznych i operacyjnych wymagań tej dyrektywy.
 
-## 📘 Czym jest NIS2?
+##  Czym jest NIS2?
 
 - Następca dyrektywy NIS z 2016 r. – bardziej szczegółowy, obowiązkowy i obejmujący szerszy zakres podmiotów
 - Dotyczy zarówno operatorów usług kluczowych (essential entities), jak i ważnych podmiotów (important entities)
 - Wprowadza konkretne obowiązki dotyczące zarządzania ryzykiem, reagowania na incydenty i raportowania
 - Obowiązuje również firmy prywatne działające w sektorach krytycznych (energia, zdrowie, transport, usługi cyfrowe)
 
-## 🧱 Wymogi wobec organizacji
+##  Wymogi wobec organizacji
 
 - **Zarządzanie ryzykiem** – identyfikacja, ocena i minimalizacja ryzyk związanych z ICT
 - **Zabezpieczenia techniczne i operacyjne** – ochrona systemów, danych i usług
@@ -22,7 +22,7 @@ Dyrektywa NIS2 (Network and Information Systems Directive 2) to nowelizacja prze
 - **Testowanie i audyt** – obowiązek przeprowadzania testów penetracyjnych, audytów i ćwiczeń
 - **Szkolenie personelu** – obowiązek edukacji w zakresie cyberbezpieczeństwa
 
-## 🔧 Rola Security Engineera w kontekście NIS2
+##  Rola Security Engineera w kontekście NIS2
 
 - Pomiar dojrzałości bezpieczeństwa systemów – gap analysis względem wymagań NIS2
 - Wdrażanie mechanizmów detekcji i odpowiedzi (SIEM, EDR, SOAR)
@@ -31,7 +31,7 @@ Dyrektywa NIS2 (Network and Information Systems Directive 2) to nowelizacja prze
 - Przygotowanie organizacji do raportowania i komunikacji z CSIRT/KSC
 - Wsparcie dla zarządzania ryzykiem i udział w regularnych przeglądach
 
-## ⚙️ Obszary krytyczne dla zgodności
+##  Obszary krytyczne dla zgodności
 
 - Backupy i odporność na ransomware
 - MFA i kontrola dostępu do systemów krytycznych

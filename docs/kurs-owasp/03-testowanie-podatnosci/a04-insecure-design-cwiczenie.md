@@ -1,16 +1,16 @@
 ---
 id: "a04-insecure-design-cwiczenie"
-title: "🧪 3.4.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
+title: " 3.4.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 20
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Zidentyfikować i wykorzystać błędy projektowe w aplikacji (Insecure Design), które nie wynikają z błędnej implementacji, lecz z braku założeń bezpieczeństwa w logice działania aplikacji.
 
 ---
 
-## 🧪 Scenariusz 1: Brak kontroli właściciela zasobu
+##  Scenariusz 1: Brak kontroli właściciela zasobu
 
 **Aplikacja:** REST API do zamówień
 
@@ -31,7 +31,7 @@ Authorization: Bearer <token_userA>
 
 ---
 
-## 🧪 Scenariusz 2: Brak walidacji etapów procesu (np. zakup)
+##  Scenariusz 2: Brak walidacji etapów procesu (np. zakup)
 
 **Aplikacja:** E-commerce – użytkownik może przejść od koszyka do „zamówione” bez płatności.
 
@@ -46,7 +46,7 @@ Authorization: Bearer <token_userA>
 
 ---
 
-## 🧪 Scenariusz 3: Możliwość manipulacji ID przez przewidywalność
+##  Scenariusz 3: Możliwość manipulacji ID przez przewidywalność
 
 ```http
 GET /invoice/1001
@@ -71,7 +71,7 @@ GET /invoice/1002
 
 ---
 
-## 🧠 Dodatkowe pomysły testowe
+##  Dodatkowe pomysły testowe
 
 - Czy można przyspieszyć proces rejestracji/aktywacji pomijając kroki?
 - Czy można zmienić status zamówienia przez API bez roli?
@@ -79,9 +79,9 @@ GET /invoice/1002
 
 ---
 
-## 🧪 Zrealizowane scenariusze
+##  Zrealizowane scenariusze
 
-### 🧪 Scenariusz: Brak walidacji właściciela zasobu
+###  Scenariusz: Brak walidacji właściciela zasobu
 
 **Testowany endpoint:**
 ```
@@ -110,7 +110,7 @@ if (order.UserId != currentUser.Id)
 
 ---
 
-### 🧪 Scenariusz: Pominięcie płatności w procesie checkout
+###  Scenariusz: Pominięcie płatności w procesie checkout
 
 **Testowany endpoint:**
 ```
@@ -132,7 +132,7 @@ Wymusić w backendzie status przejściowy – `status != paid` → brak możliwo
 
 ---
 
-### 🧠 Wnioski z testów
+###  Wnioski z testów
 
 - Brak kontroli stanu i właściciela to typowe symptomy **Insecure Design**.
 - Aplikacja przyjmuje poprawne zapytania, ale **brakuje walidacji ich sensu i kolejności**.
@@ -140,7 +140,7 @@ Wymusić w backendzie status przejściowy – `status != paid` → brak możliwo
 
 ---
 
-## 📋 Do raportu końcowego
+##  Do raportu końcowego
 
 Zalecenia:
 - Zmiana projektów procesów zakupowych, logowania, dostępu do zasobów.

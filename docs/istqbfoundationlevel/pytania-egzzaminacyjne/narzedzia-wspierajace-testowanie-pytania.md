@@ -1,10 +1,10 @@
 ---
 id: "narzedzia-wspierajace-testowanie-pytania"
-title: "📘 Narzędzia wspierające testowanie - Pytania egzaminacyjne"
+title: " Narzędzia wspierające testowanie - Pytania egzaminacyjne"
 sidebar_position: 17
 ---
 
-# 📘 Narzędzia wspierające testowanie - Pytania egzaminacyjne
+#  Narzędzia wspierające testowanie - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

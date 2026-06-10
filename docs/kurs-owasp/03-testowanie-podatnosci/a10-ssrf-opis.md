@@ -4,9 +4,9 @@ title: "Opis podatności i jej wpływ"
 sidebar_position: 46
 ---
 
-# 🌐 Opis podatności i jej wpływ – Server-Side Request Forgery (SSRF) (A10:2025)
+#  Opis podatności i jej wpływ – Server-Side Request Forgery (SSRF) (A10:2025)
 
-## 🔍 Czym jest SSRF?
+##  Czym jest SSRF?
 
 **Server-Side Request Forgery (SSRF)** to podatność, w której atakujący zmusza serwer aplikacji do wykonania żądania HTTP do innego zasobu – wewnętrznego lub zewnętrznego – w imieniu aplikacji. Może to prowadzić do:
 
@@ -17,7 +17,7 @@ sidebar_position: 46
 
 ---
 
-## 🧠 Przykład działania
+##  Przykład działania
 
 Aplikacja pozwala na pobieranie miniatur obrazków z zewnętrznych adresów URL:
 
@@ -52,7 +52,7 @@ GET /fetch-image?url=http://127.0.0.1:8080/admin
 
 ---
 
-## 🎯 Dlaczego to istotne?
+##  Dlaczego to istotne?
 
 - SSRF omija ograniczenia sieciowe i firewalle — to serwer wykonuje żądania.
 - Atak bywa trudny do wykrycia – żądanie pochodzi z legalnego IP serwera.

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Skanowanie podatności oraz skuteczne zarządzanie incydentami to dwa kluczowe filary operacyjnego bezpieczeństwa. Pozwalają one na wykrycie słabych punktów zanim zrobi to atakujący oraz na szybką reakcję w przypadku naruszenia.
 
-## 🔍 Skanowanie podatności (Vulnerability Scanning)
+##  Skanowanie podatności (Vulnerability Scanning)
 
 - Regularne sprawdzanie systemów, aplikacji i urządzeń pod kątem znanych podatności  
 - Użycie narzędzi takich jak **Nessus**, **OpenVAS**, **Qualys**, **Nikto**, **Nmap + NSE**  
@@ -20,7 +20,7 @@ Skanowanie podatności oraz skuteczne zarządzanie incydentami to dwa kluczowe f
 - Komunikacja z interesariuszami i dokumentacja zdarzeń  
 - Wnioski po incydencie – lekcje i aktualizacja polityk/konfiguracji
 
-## ⚙️ Połączenie procesów
+##  Połączenie procesów
 
 - Skanowanie może ujawnić podatność, która zostaje wykorzystana – IR ją obsługuje  
 - Procesy muszą być zsynchronizowane – skaner wykrywa, zespół IR reaguje  

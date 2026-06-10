@@ -1,17 +1,16 @@
 ---
 id: "oauth-oidc-saml"
 title: "Ataki na OAuth 2.0, OIDC i SAML"
-sidebar_label: "🔑 Ataki na OAuth 2.0, OIDC i SAML"
 sidebar_position: 18
 ---
 
-# 🔑 Ataki na OAuth 2.0, OIDC i SAML
+# Ataki na OAuth 2.0, OIDC i SAML
 
 Nowoczesne aplikacje rzadko zarządzają hasłami samodzielnie — delegują uwierzytelnianie do dostawców tożsamości przez **OAuth 2.0**, **OpenID Connect (OIDC)** i **SAML** (logowanie „Zaloguj się przez Google/Microsoft", SSO firmowe). Błędy w implementacji tych protokołów prowadzą do **przejęcia kont (Account Takeover)** bez znajomości hasła ofiary.
 
 ---
 
-## 🧠 Szybkie wprowadzenie
+##  Szybkie wprowadzenie
 
 - **OAuth 2.0** – protokół **autoryzacji** (delegowanie dostępu do zasobów). Nie jest protokołem logowania, choć bywa do tego nadużywany.
 - **OIDC** – warstwa **uwierzytelniania** nad OAuth 2.0; dodaje `id_token` (JWT) z tożsamością użytkownika.
@@ -89,7 +88,7 @@ Asercja to XML — wstrzyknięcie encji zewnętrznej może dać file disclosure/
 
 ---
 
-## 🔐 Jak zabezpieczyć implementację?
+##  Jak zabezpieczyć implementację?
 ✅ **Ścisła walidacja `redirect_uri`** – pełne, dokładne dopasowanie z allowlisty.
 ✅ **Wymuszaj i weryfikuj `state`** (oraz `nonce` w OIDC).
 ✅ **Używaj Authorization Code Flow z PKCE**; porzuć Implicit Flow.

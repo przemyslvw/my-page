@@ -13,7 +13,7 @@ Z przyjemnością ogłaszam premierę pierwszej wersji mojej wtyczki do przeglą
 ### 🛠️ Co to jest UrlBlocker?
 UrlBlocker to lekka i szybka wtyczka, która umożliwia blokowanie niechcianych adresów URL oraz reklam podczas przeglądania internetu. Dzięki niej możesz:
 
-- 🔒 Zablokować konkretne domeny i podstrony.
+-  Zablokować konkretne domeny i podstrony.
 - 🚀 Przyspieszyć ładowanie stron, eliminując zbędne skrypty reklamowe.
 - 👌 Poprawić prywatność poprzez ograniczenie śledzących elementów.
 
@@ -37,6 +37,6 @@ Będę wdzięczny za **opinie i sugestie**, a także **pull requesty** od społe
 
 ---
 
-💬 **Masz pytania lub sugestie?** Zostaw komentarz lub napisz do mnie na GitHubie!
+ **Masz pytania lub sugestie?** Zostaw komentarz lub napisz do mnie na GitHubie!
 
 Dzięki za wsparcie! 🚀

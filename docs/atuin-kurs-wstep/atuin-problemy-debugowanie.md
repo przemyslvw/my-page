@@ -10,7 +10,7 @@ Podczas korzystania z Atuin mogą pojawić się drobne problemy lub błędy zwi�
 
 ---
 
-## ⚡ Najczęstsze problemy i ich rozwiązania
+##  Najczęstsze problemy i ich rozwiązania
 
 ### ❓ **Problem: Skrót `Ctrl+R` nie działa**
 
@@ -137,4 +137,4 @@ Jeśli chcesz zresetować konfigurację Atuin do ustawień fabrycznych:
 
 W tym rozdziale poznaliśmy najczęstsze problemy związane z działaniem Atuin i sposoby ich rozwiązywania. Dzięki prostym komendom i trybowi debugowania można szybko zdiagnozować i naprawić większość usterek.
 
-➡️ **Przejdź do kolejnego rozdziału:** [📖 Podsumowanie kursu](/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie)
+➡️ **Przejdź do kolejnego rozdziału:** [ Podsumowanie kursu](/docs/atuin-kurs-wstep/atuin-kurs-podsumowanie)

@@ -1,10 +1,10 @@
 ---
 id: "atuin-kurs-instalacja"
-title: "⚙️ Instalacja Atuin"
+title: " Instalacja Atuin"
 sidebar_position: 2
 ---
 
-# ⚙️ Instalacja Atuin
+#  Instalacja Atuin
 
 ## 🔹 Wymagania systemowe
 
@@ -154,7 +154,7 @@ Naciśnij `Ctrl+R` w terminalu i wyszukaj komendy z historii przy użyciu fuzzy 
 
 ---
 
-## 📊 **Sprawdzanie wersji i aktualizacja**
+##  **Sprawdzanie wersji i aktualizacja**
 
 Aby sprawdzić zainstalowaną wersję Atuin:
 

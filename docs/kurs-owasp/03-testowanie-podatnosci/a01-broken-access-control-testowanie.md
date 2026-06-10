@@ -4,15 +4,15 @@ title: "Broken Access Control: Metody testowania podatności"
 sidebar_position: 2
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Poznasz techniki testowania podatności typu **Broken Access Control**, które możesz stosować zarówno **ręcznie**, jak i z użyciem narzędzi. Testy te są kluczowe, ponieważ automatyczne skanery rzadko wykrywają tego typu błędy skutecznie.
 
 ---
 
-## 🧪 Metody testowania
+##  Metody testowania
 
-### 1. 🔁 Testowanie IDOR (Insecure Direct Object Reference)
+### 1.  Testowanie IDOR (Insecure Direct Object Reference)
 
 - Zmień ID użytkownika, rekordu lub zasobu w URL, body lub parametrze.
 - Przykład:
@@ -33,7 +33,7 @@ Poznasz techniki testowania podatności typu **Broken Access Control**, które m
 
 ---
 
-### 3. 🧪 Fuzzing metod HTTP
+### 3.  Fuzzing metod HTTP
 
 Niektóre zasoby są dostępne tylko dla wybranych metod (np. `GET`, `POST`), ale aplikacja nie weryfikuje poprawnie:
 
@@ -69,7 +69,7 @@ Body: { "status": "approved" }
 
 ---
 
-### 6. 🔄 Przechodzenie między sesjami
+### 6.  Przechodzenie między sesjami
 
 - Otwórz dwie sesje (np. admin i user).
 - Przeklej ciasteczko jednego do drugiego.
@@ -77,7 +77,7 @@ Body: { "status": "approved" }
 
 ---
 
-## 🧠 Dobre praktyki podczas testów
+##  Dobre praktyki podczas testów
 
 - Zawsze **sprawdzaj odpowiedzi serwera**, nie tylko UI.
 - **Dokumentuj różnice w odpowiedzi** na ten sam request z różnymi uprawnieniami.

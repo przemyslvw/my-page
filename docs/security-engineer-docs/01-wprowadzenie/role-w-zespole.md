@@ -6,19 +6,19 @@ sidebar_position: 1
 
 W zespole zajmującym się bezpieczeństwem IT można wyróżnić różne role, które się uzupełniają i współpracują ze sobą. Każda z nich ma inny zakres odpowiedzialności, ale wspólnym celem jest ochrona systemów, danych i użytkowników.
 
-## 👨‍💻 Security Engineer
+##  Security Engineer
 
 - Projektuje i wdraża zabezpieczenia techniczne.  
 - Wspiera zespół w analizie podatności, monitoringu, automatyzacji.  
 - Współpracuje z DevOps i developerami nad bezpiecznym SDLC.
 
-## 🧠 Security Analyst
+##  Security Analyst
 
 - Monitoruje alerty bezpieczeństwa w systemach SIEM/EDR.  
 - Przeprowadza analizę incydentów i raportuje zagrożenia.  
 - Ocenia ryzyko związane z wykrytymi anomaliami.
 
-## 🧱 Security Architect
+##  Security Architect
 
 - Projektuje architekturę bezpieczeństwa całej organizacji.  
 - Wybiera technologie, tworzy standardy i wzorce bezpieczeństwa.  

@@ -1,10 +1,10 @@
 ---
 id: "rozdzial-4-zarzadzanie"
-title: "🔍 Rozdział 4: Zarządzanie i monitorowanie"
+title: " Rozdział 4: Zarządzanie i monitorowanie"
 sidebar_position: 5
 ---
 
-### 🖥️ 4.1 Przegląd interfejsu
+###  4.1 Przegląd interfejsu
 
 Pi-hole posiada intuicyjny interfejs webowy, który umożliwia pełną kontrolę nad działaniem serwera DNS.
 
@@ -15,7 +15,7 @@ Pi-hole posiada intuicyjny interfejs webowy, który umożliwia pełną kontrolę
 
 2. Zaloguj się przy użyciu hasła administracyjnego.
 
-#### 📋 **Główne sekcje interfejsu:**
+####  **Główne sekcje interfejsu:**
 - **Dashboard:** Podgląd statystyk w czasie rzeczywistym.
 - **Query Log:** Szczegółowa lista zapytań DNS.
 - **Whitelist/Blacklist:** Zarządzanie dozwolonymi i zablokowanymi domenami.
@@ -23,7 +23,7 @@ Pi-hole posiada intuicyjny interfejs webowy, który umożliwia pełną kontrolę
 
 ---
 
-### 📊 4.2 Statystyki i logi
+###  4.2 Statystyki i logi
 
 #### ✅ **Podstawowe statystyki dostępne na Dashboardzie:**
 - Liczba zablokowanych zapytań.
@@ -31,7 +31,7 @@ Pi-hole posiada intuicyjny interfejs webowy, który umożliwia pełną kontrolę
 - Najczęściej blokowane domeny.
 - Urządzenia generujące najwięcej zapytań.
 
-#### 📁 **Dostęp do logów z poziomu terminala:**
+####  **Dostęp do logów z poziomu terminala:**
 1. Wyświetlenie najnowszych logów:
 ``````bash
 tail -f /var/log/pihole.log
@@ -60,7 +60,7 @@ pihole -g
 
 ---
 
-### ⚙️ 4.4 Zmiana ustawień DNS
+###  4.4 Zmiana ustawień DNS
 
 1. Przejdź do **Settings** → **DNS**.
 2. Wybierz preferowanego dostawcę DNS (np. Google, Cloudflare) lub wprowadź własne serwery DNS.
@@ -81,4 +81,4 @@ pihole restartdns
 
 ---
 
-**➡️ Przejdź do [Rozdziału 5: Zabezpieczenia i optymalizacja](./rozdzial-5-zabezpieczenia-optymalizacja.md), aby dowiedzieć się, jak zwiększyć bezpieczeństwo Pi-hole.** 🔒
+**➡️ Przejdź do [Rozdziału 5: Zabezpieczenia i optymalizacja](./rozdzial-5-zabezpieczenia-optymalizacja.md), aby dowiedzieć się, jak zwiększyć bezpieczeństwo Pi-hole.** 

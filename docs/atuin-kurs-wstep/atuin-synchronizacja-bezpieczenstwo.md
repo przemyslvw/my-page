@@ -1,16 +1,16 @@
 ---
 id: "atuin-kurs-synchronizacja-bezpieczenstwo"
-title: "☁️ Synchronizacja i bezpieczeństwo"
+title: " Synchronizacja i bezpieczeństwo"
 sidebar_position: 4
 ---
 
-# ☁️ Synchronizacja i bezpieczeństwo
+#  Synchronizacja i bezpieczeństwo
 
 Jedną z najważniejszych funkcji Atuin jest możliwość **synchronizacji historii komend** między wieloma urządzeniami oraz zapewnienie wysokiego poziomu bezpieczeństwa danych dzięki szyfrowaniu. W tym rozdziale dowiesz się, jak skonfigurować synchronizację i zadbać o prywatność swojej historii terminala.
 
 ---
 
-## 🌐 Synchronizacja z chmurą Atuin
+##  Synchronizacja z chmurą Atuin
 
 Atuin umożliwia synchronizację historii z chmurą, co pozwala na dostęp do swojej historii z dowolnego urządzenia.
 
@@ -75,7 +75,7 @@ sync_address = "http://adres.twojego.serwera:port"
 
 ---
 
-## 🛡️ Szyfrowanie historii komend
+##  Szyfrowanie historii komend
 
 Atuin automatycznie szyfruje historię komend przed wysłaniem jej do chmury lub własnego serwera.
 
@@ -139,4 +139,4 @@ atuin history clear --remote --local
 
 Dzięki synchronizacji możesz mieć dostęp do swojej historii komend z różnych urządzeń, a wbudowane szyfrowanie zapewnia bezpieczeństwo Twoich danych. W kolejnych rozdziałach dowiesz się, jak jeszcze bardziej spersonalizować Atuin oraz jak korzystać z zaawansowanych funkcji.
 
-➡️ **Przejdź do kolejnego rozdziału:** [📊 Statystyki i personalizacja](/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja)
+➡️ **Przejdź do kolejnego rozdziału:** [ Statystyki i personalizacja](/docs/atuin-kurs-wstep/atuin-kurs-statystyki-personalizacja)

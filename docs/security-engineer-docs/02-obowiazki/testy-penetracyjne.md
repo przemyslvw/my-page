@@ -13,7 +13,7 @@ Testy penetracyjne (pentesty) to kontrolowane ataki symulujące działania prawd
 - Ocena wpływu podatności na ciągłość działania i dane  
 - Przekazanie konkretnych zaleceń naprawczych zespołom technicznym
 
-## 🎯 Rodzaje testów penetracyjnych
+##  Rodzaje testów penetracyjnych
 
 - **White-box** – pełny dostęp do dokumentacji, kodu źródłowego, kont  
 - **Black-box** – brak wiedzy o systemie, symulacja zewnętrznego ataku  

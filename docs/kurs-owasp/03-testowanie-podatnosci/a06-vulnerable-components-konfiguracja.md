@@ -1,10 +1,10 @@
 ---
 id: "a06-vulnerable-components-konfiguracja"
-title: "⚙️ 3.6.3 – Weryfikacja konfiguracji aplikacji i serwera"
+title: " 3.6.3 – Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 28
 ---
 
-## ⚙️ Weryfikacja konfiguracji aplikacji i serwera
+##  Weryfikacja konfiguracji aplikacji i serwera
 
 Skupiamy się na ustawieniach, które mogą prowadzić do wykorzystania nieaktualnych lub podatnych komponentów. 
 

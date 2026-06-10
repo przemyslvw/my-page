@@ -1,6 +1,6 @@
 ---
 id: "narzedzia-wspierajace-testowanie"
-title: "📘 Narzędzia wspierające testowanie"
+title: " Narzędzia wspierające testowanie"
 sidebar_position: 10
 ---
 

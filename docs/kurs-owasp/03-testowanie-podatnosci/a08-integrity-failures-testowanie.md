@@ -1,10 +1,10 @@
 ---
 id: "a08-integrity-failures-testowanie"
-title: "🔍 3.8.2 – Metody testowania podatności"
+title: " 3.8.2 – Metody testowania podatności"
 sidebar_position: 37
 ---
 
-## 🔍 Metody testowania podatności: Software and Data Integrity Failures
+##  Metody testowania podatności: Software and Data Integrity Failures
 
 Testowanie tej klasy podatności wymaga weryfikacji przepływu danych, konfiguracji CI/CD oraz pochodzenia i kontroli nad kodem i zależnościami.
 

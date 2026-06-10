@@ -1,17 +1,16 @@
 ---
 id: "csrf"
 title: "Cross-Site Request Forgery (CSRF)"
-sidebar_label: "🎣 Cross-Site Request Forgery (CSRF)"
 sidebar_position: 14
 ---
 
-# 🎣 Cross-Site Request Forgery (CSRF)
+# Cross-Site Request Forgery (CSRF)
 
 CSRF (Cross-Site Request Forgery) to atak, w którym napastnik zmusza zalogowanego użytkownika do wykonania niezamierzonej akcji w aplikacji, której ten użytkownik ufa. Aplikacja wykonuje żądanie, bo przeglądarka automatycznie dołącza ciasteczka sesyjne — nawet jeśli żądanie pochodzi z obcej domeny.
 
 ---
 
-## 🧠 Jak działa CSRF?
+##  Jak działa CSRF?
 
 Warunki konieczne, by atak był możliwy:
 
@@ -63,7 +62,7 @@ Jeśli akcja zmieniająca stan jest dostępna przez GET (zły wzorzec) — wysta
 
 ---
 
-## 🛡️ Obejście zabezpieczeń CSRF
+##  Obejście zabezpieczeń CSRF
 
 ### **1️⃣ Token przesyłany, ale nieweryfikowany**
 Niektóre aplikacje generują token, ale go nie sprawdzają. Test: usuń parametr tokenu z żądania — jeśli akcja się powiedzie, ochrona jest pozorna.
@@ -100,7 +99,7 @@ Usunięcie nagłówka Referer może obejść walidację, jeśli serwer akceptuje
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed CSRF?
+##  Jak zabezpieczyć aplikację przed CSRF?
 ✅ **Stosuj anty-CSRF tokeny** (synchronizer token pattern) – unikalne per sesja/żądanie i weryfikowane po stronie serwera.
 ✅ **Ustaw `SameSite=Lax` lub `Strict`** dla ciasteczek sesyjnych.
 ✅ **Nie zmieniaj stanu przez żądania GET.**

@@ -4,13 +4,13 @@ title: "Cel i znaczenie testów bezpieczeństwa"
 sidebar_position: 1
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Zrozumienie **dlaczego testy bezpieczeństwa aplikacji webowych są absolutnie kluczowe** w dzisiejszym świecie, gdzie większość ataków cybernetycznych odbywa się przez warstwę aplikacyjną.
 
 ---
 
-## 🔍 Dlaczego testy bezpieczeństwa są ważne?
+##  Dlaczego testy bezpieczeństwa są ważne?
 
 - **90% ataków** na organizacje wykorzystuje luki w aplikacjach webowych (wg Verizon DBIR).
 - Aplikacje webowe to **otwarte drzwi** do danych, zasobów i infrastruktury organizacji.
@@ -23,7 +23,7 @@ Zrozumienie **dlaczego testy bezpieczeństwa aplikacji webowych są absolutnie k
 
 ---
 
-## ⚙️ Rodzaje testów bezpieczeństwa
+##  Rodzaje testów bezpieczeństwa
 
 | Typ testu | Opis |
 |----------|------|
@@ -44,7 +44,7 @@ Zrozumienie **dlaczego testy bezpieczeństwa aplikacji webowych są absolutnie k
 
 ---
 
-## 🧠 Praktyczna perspektywa
+##  Praktyczna perspektywa
 
 Bezpieczeństwo aplikacji to **nie tylko obowiązek**, ale **realne narzędzie przewagi konkurencyjnej**. Firmy, które traktują bezpieczeństwo poważnie, szybciej odzyskują zaufanie po incydentach i rzadziej są ich celem.
 

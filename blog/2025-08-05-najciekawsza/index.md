@@ -116,7 +116,7 @@ Złośliwa aktywność jest oceniana jako dzieło wietnamskojęzycznych cyberprz
 
 ---
 
-## ⚡ Tygodniowe podsumowanie bezpieczeństwa
+##  Tygodniowe podsumowanie bezpieczeństwa
 
 **VPN 0-Day, Backdoor w szyfrowaniu, złośliwe oprogramowanie AI, luka w macOS, atak na bankomaty i więcej**
 

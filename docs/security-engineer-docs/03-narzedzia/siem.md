@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Systemy SIEM (Security Information and Event Management) są kluczowym elementem architektury bezpieczeństwa organizacji. Pozwalają na centralizację logów, korelację zdarzeń oraz generowanie alertów w czasie rzeczywistym.
 
-## 🧠 Co robi SIEM?
+##  Co robi SIEM?
 
 - Zbiera logi z różnych źródeł: systemów operacyjnych, aplikacji, firewalli, EDR/XDR, baz danych
 - Koreluje zdarzenia na podstawie reguł i wzorców zagrożeń
@@ -14,7 +14,7 @@ Systemy SIEM (Security Information and Event Management) są kluczowym elementem
 - Archiwizuje dane dla celów audytowych i zgodności z regulacjami
 - Umożliwia analizy forensic po incydencie (kto, co, kiedy, jak)
 
-## 🔧 Przykładowe systemy SIEM
+##  Przykładowe systemy SIEM
 
 - **Splunk** – bardzo wydajny, szeroko stosowany, kosztowny
 - **Elastic Security (dawniej ELK + SIEM plugin)** – elastyczny, open-source
@@ -29,7 +29,7 @@ Systemy SIEM (Security Information and Event Management) są kluczowym elementem
 - **Dashboard / UI** – wizualizacje, raporty, filtrowanie danych
 - **Alerting engine** – reguły detekcji i generowanie powiadomień
 
-## ⚙️ Zastosowania SIEM w praktyce
+##  Zastosowania SIEM w praktyce
 
 - Detekcja malware, exploitów, brute-force, privilege escalation
 - Wczesne ostrzeganie o incydentach: ransomware, wycieki danych

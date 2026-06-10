@@ -4,7 +4,7 @@ title: "Struktura raportu OWASP Top 10 2025"
 sidebar_position: 1
 ---
 
-## 🧾 Struktura raportu bezpieczeństwa
+##  Struktura raportu bezpieczeństwa
 
 Raport bezpieczeństwa aplikacji webowej powinien być uporządkowany, czytelny i umożliwiać zespołom deweloperskim oraz zarządowi szybkie zrozumienie zagrożeń oraz rekomendacji. Poniżej znajduje się zalecana struktura raportu zgodna z analizą OWASP Top 10 2025.
 
@@ -20,7 +20,7 @@ Raport bezpieczeństwa aplikacji webowej powinien być uporządkowany, czytelny 
 
 ---
 
-### 🔍 2. Podsumowanie wykonanych testów
+###  2. Podsumowanie wykonanych testów
 
 - **Liczba wykrytych podatności**
 - **Ogólny poziom ryzyka (Low / Medium / High / Critical)**
@@ -28,7 +28,7 @@ Raport bezpieczeństwa aplikacji webowej powinien być uporządkowany, czytelny 
 
 ---
 
-### 🛡️ 3. Szczegółowa analiza podatności
+###  3. Szczegółowa analiza podatności
 
 Dla każdej wykrytej podatności:
 
@@ -43,7 +43,7 @@ Dla każdej wykrytej podatności:
 
 ---
 
-### ⚙️ 4. Weryfikacja konfiguracji
+###  4. Weryfikacja konfiguracji
 
 - **Bezpieczne nagłówki HTTP (np. CSP, HSTS)**
 - **Dostępność paneli administracyjnych**
@@ -53,7 +53,7 @@ Dla każdej wykrytej podatności:
 
 ---
 
-### 🔧 5. Narzędzia użyte podczas testów
+###  5. Narzędzia użyte podczas testów
 
 Podział na:
 
@@ -64,7 +64,7 @@ Wskazanie do jakich testów użyto konkretnego narzędzia.
 
 ---
 
-### 📈 6. Podsumowanie i rekomendacje końcowe
+###  6. Podsumowanie i rekomendacje końcowe
 
 - Lista krytycznych problemów wymagających natychmiastowej reakcji
 - Sugestie dotyczące poprawy procesów bezpieczeństwa (np. szkoleń, CI/CD)

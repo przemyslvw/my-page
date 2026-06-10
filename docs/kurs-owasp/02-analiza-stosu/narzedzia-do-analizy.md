@@ -4,7 +4,7 @@ title: "Narzędzia do analizy stosu technologicznego"
 sidebar_position: 2
 ---
 
-## 🎯 Cel rozdziału
+##  Cel rozdziału
 
 Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną identyfikację technologii używanych w aplikacjach webowych. Narzędzia te pomogą w:
 - profilowaniu aplikacji,
@@ -25,7 +25,7 @@ Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną iden
 
 ---
 
-### ⚙️ 2. Analiza serwera (backend)
+###  2. Analiza serwera (backend)
 
 | Narzędzie | Typ | Opis |
 |----------|-----|------|
@@ -35,7 +35,7 @@ Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną iden
 
 ---
 
-### 🧪 3. Narzędzia ofensywne z funkcją fingerprintingu
+###  3. Narzędzia ofensywne z funkcją fingerprintingu
 
 | Narzędzie | Typ | Opis |
 |----------|-----|------|
@@ -56,7 +56,7 @@ Poznasz narzędzia, które umożliwią automatyczną lub półautomatyczną iden
 
 ---
 
-## 🧪 Przykład: analiza przy pomocy curl + WhatWeb
+##  Przykład: analiza przy pomocy curl + WhatWeb
 
 ```bash
 curl -I https://example.com

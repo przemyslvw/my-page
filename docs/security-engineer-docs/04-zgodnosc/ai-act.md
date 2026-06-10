@@ -6,7 +6,7 @@ sidebar_position: 1
 
 AI Act to europejskie rozporządzenie mające na celu uregulowanie rozwoju i stosowania systemów sztucznej inteligencji. Z perspektywy Security Engineera oznacza to nowe obowiązki w zakresie oceny ryzyka, nadzoru nad modelami AI oraz zapewnienia zgodności z przepisami dotyczącymi bezpieczeństwa, przejrzystości i etyki.
 
-## 📘 Czym jest AI Act?
+##  Czym jest AI Act?
 
 - Rozporządzenie Parlamentu Europejskiego i Rady UE regulujące wykorzystanie AI w UE
 - Wprowadza klasyfikację systemów AI według poziomu ryzyka (minimalne, ograniczone, wysokie, zakazane)
@@ -20,7 +20,7 @@ AI Act to europejskie rozporządzenie mające na celu uregulowanie rozwoju i sto
 - **Ograniczonego ryzyka**: chatboty, systemy rekomendacji – muszą spełniać wymogi przejrzystości
 - **Minimalne ryzyko**: np. AI w grach, spam-filtry – niepodlegające regulacji
 
-## 🔐 Wymogi bezpieczeństwa
+##  Wymogi bezpieczeństwa
 
 - Ocena ryzyka AI przed wdrożeniem i w cyklu życia (continuous risk assessment)
 - Zabezpieczenia przed nadużyciami: manipulacją, diskriminacją, eskalacją uprawnień
@@ -28,7 +28,7 @@ AI Act to europejskie rozporządzenie mające na celu uregulowanie rozwoju i sto
 - Rejestrowanie działań AI (logi, metadane, decyzje)
 - Ograniczenie dostępu do modeli i danych – uwzględnienie bezpieczeństwa infrastruktury
 
-## 🧠 Obowiązki organizacji
+##  Obowiązki organizacji
 
 - Wdrożenie systemu zarządzania ryzykiem AI (AI Risk Management System)
 - Prowadzenie audytów technicznych i etycznych modeli

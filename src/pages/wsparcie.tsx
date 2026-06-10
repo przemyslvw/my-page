@@ -112,9 +112,9 @@ export default function WsparciePage(): JSX.Element {
 
                 <h3>Co zyskujesz?</h3>
                 <ul>
-                  <li>📚 Dostęp do unikalnych materiałów i poradników</li>
+                  <li> Dostęp do unikalnych materiałów i poradników</li>
                   <li>🚀 Szybsze odpowiedzi na pytania</li>
-                  <li>💡 Wpływ na tematykę kolejnych artykułów i projektów</li>
+                  <li> Wpływ na tematykę kolejnych artykułów i projektów</li>
                   <li>❤️ Satysfakcję wspierania niezależnego twórcy</li>
                 </ul>
 

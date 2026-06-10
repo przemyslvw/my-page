@@ -10,7 +10,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🔒 1. Projektuj z myślą o bezpieczeństwie (Security by Design)
+###  1. Projektuj z myślą o bezpieczeństwie (Security by Design)
 
 - Uwzględniaj wymagania bezpieczeństwa już na etapie analizy i projektowania.
 - Wybieraj architekturę i wzorce projektowe odporne na nadużycia (np. separacja ról, minimalizacja uprawnień).
@@ -18,7 +18,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🧼 2. Waliduj dane wejściowe na backendzie
+###  2. Waliduj dane wejściowe na backendzie
 
 - **Nigdy nie ufaj danym wejściowym** z formularzy, URL, cookies, API.
 - Walidacja po stronie frontend to tylko wygoda – backend powinien zawsze sprawdzać dane.
@@ -26,7 +26,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🔐 3. Wdrażaj silne mechanizmy uwierzytelniania i autoryzacji
+###  3. Wdrażaj silne mechanizmy uwierzytelniania i autoryzacji
 
 - Stosuj **dwuskładnikowe uwierzytelnianie (2FA)**.
 - Weryfikuj uprawnienia użytkownika przy każdym żądaniu (kontrola dostępu).
@@ -34,7 +34,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🧱 4. Ograniczaj powierzchnię ataku
+###  4. Ograniczaj powierzchnię ataku
 
 - Wyłącz nieużywane funkcje, endpointy, moduły.
 - Zablokuj dostęp do paneli administracyjnych z zewnątrz.
@@ -42,7 +42,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🔄 5. Aktualizuj komponenty i zależności
+###  5. Aktualizuj komponenty i zależności
 
 - Regularnie aktualizuj biblioteki frontend/backend (npm, pip, composer).
 - Monitoruj podatności (np. CVE) z pomocą narzędzi takich jak Snyk, OWASP Dependency-Check, GitHub Alerts.
@@ -58,7 +58,7 @@ Zabezpieczenie aplikacji webowej to nie jednorazowy zabieg, lecz **ciągły proc
 
 ---
 
-### 🧪 7. Testuj regularnie
+###  7. Testuj regularnie
 
 - Automatyczne skany (ZAP, Burp, Snyk, Trivy).
 - Manualne testy penetracyjne (co najmniej raz w roku).

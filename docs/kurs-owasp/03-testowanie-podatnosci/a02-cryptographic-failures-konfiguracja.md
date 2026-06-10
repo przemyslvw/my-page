@@ -1,16 +1,16 @@
 ---
 id: "a02-cryptographic-failures-konfiguracja"
-title: "⚙️ 3.2.3 – Weryfikacja konfiguracji aplikacji i serwera: Cryptographic Failures"
+title: " 3.2.3 – Weryfikacja konfiguracji aplikacji i serwera: Cryptographic Failures"
 sidebar_position: 8
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Zidentyfikować błędy konfiguracyjne w aplikacji i na serwerze, które mogą prowadzić do **Cryptographic Failures**.
 
 ---
 
-## 🔍 Co weryfikować?
+##  Co weryfikować?
 
 ### 1. HTTPS / TLS
 
@@ -39,7 +39,7 @@ Zidentyfikować błędy konfiguracyjne w aplikacji i na serwerze, które mogą p
 
 ---
 
-## 🧪 Przykład sprawdzenia TLS na serwerze (z linii poleceń)
+##  Przykład sprawdzenia TLS na serwerze (z linii poleceń)
 
 ```bash
 openssl s_client -connect example.com:443
@@ -52,7 +52,7 @@ Zwróć uwagę na:
 
 ---
 
-## 🧪 Przykład z nginx.conf
+##  Przykład z nginx.conf
 
 ```nginx
 ssl_protocols TLSv1.2 TLSv1.3;
@@ -62,7 +62,7 @@ add_header Strict-Transport-Security "max-age=31536000" always;
 
 ---
 
-## 🔒 Zła konfiguracja = podatność
+##  Zła konfiguracja = podatność
 
 Jeśli aplikacja:
 

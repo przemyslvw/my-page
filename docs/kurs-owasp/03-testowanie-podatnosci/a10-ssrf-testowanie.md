@@ -6,7 +6,7 @@ sidebar_position: 47
 
 # 🔬 Metody testowania podatności – Server-Side Request Forgery (SSRF) (A10:2025)
 
-## 🎯 Cel testowania
+##  Cel testowania
 
 Celem testowania SSRF jest wykrycie sytuacji, w której aplikacja wykonuje nieautoryzowane żądania HTTP do innych systemów – zarówno zewnętrznych, jak i wewnętrznych – w odpowiedzi na dane wejściowe od użytkownika.
 
@@ -40,7 +40,7 @@ http://[::1]/                 # IPv6 localhost
 
 ---
 
-### 3. 🧪 Payloady zaawansowane
+### 3.  Payloady zaawansowane
 
 - SSRF przez DNS rebind:
   ```
@@ -57,7 +57,7 @@ http://[::1]/                 # IPv6 localhost
 
 ---
 
-### 4. 📜 Analiza logów i monitorowanie ruchu
+### 4.  Analiza logów i monitorowanie ruchu
 
 - Użyj narzędzi takich jak `tcpdump`, `Wireshark` lub `ngrep` do monitorowania ruchu wychodzącego z serwera.
 - Sprawdź logi backendu – czy aplikacja próbowała uzyskać dostęp do nieautoryzowanych zasobów.

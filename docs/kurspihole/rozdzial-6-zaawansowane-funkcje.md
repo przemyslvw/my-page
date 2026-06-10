@@ -1,6 +1,6 @@
 ---
 id: "rozdzial-6-zaawansowane-funkcje"
-title: "📊 Rozdział 6: Zaawansowane funkcje"
+title: " Rozdział 6: Zaawansowane funkcje"
 sidebar_position: 7
 ---
 
@@ -53,7 +53,7 @@ sudo service unbound restart
 
 ---
 
-### 🛡️ 6.2 Konfiguracja VPN z WireGuard
+###  6.2 Konfiguracja VPN z WireGuard
 
 Dzięki VPN możesz korzystać z Pi-hole poza domową siecią.
 
@@ -99,7 +99,7 @@ sudo wg-quick up wg0
 
 ---
 
-### 📋 6.4 Tworzenie własnych list blokujących
+###  6.4 Tworzenie własnych list blokujących
 
 Jeśli chcesz stworzyć własną listę domen do zablokowania:
 
@@ -133,4 +133,4 @@ pihole -g
 
 ---
 
-**➡️ Przejdź do [Rozdziału 7: Rozwiązywanie problemów](./rozdzial-7-rozwiazywanie-problemow.md), aby dowiedzieć się, jak radzić sobie z najczęstszymi błędami.** 🧑‍💻
+**➡️ Przejdź do [Rozdziału 7: Rozwiązywanie problemów](./rozdzial-7-rozwiazywanie-problemow.md), aby dowiedzieć się, jak radzić sobie z najczęstszymi błędami.** 

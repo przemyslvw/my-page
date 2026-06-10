@@ -8,25 +8,25 @@ Checklisty zgodności pomagają upewnić się, że Twoja organizacja spełnia wy
 
 ## ✅ ISO 27001 – checklista
 
-### 🔐 Kontekst organizacji
+###  Kontekst organizacji
 
 - [ ] Zidentyfikowano wymagania interesariuszy (klienci, regulatorzy, partnerzy)?
 - [ ] Określono zakres Systemu Zarządzania Bezpieczeństwem Informacji (SZBI)?
 - [ ] Ustalono role i odpowiedzialności w zakresie bezpieczeństwa?
 
-### 📜 Polityki i procedury
+###  Polityki i procedury
 
 - [ ] Stworzono i zatwierdzono politykę bezpieczeństwa informacji?
 - [ ] Istnieją procedury zarządzania incydentami, backupem, dostępem?
 - [ ] Czy dokumentacja jest aktualizowana i kontrolowana?
 
-### 🧪 Ocena ryzyka
+###  Ocena ryzyka
 
 - [ ] Przeprowadzono analizę ryzyka i ocenę wpływu?
 - [ ] Wdrożono działania ograniczające ryzyka (kontrole)?
 - [ ] Okresowo weryfikowane są wyniki i zmieniające się ryzyka?
 
-### 🔄 Ciągłość działania i doskonalenie
+###  Ciągłość działania i doskonalenie
 
 - [ ] Czy funkcjonuje proces audytu wewnętrznego?
 - [ ] Czy odbywają się przeglądy zarządzania?
@@ -39,29 +39,29 @@ Checklisty zgodności pomagają upewnić się, że Twoja organizacja spełnia wy
 - [ ] Czy Twoja organizacja kwalifikuje się jako podmiot kluczowy lub ważny wg NIS2?
 - [ ] Zgłoszono dane kontaktowe do odpowiedniego organu nadzorczego?
 
-### 🔐 Wymogi techniczne i organizacyjne
+###  Wymogi techniczne i organizacyjne
 
 - [ ] Wdrożono system zarządzania ryzykiem cyber?
 - [ ] Czy zapewniono ochronę sieci i systemów przed zagrożeniami?
 - [ ] Czy prowadzone są szkolenia z zakresu cyberbezpieczeństwa?
 
-### 📢 Raportowanie incydentów
+###  Raportowanie incydentów
 
 - [ ] Czy istnieje procedura zgłaszania poważnych incydentów?
 - [ ] Czy incydenty są raportowane do CSIRT w wymaganym czasie (24–72h)?
 
-### 📚 Dokumentacja i dowody
+###  Dokumentacja i dowody
 
 - [ ] Czy prowadzone są rejestry incydentów?
 - [ ] Czy dostępne są dowody wdrożenia środków zabezpieczających?
 - [ ] Czy raporty i działania są archiwizowane zgodnie z wymogami?
 
-### 💬 Komunikacja z organami i klientami
+###  Komunikacja z organami i klientami
 
 - [ ] Czy organizacja potrafi skutecznie informować o incydentach osoby trzecie?
 - [ ] Czy komunikacja spełnia wymogi transparentności i czasu reakcji?
 
-## 🧩 Narzędzia wspierające zgodność
+##  Narzędzia wspierające zgodność
 
 - **ISMS Tooling**: Conformio, ISMS.online, Vanta
 - **Audyt i monitoring**: Wazuh, Elastic SIEM, Open-AudIT

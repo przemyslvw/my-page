@@ -41,8 +41,8 @@ Stosowane do zwalczania wrogich BSP.
 
 ### 5. Drony FPV Bojowe 
 Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które umożliwiają operatorowi obserwację z perspektywy pierwszej osoby za pomocą kamery umieszczonej na dronie. W wersji bojowej są one często modyfikowane do przenoszenia ładunków wybuchowych lub do misji samobójczych (*kamikaze*).
-🎯 Kluczowe Cechy Bojowych Dronów FPV:
-- 📡 **Precyzyjne sterowanie** – operator widzi obraz w czasie rzeczywistym, co pozwala na precyzyjne trafienie w cel.
+ Kluczowe Cechy Bojowych Dronów FPV:
+-  **Precyzyjne sterowanie** – operator widzi obraz w czasie rzeczywistym, co pozwala na precyzyjne trafienie w cel.
 - 💥 **Ładunek wybuchowy** – możliwość przenoszenia granatów, ładunków C4 lub innych materiałów wybuchowych.
 - 🛠️ **Łatwość modyfikacji** – często oparte na komercyjnych dronach wyścigowych, co obniża koszty produkcji.
 - 💰 **Niski koszt produkcji** – w porównaniu do tradycyjnych dronów bojowych.
@@ -50,7 +50,7 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ---
 
-## ⚙️ Technologie w Dronach Wojskowych
+##  Technologie w Dronach Wojskowych
 
 - **Satelitarne systemy komunikacji** (np. Starlink) umożliwiające zdalne sterowanie na duże odległości.
 - **Systemy stealth** pozwalające na trudniejsze wykrycie przez radary.
@@ -59,7 +59,7 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ---
 
-## 🌍 Wykorzystanie w Konfliktach Zbrojnych
+##  Wykorzystanie w Konfliktach Zbrojnych
 
 ### 🔹 **Ukraina – Rosja (2022–2025)**
 - Ukraińska armia wykorzystuje **FlyEye**, **Shark** i drony komercyjne DJI Mavic do rozpoznania i korygowania ognia artyleryjskiego.
@@ -72,16 +72,16 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ---
 
-## 📊 Przyszłość Wojskowych BSP
+##  Przyszłość Wojskowych BSP
 - Rozwój **roju dronów** zdolnych do współpracy i autonomicznych decyzji.
 - Integracja z **systemami walki radioelektronicznej** (REB) w celu neutralizacji przeciwnika.
 - Prace nad **miniaturowymi dronami szpiegowskimi** do misji w terenie zurbanizowanym.
 
 ---
 
-## ⚡ Drony Odporne na Zagłuszanie
+##  Drony Odporne na Zagłuszanie
 
-### 📊 Kluczowe Cechy:
+###  Kluczowe Cechy:
 - Brak podatności na zakłócenia radiowe i sygnały GPS.
 - Wykorzystanie sztucznej inteligencji (AI) do autonomicznych misji.
 - Zaawansowane systemy wizji komputerowej do orientacji w terenie.
@@ -98,7 +98,7 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 
 ## 🔌 Drony Sterowane Światłowodem
 
-### 📊 Zalety:
+###  Zalety:
 - Brak emisji sygnału radiowego – trudne do wykrycia.
 - Wysoka odporność na zakłócenia elektromagnetyczne.
 - Stabilna transmisja danych na duże odległości.
@@ -125,6 +125,6 @@ Drony **FPV** (*First Person View*) to bezzałogowe statki powietrzne, które um
 ---
 
 
-## 📖 Podsumowanie
+##  Podsumowanie
 Drony wojskowe stały się nieodłącznym elementem współczesnych konfliktów zbrojnych. Ich zdolność do prowadzenia misji bez narażania życia pilotów, precyzja ataków i szerokie zastosowanie czynią je kluczowym narzędziem w arsenale armii na całym świecie.
 """

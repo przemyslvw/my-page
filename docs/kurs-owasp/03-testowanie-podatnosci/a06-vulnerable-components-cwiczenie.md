@@ -1,10 +1,10 @@
 ---
 id: "a06-vulnerable-components-cwiczenie"
-title: "🧪 3.6.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
+title: " 3.6.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 30
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 W tym ćwiczeniu:
 - przeskanujesz zależności aplikacji pod kątem znanych podatności,
@@ -13,7 +13,7 @@ W tym ćwiczeniu:
 
 ---
 
-## 🧪 Scenariusz testowy
+##  Scenariusz testowy
 
 **Aplikacja:** Prosty backend Node.js z plikiem `package.json`.
 
@@ -29,7 +29,7 @@ W tym ćwiczeniu:
 
 ---
 
-## 🧪 Krok 1: Uruchom test `npm audit`
+##  Krok 1: Uruchom test `npm audit`
 
 ```bash
 npm audit
@@ -43,7 +43,7 @@ found 2 vulnerabilities (1 moderate, 1 high)
 
 ---
 
-## 🧪 Krok 2: Test przy pomocy `Snyk`
+##  Krok 2: Test przy pomocy `Snyk`
 
 ```bash
 snyk test
@@ -55,7 +55,7 @@ snyk test
 
 ---
 
-## 🧪 Krok 3: Analiza z `Grype`
+##  Krok 3: Analiza z `Grype`
 
 Jeśli aplikacja jest w kontenerze:
 
@@ -94,7 +94,7 @@ npm audit || exit 1
 
 ---
 
-## 🧠 Dodatkowe scenariusze
+##  Dodatkowe scenariusze
 
 - Przetestuj obraz Docker (`trivy`, `dockle`, `grype`)
 - Przeskanuj zależności Python: `pip-audit`

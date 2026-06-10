@@ -50,7 +50,7 @@ Cyberbezpieczeństwo staje się kluczowym elementem w niemal każdym sektorze go
 - Ataki na dane treningowe, manipulacja modelami
 - Nadzór regulacyjny – AI Act, etyka i zgodność
 
-## 📈 Trendy
+##  Trendy
 
 - Coraz więcej sektorów **reguluje kwestie bezpieczeństwa prawnie**
 - Sektor prywatny inwestuje w **Bug Bounty** i **Threat Intelligence**

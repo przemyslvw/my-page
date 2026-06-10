@@ -1,16 +1,16 @@
 ---
 id: "a03-injection-testowanie"
-title: "🧪 3.3.2 – Metody testowania podatności"
+title: " 3.3.2 – Metody testowania podatności"
 sidebar_position: 12
 ---
 
-## 🎯 Cel sekcji
+##  Cel sekcji
 
 Poznać skuteczne techniki wykrywania podatności typu **Injection**, w szczególności SQL Injection, Command Injection i NoSQL Injection – zarówno manualnie, jak i za pomocą narzędzi.
 
 ---
 
-## 🧪 Test 1: SQL Injection (ręczny)
+##  Test 1: SQL Injection (ręczny)
 
 ### Kroki:
 1. Zidentyfikuj punkt wejścia: formularz logowania, pole wyszukiwania, parametr w URL.
@@ -29,7 +29,7 @@ admin' --
 
 ---
 
-## 🧪 Test 2: Command Injection
+##  Test 2: Command Injection
 
 ### Kroki:
 1. Zidentyfikuj funkcję wykonującą polecenia systemowe (np. ping, traceroute, zip upload).
@@ -49,7 +49,7 @@ lub
 
 ---
 
-## 🧪 Test 3: NoSQL Injection (np. MongoDB)
+##  Test 3: NoSQL Injection (np. MongoDB)
 
 ### Kroki:
 1. Zlokalizuj API lub formularz korzystający z MongoDB.
@@ -69,7 +69,7 @@ username[$ne]=1&password[$ne]=1
 
 ---
 
-## 🧪 Test 4: LDAP Injection
+##  Test 4: LDAP Injection
 
 ```ldap
 *)(uid=*))(|(uid=*
@@ -94,7 +94,7 @@ sqlmap -u "http://example.com/item?id=1" --batch --banner
 
 ---
 
-## 🧠 Wskazówki
+##  Wskazówki
 
 - Szukaj parametrów, które wpływają na logikę zapytania.
 - Wstrzykuj dane krok po kroku i obserwuj reakcję aplikacji.

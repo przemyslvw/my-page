@@ -6,14 +6,14 @@ sidebar_position: 1
 
 RODO (Rozporządzenie o Ochronie Danych Osobowych), znane także jako GDPR (General Data Protection Regulation), to kluczowy akt prawny w zakresie ochrony danych osobowych w Unii Europejskiej. Dla Security Engineera oznacza obowiązek wdrażania środków technicznych i organizacyjnych, które zapewniają zgodność systemów IT z zasadami ochrony danych.
 
-## 📘 Czym jest RODO?
+##  Czym jest RODO?
 
 - Unijne rozporządzenie obowiązujące od 25 maja 2018 roku
 - Ma zastosowanie do każdej organizacji przetwarzającej dane osobowe obywateli UE
 - Dotyczy danych klientów, pracowników, użytkowników – wszelkich osób fizycznych
 - Naruszenia RODO mogą skutkować karami do 20 milionów euro lub 4% rocznego obrotu firmy
 
-## 🔒 Główne zasady RODO
+##  Główne zasady RODO
 
 - **Legalność i przejrzystość** – dane muszą być przetwarzane zgodnie z prawem i jasno komunikowane
 - **Ograniczenie celu** – dane mogą być wykorzystywane tylko do jasno określonych celów
@@ -23,7 +23,7 @@ RODO (Rozporządzenie o Ochronie Danych Osobowych), znane także jako GDPR (Gene
 - **Integralność i poufność** – dane muszą być chronione przed nieautoryzowanym dostępem
 - **Rozliczalność** – organizacja musi być w stanie wykazać zgodność z zasadami
 
-## 🔧 Rola Security Engineera
+##  Rola Security Engineera
 
 - Zapewnienie, że systemy spełniają wymogi Privacy by Design i Privacy by Default
 - Wdrażanie mechanizmów anonimizacji, pseudonimizacji i szyfrowania danych

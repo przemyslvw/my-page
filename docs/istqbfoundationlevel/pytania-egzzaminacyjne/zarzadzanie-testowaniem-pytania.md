@@ -1,10 +1,10 @@
 ---
 id: "zarzadzanie-testowaniem-pytania"
-title: "📘 Zarządzanie testowaniem - Pytania egzaminacyjne"
+title: " Zarządzanie testowaniem - Pytania egzaminacyjne"
 sidebar_position: 16
 ---
 
-# 📘 Zarządzanie testowaniem - Pytania egzaminacyjne
+#  Zarządzanie testowaniem - Pytania egzaminacyjne
 
 ## Przykładowe pytania
 

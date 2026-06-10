@@ -29,7 +29,7 @@ sidebar_position: 11
 
 ---
 
-## 🧪 Typowe źródła podatności
+##  Typowe źródła podatności
 
 - Dynamiczne konstruowanie zapytań bez sanitizacji danych.
 - Wstrzykiwanie danych wejściowych bez użycia parametrów (`prepared statements`).
@@ -38,7 +38,7 @@ sidebar_position: 11
 
 ---
 
-## 🧱 Przykład – SQL Injection (klasyczny)
+##  Przykład – SQL Injection (klasyczny)
 
 ```sql
 SELECT * FROM users WHERE username = 'admin' AND password = 'admin123';
@@ -70,7 +70,7 @@ Injection znajduje się w OWASP Top 10 od początku jego istnienia – ze wzglę
 
 ---
 
-## 🧠 Podsumowanie
+##  Podsumowanie
 
 Injection to krytyczna podatność, której można łatwo uniknąć przy użyciu:
 - przygotowanych zapytań (prepared statements),

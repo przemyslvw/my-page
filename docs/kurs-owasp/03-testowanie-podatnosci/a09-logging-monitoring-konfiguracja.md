@@ -4,9 +4,9 @@ title: "Weryfikacja konfiguracji aplikacji i serwera"
 sidebar_position: 43
 ---
 
-# ⚙️ Weryfikacja konfiguracji aplikacji i serwera – Security Logging and Monitoring Failures (A09:2025)
+#  Weryfikacja konfiguracji aplikacji i serwera – Security Logging and Monitoring Failures (A09:2025)
 
-## 🎯 Cel
+##  Cel
 
 Zweryfikowanie, czy konfiguracja aplikacji i środowiska serwerowego zapewnia skuteczne logowanie i monitorowanie zdarzeń bezpieczeństwa, zgodnie z zasadami dobrej praktyki i wymaganiami regulacyjnymi (np. RODO, ISO 27001, NIS2).
 
@@ -48,7 +48,7 @@ Zweryfikowanie, czy konfiguracja aplikacji i środowiska serwerowego zapewnia sk
 
 ---
 
-## 🧪 Przykładowe kontrole
+##  Przykładowe kontrole
 
 | Obszar | Przykład konfiguracji | Wartość oczekiwana |
 |--------|------------------------|---------------------|

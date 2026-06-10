@@ -1,16 +1,16 @@
 ---
 id: "a07-authentication-failures-opis"
-title: "🔐 3.7.1 – Opis podatności i jej wpływ"
+title: " 3.7.1 – Opis podatności i jej wpływ"
 sidebar_position: 31
 ---
 
-## 🔐 A07:2025 – Identification and Authentication Failures
+##  A07:2025 – Identification and Authentication Failures
 
 Podatności w zakresie **identyfikacji i uwierzytelniania użytkowników** prowadzą do przejęcia kont, eskalacji uprawnień lub obejścia mechanizmów kontroli dostępu.
 
 ---
 
-### 🧠 Na czym polega problem?
+###  Na czym polega problem?
 
 Aplikacje często błędnie implementują:
 
@@ -34,7 +34,7 @@ Aplikacje często błędnie implementują:
 
 ---
 
-### 🎯 Skutki podatności
+###  Skutki podatności
 
 - Pełne przejęcie kont użytkowników (w tym adminów).
 - Kradzież danych osobowych i wrażliwych.
@@ -43,7 +43,7 @@ Aplikacje często błędnie implementują:
 
 ---
 
-### 📊 Statystyki i występowanie
+###  Statystyki i występowanie
 
 - Jedna z najczęściej wykrywanych podatności w testach manualnych.
 - Często łączy się z IDOR, Broken Access Control lub Session Fixation.

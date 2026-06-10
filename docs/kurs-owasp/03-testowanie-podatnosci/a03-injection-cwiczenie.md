@@ -1,16 +1,16 @@
 ---
 id: "a03-injection-cwiczenie"
-title: "🧪 3.3.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
+title: " 3.3.5 – Praktyczne ćwiczenie: Testowanie i mitigacja"
 sidebar_position: 15
 ---
 
-## 🎯 Cel ćwiczenia
+##  Cel ćwiczenia
 
 Nauczyć się identyfikować, wykorzystywać i łagodzić podatności **Injection**, w szczególności **SQL Injection** i **Command Injection**, w realistycznym środowisku.
 
 ---
 
-## 🧪 Scenariusz testowy 1: SQL Injection (klasyczny)
+##  Scenariusz testowy 1: SQL Injection (klasyczny)
 
 **Aplikacja:** Formularz logowania lub wyszukiwania w aplikacji webowej (np. DVWA, Juice Shop, testowa aplikacja ASP.NET/PHP)
 
@@ -45,7 +45,7 @@ sqlmap -u "http://localhost/app.php?id=1" --dbs
 
 ---
 
-## 🧪 Scenariusz testowy 2: Command Injection
+##  Scenariusz testowy 2: Command Injection
 
 **Aplikacja:** Formularz pingowania IP w panelu admina
 
@@ -99,7 +99,7 @@ new SqlCommand("SELECT * FROM Users WHERE Username = @username", connection)
 
 ---
 
-## 📋 Zadania do wykonania
+##  Zadania do wykonania
 
 - [ ] Zidentyfikuj co najmniej jedną lukę Injection (SQLi lub Command).
 - [ ] Udokumentuj testy i payloady.
@@ -109,7 +109,7 @@ new SqlCommand("SELECT * FROM Users WHERE Username = @username", connection)
 ---
 
 
-## 🧠 Dodatkowe scenariusze
+##  Dodatkowe scenariusze
 
 ### 1. 🧬 NoSQL Injection (MongoDB)
 
@@ -133,7 +133,7 @@ username[$ne]=1&password[$ne]=1
 
 ---
 
-### 2. 🧾 LDAP Injection
+### 2.  LDAP Injection
 
 **Payload:**
 
@@ -151,7 +151,7 @@ string safeFilter = $"(uid={EscapeLdap(userInput)})";
 
 ---
 
-### 3. 🧪 eval() / exec() w backendzie Node.js lub Python
+### 3.  eval() / exec() w backendzie Node.js lub Python
 
 #### Node.js
 
@@ -171,7 +171,7 @@ exec(user_input)  # ❌ podatne
 
 ---
 
-### 4. 💻 .NET – dynamiczna kompilacja i wykonywanie kodu
+### 4.  .NET – dynamiczna kompilacja i wykonywanie kodu
 
 **Przykład zagrożenia:**
 

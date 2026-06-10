@@ -1,6 +1,6 @@
 ---
 id: "podstawy-testowania-siedem-zasad-testowania"
-title: "📘 Siedem zasad testowania"
+title: " Siedem zasad testowania"
 sidebar_position: 3
 ---
 

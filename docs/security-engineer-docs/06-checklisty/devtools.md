@@ -8,7 +8,7 @@ Checklisty to praktyczne narzędzie, które pomaga zachować spójność, dokła
 
 ## ✅ DevTools – checklista bezpieczeństwa
 
-### 🔐 Nagłówki bezpieczeństwa
+###  Nagłówki bezpieczeństwa
 
 - [ ] Czy strona ustawia poprawnie **Content-Security-Policy (CSP)**?
 - [ ] Czy włączony jest **HTTP Strict Transport Security (HSTS)**?
@@ -31,25 +31,25 @@ Checklisty to praktyczne narzędzie, które pomaga zachować spójność, dokła
 - [ ] Czy można zmieniać ID zasobów i uzyskiwać dostęp do cudzych danych (test na **IDOR**)?
 - [ ] Czy endpointy są dostępne po stronie frontendu, mimo że nie powinny?
 
-### 🧪 Testowanie autoryzacji
+###  Testowanie autoryzacji
 
 - [ ] Czy po zalogowaniu jako inna rola (np. zwykły użytkownik vs admin) frontend ukrywa dane, ale backend je nadal zwraca?
 - [ ] Czy można zmienić `Authorization` header w requestach?
 - [ ] Czy usunięcie lub modyfikacja tokena skutkuje odrzuceniem zapytania?
 
-### 🔍 Debug i metadane
+###  Debug i metadane
 
 - [ ] Czy console.log nie ujawnia wrażliwych informacji (np. tokeny, dane użytkownika)?
 - [ ] Czy w DevTools nie ma dostępnych ukrytych endpointów, np. w zakładce „Network”?
 - [ ] Czy nie wyciekają dane środowiskowe w `window.__env`, `window.config`, itp.?
 
-### 💡 Inne
+###  Inne
 
 - [ ] Czy aplikacja posiada wersjonowanie plików JS/CSS (cache busting)?
 - [ ] Czy brakujące zasoby zwracają poprawnie błąd 404 (nie np. 200 z pustą stroną)?
 - [ ] Czy skrypty z zewnętrznych źródeł są ograniczone (np. tylko zaufane domeny)?
 
-## 🔧 Przydatne narzędzia i dodatki
+##  Przydatne narzędzia i dodatki
 
 - **Lighthouse (wbudowane w Chrome)** – audyt bezpieczeństwa i wydajności
 - **Wappalyzer / BuiltWith** – identyfikacja używanych technologii

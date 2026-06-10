@@ -10,7 +10,7 @@ Skuteczne testowanie logowania i monitorowania wymaga użycia narzędzi do anali
 
 ---
 
-## 🔍 Kategoria 1: Analiza logów i zdarzeń
+##  Kategoria 1: Analiza logów i zdarzeń
 
 | Narzędzie | Typ | Opis |
 |----------|------|------|
@@ -22,7 +22,7 @@ Skuteczne testowanie logowania i monitorowania wymaga użycia narzędzi do anali
 
 ---
 
-## 📈 Kategoria 2: Monitorowanie i alertowanie
+##  Kategoria 2: Monitorowanie i alertowanie
 
 | Narzędzie | Typ | Opis |
 |----------|------|------|
@@ -34,7 +34,7 @@ Skuteczne testowanie logowania i monitorowania wymaga użycia narzędzi do anali
 
 ---
 
-## 🧪 Kategoria 3: Generowanie zdarzeń testowych
+##  Kategoria 3: Generowanie zdarzeń testowych
 
 | Narzędzie | Typ | Opis |
 |----------|------|------|
@@ -45,7 +45,7 @@ Skuteczne testowanie logowania i monitorowania wymaga użycia narzędzi do anali
 
 ---
 
-## 🧩 Kategoria 4: Testowanie jakości logów
+##  Kategoria 4: Testowanie jakości logów
 
 | Narzędzie | Typ | Opis |
 |----------|------|------|

@@ -1,12 +1,12 @@
 ---
 id: "zalaczniki"
-title: "📁 Załączniki"
+title: " Załączniki"
 sidebar_position: 10
 ---
 
-# 📁 Załączniki
+#  Załączniki
 
-## 📜 Przydatne listy blokujące
+##  Przydatne listy blokujące
 
 Aby zwiększyć skuteczność Pi-hole w blokowaniu niechcianych treści, warto dodać sprawdzone listy blokujące. Poniżej znajduje się lista rekomendowanych źródeł:
 
@@ -20,7 +20,7 @@ Aby zwiększyć skuteczność Pi-hole w blokowaniu niechcianych treści, warto d
 
 **Uwaga**: Przed dodaniem nowych list do Pi-hole upewnij się, że są one regularnie aktualizowane i pochodzą z zaufanych źródeł. Dodanie zbyt wielu list może wpłynąć na wydajność oraz powodować fałszywe blokady.
 
-## 📖 Słownik pojęć
+##  Słownik pojęć
 
 - **DNS (Domain Name System)**: System zamieniający nazwy domen (np. www.przyklad.com) na adresy IP zrozumiałe dla komputerów.
 

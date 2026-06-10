@@ -6,21 +6,21 @@ sidebar_position: 1
 
 W świecie cyberbezpieczeństwa istnieje wiele możliwych ścieżek kariery oraz certyfikacji. Wybór odpowiedniej zależy od Twoich celów zawodowych, aktualnego poziomu wiedzy i specjalizacji (Red Team, Blue Team, GRC, DevSecOps itd.). Poniżej przedstawiono poglądowe ścieżki oraz logiczną kolejność zdobywania certyfikatów.
 
-## 🧠 Początkujący – Fundamenty bezpieczeństwa
+##  Początkujący – Fundamenty bezpieczeństwa
 
-### 🎓 Wiedza ogólna
+###  Wiedza ogólna
 - [ ] **CompTIA Security+** – wprowadzenie do bezpieczeństwa IT, popularne u rekruterów
 - [ ] **ISC2 Certified in Cybersecurity (CC)** – darmowa opcja dla początkujących
 - [ ] **Google Cybersecurity Certificate** – program Coursera dla osób bez doświadczenia
 
-### 🔧 Umiejętności praktyczne
+###  Umiejętności praktyczne
 - [ ] **TryHackMe / Hack The Box ścieżki edukacyjne**
 - [ ] **TCM PNPT (Practical Network Penetration Tester)** – dobre przygotowanie do świata Red Teamu
 - [ ] **eLearnSecurity eJPT** – pierwszy praktyczny certyfikat pentesterski
 
 ---
 
-## 🛡️ Blue Team – Obrona i monitoring
+##  Blue Team – Obrona i monitoring
 
 - [ ] **CompTIA CySA+** – analiza zagrożeń, detekcja i reagowanie
 - [ ] **Blue Team Level 1 (BTL1)** – realne scenariusze detekcji i analizy
@@ -28,7 +28,7 @@ W świecie cyberbezpieczeństwa istnieje wiele możliwych ścieżek kariery oraz
 
 ---
 
-## 🕵️‍♂️ Red Team – Ofensywa i testy penetracyjne
+##  Red Team – Ofensywa i testy penetracyjne
 
 - [ ] **PNPT (TCM Security)** – eksploracja sieci, AD, raportowanie
 - [ ] **OSCP (Offensive Security)** – najbardziej rozpoznawalny certyfikat pentesterski
@@ -45,7 +45,7 @@ W świecie cyberbezpieczeństwa istnieje wiele możliwych ścieżek kariery oraz
 
 ---
 
-## ⚙️ DevSecOps – automatyzacja i chmura
+##  DevSecOps – automatyzacja i chmura
 
 - [ ] **AWS Security Specialty / Azure Security Engineer**
 - [ ] **Certified Kubernetes Security Specialist (CKS)**
@@ -54,7 +54,7 @@ W świecie cyberbezpieczeństwa istnieje wiele możliwych ścieżek kariery oraz
 
 ---
 
-## 🧭 Jak wybrać ścieżkę?
+##  Jak wybrać ścieżkę?
 
 1. **Zidentyfikuj swój cel zawodowy** – SOC Analyst? Pentester? DevSecOps?
 2. **Sprawdź wymagania rynkowe** – czego oczekują pracodawcy?

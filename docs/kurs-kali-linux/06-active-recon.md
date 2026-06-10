@@ -1,17 +1,16 @@
 ---
 id: "active-recon"
 title: "Active Recon – interaktywne skanowanie"
-sidebar_label: "🔍 Active Recon – interaktywne skanowanie"
 sidebar_position: 6
 ---
 
-# 🔍 Active Recon – interaktywne skanowanie
+# Active Recon – interaktywne skanowanie
 
 Active Recon (aktywne rozpoznanie) to etap, w którym wchodzimy w interakcję z celem, wysyłając zapytania sieciowe w celu identyfikacji dostępnych usług, podatności i ukrytych zasobów.
 
 ---
 
-## 📡 Skanowanie portów (Nmap)
+##  Skanowanie portów (Nmap)
 Nmap (Network Mapper) to jedno z najpotężniejszych narzędzi do skanowania sieci i wykrywania usług.
 
 ### **1️⃣ Podstawowe skanowanie**
@@ -114,7 +113,7 @@ To pozwala znaleźć ukryte parametry w aplikacji.
 
 ---
 
-## 🖥️ Fingerprinting aplikacji webowych
+##  Fingerprinting aplikacji webowych
 Fingerprinting pozwala określić, jakie technologie i frameworki są używane przez aplikację.
 
 ### **1️⃣ Wappalyzer – analiza technologii**

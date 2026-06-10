@@ -1,10 +1,10 @@
 ---
 id: "a02-cryptographic-failures-opis"
-title: "🔐 3.2.1 – Cryptographic Failures: Opis podatności i jej wpływ"
+title: " 3.2.1 – Cryptographic Failures: Opis podatności i jej wpływ"
 sidebar_position: 6
 ---
 
-## 🧩 Czym są Cryptographic Failures?
+##  Czym są Cryptographic Failures?
 
 **Cryptographic Failures** to klasa podatności wynikających z nieprawidłowego stosowania mechanizmów kryptograficznych – zarówno w kontekście szyfrowania danych, jak i ich ochrony przed nieautoryzowanym dostępem, modyfikacją lub ujawnieniem.
 
@@ -38,7 +38,7 @@ sidebar_position: 6
 
 ---
 
-## 📘 Przypadki użycia
+##  Przypadki użycia
 
 | Scenariusz | Opis | Poziom ryzyka |
 |------------|------|----------------|
@@ -49,7 +49,7 @@ sidebar_position: 6
 
 ---
 
-## 🧠 Podsumowanie
+##  Podsumowanie
 
 Podatności kryptograficzne rzadko wynikają z błędów w samych algorytmach – częściej są efektem ich **niewłaściwego użycia lub konfiguracji**. Nawet silny algorytm może być bezużyteczny, jeśli zastosowany bez odpowiednich praktyk bezpieczeństwa.
 

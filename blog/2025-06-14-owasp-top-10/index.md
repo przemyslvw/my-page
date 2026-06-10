@@ -1,6 +1,6 @@
 ---
 slug: kurs-owasp-top10-2025
-title: "🛡️ Kurs praktyczny: Testowanie bezpieczeństwa aplikacji webowych – OWASP Top 10 2025"
+title: " Kurs praktyczny: Testowanie bezpieczeństwa aplikacji webowych – OWASP Top 10 2025"
 authors: [przemyslvw]
 tags: ["owasp", "cybersecurity", "pentesting", "web-security", "kurs"]
 date: 2025-06-14
@@ -13,7 +13,7 @@ Stworzyliśmy **praktyczny kurs**, który prowadzi Cię krok po kroku przez wszy
 
 <!-- truncate -->
 
-## 🔍 Co zawiera kurs?
+##  Co zawiera kurs?
 
 - Analizę stosu technologicznego aplikacji (frontend, backend, serwer)
 - Omówienie każdej podatności z OWASP Top 10 2025:
@@ -32,7 +32,7 @@ Stworzyliśmy **praktyczny kurs**, który prowadzi Cię krok po kroku przez wszy
 - Ćwiczenia praktyczne dla każdej podatności
 - Generowanie finalnego **raportu bezpieczeństwa aplikacji**
 
-## 🎯 Dla kogo?
+##  Dla kogo?
 
 - Dla osób uczących się **pentestingu i bezpieczeństwa webowego**
 - Dla programistów, którzy chcą zrozumieć podatności w praktyce

@@ -1,6 +1,6 @@
 ---
 id: "testowanie-w-cyklu-zycia-oprogramowania"
-title: "📘 Testowanie w cyklu życia oprogramowania"
+title: " Testowanie w cyklu życia oprogramowania"
 sidebar_position: 6
 ---
 

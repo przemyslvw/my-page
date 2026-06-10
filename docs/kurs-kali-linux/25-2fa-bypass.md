@@ -1,11 +1,10 @@
 ---
 id: "2fa-bypass"
 title: "Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
-sidebar_label: "🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
 sidebar_position: 25
 ---
 
-# 🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)
+# Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)
 
 Uwierzytelnianie wieloskładnikowe (2FA) ma na celu zwiększenie bezpieczeństwa użytkownika poprzez dodatkowy etap weryfikacji, np. kod SMS, aplikację TOTP (Time-Based One-Time Password) lub klucz U2F. Jednak różne implementacje 2FA mogą być podatne na obejście.
 
@@ -75,7 +74,7 @@ Użytkownik myśli, że loguje się do prawdziwej strony, ale Modlishka przechwy
 
 ---
 
-## 🔐 Jak zabezpieczyć się przed 2FA Bypass?
+##  Jak zabezpieczyć się przed 2FA Bypass?
 ✅ **Używaj kluczy U2F/FIDO zamiast TOTP** – nie można ich przechwycić przez phishing.
 ✅ **Wykrywaj anomalie logowania** – analiza geolokalizacji i nowych urządzeń.
 ✅ **Blokuj logowanie na nowych urządzeniach bez dodatkowej weryfikacji**.
