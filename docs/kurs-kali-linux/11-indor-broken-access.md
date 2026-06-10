@@ -1,6 +1,7 @@
 ---
 id: "idor-broken-access"
-title: "🔐 Insecure Direct Object References (IDOR) & Broken Access Control"
+title: "Insecure Direct Object References (IDOR) & Broken Access Control"
+sidebar_label: "🔐 Insecure Direct Object References (IDOR) & Broken Access Control"
 sidebar_position: 11
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: "dependency-sca-devsecops"
-title: "🔗 Podatne zależności, SCA i DevSecOps"
+title: "Podatne zależności, SCA i DevSecOps"
+sidebar_label: "🔗 Podatne zależności, SCA i DevSecOps"
 sidebar_position: 29
 ---
 

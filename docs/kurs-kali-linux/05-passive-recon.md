@@ -1,6 +1,7 @@
 ---
 id: "passive-recon"
-title: "🕵️ Passive Recon – zbieranie informacji bez pozostawiania śladów"
+title: "Passive Recon – zbieranie informacji bez pozostawiania śladów"
+sidebar_label: "🕵️ Passive Recon – zbieranie informacji bez pozostawiania śladów"
 sidebar_position: 5
 ---
 

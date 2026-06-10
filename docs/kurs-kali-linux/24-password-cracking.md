@@ -1,6 +1,7 @@
 ---
 id: "password-cracking"
-title: "🔓 Łamanie haseł offline (Hashcat i John the Ripper)"
+title: "Łamanie haseł offline (Hashcat i John the Ripper)"
+sidebar_label: "🔓 Łamanie haseł offline (Hashcat i John the Ripper)"
 sidebar_position: 24
 ---
 

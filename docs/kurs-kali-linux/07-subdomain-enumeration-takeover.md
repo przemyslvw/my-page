@@ -1,6 +1,7 @@
 ---
 id: "subdomain-enumeration-takeover"
-title: "🌐 Enumeracja subdomen i Subdomain Takeover"
+title: "Enumeracja subdomen i Subdomain Takeover"
+sidebar_label: "🌐 Enumeracja subdomen i Subdomain Takeover"
 sidebar_position: 7
 ---
 

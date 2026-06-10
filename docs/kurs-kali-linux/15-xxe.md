@@ -1,6 +1,7 @@
 ---
 id: "xxe"
-title: "📄 XML External Entity (XXE)"
+title: "XML External Entity (XXE)"
+sidebar_label: "📄 XML External Entity (XXE)"
 sidebar_position: 15
 ---
 

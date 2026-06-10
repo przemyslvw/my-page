@@ -1,6 +1,7 @@
 ---
 id: "broken-authentication"
-title: "🔐 Broken Authentication & Session Management"
+title: "Broken Authentication & Session Management"
+sidebar_label: "🔐 Broken Authentication & Session Management"
 sidebar_position: 9
 ---
 

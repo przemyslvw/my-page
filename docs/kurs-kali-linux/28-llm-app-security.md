@@ -1,6 +1,7 @@
 ---
 id: "llm-app-security"
-title: "🤖 Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)"
+title: "Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)"
+sidebar_label: "🤖 Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)"
 sidebar_position: 28
 ---
 

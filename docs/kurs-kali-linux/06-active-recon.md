@@ -1,6 +1,7 @@
 ---
 id: "active-recon"
-title: "🔍 Active Recon – interaktywne skanowanie"
+title: "Active Recon – interaktywne skanowanie"
+sidebar_label: "🔍 Active Recon – interaktywne skanowanie"
 sidebar_position: 6
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: "oauth-oidc-saml"
-title: "🔑 Ataki na OAuth 2.0, OIDC i SAML"
+title: "Ataki na OAuth 2.0, OIDC i SAML"
+sidebar_label: "🔑 Ataki na OAuth 2.0, OIDC i SAML"
 sidebar_position: 18
 ---
 

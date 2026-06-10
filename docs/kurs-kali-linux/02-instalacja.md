@@ -1,6 +1,7 @@
 ---
 id: "instalacja-kali-linux"
-title: "🛠️ Instalacja i konfiguracja Kali Linux"
+title: "Instalacja i konfiguracja Kali Linux"
+sidebar_label: "🛠️ Instalacja i konfiguracja Kali Linux"
 sidebar_position: 2
 ---
 

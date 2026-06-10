@@ -1,6 +1,7 @@
 ---
 id: "injection-attacks"
-title: "💉 Injection Attacks (SQL Injection, Command Injection, LDAP Injection)"
+title: "Injection Attacks (SQL Injection, Command Injection, LDAP Injection)"
+sidebar_label: "💉 Injection Attacks (SQL Injection, Command Injection, LDAP Injection)"
 sidebar_position: 8
 ---
 

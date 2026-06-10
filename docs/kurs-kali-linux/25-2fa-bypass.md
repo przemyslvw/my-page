@@ -1,6 +1,7 @@
 ---
 id: "2fa-bypass"
-title: "🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
+title: "Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
+sidebar_label: "🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
 sidebar_position: 25
 ---
 

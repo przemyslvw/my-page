@@ -1,6 +1,7 @@
 ---
 id: "wstep-do-kursu"
-title: "📖 Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych"
+title: "Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych"
+sidebar_label: "📖 Wstęp do kursu Kali Linux – Testy penetracyjne aplikacji webowych"
 sidebar_position: 1
 ---
 

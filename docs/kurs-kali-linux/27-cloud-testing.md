@@ -1,6 +1,7 @@
 ---
 id: "cloud-testing"
-title: "☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
+title: "Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
+sidebar_label: "☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
 sidebar_position: 27
 ---
 

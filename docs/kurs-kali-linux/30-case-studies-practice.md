@@ -1,6 +1,7 @@
 ---
 id: "case-studies-practice"
-title: "🛠️ Case Studies i ćwiczenia praktyczne"
+title: "Case Studies i ćwiczenia praktyczne"
+sidebar_label: "🛠️ Case Studies i ćwiczenia praktyczne"
 sidebar_position: 30
 ---
 

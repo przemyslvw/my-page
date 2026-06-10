@@ -1,6 +1,7 @@
 ---
 id: "podstawowe-narzedzia-kali"
-title: "🛠️ Podstawowe narzędzia w Kali Linux"
+title: "Podstawowe narzędzia w Kali Linux"
+sidebar_label: "🛠️ Podstawowe narzędzia w Kali Linux"
 sidebar_position: 3
 ---
 

@@ -1,6 +1,7 @@
 ---
 id: "api-websockets-attacks"
-title: "🌐 Ataki na API i WebSockets"
+title: "Ataki na API i WebSockets"
+sidebar_label: "🌐 Ataki na API i WebSockets"
 sidebar_position: 26
 ---
 
