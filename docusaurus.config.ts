@@ -147,7 +147,7 @@ const config: Config = {
             },
             {
               label: 'Kurs Kali Linux',
-              to: '/docs/category/kali-linux--testy-penetracyjne-aplikacji-webowych',
+              to: '/docs/kurs-kali-linux',
             },
             {
               label: 'ISO27002',

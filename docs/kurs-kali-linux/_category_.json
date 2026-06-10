@@ -3,6 +3,7 @@
   "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Kali Linux – Testy penetracyjne aplikacji webowych"
+    "description": "Praktyczny i darmowy kurs Kali Linux. Poznaj techniki testowania bezpieczeństwa aplikacji webowych, metodologię pentestów oraz podatności z OWASP Top 10.",
+    "slug": "kurs-kali-linux"
   }
 }
