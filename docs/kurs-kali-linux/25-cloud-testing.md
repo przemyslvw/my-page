@@ -1,7 +1,7 @@
 ---
 id: "cloud-testing"
 title: "☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)"
-sidebar_position: 17
+sidebar_position: 25
 ---
 
 # ☁️ Testowanie aplikacji w chmurze (AWS, Azure, GCP)
@@ -178,4 +178,4 @@ Rozwiązanie: **Używanie zasad `deny policy` i regularny audyt uprawnień IAM.*
 
 ---
 
-Testowanie aplikacji w chmurze jest kluczowe dla bezpieczeństwa infrastruktury IT. Kolejnym krokiem będzie analiza podatności **Case Studies i ćwiczenia praktyczne**! 🚀
+Testowanie aplikacji w chmurze jest kluczowe dla bezpieczeństwa infrastruktury IT. Kolejnym krokiem będzie **Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM)**! 🚀

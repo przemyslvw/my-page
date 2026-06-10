@@ -77,7 +77,18 @@ Aby ćwiczyć ataki w bezpiecznym środowisku, warto skonfigurować aplikacje te
 git clone https://github.com/digininja/DVWA.git /var/www/html/dvwa
 cd /var/www/html/dvwa
 cp config/config.inc.php.dist config/config.inc.php
+```
+DVWA wymaga bazy MySQL/MariaDB — bez niej instalacja zatrzyma się na ekranie setup. Utwórz bazę i użytkownika zgodne z `config/config.inc.php`:
+```bash
+sudo systemctl start mariadb apache2
+sudo mysql -e "CREATE DATABASE dvwa;"
+sudo mysql -e "CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'p@ssw0rd';"
+sudo mysql -e "GRANT ALL ON dvwa.* TO 'dvwa'@'localhost'; FLUSH PRIVILEGES;"
 sudo systemctl restart apache2
+```
+Następnie wejdź na `http://localhost/dvwa/setup.php` i kliknij **„Create / Reset Database"**. Najprostsza alternatywa to gotowy obraz Docker:
+```bash
+docker run -d -p 80:80 vulnerables/web-dvwa
 ```
 
 ### **2️⃣ Instalacja OWASP Juice Shop**

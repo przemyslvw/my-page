@@ -1,7 +1,7 @@
 ---
 id: "automatyzacja-eksploatacja"
 title: "🤖 Automatyzacja i eksploatacja"
-sidebar_position: 13
+sidebar_position: 21
 ---
 
 # 🤖 Automatyzacja i eksploatacja
@@ -189,12 +189,7 @@ curl -s https://target.example.com | ollama run llama3 "Przeanalizuj te nagłów
 
 ### **6.2 5ire – Platforma AI dla pentesterów**
 
-5ire to interfejs do lokalnych modeli AI zintegrowany z Kali:
-
-```bash
-# Uruchomienie 5ire
-5ire --model ollama/llama3 --context pentest
-```
+5ire to **desktopowy klient AI** (aplikacja GUI z obsługą MCP), nie narzędzie CLI. Łączy się z lokalnymi modelami przez Ollama oraz z zewnętrznymi API. Po instalacji w ustawieniach wskazujesz endpoint Ollama (`http://localhost:11434`) i wybierasz model (np. `llama3`). Dzięki obsłudze **MCP (Model Context Protocol)** można podłączać narzędzia i konteksty pentesterskie do modelu.
 
 > ⚠️ **Ważne:** Nawet przy lokalnych modelach — nigdy nie wklejaj do LLM prawdziwych danych uwierzytelniających, haseł ani danych osobowych klientów.
 

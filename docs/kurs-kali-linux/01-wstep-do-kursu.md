@@ -44,6 +44,8 @@ Pentesterzy działają w ramach prawa, pomagając organizacjom w zabezpieczaniu 
 
 | Data | Zakres zmian |
 |------|-------------|
+| 10.06.2026 | Rozbudowa o moduły zaawansowane (poz. 17–20, 26): OAuth/OIDC/SAML, Logika biznesowa & Race Conditions, ataki Client-Side (CORS/Clickjacking/Prototype Pollution/postMessage), HTTP Request Smuggling & Web Cache Poisoning, Bezpieczeństwo aplikacji LLM/AI (OWASP Top 10 for LLM) |
+| 10.06.2026 | Domknięcie OWASP Top 10: nowe moduły CSRF, XXE, File Upload & Web Shells, Insecure Deserialization (poz. 13–16). Odświeżenie analizy incydentów (Log4Shell, MOVEit/CL0P, Citrix Bleed, XZ Utils), dodanie CVSS 4.0/EPSS/KEV. Poprawki: składnia Hydry (API), Evilginx 3.x, konfiguracja bazy DVWA, doprecyzowanie 5ire |
 | 18.04.2026 | Aktualizacja do Kali Linux 2026.1: nowe narzędzia (Atomic-Operator, AdaptixC2, XSStrike, SSTImap), sekcja AI/LLM w pentestach, uzupełnienie testów Azure, poprawki deprecated komend |
 
 To tyle we wstępie! Przejdźmy do kolejnego kroku – instalacji i konfiguracji Kali Linux. 🚀
