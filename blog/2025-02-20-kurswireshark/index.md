@@ -1,4 +1,5 @@
 ---
+slug: kurs-wireshark
 title: "Kurs Wireshark – Profesjonalne Wprowadzenie"
 description: "Zdobądź praktyczne umiejętności analizy ruchu sieciowego przy użyciu Wiresharka!"
 authors: [przemyslvw]

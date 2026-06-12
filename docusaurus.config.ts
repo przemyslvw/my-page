@@ -1,8 +1,32 @@
+import fs from 'fs';
+import path from 'path';
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+
+// Posty miały kiedyś adresy datowe (/blog/YYYY/MM/DD/nazwa-folderu), zanim
+// dostały jawne slugi. Google wciąż zna stare adresy (404 w Search Console),
+// więc generujemy przekierowania stary adres -> aktualny slug.
+function buildBlogRedirects(): { from: string; to: string }[] {
+  const blogDir = path.join(__dirname, 'blog');
+  const redirects: { from: string; to: string }[] = [];
+  for (const name of fs.readdirSync(blogDir)) {
+    const m = name.match(/^(\d{4})-(\d{2})-(\d{2})-(.+)$/);
+    if (!m) continue;
+    const indexFile = path.join(blogDir, name, 'index.md');
+    if (!fs.existsSync(indexFile)) continue;
+    const frontmatter = fs.readFileSync(indexFile, 'utf8').slice(0, 2000);
+    const slugMatch = frontmatter.match(/^slug:\s*["']?([^\s"']+)/m);
+    if (!slugMatch) continue;
+    const slug = slugMatch[1];
+    const to = slug.startsWith('/') ? `/blog${slug}` : `/blog/${slug}`;
+    const from = `/blog/${m[1]}/${m[2]}/${m[3]}/${m[4]}`;
+    if (from !== to) redirects.push({ from, to });
+  }
+  return redirects;
+}
 
 const config: Config = {
   title: 'MAJDAK.ONLINE',
@@ -86,10 +110,24 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        sitemap: {
+          // Strony tagów i paginacji nie powinny konkurować o crawl budget —
+          // Google i tak oznacza je jako "zeskanowane, niezindeksowane".
+          ignorePatterns: ['/blog/tags/**', '/blog/page/**', '/blog/archive', '/docs/tags/**'],
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: buildBlogRedirects(),
+      },
     ],
   ],
 
